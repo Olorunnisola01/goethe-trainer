@@ -34,12 +34,16 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
   const tgt: 'de' | 'en' = src === 'de' ? 'en' : 'de';
   const SR = typeof window !== 'undefined' ? ((window as any).SpeechRecognition || (window as any).webkitSpeechRecognition) : undefined;
 
-  /* Warm up voices + focus when opened; set initial position once. */
+  /* Warm up voices + focus when opened; set initial position/size once,
+     clamped to fit inside the viewport (important on mobile). */
   useEffect(() => {
     if (!open) return;
     warmUpVoices();
     warmUpEnglishVoice();
-    setPos(p => p ?? { x: Math.max(12, (typeof window !== 'undefined' ? window.innerWidth : 1000) - size.w - 24), y: 84 });
+    const vw = typeof window !== 'undefined' ? window.innerWidth : 1000;
+    const vh = typeof window !== 'undefined' ? window.innerHeight : 800;
+    setSize(s => ({ w: Math.min(s.w, vw - 16), h: Math.min(s.h, vh - 24) }));
+    setPos(p => p ?? { x: Math.max(8, vw - Math.min(size.w, vw - 16) - 24), y: 84 });
     const t = setTimeout(() => textareaRef.current?.focus(), 60);
     return () => clearTimeout(t);
   }, [open]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -62,13 +66,17 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
         const w = window.innerWidth, hgt = window.innerHeight;
         let nx = dragRef.current.origX + (e.clientX - dragRef.current.startX);
         let ny = dragRef.current.origY + (e.clientY - dragRef.current.startY);
-        nx = Math.min(Math.max(nx, -size.w + 100), w - 100);
-        ny = Math.min(Math.max(ny, 0), hgt - 44);
+        // Keep the whole panel within the viewport — it must stay reachable.
+        nx = Math.min(Math.max(nx, 0), Math.max(0, w - size.w));
+        ny = Math.min(Math.max(ny, 0), Math.max(0, hgt - size.h));
         setPos({ x: nx, y: ny });
       } else if (resizeRef.current.active) {
+        const w = window.innerWidth, hgt = window.innerHeight;
+        const maxW = Math.max(300, w - (pos?.x ?? 0) - 8);
+        const maxH = Math.max(250, hgt - (pos?.y ?? 0) - 8);
         setSize({
-          w: Math.max(300, resizeRef.current.origW + (e.clientX - resizeRef.current.startX)),
-          h: Math.max(250, resizeRef.current.origH + (e.clientY - resizeRef.current.startY)),
+          w: Math.min(maxW, Math.max(300, resizeRef.current.origW + (e.clientX - resizeRef.current.startX))),
+          h: Math.min(maxH, Math.max(250, resizeRef.current.origH + (e.clientY - resizeRef.current.startY))),
         });
       }
     };
@@ -81,7 +89,7 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
     window.addEventListener('pointermove', move);
     window.addEventListener('pointerup', up);
     return () => { window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); };
-  }, [size.w]);
+  }, [size.w, size.h, pos]);
 
   const startDrag = (e: React.PointerEvent) => {
     if (!pos) return;

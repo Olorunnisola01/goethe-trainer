@@ -275,7 +275,7 @@ export function QuizClient() {
           ) : !quizStarted ? (
 
             /* ── Setup / start screen ── */
-            <div style={{ padding: '36px 40px', maxWidth: 560 }}>
+            <div className="quiz-page" style={{ padding: '36px 40px', maxWidth: 560 }}>
               <div style={{ marginBottom: 28, display: 'flex', alignItems: 'center', gap: 14 }}>
                 <div style={{ fontSize: 42, lineHeight: 1 }}>
                   {selectedCat === 'ALL' ? '🎯' : (activeCat?.emoji ?? '🎯')}
@@ -340,7 +340,7 @@ export function QuizClient() {
                   <div style={{ fontSize: 10.5, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.07em', marginBottom: 10 }}>
                     Wörter in dieser Gruppe
                   </div>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
+                  <div className="quiz-words-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
                     {pool.slice(0, 20).map((e, i) => (
                       <div key={i} style={{
                         display: 'flex', alignItems: 'center', gap: 8,
@@ -370,7 +370,7 @@ export function QuizClient() {
           ) : finished ? (
 
             /* ── Results screen ── */
-            <div style={{ padding: '36px 40px', maxWidth: 560 }}>
+            <div className="quiz-page" style={{ padding: '36px 40px', maxWidth: 560 }}>
               <div style={{ textAlign: 'center', background: 'var(--bg2)', borderRadius: 20, padding: '32px 24px', marginBottom: 20, border: '1px solid var(--border)' }}>
                 <div style={{ fontSize: 52, marginBottom: 10 }}>
                   {score >= questions.length * 0.9 ? '🏆' : score >= questions.length * 0.6 ? '👍' : '💪'}
@@ -431,7 +431,7 @@ export function QuizClient() {
           ) : (
 
             /* ── Active quiz ── */
-            <div style={{ padding: '28px 40px', maxWidth: 560 }}>
+            <div className="quiz-page" style={{ padding: '28px 40px', maxWidth: 560 }}>
               {/* Progress */}
               <div style={{ marginBottom: 22 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>

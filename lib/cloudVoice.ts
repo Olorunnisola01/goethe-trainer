@@ -13,6 +13,7 @@
    ────────────────────────────────────────────────────────────────────────── */
 
 import { applyGermanVoice, applyEnglishVoice, getGermanVoicePair } from './germanVoice';
+import { isNative, nativeSpeak, nativeStop } from './nativeTts';
 
 export {
   warmUpVoices,
@@ -49,6 +50,10 @@ let _activeHandle: SpeakHandle | null = null;
 export function stopAll(): void {
   if (_activeHandle) {
     _activeHandle.stop();
+    return;
+  }
+  if (isNative()) {
+    nativeStop();
     return;
   }
   if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -92,17 +97,21 @@ export function speak(text: string, opts: SpeakOptions = {}): SpeakHandle {
   const handle: SpeakHandle = {
     stop() {
       stopped = true;
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      if (isNative()) {
+        nativeStop();
+      } else if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try { window.speechSynthesis.cancel(); } catch { /* ignore */ }
       }
       settle();
     },
     pause() {
+      if (isNative()) return;
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try { window.speechSynthesis.pause(); } catch { /* ignore */ }
       }
     },
     resume() {
+      if (isNative()) return;
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try { window.speechSynthesis.resume(); } catch { /* ignore */ }
       }
@@ -110,6 +119,14 @@ export function speak(text: string, opts: SpeakOptions = {}): SpeakHandle {
   };
 
   _activeHandle = handle;
+
+  if (isNative()) {
+    opts.onStart?.();
+    nativeSpeak(text, lang, rate)
+      .then(() => { if (!stopped) settle(); })
+      .catch(() => { if (!stopped) { opts.onError?.(); settle(); } });
+    return handle;
+  }
 
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
     opts.onError?.();

@@ -31,6 +31,8 @@
      up every quality improvement here.
    ────────────────────────────────────────────────────────────────────────── */
 
+import { isNative, nativeSpeak, nativeStop } from './nativeTts';
+
 /* ── Platform helper ──────────────────────────────────────────────────── */
 function _isMobile(): boolean {
   if (typeof navigator === 'undefined') return false;
@@ -248,6 +250,11 @@ export function getGermanVoicePair(): {
  * Convenience wrapper — safe to call from any component.
  */
 export function speakDE(text: string, rate = 0.9): void {
+  if (isNative()) {
+    nativeStop();
+    nativeSpeak(text, 'de', rate).catch(() => { /* ignore */ });
+    return;
+  }
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
   const utt = new SpeechSynthesisUtterance(text);
@@ -394,6 +401,11 @@ export function applyEnglishVoice(utt: SpeechSynthesisUtterance, rate = 0.92): v
  * Convenience wrapper — safe to call from any component.
  */
 export function speakEN(text: string, rate = 0.92): void {
+  if (isNative()) {
+    nativeStop();
+    nativeSpeak(text, 'en', rate).catch(() => { /* ignore */ });
+    return;
+  }
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
   const utt = new SpeechSynthesisUtterance(text);

@@ -263,6 +263,22 @@ body {
 /* AI Tutor panel */
 .ai-fab { position: fixed; right: 22px; bottom: 22px; width: 50px; height: 50px; border-radius: 50%; border: none; background: var(--blue); color: #fff; box-shadow: var(--sh-lg); z-index: 450; cursor: pointer; font-size: 14px; font-weight: 800; display: flex; align-items: center; justify-content: center; transition: transform .16s, background .16s; font-family: var(--font-jakarta, 'Plus Jakarta Sans'), sans-serif; }
 .ai-fab:hover { transform: translateY(-2px); background: #1e40af; }
+
+/* AI button shown in the page Topbar, beside "Aussprache" — mobile only */
+.topbar-ai-btn {
+  display: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid var(--blue-bd);
+  background: var(--blue-bg);
+  color: var(--blue);
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 .ai-panel { position: fixed; right: 18px; bottom: 82px; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--sh-lg); z-index: 460; display: none; flex-direction: column; overflow: hidden; transition: width .22s cubic-bezier(.4,0,.2,1), height .22s cubic-bezier(.4,0,.2,1); }
 .ai-panel.open { display: flex; }
 .ai-head { padding: 9px 10px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; background: var(--bg2); }
@@ -422,9 +438,22 @@ body {
   /* Main content — leave room for fixed mobile topbar (57px) */
   .dashboard-main { padding-top: 57px; }
 
-  /* AI Tutor FAB — keep away from bottom nav */
-  .ai-fab { right: 14px; bottom: 14px; }
-  .ai-panel { right: 10px; bottom: 72px; max-width: calc(100vw - 20px); }
+  /* AI Tutor FAB — replaced by the 🤖 AI button in the page Topbar on mobile */
+  .ai-fab { display: none !important; }
+  .ai-panel {
+    top: 110px; right: 8px; bottom: 70px; left: 8px;
+    width: auto !important; height: auto !important; max-width: none;
+  }
+
+  /* Page Topbar — shrink padding/title, show AI button beside Aussprache */
+  .topbar { padding: 8px 12px !important; gap: 8px !important; }
+  .topbar-title { font-size: 13px !important; }
+  .topbar-aussprache-btn { padding: 5px 9px !important; font-size: 11px !important; }
+  .topbar-ai-btn { display: inline-flex !important; align-items: center; }
+
+  /* ─── Vocab quiz (selection + quiz) ─── */
+  .quiz-page { padding: 16px 14px !important; }
+  .quiz-words-grid { grid-template-columns: 1fr !important; }
 
   /* Vocab grid — 1 card per page on mobile */
   .vocab-grid {

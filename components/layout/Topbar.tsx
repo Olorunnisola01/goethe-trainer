@@ -13,7 +13,7 @@ export function Topbar({ title, children }: TopbarProps) {
 
   return (
     <>
-      <header style={{
+      <header className="topbar" style={{
         position: 'sticky',
         top: 0,
         zIndex: 40,
@@ -26,18 +26,32 @@ export function Topbar({ title, children }: TopbarProps) {
         alignItems: 'center',
         gap: 12,
       }}>
-        <h1 style={{
+        <h1 className="topbar-title" style={{
           fontFamily: 'var(--font-lora, Lora), serif',
           fontSize: 16,
           fontWeight: 600,
           color: 'var(--ink)',
           flex: 1,
           margin: 0,
+          minWidth: 0,
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap',
         }}>
           {title}
         </h1>
         {children}
         <button
+          type="button"
+          className="topbar-ai-btn"
+          onClick={() => window.dispatchEvent(new CustomEvent('open-ai-tutor'))}
+          title="AI Tutor öffnen"
+          aria-label="AI Tutor öffnen"
+        >
+          🤖 AI
+        </button>
+        <button
+          className="topbar-aussprache-btn"
           onClick={() => setPronOpen(true)}
           style={{
             padding: '5px 12px',
@@ -50,6 +64,8 @@ export function Topbar({ title, children }: TopbarProps) {
             cursor: 'pointer',
             fontFamily: 'inherit',
             transition: 'all .15s',
+            whiteSpace: 'nowrap',
+            flexShrink: 0,
           }}
           onMouseEnter={e => {
             e.currentTarget.style.background = 'var(--green)';
