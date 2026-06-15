@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659817012852",
+    "project_id": "personal-german-trainer",
+    "storage_bucket": "personal-german-trainer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659817012852:android:b7f3ae5e95a56266f9bb21",
+        "android_client_info": {
+          "package_name": "com.goethetrainer.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659817012852-v47n3df59duf16l9bfts49029vcf1fbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5YgXRWqm6BY5hIJVpnmhgXGFV1TAyF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659817012852-v47n3df59duf16l9bfts49029vcf1fbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
