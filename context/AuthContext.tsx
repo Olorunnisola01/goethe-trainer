@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { Capacitor } from '@capacitor/core';
 import {
   User,
   onAuthStateChanged,
@@ -55,6 +56,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signInWithGoogle = async () => {
     setError(null);
+    if (Capacitor.isNativePlatform()) {
+      // Google blocks OAuth inside embedded WebViews, so signInWithPopup gets
+      // bounced to the system browser with no way back into the app — bail
+      // out before that happens and point users at email/password instead.
+      setError('Google-Anmeldung ist in der App nicht verfügbar. Bitte melde dich mit E-Mail und Passwort an.');
+      return;
+    }
     try {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);

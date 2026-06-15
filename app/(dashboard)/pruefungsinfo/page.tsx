@@ -577,8 +577,8 @@ function TeilCard({ teil, accentColor }: {
           background: open ? 'rgba(255,255,255,.2)' : 'var(--faint)',
           color: open ? '#fff' : 'var(--muted)',
         }}>{teil.num}</span>
-        <span style={{ flex: 1, fontSize: 13, fontWeight: 600, color: open ? '#fff' : 'var(--ink)' }}>{teil.title}</span>
-        <span style={{ fontSize: 11, color: open ? 'rgba(255,255,255,.7)' : 'var(--muted)', flexShrink: 0, whiteSpace: 'nowrap' }}>{teil.count}</span>
+        <span style={{ flex: 1, minWidth: 0, fontSize: 13, fontWeight: 600, color: open ? '#fff' : 'var(--ink)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{teil.title}</span>
+        <span className="pruef-teil-count" style={{ fontSize: 11, color: open ? 'rgba(255,255,255,.7)' : 'var(--muted)', flexShrink: 0, whiteSpace: 'nowrap' }}>{teil.count}</span>
         <svg style={{ flexShrink: 0, transition: 'transform .2s', transform: open ? 'rotate(180deg)' : 'none' }}
           width="12" height="12" viewBox="0 0 12 12" fill="none" stroke={open ? '#fff' : 'currentColor'} strokeWidth="2">
           <path d="M2 4l4 4 4-4"/>
@@ -708,7 +708,7 @@ export default function PruefungsinfoPage() {
   return (
     <>
       <Topbar title="Prüfungsinfo" />
-      <div style={{ padding: '28px 40px', maxWidth: 880, margin: '0 auto' }}>
+      <div className="pruef-page" style={{ maxWidth: 880, margin: '0 auto' }}>
 
         {/* Hero */}
         <div style={{ marginBottom: 20 }}>
@@ -741,23 +741,27 @@ export default function PruefungsinfoPage() {
 
         {/* Quick overview table */}
         <div style={{ marginBottom: 28, border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>
-            {['Niveau', 'Lesen', 'Hören', 'Schreiben', 'Sprechen'].map(h => (
-              <div key={h} style={{ padding: '8px 12px', fontSize: 11, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.06em' }}>{h}</div>
-            ))}
-          </div>
-          {[
-            { level: 'A1', color: '#15803d', bg: '#f0fdf4', cols: ['25 Min · 15 Pkt · 3 Teile', '20 Min · 15 Pkt · 3 Teile', '20 Min · 15 Pkt · 2 Teile', '15 Min · 15 Pkt · 3 Teile'] },
-            { level: 'A2', color: '#1d4ed8', bg: '#eff6ff', cols: ['30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 2 Teile', '15 Min · 25 Pkt · 3 Teile'] },
-            { level: 'B1', color: '#7c3aed', bg: '#f5f3ff', cols: ['65 Min · 30 Pkt · 5 Teile', '40 Min · 30 Pkt · 4 Teile', '60 Min · 100 Pkt* · 3 Teile', '15 Min · 100 Pkt* · 3 Teile'] },
-          ].map((row, ri) => (
-            <div key={row.level} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr', borderBottom: ri < 2 ? '1px solid var(--border)' : 'none', background: row.bg }}>
-              <div style={{ padding: '10px 12px', fontWeight: 800, color: row.color, fontSize: 14, fontFamily: 'var(--font-lora)' }}>{row.level}</div>
-              {row.cols.map((c, ci) => (
-                <div key={ci} style={{ padding: '10px 12px', fontSize: 11.5, color: 'var(--ink2)', lineHeight: 1.5 }}>{c}</div>
+          <div className="pruef-table-scroll" style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+            <div style={{ minWidth: 560 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>
+                {['Niveau', 'Lesen', 'Hören', 'Schreiben', 'Sprechen'].map(h => (
+                  <div key={h} style={{ padding: '8px 12px', fontSize: 11, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.06em', whiteSpace: 'nowrap' }}>{h}</div>
+                ))}
+              </div>
+              {[
+                { level: 'A1', color: '#15803d', bg: '#f0fdf4', cols: ['25 Min · 15 Pkt · 3 Teile', '20 Min · 15 Pkt · 3 Teile', '20 Min · 15 Pkt · 2 Teile', '15 Min · 15 Pkt · 3 Teile'] },
+                { level: 'A2', color: '#1d4ed8', bg: '#eff6ff', cols: ['30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 2 Teile', '15 Min · 25 Pkt · 3 Teile'] },
+                { level: 'B1', color: '#7c3aed', bg: '#f5f3ff', cols: ['65 Min · 30 Pkt · 5 Teile', '40 Min · 30 Pkt · 4 Teile', '60 Min · 100 Pkt* · 3 Teile', '15 Min · 100 Pkt* · 3 Teile'] },
+              ].map((row, ri) => (
+                <div key={row.level} style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', borderBottom: ri < 2 ? '1px solid var(--border)' : 'none', background: row.bg }}>
+                  <div style={{ padding: '10px 12px', fontWeight: 800, color: row.color, fontSize: 14, fontFamily: 'var(--font-lora)' }}>{row.level}</div>
+                  {row.cols.map((c, ci) => (
+                    <div key={ci} style={{ padding: '10px 12px', fontSize: 11.5, color: 'var(--ink2)', lineHeight: 1.5, whiteSpace: 'nowrap' }}>{c}</div>
+                  ))}
+                </div>
               ))}
             </div>
-          ))}
+          </div>
           <div style={{ padding: '8px 12px', fontSize: 11, color: 'var(--muted)', borderTop: '1px solid var(--border)' }}>
             * B1 Schreiben und Sprechen werden auf 100 Punkte skaliert.
           </div>
