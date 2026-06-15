@@ -2,10 +2,12 @@
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { Capacitor } from '@capacitor/core';
+import { FirebaseAuthentication } from '@capacitor-firebase/authentication';
 import {
   User,
   onAuthStateChanged,
   signInWithPopup,
+  signInWithCredential,
   GoogleAuthProvider,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -57,10 +59,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const signInWithGoogle = async () => {
     setError(null);
     if (Capacitor.isNativePlatform()) {
-      // Google blocks OAuth inside embedded WebViews, so signInWithPopup gets
-      // bounced to the system browser with no way back into the app — bail
-      // out before that happens and point users at email/password instead.
-      setError('Google-Anmeldung ist in der App nicht verfügbar. Bitte melde dich mit E-Mail und Passwort an.');
+      // Use the native Google Sign-In flow (avoids the WebView OAuth-popup
+      // dead end), then hand the resulting credential to the Firebase JS SDK
+      // so `auth` / `onAuthStateChanged` work the same as on web.
+      try {
+        const result = await FirebaseAuthentication.signInWithGoogle();
+        const idToken = result.credential?.idToken;
+        if (!idToken) throw new Error('auth/no-id-token');
+        const credential = GoogleAuthProvider.credential(idToken, result.credential?.accessToken);
+        await signInWithCredential(auth, credential);
+      } catch (e) { handleAuthError(e); }
       return;
     }
     try {
