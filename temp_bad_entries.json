@@ -1,0 +1,56 @@
+[
+  {
+    "w": "ablehnen, lehnt ab, lehnte ab, hat abgelehnt",
+    "t": "to reject / turn down",
+    "de": "Er hat mein Angebot, ihm zu helfen, abgelehnt.",
+    "en": "He turned down my offer to help him.",
+    "topicId": "EXTENDED_SEPARABLE_VERBS_B1",
+    "topicTitle": "EXTENDED SEPARABLE VERBS (B1)",
+    "level": "B1"
+  },
+  {
+    "w": "ablehnen, lehnt ab, lehnte ab, hat abgelehnt",
+    "t": "to reject / turn down",
+    "de": "Er lehnte das Angebot ab.",
+    "en": "He turned down the offer.",
+    "topicId": "B2_HEIMAT_AUSWANDERN",
+    "topicTitle": "HEIMAT & AUSWANDERN",
+    "level": "B2"
+  },
+  {
+    "w": "ausgleichen, gleicht aus, glich aus, hat ausgeglichen",
+    "t": "to balance",
+    "de": "Wir müssen die Bilanz ausgleichen.",
+    "en": "We need to balance the books.",
+    "topicId": "B2_MEHRSPRACHIGKEIT",
+    "topicTitle": "MEHRSPRACHIGKEIT & SPRACHERWERB",
+    "level": "B2"
+  },
+  {
+    "w": "entstehen (entstand, ist entstanden)",
+    "t": "to originate / come into being",
+    "de": "Wie ist dieses Gemälde entstanden?",
+    "en": "How did this painting come into being?",
+    "topicId": "B2_KULTUR_KUNST",
+    "topicTitle": "KULTUR & KUNSTWELT",
+    "level": "B2"
+  },
+  {
+    "w": "der Organismus, Organismen",
+    "t": "organism",
+    "de": "Sprache funktioniert wie ein lebendiger Organismus.",
+    "en": "Language functions like a living organism.",
+    "topicId": "B2_SPRACHEN_STERBEN",
+    "topicTitle": "SPRACHE & SPRACHENSTERBEN",
+    "level": "B2"
+  },
+  {
+    "w": "ausgleichen, gleicht aus, glich aus, hat ausgeglichen",
+    "t": "to balance / compensate",
+    "de": "Wir müssen die Kosten ausgleichen.",
+    "en": "We have to balance the costs.",
+    "topicId": "B2_VERBEN_FORTGESCHRITTEN",
+    "topicTitle": "FORTGESCHRITTENE VERBEN B2",
+    "level": "B2"
+  }
+]

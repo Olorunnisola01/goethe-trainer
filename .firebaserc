@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "personal-german-trainer"
+  },
+  "targets": {
+    "personal-german-trainer": {
+      "hosting": {
+        "teach-me-german-app": [
+          "teach-me-german-app"
+        ]
+      }
+    }
+  }
+}

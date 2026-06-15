@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A1_R36", "level": "A1", "type": "Nachricht", "title": "Ich komme zu spät",
+    "text": "Hallo Lisa,\n\nich komme leider 15 Minuten zu spät. Der Bus hatte Verspätung. Bitte warte im Café auf mich, nicht draußen — es ist kalt! Bestell dir schon einen Tee. Ich bin gleich da.\n\nBis gleich!\nMarco",
+    "questions": [
+      { "type": "TF", "q": "Marco kommt pünktlich.", "a": false, "exp": "„ich komme leider 15 Minuten zu spät“." },
+      { "type": "MCQ", "q": "Warum kommt Marco zu spät?", "opts": ["Er hat verschlafen", "Der Bus hatte Verspätung", "Er ist krank"], "a": 1, "exp": "„Der Bus hatte Verspätung.“" },
+      { "type": "MCQ", "q": "Wo soll Lisa warten?", "opts": ["Draußen", "Im Café", "Zu Hause"], "a": 1, "exp": "„Bitte warte im Café auf mich“." },
+      { "type": "TF", "q": "Lisa soll sich einen Tee bestellen.", "a": true, "exp": "„Bestell dir schon einen Tee.“" },
+      { "type": "TF", "q": "Es ist warm draußen.", "a": false, "exp": "„es ist kalt!“" }
+    ]
+  },
+  {
+    "id": "A1_R37", "level": "A1", "type": "Anzeige", "title": "Ein großer Flohmarkt",
+    "text": "GROSSER FLOHMARKT 🛍\n\nWann: Sonntag, 5. Mai, 9 – 16 Uhr\nWo: auf dem Marktplatz\n\nKleidung, Bücher, Spielzeug, Möbel und mehr!\nEintritt frei. Bei Regen fällt der Markt aus.\n\nKaffee und Kuchen gibt es am Stand der Schule.",
+    "questions": [
+      { "type": "MCQ", "q": "Wann ist der Flohmarkt?", "opts": ["Samstag", "Sonntag", "Montag"], "a": 1, "exp": "„Sonntag, 5. Mai“." },
+      { "type": "TF", "q": "Der Eintritt kostet Geld.", "a": false, "exp": "„Eintritt frei.“" },
+      { "type": "TF", "q": "Bei Regen findet der Markt nicht statt.", "a": true, "exp": "„Bei Regen fällt der Markt aus.“" },
+      { "type": "MCQ", "q": "Wo ist der Flohmarkt?", "opts": ["Im Park", "Auf dem Marktplatz", "In der Schule"], "a": 1, "exp": "„auf dem Marktplatz“." },
+      { "type": "MCQ", "q": "Wo gibt es Kaffee und Kuchen?", "opts": ["Am Stand der Schule", "Im Café", "Nirgendwo"], "a": 0, "exp": "„am Stand der Schule“." }
+    ]
+  },
+  {
+    "id": "A1_R38", "level": "A1", "type": "Schild", "title": "Information im Stadtmuseum",
+    "text": "STADTMUSEUM\n\nÖffnungszeiten: Di – So, 10 – 17 Uhr (Montag geschlossen)\nEintritt: Erwachsene 8 €, Kinder 4 €, Familien 18 €\n\n📷 Fotografieren ohne Blitz erlaubt.\n🎧 Audioguide: 3 €\n🚫 Bitte nichts anfassen!",
+    "questions": [
+      { "type": "TF", "q": "Das Museum ist am Montag geschlossen.", "a": true, "exp": "„(Montag geschlossen)“." },
+      { "type": "MCQ", "q": "Was kostet der Eintritt für Erwachsene?", "opts": ["4 €", "8 €", "18 €"], "a": 1, "exp": "„Erwachsene 8 €“." },
+      { "type": "TF", "q": "Fotografieren mit Blitz ist erlaubt.", "a": false, "exp": "„Fotografieren ohne Blitz erlaubt.“" },
+      { "type": "MCQ", "q": "Was kostet der Audioguide?", "opts": ["3 €", "4 €", "8 €"], "a": 0, "exp": "„Audioguide: 3 €“." },
+      { "type": "TF", "q": "Man darf die Sachen anfassen.", "a": false, "exp": "„Bitte nichts anfassen!“" }
+    ]
+  },
+  {
+    "id": "A1_R39", "level": "A1", "type": "E-Mail", "title": "Einen Tisch reservieren",
+    "text": "Betreff: Reservierung\n\nGuten Tag,\n\nich möchte gern einen Tisch für vier Personen reservieren. Wir möchten am Freitag um 19 Uhr kommen. Können Sie uns einen Tisch am Fenster geben? Einer von uns isst kein Fleisch — gibt es vegetarisches Essen?\n\nVielen Dank!\nFamilie Horn",
+    "questions": [
+      { "type": "MCQ", "q": "Für wie viele Personen ist die Reservierung?", "opts": ["2", "4", "6"], "a": 1, "exp": "„einen Tisch für vier Personen“." },
+      { "type": "MCQ", "q": "Wann möchte die Familie kommen?", "opts": ["Freitag, 19 Uhr", "Samstag, 19 Uhr", "Freitag, 21 Uhr"], "a": 0, "exp": "„am Freitag um 19 Uhr“." },
+      { "type": "TF", "q": "Die Familie möchte einen Tisch am Fenster.", "a": true, "exp": "„einen Tisch am Fenster“." },
+      { "type": "TF", "q": "Alle in der Familie essen Fleisch.", "a": false, "exp": "„Einer von uns isst kein Fleisch“." },
+      { "type": "MCQ", "q": "Wonach fragt die Familie noch?", "opts": ["Nach vegetarischem Essen", "Nach dem Preis", "Nach Musik"], "a": 0, "exp": "„gibt es vegetarisches Essen?“" }
+    ]
+  },
+  {
+    "id": "A1_R40", "level": "A1", "type": "Notiz", "title": "Anweisung für die Medizin",
+    "text": "ANWEISUNG FÜR DIE MEDIZIN\n\nTabletten: 3-mal am Tag (morgens, mittags, abends)\nImmer nach dem Essen nehmen.\nMit viel Wasser einnehmen.\nNicht mehr als 6 Tabletten pro Tag!\n\nWenn es nicht besser wird, rufen Sie den Arzt an.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie oft am Tag nimmt man die Tabletten?", "opts": ["1-mal", "3-mal", "6-mal"], "a": 1, "exp": "„3-mal am Tag“." },
+      { "type": "TF", "q": "Man nimmt die Tabletten vor dem Essen.", "a": false, "exp": "„Immer nach dem Essen nehmen.“" },
+      { "type": "TF", "q": "Man soll viel Wasser trinken.", "a": true, "exp": "„Mit viel Wasser einnehmen.“" },
+      { "type": "MCQ", "q": "Wie viele Tabletten darf man maximal pro Tag nehmen?", "opts": ["3", "6", "9"], "a": 1, "exp": "„Nicht mehr als 6 Tabletten pro Tag!“" },
+      { "type": "TF", "q": "Wenn es nicht besser wird, soll man den Arzt anrufen.", "a": true, "exp": "„rufen Sie den Arzt an“." }
+    ]
+  },
+  {
+    "id": "A1_R41", "level": "A1", "type": "Wetterbericht", "title": "Das Wetter am Wochenende",
+    "text": "WETTER AM WOCHENENDE\n\nSamstag: Es regnet den ganzen Tag. Nur 12 Grad. Nehmen Sie eine Jacke mit!\n\nSonntag: Die Sonne kommt zurück. 22 Grad und kein Regen. Perfekt für einen Ausflug!\n\nDie nächste Woche wird warm.",
+    "questions": [
+      { "type": "TF", "q": "Am Samstag regnet es.", "a": true, "exp": "„Samstag: Es regnet den ganzen Tag.“" },
+      { "type": "MCQ", "q": "Wie warm ist es am Sonntag?", "opts": ["12 Grad", "18 Grad", "22 Grad"], "a": 2, "exp": "„Sonntag: ... 22 Grad“." },
+      { "type": "TF", "q": "Der Sonntag ist gut für einen Ausflug.", "a": true, "exp": "„Perfekt für einen Ausflug!“" },
+      { "type": "MCQ", "q": "Was soll man am Samstag mitnehmen?", "opts": ["Eine Jacke", "Eine Sonnenbrille", "Nichts"], "a": 0, "exp": "„Nehmen Sie eine Jacke mit!“" },
+      { "type": "TF", "q": "Am Sonntag regnet es.", "a": false, "exp": "„22 Grad und kein Regen“." }
+    ]
+  },
+  {
+    "id": "A1_R42", "level": "A1", "type": "Anzeige", "title": "Sprachpartner gesucht",
+    "text": "SPRACHPARTNER GESUCHT 🗣\n\nIch bin Yuki aus Japan und lerne Deutsch. Ich suche jemanden, der Japanisch lernen möchte. Wir können uns einmal pro Woche im Café treffen: eine halbe Stunde Deutsch, eine halbe Stunde Japanisch.\n\nInteresse? Schreib an: yuki.tandem@email.de",
+    "questions": [
+      { "type": "MCQ", "q": "Welche Sprache lernt Yuki?", "opts": ["Deutsch", "Japanisch", "Englisch"], "a": 0, "exp": "„Ich bin Yuki aus Japan und lerne Deutsch.“" },
+      { "type": "MCQ", "q": "Welche Sprache kann Yuki anbieten?", "opts": ["Deutsch", "Japanisch", "Spanisch"], "a": 1, "exp": "Yuki kommt aus Japan und sucht jemanden für Japanisch." },
+      { "type": "TF", "q": "Sie treffen sich einmal pro Woche.", "a": true, "exp": "„einmal pro Woche im Café treffen“." },
+      { "type": "MCQ", "q": "Wo wollen sie sich treffen?", "opts": ["In der Schule", "Im Café", "Online"], "a": 1, "exp": "„im Café treffen“." },
+      { "type": "TF", "q": "Sie sprechen nur Deutsch.", "a": false, "exp": "„eine halbe Stunde Deutsch, eine halbe Stunde Japanisch“." }
+    ]
+  },
+  {
+    "id": "A1_R43", "level": "A1", "type": "Dialog", "title": "In der Bäckerei",
+    "text": "Bäcker: Guten Morgen! Was darf es sein?\nKundin: Guten Morgen. Ich hätte gern drei Brötchen und ein Brot.\nBäcker: Möchten Sie helles oder dunkles Brot?\nKundin: Dunkles Brot, bitte. Und haben Sie noch Croissants?\nBäcker: Ja, die sind ganz frisch. Eines kostet 1,20 €.\nKundin: Dann nehme ich zwei. Das ist alles.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Brötchen möchte die Kundin?", "opts": ["Zwei", "Drei", "Vier"], "a": 1, "exp": "„drei Brötchen und ein Brot“." },
+      { "type": "MCQ", "q": "Welches Brot nimmt die Kundin?", "opts": ["Helles Brot", "Dunkles Brot", "Kein Brot"], "a": 1, "exp": "„Dunkles Brot, bitte.“" },
+      { "type": "TF", "q": "Die Croissants sind frisch.", "a": true, "exp": "„die sind ganz frisch“." },
+      { "type": "MCQ", "q": "Wie viele Croissants kauft sie?", "opts": ["Eins", "Zwei", "Drei"], "a": 1, "exp": "„Dann nehme ich zwei.“" },
+      { "type": "TF", "q": "Ein Croissant kostet 2,20 €.", "a": false, "exp": "„Eines kostet 1,20 €.“" }
+    ]
+  },
+  {
+    "id": "A1_R44", "level": "A1", "type": "Brief", "title": "Danke an die Lehrerin",
+    "text": "Liebe Frau Berg,\n\nbald sind die Ferien und das Schuljahr ist zu Ende. Ich möchte Ihnen danken. Sie waren eine sehr gute Lehrerin. Mathe hat mir nie gefallen, aber bei Ihnen habe ich es verstanden. Ich werde Sie vermissen.\n\nDanke für alles!\nIhre Schülerin Mia",
+    "questions": [
+      { "type": "MCQ", "q": "Wer schreibt den Brief?", "opts": ["Eine Lehrerin", "Eine Schülerin", "Eine Mutter"], "a": 1, "exp": "„Ihre Schülerin Mia“." },
+      { "type": "TF", "q": "Mia mochte Mathe schon immer gern.", "a": false, "exp": "„Mathe hat mir nie gefallen“." },
+      { "type": "TF", "q": "Mia hat Mathe bei Frau Berg verstanden.", "a": true, "exp": "„aber bei Ihnen habe ich es verstanden“." },
+      { "type": "MCQ", "q": "Warum schreibt Mia den Brief?", "opts": ["Sie will sich bedanken", "Sie ist krank", "Sie braucht Hilfe"], "a": 0, "exp": "„Ich möchte Ihnen danken.“" },
+      { "type": "TF", "q": "Das Schuljahr ist bald zu Ende.", "a": true, "exp": "„das Schuljahr ist zu Ende“." }
+    ]
+  },
+  {
+    "id": "A1_R45", "level": "A1", "type": "Plan", "title": "Busfahrplan der Linie 8",
+    "text": "BUS LINIE 8 — RICHTUNG ZENTRUM\n\nAbfahrt von der Schule:\n7:45 — 8:15 — 8:45 — 9:15\nDann alle 30 Minuten.\n\nFahrzeit zum Zentrum: 20 Minuten.\nAm Wochenende fährt der Bus nur jede Stunde.\nEine Fahrt kostet 2,50 €.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange dauert die Fahrt zum Zentrum?", "opts": ["10 Minuten", "20 Minuten", "30 Minuten"], "a": 1, "exp": "„Fahrzeit zum Zentrum: 20 Minuten.“" },
+      { "type": "TF", "q": "Der erste Bus fährt um 7:45 Uhr.", "a": true, "exp": "„7:45 — 8:15 ...“." },
+      { "type": "MCQ", "q": "Wie oft fährt der Bus am Wochenende?", "opts": ["Alle 30 Minuten", "Jede Stunde", "Gar nicht"], "a": 1, "exp": "„Am Wochenende fährt der Bus nur jede Stunde.“" },
+      { "type": "TF", "q": "Eine Fahrt kostet 2,50 €.", "a": true, "exp": "„Eine Fahrt kostet 2,50 €.“" },
+      { "type": "MCQ", "q": "Wohin fährt die Linie 8?", "opts": ["Zum Zentrum", "Zum Bahnhof", "Zum Flughafen"], "a": 0, "exp": "„LINIE 8 — RICHTUNG ZENTRUM“." }
+    ]
+  },
+  {
+    "id": "A1_R46", "level": "A1", "type": "Einladung", "title": "Einladung zum Kindergeburtstag",
+    "text": "Hallo!\n\nIch habe Geburtstag und werde 8 Jahre alt! 🎈\nKommst du zu meiner Party?\n\nWann: Samstag um 15 Uhr\nWo: bei mir zu Hause, Blumenweg 3\nWir spielen, essen Kuchen und es gibt eine Schatzsuche im Garten.\n\nDeine Freundin Emma\nP.S. Sag deinen Eltern, sie sollen dich um 18 Uhr abholen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie alt wird Emma?", "opts": ["6", "8", "10"], "a": 1, "exp": "„werde 8 Jahre alt“." },
+      { "type": "TF", "q": "Die Party ist am Samstag um 15 Uhr.", "a": true, "exp": "„Samstag um 15 Uhr“." },
+      { "type": "MCQ", "q": "Was gibt es im Garten?", "opts": ["Eine Schatzsuche", "Ein Konzert", "Ein Fußballspiel"], "a": 0, "exp": "„eine Schatzsuche im Garten“." },
+      { "type": "TF", "q": "Die Eltern sollen um 20 Uhr abholen.", "a": false, "exp": "„sie sollen dich um 18 Uhr abholen“." },
+      { "type": "MCQ", "q": "Wo ist die Party?", "opts": ["Im Park", "Bei Emma zu Hause", "In der Schule"], "a": 1, "exp": "„bei mir zu Hause, Blumenweg 3“." }
+    ]
+  },
+  {
+    "id": "A1_R47", "level": "A1", "type": "Schild", "title": "Regeln im Computerraum",
+    "text": "COMPUTERRAUM — REGELN\n\n💻 Computer nur für die Schule benutzen.\n🍔 Kein Essen und Trinken am Computer!\n⏱ Maximal 60 Minuten pro Person.\n🔌 Bitte den Computer nach dem Benutzen ausschalten.\n\nBei Problemen: Frau Klein fragen (Raum 12).",
+    "questions": [
+      { "type": "TF", "q": "Man darf am Computer essen.", "a": false, "exp": "„Kein Essen und Trinken am Computer!“" },
+      { "type": "MCQ", "q": "Wie lange darf man den Computer benutzen?", "opts": ["30 Minuten", "60 Minuten", "120 Minuten"], "a": 1, "exp": "„Maximal 60 Minuten pro Person.“" },
+      { "type": "TF", "q": "Man soll den Computer ausschalten.", "a": true, "exp": "„den Computer nach dem Benutzen ausschalten“." },
+      { "type": "MCQ", "q": "Wen fragt man bei Problemen?", "opts": ["Frau Klein", "Herrn Berg", "Niemanden"], "a": 0, "exp": "„Frau Klein fragen (Raum 12)“." },
+      { "type": "TF", "q": "Der Computer ist nur für die Schule.", "a": true, "exp": "„Computer nur für die Schule benutzen.“" }
+    ]
+  },
+  {
+    "id": "A1_R48", "level": "A1", "type": "Anzeige", "title": "Fahrrad zu verkaufen",
+    "text": "FAHRRAD ZU VERKAUFEN 🚲\n\nIch verkaufe mein Fahrrad. Es ist 2 Jahre alt und in gutem Zustand. Farbe: rot. Mit Licht und Korb.\n\nPreis: 90 Euro (Verhandeln möglich)\n\nNur Abholung in Bonn.\nKontakt: 0160 – 7778889 (Tim)",
+    "questions": [
+      { "type": "TF", "q": "Das Fahrrad ist neu.", "a": false, "exp": "„Es ist 2 Jahre alt“." },
+      { "type": "MCQ", "q": "Welche Farbe hat das Fahrrad?", "opts": ["Blau", "Rot", "Grün"], "a": 1, "exp": "„Farbe: rot“." },
+      { "type": "MCQ", "q": "Wie viel kostet das Fahrrad?", "opts": ["70 Euro", "90 Euro", "110 Euro"], "a": 1, "exp": "„Preis: 90 Euro“." },
+      { "type": "TF", "q": "Das Fahrrad hat ein Licht und einen Korb.", "a": true, "exp": "„Mit Licht und Korb.“" },
+      { "type": "TF", "q": "Man kann das Fahrrad nach Hause geliefert bekommen.", "a": false, "exp": "„Nur Abholung in Bonn.“" }
+    ]
+  },
+  {
+    "id": "A1_R49", "level": "A1", "type": "E-Mail", "title": "Pläne für die Ferien",
+    "text": "Hallo Ben,\n\nin den Sommerferien fahren wir nach Italien ans Meer! Wir bleiben zwei Wochen. Ich freue mich schon aufs Schwimmen und auf das italienische Eis. 🍦\n\nWas machst du in den Ferien? Fährst du auch weg? Schreib mir bald!\n\nDein Leon",
+    "questions": [
+      { "type": "MCQ", "q": "Wohin fährt Leon in den Ferien?", "opts": ["Nach Spanien", "Nach Italien", "Nach Frankreich"], "a": 1, "exp": "„fahren wir nach Italien ans Meer“." },
+      { "type": "MCQ", "q": "Wie lange bleibt Leon?", "opts": ["Eine Woche", "Zwei Wochen", "Drei Wochen"], "a": 1, "exp": "„Wir bleiben zwei Wochen.“" },
+      { "type": "TF", "q": "Leon freut sich aufs Schwimmen.", "a": true, "exp": "„Ich freue mich schon aufs Schwimmen“." },
+      { "type": "TF", "q": "Leon fährt in die Berge.", "a": false, "exp": "Er fährt ans Meer in Italien." },
+      { "type": "MCQ", "q": "Was fragt Leon seinen Freund Ben?", "opts": ["Was Ben in den Ferien macht", "Wie alt Ben ist", "Wo Ben wohnt"], "a": 0, "exp": "„Was machst du in den Ferien?“" }
+    ]
+  },
+  {
+    "id": "A1_R50", "level": "A1", "type": "Speisekarte", "title": "In der Eisdiele",
+    "text": "EISDIELE VENEZIA 🍨\n\nEine Kugel Eis: 1,50 €\nSorten: Schokolade, Vanille, Erdbeere, Zitrone, Mango\n\nBecher mit Sahne: 4,50 €\nMilchshake: 3,80 €\n\nGeöffnet: täglich 11 – 21 Uhr\nIm Sommer auch länger!",
+    "questions": [
+      { "type": "MCQ", "q": "Was kostet eine Kugel Eis?", "opts": ["1,00 €", "1,50 €", "2,00 €"], "a": 1, "exp": "„Eine Kugel Eis: 1,50 €“." },
+      { "type": "TF", "q": "Es gibt Erdbeer-Eis.", "a": true, "exp": "„Sorten: ... Erdbeere ...“." },
+      { "type": "TF", "q": "Die Eisdiele hat im Winter geschlossen.", "a": false, "exp": "„Geöffnet: täglich 11 – 21 Uhr“." },
+      { "type": "MCQ", "q": "Was kostet ein Milchshake?", "opts": ["1,50 €", "3,80 €", "4,50 €"], "a": 1, "exp": "„Milchshake: 3,80 €“." },
+      { "type": "MCQ", "q": "Welche Sorte gibt es NICHT?", "opts": ["Vanille", "Mango", "Apfel"], "a": 2, "exp": "Apfel fehlt; es gibt Schokolade, Vanille, Erdbeere, Zitrone, Mango." }
+    ]
+  }
+]

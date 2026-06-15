@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "S001",
+    "num": 1,
+    "title": "Mein Morgen",
+    "titleEn": "My Morning",
+    "level": "A1",
+    "de": "Ich heiße Lena. Jeden Morgen stehe ich um sieben Uhr auf. Ich gehe ins Badezimmer und putze meine Zähne. Dann ziehe ich mich an und gehe in die Küche. Ich trinke einen Kaffee und esse ein Brot mit Butter. Um acht Uhr fahre ich mit dem Bus zur Arbeit. Mein Tag beginnt gut.",
+    "en": "My name is Lena. Every morning I get up at seven o'clock. I go to the bathroom and brush my teeth. Then I get dressed and go to the kitchen. I drink a coffee and eat bread with butter. At eight o'clock I take the bus to work. My day starts well.",
+    "vocab": [
+      {
+        "de": "aufstehen",
+        "en": "to get up"
+      },
+      {
+        "de": "das Badezimmer",
+        "en": "bathroom"
+      },
+      {
+        "de": "sich anziehen",
+        "en": "to get dressed"
+      },
+      {
+        "de": "die Arbeit",
+        "en": "work"
+      }
+    ]
+  },
+  {
+    "id": "S002",
+    "num": 2,
+    "title": "Meine Familie",
+    "titleEn": "My Family",
+    "level": "A1",
+    "de": "Wir sind eine kleine Familie. Mein Vater heißt Thomas und meine Mutter heißt Anna. Ich habe einen Bruder. Er heißt Max und ist zehn Jahre alt. Wir haben auch einen Hund. Der Hund heißt Bello. Am Wochenende essen wir zusammen. Ich liebe meine Familie.",
+    "en": "We are a small family. My father is called Thomas and my mother is called Anna. I have a brother. His name is Max and he is ten years old. We also have a dog. The dog is called Bello. On the weekend we eat together. I love my family.",
+    "vocab": [
+      {
+        "de": "die Familie",
+        "en": "family"
+      },
+      {
+        "de": "der Bruder",
+        "en": "brother"
+      },
+      {
+        "de": "der Hund",
+        "en": "dog"
+      },
+      {
+        "de": "zusammen",
+        "en": "together"
+      }
+    ]
+  },
+  {
+    "id": "S003",
+    "num": 3,
+    "title": "Im Supermarkt",
+    "titleEn": "At the Supermarket",
+    "level": "A1",
+    "de": "Heute gehe ich in den Supermarkt. Ich brauche Milch, Brot und Äpfel. Im Supermarkt nehme ich einen Korb. Die Äpfel sind rot und sehr frisch. An der Kasse bezahle ich mit Karte. Dann gehe ich nach Hause.",
+    "en": "Today I go to the supermarket. I need milk, bread and apples. In the supermarket I take a basket. The apples are red and very fresh. At the checkout I pay with a card. Then I go home.",
+    "vocab": [
+      {
+        "de": "der Supermarkt",
+        "en": "supermarket"
+      },
+      {
+        "de": "brauchen",
+        "en": "to need"
+      },
+      {
+        "de": "die Kasse",
+        "en": "checkout"
+      },
+      {
+        "de": "bezahlen",
+        "en": "to pay"
+      }
+    ]
+  },
+  {
+    "id": "S004",
+    "num": 4,
+    "title": "Mein Hund Bello",
+    "titleEn": "My Dog Bello",
+    "level": "A1",
+    "de": "Bello ist mein Hund. Er ist braun und sehr lieb. Jeden Tag gehe ich mit ihm in den Park. Bello läuft schnell und spielt mit einem Ball. Manchmal trifft er andere Hunde. Am Abend schläft er auf seinem Bett.",
+    "en": "Bello is my dog. He is brown and very sweet. Every day I go with him to the park. Bello runs fast and plays with a ball. Sometimes he meets other dogs. In the evening he sleeps on his bed.",
+    "vocab": [
+      {
+        "de": "der Park",
+        "en": "park"
+      },
+      {
+        "de": "laufen",
+        "en": "to run"
+      },
+      {
+        "de": "spielen",
+        "en": "to play"
+      },
+      {
+        "de": "schlafen",
+        "en": "to sleep"
+      }
+    ]
+  },
+  {
+    "id": "S005",
+    "num": 5,
+    "title": "Im Restaurant",
+    "titleEn": "At the Restaurant",
+    "level": "A1",
+    "de": "Heute essen wir im Restaurant. Der Kellner bringt uns die Speisekarte. Ich bestelle Suppe und Schnitzel. Meine Freundin isst Salat. Das Essen schmeckt sehr gut. Wir trinken Wasser und Saft.",
+    "en": "Today we eat at the restaurant. The waiter brings us the menu. I order soup and schnitzel. My friend eats salad. The food tastes very good. We drink water and juice.",
+    "vocab": [
+      {
+        "de": "das Restaurant",
+        "en": "restaurant"
+      },
+      {
+        "de": "der Kellner",
+        "en": "waiter"
+      },
+      {
+        "de": "bestellen",
+        "en": "to order"
+      },
+      {
+        "de": "schmecken",
+        "en": "to taste"
+      }
+    ]
+  },
+  {
+    "id": "S006",
+    "num": 6,
+    "title": "Mein Zimmer",
+    "titleEn": "My Room",
+    "level": "A1",
+    "de": "Mein Zimmer ist nicht groß. Ich habe ein Bett, einen Schreibtisch und einen Stuhl. Das Bett ist blau. An der Wand hängt ein Poster. Auf dem Schreibtisch steht mein Computer. Ich lerne und schlafe in meinem Zimmer.",
+    "en": "My room is not big. I have a bed, a desk and a chair. The bed is blue. A poster hangs on the wall. My computer stands on the desk. I study and sleep in my room.",
+    "vocab": [
+      {
+        "de": "das Zimmer",
+        "en": "room"
+      },
+      {
+        "de": "der Schreibtisch",
+        "en": "desk"
+      },
+      {
+        "de": "der Stuhl",
+        "en": "chair"
+      },
+      {
+        "de": "die Wand",
+        "en": "wall"
+      }
+    ]
+  },
+  {
+    "id": "S007",
+    "num": 7,
+    "title": "Das Wetter",
+    "titleEn": "The Weather",
+    "level": "A1",
+    "de": "Heute ist das Wetter schön. Die Sonne scheint und es ist warm. Ich trage ein T-Shirt und eine kurze Hose. Im Park spielen viele Kinder. Ich trinke Limonade und sitze auf einer Bank.",
+    "en": "Today the weather is nice. The sun is shining and it is warm. I wear a T-shirt and shorts. Many children play in the park. I drink lemonade and sit on a bench.",
+    "vocab": [
+      {
+        "de": "das Wetter",
+        "en": "weather"
+      },
+      {
+        "de": "die Sonne",
+        "en": "sun"
+      },
+      {
+        "de": "warm",
+        "en": "warm"
+      },
+      {
+        "de": "die Bank",
+        "en": "bench"
+      }
+    ]
+  },
+  {
+    "id": "S008",
+    "num": 8,
+    "title": "Einkaufen",
+    "titleEn": "Shopping",
+    "level": "A1",
+    "de": "Ich gehe in die Stadt und kaufe neue Kleidung. Im Geschäft finde ich eine rote Jacke. Sie kostet zwanzig Euro. Die Verkäuferin ist freundlich. Ich kaufe auch eine blaue Hose. Ich bin sehr glücklich.",
+    "en": "I go into town and buy new clothes. In the shop I find a red jacket. It costs twenty euros. The saleswoman is friendly. I also buy blue trousers. I am very happy.",
+    "vocab": [
+      {
+        "de": "das Geschäft",
+        "en": "shop"
+      },
+      {
+        "de": "die Jacke",
+        "en": "jacket"
+      },
+      {
+        "de": "kosten",
+        "en": "to cost"
+      },
+      {
+        "de": "die Hose",
+        "en": "trousers"
+      }
+    ]
+  },
+  {
+    "id": "S009",
+    "num": 9,
+    "title": "Meine Hobbys",
+    "titleEn": "My Hobbies",
+    "level": "A1",
+    "de": "Ich habe viele Hobbys. Ich lese gern Bücher. Ich spiele auch Gitarre. Am Wochenende fahre ich Fahrrad. Manchmal male ich Bilder. Hobbys machen mich glücklich.",
+    "en": "I have many hobbies. I like to read books. I also play guitar. On the weekend I ride my bicycle. Sometimes I paint pictures. Hobbies make me happy.",
+    "vocab": [
+      {
+        "de": "das Hobby",
+        "en": "hobby"
+      },
+      {
+        "de": "lesen",
+        "en": "to read"
+      },
+      {
+        "de": "das Fahrrad",
+        "en": "bicycle"
+      },
+      {
+        "de": "malen",
+        "en": "to paint"
+      }
+    ]
+  },
+  {
+    "id": "S010",
+    "num": 10,
+    "title": "In der Schule",
+    "titleEn": "At School",
+    "level": "A1",
+    "de": "Heute haben wir Deutschstunde. Der Lehrer heißt Herr Braun. Wir lernen neue Wörter. Ich schreibe alles ins Heft. In der Pause esse ich ein Brot. Schule macht mir Spaß.",
+    "en": "Today we have German class. The teacher is called Mr Braun. We learn new words. I write everything in my notebook. During the break I eat a sandwich. I enjoy school.",
+    "vocab": [
+      {
+        "de": "die Schule",
+        "en": "school"
+      },
+      {
+        "de": "der Lehrer",
+        "en": "teacher"
+      },
+      {
+        "de": "das Heft",
+        "en": "notebook"
+      },
+      {
+        "de": "die Pause",
+        "en": "break"
+      }
+    ]
+  },
+  {
+    "id": "S011",
+    "num": 11,
+    "title": "Sport treiben",
+    "titleEn": "Doing Sport",
+    "level": "A1",
+    "de": "Ich treibe gern Sport. Dienstags spiele ich Fußball. Donnerstags gehe ich schwimmen. Das Schwimmbad ist nah bei mir. Sport ist gut für den Körper. Ich fühle mich immer besser danach.",
+    "en": "I like doing sport. On Tuesdays I play football. On Thursdays I go swimming. The swimming pool is close to me. Sport is good for the body. I always feel better after it.",
+    "vocab": [
+      {
+        "de": "Sport treiben",
+        "en": "to do sport"
+      },
+      {
+        "de": "der Körper",
+        "en": "body"
+      },
+      {
+        "de": "schwimmen",
+        "en": "to swim"
+      },
+      {
+        "de": "nah",
+        "en": "close/near"
+      }
+    ]
+  },
+  {
+    "id": "S012",
+    "num": 12,
+    "title": "Meine Wohnung",
+    "titleEn": "My Flat",
+    "level": "A1",
+    "de": "Ich wohne in einer kleinen Wohnung. Es gibt ein Wohnzimmer, eine Küche und ein Bad. Das Wohnzimmer hat ein großes Fenster. Ich habe eine Pflanze auf dem Balkon. Meine Wohnung ist gemütlich.",
+    "en": "I live in a small flat. There is a living room, a kitchen and a bathroom. The living room has a big window. I have a plant on the balcony. My flat is cosy.",
+    "vocab": [
+      {
+        "de": "die Wohnung",
+        "en": "flat/apartment"
+      },
+      {
+        "de": "das Wohnzimmer",
+        "en": "living room"
+      },
+      {
+        "de": "der Balkon",
+        "en": "balcony"
+      },
+      {
+        "de": "gemütlich",
+        "en": "cosy"
+      }
+    ]
+  },
+  {
+    "id": "S013",
+    "num": 13,
+    "title": "Meine Schwester",
+    "titleEn": "My Sister",
+    "level": "A1",
+    "de": "Meine Schwester heißt Sara. Sie ist achtzehn Jahre alt. Sara lernt Englisch in der Schule. Sie hört gern Musik. Wir kochen manchmal zusammen. Sara ist meine beste Freundin.",
+    "en": "My sister is called Sara. She is eighteen years old. Sara studies English at school. She likes listening to music. We sometimes cook together. Sara is my best friend.",
+    "vocab": [
+      {
+        "de": "die Schwester",
+        "en": "sister"
+      },
+      {
+        "de": "lernen",
+        "en": "to study/learn"
+      },
+      {
+        "de": "hören",
+        "en": "to listen"
+      },
+      {
+        "de": "kochen",
+        "en": "to cook"
+      }
+    ]
+  },
+  {
+    "id": "S014",
+    "num": 14,
+    "title": "Beim Bäcker",
+    "titleEn": "At the Bakery",
+    "level": "A1",
+    "de": "Jeden Morgen gehe ich zum Bäcker. Ich kaufe zwei Brötchen und einen Kuchen. Der Bäcker heißt Herr Schmidt. Das Brot riecht sehr gut. Ich esse ein Brötchen auf dem Weg nach Hause.",
+    "en": "Every morning I go to the bakery. I buy two rolls and a cake. The baker is called Mr Schmidt. The bread smells very good. I eat a roll on the way home.",
+    "vocab": [
+      {
+        "de": "der Bäcker",
+        "en": "baker"
+      },
+      {
+        "de": "das Brötchen",
+        "en": "roll"
+      },
+      {
+        "de": "der Kuchen",
+        "en": "cake"
+      },
+      {
+        "de": "riechen",
+        "en": "to smell"
+      }
+    ]
+  },
+  {
+    "id": "S015",
+    "num": 15,
+    "title": "Das Abendessen",
+    "titleEn": "Dinner",
+    "level": "A1",
+    "de": "Heute koche ich das Abendessen. Ich mache Nudeln mit Tomatensoße. Die Nudeln kochen zehn Minuten. Dann gebe ich Käse darauf. Das Abendessen ist fertig. Es schmeckt lecker.",
+    "en": "Today I cook dinner. I make pasta with tomato sauce. The pasta cooks for ten minutes. Then I put cheese on it. Dinner is ready. It tastes delicious.",
+    "vocab": [
+      {
+        "de": "das Abendessen",
+        "en": "dinner"
+      },
+      {
+        "de": "die Nudeln",
+        "en": "pasta/noodles"
+      },
+      {
+        "de": "der Käse",
+        "en": "cheese"
+      },
+      {
+        "de": "lecker",
+        "en": "tasty"
+      }
+    ]
+  },
+  {
+    "id": "S016",
+    "num": 16,
+    "title": "Das Wochenende",
+    "titleEn": "The Weekend",
+    "level": "A1",
+    "de": "Am Wochenende habe ich frei. Am Samstag schlafe ich lange. Dann gehe ich in die Stadt. Am Sonntag besuche ich meine Großeltern. Wir trinken Kaffee und essen Kuchen.",
+    "en": "On the weekend I am free. On Saturday I sleep in. Then I go into town. On Sunday I visit my grandparents. We drink coffee and eat cake.",
+    "vocab": [
+      {
+        "de": "das Wochenende",
+        "en": "weekend"
+      },
+      {
+        "de": "frei",
+        "en": "free / off"
+      },
+      {
+        "de": "die Stadt",
+        "en": "town/city"
+      },
+      {
+        "de": "die Großeltern",
+        "en": "grandparents"
+      }
+    ]
+  },
+  {
+    "id": "S017",
+    "num": 17,
+    "title": "Ein neuer Freund",
+    "titleEn": "A New Friend",
+    "level": "A1",
+    "de": "In meinem Kurs gibt es einen neuen Studenten. Er heißt Paul und kommt aus Frankreich. Paul ist sehr freundlich. Wir sprechen über die Schule und über Musik. Ich glaube, wir werden gute Freunde.",
+    "en": "In my class there is a new student. His name is Paul and he comes from France. Paul is very friendly. We talk about school and about music. I think we will be good friends.",
+    "vocab": [
+      {
+        "de": "der Kurs",
+        "en": "course/class"
+      },
+      {
+        "de": "freundlich",
+        "en": "friendly"
+      },
+      {
+        "de": "sprechen",
+        "en": "to speak"
+      },
+      {
+        "de": "der Freund",
+        "en": "friend"
+      }
+    ]
+  },
+  {
+    "id": "S018",
+    "num": 18,
+    "title": "Wetter im Winter",
+    "titleEn": "Winter Weather",
+    "level": "A1",
+    "de": "Im Winter ist es sehr kalt. Es schneit oft. Die Kinder spielen im Schnee. Ich trage einen warmen Mantel und einen Schal. Zu Hause trinke ich heißen Tee.",
+    "en": "In winter it is very cold. It often snows. The children play in the snow. I wear a warm coat and a scarf. At home I drink hot tea.",
+    "vocab": [
+      {
+        "de": "der Winter",
+        "en": "winter"
+      },
+      {
+        "de": "schneien",
+        "en": "to snow"
+      },
+      {
+        "de": "der Mantel",
+        "en": "coat"
+      },
+      {
+        "de": "der Schal",
+        "en": "scarf"
+      }
+    ]
+  },
+  {
+    "id": "S019",
+    "num": 19,
+    "title": "Mein Auto",
+    "titleEn": "My Car",
+    "level": "A1",
+    "de": "Ich habe ein kleines Auto. Es ist blau und alt, aber es fährt gut. Jeden Morgen fahre ich damit zur Arbeit. Am Wochenende fahre ich oft ans Meer. Ich liebe mein Auto.",
+    "en": "I have a small car. It is blue and old, but it drives well. Every morning I drive it to work. On the weekend I often drive to the sea. I love my car.",
+    "vocab": [
+      {
+        "de": "das Auto",
+        "en": "car"
+      },
+      {
+        "de": "fahren",
+        "en": "to drive"
+      },
+      {
+        "de": "das Meer",
+        "en": "sea"
+      },
+      {
+        "de": "alt",
+        "en": "old"
+      }
+    ]
+  },
+  {
+    "id": "S020",
+    "num": 20,
+    "title": "Frühstück",
+    "titleEn": "Breakfast",
+    "level": "A1",
+    "de": "Mein Frühstück ist einfach. Ich esse Brötchen mit Marmelade. Manchmal esse ich auch ein Ei. Dazu trinke ich Orangensaft und Kaffee. Das Frühstück ist meine Lieblingsmahlzeit.",
+    "en": "My breakfast is simple. I eat rolls with jam. Sometimes I also eat an egg. With it I drink orange juice and coffee. Breakfast is my favorite meal.",
+    "vocab": [
+      {
+        "de": "das Frühstück",
+        "en": "breakfast"
+      },
+      {
+        "de": "die Marmelade",
+        "en": "jam"
+      },
+      {
+        "de": "das Ei",
+        "en": "egg"
+      },
+      {
+        "de": "die Mahlzeit",
+        "en": "meal"
+      }
+    ]
+  },
+  {
+    "id": "S021",
+    "num": 21,
+    "title": "Mein Bruder",
+    "titleEn": "My Brother",
+    "level": "A1",
+    "de": "Mein Bruder heißt Leon. Er ist sechzehn Jahre alt. Leon spielt Gitarre und singt sehr gut. Manchmal nervt er mich, aber ich liebe ihn. Wir sind beste Freunde.",
+    "en": "My brother is called Leon. He is sixteen years old. Leon plays guitar and sings very well. Sometimes he annoys me, but I love him. We are best friends.",
+    "vocab": [
+      {
+        "de": "die Gitarre",
+        "en": "guitar"
+      },
+      {
+        "de": "singen",
+        "en": "to sing"
+      },
+      {
+        "de": "nerven",
+        "en": "to annoy"
+      },
+      {
+        "de": "beste Freunde",
+        "en": "best friends"
+      }
+    ]
+  },
+  {
+    "id": "S022",
+    "num": 22,
+    "title": "Im Zoo",
+    "titleEn": "At the Zoo",
+    "level": "A1",
+    "de": "Heute gehe ich mit meiner Klasse in den Zoo. Wir sehen Löwen, Elefanten und Affen. Die Affen sind sehr lustig. Wir machen viele Fotos. Der Tag im Zoo ist toll.",
+    "en": "Today I go to the zoo with my class. We see lions, elephants and monkeys. The monkeys are very funny. We take many photos. The day at the zoo is great.",
+    "vocab": [
+      {
+        "de": "der Zoo",
+        "en": "zoo"
+      },
+      {
+        "de": "der Löwe",
+        "en": "lion"
+      },
+      {
+        "de": "der Affe",
+        "en": "monkey"
+      },
+      {
+        "de": "lustig",
+        "en": "funny"
+      }
+    ]
+  },
+  {
+    "id": "S023",
+    "num": 23,
+    "title": "Mein Lieblingsbuch",
+    "titleEn": "My Favorite Book",
+    "level": "A1",
+    "de": "Ich lese sehr gern. Mein Lieblingsbuch heißt Momo. Es ist eine schöne Geschichte. Ich habe das Buch schon dreimal gelesen. Manchmal lese ich abends im Bett.",
+    "en": "I love to read. My favorite book is called Momo. It is a beautiful story. I have already read the book three times. Sometimes I read in bed in the evening.",
+    "vocab": [
+      {
+        "de": "das Buch",
+        "en": "book"
+      },
+      {
+        "de": "die Geschichte",
+        "en": "story"
+      },
+      {
+        "de": "schon",
+        "en": "already"
+      },
+      {
+        "de": "abends",
+        "en": "in the evening"
+      }
+    ]
+  },
+  {
+    "id": "S024",
+    "num": 24,
+    "title": "Im Bus",
+    "titleEn": "On the Bus",
+    "level": "A1",
+    "de": "Jeden Morgen fahre ich mit dem Bus zur Schule. Der Bus kommt um sieben Uhr fünfzehn. Im Bus höre ich Musik. Manchmal lese ich auch ein Buch. Die Fahrt dauert zwanzig Minuten.",
+    "en": "Every morning I take the bus to school. The bus comes at seven fifteen. On the bus I listen to music. Sometimes I also read a book. The journey takes twenty minutes.",
+    "vocab": [
+      {
+        "de": "der Bus",
+        "en": "bus"
+      },
+      {
+        "de": "die Musik",
+        "en": "music"
+      },
+      {
+        "de": "die Fahrt",
+        "en": "ride/journey"
+      },
+      {
+        "de": "dauern",
+        "en": "to last/take"
+      }
+    ]
+  },
+  {
+    "id": "S025",
+    "num": 25,
+    "title": "Geburtstag",
+    "titleEn": "Birthday",
+    "level": "A1",
+    "de": "Heute ist mein Geburtstag. Ich werde dreißig Jahre alt. Meine Freunde kommen zu mir nach Hause. Wir essen Pizza und trinken Wein. Es gibt eine große Torte mit Kerzen.",
+    "en": "Today is my birthday. I am turning thirty years old. My friends come over to my house. We eat pizza and drink wine. There is a big cake with candles.",
+    "vocab": [
+      {
+        "de": "der Geburtstag",
+        "en": "birthday"
+      },
+      {
+        "de": "die Torte",
+        "en": "cake"
+      },
+      {
+        "de": "die Kerze",
+        "en": "candle"
+      },
+      {
+        "de": "der Wein",
+        "en": "wine"
+      }
+    ]
+  },
+  {
+    "id": "S026",
+    "num": 26,
+    "title": "Eine kleine Reise",
+    "titleEn": "A Little Trip",
+    "level": "A1",
+    "de": "Am Samstag fahre ich nach Berlin. Ich fahre mit dem Zug. Die Reise dauert vier Stunden. In Berlin besuche ich einen Freund. Wir gehen ins Museum und essen zusammen.",
+    "en": "On Saturday I go to Berlin. I travel by train. The trip lasts four hours. In Berlin I visit a friend. We go to the museum and eat together.",
+    "vocab": [
+      {
+        "de": "die Reise",
+        "en": "trip"
+      },
+      {
+        "de": "der Zug",
+        "en": "train"
+      },
+      {
+        "de": "das Museum",
+        "en": "museum"
+      },
+      {
+        "de": "zusammen",
+        "en": "together"
+      }
+    ]
+  },
+  {
+    "id": "S027",
+    "num": 27,
+    "title": "Im Schwimmbad",
+    "titleEn": "At the Swimming Pool",
+    "level": "A1",
+    "de": "Ich gehe gern ins Schwimmbad. Das Wasser ist warm und blau. Ich schwimme zehn Runden. Danach lege ich mich in die Sonne. Schwimmen macht mir Spaß.",
+    "en": "I like going to the swimming pool. The water is warm and blue. I swim ten laps. Then I lie in the sun. Swimming is fun for me.",
+    "vocab": [
+      {
+        "de": "das Schwimmbad",
+        "en": "swimming pool"
+      },
+      {
+        "de": "schwimmen",
+        "en": "to swim"
+      },
+      {
+        "de": "die Sonne",
+        "en": "sun"
+      },
+      {
+        "de": "Spaß machen",
+        "en": "to be fun"
+      }
+    ]
+  },
+  {
+    "id": "S028",
+    "num": 28,
+    "title": "Meine Katze",
+    "titleEn": "My Cat",
+    "level": "A1",
+    "de": "Meine Katze heißt Mimi. Sie ist weiß und sehr ruhig. Mimi schläft gern auf dem Sofa. Manchmal spielt sie mit einem Ball aus Wolle. Ich liebe meine Katze sehr.",
+    "en": "My cat is called Mimi. She is white and very calm. Mimi likes to sleep on the sofa. Sometimes she plays with a ball of wool. I love my cat very much.",
+    "vocab": [
+      {
+        "de": "die Katze",
+        "en": "cat"
+      },
+      {
+        "de": "ruhig",
+        "en": "calm/quiet"
+      },
+      {
+        "de": "das Sofa",
+        "en": "sofa"
+      },
+      {
+        "de": "die Wolle",
+        "en": "wool"
+      }
+    ]
+  },
+  {
+    "id": "S029",
+    "num": 29,
+    "title": "Eine kalte Nacht",
+    "titleEn": "A Cold Night",
+    "level": "A1",
+    "de": "Es ist Winter und es ist sehr kalt. Ich bin zu Hause und mache ein Feuer. Ich trinke heißen Kakao. Draußen schneit es. Im Bett lese ich noch ein Buch.",
+    "en": "It is winter and very cold. I am at home and make a fire. I drink hot chocolate. Outside it is snowing. In bed I still read a book.",
+    "vocab": [
+      {
+        "de": "kalt",
+        "en": "cold"
+      },
+      {
+        "de": "das Feuer",
+        "en": "fire"
+      },
+      {
+        "de": "der Kakao",
+        "en": "hot chocolate"
+      },
+      {
+        "de": "draußen",
+        "en": "outside"
+      }
+    ]
+  },
+  {
+    "id": "S030",
+    "num": 30,
+    "title": "Mein Freund Max",
+    "titleEn": "My Friend Max",
+    "level": "A1",
+    "de": "Max ist mein bester Freund. Wir wohnen in der gleichen Straße. Jeden Tag spielen wir Fußball. Max ist sehr lustig und nett. Wir sind seit zehn Jahren Freunde.",
+    "en": "Max is my best friend. We live on the same street. Every day we play football. Max is very funny and nice. We have been friends for ten years.",
+    "vocab": [
+      {
+        "de": "der Freund",
+        "en": "friend"
+      },
+      {
+        "de": "die Straße",
+        "en": "street"
+      },
+      {
+        "de": "der Fußball",
+        "en": "football"
+      },
+      {
+        "de": "nett",
+        "en": "nice"
+      }
+    ]
+  },
+  {
+    "id": "S031",
+    "num": 31,
+    "title": "Im Kino",
+    "titleEn": "At the Cinema",
+    "level": "A1",
+    "de": "Heute gehen wir ins Kino. Der Film beginnt um acht Uhr. Wir kaufen Popcorn und Cola. Der Film ist eine Komödie. Wir lachen viel.",
+    "en": "Today we are going to the cinema. The film starts at eight o'clock. We buy popcorn and cola. The film is a comedy. We laugh a lot.",
+    "vocab": [
+      {
+        "de": "das Kino",
+        "en": "cinema"
+      },
+      {
+        "de": "der Film",
+        "en": "film"
+      },
+      {
+        "de": "kaufen",
+        "en": "to buy"
+      },
+      {
+        "de": "die Komödie",
+        "en": "comedy"
+      }
+    ]
+  },
+  {
+    "id": "S032",
+    "num": 32,
+    "title": "Auf dem Markt",
+    "titleEn": "At the Market",
+    "level": "A1",
+    "de": "Am Samstag gehe ich auf den Markt. Es gibt frisches Obst und Gemüse. Ich kaufe Tomaten, Gurken und Erdbeeren. Der Verkäufer ist sehr freundlich. Ich gebe ihm zehn Euro.",
+    "en": "On Saturday I go to the market. There is fresh fruit and vegetables. I buy tomatoes, cucumbers and strawberries. The seller is very friendly. I give him ten euros.",
+    "vocab": [
+      {
+        "de": "der Markt",
+        "en": "market"
+      },
+      {
+        "de": "das Obst",
+        "en": "fruit"
+      },
+      {
+        "de": "das Gemüse",
+        "en": "vegetables"
+      },
+      {
+        "de": "der Verkäufer",
+        "en": "seller"
+      }
+    ]
+  },
+  {
+    "id": "S033",
+    "num": 33,
+    "title": "Mein Garten",
+    "titleEn": "My Garden",
+    "level": "A1",
+    "de": "Ich habe einen kleinen Garten. Im Garten gibt es Blumen und einen Apfelbaum. Im Sommer sitze ich oft draußen. Ich lese und trinke Limonade. Die Vögel singen im Baum.",
+    "en": "I have a small garden. In the garden there are flowers and an apple tree. In summer I often sit outside. I read and drink lemonade. The birds sing in the tree.",
+    "vocab": [
+      {
+        "de": "der Garten",
+        "en": "garden"
+      },
+      {
+        "de": "die Blume",
+        "en": "flower"
+      },
+      {
+        "de": "der Apfelbaum",
+        "en": "apple tree"
+      },
+      {
+        "de": "die Limonade",
+        "en": "lemonade"
+      }
+    ]
+  },
+  {
+    "id": "S034",
+    "num": 34,
+    "title": "Eine Postkarte",
+    "titleEn": "A Postcard",
+    "level": "A1",
+    "de": "Hallo Mama! Ich bin in Italien. Das Wetter ist super und das Essen ist toll. Heute war ich am Strand. Morgen besuchen wir Rom. Liebe Grüße, Lisa.",
+    "en": "Hello Mom! I am in Italy. The weather is super and the food is great. Today I was at the beach. Tomorrow we are visiting Rome. Love, Lisa.",
+    "vocab": [
+      {
+        "de": "die Postkarte",
+        "en": "postcard"
+      },
+      {
+        "de": "der Strand",
+        "en": "beach"
+      },
+      {
+        "de": "das Essen",
+        "en": "food"
+      },
+      {
+        "de": "morgen",
+        "en": "tomorrow"
+      }
+    ]
+  },
+  {
+    "id": "S035",
+    "num": 35,
+    "title": "Auf dem Spielplatz",
+    "titleEn": "At the Playground",
+    "level": "A1",
+    "de": "Die Kinder spielen auf dem Spielplatz. Anna fährt Schaukel. Tim klettert auf die Rutsche. Lisa und Sam spielen im Sand. Alle Kinder lachen und sind glücklich.",
+    "en": "The children play on the playground. Anna is on the swing. Tim climbs the slide. Lisa and Sam play in the sand. All the children laugh and are happy.",
+    "vocab": [
+      {
+        "de": "der Spielplatz",
+        "en": "playground"
+      },
+      {
+        "de": "die Schaukel",
+        "en": "swing"
+      },
+      {
+        "de": "die Rutsche",
+        "en": "slide"
+      },
+      {
+        "de": "glücklich",
+        "en": "happy"
+      }
+    ]
+  },
+  {
+    "id": "S036",
+    "num": 36,
+    "title": "Mein Computer",
+    "titleEn": "My Computer",
+    "level": "A1",
+    "de": "Ich habe einen neuen Computer. Er ist schnell und schön. Mit dem Computer schreibe ich E-Mails. Ich sehe auch Filme und spiele Spiele. Mein Computer ist sehr wichtig für mich.",
+    "en": "I have a new computer. It is fast and beautiful. With the computer I write emails. I also watch films and play games. My computer is very important to me.",
+    "vocab": [
+      {
+        "de": "der Computer",
+        "en": "computer"
+      },
+      {
+        "de": "schnell",
+        "en": "fast"
+      },
+      {
+        "de": "die E-Mail",
+        "en": "email"
+      },
+      {
+        "de": "wichtig",
+        "en": "important"
+      }
+    ]
+  },
+  {
+    "id": "S037",
+    "num": 37,
+    "title": "Ein Tag am Meer",
+    "titleEn": "A Day at the Sea",
+    "level": "A1",
+    "de": "Heute sind wir am Meer. Die Sonne scheint. Ich schwimme und meine Schwester baut eine Sandburg. Wir essen Eis. Am Abend sehen wir den Sonnenuntergang.",
+    "en": "Today we are at the sea. The sun is shining. I swim and my sister builds a sandcastle. We eat ice cream. In the evening we see the sunset.",
+    "vocab": [
+      {
+        "de": "das Meer",
+        "en": "sea"
+      },
+      {
+        "de": "die Sandburg",
+        "en": "sandcastle"
+      },
+      {
+        "de": "das Eis",
+        "en": "ice cream"
+      },
+      {
+        "de": "der Sonnenuntergang",
+        "en": "sunset"
+      }
+    ]
+  },
+  {
+    "id": "S038",
+    "num": 38,
+    "title": "Telefon",
+    "titleEn": "Telephone",
+    "level": "A1",
+    "de": "Mein Telefon klingelt. Es ist meine Mutter. Sie fragt: Wie geht es dir? Ich sage: Mir geht es gut. Wir sprechen zehn Minuten.",
+    "en": "My phone rings. It is my mother. She asks: How are you? I say: I am fine. We talk for ten minutes.",
+    "vocab": [
+      {
+        "de": "das Telefon",
+        "en": "telephone"
+      },
+      {
+        "de": "klingeln",
+        "en": "to ring"
+      },
+      {
+        "de": "fragen",
+        "en": "to ask"
+      },
+      {
+        "de": "sagen",
+        "en": "to say"
+      }
+    ]
+  },
+  {
+    "id": "S039",
+    "num": 39,
+    "title": "Im Hotel",
+    "titleEn": "At the Hotel",
+    "level": "A1",
+    "de": "Wir sind im Hotel in Wien. Das Zimmer ist groß und hell. Es gibt ein Bett, einen Fernseher und ein Bad. Das Frühstück ist sehr gut. Wir bleiben drei Tage.",
+    "en": "We are at the hotel in Vienna. The room is big and bright. There is a bed, a TV and a bathroom. The breakfast is very good. We are staying three days.",
+    "vocab": [
+      {
+        "de": "das Hotel",
+        "en": "hotel"
+      },
+      {
+        "de": "hell",
+        "en": "bright"
+      },
+      {
+        "de": "der Fernseher",
+        "en": "TV"
+      },
+      {
+        "de": "bleiben",
+        "en": "to stay"
+      }
+    ]
+  },
+  {
+    "id": "S040",
+    "num": 40,
+    "title": "Mein Lieblingsfilm",
+    "titleEn": "My Favorite Movie",
+    "level": "A1",
+    "de": "Mein Lieblingsfilm heißt Harry Potter. Ich habe ihn schon zehnmal gesehen. Die Geschichte ist spannend. Ich finde Hermione besonders cool. Heute Abend sehe ich den Film wieder.",
+    "en": "My favorite movie is called Harry Potter. I have already seen it ten times. The story is exciting. I find Hermione especially cool. Tonight I will watch the film again.",
+    "vocab": [
+      {
+        "de": "der Lieblingsfilm",
+        "en": "favorite movie"
+      },
+      {
+        "de": "spannend",
+        "en": "exciting"
+      },
+      {
+        "de": "besonders",
+        "en": "especially"
+      },
+      {
+        "de": "wieder",
+        "en": "again"
+      }
+    ]
+  },
+  {
+    "id": "S041",
+    "num": 41,
+    "title": "Im Bahnhof",
+    "titleEn": "At the Train Station",
+    "level": "A1",
+    "de": "Ich bin am Bahnhof. Mein Zug fährt um zehn Uhr. Ich kaufe ein Ticket und einen Kaffee. Auf dem Bahnsteig warten viele Menschen. Endlich kommt der Zug.",
+    "en": "I am at the train station. My train leaves at ten o'clock. I buy a ticket and a coffee. Many people are waiting on the platform. Finally the train arrives.",
+    "vocab": [
+      {
+        "de": "der Bahnhof",
+        "en": "train station"
+      },
+      {
+        "de": "das Ticket",
+        "en": "ticket"
+      },
+      {
+        "de": "der Bahnsteig",
+        "en": "platform"
+      },
+      {
+        "de": "warten",
+        "en": "to wait"
+      }
+    ]
+  },
+  {
+    "id": "S042",
+    "num": 42,
+    "title": "Eine kleine Stadt",
+    "titleEn": "A Small Town",
+    "level": "A1",
+    "de": "Ich wohne in einer kleinen Stadt. Es gibt eine Kirche, eine Schule und einen Park. Die Leute sind freundlich. Im Sommer ist es ruhig. Ich liebe meine Stadt.",
+    "en": "I live in a small town. There is a church, a school and a park. The people are friendly. In summer it is quiet. I love my town.",
+    "vocab": [
+      {
+        "de": "die Stadt",
+        "en": "town/city"
+      },
+      {
+        "de": "die Kirche",
+        "en": "church"
+      },
+      {
+        "de": "die Leute",
+        "en": "people"
+      },
+      {
+        "de": "ruhig",
+        "en": "quiet"
+      }
+    ]
+  },
+  {
+    "id": "S043",
+    "num": 43,
+    "title": "Beim Friseur",
+    "titleEn": "At the Hairdresser",
+    "level": "A1",
+    "de": "Heute gehe ich zum Friseur. Mein Haar ist zu lang. Die Friseurin schneidet es kurz. Sie wäscht und föhnt mein Haar. Jetzt sehe ich besser aus.",
+    "en": "Today I go to the hairdresser. My hair is too long. The hairdresser cuts it short. She washes and dries my hair. Now I look better.",
+    "vocab": [
+      {
+        "de": "der Friseur",
+        "en": "hairdresser"
+      },
+      {
+        "de": "das Haar",
+        "en": "hair"
+      },
+      {
+        "de": "schneiden",
+        "en": "to cut"
+      },
+      {
+        "de": "föhnen",
+        "en": "to blow-dry"
+      }
+    ]
+  },
+  {
+    "id": "S044",
+    "num": 44,
+    "title": "Ein neues Handy",
+    "titleEn": "A New Phone",
+    "level": "A1",
+    "de": "Ich habe ein neues Handy. Es ist schwarz und sehr modern. Mit dem Handy mache ich Fotos. Ich schreibe meinen Freunden Nachrichten. Mein altes Handy schenke ich meinem Bruder.",
+    "en": "I have a new phone. It is black and very modern. With the phone I take photos. I write messages to my friends. I give my old phone to my brother.",
+    "vocab": [
+      {
+        "de": "das Handy",
+        "en": "mobile phone"
+      },
+      {
+        "de": "modern",
+        "en": "modern"
+      },
+      {
+        "de": "die Nachricht",
+        "en": "message"
+      },
+      {
+        "de": "schenken",
+        "en": "to give as a gift"
+      }
+    ]
+  },
+  {
+    "id": "S045",
+    "num": 45,
+    "title": "Mein Lehrer",
+    "titleEn": "My Teacher",
+    "level": "A1",
+    "de": "Mein Deutschlehrer heißt Herr Müller. Er ist groß und hat eine Brille. Sein Unterricht ist immer interessant. Wir lernen viele neue Wörter. Ich mag Herrn Müller sehr.",
+    "en": "My German teacher is called Mr. Müller. He is tall and wears glasses. His lessons are always interesting. We learn many new words. I like Mr. Müller a lot.",
+    "vocab": [
+      {
+        "de": "der Lehrer",
+        "en": "teacher"
+      },
+      {
+        "de": "die Brille",
+        "en": "glasses"
+      },
+      {
+        "de": "der Unterricht",
+        "en": "lesson/class"
+      },
+      {
+        "de": "interessant",
+        "en": "interesting"
+      }
+    ]
+  },
+  {
+    "id": "S046",
+    "num": 46,
+    "title": "Im Bett",
+    "titleEn": "In Bed",
+    "level": "A1",
+    "de": "Es ist spät. Ich liege im Bett. Das Licht ist aus. Ich höre nur die Uhr ticken. Ich schließe die Augen und schlafe.",
+    "en": "It is late. I am lying in bed. The light is off. I only hear the clock ticking. I close my eyes and sleep.",
+    "vocab": [
+      {
+        "de": "das Bett",
+        "en": "bed"
+      },
+      {
+        "de": "das Licht",
+        "en": "light"
+      },
+      {
+        "de": "die Uhr",
+        "en": "clock"
+      },
+      {
+        "de": "das Auge",
+        "en": "eye"
+      }
+    ]
+  },
+  {
+    "id": "S047",
+    "num": 47,
+    "title": "Eine kleine Pause",
+    "titleEn": "A Short Break",
+    "level": "A1",
+    "de": "Im Büro arbeite ich seit drei Stunden. Jetzt mache ich eine Pause. Ich gehe in die Küche. Ich trinke ein Glas Wasser. Dann arbeite ich weiter.",
+    "en": "In the office I have been working for three hours. Now I am taking a break. I go to the kitchen. I drink a glass of water. Then I continue working.",
+    "vocab": [
+      {
+        "de": "das Büro",
+        "en": "office"
+      },
+      {
+        "de": "die Pause",
+        "en": "break"
+      },
+      {
+        "de": "das Wasser",
+        "en": "water"
+      },
+      {
+        "de": "weiterarbeiten",
+        "en": "to keep working"
+      }
+    ]
+  },
+  {
+    "id": "S048",
+    "num": 48,
+    "title": "Ein Sonntag",
+    "titleEn": "A Sunday",
+    "level": "A1",
+    "de": "Heute ist Sonntag. Ich bleibe im Bett bis zehn Uhr. Dann frühstücke ich lang. Am Nachmittag spaziere ich im Wald. Sonntage sind schön.",
+    "en": "Today is Sunday. I stay in bed until ten o'clock. Then I have a long breakfast. In the afternoon I take a walk in the woods. Sundays are nice.",
+    "vocab": [
+      {
+        "de": "der Sonntag",
+        "en": "Sunday"
+      },
+      {
+        "de": "frühstücken",
+        "en": "to have breakfast"
+      },
+      {
+        "de": "der Nachmittag",
+        "en": "afternoon"
+      },
+      {
+        "de": "der Wald",
+        "en": "forest"
+      }
+    ]
+  },
+  {
+    "id": "S049",
+    "num": 49,
+    "title": "Eine Reise mit dem Fahrrad",
+    "titleEn": "A Bike Trip",
+    "level": "A1",
+    "de": "Heute mache ich eine kleine Tour mit dem Fahrrad. Ich fahre durch das Dorf und über die Brücke. Im Wald ist es kühl. Nach zwei Stunden bin ich am See. Dort esse ich mein Sandwich.",
+    "en": "Today I am taking a small bike tour. I cycle through the village and over the bridge. In the forest it is cool. After two hours I am at the lake. There I eat my sandwich.",
+    "vocab": [
+      {
+        "de": "das Fahrrad",
+        "en": "bicycle"
+      },
+      {
+        "de": "die Brücke",
+        "en": "bridge"
+      },
+      {
+        "de": "der See",
+        "en": "lake"
+      },
+      {
+        "de": "das Sandwich",
+        "en": "sandwich"
+      }
+    ]
+  },
+  {
+    "id": "S050",
+    "num": 50,
+    "title": "Gute Nacht",
+    "titleEn": "Good Night",
+    "level": "A1",
+    "de": "Es ist elf Uhr. Ich putze die Zähne und ziehe meinen Schlafanzug an. Ich gehe ins Bett. Meine Mutter sagt: Gute Nacht, Schatz. Ich schlafe schnell ein.",
+    "en": "It is eleven o'clock. I brush my teeth and put on my pajamas. I go to bed. My mother says: Good night, sweetheart. I fall asleep quickly.",
+    "vocab": [
+      {
+        "de": "der Schlafanzug",
+        "en": "pajamas"
+      },
+      {
+        "de": "ins Bett gehen",
+        "en": "to go to bed"
+      },
+      {
+        "de": "der Schatz",
+        "en": "sweetheart/treasure"
+      },
+      {
+        "de": "einschlafen",
+        "en": "to fall asleep"
+      }
+    ]
+  },
+  {
+    "id": "S051",
+    "num": 51,
+    "title": "Im Café",
+    "titleEn": "At the Café",
+    "level": "A1",
+    "de": "Ich gehe ins Café. Das Café ist klein und gemütlich. Ich sitze am Fenster. Ich bestelle einen Kaffee und ein Stück Kuchen. Der Kaffee ist heiß und der Kuchen ist süß. Ich lese eine Zeitung. Das ist sehr schön.",
+    "en": "I go to the café. The café is small and cosy. I sit by the window. I order a coffee and a piece of cake. The coffee is hot and the cake is sweet. I read a newspaper. This is very nice.",
+    "vocab": [
+      {
+        "de": "das Café",
+        "en": "café"
+      },
+      {
+        "de": "bestellen",
+        "en": "to order"
+      },
+      {
+        "de": "die Tasse",
+        "en": "cup"
+      },
+      {
+        "de": "die Zeitung",
+        "en": "newspaper"
+      }
+    ]
+  },
+  {
+    "id": "S052",
+    "num": 52,
+    "title": "Beim Bäcker",
+    "titleEn": "At the Bakery",
+    "level": "A1",
+    "de": "Ich gehe zum Bäcker. Es gibt viele Brötchen und Brote. Ich kaufe vier Brötchen und einen Hefekuchen. Der Bäcker lächelt mich an. Das Brot kostet zwei Euro. Ich gehe nach Hause und esse ein Brötchen.",
+    "en": "I go to the bakery. There are many rolls and loaves. I buy four rolls and a yeast cake. The baker smiles at me. The bread costs two euros. I go home and eat a roll.",
+    "vocab": [
+      {
+        "de": "die Bäckerei",
+        "en": "bakery"
+      },
+      {
+        "de": "das Brot",
+        "en": "bread"
+      },
+      {
+        "de": "das Brötchen",
+        "en": "roll"
+      },
+      {
+        "de": "lächeln",
+        "en": "to smile"
+      }
+    ]
+  },
+  {
+    "id": "S053",
+    "num": 53,
+    "title": "Der Markt",
+    "titleEn": "The Market",
+    "level": "A1",
+    "de": "Jeden Samstag gibt es einen Markt in unserer Stadt. Ich kaufe Obst und Gemüse. Die Äpfel sind rot und frisch. Es gibt auch Blumen und Käse. Der Markt ist bunt und laut. Ich mag den Markt sehr.",
+    "en": "Every Saturday there is a market in our town. I buy fruit and vegetables. The apples are red and fresh. There are also flowers and cheese. The market is colourful and loud. I really like the market.",
+    "vocab": [
+      {
+        "de": "der Markt",
+        "en": "market"
+      },
+      {
+        "de": "frisch",
+        "en": "fresh"
+      },
+      {
+        "de": "bunt",
+        "en": "colourful"
+      },
+      {
+        "de": "laut",
+        "en": "loud"
+      }
+    ]
+  },
+  {
+    "id": "S054",
+    "num": 54,
+    "title": "Mein Hund",
+    "titleEn": "My Dog",
+    "level": "A1",
+    "de": "Ich habe einen Hund. Er heißt Theo und ist sehr groß. Theo ist schwarz und hat lange Ohren. Ich füttere ihn jeden Tag. Wir gehen morgens und abends spazieren. Theo schläft neben meinem Bett.",
+    "en": "I have a dog. His name is Theo and he is very big. Theo is black and has long ears. I feed him every day. We go for walks in the morning and in the evening. Theo sleeps next to my bed.",
+    "vocab": [
+      {
+        "de": "der Hund",
+        "en": "dog"
+      },
+      {
+        "de": "füttern",
+        "en": "to feed"
+      },
+      {
+        "de": "das Ohr",
+        "en": "ear"
+      },
+      {
+        "de": "spazieren gehen",
+        "en": "to go for a walk"
+      }
+    ]
+  },
+  {
+    "id": "S055",
+    "num": 55,
+    "title": "Die Schule",
+    "titleEn": "The School",
+    "level": "A1",
+    "de": "Ich gehe jeden Morgen in die Schule. Meine Schule ist groß und hat viele Klassenräume. Ich lerne Deutsch, Englisch und Mathematik. In der Pause esse ich ein Brot. Nach der Schule mache ich Hausaufgaben. Die Schule ist wichtig.",
+    "en": "I go to school every morning. My school is big and has many classrooms. I study German, English and Mathematics. During the break I eat a sandwich. After school I do homework. School is important.",
+    "vocab": [
+      {
+        "de": "die Schule",
+        "en": "school"
+      },
+      {
+        "de": "der Klassenraum",
+        "en": "classroom"
+      },
+      {
+        "de": "die Hausaufgaben",
+        "en": "homework"
+      },
+      {
+        "de": "die Mathematik",
+        "en": "mathematics"
+      }
+    ]
+  },
+  {
+    "id": "S056",
+    "num": 56,
+    "title": "Das Wetter heute",
+    "titleEn": "Today's Weather",
+    "level": "A1",
+    "de": "Heute regnet es. Der Himmel ist grau. Ich nehme einen Regenschirm. Draußen ist es kalt und windig. Ich trage eine warme Jacke. Zu Hause trinke ich heißen Tee.",
+    "en": "Today it is raining. The sky is grey. I take an umbrella. Outside it is cold and windy. I wear a warm jacket. At home I drink hot tea.",
+    "vocab": [
+      {
+        "de": "der Regen",
+        "en": "rain"
+      },
+      {
+        "de": "der Regenschirm",
+        "en": "umbrella"
+      },
+      {
+        "de": "der Himmel",
+        "en": "sky"
+      },
+      {
+        "de": "windig",
+        "en": "windy"
+      }
+    ]
+  },
+  {
+    "id": "S057",
+    "num": 57,
+    "title": "Mein Geburtstag",
+    "titleEn": "My Birthday",
+    "level": "A1",
+    "de": "Heute ist mein Geburtstag. Ich bin jetzt acht Jahre alt. Meine Eltern kaufen mir ein Geschenk. Ich bekomme ein rotes Fahrrad. Meine Freunde kommen zum Mittagessen. Wir essen Torte und spielen zusammen.",
+    "en": "Today is my birthday. I am now eight years old. My parents buy me a present. I receive a red bicycle. My friends come for lunch. We eat cake and play together.",
+    "vocab": [
+      {
+        "de": "der Geburtstag",
+        "en": "birthday"
+      },
+      {
+        "de": "das Geschenk",
+        "en": "present/gift"
+      },
+      {
+        "de": "bekommen",
+        "en": "to receive"
+      },
+      {
+        "de": "die Torte",
+        "en": "cake"
+      }
+    ]
+  },
+  {
+    "id": "S058",
+    "num": 58,
+    "title": "Im Zug",
+    "titleEn": "On the Train",
+    "level": "A1",
+    "de": "Ich fahre mit dem Zug nach Hamburg. Der Zug ist groß und bequem. Ich sitze am Fenster. Draußen sehe ich Felder und Wälder. Ich lese ein Buch und trinke Wasser. Nach drei Stunden bin ich da.",
+    "en": "I travel by train to Hamburg. The train is big and comfortable. I sit by the window. Outside I see fields and forests. I read a book and drink water. After three hours I am there.",
+    "vocab": [
+      {
+        "de": "der Zug",
+        "en": "train"
+      },
+      {
+        "de": "bequem",
+        "en": "comfortable"
+      },
+      {
+        "de": "das Feld",
+        "en": "field"
+      },
+      {
+        "de": "der Wald",
+        "en": "forest"
+      }
+    ]
+  },
+  {
+    "id": "S059",
+    "num": 59,
+    "title": "Am Strand",
+    "titleEn": "At the Beach",
+    "level": "A1",
+    "de": "Wir sind am Strand. Das Wasser ist blau und warm. Ich schwimme und spiele im Sand. Meine Schwester baut eine Sandburg. Wir essen Eis. Der Tag am Strand ist wunderbar.",
+    "en": "We are at the beach. The water is blue and warm. I swim and play in the sand. My sister builds a sandcastle. We eat ice cream. The day at the beach is wonderful.",
+    "vocab": [
+      {
+        "de": "der Strand",
+        "en": "beach"
+      },
+      {
+        "de": "das Wasser",
+        "en": "water"
+      },
+      {
+        "de": "der Sand",
+        "en": "sand"
+      },
+      {
+        "de": "wunderbar",
+        "en": "wonderful"
+      }
+    ]
+  },
+  {
+    "id": "S060",
+    "num": 60,
+    "title": "In der Küche kochen",
+    "titleEn": "Cooking in the Kitchen",
+    "level": "A1",
+    "de": "Heute koche ich Suppe. Ich nehme Kartoffeln, Karotten und Zwiebeln. Ich schneide das Gemüse. Dann koche ich alles in Wasser. Die Suppe riecht gut. Ich esse sie mit Brot.",
+    "en": "Today I cook soup. I take potatoes, carrots and onions. I chop the vegetables. Then I cook everything in water. The soup smells good. I eat it with bread.",
+    "vocab": [
+      {
+        "de": "die Küche",
+        "en": "kitchen"
+      },
+      {
+        "de": "die Kartoffel",
+        "en": "potato"
+      },
+      {
+        "de": "die Karotte",
+        "en": "carrot"
+      },
+      {
+        "de": "schneiden",
+        "en": "to chop/cut"
+      }
+    ]
+  },
+  {
+    "id": "S061",
+    "num": 61,
+    "title": "Der Kindergarten",
+    "titleEn": "Kindergarten",
+    "level": "A1",
+    "de": "Meine Tochter geht in den Kindergarten. Sie ist vier Jahre alt. Im Kindergarten malt sie und singt Lieder. Sie hat viele Freunde dort. Um drei Uhr hole ich sie ab. Sie ist immer glücklich.",
+    "en": "My daughter goes to kindergarten. She is four years old. In kindergarten she paints and sings songs. She has many friends there. At three o'clock I pick her up. She is always happy.",
+    "vocab": [
+      {
+        "de": "der Kindergarten",
+        "en": "kindergarten"
+      },
+      {
+        "de": "das Lied",
+        "en": "song"
+      },
+      {
+        "de": "abholen",
+        "en": "to pick up"
+      },
+      {
+        "de": "glücklich",
+        "en": "happy"
+      }
+    ]
+  },
+  {
+    "id": "S062",
+    "num": 62,
+    "title": "Mein Fahrrad",
+    "titleEn": "My Bicycle",
+    "level": "A1",
+    "de": "Ich habe ein neues Fahrrad. Es ist grün und schnell. Ich fahre damit in die Schule. Der Weg dauert zehn Minuten. Das Fahrrad macht Spaß. Ich brauche kein Auto.",
+    "en": "I have a new bicycle. It is green and fast. I ride it to school. The journey takes ten minutes. The bicycle is fun. I do not need a car.",
+    "vocab": [
+      {
+        "de": "das Fahrrad",
+        "en": "bicycle"
+      },
+      {
+        "de": "der Weg",
+        "en": "way/path"
+      },
+      {
+        "de": "dauern",
+        "en": "to take/last"
+      },
+      {
+        "de": "brauchen",
+        "en": "to need"
+      }
+    ]
+  },
+  {
+    "id": "S063",
+    "num": 63,
+    "title": "Beim Arzt",
+    "titleEn": "At the Doctor",
+    "level": "A1",
+    "de": "Ich bin beim Arzt. Mein Bauch tut weh. Der Arzt fragt mich: Was fehlt Ihnen? Ich sage: Ich habe Bauchschmerzen. Der Arzt gibt mir eine Tablette. Ich muss viel Wasser trinken.",
+    "en": "I am at the doctor. My stomach hurts. The doctor asks me: What is wrong? I say: I have stomach ache. The doctor gives me a tablet. I must drink a lot of water.",
+    "vocab": [
+      {
+        "de": "der Arzt",
+        "en": "doctor"
+      },
+      {
+        "de": "der Bauch",
+        "en": "stomach/belly"
+      },
+      {
+        "de": "wehtun",
+        "en": "to hurt"
+      },
+      {
+        "de": "die Tablette",
+        "en": "tablet"
+      }
+    ]
+  },
+  {
+    "id": "S064",
+    "num": 64,
+    "title": "Im Supermarkt einkaufen",
+    "titleEn": "Shopping at the Supermarket",
+    "level": "A1",
+    "de": "Ich gehe in den Supermarkt. Ich habe eine Einkaufsliste. Ich kaufe Milch, Eier, Brot und Äpfel. An der Kasse bezahle ich zehn Euro. Dann fahre ich nach Hause. Das Einkaufen dauert nicht lange.",
+    "en": "I go to the supermarket. I have a shopping list. I buy milk, eggs, bread and apples. At the checkout I pay ten euros. Then I drive home. The shopping does not take long.",
+    "vocab": [
+      {
+        "de": "die Einkaufsliste",
+        "en": "shopping list"
+      },
+      {
+        "de": "das Ei",
+        "en": "egg"
+      },
+      {
+        "de": "die Milch",
+        "en": "milk"
+      },
+      {
+        "de": "bezahlen",
+        "en": "to pay"
+      }
+    ]
+  },
+  {
+    "id": "S065",
+    "num": 65,
+    "title": "Der Park",
+    "titleEn": "The Park",
+    "level": "A1",
+    "de": "Ich gehe in den Park. Der Park ist groß und grün. Kinder spielen und Hunde laufen. Ich sitze auf einer Bank und lese. Die Vögel singen. Im Park ist es sehr schön.",
+    "en": "I go to the park. The park is big and green. Children play and dogs run. I sit on a bench and read. The birds sing. The park is very beautiful.",
+    "vocab": [
+      {
+        "de": "der Park",
+        "en": "park"
+      },
+      {
+        "de": "die Bank",
+        "en": "bench"
+      },
+      {
+        "de": "der Vogel",
+        "en": "bird"
+      },
+      {
+        "de": "grün",
+        "en": "green"
+      }
+    ]
+  },
+  {
+    "id": "S066",
+    "num": 66,
+    "title": "Meine Freunde",
+    "titleEn": "My Friends",
+    "level": "A1",
+    "de": "Ich habe drei gute Freunde. Sie heißen Tom, Lisa und Jan. Wir spielen zusammen Fußball. Manchmal gehen wir ins Kino. Wir lachen viel. Meine Freunde sind sehr wichtig für mich.",
+    "en": "I have three good friends. Their names are Tom, Lisa and Jan. We play football together. Sometimes we go to the cinema. We laugh a lot. My friends are very important to me.",
+    "vocab": [
+      {
+        "de": "der Freund",
+        "en": "friend"
+      },
+      {
+        "de": "zusammen",
+        "en": "together"
+      },
+      {
+        "de": "manchmal",
+        "en": "sometimes"
+      },
+      {
+        "de": "wichtig",
+        "en": "important"
+      }
+    ]
+  },
+  {
+    "id": "S067",
+    "num": 67,
+    "title": "Das Frühstück",
+    "titleEn": "Breakfast",
+    "level": "A1",
+    "de": "Morgens esse ich Frühstück. Ich trinke Orangensaft und Milch. Ich esse Brot mit Butter und Honig. Manchmal gibt es auch ein Ei. Das Frühstück schmeckt gut. Dann gehe ich in die Schule.",
+    "en": "In the morning I eat breakfast. I drink orange juice and milk. I eat bread with butter and honey. Sometimes there is also an egg. Breakfast tastes good. Then I go to school.",
+    "vocab": [
+      {
+        "de": "das Frühstück",
+        "en": "breakfast"
+      },
+      {
+        "de": "der Honig",
+        "en": "honey"
+      },
+      {
+        "de": "der Orangensaft",
+        "en": "orange juice"
+      },
+      {
+        "de": "die Butter",
+        "en": "butter"
+      }
+    ]
+  },
+  {
+    "id": "S068",
+    "num": 68,
+    "title": "Im Bus fahren",
+    "titleEn": "Riding the Bus",
+    "level": "A1",
+    "de": "Ich fahre mit dem Bus in die Stadt. Der Bus kommt um halb neun. Ich kaufe ein Ticket am Automaten. Im Bus gibt es viele Leute. Ich sitze neben dem Fenster. Nach zwanzig Minuten bin ich da.",
+    "en": "I take the bus into town. The bus comes at half past eight. I buy a ticket from the machine. There are many people on the bus. I sit next to the window. After twenty minutes I am there.",
+    "vocab": [
+      {
+        "de": "der Bus",
+        "en": "bus"
+      },
+      {
+        "de": "der Automat",
+        "en": "machine/vending machine"
+      },
+      {
+        "de": "das Ticket",
+        "en": "ticket"
+      },
+      {
+        "de": "das Fenster",
+        "en": "window"
+      }
+    ]
+  },
+  {
+    "id": "S069",
+    "num": 69,
+    "title": "Die Bibliothek",
+    "titleEn": "The Library",
+    "level": "A1",
+    "de": "Ich gehe in die Bibliothek. Es ist sehr ruhig dort. Ich suche ein Buch über Tiere. Die Bibliothekarin hilft mir. Ich leihe drei Bücher aus. Ich muss sie in zwei Wochen zurückgeben.",
+    "en": "I go to the library. It is very quiet there. I look for a book about animals. The librarian helps me. I borrow three books. I must return them in two weeks.",
+    "vocab": [
+      {
+        "de": "die Bibliothek",
+        "en": "library"
+      },
+      {
+        "de": "ausleihen",
+        "en": "to borrow"
+      },
+      {
+        "de": "zurückgeben",
+        "en": "to return"
+      },
+      {
+        "de": "ruhig",
+        "en": "quiet"
+      }
+    ]
+  },
+  {
+    "id": "S070",
+    "num": 70,
+    "title": "Mein Lieblingsfilm",
+    "titleEn": "My Favourite Film",
+    "level": "A1",
+    "de": "Mein Lieblingsfilm ist ein Zeichentrickfilm. Er heißt Der König der Löwen. Der Film ist lustig und traurig. Ich habe ihn viele Male gesehen. Heute Abend sehe ich ihn wieder. Ich liebe diesen Film.",
+    "en": "My favourite film is an animated film. It is called The Lion King. The film is funny and sad. I have seen it many times. Tonight I will watch it again. I love this film.",
+    "vocab": [
+      {
+        "de": "der Lieblingsfilm",
+        "en": "favourite film"
+      },
+      {
+        "de": "der Zeichentrickfilm",
+        "en": "animated film"
+      },
+      {
+        "de": "traurig",
+        "en": "sad"
+      },
+      {
+        "de": "wieder",
+        "en": "again"
+      }
+    ]
+  },
+  {
+    "id": "S071",
+    "num": 71,
+    "title": "Im Schwimmbad",
+    "titleEn": "At the Swimming Pool",
+    "level": "A1",
+    "de": "Heute gehe ich ins Schwimmbad. Das Wasser ist kalt, aber ich springe hinein. Ich schwimme zwanzig Runden. Danach liege ich in der Sonne. Mein Körper ist müde. Schwimmen ist mein Lieblingssport.",
+    "en": "Today I go to the swimming pool. The water is cold, but I jump in. I swim twenty laps. Then I lie in the sun. My body is tired. Swimming is my favourite sport.",
+    "vocab": [
+      {
+        "de": "das Schwimmbad",
+        "en": "swimming pool"
+      },
+      {
+        "de": "springen",
+        "en": "to jump"
+      },
+      {
+        "de": "die Runde",
+        "en": "lap/round"
+      },
+      {
+        "de": "der Lieblingssport",
+        "en": "favourite sport"
+      }
+    ]
+  },
+  {
+    "id": "S072",
+    "num": 72,
+    "title": "Die Farben",
+    "titleEn": "The Colours",
+    "level": "A1",
+    "de": "Ich male ein Bild. Ich benutze viele Farben. Mein Himmel ist blau und die Sonne ist gelb. Das Gras ist grün. Die Blumen sind rot und lila. Das Bild ist sehr bunt.",
+    "en": "I paint a picture. I use many colours. My sky is blue and the sun is yellow. The grass is green. The flowers are red and purple. The picture is very colourful.",
+    "vocab": [
+      {
+        "de": "die Farbe",
+        "en": "colour"
+      },
+      {
+        "de": "malen",
+        "en": "to paint"
+      },
+      {
+        "de": "das Gras",
+        "en": "grass"
+      },
+      {
+        "de": "bunt",
+        "en": "colourful"
+      }
+    ]
+  },
+  {
+    "id": "S073",
+    "num": 73,
+    "title": "Meine Stadt",
+    "titleEn": "My City",
+    "level": "A1",
+    "de": "Ich wohne in einer großen Stadt. Es gibt viele Geschäfte, Parks und Restaurants. Die Stadt ist immer laut und lebendig. Ich fahre mit dem Bus oder zu Fuß. Meine Stadt ist schön. Ich lebe gern hier.",
+    "en": "I live in a big city. There are many shops, parks and restaurants. The city is always loud and lively. I travel by bus or on foot. My city is beautiful. I enjoy living here.",
+    "vocab": [
+      {
+        "de": "die Stadt",
+        "en": "city"
+      },
+      {
+        "de": "lebendig",
+        "en": "lively"
+      },
+      {
+        "de": "zu Fuß",
+        "en": "on foot"
+      },
+      {
+        "de": "das Geschäft",
+        "en": "shop"
+      }
+    ]
+  },
+  {
+    "id": "S074",
+    "num": 74,
+    "title": "Der Sommer",
+    "titleEn": "Summer",
+    "level": "A1",
+    "de": "Im Sommer ist es heiß. Die Sonne scheint jeden Tag. Wir gehen an den See. Ich trage kurze Hosen und ein T-Shirt. Wir essen Eis. Der Sommer ist meine Lieblingszeit.",
+    "en": "In summer it is hot. The sun shines every day. We go to the lake. I wear shorts and a T-shirt. We eat ice cream. Summer is my favourite time of year.",
+    "vocab": [
+      {
+        "de": "der Sommer",
+        "en": "summer"
+      },
+      {
+        "de": "heiß",
+        "en": "hot"
+      },
+      {
+        "de": "der See",
+        "en": "lake"
+      },
+      {
+        "de": "die Lieblingszeit",
+        "en": "favourite time"
+      }
+    ]
+  },
+  {
+    "id": "S075",
+    "num": 75,
+    "title": "Im Restaurant essen",
+    "titleEn": "Eating at the Restaurant",
+    "level": "A1",
+    "de": "Wir gehen heute ins Restaurant. Das Restaurant ist schön und warm. Ich bestelle Fleisch mit Kartoffeln. Meine Mutter nimmt Fisch. Das Essen ist sehr lecker. Wir bezahlen zusammen.",
+    "en": "We go to the restaurant today. The restaurant is nice and warm. I order meat with potatoes. My mother has fish. The food is very tasty. We pay together.",
+    "vocab": [
+      {
+        "de": "das Restaurant",
+        "en": "restaurant"
+      },
+      {
+        "de": "das Fleisch",
+        "en": "meat"
+      },
+      {
+        "de": "der Fisch",
+        "en": "fish"
+      },
+      {
+        "de": "lecker",
+        "en": "tasty"
+      }
+    ]
+  },
+  {
+    "id": "S076",
+    "num": 76,
+    "title": "Die Blumen",
+    "titleEn": "The Flowers",
+    "level": "A1",
+    "de": "Im Garten gibt es viele Blumen. Es gibt rote Rosen und gelbe Tulpen. Ich gieße die Blumen jeden Morgen. Sie brauchen Wasser und Sonne. Die Blumen riechen sehr schön. Ich liebe meinen Garten.",
+    "en": "In the garden there are many flowers. There are red roses and yellow tulips. I water the flowers every morning. They need water and sun. The flowers smell very nice. I love my garden.",
+    "vocab": [
+      {
+        "de": "die Blume",
+        "en": "flower"
+      },
+      {
+        "de": "die Rose",
+        "en": "rose"
+      },
+      {
+        "de": "gießen",
+        "en": "to water"
+      },
+      {
+        "de": "riechen",
+        "en": "to smell"
+      }
+    ]
+  },
+  {
+    "id": "S077",
+    "num": 77,
+    "title": "Mein Zimmer aufräumen",
+    "titleEn": "Tidying My Room",
+    "level": "A1",
+    "de": "Mein Zimmer ist unordentlich. Ich räume es auf. Ich lege die Bücher ins Regal. Ich mache das Bett. Ich stelle die Schuhe an die Tür. Jetzt ist mein Zimmer sauber und schön.",
+    "en": "My room is untidy. I tidy it up. I put the books on the shelf. I make the bed. I put the shoes by the door. Now my room is clean and nice.",
+    "vocab": [
+      {
+        "de": "aufräumen",
+        "en": "to tidy up"
+      },
+      {
+        "de": "das Regal",
+        "en": "shelf"
+      },
+      {
+        "de": "das Bett machen",
+        "en": "to make the bed"
+      },
+      {
+        "de": "sauber",
+        "en": "clean"
+      }
+    ]
+  },
+  {
+    "id": "S078",
+    "num": 78,
+    "title": "Im Zoo",
+    "titleEn": "At the Zoo",
+    "level": "A1",
+    "de": "Ich gehe mit meiner Familie in den Zoo. Wir sehen Zebras, Giraffen und Pinguine. Die Giraffe ist sehr groß. Die Pinguine schwimmen im Wasser. Ich mache viele Fotos. Der Zoo ist toll.",
+    "en": "I go to the zoo with my family. We see zebras, giraffes and penguins. The giraffe is very tall. The penguins swim in the water. I take many photos. The zoo is great.",
+    "vocab": [
+      {
+        "de": "der Zoo",
+        "en": "zoo"
+      },
+      {
+        "de": "die Giraffe",
+        "en": "giraffe"
+      },
+      {
+        "de": "der Pinguin",
+        "en": "penguin"
+      },
+      {
+        "de": "das Foto",
+        "en": "photo"
+      }
+    ]
+  },
+  {
+    "id": "S079",
+    "num": 79,
+    "title": "Das Konzert",
+    "titleEn": "The Concert",
+    "level": "A1",
+    "de": "Heute Abend gehe ich zu einem Konzert. Meine Lieblingsband spielt. Das Konzert beginnt um acht Uhr. Es gibt viele Menschen dort. Die Musik ist sehr laut. Ich singe und tanze mit.",
+    "en": "Tonight I go to a concert. My favourite band is playing. The concert starts at eight o'clock. There are many people there. The music is very loud. I sing and dance along.",
+    "vocab": [
+      {
+        "de": "das Konzert",
+        "en": "concert"
+      },
+      {
+        "de": "die Band",
+        "en": "band"
+      },
+      {
+        "de": "tanzen",
+        "en": "to dance"
+      },
+      {
+        "de": "laut",
+        "en": "loud"
+      }
+    ]
+  },
+  {
+    "id": "S080",
+    "num": 80,
+    "title": "Beim Friseur",
+    "titleEn": "At the Hairdresser",
+    "level": "A1",
+    "de": "Ich habe einen Termin beim Friseur. Mein Haar ist lang und ich möchte es kürzer. Der Friseur fragt: Wie möchten Sie es? Ich sage: Kurz bitte. Er schneidet mein Haar. Ich bezahle fünfzehn Euro.",
+    "en": "I have an appointment at the hairdresser. My hair is long and I would like it shorter. The hairdresser asks: How would you like it? I say: Short please. He cuts my hair. I pay fifteen euros.",
+    "vocab": [
+      {
+        "de": "der Termin",
+        "en": "appointment"
+      },
+      {
+        "de": "kürzer",
+        "en": "shorter"
+      },
+      {
+        "de": "schneiden",
+        "en": "to cut"
+      },
+      {
+        "de": "bezahlen",
+        "en": "to pay"
+      }
+    ]
+  },
+  {
+    "id": "S081",
+    "num": 81,
+    "title": "Die Jahreszeiten",
+    "titleEn": "The Seasons",
+    "level": "A1",
+    "de": "Es gibt vier Jahreszeiten. Im Frühling ist es warm und die Blumen blühen. Im Sommer ist es heiß. Im Herbst fallen die Blätter. Im Winter schneit es. Ich mag alle Jahreszeiten.",
+    "en": "There are four seasons. In spring it is warm and the flowers bloom. In summer it is hot. In autumn the leaves fall. In winter it snows. I like all the seasons.",
+    "vocab": [
+      {
+        "de": "die Jahreszeit",
+        "en": "season"
+      },
+      {
+        "de": "der Frühling",
+        "en": "spring"
+      },
+      {
+        "de": "der Herbst",
+        "en": "autumn"
+      },
+      {
+        "de": "das Blatt",
+        "en": "leaf"
+      }
+    ]
+  },
+  {
+    "id": "S082",
+    "num": 82,
+    "title": "Mein Computer",
+    "titleEn": "My Computer",
+    "level": "A1",
+    "de": "Ich habe einen Computer zu Hause. Mit dem Computer lerne ich Deutsch. Ich schaue auch Videos. Manchmal spiele ich Spiele. Der Computer ist sehr praktisch. Ich benutze ihn jeden Tag.",
+    "en": "I have a computer at home. With the computer I learn German. I also watch videos. Sometimes I play games. The computer is very practical. I use it every day.",
+    "vocab": [
+      {
+        "de": "der Computer",
+        "en": "computer"
+      },
+      {
+        "de": "praktisch",
+        "en": "practical"
+      },
+      {
+        "de": "benutzen",
+        "en": "to use"
+      },
+      {
+        "de": "das Video",
+        "en": "video"
+      }
+    ]
+  },
+  {
+    "id": "S083",
+    "num": 83,
+    "title": "In der Apotheke",
+    "titleEn": "At the Pharmacy",
+    "level": "A1",
+    "de": "Ich bin in der Apotheke. Ich habe Kopfschmerzen. Die Apothekerin fragt mich: Wie kann ich helfen? Ich sage: Ich brauche etwas gegen Kopfschmerzen. Sie gibt mir eine Tablette. Ich bezahle und gehe nach Hause.",
+    "en": "I am at the pharmacy. I have a headache. The pharmacist asks me: How can I help? I say: I need something for a headache. She gives me a tablet. I pay and go home.",
+    "vocab": [
+      {
+        "de": "die Apotheke",
+        "en": "pharmacy"
+      },
+      {
+        "de": "die Kopfschmerzen",
+        "en": "headache"
+      },
+      {
+        "de": "die Apothekerin",
+        "en": "pharmacist (f.)"
+      },
+      {
+        "de": "gegen",
+        "en": "against/for"
+      }
+    ]
+  },
+  {
+    "id": "S084",
+    "num": 84,
+    "title": "Der Spielplatz",
+    "titleEn": "The Playground",
+    "level": "A1",
+    "de": "Mein Sohn liebt den Spielplatz. Er klettert und schaukelt. Ich sitze auf einer Bank und schaue zu. Es gibt auch andere Kinder. Sie spielen zusammen und lachen. Wir kommen jeden Tag hier.",
+    "en": "My son loves the playground. He climbs and swings. I sit on a bench and watch. There are also other children. They play together and laugh. We come here every day.",
+    "vocab": [
+      {
+        "de": "der Spielplatz",
+        "en": "playground"
+      },
+      {
+        "de": "klettern",
+        "en": "to climb"
+      },
+      {
+        "de": "schaukeln",
+        "en": "to swing"
+      },
+      {
+        "de": "zuschauen",
+        "en": "to watch"
+      }
+    ]
+  },
+  {
+    "id": "S085",
+    "num": 85,
+    "title": "Meine Lieblingsfarbe",
+    "titleEn": "My Favourite Colour",
+    "level": "A1",
+    "de": "Meine Lieblingsfarbe ist blau. Mein Zimmer ist blau. Ich trage oft blaue Kleidung. Meine Tasche ist auch blau. Blau ist die Farbe des Himmels und des Meeres. Ich mag Blau sehr.",
+    "en": "My favourite colour is blue. My room is blue. I often wear blue clothes. My bag is also blue. Blue is the colour of the sky and the sea. I really like blue.",
+    "vocab": [
+      {
+        "de": "die Lieblingsfarbe",
+        "en": "favourite colour"
+      },
+      {
+        "de": "blau",
+        "en": "blue"
+      },
+      {
+        "de": "die Kleidung",
+        "en": "clothing"
+      },
+      {
+        "de": "die Tasche",
+        "en": "bag"
+      }
+    ]
+  },
+  {
+    "id": "S086",
+    "num": 86,
+    "title": "Das Wochenende",
+    "titleEn": "The Weekend",
+    "level": "A1",
+    "de": "Am Samstag schlafe ich lang. Dann gehe ich einkaufen. Am Nachmittag treffe ich Freunde. Wir trinken Kaffee und reden. Am Sonntag bleibe ich zu Hause. Das Wochenende ist super.",
+    "en": "On Saturday I sleep in. Then I go shopping. In the afternoon I meet friends. We drink coffee and chat. On Sunday I stay at home. The weekend is great.",
+    "vocab": [
+      {
+        "de": "das Wochenende",
+        "en": "weekend"
+      },
+      {
+        "de": "treffen",
+        "en": "to meet"
+      },
+      {
+        "de": "reden",
+        "en": "to chat/talk"
+      },
+      {
+        "de": "bleiben",
+        "en": "to stay"
+      }
+    ]
+  },
+  {
+    "id": "S087",
+    "num": 87,
+    "title": "Beim Sport",
+    "titleEn": "Doing Sport",
+    "level": "A1",
+    "de": "Ich gehe dreimal in der Woche joggen. Ich laufe im Park. Die Luft ist frisch und gut. Nach dem Joggen trinke ich viel Wasser. Sport macht mich fit. Ich fühle mich danach sehr gut.",
+    "en": "I go jogging three times a week. I run in the park. The air is fresh and good. After jogging I drink a lot of water. Sport keeps me fit. I feel very good afterwards.",
+    "vocab": [
+      {
+        "de": "joggen",
+        "en": "to jog"
+      },
+      {
+        "de": "die Luft",
+        "en": "air"
+      },
+      {
+        "de": "fit",
+        "en": "fit"
+      },
+      {
+        "de": "danach",
+        "en": "afterwards"
+      }
+    ]
+  },
+  {
+    "id": "S088",
+    "num": 88,
+    "title": "Die Katze",
+    "titleEn": "The Cat",
+    "level": "A1",
+    "de": "Unsere Katze heißt Luna. Sie ist grau und klein. Luna schläft sehr viel. Sie frisst Katzenfutter und trinkt Milch. Manchmal spielt sie mit einem Ball. Wir lieben Luna sehr.",
+    "en": "Our cat is called Luna. She is grey and small. Luna sleeps a lot. She eats cat food and drinks milk. Sometimes she plays with a ball. We love Luna very much.",
+    "vocab": [
+      {
+        "de": "die Katze",
+        "en": "cat"
+      },
+      {
+        "de": "das Katzenfutter",
+        "en": "cat food"
+      },
+      {
+        "de": "fressen",
+        "en": "to eat (animals)"
+      },
+      {
+        "de": "grau",
+        "en": "grey"
+      }
+    ]
+  },
+  {
+    "id": "S089",
+    "num": 89,
+    "title": "Im Hotel",
+    "titleEn": "At the Hotel",
+    "level": "A1",
+    "de": "Wir sind im Hotel. Das Zimmer ist sauber und groß. Es gibt ein Bett und ein Bad. Das Frühstück beginnt um sieben Uhr. Wir essen Brot, Käse und Obst. Das Hotel ist sehr schön.",
+    "en": "We are at the hotel. The room is clean and big. There is a bed and a bathroom. Breakfast starts at seven o'clock. We eat bread, cheese and fruit. The hotel is very nice.",
+    "vocab": [
+      {
+        "de": "das Hotel",
+        "en": "hotel"
+      },
+      {
+        "de": "sauber",
+        "en": "clean"
+      },
+      {
+        "de": "das Bad",
+        "en": "bathroom"
+      },
+      {
+        "de": "beginnen",
+        "en": "to start/begin"
+      }
+    ]
+  },
+  {
+    "id": "S090",
+    "num": 90,
+    "title": "Mein Weg zur Arbeit",
+    "titleEn": "My Way to Work",
+    "level": "A1",
+    "de": "Jeden Morgen fahre ich zur Arbeit. Ich fahre mit dem Fahrrad. Der Weg dauert fünfzehn Minuten. Ich fahre durch den Park. Die Luft ist frisch am Morgen. Ich komme pünktlich an.",
+    "en": "Every morning I go to work. I ride my bicycle. The journey takes fifteen minutes. I cycle through the park. The air is fresh in the morning. I arrive on time.",
+    "vocab": [
+      {
+        "de": "der Weg",
+        "en": "way/route"
+      },
+      {
+        "de": "pünktlich",
+        "en": "on time"
+      },
+      {
+        "de": "ankommen",
+        "en": "to arrive"
+      },
+      {
+        "de": "durch",
+        "en": "through"
+      }
+    ]
+  },
+  {
+    "id": "S091",
+    "num": 91,
+    "title": "Die Musik",
+    "titleEn": "Music",
+    "level": "A1",
+    "de": "Ich höre gern Musik. Ich mag Pop und Klassik. Meine Lieblingssängerin heißt Adele. Ich höre Musik im Bus und zu Hause. Manchmal singe ich mit. Musik macht mich glücklich.",
+    "en": "I like listening to music. I like pop and classical music. My favourite singer is called Adele. I listen to music on the bus and at home. Sometimes I sing along. Music makes me happy.",
+    "vocab": [
+      {
+        "de": "die Musik",
+        "en": "music"
+      },
+      {
+        "de": "die Sängerin",
+        "en": "singer (f.)"
+      },
+      {
+        "de": "mitsingen",
+        "en": "to sing along"
+      },
+      {
+        "de": "glücklich",
+        "en": "happy"
+      }
+    ]
+  },
+  {
+    "id": "S092",
+    "num": 92,
+    "title": "Ein Brief schreiben",
+    "titleEn": "Writing a Letter",
+    "level": "A1",
+    "de": "Ich schreibe einen Brief an meine Oma. Ich erzähle ihr von der Schule. Ich frage sie: Wie geht es dir? Ich schreibe mit einem Stift auf Papier. Dann stecke ich den Brief in einen Umschlag. Ich gehe zur Post.",
+    "en": "I write a letter to my grandmother. I tell her about school. I ask her: How are you? I write with a pen on paper. Then I put the letter in an envelope. I go to the post office.",
+    "vocab": [
+      {
+        "de": "der Brief",
+        "en": "letter"
+      },
+      {
+        "de": "der Stift",
+        "en": "pen"
+      },
+      {
+        "de": "der Umschlag",
+        "en": "envelope"
+      },
+      {
+        "de": "die Post",
+        "en": "post office"
+      }
+    ]
+  },
+  {
+    "id": "S093",
+    "num": 93,
+    "title": "Im Kino",
+    "titleEn": "At the Cinema",
+    "level": "A1",
+    "de": "Heute gehe ich ins Kino. Ich kaufe eine Karte für einen Actionfilm. Ich kaufe Popcorn und Cola. Der Film beginnt um sieben Uhr. Die Bilder sind groß und bunt. Der Film macht mir Spaß.",
+    "en": "Today I go to the cinema. I buy a ticket for an action film. I buy popcorn and cola. The film starts at seven o'clock. The pictures are big and colourful. I enjoy the film.",
+    "vocab": [
+      {
+        "de": "das Kino",
+        "en": "cinema"
+      },
+      {
+        "de": "die Karte",
+        "en": "ticket"
+      },
+      {
+        "de": "der Actionfilm",
+        "en": "action film"
+      },
+      {
+        "de": "Spaß machen",
+        "en": "to be fun"
+      }
+    ]
+  },
+  {
+    "id": "S094",
+    "num": 94,
+    "title": "Der Abend",
+    "titleEn": "The Evening",
+    "level": "A1",
+    "de": "Am Abend esse ich mit meiner Familie. Wir essen Suppe und Brot. Danach sehen wir fern. Ich dusche und putze die Zähne. Um zehn Uhr gehe ich ins Bett. Der Abend ist ruhig und schön.",
+    "en": "In the evening I eat with my family. We eat soup and bread. Afterwards we watch TV. I shower and brush my teeth. At ten o'clock I go to bed. The evening is calm and nice.",
+    "vocab": [
+      {
+        "de": "der Abend",
+        "en": "evening"
+      },
+      {
+        "de": "fernsehen",
+        "en": "to watch TV"
+      },
+      {
+        "de": "duschen",
+        "en": "to shower"
+      },
+      {
+        "de": "ruhig",
+        "en": "calm"
+      }
+    ]
+  },
+  {
+    "id": "S095",
+    "num": 95,
+    "title": "Meine Kleidung",
+    "titleEn": "My Clothing",
+    "level": "A1",
+    "de": "Ich kaufe neue Kleidung. Ich brauche ein Hemd und eine Hose. Das Hemd ist weiß und die Hose ist schwarz. Ich kaufe auch neue Schuhe. Die Schuhe sind braun. Ich sehe gut aus.",
+    "en": "I buy new clothing. I need a shirt and trousers. The shirt is white and the trousers are black. I also buy new shoes. The shoes are brown. I look good.",
+    "vocab": [
+      {
+        "de": "die Kleidung",
+        "en": "clothing"
+      },
+      {
+        "de": "das Hemd",
+        "en": "shirt"
+      },
+      {
+        "de": "die Schuhe",
+        "en": "shoes"
+      },
+      {
+        "de": "aussehen",
+        "en": "to look"
+      }
+    ]
+  },
+  {
+    "id": "S096",
+    "num": 96,
+    "title": "Das Mittagessen",
+    "titleEn": "Lunch",
+    "level": "A1",
+    "de": "Um zwölf Uhr esse ich Mittagessen. Heute gibt es Nudeln mit Soße. Ich esse in der Schulmensa. Das Essen kostet drei Euro. Es schmeckt gut. Danach gehe ich wieder in den Unterricht.",
+    "en": "At twelve o'clock I eat lunch. Today there are noodles with sauce. I eat in the school canteen. The food costs three euros. It tastes good. Then I go back to class.",
+    "vocab": [
+      {
+        "de": "das Mittagessen",
+        "en": "lunch"
+      },
+      {
+        "de": "die Mensa",
+        "en": "canteen"
+      },
+      {
+        "de": "die Soße",
+        "en": "sauce"
+      },
+      {
+        "de": "der Unterricht",
+        "en": "class/lesson"
+      }
+    ]
+  },
+  {
+    "id": "S097",
+    "num": 97,
+    "title": "Im Garten",
+    "titleEn": "In the Garden",
+    "level": "A1",
+    "de": "Ich arbeite im Garten. Ich pflanze Tomaten und Salat. Ich gieße die Pflanzen. Die Erde ist braun und weich. Im Sommer esse ich meine eigenen Tomaten. Das macht mir Freude.",
+    "en": "I work in the garden. I plant tomatoes and lettuce. I water the plants. The soil is brown and soft. In summer I eat my own tomatoes. That gives me joy.",
+    "vocab": [
+      {
+        "de": "der Garten",
+        "en": "garden"
+      },
+      {
+        "de": "pflanzen",
+        "en": "to plant"
+      },
+      {
+        "de": "die Erde",
+        "en": "soil/earth"
+      },
+      {
+        "de": "die Freude",
+        "en": "joy"
+      }
+    ]
+  },
+  {
+    "id": "S098",
+    "num": 98,
+    "title": "Die Nacht",
+    "titleEn": "The Night",
+    "level": "A1",
+    "de": "Es ist Nacht. Der Himmel ist dunkel und voller Sterne. Es ist sehr ruhig. Ich stehe auf dem Balkon. Die Luft ist kalt und frisch. Ich gehe wieder ins Bett.",
+    "en": "It is night. The sky is dark and full of stars. It is very quiet. I stand on the balcony. The air is cold and fresh. I go back to bed.",
+    "vocab": [
+      {
+        "de": "die Nacht",
+        "en": "night"
+      },
+      {
+        "de": "dunkel",
+        "en": "dark"
+      },
+      {
+        "de": "der Stern",
+        "en": "star"
+      },
+      {
+        "de": "der Balkon",
+        "en": "balcony"
+      }
+    ]
+  },
+  {
+    "id": "S099",
+    "num": 99,
+    "title": "Mein Traumhaus",
+    "titleEn": "My Dream House",
+    "level": "A1",
+    "de": "Ich träume von einem großen Haus. Das Haus hat einen Garten und einen Pool. Es gibt viele Zimmer und ein großes Wohnzimmer. Das Haus ist am Meer. Ich lebe dort mit meiner Familie. Das ist mein Traum.",
+    "en": "I dream of a big house. The house has a garden and a pool. There are many rooms and a big living room. The house is by the sea. I live there with my family. That is my dream.",
+    "vocab": [
+      {
+        "de": "das Traumhaus",
+        "en": "dream house"
+      },
+      {
+        "de": "der Pool",
+        "en": "pool"
+      },
+      {
+        "de": "träumen",
+        "en": "to dream"
+      },
+      {
+        "de": "das Zimmer",
+        "en": "room"
+      }
+    ]
+  },
+  {
+    "id": "S100",
+    "num": 100,
+    "title": "Auf Wiedersehen",
+    "titleEn": "Goodbye",
+    "level": "A1",
+    "de": "Mein Freund Tom fährt heute weg. Er geht nach Spanien für ein Jahr. Wir sagen auf Wiedersehen am Bahnhof. Ich bin ein bisschen traurig. Aber wir schreiben uns E-Mails. Bald sehen wir uns wieder.",
+    "en": "My friend Tom is leaving today. He is going to Spain for a year. We say goodbye at the train station. I am a little sad. But we write each other emails. We will see each other again soon.",
+    "vocab": [
+      {
+        "de": "auf Wiedersehen",
+        "en": "goodbye"
+      },
+      {
+        "de": "wegfahren",
+        "en": "to leave/go away"
+      },
+      {
+        "de": "traurig",
+        "en": "sad"
+      },
+      {
+        "de": "bald",
+        "en": "soon"
+      }
+    ]
+  }
+]

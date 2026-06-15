@@ -1,0 +1,61 @@
+total categories: 323
+unique ids: 323 (dups: 0)
+entries total: 5478
+  A1: 27 cats, 720 entries
+  A2: 43 cats, 666 entries
+  B1: 92 cats, 1339 entries
+  B2: 161 cats, 2753 entries
+problems: 0
+
+--- spot check categories ---
+[A1] id=GREETINGS_FAREWELLS | 👋 | GREETINGS & FAREWELLS | n=30
+      e0: w='Hallo' t='Hello'
+      ex: de='Hallo! Wie heißt du?'
+[A1] id=PERSONAL_INFORMATION | 🪪 | PERSONAL INFORMATION | n=28
+      e0: w='der Name' t='The name'
+      ex: de='Mein Name ist Klaus Müller.'
+[A1] id=FAMILY_RELATIONSHIPS | 👨‍👩‍👧 | FAMILY & RELATIONSHIPS | n=31
+      e0: w='die Familie' t='The family'
+      ex: de='Meine Familie ist sehr groß.'
+[A2] id=EVERYDAY_OBJECTS_STATIONERY_A2 | 🖊️ | EVERYDAY OBJECTS & STATIONERY | n=14
+      e0: w='der Kugelschreiber' t='Ballpoint pen'
+      ex: de='Ich schreibe mit einem Kugelschreiber.'
+[A2] id=DAILY_ROUTINE_HOUSEHOLD | 📆 | DAILY ROUTINE & HOUSEHOLD | n=29
+      e0: w='aufstehen' t='To get up'
+      ex: de='Ich stehe jeden Morgen um 7 Uhr auf.'
+[A2] id=LEISURE_HOBBIES_SPORTS | ⚽ | LEISURE, HOBBIES & SPORTS | n=33
+      e0: w='die Freizeit' t='The free time'
+      ex: de='In meiner Freizeit lese ich viel.'
+[B1] id=EXAM_INSTRUCTIONS_TEST_VOCABULARY_B1 | 📝 | EXAM INSTRUCTIONS & TEST VOCABULARY | n=16
+      e0: w='ankreuzen' t='To tick'
+      ex: de='Kreuzen Sie die richtige Antwort an.'
+[B1] id=ANGLIZISMEN_ABBREVIATIONS_B1 | 🌐 | ANGLIZISMEN & ABBREVIATIONS | n=15
+      e0: w='bloggen' t='To blog'
+      ex: de='Sie bloggt über Reisen und deutsche Kultur.'
+[B1] id=SOCIETY_POLITICS_CITIZENSHIP | 🏛️ | SOCIETY, POLITICS & CITIZENSHIP | n=23
+      e0: w='die Gesellschaft' t='The society'
+      ex: de='In unserer Gesellschaft gibt es viele Herausforderungen.'
+[B2] id=B2_HEIMAT_AUSWANDERN | 🌍 | HEIMAT & AUSWANDERN | n=21
+      e0: w='das Fernweh' t='wanderlust'
+      ex: de='Das Fernweh treibt mich immer wieder in die Welt.'
+[B2] id=B2_SPRACHE_IDENTITAET | 🗣️ | SPRACHE & IDENTITÄT | n=21
+      e0: w='die Identität' t='identity'
+      ex: de='Sprache ist ein wichtiger Teil der Identität.'
+[B2] id=B2_KOMMUNIKATION_INTERKULTURELL | 🤝 | KOMMUNIKATION & INTERKULTURELLES | n=20
+      e0: w='missverständlich' t='misleading'
+      ex: de='Deine E-Mail war missverständlich formuliert.'
+
+--- B2 complex emoji/title samples ---
+[B2] 🗣️ | SPRACHE & IDENTITÄT (2 cp emoji)
+[B2] ⚡ | KRITIK & KONFLIKTLÖSUNG (1 cp emoji)
+[B2] 👨‍👩‍👧 | FAMILIE & ROLLENBILDER (5 cp emoji)
+[B2] 🧠 | LÜGE, WAHRHEIT & PSYCHOLOGIE (1 cp emoji)
+[B2] 🎵 | GEFÜHLE & MUSIK (1 cp emoji)
+[B2] 🏡 | HEIMAT & IDENTITÄT – VERBEN (1 cp emoji)
+[B2] ❤️ | GEFÜHLE & EMOTIONALE AUSDRÜCKE (2 cp emoji)
+[B2] 💡 | REDEWENDUNGEN & FESTE AUSDRÜCKE (1 cp emoji)
+
+--- verify unit strips ---
+   'das Kilogramm' (ex: 'Ich brauche ein Kilogramm Mehl.')
+   'der Meter' (ex: 'Das Zimmer ist fünf Meter lang.')
+   'das Prozent' (ex: '50 Prozent Rabatt!')

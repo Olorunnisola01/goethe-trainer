@@ -1,0 +1,10 @@
+﻿node.exe : npm warn exec The following package was not found and will be installed: firebase-tools@15.20.0
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn exec T...e-tools@15.20.0:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error Invalid Version: 
+npm error A complete log of this run can be found in: 
+C:\Users\ADELEKEOLORUNISOLAO\AppData\Local\npm-cache\_logs\2026-06-12T02_48_42_328Z-debug-0.log

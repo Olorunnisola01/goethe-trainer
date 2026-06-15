@@ -1,0 +1,6374 @@
+[
+  {
+    "id": "CONV001",
+    "level": "A1",
+    "title": "Hallo, ich heiße…",
+    "description": "Zwei Menschen treffen sich zum ersten Mal in einem Deutschkurs.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Hallo! Ich heiße Max. Wie heißt du?",
+        "en": "Hello! My name is Max. What is your name?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Hi Max! Ich bin Lena. Schön, dich kennenzulernen!",
+        "en": "Hi Max! I am Lena. Nice to meet you!"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Woher kommst du, Lena?",
+        "en": "Where are you from, Lena?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich komme aus Wien. Und du?",
+        "en": "I come from Vienna. And you?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ich bin aus Berlin. Wie lange bist du schon in Hamburg?",
+        "en": "I am from Berlin. How long have you been in Hamburg?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Seit zwei Monaten. Ich lerne hier Deutsch.",
+        "en": "For two months. I am learning German here."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Toll! Dein Deutsch ist schon sehr gut. Was machst du beruflich?",
+        "en": "Great! Your German is already very good. What do you do for work?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich bin Studentin. Ich studiere Informatik. Und du?",
+        "en": "I am a student. I study computer science. And you?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ich arbeite als Lehrer. Vielleicht können wir zusammen üben!",
+        "en": "I work as a teacher. Maybe we can practise together!"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, sehr gerne! Hier ist meine Handynummer.",
+        "en": "Yes, I would love that! Here is my mobile number."
+      }
+    ]
+  },
+  {
+    "id": "CONV002",
+    "level": "A1",
+    "title": "Im Café",
+    "description": "Ein Gast bestellt Kaffee und Kuchen in einem kleinen Café.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Kellner Ahmed",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Guten Morgen! Haben Sie noch Platz?",
+        "en": "Good morning! Do you have a free table?"
+      },
+      {
+        "speaker": "Kellner Ahmed",
+        "side": "right",
+        "de": "Ja, natürlich. Setzen Sie sich bitte. Hier ist die Karte.",
+        "en": "Yes, of course. Please have a seat. Here is the menu."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Danke. Was empfehlen Sie heute?",
+        "en": "Thank you. What do you recommend today?"
+      },
+      {
+        "speaker": "Kellner Ahmed",
+        "side": "right",
+        "de": "Der Apfelkuchen ist sehr frisch. Und der Cappuccino ist sehr gut.",
+        "en": "The apple cake is very fresh. And the cappuccino is very good."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Gut, dann nehme ich einen Cappuccino und ein Stück Apfelkuchen.",
+        "en": "Good, then I will have a cappuccino and a piece of apple cake."
+      },
+      {
+        "speaker": "Kellner Ahmed",
+        "side": "right",
+        "de": "Mit Sahne?",
+        "en": "With cream?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ja, bitte. Was kostet das?",
+        "en": "Yes, please. How much does that cost?"
+      },
+      {
+        "speaker": "Kellner Ahmed",
+        "side": "right",
+        "de": "Der Cappuccino kostet drei Euro fünfzig und der Kuchen zwei Euro achtzig.",
+        "en": "The cappuccino costs three euros fifty and the cake two euros eighty."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Okay, zusammen bitte. Ich bezahle mit Karte.",
+        "en": "Okay, together please. I will pay by card."
+      },
+      {
+        "speaker": "Kellner Ahmed",
+        "side": "right",
+        "de": "Kein Problem. Einen Moment, bitte!",
+        "en": "No problem. One moment, please!"
+      }
+    ]
+  },
+  {
+    "id": "CONV003",
+    "level": "A1",
+    "title": "Im Supermarkt",
+    "description": "Eine Kundin sucht Hilfe beim Einkaufen.",
+    "speakers": [
+      {
+        "name": "Anna",
+        "voice": 1
+      },
+      {
+        "name": "Verkäufer",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Anna",
+        "side": "left",
+        "de": "Entschuldigung, wo finde ich die Milch?",
+        "en": "Excuse me, where can I find the milk?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "side": "right",
+        "de": "Die Milch ist in Gang drei, auf der linken Seite.",
+        "en": "The milk is in aisle three, on the left side."
+      },
+      {
+        "speaker": "Anna",
+        "side": "left",
+        "de": "Danke. Und haben Sie auch Bio-Milch?",
+        "en": "Thank you. And do you also have organic milk?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "side": "right",
+        "de": "Ja, die Bio-Milch steht ganz oben im Regal.",
+        "en": "Yes, the organic milk is at the very top of the shelf."
+      },
+      {
+        "speaker": "Anna",
+        "side": "left",
+        "de": "Super. Ich brauche auch Brot. Wo ist die Bäckerei?",
+        "en": "Great. I also need bread. Where is the bakery?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "side": "right",
+        "de": "Die Bäckerei ist hinten rechts, neben der Kasse.",
+        "en": "The bakery is at the back right, next to the checkout."
+      },
+      {
+        "speaker": "Anna",
+        "side": "left",
+        "de": "Und was kostet das Vollkornbrot?",
+        "en": "And how much does the wholegrain bread cost?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "side": "right",
+        "de": "Das Vollkornbrot kostet zwei Euro zwanzig.",
+        "en": "The wholegrain bread costs two euros twenty."
+      },
+      {
+        "speaker": "Anna",
+        "side": "left",
+        "de": "Gut. Haben Sie auch Erdbeeren? Ich sehe keine.",
+        "en": "Good. Do you also have strawberries? I cannot see any."
+      },
+      {
+        "speaker": "Verkäufer",
+        "side": "right",
+        "de": "Tut mir leid, die Erdbeeren sind heute leider ausverkauft.",
+        "en": "I am sorry, the strawberries are unfortunately sold out today."
+      }
+    ]
+  },
+  {
+    "id": "CONV004",
+    "level": "A1",
+    "title": "Wie ist das Wetter?",
+    "description": "Zwei Freunde reden über das Wetter und ihre Pläne.",
+    "speakers": [
+      {
+        "name": "Sara",
+        "voice": 1
+      },
+      {
+        "name": "Felix",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Felix, schau mal! Es regnet schon wieder!",
+        "en": "Felix, look! It is raining again!"
+      },
+      {
+        "speaker": "Felix",
+        "side": "right",
+        "de": "Ja, das Wetter ist heute wirklich schlecht.",
+        "en": "Yes, the weather is really bad today."
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Ich wollte eigentlich in den Park gehen.",
+        "en": "I actually wanted to go to the park."
+      },
+      {
+        "speaker": "Felix",
+        "side": "right",
+        "de": "Das geht heute leider nicht. Wie ist das Wetter morgen?",
+        "en": "Unfortunately that is not possible today. What is the weather like tomorrow?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Ich habe die App gecheckt. Morgen scheint die Sonne!",
+        "en": "I checked the app. The sun will shine tomorrow!"
+      },
+      {
+        "speaker": "Felix",
+        "side": "right",
+        "de": "Toll! Dann machen wir morgen ein Picknick.",
+        "en": "Great! Then we will have a picnic tomorrow."
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Gute Idee. Wie viel Grad sind es morgen?",
+        "en": "Good idea. How many degrees will it be tomorrow?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "right",
+        "de": "Etwa zwanzig Grad. Perfekt für draußen.",
+        "en": "About twenty degrees. Perfect for being outside."
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Super! Ich bringe Sandwiches. Du bringst Saft.",
+        "en": "Super! I will bring sandwiches. You bring juice."
+      },
+      {
+        "speaker": "Felix",
+        "side": "right",
+        "de": "Abgemacht! Wir treffen uns um elf Uhr.",
+        "en": "Deal! We will meet at eleven o'clock."
+      }
+    ]
+  },
+  {
+    "id": "CONV005",
+    "level": "A1",
+    "title": "Meine Familie",
+    "description": "Zwei Kursmitglieder stellen ihre Familien vor.",
+    "speakers": [
+      {
+        "name": "Maria",
+        "voice": 1
+      },
+      {
+        "name": "Kenji",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Maria",
+        "side": "left",
+        "de": "Kenji, hast du Geschwister?",
+        "en": "Kenji, do you have siblings?"
+      },
+      {
+        "speaker": "Kenji",
+        "side": "right",
+        "de": "Ja, ich habe eine ältere Schwester. Sie heißt Yuki. Und du?",
+        "en": "Yes, I have an older sister. Her name is Yuki. And you?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "left",
+        "de": "Ich habe zwei Brüder. Sie sind sieben und zehn Jahre alt.",
+        "en": "I have two brothers. They are seven and ten years old."
+      },
+      {
+        "speaker": "Kenji",
+        "side": "right",
+        "de": "Oh, du bist die Älteste! Wohnst du mit deinen Eltern?",
+        "en": "Oh, you are the oldest! Do you live with your parents?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "left",
+        "de": "Ja, noch. Aber ich möchte bald eine eigene Wohnung haben.",
+        "en": "Yes, for now. But I would like to have my own flat soon."
+      },
+      {
+        "speaker": "Kenji",
+        "side": "right",
+        "de": "Ich verstehe. Ich wohne allein. Am Anfang war es schwer.",
+        "en": "I understand. I live alone. At first it was difficult."
+      },
+      {
+        "speaker": "Maria",
+        "side": "left",
+        "de": "Was machen deine Eltern beruflich?",
+        "en": "What do your parents do for work?"
+      },
+      {
+        "speaker": "Kenji",
+        "side": "right",
+        "de": "Mein Vater ist Arzt und meine Mutter ist Lehrerin.",
+        "en": "My father is a doctor and my mother is a teacher."
+      },
+      {
+        "speaker": "Maria",
+        "side": "left",
+        "de": "Interessant! Meine Mutter arbeitet im Supermarkt und mein Vater ist Elektriker.",
+        "en": "Interesting! My mother works in a supermarket and my father is an electrician."
+      },
+      {
+        "speaker": "Kenji",
+        "side": "right",
+        "de": "Schön. Familien sind alle verschieden, aber alle wichtig.",
+        "en": "Nice. Families are all different, but all important."
+      }
+    ]
+  },
+  {
+    "id": "CONV006",
+    "level": "A1",
+    "title": "Entschuldigung, wo ist…?",
+    "description": "Ein Tourist fragt nach dem Weg zur Post.",
+    "speakers": [
+      {
+        "name": "Tourist Reza",
+        "voice": 1
+      },
+      {
+        "name": "Frau Bauer",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tourist Reza",
+        "side": "left",
+        "de": "Entschuldigung! Können Sie mir helfen? Ich suche die Post.",
+        "en": "Excuse me! Can you help me? I am looking for the post office."
+      },
+      {
+        "speaker": "Frau Bauer",
+        "side": "right",
+        "de": "Ja, natürlich! Die Post ist nicht weit von hier.",
+        "en": "Yes, of course! The post office is not far from here."
+      },
+      {
+        "speaker": "Tourist Reza",
+        "side": "left",
+        "de": "Wie komme ich dorthin?",
+        "en": "How do I get there?"
+      },
+      {
+        "speaker": "Frau Bauer",
+        "side": "right",
+        "de": "Gehen Sie geradeaus, dann rechts in die Hauptstraße.",
+        "en": "Go straight ahead, then turn right into the main street."
+      },
+      {
+        "speaker": "Tourist Reza",
+        "side": "left",
+        "de": "Geradeaus und dann rechts. Okay. Wie weit ist das?",
+        "en": "Straight ahead and then right. Okay. How far is that?"
+      },
+      {
+        "speaker": "Frau Bauer",
+        "side": "right",
+        "de": "Etwa fünf Minuten zu Fuß.",
+        "en": "About five minutes on foot."
+      },
+      {
+        "speaker": "Tourist Reza",
+        "side": "left",
+        "de": "Und gibt es dort auch eine Bank?",
+        "en": "And is there also a bank there?"
+      },
+      {
+        "speaker": "Frau Bauer",
+        "side": "right",
+        "de": "Ja, direkt neben der Post. Sie können es nicht verpassen.",
+        "en": "Yes, right next to the post office. You cannot miss it."
+      },
+      {
+        "speaker": "Tourist Reza",
+        "side": "left",
+        "de": "Vielen Dank! Sie sind sehr nett.",
+        "en": "Thank you very much! You are very kind."
+      },
+      {
+        "speaker": "Frau Bauer",
+        "side": "right",
+        "de": "Bitte sehr! Gute Reise!",
+        "en": "You are welcome! Have a good trip!"
+      }
+    ]
+  },
+  {
+    "id": "CONV007",
+    "level": "A1",
+    "title": "Im Restaurant",
+    "description": "Ein Gast bestellt sein Abendessen.",
+    "speakers": [
+      {
+        "name": "Herr Koch",
+        "voice": 1
+      },
+      {
+        "name": "Kellnerin",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Herr Koch",
+        "side": "left",
+        "de": "Guten Abend. Einen Tisch für eine Person, bitte.",
+        "en": "Good evening. A table for one person, please."
+      },
+      {
+        "speaker": "Kellnerin",
+        "side": "right",
+        "de": "Guten Abend! Hier bitte, am Fenster. Die Karte.",
+        "en": "Good evening! Here please, by the window. The menu."
+      },
+      {
+        "speaker": "Herr Koch",
+        "side": "left",
+        "de": "Danke. Was ist die Tagessuppe?",
+        "en": "Thank you. What is the soup of the day?"
+      },
+      {
+        "speaker": "Kellnerin",
+        "side": "right",
+        "de": "Heute haben wir Tomatensuppe mit Brot.",
+        "en": "Today we have tomato soup with bread."
+      },
+      {
+        "speaker": "Herr Koch",
+        "side": "left",
+        "de": "Sehr gut. Ich nehme die Suppe und dann den Fisch mit Salat.",
+        "en": "Very good. I will have the soup and then the fish with salad."
+      },
+      {
+        "speaker": "Kellnerin",
+        "side": "right",
+        "de": "Möchten Sie etwas trinken?",
+        "en": "Would you like something to drink?"
+      },
+      {
+        "speaker": "Herr Koch",
+        "side": "left",
+        "de": "Ja, bitte ein Glas Weißwein und ein Wasser.",
+        "en": "Yes, please a glass of white wine and a water."
+      },
+      {
+        "speaker": "Kellnerin",
+        "side": "right",
+        "de": "Sehr gerne. Noch etwas?",
+        "en": "With pleasure. Anything else?"
+      },
+      {
+        "speaker": "Herr Koch",
+        "side": "left",
+        "de": "Nein danke, das ist alles.",
+        "en": "No thank you, that is all."
+      },
+      {
+        "speaker": "Kellnerin",
+        "side": "right",
+        "de": "Einen Moment, ich bringe alles sofort.",
+        "en": "One moment, I will bring everything right away."
+      }
+    ]
+  },
+  {
+    "id": "CONV008",
+    "level": "A1",
+    "title": "Herzlichen Glückwunsch!",
+    "description": "Eine Freundin überrascht den anderen zum Geburtstag.",
+    "speakers": [
+      {
+        "name": "Lisa",
+        "voice": 1
+      },
+      {
+        "name": "Ben",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Lisa",
+        "side": "left",
+        "de": "Ben! Herzlichen Glückwunsch zum Geburtstag!",
+        "en": "Ben! Happy birthday!"
+      },
+      {
+        "speaker": "Ben",
+        "side": "right",
+        "de": "Oh danke, Lisa! Das ist eine Überraschung!",
+        "en": "Oh thank you, Lisa! That is a surprise!"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "left",
+        "de": "Hier, das ist für dich! Ich hoffe, es gefällt dir.",
+        "en": "Here, this is for you! I hope you like it."
+      },
+      {
+        "speaker": "Ben",
+        "side": "right",
+        "de": "Oh wow, ein Buch! Ich liebe Bücher. Du kennst mich gut!",
+        "en": "Oh wow, a book! I love books. You know me well!"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "left",
+        "de": "Wie alt bist du jetzt?",
+        "en": "How old are you now?"
+      },
+      {
+        "speaker": "Ben",
+        "side": "right",
+        "de": "Ich bin dreißig! Kannst du das glauben?",
+        "en": "I am thirty! Can you believe it?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "left",
+        "de": "Dreißig ist super! Machst du eine Party?",
+        "en": "Thirty is great! Are you having a party?"
+      },
+      {
+        "speaker": "Ben",
+        "side": "right",
+        "de": "Ja! Am Samstag kommen alle meine Freunde.",
+        "en": "Yes! On Saturday all my friends are coming."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "left",
+        "de": "Ich freue mich sehr! Kann ich etwas mitbringen?",
+        "en": "I am really looking forward to it! Can I bring something?"
+      },
+      {
+        "speaker": "Ben",
+        "side": "right",
+        "de": "Bring einfach gute Laune mit! Das reicht!",
+        "en": "Just bring a good mood! That is enough!"
+      }
+    ]
+  },
+  {
+    "id": "CONV009",
+    "level": "A1",
+    "title": "Was machst du am Wochenende?",
+    "description": "Zwei Kollegen planen ihr Wochenende.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Eva",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Eva, was machst du am Wochenende?",
+        "en": "Eva, what are you doing at the weekend?"
+      },
+      {
+        "speaker": "Eva",
+        "side": "right",
+        "de": "Am Samstag gehe ich mit meiner Mutter einkaufen. Am Sonntag bin ich frei.",
+        "en": "On Saturday I am going shopping with my mother. On Sunday I am free."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Möchtest du am Sonntag ins Kino gehen?",
+        "en": "Would you like to go to the cinema on Sunday?"
+      },
+      {
+        "speaker": "Eva",
+        "side": "right",
+        "de": "Ja, gerne! Welcher Film läuft?",
+        "en": "Yes, I would love to! Which film is showing?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Es gibt einen neuen deutschen Film. Eine Komödie.",
+        "en": "There is a new German film. A comedy."
+      },
+      {
+        "speaker": "Eva",
+        "side": "right",
+        "de": "Perfekt! Ich lache gerne. Um wie viel Uhr?",
+        "en": "Perfect! I love to laugh. What time?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Um siebzehn Uhr. Wir treffen uns vorher um halb fünf.",
+        "en": "At five o'clock. We will meet beforehand at half past four."
+      },
+      {
+        "speaker": "Eva",
+        "side": "right",
+        "de": "Okay. Vor dem Kino oder am Bahnhof?",
+        "en": "Okay. In front of the cinema or at the station?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Am Bahnhof. Dann gehen wir zusammen.",
+        "en": "At the station. Then we will go together."
+      },
+      {
+        "speaker": "Eva",
+        "side": "right",
+        "de": "Super! Ich freue mich schon!",
+        "en": "Super! I am already looking forward to it!"
+      }
+    ]
+  },
+  {
+    "id": "CONV010",
+    "level": "A1",
+    "title": "Meine Hobbys",
+    "description": "Zwei neue Freunde erzählen sich von ihren Hobbys.",
+    "speakers": [
+      {
+        "name": "Mia",
+        "voice": 1
+      },
+      {
+        "name": "Tim",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Mia",
+        "side": "left",
+        "de": "Tim, was machst du in deiner Freizeit?",
+        "en": "Tim, what do you do in your free time?"
+      },
+      {
+        "speaker": "Tim",
+        "side": "right",
+        "de": "Ich spiele gern Gitarre und mache Sport. Und du?",
+        "en": "I like playing guitar and doing sport. And you?"
+      },
+      {
+        "speaker": "Mia",
+        "side": "left",
+        "de": "Ich lese viel und male gerne Bilder.",
+        "en": "I read a lot and like painting pictures."
+      },
+      {
+        "speaker": "Tim",
+        "side": "right",
+        "de": "Toll! Was liest du gerne?",
+        "en": "Great! What do you like reading?"
+      },
+      {
+        "speaker": "Mia",
+        "side": "left",
+        "de": "Ich lese gerne Krimis und Abenteuergeschichten.",
+        "en": "I like reading crime novels and adventure stories."
+      },
+      {
+        "speaker": "Tim",
+        "side": "right",
+        "de": "Interessant! Welchen Sport machst du?",
+        "en": "Interesting! What sport do you do?"
+      },
+      {
+        "speaker": "Mia",
+        "side": "left",
+        "de": "Ich schwimme dreimal pro Woche und fahre Fahrrad.",
+        "en": "I swim three times a week and ride my bike."
+      },
+      {
+        "speaker": "Tim",
+        "side": "right",
+        "de": "Ich auch! Vielleicht können wir mal zusammen Fahrrad fahren.",
+        "en": "Me too! Maybe we can go cycling together sometime."
+      },
+      {
+        "speaker": "Mia",
+        "side": "left",
+        "de": "Ja, gerne! Kennst du den Radweg am Fluss?",
+        "en": "Yes, I would love that! Do you know the cycle path along the river?"
+      },
+      {
+        "speaker": "Tim",
+        "side": "right",
+        "de": "Ja! Der ist wunderschön. Nächsten Samstag?",
+        "en": "Yes! It is wonderful. Next Saturday?"
+      }
+    ]
+  },
+  {
+    "id": "CONV011",
+    "level": "A1",
+    "title": "Beim Arzt",
+    "description": "Ein Patient beschreibt seine Symptome beim Arzt.",
+    "speakers": [
+      {
+        "name": "Lars",
+        "voice": 1
+      },
+      {
+        "name": "Ärztin Frau Meier",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Lars",
+        "side": "left",
+        "de": "Guten Tag. Ich habe einen Termin. Mein Name ist Lars Fischer.",
+        "en": "Good day. I have an appointment. My name is Lars Fischer."
+      },
+      {
+        "speaker": "Ärztin Frau Meier",
+        "side": "right",
+        "de": "Ja, Herr Fischer. Kommen Sie rein. Was fehlt Ihnen?",
+        "en": "Yes, Mr Fischer. Come in. What is the matter with you?"
+      },
+      {
+        "speaker": "Lars",
+        "side": "left",
+        "de": "Ich fühle mich nicht gut. Ich habe seit drei Tagen Halsschmerzen.",
+        "en": "I do not feel well. I have had a sore throat for three days."
+      },
+      {
+        "speaker": "Ärztin Frau Meier",
+        "side": "right",
+        "de": "Haben Sie auch Fieber?",
+        "en": "Do you also have a temperature?"
+      },
+      {
+        "speaker": "Lars",
+        "side": "left",
+        "de": "Ja, gestern hatte ich 38,5 Grad.",
+        "en": "Yes, yesterday I had 38.5 degrees."
+      },
+      {
+        "speaker": "Ärztin Frau Meier",
+        "side": "right",
+        "de": "Ich schaue mal. Öffnen Sie bitte den Mund.",
+        "en": "Let me have a look. Please open your mouth."
+      },
+      {
+        "speaker": "Lars",
+        "side": "left",
+        "de": "Ist es schlimm?",
+        "en": "Is it bad?"
+      },
+      {
+        "speaker": "Ärztin Frau Meier",
+        "side": "right",
+        "de": "Nein, Sie haben eine leichte Erkältung. Ich verschreibe Ihnen etwas.",
+        "en": "No, you have a mild cold. I will prescribe you something."
+      },
+      {
+        "speaker": "Lars",
+        "side": "left",
+        "de": "Muss ich viel trinken?",
+        "en": "Do I need to drink a lot?"
+      },
+      {
+        "speaker": "Ärztin Frau Meier",
+        "side": "right",
+        "de": "Ja, viel Tee und Wasser. Und bleiben Sie bitte zu Hause.",
+        "en": "Yes, lots of tea and water. And please stay at home."
+      }
+    ]
+  },
+  {
+    "id": "CONV012",
+    "level": "A1",
+    "title": "Auf dem Markt",
+    "description": "Eine Käuferin kauft frisches Obst auf dem Wochenmarkt.",
+    "speakers": [
+      {
+        "name": "Nina",
+        "voice": 1
+      },
+      {
+        "name": "Händler Stefan",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Nina",
+        "side": "left",
+        "de": "Guten Morgen! Was haben Sie heute frisch?",
+        "en": "Good morning! What do you have fresh today?"
+      },
+      {
+        "speaker": "Händler Stefan",
+        "side": "right",
+        "de": "Guten Morgen! Wir haben Erdbeeren, Kirschen und Äpfel. Alles frisch vom Bauernhof!",
+        "en": "Good morning! We have strawberries, cherries and apples. All fresh from the farm!"
+      },
+      {
+        "speaker": "Nina",
+        "side": "left",
+        "de": "Die Erdbeeren sehen toll aus! Was kosten sie?",
+        "en": "The strawberries look great! How much do they cost?"
+      },
+      {
+        "speaker": "Händler Stefan",
+        "side": "right",
+        "de": "Drei Euro pro Kilo. Heute im Angebot!",
+        "en": "Three euros per kilo. On offer today!"
+      },
+      {
+        "speaker": "Nina",
+        "side": "left",
+        "de": "Gut, dann nehme ich zwei Kilo Erdbeeren, bitte.",
+        "en": "Good, then I will take two kilos of strawberries, please."
+      },
+      {
+        "speaker": "Händler Stefan",
+        "side": "right",
+        "de": "Gerne. Möchten Sie auch Kirschen probieren?",
+        "en": "Of course. Would you like to try the cherries?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "left",
+        "de": "Ja, bitte! Oh, die sind sehr süß!",
+        "en": "Yes, please! Oh, those are very sweet!"
+      },
+      {
+        "speaker": "Händler Stefan",
+        "side": "right",
+        "de": "Frisch aus der Region. Ein Kilo für vier Euro.",
+        "en": "Fresh from the region. One kilo for four euros."
+      },
+      {
+        "speaker": "Nina",
+        "side": "left",
+        "de": "Dann nehme ich auch ein Kilo Kirschen. Zusammen bitte.",
+        "en": "Then I will also take a kilo of cherries. Together please."
+      },
+      {
+        "speaker": "Händler Stefan",
+        "side": "right",
+        "de": "Das macht zehn Euro, bitte. Guten Appetit!",
+        "en": "That comes to ten euros, please. Enjoy!"
+      }
+    ]
+  },
+  {
+    "id": "CONV013",
+    "level": "A1",
+    "title": "Im Hotel einchecken",
+    "description": "Eine Gästin kommt im Hotel an und checkt ein.",
+    "speakers": [
+      {
+        "name": "Frau Wendt",
+        "voice": 1
+      },
+      {
+        "name": "Rezeptionist Herr Park",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Frau Wendt",
+        "side": "left",
+        "de": "Guten Tag! Ich habe eine Reservierung. Mein Name ist Wendt.",
+        "en": "Good day! I have a reservation. My name is Wendt."
+      },
+      {
+        "speaker": "Rezeptionist Herr Park",
+        "side": "right",
+        "de": "Guten Tag, Frau Wendt. Einen Moment, ich schaue nach.",
+        "en": "Good day, Ms Wendt. One moment, let me check."
+      },
+      {
+        "speaker": "Frau Wendt",
+        "side": "left",
+        "de": "Ich habe ein Einzelzimmer für drei Nächte reserviert.",
+        "en": "I reserved a single room for three nights."
+      },
+      {
+        "speaker": "Rezeptionist Herr Park",
+        "side": "right",
+        "de": "Ja, alles da. Zimmer 214, zweiter Stock. Hier ist Ihr Schlüssel.",
+        "en": "Yes, everything is here. Room 214, second floor. Here is your key."
+      },
+      {
+        "speaker": "Frau Wendt",
+        "side": "left",
+        "de": "Danke. Gibt es WLAN im Zimmer?",
+        "en": "Thank you. Is there Wi-Fi in the room?"
+      },
+      {
+        "speaker": "Rezeptionist Herr Park",
+        "side": "right",
+        "de": "Ja, das Passwort ist auf der Karte. Es ist kostenlos.",
+        "en": "Yes, the password is on the card. It is free of charge."
+      },
+      {
+        "speaker": "Frau Wendt",
+        "side": "left",
+        "de": "Wunderbar. Und wann gibt es Frühstück?",
+        "en": "Wonderful. And when is breakfast served?"
+      },
+      {
+        "speaker": "Rezeptionist Herr Park",
+        "side": "right",
+        "de": "Frühstück ist von sieben bis zehn Uhr. Im Erdgeschoss.",
+        "en": "Breakfast is from seven to ten o'clock. On the ground floor."
+      },
+      {
+        "speaker": "Frau Wendt",
+        "side": "left",
+        "de": "Perfekt. Gibt es einen Parkplatz?",
+        "en": "Perfect. Is there a car park?"
+      },
+      {
+        "speaker": "Rezeptionist Herr Park",
+        "side": "right",
+        "de": "Ja, hinter dem Hotel. Ich wünsche Ihnen einen angenehmen Aufenthalt!",
+        "en": "Yes, behind the hotel. I wish you a pleasant stay!"
+      }
+    ]
+  },
+  {
+    "id": "CONV014",
+    "level": "A1",
+    "title": "Einen Tisch reservieren",
+    "description": "Jemand ruft in einem Restaurant an, um einen Tisch zu reservieren.",
+    "speakers": [
+      {
+        "name": "Herr Braun",
+        "voice": 1
+      },
+      {
+        "name": "Servicekraft Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Herr Braun",
+        "side": "left",
+        "de": "Guten Tag, ich möchte gerne einen Tisch reservieren.",
+        "en": "Good day, I would like to reserve a table."
+      },
+      {
+        "speaker": "Servicekraft Maria",
+        "side": "right",
+        "de": "Gerne! Für wann und für wie viele Personen?",
+        "en": "Of course! For when and for how many people?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "side": "left",
+        "de": "Für Samstag, den fünfzehnten. Für vier Personen.",
+        "en": "For Saturday the fifteenth. For four people."
+      },
+      {
+        "speaker": "Servicekraft Maria",
+        "side": "right",
+        "de": "Und um wie viel Uhr möchten Sie kommen?",
+        "en": "And what time would you like to come?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "side": "left",
+        "de": "Um acht Uhr abends, bitte.",
+        "en": "At eight o'clock in the evening, please."
+      },
+      {
+        "speaker": "Servicekraft Maria",
+        "side": "right",
+        "de": "Einen Moment. Ja, um zwanzig Uhr haben wir noch Platz.",
+        "en": "One moment. Yes, we still have space at eight o'clock."
+      },
+      {
+        "speaker": "Herr Braun",
+        "side": "left",
+        "de": "Wunderbar! Können wir bitte am Fenster sitzen?",
+        "en": "Wonderful! Can we sit by the window, please?"
+      },
+      {
+        "speaker": "Servicekraft Maria",
+        "side": "right",
+        "de": "Ich versuche es. Darf ich Ihren Namen?",
+        "en": "I will try. May I have your name?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "side": "left",
+        "de": "Braun, Thomas Braun.",
+        "en": "Braun, Thomas Braun."
+      },
+      {
+        "speaker": "Servicekraft Maria",
+        "side": "right",
+        "de": "Alles klar, Herr Braun. Wir freuen uns auf Sie!",
+        "en": "All noted, Mr Braun. We look forward to seeing you!"
+      }
+    ]
+  },
+  {
+    "id": "CONV015",
+    "level": "A1",
+    "title": "In der Klasse",
+    "description": "Ein Schüler fragt die Lehrerin nach seinen Hausaufgaben.",
+    "speakers": [
+      {
+        "name": "Jonas",
+        "voice": 1
+      },
+      {
+        "name": "Lehrerin Frau Schreiber",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "side": "left",
+        "de": "Guten Morgen, Frau Schreiber!",
+        "en": "Good morning, Ms Schreiber!"
+      },
+      {
+        "speaker": "Lehrerin Frau Schreiber",
+        "side": "right",
+        "de": "Guten Morgen, Jonas. Hast du deine Hausaufgaben gemacht?",
+        "en": "Good morning, Jonas. Have you done your homework?"
+      },
+      {
+        "speaker": "Jonas",
+        "side": "left",
+        "de": "Ja! Aber Aufgabe drei war sehr schwer.",
+        "en": "Yes! But exercise three was very difficult."
+      },
+      {
+        "speaker": "Lehrerin Frau Schreiber",
+        "side": "right",
+        "de": "Was hat dir dabei Probleme gemacht?",
+        "en": "What caused you problems with it?"
+      },
+      {
+        "speaker": "Jonas",
+        "side": "left",
+        "de": "Ich verstehe den Dativ nicht ganz.",
+        "en": "I do not quite understand the dative."
+      },
+      {
+        "speaker": "Lehrerin Frau Schreiber",
+        "side": "right",
+        "de": "Kein Problem. Ich erkläre das heute noch einmal in der Klasse.",
+        "en": "No problem. I will explain it again in class today."
+      },
+      {
+        "speaker": "Jonas",
+        "side": "left",
+        "de": "Danke! Haben wir heute auch ein Diktat?",
+        "en": "Thank you! Do we also have a dictation today?"
+      },
+      {
+        "speaker": "Lehrerin Frau Schreiber",
+        "side": "right",
+        "de": "Ja, nach der Pause. Aber es ist nicht schwer.",
+        "en": "Yes, after the break. But it is not difficult."
+      },
+      {
+        "speaker": "Jonas",
+        "side": "left",
+        "de": "Oh! Ich muss noch einmal die Wörter lernen.",
+        "en": "Oh! I still need to learn the words again."
+      },
+      {
+        "speaker": "Lehrerin Frau Schreiber",
+        "side": "right",
+        "de": "Du hast noch zehn Minuten. Viel Erfolg, Jonas!",
+        "en": "You still have ten minutes. Good luck, Jonas!"
+      }
+    ]
+  },
+  {
+    "id": "CONV016",
+    "level": "A1",
+    "title": "Mit dem Bus fahren",
+    "description": "Eine Frau kauft ein Ticket und fragt nach der Haltestelle.",
+    "speakers": [
+      {
+        "name": "Luisa",
+        "voice": 1
+      },
+      {
+        "name": "Busfahrer",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Luisa",
+        "side": "left",
+        "de": "Guten Morgen! Eine Fahrkarte zum Hauptbahnhof, bitte.",
+        "en": "Good morning! One ticket to the main station, please."
+      },
+      {
+        "speaker": "Busfahrer",
+        "side": "right",
+        "de": "Einfach oder hin und zurück?",
+        "en": "Single or return?"
+      },
+      {
+        "speaker": "Luisa",
+        "side": "left",
+        "de": "Einfach, bitte. Was kostet das?",
+        "en": "Single, please. How much does that cost?"
+      },
+      {
+        "speaker": "Busfahrer",
+        "side": "right",
+        "de": "Zwei Euro achtzig.",
+        "en": "Two euros eighty."
+      },
+      {
+        "speaker": "Luisa",
+        "side": "left",
+        "de": "Hier sind drei Euro.",
+        "en": "Here are three euros."
+      },
+      {
+        "speaker": "Busfahrer",
+        "side": "right",
+        "de": "Zwanzig Cent zurück. Hier, bitte.",
+        "en": "Twenty cents change. Here you go."
+      },
+      {
+        "speaker": "Luisa",
+        "side": "left",
+        "de": "Danke. Wo muss ich aussteigen?",
+        "en": "Thank you. Where do I need to get off?"
+      },
+      {
+        "speaker": "Busfahrer",
+        "side": "right",
+        "de": "An der Haltestelle Marktplatz. Das sind noch vier Stationen.",
+        "en": "At the Marktplatz stop. That is four more stops."
+      },
+      {
+        "speaker": "Luisa",
+        "side": "left",
+        "de": "Gut. Sagen Sie mir Bescheid?",
+        "en": "Good. Will you let me know?"
+      },
+      {
+        "speaker": "Busfahrer",
+        "side": "right",
+        "de": "Natürlich. Setzen Sie sich bitte.",
+        "en": "Of course. Please take a seat."
+      }
+    ]
+  },
+  {
+    "id": "CONV017",
+    "level": "A1",
+    "title": "Kleidung kaufen",
+    "description": "Eine Kundin sucht ein T-Shirt in einem Bekleidungsgeschäft.",
+    "speakers": [
+      {
+        "name": "Karin",
+        "voice": 1
+      },
+      {
+        "name": "Verkäuferin",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Karin",
+        "side": "left",
+        "de": "Entschuldigung! Ich suche ein rotes T-Shirt.",
+        "en": "Excuse me! I am looking for a red T-shirt."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "side": "right",
+        "de": "Gerne! In welcher Größe?",
+        "en": "Of course! What size?"
+      },
+      {
+        "speaker": "Karin",
+        "side": "left",
+        "de": "Größe 38, bitte.",
+        "en": "Size 38, please."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "side": "right",
+        "de": "Hier haben wir rote T-Shirts. Das hier ist sehr beliebt.",
+        "en": "Here we have red T-shirts. This one is very popular."
+      },
+      {
+        "speaker": "Karin",
+        "side": "left",
+        "de": "Schön! Kann ich es anprobieren?",
+        "en": "Nice! Can I try it on?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "side": "right",
+        "de": "Natürlich. Die Umkleidekabine ist dort hinten.",
+        "en": "Of course. The changing room is at the back there."
+      },
+      {
+        "speaker": "Karin",
+        "side": "left",
+        "de": "Es passt gut, aber haben Sie es auch in Dunkelblau?",
+        "en": "It fits well, but do you also have it in dark blue?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "side": "right",
+        "de": "Ja, einen Moment. Hier ist das Gleiche in Dunkelblau.",
+        "en": "Yes, one moment. Here is the same in dark blue."
+      },
+      {
+        "speaker": "Karin",
+        "side": "left",
+        "de": "Perfekt! Was kostet es?",
+        "en": "Perfect! How much does it cost?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "side": "right",
+        "de": "Neunzehn Euro neunzig. Heute haben wir zehn Prozent Rabatt.",
+        "en": "Nineteen euros ninety. Today we have ten percent discount."
+      }
+    ]
+  },
+  {
+    "id": "CONV018",
+    "level": "A1",
+    "title": "Telefonat mit Mama",
+    "description": "Sara ruft ihre Mutter an und erzählt von ihrem Alltag.",
+    "speakers": [
+      {
+        "name": "Sara",
+        "voice": 1
+      },
+      {
+        "name": "Mama",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Hallo Mama! Wie geht es dir?",
+        "en": "Hello Mum! How are you?"
+      },
+      {
+        "speaker": "Mama",
+        "side": "right",
+        "de": "Hallo mein Schatz! Mir geht es gut. Und dir?",
+        "en": "Hello my darling! I am fine. And you?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Auch gut, danke. Ich bin ein bisschen müde. Ich hatte viel Arbeit.",
+        "en": "Fine too, thank you. I am a little tired. I had a lot of work."
+      },
+      {
+        "speaker": "Mama",
+        "side": "right",
+        "de": "Oh! Schläfst du genug? Isst du gut?",
+        "en": "Oh! Are you sleeping enough? Are you eating well?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Ja, ja! Keine Sorge. Ich koche jeden Tag.",
+        "en": "Yes, yes! Don't worry. I cook every day."
+      },
+      {
+        "speaker": "Mama",
+        "side": "right",
+        "de": "Gut. Wann kommst du uns besuchen?",
+        "en": "Good. When are you coming to visit us?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Nächsten Monat, wenn die Prüfungen vorbei sind.",
+        "en": "Next month, when the exams are over."
+      },
+      {
+        "speaker": "Mama",
+        "side": "right",
+        "de": "Wunderbar! Papa freut sich auch sehr.",
+        "en": "Wonderful! Dad is also very pleased."
+      },
+      {
+        "speaker": "Sara",
+        "side": "left",
+        "de": "Ich auch! Ich vermisse euch.",
+        "en": "Me too! I miss you."
+      },
+      {
+        "speaker": "Mama",
+        "side": "right",
+        "de": "Wir vermissen dich auch. Bis bald, mein Herz!",
+        "en": "We miss you too. See you soon, my love!"
+      }
+    ]
+  },
+  {
+    "id": "CONV019",
+    "level": "A1",
+    "title": "Am Flughafen",
+    "description": "Ein Reisender checkt am Flughafen ein.",
+    "speakers": [
+      {
+        "name": "Herr Klein",
+        "voice": 1
+      },
+      {
+        "name": "Mitarbeiterin am Schalter",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Herr Klein",
+        "side": "left",
+        "de": "Guten Morgen. Ich möchte einchecken. Flug LH 342 nach München.",
+        "en": "Good morning. I would like to check in. Flight LH 342 to Munich."
+      },
+      {
+        "speaker": "Mitarbeiterin am Schalter",
+        "side": "right",
+        "de": "Guten Morgen. Ihren Reisepass bitte.",
+        "en": "Good morning. Your passport please."
+      },
+      {
+        "speaker": "Herr Klein",
+        "side": "left",
+        "de": "Hier bitte.",
+        "en": "Here you go."
+      },
+      {
+        "speaker": "Mitarbeiterin am Schalter",
+        "side": "right",
+        "de": "Danke. Haben Sie Gepäck aufzugeben?",
+        "en": "Thank you. Do you have any luggage to check in?"
+      },
+      {
+        "speaker": "Herr Klein",
+        "side": "left",
+        "de": "Ja, einen Koffer. Er wiegt zwanzig Kilo.",
+        "en": "Yes, one suitcase. It weighs twenty kilos."
+      },
+      {
+        "speaker": "Mitarbeiterin am Schalter",
+        "side": "right",
+        "de": "Das ist in Ordnung. Haben Sie Handgepäck?",
+        "en": "That is fine. Do you have hand luggage?"
+      },
+      {
+        "speaker": "Herr Klein",
+        "side": "left",
+        "de": "Nur einen kleinen Rucksack.",
+        "en": "Only a small backpack."
+      },
+      {
+        "speaker": "Mitarbeiterin am Schalter",
+        "side": "right",
+        "de": "Gut. Hier ist Ihre Bordkarte. Gate B17.",
+        "en": "Good. Here is your boarding card. Gate B17."
+      },
+      {
+        "speaker": "Herr Klein",
+        "side": "left",
+        "de": "Wann ist der Abflug?",
+        "en": "When is the departure?"
+      },
+      {
+        "speaker": "Mitarbeiterin am Schalter",
+        "side": "right",
+        "de": "Um zehn Uhr dreißig. Sie sollten jetzt zur Sicherheitskontrolle gehen.",
+        "en": "At ten thirty. You should go to security now."
+      }
+    ]
+  },
+  {
+    "id": "CONV020",
+    "level": "A1",
+    "title": "Im Deutschkurs anmelden",
+    "description": "Ahmed möchte sich für einen Deutschkurs anmelden.",
+    "speakers": [
+      {
+        "name": "Ahmed",
+        "voice": 1
+      },
+      {
+        "name": "Sekretärin Frau Huber",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Ahmed",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte mich für einen Deutschkurs anmelden.",
+        "en": "Good day! I would like to sign up for a German course."
+      },
+      {
+        "speaker": "Sekretärin Frau Huber",
+        "side": "right",
+        "de": "Willkommen! Welches Niveau haben Sie?",
+        "en": "Welcome! What is your level?"
+      },
+      {
+        "speaker": "Ahmed",
+        "side": "left",
+        "de": "Ich bin Anfänger. Ich lerne erst seit einem Monat Deutsch.",
+        "en": "I am a beginner. I have only been learning German for one month."
+      },
+      {
+        "speaker": "Sekretärin Frau Huber",
+        "side": "right",
+        "de": "Dann empfehle ich Ihnen den A1 Kurs. Er beginnt nächsten Montag.",
+        "en": "Then I recommend the A1 course to you. It starts next Monday."
+      },
+      {
+        "speaker": "Ahmed",
+        "side": "left",
+        "de": "Wie viele Stunden pro Woche?",
+        "en": "How many hours per week?"
+      },
+      {
+        "speaker": "Sekretärin Frau Huber",
+        "side": "right",
+        "de": "Vier Stunden, dienstags und donnerstags, von neun bis elf Uhr.",
+        "en": "Four hours, Tuesdays and Thursdays, from nine to eleven o'clock."
+      },
+      {
+        "speaker": "Ahmed",
+        "side": "left",
+        "de": "Perfekt! Was kostet der Kurs?",
+        "en": "Perfect! How much does the course cost?"
+      },
+      {
+        "speaker": "Sekretärin Frau Huber",
+        "side": "right",
+        "de": "Zweihundert Euro pro Monat. Bücher sind inklusive.",
+        "en": "Two hundred euros per month. Books are included."
+      },
+      {
+        "speaker": "Ahmed",
+        "side": "left",
+        "de": "Gut. Kann ich jetzt bezahlen?",
+        "en": "Good. Can I pay now?"
+      },
+      {
+        "speaker": "Sekretärin Frau Huber",
+        "side": "right",
+        "de": "Ja, gerne. Bar oder mit Karte?",
+        "en": "Yes, of course. Cash or by card?"
+      }
+    ]
+  },
+  {
+    "id": "CONV021",
+    "level": "A1",
+    "title": "Im Café",
+    "description": "Zwei Freunde treffen sich im Café.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Hallo! Schön, dich zu sehen. Was möchtest du trinken?",
+        "en": "Hello! Nice to see you. What would you like to drink?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich nehme einen Kaffee, bitte. Und du?",
+        "en": "I will have a coffee, please. And you?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ich möchte einen Tee mit Milch.",
+        "en": "I would like a tea with milk."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Möchtest du auch etwas essen?",
+        "en": "Would you also like something to eat?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ja, ich nehme ein Stück Kuchen. Der Apfelkuchen sieht lecker aus.",
+        "en": "Yes, I will have a piece of cake. The apple cake looks delicious."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Gute Wahl! Die Kuchen hier sind immer frisch.",
+        "en": "Good choice! The cakes here are always fresh."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Super. Ich komme gerne hierher.",
+        "en": "Great. I like coming here."
+      }
+    ]
+  },
+  {
+    "id": "CONV022",
+    "level": "A1",
+    "title": "Im Restaurant",
+    "description": "Eine Familie bestellt im Restaurant.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Guten Abend! Haben Sie reserviert?",
+        "en": "Good evening! Do you have a reservation?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ja, auf den Namen Müller. Für zwei Personen.",
+        "en": "Yes, under the name Müller. For two people."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Sehr schön. Hier ist Ihre Speisekarte.",
+        "en": "Very good. Here is your menu."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Danke. Ich nehme die Suppe und das Schnitzel.",
+        "en": "Thank you. I will have the soup and the schnitzel."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Und zu trinken?",
+        "en": "And to drink?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ein Glas Wasser, bitte.",
+        "en": "A glass of water, please."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Gerne. Das Essen kommt gleich.",
+        "en": "Of course. The food will come shortly."
+      }
+    ]
+  },
+  {
+    "id": "CONV023",
+    "level": "A1",
+    "title": "Am Bahnhof",
+    "description": "Eine Person kauft eine Fahrkarte.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte eine Fahrkarte nach München.",
+        "en": "Good day! I would like a ticket to Munich."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Einfach oder hin und zurück?",
+        "en": "One way or return?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Hin und zurück, bitte. Für morgen.",
+        "en": "Return, please. For tomorrow."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Erster oder zweiter Klasse?",
+        "en": "First or second class?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Zweiter Klasse, bitte. Was kostet das?",
+        "en": "Second class, please. How much does that cost?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Das kostet 49 Euro.",
+        "en": "That costs 49 euros."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Gut. Ich zahle mit Karte.",
+        "en": "Good. I will pay by card."
+      }
+    ]
+  },
+  {
+    "id": "CONV024",
+    "level": "A1",
+    "title": "Im Bus",
+    "description": "Zwei Personen sprechen im Bus.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Entschuldigung, fährt dieser Bus zum Marktplatz?",
+        "en": "Excuse me, does this bus go to the market square?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, das tut er. In etwa zehn Minuten sind wir dort.",
+        "en": "Yes, it does. We will be there in about ten minutes."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Danke! Muss ich umsteigen?",
+        "en": "Thank you! Do I need to change?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Nein, dieser Bus fährt direkt dorthin.",
+        "en": "No, this bus goes there directly."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Super. Das ist mein erster Tag in der Stadt.",
+        "en": "Great. This is my first day in the city."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Willkommen! Die Stadt ist sehr schön.",
+        "en": "Welcome! The city is very beautiful."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Danke. Ich freue mich schon darauf.",
+        "en": "Thank you. I am already looking forward to it."
+      }
+    ]
+  },
+  {
+    "id": "CONV025",
+    "level": "A1",
+    "title": "Beim Arzt",
+    "description": "Ein Patient spricht mit dem Arzt.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Morgen. Was fehlt Ihnen?",
+        "en": "Good morning. What is wrong with you?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ich habe Kopfschmerzen und Fieber seit gestern.",
+        "en": "I have a headache and fever since yesterday."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Wie hoch ist das Fieber?",
+        "en": "How high is the fever?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Etwa 38,5 Grad.",
+        "en": "About 38.5 degrees."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ich schaue kurz nach. Öffnen Sie bitte den Mund.",
+        "en": "Let me take a quick look. Please open your mouth."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Der Hals ist etwas rot. Sie brauchen Ruhe und viel Wasser.",
+        "en": "Your throat is a bit red. You need rest and lots of water."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Brauche ich Medikamente?",
+        "en": "Do I need medication?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ja, ich gebe Ihnen ein Rezept.",
+        "en": "Yes, I will give you a prescription."
+      }
+    ]
+  },
+  {
+    "id": "CONV026",
+    "level": "A1",
+    "title": "Auf dem Markt",
+    "description": "Eine Kundin kauft Gemüse auf dem Markt.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Guten Morgen! Was hätten Sie gerne?",
+        "en": "Good morning! What would you like?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ich möchte ein Kilo Tomaten und eine Gurke.",
+        "en": "I would like a kilogram of tomatoes and a cucumber."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Sehr frisch heute! Die Tomaten kosten 2 Euro das Kilo.",
+        "en": "Very fresh today! The tomatoes cost 2 euros per kilogram."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Und die Gurken?",
+        "en": "And the cucumbers?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "80 Cent das Stück.",
+        "en": "80 cents each."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Gut. Ich nehme auch noch zwei Äpfel.",
+        "en": "Good. I will also take two apples."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Das macht zusammen 3,60 Euro.",
+        "en": "That comes to 3.60 euros in total."
+      }
+    ]
+  },
+  {
+    "id": "CONV027",
+    "level": "A1",
+    "title": "Im Hotel",
+    "description": "Ein Gast checkt im Hotel ein.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Abend. Ich habe eine Reservierung. Mein Name ist Schmidt.",
+        "en": "Good evening. I have a reservation. My name is Schmidt."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Einen Moment, bitte. Ja, Zimmer 204 für zwei Nächte.",
+        "en": "One moment, please. Yes, room 204 for two nights."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Richtig. Ist das Frühstück inklusive?",
+        "en": "Correct. Is breakfast included?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja, das Frühstück ist von 7 bis 10 Uhr.",
+        "en": "Yes, breakfast is from 7 to 10 o'clock."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Sehr schön. Gibt es WLAN im Zimmer?",
+        "en": "Very good. Is there Wi-Fi in the room?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja, das Passwort ist auf der Karte. Hier ist Ihr Schlüssel.",
+        "en": "Yes, the password is on the card. Here is your key."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Danke schön. Gute Nacht!",
+        "en": "Thank you very much. Good night!"
+      }
+    ]
+  },
+  {
+    "id": "CONV028",
+    "level": "A1",
+    "title": "Im Kino",
+    "description": "Zwei Freunde kaufen Kinokarten.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Welchen Film möchtest du sehen?",
+        "en": "Which film would you like to see?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ich möchte den neuen Animationsfilm sehen. Um wie viel Uhr beginnt er?",
+        "en": "I would like to see the new animated film. What time does it start?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Um 19 Uhr und um 21 Uhr.",
+        "en": "At 7 pm and at 9 pm."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Dann nehmen wir die 19-Uhr-Vorstellung.",
+        "en": "Then let's take the 7 pm showing."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Zwei Karten, bitte. Was kostet das?",
+        "en": "Two tickets, please. How much does that cost?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Das macht 18 Euro zusammen.",
+        "en": "That comes to 18 euros in total."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Super! Möchtest du auch Popcorn?",
+        "en": "Great! Would you also like popcorn?"
+      }
+    ]
+  },
+  {
+    "id": "CONV029",
+    "level": "A1",
+    "title": "Im Park",
+    "description": "Eine Mutter spricht mit ihrer Tochter im Park.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Das Wetter ist heute so schön! Spielst du gerne draußen?",
+        "en": "The weather is so nice today! Do you like playing outside?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, Mama! Ich spiele am liebsten auf der Schaukel.",
+        "en": "Yes, Mum! I like playing on the swing most."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Und mit deinen Freunden? Kommt Lisa auch heute?",
+        "en": "And with your friends? Is Lisa coming today too?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja! Lisa und Tom kommen um drei Uhr.",
+        "en": "Yes! Lisa and Tom are coming at three o'clock."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Dann haben wir noch Zeit. Möchtest du ein Eis?",
+        "en": "Then we still have time. Would you like an ice cream?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja bitte! Ich möchte Schokoladeneis.",
+        "en": "Yes please! I would like chocolate ice cream."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Gut. Dort ist ein Eiswagen.",
+        "en": "Good. There is an ice cream van over there."
+      }
+    ]
+  },
+  {
+    "id": "CONV030",
+    "level": "A1",
+    "title": "Am Telefon",
+    "description": "Zwei Bekannte sprechen am Telefon.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Hallo Tom! Wie geht es dir?",
+        "en": "Hello Tom! How are you?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Hallo Anna! Danke, gut. Und dir?",
+        "en": "Hello Anna! Thanks, good. And you?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Auch gut. Hast du heute Abend Zeit?",
+        "en": "Also good. Do you have time this evening?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ja, ich bin frei. Was möchtest du machen?",
+        "en": "Yes, I am free. What would you like to do?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Wir könnten ins Kino gehen oder zu Hause kochen.",
+        "en": "We could go to the cinema or cook at home."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ich koche lieber. Ich mache Pasta!",
+        "en": "I prefer cooking. I will make pasta!"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Super! Ich bringe den Salat mit. Bis dann!",
+        "en": "Great! I will bring the salad. See you then!"
+      }
+    ]
+  },
+  {
+    "id": "CONV031",
+    "level": "A1",
+    "title": "In der Schule",
+    "description": "Ein Schüler spricht mit seinem Lehrer.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Guten Morgen, Herr Müller. Darf ich etwas fragen?",
+        "en": "Good morning, Mr Müller. May I ask something?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Natürlich! Was möchtest du wissen?",
+        "en": "Of course! What would you like to know?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ich verstehe die Hausaufgaben nicht. Können Sie mir helfen?",
+        "en": "I do not understand the homework. Can you help me?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Zeig mir mal. Ah, das ist Aufgabe vier. Das ist ein bisschen schwierig.",
+        "en": "Show me. Ah, that is exercise four. That is a bit difficult."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ja, ich weiß nicht, wie ich anfangen soll.",
+        "en": "Yes, I do not know how to start."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Kein Problem. Fangen wir zusammen an.",
+        "en": "No problem. Let's start together."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Danke, Herr Müller. Das ist sehr nett von Ihnen.",
+        "en": "Thank you, Mr Müller. That is very kind of you."
+      }
+    ]
+  },
+  {
+    "id": "CONV032",
+    "level": "A1",
+    "title": "Beim Bäcker",
+    "description": "Eine Kundin kauft Brot beim Bäcker.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Guten Morgen! Was darf es sein?",
+        "en": "Good morning! What can I get you?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ich möchte ein Vollkornbrot und vier Brötchen, bitte.",
+        "en": "I would like a wholemeal loaf and four rolls, please."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Frisch vom Ofen! Möchten Sie auch etwas Süßes?",
+        "en": "Fresh from the oven! Would you also like something sweet?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, zwei Croissants, bitte.",
+        "en": "Yes, two croissants, please."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Das macht 4,80 Euro.",
+        "en": "That comes to 4.80 euros."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Hier sind fünf Euro.",
+        "en": "Here are five euros."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Und 20 Cent zurück. Einen schönen Tag!",
+        "en": "And 20 cents change. Have a nice day!"
+      }
+    ]
+  },
+  {
+    "id": "CONV033",
+    "level": "A1",
+    "title": "Im Sportverein",
+    "description": "Ein neues Mitglied kommt zum Sportverein.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte Mitglied werden. Welche Sportarten bieten Sie an?",
+        "en": "Good day! I would like to become a member. What sports do you offer?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Wir haben Fußball, Tennis, Schwimmen und Yoga.",
+        "en": "We have football, tennis, swimming and yoga."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Super! Ich spiele gerne Tennis. Wann sind die Kurse?",
+        "en": "Great! I like playing tennis. When are the courses?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Tennis ist dienstags und donnerstags, von 18 bis 20 Uhr.",
+        "en": "Tennis is on Tuesdays and Thursdays, from 6 to 8 pm."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Was kostet die Mitgliedschaft?",
+        "en": "How much does membership cost?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "20 Euro pro Monat. Das erste Training ist kostenlos.",
+        "en": "20 euros per month. The first training session is free."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Perfekt! Ich melde mich an.",
+        "en": "Perfect! I will sign up."
+      }
+    ]
+  },
+  {
+    "id": "CONV034",
+    "level": "A1",
+    "title": "Beim Friseur",
+    "description": "Eine Kundin geht zum Friseur.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Guten Tag! Haben Sie einen Termin?",
+        "en": "Good day! Do you have an appointment?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja, um 14 Uhr. Mein Name ist Weber.",
+        "en": "Yes, at 2 pm. My name is Weber."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Perfekt. Was darf ich für Sie tun?",
+        "en": "Perfect. What can I do for you?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ich möchte die Haare schneiden und färben lassen.",
+        "en": "I would like my hair cut and coloured."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Welche Farbe möchten Sie?",
+        "en": "What colour would you like?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Dunkelbraun, bitte. Nicht zu kurz.",
+        "en": "Dark brown, please. Not too short."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Sehr schön. Das dauert etwa eine Stunde.",
+        "en": "Very nice. That will take about an hour."
+      }
+    ]
+  },
+  {
+    "id": "CONV035",
+    "level": "A1",
+    "title": "An der Kasse",
+    "description": "Ein Kunde zahlt an der Supermarktkasse.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Haben Sie eine Kundenkarte?",
+        "en": "Do you have a loyalty card?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Nein, leider nicht. Kann ich mit Karte zahlen?",
+        "en": "No, unfortunately not. Can I pay by card?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Natürlich. Das macht 23,40 Euro.",
+        "en": "Of course. That comes to 23.40 euros."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Hier ist meine Karte.",
+        "en": "Here is my card."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Bitte geben Sie Ihre PIN ein.",
+        "en": "Please enter your PIN."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Danke. Brauche ich noch eine Tüte?",
+        "en": "Thank you. Do I also need a bag?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Ja bitte. Die Tüten kosten 20 Cent.",
+        "en": "Yes please. The bags cost 20 cents."
+      }
+    ]
+  },
+  {
+    "id": "CONV036",
+    "level": "A1",
+    "title": "Am Flughafen",
+    "description": "Eine Reisende fragt am Flughafen nach.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Entschuldigung, wo ist der Gate B7?",
+        "en": "Excuse me, where is Gate B7?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Gehen Sie geradeaus und dann links. Es ist nicht weit.",
+        "en": "Go straight ahead and then left. It is not far."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Danke! Wann beginnt das Boarding?",
+        "en": "Thank you! When does boarding start?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "In etwa zwanzig Minuten.",
+        "en": "In about twenty minutes."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Und wie lange dauert der Flug nach London?",
+        "en": "And how long does the flight to London take?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Etwa zwei Stunden.",
+        "en": "About two hours."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Perfekt. Danke für Ihre Hilfe!",
+        "en": "Perfect. Thank you for your help!"
+      }
+    ]
+  },
+  {
+    "id": "CONV037",
+    "level": "A1",
+    "title": "Im Schwimmbad",
+    "description": "Zwei Kinder sprechen im Schwimmbad.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Kannst du gut schwimmen?",
+        "en": "Can you swim well?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja! Ich schwimme seit drei Jahren. Und du?",
+        "en": "Yes! I have been swimming for three years. And you?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ich lerne gerade. Ich kann schon 25 Meter schwimmen.",
+        "en": "I am learning at the moment. I can already swim 25 metres."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Super! Kannst du auch tauchen?",
+        "en": "Great! Can you also dive?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Nein, noch nicht. Das ist schwierig.",
+        "en": "No, not yet. That is difficult."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich zeige dir, wie es geht. Schau her!",
+        "en": "I will show you how it is done. Watch!"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Wow, das war toll! Danke!",
+        "en": "Wow, that was great! Thank you!"
+      }
+    ]
+  },
+  {
+    "id": "CONV038",
+    "level": "A1",
+    "title": "Beim Zahnarzt",
+    "description": "Ein Patient ist beim Zahnarzt.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Guten Morgen. Ich habe um 10 Uhr einen Termin.",
+        "en": "Good morning. I have an appointment at 10 o'clock."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ihr Name bitte?",
+        "en": "Your name please?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Mein Name ist Fischer. Ich habe Zahnschmerzen.",
+        "en": "My name is Fischer. I have toothache."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Bitte setzen Sie sich. Der Doktor kommt gleich.",
+        "en": "Please sit down. The doctor will come shortly."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Öffnen Sie bitte den Mund. Welcher Zahn schmerzt?",
+        "en": "Please open your mouth. Which tooth hurts?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Der hintere Zahn rechts oben.",
+        "en": "The back tooth, top right."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ich sehe das Problem. Sie brauchen eine kleine Füllung.",
+        "en": "I can see the problem. You need a small filling."
+      }
+    ]
+  },
+  {
+    "id": "CONV039",
+    "level": "A1",
+    "title": "Im Museum",
+    "description": "Eine Besucherin fragt im Museum nach.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Guten Tag! Was kostet der Eintritt?",
+        "en": "Good day! How much is the entry fee?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Erwachsene zahlen 8 Euro, Kinder bis 14 Jahre zahlen nichts.",
+        "en": "Adults pay 8 euros, children up to 14 years are free."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Gut. Ich möchte eine Karte. Gibt es auch Führungen?",
+        "en": "Good. I would like one ticket. Are there also guided tours?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, die nächste Führung beginnt um 14 Uhr.",
+        "en": "Yes, the next guided tour starts at 2 pm."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Wie lange dauert sie?",
+        "en": "How long does it take?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Etwa eine Stunde. Die Führung ist auf Deutsch und Englisch.",
+        "en": "About one hour. The tour is in German and English."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Perfekt! Ich nehme teil.",
+        "en": "Perfect! I will take part."
+      }
+    ]
+  },
+  {
+    "id": "CONV040",
+    "level": "A1",
+    "title": "Im Zoo",
+    "description": "Eine Familie besucht den Zoo.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Schau mal! Da sind die Elefanten!",
+        "en": "Look! There are the elephants!"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Wow! Die sind so groß! Und was essen Elefanten?",
+        "en": "Wow! They are so big! And what do elephants eat?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Elefanten essen Gras, Früchte und Blätter.",
+        "en": "Elephants eat grass, fruit and leaves."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Können wir auch die Affen sehen?",
+        "en": "Can we also see the monkeys?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ja, das Affenhaus ist gleich dort drüben.",
+        "en": "Yes, the monkey house is right over there."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Und die Giraffen? Ich liebe Giraffen!",
+        "en": "And the giraffes? I love giraffes!"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Die sind am Ende des Weges. Komm, wir gehen!",
+        "en": "They are at the end of the path. Come, let's go!"
+      }
+    ]
+  },
+  {
+    "id": "CONV041",
+    "level": "A1",
+    "title": "In der Bibliothek",
+    "description": "Ein Schüler sucht ein Buch in der Bibliothek.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Tag! Ich suche ein Buch über die Französische Revolution.",
+        "en": "Good day! I am looking for a book about the French Revolution."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Das ist in der Geschichtsabteilung, Regal 12.",
+        "en": "That is in the history section, shelf 12."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Danke. Kann ich die Bücher mit nach Hause nehmen?",
+        "en": "Thank you. Can I take the books home?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ja, mit Ihrem Bibliotheksausweis. Haben Sie einen?",
+        "en": "Yes, with your library card. Do you have one?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Nein, noch nicht. Wie bekomme ich einen?",
+        "en": "No, not yet. How do I get one?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Füllen Sie bitte dieses Formular aus. Dann dauert es nur fünf Minuten.",
+        "en": "Please fill in this form. Then it will only take five minutes."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Sehr gut! Danke für Ihre Hilfe.",
+        "en": "Very good! Thank you for your help."
+      }
+    ]
+  },
+  {
+    "id": "CONV042",
+    "level": "A1",
+    "title": "Am Strand",
+    "description": "Zwei Urlauber sprechen am Strand.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Das Wasser ist heute sehr warm!",
+        "en": "The water is very warm today!"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja, perfekt zum Schwimmen. Bist du oft am Strand?",
+        "en": "Yes, perfect for swimming. Do you come to the beach often?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Nur im Sommer. Wir machen jeden Jahr Urlaub hier.",
+        "en": "Only in summer. We go on holiday here every year."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Das klingt schön. Woher kommst du?",
+        "en": "That sounds nice. Where are you from?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Ich komme aus Frankfurt. Und du?",
+        "en": "I am from Frankfurt. And you?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ich bin aus München. Wir sind zum ersten Mal hier.",
+        "en": "I am from Munich. We are here for the first time."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Dann willkommen! Der Strand hier ist wirklich wunderschön.",
+        "en": "Welcome then! The beach here is truly wonderful."
+      }
+    ]
+  },
+  {
+    "id": "CONV043",
+    "level": "A1",
+    "title": "Im Taxi",
+    "description": "Ein Fahrgast fährt mit dem Taxi.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Abend! Wohin möchten Sie?",
+        "en": "Good evening! Where would you like to go?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Zum Hauptbahnhof, bitte. Und schnell, ich habe es eilig.",
+        "en": "To the main station, please. And quickly, I am in a hurry."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Kein Problem. Ihr Zug fährt um wie viel Uhr?",
+        "en": "No problem. What time does your train leave?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Um 20:30 Uhr. Es ist jetzt 20:00 Uhr.",
+        "en": "At 8:30 pm. It is 8:00 pm now."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Das schaffen wir. Es ist nicht viel Verkehr.",
+        "en": "We will make it. There is not much traffic."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Was kostet die Fahrt ungefähr?",
+        "en": "How much does the journey cost approximately?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Etwa 12 Euro. Wir sind in zehn Minuten da.",
+        "en": "About 12 euros. We will be there in ten minutes."
+      }
+    ]
+  },
+  {
+    "id": "CONV044",
+    "level": "A1",
+    "title": "In der Post",
+    "description": "Eine Kundin schickt ein Paket.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte dieses Paket nach Spanien schicken.",
+        "en": "Good day! I would like to send this parcel to Spain."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Wie schwer ist das Paket?",
+        "en": "How heavy is the parcel?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Etwa zwei Kilogramm.",
+        "en": "About two kilograms."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Möchten Sie Standardversand oder Express?",
+        "en": "Would you like standard delivery or express?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Standard reicht. Wie lange dauert das?",
+        "en": "Standard is fine. How long does that take?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Etwa fünf bis sieben Werktage.",
+        "en": "About five to seven working days."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Das kostet 12 Euro. Brauchen Sie eine Quittung?",
+        "en": "That costs 12 euros. Do you need a receipt?"
+      }
+    ]
+  },
+  {
+    "id": "CONV045",
+    "level": "A1",
+    "title": "Im Kaufhaus",
+    "description": "Eine Frau sucht ein Geschenk im Kaufhaus.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Entschuldigung, ich suche ein Geschenk für meine Mutter.",
+        "en": "Excuse me, I am looking for a gift for my mother."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Was interessiert Ihre Mutter? Bücher, Parfüm, Kleidung?",
+        "en": "What is your mother interested in? Books, perfume, clothing?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Sie liest gerne. Haben Sie aktuelle Romane?",
+        "en": "She likes reading. Do you have current novels?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, die Buchhandlung ist im dritten Stock.",
+        "en": "Yes, the bookshop is on the third floor."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Danke! Haben Sie auch Parfüm im Angebot?",
+        "en": "Thank you! Do you also have perfume on offer?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, die Kosmetikabteilung ist rechts von Ihnen.",
+        "en": "Yes, the cosmetics department is to your right."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Wunderbar. Ich schaue mir beides an.",
+        "en": "Wonderful. I will look at both."
+      }
+    ]
+  },
+  {
+    "id": "CONV046",
+    "level": "A1",
+    "title": "Im Fitnessstudio",
+    "description": "Ein neues Mitglied meldet sich im Fitnessstudio an.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte Mitglied werden.",
+        "en": "Good day! I would like to become a member."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Willkommen! Haben Sie schon Sport gemacht?",
+        "en": "Welcome! Have you done sport before?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ja, ich jogge gerne. Aber ich möchte auch Kraft trainieren.",
+        "en": "Yes, I like jogging. But I would also like to do strength training."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Super. Wir haben Kurse für Anfänger und für Fortgeschrittene.",
+        "en": "Great. We have courses for beginners and advanced."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Was ist im Mitgliedsbeitrag enthalten?",
+        "en": "What is included in the membership fee?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Alle Geräte, das Schwimmbad und zwei Kurse pro Woche.",
+        "en": "All equipment, the swimming pool and two courses per week."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Das klingt gut. Was kostet das pro Monat?",
+        "en": "That sounds good. How much does that cost per month?"
+      }
+    ]
+  },
+  {
+    "id": "CONV047",
+    "level": "A1",
+    "title": "In der Mensa",
+    "description": "Zwei Studenten essen in der Mensa.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Was nimmst du heute?",
+        "en": "What are you having today?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ich nehme das Tagesgericht. Es gibt Hähnchen mit Reis.",
+        "en": "I am having the daily special. There is chicken with rice."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Klingt lecker! Ich nehme die Suppe und einen Salat.",
+        "en": "Sounds delicious! I am having the soup and a salad."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Die Mensa ist heute sehr voll.",
+        "en": "The canteen is very full today."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ja, alle haben heute eine Pause zur gleichen Zeit.",
+        "en": "Yes, everyone has a break at the same time today."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Wollen wir draußen sitzen? Das Wetter ist schön.",
+        "en": "Shall we sit outside? The weather is nice."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Gute Idee! Komm, wir nehmen unsere Tabletts.",
+        "en": "Good idea! Come, let's take our trays."
+      }
+    ]
+  },
+  {
+    "id": "CONV048",
+    "level": "A1",
+    "title": "Beim Geburtstag",
+    "description": "Freunde feiern einen Geburtstag.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Herzlichen Glückwunsch zum Geburtstag!",
+        "en": "Happy birthday!"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Danke! Ich bin so froh, dass ihr alle gekommen seid.",
+        "en": "Thank you! I am so glad that you all came."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Hier ist ein kleines Geschenk für dich.",
+        "en": "Here is a small gift for you."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Oh, wie nett! Darf ich es aufmachen?",
+        "en": "Oh, how kind! May I open it?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Natürlich! Ich hoffe, es gefällt dir.",
+        "en": "Of course! I hope you like it."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Es ist wunderschön! Vielen Dank! Möchtet ihr Kuchen?",
+        "en": "It is beautiful! Thank you very much! Would you like cake?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ja bitte! Dein Kuchen ist immer der beste.",
+        "en": "Yes please! Your cake is always the best."
+      }
+    ]
+  },
+  {
+    "id": "CONV049",
+    "level": "A1",
+    "title": "Im Garten",
+    "description": "Nachbarn sprechen über den Garten.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Morgen! Ihr Garten sieht wunderschön aus.",
+        "en": "Good morning! Your garden looks beautiful."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Danke! Ich arbeite jeden Tag daran. Haben Sie auch einen Garten?",
+        "en": "Thank you! I work on it every day. Do you also have a garden?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ja, aber meiner ist nicht so groß. Was pflanzen Sie alles?",
+        "en": "Yes, but mine is not as large. What do you plant?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ich habe Tomaten, Kräuter und viele Blumen.",
+        "en": "I have tomatoes, herbs and many flowers."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Super! Ich möchte auch Tomaten anpflanzen. Ist es schwierig?",
+        "en": "Great! I would also like to grow tomatoes. Is it difficult?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Nein, nicht wirklich. Man braucht nur viel Wasser und Sonne.",
+        "en": "No, not really. You just need lots of water and sun."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Vielleicht geben Sie mir ein paar Tipps?",
+        "en": "Perhaps you can give me a few tips?"
+      }
+    ]
+  },
+  {
+    "id": "CONV050",
+    "level": "A1",
+    "title": "In der Küche",
+    "description": "Zwei Freunde kochen zusammen.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Was kochen wir heute Abend?",
+        "en": "What are we cooking tonight?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ich möchte Spaghetti mit Tomatensauce machen.",
+        "en": "I would like to make spaghetti with tomato sauce."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Super! Ich kann den Salat vorbereiten.",
+        "en": "Great! I can prepare the salad."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Perfekt. Kannst du auch die Zwiebeln schneiden?",
+        "en": "Perfect. Can you also chop the onions?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Klar! Wie viele Zwiebeln brauchen wir?",
+        "en": "Of course! How many onions do we need?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Zwei sollten reichen. Die Pasta kocht in zehn Minuten.",
+        "en": "Two should be enough. The pasta will cook in ten minutes."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Ich decke schon mal den Tisch.",
+        "en": "I will set the table already."
+      }
+    ]
+  },
+  {
+    "id": "CONV051",
+    "level": "A1",
+    "title": "Am Frühstückstisch",
+    "description": "Eine Familie frühstückt zusammen.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Morgen! Hast du gut geschlafen?",
+        "en": "Good morning! Did you sleep well?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja, sehr gut. Was gibt es zum Frühstück?",
+        "en": "Yes, very well. What is there for breakfast?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Brot, Käse, Marmelade und Orangensaft.",
+        "en": "Bread, cheese, jam and orange juice."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Lecker! Ich mag Marmelade sehr gerne.",
+        "en": "Delicious! I really like jam."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Möchtest du auch Kaffee oder Tee?",
+        "en": "Would you also like coffee or tea?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Tee, bitte. Ohne Zucker.",
+        "en": "Tea, please. Without sugar."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Hier. Guten Appetit!",
+        "en": "Here you go. Enjoy your meal!"
+      }
+    ]
+  },
+  {
+    "id": "CONV052",
+    "level": "A1",
+    "title": "Im Tierheim",
+    "description": "Eine Familie besucht das Tierheim.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Guten Tag! Wir möchten einen Hund adoptieren.",
+        "en": "Good day! We would like to adopt a dog."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Herzlich willkommen! Wie groß soll der Hund sein?",
+        "en": "Welcome! How big should the dog be?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Nicht zu groß. Wir haben eine kleine Wohnung.",
+        "en": "Not too big. We have a small flat."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Dann zeige ich Ihnen diese drei Hunde. Der kleine ist erst zwei Jahre alt.",
+        "en": "Then I will show you these three dogs. The small one is only two years old."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Oh, der ist so süß! Wie heißt er?",
+        "en": "Oh, he is so cute! What is his name?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Er heißt Bello und ist sehr freundlich.",
+        "en": "He is called Bello and is very friendly."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Wir nehmen ihn! Was müssen wir jetzt tun?",
+        "en": "We will take him! What do we need to do now?"
+      }
+    ]
+  },
+  {
+    "id": "CONV053",
+    "level": "A1",
+    "title": "Im Reisebüro",
+    "description": "Ein Paar bucht einen Urlaub im Reisebüro.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Guten Tag! Wir möchten einen Urlaub buchen.",
+        "en": "Good day! We would like to book a holiday."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Wohin möchten Sie reisen?",
+        "en": "Where would you like to travel?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Wir denken an Spanien oder Italien.",
+        "en": "We are thinking of Spain or Italy."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Wann möchten Sie reisen und wie lange?",
+        "en": "When would you like to travel and for how long?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Im Juli, für zwei Wochen.",
+        "en": "In July, for two weeks."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Haben Sie ein Budget?",
+        "en": "Do you have a budget?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Etwa 2000 Euro pro Person.",
+        "en": "About 2000 euros per person."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich zeige Ihnen die besten Angebote.",
+        "en": "I will show you the best offers."
+      }
+    ]
+  },
+  {
+    "id": "CONV054",
+    "level": "A1",
+    "title": "An der Bushaltestelle",
+    "description": "Zwei Personen warten auf den Bus.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Wissen Sie, wann der nächste Bus kommt?",
+        "en": "Do you know when the next bus comes?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Laut Fahrplan um 14:15 Uhr. Es ist jetzt 14:05 Uhr.",
+        "en": "According to the timetable at 2:15 pm. It is 2:05 pm now."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Danke! Fährt dieser Bus in die Stadtmitte?",
+        "en": "Thank you! Does this bus go to the city centre?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ja, er hält am Marktplatz und am Rathaus.",
+        "en": "Yes, it stops at the market square and the town hall."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Perfekt. Das ist genau, wo ich hinmöchte.",
+        "en": "Perfect. That is exactly where I want to go."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ich auch. Woher kommen Sie?",
+        "en": "Me too. Where are you from?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ich bin neu hier. Ich lerne noch die Stadt kennen.",
+        "en": "I am new here. I am still getting to know the city."
+      }
+    ]
+  },
+  {
+    "id": "CONV055",
+    "level": "A1",
+    "title": "Beim Picknick",
+    "description": "Freunde machen ein Picknick im Park.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Das Wetter ist perfekt für ein Picknick!",
+        "en": "The weather is perfect for a picnic!"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja! Ich habe Sandwiches und Obst mitgebracht.",
+        "en": "Yes! I have brought sandwiches and fruit."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Super! Ich habe Limonade und Chips.",
+        "en": "Great! I have lemonade and crisps."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Setzen wir uns unter den Baum. Dort ist Schatten.",
+        "en": "Let's sit under the tree. There is shade there."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Gute Idee. Ich breite die Decke aus.",
+        "en": "Good idea. I will spread the blanket out."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Möchtest du ein Sandwich? Ich habe Käse und Schinken.",
+        "en": "Would you like a sandwich? I have cheese and ham."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Käse, bitte! Danke. Das ist ein schöner Tag.",
+        "en": "Cheese, please! Thank you. This is a beautiful day."
+      }
+    ]
+  },
+  {
+    "id": "CONV056",
+    "level": "A1",
+    "title": "Im Waschsalon",
+    "description": "Zwei Nachbarn sprechen im Waschsalon.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Entschuldigung, ist diese Maschine frei?",
+        "en": "Excuse me, is this machine free?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, die ist frei. Ich bin schon fertig.",
+        "en": "Yes, that one is free. I am already finished."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Danke! Wie funktioniert das? Ich bin zum ersten Mal hier.",
+        "en": "Thank you! How does this work? It is my first time here."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Kein Problem. Geben Sie zuerst die Wäsche in die Maschine.",
+        "en": "No problem. First put the washing in the machine."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Und dann?",
+        "en": "And then?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Dann wählen Sie das Programm und geben Geld ein. Ein Waschgang kostet 3 Euro.",
+        "en": "Then select the programme and put in money. One wash cycle costs 3 euros."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Verstanden. Vielen Dank für die Erklärung!",
+        "en": "Understood. Thank you very much for the explanation!"
+      }
+    ]
+  },
+  {
+    "id": "CONV057",
+    "level": "A1",
+    "title": "Beim Optiker",
+    "description": "Eine Kundin kauft eine neue Brille.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Tag! Ich brauche eine neue Brille. Meine ist kaputt.",
+        "en": "Good day! I need new glasses. Mine are broken."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Das ist kein Problem. Haben Sie ein Rezept vom Augenarzt?",
+        "en": "That is no problem. Do you have a prescription from the ophthalmologist?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ja, hier ist es. Ich sehe ohne Brille sehr schlecht.",
+        "en": "Yes, here it is. I see very badly without glasses."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ich sehe. Schauen Sie sich die Fassungen an. Was gefällt Ihnen?",
+        "en": "I see. Have a look at the frames. What do you like?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Diese schwarze Fassung hier. Wie viel kostet sie?",
+        "en": "This black frame here. How much does it cost?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "89 Euro. Mit Gläsern nach Rezept kostet es insgesamt 189 Euro.",
+        "en": "89 euros. With prescription lenses it costs 189 euros in total."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Das ist in Ordnung. Ich nehme sie.",
+        "en": "That is fine. I will take them."
+      }
+    ]
+  },
+  {
+    "id": "CONV058",
+    "level": "A1",
+    "title": "Beim Flohmarkt",
+    "description": "Zwei Personen handeln auf dem Flohmarkt.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Wie viel kostet dieses Buch?",
+        "en": "How much does this book cost?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Zwei Euro.",
+        "en": "Two euros."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Und diese alte Lampe dort?",
+        "en": "And that old lamp over there?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Die kostet fünf Euro. Sie ist sehr alt und noch in gutem Zustand.",
+        "en": "That costs five euros. It is very old and still in good condition."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Würden Sie beides für sechs Euro verkaufen?",
+        "en": "Would you sell both for six euros?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Hmm, für sieben Euro gebe ich sie Ihnen.",
+        "en": "Hmm, I will give them to you for seven euros."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Einverstanden! Hier sind sieben Euro.",
+        "en": "Agreed! Here are seven euros."
+      }
+    ]
+  },
+  {
+    "id": "CONV059",
+    "level": "A1",
+    "title": "Am Kiosk",
+    "description": "Ein Kind kauft am Kiosk.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Hallo! Was möchtest du?",
+        "en": "Hello! What would you like?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ich möchte ein Eis und eine Zeitung für meinen Vater.",
+        "en": "I would like an ice cream and a newspaper for my father."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Welches Eis? Schokolade, Erdbeer oder Vanille?",
+        "en": "Which ice cream? Chocolate, strawberry or vanilla?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Erdbeer, bitte! Wie viel kostet alles?",
+        "en": "Strawberry, please! How much does everything cost?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Das Eis kostet 1,50 Euro und die Zeitung 2 Euro.",
+        "en": "The ice cream costs 1.50 euros and the newspaper 2 euros."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Hier sind vier Euro.",
+        "en": "Here are four euros."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Und 50 Cent zurück. Genieß dein Eis!",
+        "en": "And 50 cents change. Enjoy your ice cream!"
+      }
+    ]
+  },
+  {
+    "id": "CONV060",
+    "level": "A1",
+    "title": "Im Kindergarten",
+    "description": "Eine Mutter bringt ihr Kind in den Kindergarten.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Guten Morgen! Leo ist heute etwas müde.",
+        "en": "Good morning! Leo is a bit tired today."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Kein Problem. Leo, möchtest du malen oder draußen spielen?",
+        "en": "No problem. Leo, would you like to paint or play outside?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Draußen spielen! Mit dem Ball!",
+        "en": "Play outside! With the ball!"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Super! Deine Freunde sind schon im Garten.",
+        "en": "Great! Your friends are already in the garden."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Um wie viel Uhr hole ich ihn ab?",
+        "en": "What time shall I pick him up?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Heute bis 16 Uhr, wegen der Bastelstunde.",
+        "en": "Today by 4 pm, because of the craft session."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Gut. Bis dann! Tschüss, Leo!",
+        "en": "Good. See you then! Bye, Leo!"
+      }
+    ]
+  },
+  {
+    "id": "CONV061",
+    "level": "A1",
+    "title": "Im Theater",
+    "description": "Zwei Freunde nach dem Theater.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Das Stück war fantastisch! Wie hat es dir gefallen?",
+        "en": "The play was fantastic! How did you like it?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Sehr gut! Die Schauspieler waren wirklich toll.",
+        "en": "Very good! The actors were really great."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Die Hauptdarstellerin war besonders beeindruckend.",
+        "en": "The lead actress was especially impressive."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja! Und das Bühnenbild war so schön.",
+        "en": "Yes! And the set was so beautiful."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Kommst du nächsten Monat wieder mit?",
+        "en": "Are you coming again next month?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Sehr gerne! Was wird dann gespielt?",
+        "en": "Very gladly! What will be playing then?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ein Musikstück. Ich glaube, du wirst es mögen.",
+        "en": "A musical. I think you will like it."
+      }
+    ]
+  },
+  {
+    "id": "CONV062",
+    "level": "A1",
+    "title": "Beim Autowaschen",
+    "description": "Ein Fahrer wäscht sein Auto.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Entschuldigung, wie funktioniert die Autowaschanlage?",
+        "en": "Excuse me, how does the car wash work?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Sie fahren rein und wählen ein Programm. Welches möchten Sie?",
+        "en": "You drive in and choose a programme. Which would you like?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Was kostet das günstigste Programm?",
+        "en": "How much does the cheapest programme cost?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Das Basispaket kostet 8 Euro. Es dauert fünf Minuten.",
+        "en": "The basic package costs 8 euros. It takes five minutes."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Gut. Ich nehme das. Wo zahle ich?",
+        "en": "Good. I will take that. Where do I pay?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Am Automat dort vorne. Er akzeptiert Münzen und Karte.",
+        "en": "At the machine over there. It accepts coins and card."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Danke! Wie gut das Auto jetzt aussehen wird!",
+        "en": "Thank you! How good the car will look now!"
+      }
+    ]
+  },
+  {
+    "id": "CONV063",
+    "level": "A1",
+    "title": "Bei der Hochzeit",
+    "description": "Gäste sprechen auf einer Hochzeit.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Was für eine wunderschöne Hochzeit!",
+        "en": "What a beautiful wedding!"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja! Das Brautpaar sieht so glücklich aus.",
+        "en": "Yes! The bride and groom look so happy."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Kennen Sie die Familie schon lange?",
+        "en": "Have you known the family for a long time?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, ich bin ein Schulfreund des Bräutigams.",
+        "en": "Yes, I am a school friend of the groom."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Wie nett! Und das Essen ist hervorragend.",
+        "en": "How nice! And the food is excellent."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, die Hochzeitstorte war besonders lecker.",
+        "en": "Yes, the wedding cake was especially delicious."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Möchten Sie tanzen? Die Musik ist so schön.",
+        "en": "Would you like to dance? The music is so beautiful."
+      }
+    ]
+  },
+  {
+    "id": "CONV064",
+    "level": "A1",
+    "title": "Auf dem Berg",
+    "description": "Zwei Wanderer rasten auf dem Berg.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Puh! Das war ein langer Aufstieg. Machst du eine Pause?",
+        "en": "Phew! That was a long climb. Are you having a rest?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, ich bin müde. Aber die Aussicht ist wunderschön!",
+        "en": "Yes, I am tired. But the view is wonderful!"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Wie hoch sind wir?",
+        "en": "How high are we?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Etwa 1500 Meter. Der Gipfel ist noch eine Stunde entfernt.",
+        "en": "About 1500 metres. The summit is still one hour away."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Schaffen wir das noch?",
+        "en": "Can we still make it?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, natürlich! Trink etwas Wasser und iss einen Energieriegel.",
+        "en": "Yes, of course! Drink some water and eat an energy bar."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Gut. Dann weiter! Ich will den Gipfel sehen.",
+        "en": "Good. Then onwards! I want to see the summit."
+      }
+    ]
+  },
+  {
+    "id": "CONV065",
+    "level": "A1",
+    "title": "Im Konzert",
+    "description": "Zwei Konzertbesucher unterhalten sich.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Bist du auch zum ersten Mal bei diesem Konzert?",
+        "en": "Is this also your first time at this concert?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Nein, ich war letztes Jahr schon dabei. Es war fantastisch!",
+        "en": "No, I was here last year too. It was fantastic!"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Super! Ich bin sehr gespannt. Wann fängt es an?",
+        "en": "Great! I am very excited. When does it start?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "In zehn Minuten. Die Band ist sehr bekannt.",
+        "en": "In ten minutes. The band is very well known."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Was für Musik spielen sie?",
+        "en": "What kind of music do they play?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Rock und Pop. Die Sängerin hat eine tolle Stimme.",
+        "en": "Rock and pop. The singer has a wonderful voice."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ich freue mich! Danke für die Info.",
+        "en": "I am looking forward to it! Thank you for the information."
+      }
+    ]
+  },
+  {
+    "id": "CONV066",
+    "level": "A1",
+    "title": "Beim Camping",
+    "description": "Zwei Camper richten ihr Zelt auf.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Wir sind da! Dieser Campingplatz ist toll.",
+        "en": "We are here! This campsite is great."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja! Der See ist direkt daneben. Bauen wir zuerst das Zelt auf.",
+        "en": "Yes! The lake is right next to it. Let's put up the tent first."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Wo ist die Anleitung?",
+        "en": "Where is the instruction manual?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Hier. Zuerst die Stangen durch die Schlaufen ziehen.",
+        "en": "Here. First thread the poles through the loops."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Und dann?",
+        "en": "And then?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Dann die Heringe in den Boden stecken und das Seil spannen.",
+        "en": "Then put the pegs in the ground and tighten the rope."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Fertig! Das war einfacher als gedacht.",
+        "en": "Done! That was easier than expected."
+      }
+    ]
+  },
+  {
+    "id": "CONV067",
+    "level": "A1",
+    "title": "Im Fundbüro",
+    "description": "Eine Person sucht ihre Tasche im Fundbüro.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Tag! Ich habe heute meine Tasche verloren.",
+        "en": "Good day! I lost my bag today."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Wann und wo haben Sie sie verloren?",
+        "en": "When and where did you lose it?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Im Bus Linie 7, gegen 14 Uhr.",
+        "en": "On bus line 7, around 2 pm."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Beschreiben Sie die Tasche bitte.",
+        "en": "Please describe the bag."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Sie ist blau, aus Leder und hat einen langen Riemen.",
+        "en": "It is blue, made of leather and has a long strap."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Einen Moment... Ja! Hier ist eine blaue Ledertasche.",
+        "en": "One moment... Yes! Here is a blue leather bag."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Das ist sie! Vielen Dank! Ich bin so erleichtert.",
+        "en": "That is it! Thank you very much! I am so relieved."
+      }
+    ]
+  },
+  {
+    "id": "CONV068",
+    "level": "A1",
+    "title": "Beim Nachbarn",
+    "description": "Nachbarn sprechen an der Tür.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Guten Abend! Entschuldigung, haben Sie vielleicht Salz?",
+        "en": "Good evening! Excuse me, do you perhaps have any salt?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Natürlich! Wie viel brauchen Sie?",
+        "en": "Of course! How much do you need?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Nur ein bisschen. Ich koche gerade und habe keins mehr.",
+        "en": "Just a little. I am cooking and have run out."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Hier, nehmen Sie einfach diese kleine Tüte.",
+        "en": "Here, just take this small bag."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Das ist sehr nett von Ihnen! Ich bringe es morgen zurück.",
+        "en": "That is very kind of you! I will bring it back tomorrow."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Kein Problem. Kochen Sie etwas Besonderes?",
+        "en": "No problem. Are you cooking something special?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Ja, ein nigerianisches Gericht. Kommen Sie morgen zum Probieren!",
+        "en": "Yes, a Nigerian dish. Come tomorrow to try it!"
+      }
+    ]
+  },
+  {
+    "id": "CONV069",
+    "level": "A1",
+    "title": "Am Schreibtisch",
+    "description": "Ein Schüler und seine Schwester machen Hausaufgaben.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Kannst du mir bei Mathe helfen? Ich verstehe das nicht.",
+        "en": "Can you help me with maths? I do not understand this."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Was ist das Problem? Zeig mal.",
+        "en": "What is the problem? Show me."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Diese Aufgabe hier: 15 mal 8.",
+        "en": "This exercise here: 15 times 8."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Okay. 15 mal 8 ist 120. Möchtest du wissen, wie man das rechnet?",
+        "en": "Okay. 15 times 8 is 120. Would you like to know how to calculate it?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ja, bitte!",
+        "en": "Yes, please!"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Du rechnest: 10 mal 8 ist 80, und 5 mal 8 ist 40. Zusammen ist das 120.",
+        "en": "You calculate: 10 times 8 is 80, and 5 times 8 is 40. Together that is 120."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ah, ich verstehe! Danke, du bist die beste Schwester!",
+        "en": "Ah, I understand! Thank you, you are the best sister!"
+      }
+    ]
+  },
+  {
+    "id": "CONV070",
+    "level": "A1",
+    "title": "Im Wohnzimmer",
+    "description": "Eine Familie schaut zusammen fern.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Was schauen wir heute Abend?",
+        "en": "What are we watching this evening?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Es gibt einen Spielfilm um 20 Uhr und eine Dokumentation.",
+        "en": "There is a feature film at 8 pm and a documentary."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Was ist die Dokumentation über?",
+        "en": "What is the documentary about?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Über Tiere in Afrika. Sehr interessant.",
+        "en": "About animals in Africa. Very interesting."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ich möchte lieber den Spielfilm sehen.",
+        "en": "I would prefer to watch the feature film."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ich auch. Was ist das für ein Film?",
+        "en": "Me too. What kind of film is it?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Eine Komödie. Die sollen sehr lustig sein.",
+        "en": "A comedy. They are supposed to be very funny."
+      }
+    ]
+  },
+  {
+    "id": "CONV071",
+    "level": "A1",
+    "title": "Beim Abendessen",
+    "description": "Eine Familie isst zusammen.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Das Essen riecht wunderbar! Was hast du gekocht?",
+        "en": "The food smells wonderful! What did you cook?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ich habe Hähnchen mit Kartoffeln und Gemüse gemacht.",
+        "en": "I made chicken with potatoes and vegetables."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Mein Lieblingsessen! Darf ich schon anfangen?",
+        "en": "My favourite food! May I start already?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Natürlich! Lass es dir schmecken.",
+        "en": "Of course! Enjoy your meal."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Mmmh, das ist so lecker! Wie hast du das gemacht?",
+        "en": "Mmmh, this is so delicious! How did you make this?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Mit frischen Kräutern und ein bisschen Zitrone.",
+        "en": "With fresh herbs and a little lemon."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Kannst du mir das Rezept geben?",
+        "en": "Can you give me the recipe?"
+      }
+    ]
+  },
+  {
+    "id": "CONV072",
+    "level": "A1",
+    "title": "Im Supermarkt – Spezialwunsch",
+    "description": "Ein Kunde fragt nach einem Produkt.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Entschuldigung, haben Sie Bio-Tomaten?",
+        "en": "Excuse me, do you have organic tomatoes?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, die sind in der Bioabteilung, Gang 4.",
+        "en": "Yes, they are in the organic section, aisle 4."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Danke! Haben Sie auch glutenfreies Brot?",
+        "en": "Thank you! Do you also have gluten-free bread?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja, im gleichen Gang. Links neben dem Biobrot.",
+        "en": "Yes, in the same aisle. To the left of the organic bread."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Perfekt! Und wo finde ich die Milch?",
+        "en": "Perfect! And where do I find the milk?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ganz hinten im Kühlregal.",
+        "en": "Right at the back in the cold shelf."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Vielen Dank für Ihre Hilfe!",
+        "en": "Thank you very much for your help!"
+      }
+    ]
+  },
+  {
+    "id": "CONV073",
+    "level": "A1",
+    "title": "In der Disco",
+    "description": "Zwei Freunde gehen tanzen.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Hast du Lust, heute Abend tanzen zu gehen?",
+        "en": "Do you feel like going dancing tonight?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ja! Ich liebe tanzen. Wohin möchtest du gehen?",
+        "en": "Yes! I love dancing. Where do you want to go?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "In die neue Disco am Marktplatz.",
+        "en": "To the new disco at the market square."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Wann fängt es an?",
+        "en": "When does it start?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Um 21 Uhr. Der Eintritt kostet 10 Euro.",
+        "en": "At 9 pm. Entry costs 10 euros."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Gut. Ich ziehe mich noch um und dann fahren wir.",
+        "en": "Good. I will change and then we will go."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Super! Ich hole dich um 20:30 Uhr ab.",
+        "en": "Great! I will pick you up at 8:30 pm."
+      }
+    ]
+  },
+  {
+    "id": "CONV074",
+    "level": "A1",
+    "title": "Am Telefon – Verabredung",
+    "description": "Zwei Freunde verabreden sich.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Hallo! Hast du am Samstag Zeit?",
+        "en": "Hello! Do you have time on Saturday?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja, ich bin frei. Was hast du geplant?",
+        "en": "Yes, I am free. What have you planned?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Ich möchte ins Schwimmbad gehen. Kommst du mit?",
+        "en": "I would like to go to the swimming pool. Are you coming along?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Sehr gerne! Um wie viel Uhr?",
+        "en": "I would love to! What time?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Um 10 Uhr? Das Schwimmbad öffnet dann.",
+        "en": "At 10 o'clock? The swimming pool opens then."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Perfekt! Treffen wir uns am Eingang?",
+        "en": "Perfect! Shall we meet at the entrance?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Ja, bis Samstag! Bis dann!",
+        "en": "Yes, until Saturday! See you then!"
+      }
+    ]
+  },
+  {
+    "id": "CONV075",
+    "level": "A1",
+    "title": "Im Aufzug",
+    "description": "Zwei Nachbarn treffen sich im Aufzug.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Morgen! In welchen Stock fahren Sie?",
+        "en": "Good morning! Which floor are you going to?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "In den vierten, bitte. Danke!",
+        "en": "To the fourth, please. Thank you!"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Das Wetter ist heute schön, oder?",
+        "en": "The weather is nice today, isn't it?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja, endlich Sonne nach dem vielen Regen!",
+        "en": "Yes, finally sun after all the rain!"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Machen Sie heute etwas Besonderes?",
+        "en": "Are you doing anything special today?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ich gehe einkaufen und dann in den Park.",
+        "en": "I am going shopping and then to the park."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Schön! Bis später!",
+        "en": "Nice! Until later!"
+      }
+    ]
+  },
+  {
+    "id": "CONV076",
+    "level": "A1",
+    "title": "Beim Sport",
+    "description": "Zwei Sportler trainieren zusammen.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Wie oft trainierst du pro Woche?",
+        "en": "How often do you train per week?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Dreimal. Dienstag, Donnerstag und Samstag. Du?",
+        "en": "Three times. Tuesday, Thursday and Saturday. You?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Ich trainiere viermal. Aber ich bin noch Anfänger.",
+        "en": "I train four times. But I am still a beginner."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Das macht nichts. Hauptsache, du machst es regelmäßig.",
+        "en": "That does not matter. The main thing is that you do it regularly."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Hast du Tipps für mich?",
+        "en": "Do you have tips for me?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Beginne langsam und trink viel Wasser.",
+        "en": "Start slowly and drink lots of water."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Danke! Ich freue mich auf das Training.",
+        "en": "Thank you! I am looking forward to the training."
+      }
+    ]
+  },
+  {
+    "id": "CONV077",
+    "level": "A1",
+    "title": "Am See",
+    "description": "Eine Familie macht einen Ausflug an den See.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Der See ist so schön! Können wir schwimmen?",
+        "en": "The lake is so beautiful! Can we swim?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, aber passt auf. Das Wasser ist noch etwas kalt.",
+        "en": "Yes, but be careful. The water is still a bit cold."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ich gehe trotzdem! Ich bin nicht kälteempfindlich.",
+        "en": "I am going anyway! I am not sensitive to cold."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Okay, aber bleib in der Nähe.",
+        "en": "Okay, but stay close."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Können wir nachher ein Lagerfeuer machen?",
+        "en": "Can we make a campfire later?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, wenn es dunkel wird. Ich habe Würstchen mitgebracht.",
+        "en": "Yes, when it gets dark. I brought sausages."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Hurra! Das wird ein toller Abend.",
+        "en": "Hurray! That will be a great evening."
+      }
+    ]
+  },
+  {
+    "id": "CONV078",
+    "level": "A1",
+    "title": "Im Wald",
+    "description": "Zwei Freunde machen eine Waldwanderung.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ich liebe es, im Wald zu wandern!",
+        "en": "I love hiking in the forest!"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ich auch. Die Luft ist so frisch und es ist ruhig.",
+        "en": "Me too. The air is so fresh and it is quiet."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Hörst du die Vögel? Das ist wunderschön.",
+        "en": "Can you hear the birds? That is wonderful."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Ja! Ich glaube, das ist ein Specht.",
+        "en": "Yes! I think that is a woodpecker."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Wie lange wandern wir noch?",
+        "en": "How much longer are we hiking?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Noch etwa eine Stunde bis zur Hütte.",
+        "en": "About another hour to the hut."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Perfekt. Ich freue mich auf eine heiße Suppe!",
+        "en": "Perfect. I am looking forward to a hot soup!"
+      }
+    ]
+  },
+  {
+    "id": "CONV079",
+    "level": "A1",
+    "title": "Im Zirkus",
+    "description": "Eltern und Kind beim Zirkus.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Schau mal! Der Clown ist so lustig!",
+        "en": "Look! The clown is so funny!"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja! Und die Akrobaten sind so mutig!",
+        "en": "Yes! And the acrobats are so brave!"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Kannst du sehen, wie die Frau auf dem Seil balanciert?",
+        "en": "Can you see how the woman is balancing on the rope?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja! Das kann ich nicht! Das ist schwierig.",
+        "en": "Yes! I cannot do that! That is difficult."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Möchtest du auch mal Zirkusartist werden?",
+        "en": "Would you also like to become a circus artist?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja! Ich will jonglieren lernen!",
+        "en": "Yes! I want to learn to juggle!"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Das können wir zu Hause üben. Mit Äpfeln!",
+        "en": "We can practise that at home. With apples!"
+      }
+    ]
+  },
+  {
+    "id": "CONV080",
+    "level": "A1",
+    "title": "Beim Konzert – Karten kaufen",
+    "description": "Zwei Freunde kaufen Konzerttickets.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ich habe gehört, dass die Band nächste Woche hier spielt!",
+        "en": "I heard that the band is playing here next week!"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Wirklich? Das ist toll! Haben wir noch Karten?",
+        "en": "Really? That is great! Do we still have tickets?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ich schaue online... Ja, es gibt noch Karten!",
+        "en": "I am looking online... Yes, there are still tickets!"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Wie viel kosten sie?",
+        "en": "How much do they cost?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "35 Euro das Stück. Soll ich zwei kaufen?",
+        "en": "35 euros each. Shall I buy two?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ja! Unbedingt! Ich zahle dir meinen Anteil zurück.",
+        "en": "Yes! Definitely! I will pay you back my share."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Okay, ich kaufe sie jetzt. Ich bin so aufgeregt!",
+        "en": "Okay, I am buying them now. I am so excited!"
+      }
+    ]
+  },
+  {
+    "id": "CONV081",
+    "level": "A1",
+    "title": "Am Flughafen – Abholung",
+    "description": "Jemand wartet auf einen Freund am Flughafen.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Wann landet der Flug aus Lagos?",
+        "en": "When does the flight from Lagos land?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Laut Anzeige um 15:30 Uhr. Es ist jetzt 15:20 Uhr.",
+        "en": "According to the display at 3:30 pm. It is 3:20 pm now."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ich warte schon seit einer Stunde. Ich bin so aufgeregt!",
+        "en": "I have been waiting for an hour. I am so excited!"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ist das ein Freund oder ein Familienmitglied?",
+        "en": "Is it a friend or a family member?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Meine Schwester! Sie kommt mich besuchen.",
+        "en": "My sister! She is coming to visit me."
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Wie schön! Wie lange bleibt sie?",
+        "en": "How nice! How long is she staying?"
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Zwei Wochen! Ich freue mich so sehr!",
+        "en": "Two weeks! I am so happy!"
+      }
+    ]
+  },
+  {
+    "id": "CONV082",
+    "level": "A1",
+    "title": "Im Supermarkt – Hilfe finden",
+    "description": "Eine Kundin sucht Hilfe im Supermarkt.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Entschuldigung! Wo finde ich die Gewürze?",
+        "en": "Excuse me! Where do I find the spices?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Die Gewürze sind in Gang 6, gleich nach der Pasta.",
+        "en": "The spices are in aisle 6, right after the pasta."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Danke! Haben Sie auch frischen Ingwer?",
+        "en": "Thank you! Do you also have fresh ginger?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja, der ist im Gemüseregal, gleich beim Knoblauch.",
+        "en": "Yes, that is in the vegetable aisle, right next to the garlic."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Und was ist das Angebot diese Woche?",
+        "en": "And what is on offer this week?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Olivenöl und Pasta sind im Angebot. 20% Rabatt.",
+        "en": "Olive oil and pasta are on offer. 20% discount."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Super! Dann nehme ich etwas mehr mit.",
+        "en": "Great! Then I will take a bit more."
+      }
+    ]
+  },
+  {
+    "id": "CONV083",
+    "level": "A1",
+    "title": "Beim Grillabend",
+    "description": "Nachbarn grillen zusammen.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Was für ein schöner Abend zum Grillen!",
+        "en": "What a beautiful evening for a barbecue!"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja! Das Fleisch ist gleich fertig. Magst du Würstchen oder Hähnchen?",
+        "en": "Yes! The meat is nearly ready. Do you like sausages or chicken?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Beides, bitte! Ich bin sehr hungrig.",
+        "en": "Both, please! I am very hungry."
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Hier, und hier ist auch noch Salat.",
+        "en": "Here, and there is also salad here."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Danke! Darf ich noch etwas Brot haben?",
+        "en": "Thank you! May I have some more bread?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Natürlich! Und was trinkst du?",
+        "en": "Of course! And what are you drinking?"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Ein Mineralwasser, bitte. Es ist so warm heute.",
+        "en": "A mineral water, please. It is so warm today."
+      }
+    ]
+  },
+  {
+    "id": "CONV084",
+    "level": "A1",
+    "title": "Beim Einkaufen – Kleidung",
+    "description": "Eine Frau kauft neue Kleidung.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Kann ich Ihnen helfen?",
+        "en": "Can I help you?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ja, ich suche ein Sommerkleid in Größe 38.",
+        "en": "Yes, I am looking for a summer dress in size 38."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Hier haben wir schöne Kleider. Welche Farbe gefällt Ihnen?",
+        "en": "Here we have nice dresses. Which colour do you like?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ich mag blaue oder grüne Farben.",
+        "en": "I like blue or green colours."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Dieses türkisfarbene Kleid ist sehr beliebt.",
+        "en": "This turquoise dress is very popular."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Es ist schön! Kann ich es anprobieren?",
+        "en": "It is beautiful! Can I try it on?"
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Natürlich! Die Umkleidekabinen sind dort hinten.",
+        "en": "Of course! The changing rooms are at the back there."
+      }
+    ]
+  },
+  {
+    "id": "CONV085",
+    "level": "A1",
+    "title": "Auf dem Spielplatz – Eltern",
+    "description": "Zwei Eltern sprechen auf dem Spielplatz.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ihr Kind ist so aktiv! Wie alt ist es?",
+        "en": "Your child is so active! How old is it?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Er ist vier Jahre alt. Er liebt den Spielplatz.",
+        "en": "He is four years old. He loves the playground."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Meine Tochter auch. Sie ist fünf. Kommen Sie oft hierher?",
+        "en": "My daughter too. She is five. Do you come here often?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ja, fast jeden Tag nach dem Kindergarten.",
+        "en": "Yes, almost every day after kindergarten."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Das ist schön. Die Kinder brauchen frische Luft.",
+        "en": "That is nice. Children need fresh air."
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Stimmt. Und sie schlafen danach viel besser.",
+        "en": "True. And they sleep much better afterwards."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Absolut! Sollen unsere Kinder zusammen spielen?",
+        "en": "Absolutely! Shall our children play together?"
+      }
+    ]
+  },
+  {
+    "id": "CONV086",
+    "level": "A1",
+    "title": "Im Café – Kellner",
+    "description": "Ein Gast spricht mit dem Kellner.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Guten Tag! Darf ich die Karte sehen?",
+        "en": "Good day! May I see the menu?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Natürlich! Hier ist unsere Tageskarte.",
+        "en": "Of course! Here is our daily menu."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Was empfehlen Sie heute?",
+        "en": "What do you recommend today?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Die Quiche Lorraine ist sehr frisch und beliebt.",
+        "en": "The Quiche Lorraine is very fresh and popular."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Gut, das nehme ich. Und einen Cappuccino dazu.",
+        "en": "Good, I will have that. And a cappuccino with it."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Gerne. Möchten Sie auch noch Nachtisch?",
+        "en": "Of course. Would you also like dessert?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Vielleicht nachher. Danke!",
+        "en": "Maybe later. Thank you!"
+      }
+    ]
+  },
+  {
+    "id": "CONV087",
+    "level": "A1",
+    "title": "Im Zug – Mitfahrer",
+    "description": "Zwei Reisende sprechen im Zug.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ist dieser Platz frei?",
+        "en": "Is this seat free?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, bitte nehmen Sie Platz.",
+        "en": "Yes, please take a seat."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Danke! Wohin fahren Sie?",
+        "en": "Thank you! Where are you going?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Nach Hamburg. Und Sie?",
+        "en": "To Hamburg. And you?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ich fahre nach Köln. Lange Fahrt, oder?",
+        "en": "I am going to Cologne. Long journey, isn't it?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, drei Stunden. Ich lese gerne im Zug.",
+        "en": "Yes, three hours. I like reading on the train."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Ich schlafe lieber. Angenehme Reise!",
+        "en": "I prefer sleeping. Have a pleasant journey!"
+      }
+    ]
+  },
+  {
+    "id": "CONV088",
+    "level": "A1",
+    "title": "Bei der Hausparty",
+    "description": "Gäste sprechen auf einer Hausparty.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Hey! Schöne Party! Kennst du viele Leute hier?",
+        "en": "Hey! Nice party! Do you know many people here?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Ein paar. Ich kenne den Gastgeber aus der Arbeit.",
+        "en": "A few. I know the host from work."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ich bin zum ersten Mal hier. Mein Name ist Kevin.",
+        "en": "I am here for the first time. My name is Kevin."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Hallo Kevin! Ich bin Sandra. Woher kommst du?",
+        "en": "Hello Kevin! I am Sandra. Where are you from?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Aus Düsseldorf. Ich bin erst seit einem Monat in Berlin.",
+        "en": "From Düsseldorf. I have only been in Berlin for a month."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Dann willkommen! Berlin ist eine tolle Stadt.",
+        "en": "Welcome then! Berlin is a great city."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ja! Ich mag es schon sehr. Was machst du beruflich?",
+        "en": "Yes! I already like it a lot. What do you do for work?"
+      }
+    ]
+  },
+  {
+    "id": "CONV089",
+    "level": "A1",
+    "title": "An der Ampel",
+    "description": "Zwei Fußgänger warten an der Ampel.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Entschuldigung, wie komme ich zum Stadtpark?",
+        "en": "Excuse me, how do I get to the city park?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Gehen Sie hier geradeaus bis zur nächsten Kreuzung.",
+        "en": "Go straight ahead here to the next crossroads."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Und dann?",
+        "en": "And then?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Dann biegen Sie links ab. Der Park ist auf der rechten Seite.",
+        "en": "Then turn left. The park is on the right-hand side."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Wie weit ist es?",
+        "en": "How far is it?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Etwa zehn Minuten zu Fuß.",
+        "en": "About ten minutes on foot."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Vielen Dank! Das ist sehr hilfreich.",
+        "en": "Thank you very much! That is very helpful."
+      }
+    ]
+  },
+  {
+    "id": "CONV090",
+    "level": "A1",
+    "title": "In der Tankstelle",
+    "description": "Ein Fahrer tankt sein Auto.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Guten Tag! Ich möchte volltanken.",
+        "en": "Good day! I would like to fill up."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Welchen Kraftstoff brauchen Sie? Benzin oder Diesel?",
+        "en": "What fuel do you need? Petrol or diesel?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Benzin, bitte.",
+        "en": "Petrol, please."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Zapfsäule Nummer 3 ist frei.",
+        "en": "Pump number 3 is free."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Danke. Kann ich auch das Öl prüfen lassen?",
+        "en": "Thank you. Can I also have the oil checked?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Ja, das machen wir gerne. Bitte stellen Sie das Auto dort ab.",
+        "en": "Yes, we are happy to do that. Please park the car over there."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Super. Das Öl war schon lange nicht geprüft.",
+        "en": "Great. The oil has not been checked for a long time."
+      }
+    ]
+  },
+  {
+    "id": "CONV091",
+    "level": "A1",
+    "title": "Im Fitnessstudio – Training",
+    "description": "Ein Trainer erklärt eine Übung.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Können Sie mir zeigen, wie diese Maschine funktioniert?",
+        "en": "Can you show me how this machine works?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Natürlich! Setzen Sie sich so hin und greifen Sie die Griffe.",
+        "en": "Of course! Sit like this and grip the handles."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "So?",
+        "en": "Like this?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Fast! Die Arme etwas weiter auseinander.",
+        "en": "Almost! The arms a little further apart."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Wie viele Wiederholungen soll ich machen?",
+        "en": "How many repetitions should I do?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Für Anfänger: dreimal zwölf Wiederholungen.",
+        "en": "For beginners: three times twelve repetitions."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Verstanden. Danke für die Hilfe!",
+        "en": "Understood. Thank you for the help!"
+      }
+    ]
+  },
+  {
+    "id": "CONV092",
+    "level": "A1",
+    "title": "Beim Arzt – Ergebnis",
+    "description": "Ein Patient bekommt seine Ergebnisse.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Guten Morgen. Ich habe einen Termin, um meine Ergebnisse abzuholen.",
+        "en": "Good morning. I have an appointment to collect my results."
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ah ja, Herr Bauer. Die Ergebnisse sind gut.",
+        "en": "Ah yes, Mr Bauer. The results are good."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Das ist eine Erleichterung! Was haben Sie gefunden?",
+        "en": "That is a relief! What did you find?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ihr Blutdruck ist normal und die Blutwerte sind in Ordnung.",
+        "en": "Your blood pressure is normal and the blood values are fine."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Aber ich muss etwas mehr Sport machen, oder?",
+        "en": "But I need to do a bit more sport, don't I?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Ja, dreimal pro Woche wäre ideal. Und weniger Stress.",
+        "en": "Yes, three times a week would be ideal. And less stress."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Ich werde es versuchen. Danke, Herr Doktor!",
+        "en": "I will try. Thank you, Doctor!"
+      }
+    ]
+  },
+  {
+    "id": "CONV093",
+    "level": "A1",
+    "title": "In der Metzgerei",
+    "description": "Ein Kunde kauft Fleisch.",
+    "speakers": [
+      {
+        "name": "Max",
+        "voice": 1
+      },
+      {
+        "name": "Lena",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Guten Morgen! Was darf es sein?",
+        "en": "Good morning! What can I get you?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Ich möchte 500 Gramm Hackfleisch und vier Koteletts.",
+        "en": "I would like 500 grams of minced meat and four chops."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Schwein oder Rind beim Hackfleisch?",
+        "en": "Pork or beef for the minced meat?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Gemischt, bitte. Und haben Sie auch Bratwürste?",
+        "en": "Mixed, please. And do you also have bratwursts?"
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Ja, frisch heute Morgen. Wie viele möchten Sie?",
+        "en": "Yes, fresh this morning. How many would you like?"
+      },
+      {
+        "speaker": "Lena",
+        "side": "right",
+        "de": "Acht Stück, bitte. Ich grille heute Abend.",
+        "en": "Eight pieces, please. I am barbecuing tonight."
+      },
+      {
+        "speaker": "Max",
+        "side": "left",
+        "de": "Das klingt gut! Das macht 12,50 Euro.",
+        "en": "That sounds good! That comes to 12.50 euros."
+      }
+    ]
+  },
+  {
+    "id": "CONV094",
+    "level": "A1",
+    "title": "An der Rezeption – Hotel Problem",
+    "description": "Ein Gast hat ein Problem im Hotel.",
+    "speakers": [
+      {
+        "name": "Tom",
+        "voice": 1
+      },
+      {
+        "name": "Anna",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Entschuldigung, es gibt ein Problem mit meinem Zimmer.",
+        "en": "Excuse me, there is a problem with my room."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Oh! Was ist passiert?",
+        "en": "Oh! What happened?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Die Heizung funktioniert nicht. Ich friere.",
+        "en": "The heating does not work. I am freezing."
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "Das tut mir leid! Ich schicke sofort jemanden.",
+        "en": "I am sorry! I will send someone immediately."
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Wann kommt jemand?",
+        "en": "When will someone come?"
+      },
+      {
+        "speaker": "Anna",
+        "side": "right",
+        "de": "In zehn Minuten. Möchten Sie warten oder sollen Sie ein anderes Zimmer bekommen?",
+        "en": "In ten minutes. Would you like to wait or shall you get another room?"
+      },
+      {
+        "speaker": "Tom",
+        "side": "left",
+        "de": "Ein anderes Zimmer wäre besser, danke.",
+        "en": "Another room would be better, thank you."
+      }
+    ]
+  },
+  {
+    "id": "CONV095",
+    "level": "A1",
+    "title": "Am Kopierer",
+    "description": "Zwei Kollegen am Kopierer.",
+    "speakers": [
+      {
+        "name": "Felix",
+        "voice": 1
+      },
+      {
+        "name": "Sara",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Funktioniert der Kopierer wieder?",
+        "en": "Is the photocopier working again?"
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Ja, endlich! Das Papier war alle.",
+        "en": "Yes, finally! The paper had run out."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Gut. Ich brauche dringend Kopien für das Meeting.",
+        "en": "Good. I urgently need copies for the meeting."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Wie viele Kopien brauchst du?",
+        "en": "How many copies do you need?"
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Zwanzig Stück, beidseitig.",
+        "en": "Twenty copies, double-sided."
+      },
+      {
+        "speaker": "Sara",
+        "side": "right",
+        "de": "Kein Problem. Ich bin gleich fertig.",
+        "en": "No problem. I am done in a moment."
+      },
+      {
+        "speaker": "Felix",
+        "side": "left",
+        "de": "Danke! Du rettest mein Leben!",
+        "en": "Thank you! You are saving my life!"
+      }
+    ]
+  },
+  {
+    "id": "CONV096",
+    "level": "A1",
+    "title": "Im Park – Joggen",
+    "description": "Zwei Jogger treffen sich im Park.",
+    "speakers": [
+      {
+        "name": "Klaus",
+        "voice": 1
+      },
+      {
+        "name": "Maria",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Guten Morgen! Joggst du hier jeden Tag?",
+        "en": "Good morning! Do you jog here every day?"
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Fast. Dreimal pro Woche. Du bist neu hier?",
+        "en": "Almost. Three times a week. Are you new here?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Ja, ich jogge erst seit einem Monat.",
+        "en": "Yes, I have only been jogging for a month."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Das ist toll! Wie weit läufst du?",
+        "en": "That is great! How far do you run?"
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Nur drei Kilometer. Ich bin noch langsam.",
+        "en": "Only three kilometres. I am still slow."
+      },
+      {
+        "speaker": "Maria",
+        "side": "right",
+        "de": "Das macht nichts. Hauptsache, du machst es.",
+        "en": "That does not matter. The main thing is you do it."
+      },
+      {
+        "speaker": "Klaus",
+        "side": "left",
+        "de": "Danke! Vielleicht laufen wir nächste Woche zusammen.",
+        "en": "Thank you! Perhaps we will run together next week."
+      }
+    ]
+  },
+  {
+    "id": "CONV097",
+    "level": "A1",
+    "title": "In der Apotheke",
+    "description": "Ein Kunde kauft Medizin in der Apotheke.",
+    "speakers": [
+      {
+        "name": "David",
+        "voice": 1
+      },
+      {
+        "name": "Nina",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Guten Tag! Haben Sie etwas gegen Erkältung?",
+        "en": "Good day! Do you have something for a cold?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Ja, ich empfehle diesen Hustensaft und diese Nasentropfen.",
+        "en": "Yes, I recommend this cough syrup and these nasal drops."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Brauche ich dafür ein Rezept?",
+        "en": "Do I need a prescription for that?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Nein, das sind freiverkäufliche Mittel.",
+        "en": "No, those are over-the-counter medicines."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Gut. Was kostet das alles?",
+        "en": "Good. How much does all that cost?"
+      },
+      {
+        "speaker": "Nina",
+        "side": "right",
+        "de": "Der Hustensaft kostet 8 Euro und die Tropfen 6 Euro.",
+        "en": "The cough syrup costs 8 euros and the drops 6 euros."
+      },
+      {
+        "speaker": "David",
+        "side": "left",
+        "de": "Ich nehme beides. Danke für die Beratung!",
+        "en": "I will take both. Thank you for the advice!"
+      }
+    ]
+  },
+  {
+    "id": "CONV098",
+    "level": "A1",
+    "title": "Beim Yogakurs",
+    "description": "Zwei Teilnehmer vor dem Yogakurs.",
+    "speakers": [
+      {
+        "name": "Erik",
+        "voice": 1
+      },
+      {
+        "name": "Julia",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Machst du auch das erste Mal Yoga?",
+        "en": "Is this also your first time doing yoga?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Nein, ich mache es seit zwei Jahren. Und du?",
+        "en": "No, I have been doing it for two years. And you?"
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Ich bin Anfängerin. Ist es schwierig?",
+        "en": "I am a beginner. Is it difficult?"
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Am Anfang schon etwas. Aber die Lehrerin ist sehr geduldig.",
+        "en": "A bit at the beginning. But the teacher is very patient."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Das ist gut zu hören. Ich bin sehr unflexibel.",
+        "en": "That is good to hear. I am very inflexible."
+      },
+      {
+        "speaker": "Julia",
+        "side": "right",
+        "de": "Das ändert sich schnell! Nach einem Monat merkst du schon den Unterschied.",
+        "en": "That changes quickly! After a month you already notice the difference."
+      },
+      {
+        "speaker": "Erik",
+        "side": "left",
+        "de": "Toll! Ich freue mich auf die Stunde.",
+        "en": "Great! I am looking forward to the class."
+      }
+    ]
+  },
+  {
+    "id": "CONV099",
+    "level": "A1",
+    "title": "Am Informationsschalter",
+    "description": "Ein Tourist fragt nach Sehenswürdigkeiten.",
+    "speakers": [
+      {
+        "name": "Paul",
+        "voice": 1
+      },
+      {
+        "name": "Lisa",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Guten Tag! Ich bin Tourist. Was sollte ich in der Stadt sehen?",
+        "en": "Good day! I am a tourist. What should I see in the city?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Das Rathaus und der Marktplatz sind sehr schön.",
+        "en": "The town hall and the market square are very beautiful."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Wie weit ist das vom Hotel?",
+        "en": "How far is that from the hotel?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Etwa zehn Minuten zu Fuß.",
+        "en": "About ten minutes on foot."
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Gibt es auch ein Museum?",
+        "en": "Is there also a museum?"
+      },
+      {
+        "speaker": "Lisa",
+        "side": "right",
+        "de": "Ja, das Stadtmuseum ist sehr empfehlenswert. Eintritt frei!",
+        "en": "Yes, the city museum is highly recommended. Free entry!"
+      },
+      {
+        "speaker": "Paul",
+        "side": "left",
+        "de": "Perfekt! Danke für die Informationen.",
+        "en": "Perfect! Thank you for the information."
+      }
+    ]
+  },
+  {
+    "id": "CONV100",
+    "level": "A1",
+    "title": "Im Jugendclub",
+    "description": "Zwei Jugendliche sprechen im Jugendclub.",
+    "speakers": [
+      {
+        "name": "Hans",
+        "voice": 1
+      },
+      {
+        "name": "Emma",
+        "voice": 2
+      }
+    ],
+    "lines": [
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Hallo! Ich bin neu hier. Was macht ihr hier so?",
+        "en": "Hello! I am new here. What do you do here?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Wir spielen Tischtennis, machen Musik und reden einfach.",
+        "en": "We play table tennis, make music and just talk."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Cool! Ich spiele gerne Tischtennis. Kann ich mitmachen?",
+        "en": "Cool! I like playing table tennis. Can I join?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Natürlich! Wir brauchen noch einen Spieler.",
+        "en": "Of course! We still need another player."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Super! Wie oft kommt ihr hierher?",
+        "en": "Great! How often do you come here?"
+      },
+      {
+        "speaker": "Emma",
+        "side": "right",
+        "de": "Dienstags und freitags nach der Schule.",
+        "en": "Tuesdays and Fridays after school."
+      },
+      {
+        "speaker": "Hans",
+        "side": "left",
+        "de": "Das passt mir gut! Ich komme nächsten Dienstag wieder.",
+        "en": "That suits me well! I will come back next Tuesday."
+      }
+    ]
+  }
+]

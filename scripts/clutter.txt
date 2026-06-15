@@ -1,0 +1,142 @@
+===== ENTRIES WITH "(pl" IN ANY FIELD =====
+   [A1] stellen                t='To put (place)'
+   [A2] könntest du            t='Could you (please)'
+   [A2] würdest du             t='Would you (please)'
+TOTAL "(pl" hits: 3
+
+===== NUMERIC/ORDINAL PARENTHETICALS IN t =====
+   counts by level: {'A1': 33}
+     [A1] null           t='Zero (0)'
+     [A1] eins           t='One (1)'
+     [A1] zwei           t='Two (2)'
+     [A1] drei           t='Three (3)'
+     [A1] vier           t='Four (4)'
+     [A1] fünf           t='Five (5)'
+     [A1] sechs          t='Six (6)'
+     [A1] sieben         t='Seven (7)'
+     [A1] acht           t='Eight (8)'
+     [A1] neun           t='Nine (9)'
+     [A1] zehn           t='Ten (10)'
+     [A1] elf            t='Eleven (11)'
+
+===== DISTINCT t-parentheticals in A2 (top 40) =====
+      2  (oneself)
+      2  (an exam)
+      2  (please)
+      1  (for pleasure)
+      1  (up)
+      1  (transport)
+      1  (hotel)
+      1  (book)
+      1  (gratuity)
+      1  (after eating)
+      1  (a table)
+      1  (school)
+      1  (as a subject)
+      1  (at university)
+      1  (university)
+      1  (job)
+      1  (celsius)
+      1  (bank)
+      1  (postage)
+      1  (conjunction)
+      1  (to)
+      1  (in a shop)
+      1  (someone of)
+
+===== DISTINCT t-parentheticals in B1 (top 40) =====
+      2  (abbreviation)
+      2  (for)
+      2  (infinitive construction)
+      1  (a question)
+      1  (online)
+      1  (german anglizismus)
+      1  (political)
+      1  (german constitution)
+      1  (official)
+      1  (medical)
+      1  (of children)
+      1  (weight-loss)
+      1  (for a job)
+      1  (about)
+      1  (in a dictionary etc.)
+      1  (conditional auxiliary)
+      1  (konjunktiv ii of können)
+      1  (konjunktiv ii of sollen)
+      1  (konjunktiv ii of sein)
+      1  (konjunktiv ii of haben)
+      1  (past passive)
+      1  (perfect passive)
+      1  (comparative)
+      1  (colloquial)
+      1  (government)
+      1  (land)
+      1  (entry grade requirement)
+      1  (on foot)
+      1  (formal)
+      1  (medication)
+      1  (off a road)
+      1  (on the phone)
+      1  (a form)
+      1  (like)
+      1  (doing sth.)
+      1  (about a product)
+      1  (drugs)
+      1  (on)
+      1  (money)
+
+===== DISTINCT t-parentheticals in B2 (top 40) =====
+      5  (social media)
+      3  (medical)
+      3  (business)
+      2  (linguistics)
+      1  (criticism)
+      1  (communication)
+      1  (language level)
+      1  (of events)
+      1  (sb into excitement)
+      1  (measures)
+      1  (natural science)
+      1  (computer)
+      1  (to something)
+      1  (blood)
+      1  (of books)
+      1  (an organisation)
+      1  (time)
+      1  (body)
+      1  (abitur)
+      1  (letter)
+      1  (for disabled)
+      1  (at university)
+      1  (gdp)
+      1  (grammar)
+      1  (statistics)
+      1  (who)
+      1  (german federal parliament)
+      1  (german federal council)
+      1  (food)
+      1  (architecture)
+      1  (style)
+      1  (content)
+      1  (internet)
+      1  (cefr)
+      1  (professional)
+      1  (german law)
+      1  (education)
+      1  (self-directed learning)
+      1  (language)
+      1  (sdgs)
+
+===== DISTINCT w-parentheticals (all levels) =====
+      2  (um)
+      2  (von)
+      2  (auf)
+      1  (wohngemeinschaft)
+      1  (intercityexpress)
+      1  (kraftfahrzeug)
+      1  (gesellschaft mit beschränkter haftung)
+      1  (kfz)
+      1  (über)
+      1  (passiv vergangenheit)
+      1  (perfekt passiv)
+      1  (dass)

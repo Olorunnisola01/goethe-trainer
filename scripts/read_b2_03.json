@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B2_R36", "level": "B2", "type": "Sachtext", "title": "Mehrsprachigkeit als Chance",
+    "text": "MEHRSPRACHIGKEIT ALS CHANCE\n\nLange galt es als Nachteil, wenn Kinder mit zwei Sprachen aufwuchsen. Man fürchtete, sie würden beide nur halb lernen. Heute weiß man: Das Gegenteil ist der Fall. Mehrsprachige Kinder sind oft geistig flexibler und können sich besser in andere hineinversetzen.\n\nWichtig ist allerdings, dass beide Sprachen gepflegt werden. Wird die Muttersprache zu Hause vernachlässigt, geht ein wertvoller Schatz verloren. Schulen und Gesellschaft sollten Mehrsprachigkeit deshalb nicht als Problem, sondern als Reichtum begreifen. Wer mehrere Sprachen spricht, baut Brücken zwischen Kulturen — eine Fähigkeit, die in einer vernetzten Welt immer wertvoller wird.",
+    "questions": [
+      { "type": "MCQ", "q": "Was galt früher als Nachteil?", "opts": ["Wenn Kinder mit zwei Sprachen aufwuchsen", "Wenn Kinder früh lasen", "Wenn Kinder reisten"], "a": 0, "exp": "„Lange galt es als Nachteil, wenn Kinder mit zwei Sprachen aufwuchsen.“" },
+      { "type": "MCQ", "q": "Was weiß man heute?", "opts": ["Das Gegenteil ist der Fall", "Die alte Sorge stimmt", "Sprachen schaden"], "a": 0, "exp": "„Heute weiß man: Das Gegenteil ist der Fall.“" },
+      { "type": "MCQ", "q": "Wie sind mehrsprachige Kinder laut Text oft?", "opts": ["Geistig flexibler", "Lauter", "Langsamer"], "a": 0, "exp": "„oft geistig flexibler und können sich besser in andere hineinversetzen“." },
+      { "type": "TF", "q": "Laut Text ist es egal, ob die Muttersprache gepflegt wird.", "a": false, "exp": "„Wird die Muttersprache zu Hause vernachlässigt, geht ein wertvoller Schatz verloren.“" },
+      { "type": "MCQ", "q": "Wie sollten Schule und Gesellschaft Mehrsprachigkeit begreifen?", "opts": ["Als Reichtum, nicht als Problem", "Als Gefahr", "Als unwichtig"], "a": 0, "exp": "„nicht als Problem, sondern als Reichtum begreifen“." },
+      { "type": "MCQ", "q": "Was baut, wer mehrere Sprachen spricht?", "opts": ["Brücken zwischen Kulturen", "Mauern", "Nichts"], "a": 0, "exp": "„baut Brücken zwischen Kulturen“." }
+    ]
+  },
+  {
+    "id": "B2_R37", "level": "B2", "type": "Argumentativer Text", "title": "Sollte Sport benotet werden?",
+    "text": "SOLLTE SPORT BENOTET WERDEN?\n\nIn der Schule bekommt man auch im Fach Sport eine Note. Doch ist das gerecht? Kritiker meinen: Während man in Mathe Wissen bewertet, bewertet man im Sport zum Teil den Körper — und der ist nicht für alle gleich. Ein unsportliches Kind kann sich anstrengen und bekommt trotzdem eine schlechte Note.\n\nBefürworter halten dagegen, Noten würden motivieren und Leistung sei messbar. Vielleicht aber sollte man weniger das Ergebnis und mehr den Einsatz bewerten. Ein Kind, das sich verbessert und mitmacht, verdient Anerkennung — unabhängig davon, wie schnell es rennt. Schließlich soll der Sportunterricht vor allem eines fördern: die Freude an Bewegung.",
+    "questions": [
+      { "type": "TF", "q": "In der Schule bekommt man auch im Fach Sport eine Note.", "a": true, "exp": "„im Fach Sport eine Note“." },
+      { "type": "MCQ", "q": "Was bewertet man laut Kritikern im Sport zum Teil?", "opts": ["Den Körper", "Nur das Wissen", "Die Kleidung"], "a": 0, "exp": "„bewertet man im Sport zum Teil den Körper“." },
+      { "type": "MCQ", "q": "Welches Problem nennen die Kritiker?", "opts": ["Ein unsportliches Kind strengt sich an und bekommt trotzdem eine schlechte Note", "Sport ist zu teuer", "Es gibt zu wenige Lehrer"], "a": 0, "exp": "„Ein unsportliches Kind kann sich anstrengen und bekommt trotzdem eine schlechte Note.“" },
+      { "type": "MCQ", "q": "Was sagen die Befürworter?", "opts": ["Noten motivieren und Leistung ist messbar", "Sport ist sinnlos", "Noten sind ungerecht"], "a": 0, "exp": "„Noten würden motivieren und Leistung sei messbar“." },
+      { "type": "MCQ", "q": "Was schlägt der Autor vor?", "opts": ["Weniger das Ergebnis, mehr den Einsatz bewerten", "Sport abschaffen", "Nur die Schnellsten loben"], "a": 0, "exp": "„weniger das Ergebnis und mehr den Einsatz bewerten“." },
+      { "type": "MCQ", "q": "Was soll der Sportunterricht laut Autor vor allem fördern?", "opts": ["Die Freude an Bewegung", "Den Wettkampf", "Die Disziplin"], "a": 0, "exp": "„die Freude an Bewegung“." }
+    ]
+  },
+  {
+    "id": "B2_R38", "level": "B2", "type": "Interview", "title": "Eine Architektin über nachhaltiges Bauen",
+    "text": "INTERVIEW mit der Architektin Frau Roth über nachhaltiges Bauen\n\nReporter: Was bedeutet nachhaltiges Bauen?\nFrau Roth: Häuser zu bauen, die wenig Energie verbrauchen und aus umweltfreundlichen Materialien bestehen — zum Beispiel Holz statt Beton.\nReporter: Ist das nicht teurer?\nFrau Roth: Im Bau oft ja. Aber über die Jahre spart man durch niedrige Energiekosten. Man muss langfristig rechnen.\nReporter: Was wünschen Sie sich von der Politik?\nFrau Roth: Klare Regeln und Förderung. Solange klimaschädliches Bauen billiger bleibt, ändert sich zu wenig. Gute Architektur denkt nicht nur an heute, sondern an die nächsten Generationen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was bedeutet nachhaltiges Bauen laut Frau Roth?", "opts": ["Häuser, die wenig Energie verbrauchen und umweltfreundliche Materialien nutzen", "Möglichst billig bauen", "Möglichst groß bauen"], "a": 0, "exp": "„Häuser zu bauen, die wenig Energie verbrauchen und aus umweltfreundlichen Materialien bestehen“." },
+      { "type": "MCQ", "q": "Welches Material nennt sie als Beispiel?", "opts": ["Holz statt Beton", "Nur Beton", "Plastik"], "a": 0, "exp": "„zum Beispiel Holz statt Beton“." },
+      { "type": "TF", "q": "Nachhaltiges Bauen ist im Bau oft teurer.", "a": true, "exp": "„Im Bau oft ja.“" },
+      { "type": "MCQ", "q": "Wodurch spart man laut Frau Roth später?", "opts": ["Durch niedrige Energiekosten", "Durch höhere Mieten", "Gar nicht"], "a": 0, "exp": "„über die Jahre spart man durch niedrige Energiekosten“." },
+      { "type": "MCQ", "q": "Was wünscht sie sich von der Politik?", "opts": ["Klare Regeln und Förderung", "Weniger Vorschriften", "Höhere Preise"], "a": 0, "exp": "„Klare Regeln und Förderung.“" },
+      { "type": "MCQ", "q": "An wen denkt gute Architektur laut Frau Roth?", "opts": ["An die nächsten Generationen", "Nur an heute", "Nur an den Gewinn"], "a": 0, "exp": "„denkt nicht nur an heute, sondern an die nächsten Generationen“." }
+    ]
+  },
+  {
+    "id": "B2_R39", "level": "B2", "type": "Sachtext", "title": "Warum wir Dinge aufschieben",
+    "text": "WARUM WIR DINGE AUFSCHIEBEN\n\nFast jeder kennt es: Eine wichtige Aufgabe steht an, doch plötzlich putzt man lieber die Wohnung oder schaut Videos. „Prokrastination“ nennt die Wissenschaft dieses Aufschieben. Es ist kein Zeichen von Faulheit, sondern oft von Angst — etwa der Angst zu versagen.\n\nWer eine Aufgabe als zu groß empfindet, vermeidet sie lieber ganz. Der Trick liegt darin, sie in kleine Schritte zu zerlegen. Schon fünf Minuten Anfangen kann die Blockade lösen. Auch Selbstvorwürfe helfen nicht weiter; sie verstärken den Druck nur. Wer sich selbst mit etwas Nachsicht begegnet, kommt am Ende oft leichter ins Tun.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie nennt die Wissenschaft das Aufschieben?", "opts": ["Prokrastination", "Motivation", "Resilienz"], "a": 0, "exp": "„„Prokrastination“ nennt die Wissenschaft dieses Aufschieben.“" },
+      { "type": "TF", "q": "Laut Text ist Aufschieben vor allem ein Zeichen von Faulheit.", "a": false, "exp": "„Es ist kein Zeichen von Faulheit, sondern oft von Angst“." },
+      { "type": "MCQ", "q": "Wann vermeidet man eine Aufgabe laut Text?", "opts": ["Wenn man sie als zu groß empfindet", "Wenn sie zu leicht ist", "Wenn sie Spaß macht"], "a": 0, "exp": "„Wer eine Aufgabe als zu groß empfindet, vermeidet sie lieber ganz.“" },
+      { "type": "MCQ", "q": "Worin liegt der Trick laut Text?", "opts": ["Die Aufgabe in kleine Schritte zerlegen", "Sie ganz aufgeben", "Länger warten"], "a": 0, "exp": "„sie in kleine Schritte zu zerlegen“." },
+      { "type": "TF", "q": "Selbstvorwürfe helfen laut Text gut gegen das Aufschieben.", "a": false, "exp": "„Auch Selbstvorwürfe helfen nicht weiter; sie verstärken den Druck nur.“" },
+      { "type": "MCQ", "q": "Wer kommt laut Text oft leichter ins Tun?", "opts": ["Wer sich selbst mit Nachsicht begegnet", "Wer sich bestraft", "Wer wartet"], "a": 0, "exp": "„Wer sich selbst mit etwas Nachsicht begegnet, kommt am Ende oft leichter ins Tun.“" }
+    ]
+  },
+  {
+    "id": "B2_R40", "level": "B2", "type": "Argumentativer Text", "title": "Die Rückkehr der Schallplatte",
+    "text": "KOMMENTAR: Die Rückkehr der Schallplatte\n\nEigentlich müsste die Schallplatte längst tot sein. Wir können jeden Song sofort streamen — bequemer geht es nicht. Und doch verkaufen sich Vinyl-Platten heute besser als seit Jahrzehnten. Wie passt das zusammen?\n\nIch glaube, es ist gerade die Unbequemlichkeit, die fasziniert. Man muss die Platte auflegen, umdrehen, bewusst zuhören. In einer Welt, in der alles sofort und nebenbei verfügbar ist, sehnen sich viele nach dem Gegenteil: nach Dingen, die man anfassen kann, nach Ritualen, nach Entschleunigung. Die Schallplatte verkauft nicht nur Musik, sondern ein Stück bewusste Zeit.",
+    "questions": [
+      { "type": "MCQ", "q": "Was müsste laut Autor eigentlich längst tot sein?", "opts": ["Die Schallplatte", "Das Radio", "Das Konzert"], "a": 0, "exp": "„Eigentlich müsste die Schallplatte längst tot sein.“" },
+      { "type": "TF", "q": "Vinyl-Platten verkaufen sich heute besser als seit Jahrzehnten.", "a": true, "exp": "„verkaufen sich Vinyl-Platten heute besser als seit Jahrzehnten“." },
+      { "type": "MCQ", "q": "Was fasziniert laut Autor gerade?", "opts": ["Die Unbequemlichkeit", "Der niedrige Preis", "Die Lautstärke"], "a": 0, "exp": "„es ist gerade die Unbequemlichkeit, die fasziniert“." },
+      { "type": "MCQ", "q": "Wonach sehnen sich viele Menschen laut Autor?", "opts": ["Nach Dingen zum Anfassen und nach Entschleunigung", "Nach mehr Tempo", "Nach mehr Streaming"], "a": 0, "exp": "„sehnen sich viele nach dem Gegenteil: nach Dingen, die man anfassen kann, nach Ritualen, nach Entschleunigung“." },
+      { "type": "MCQ", "q": "Was verkauft die Schallplatte laut Autor außer Musik?", "opts": ["Ein Stück bewusste Zeit", "Nur Plastik", "Werbung"], "a": 0, "exp": "„verkauft nicht nur Musik, sondern ein Stück bewusste Zeit“." },
+      { "type": "MCQ", "q": "Welche Frage stellt der Autor am Anfang?", "opts": ["Wie das Comeback trotz Streaming zusammenpasst", "Wer Vinyl erfand", "Was Musik kostet"], "a": 0, "exp": "„Wie passt das zusammen?“" }
+    ]
+  },
+  {
+    "id": "B2_R41", "level": "B2", "type": "Reportage", "title": "Ein Tag im Tierheim",
+    "text": "REPORTAGE: Ein Tag im Tierheim\n\nBellen, Miauen, das Klappern der Futternäpfe — im Tierheim beginnt der Tag früh. Rund 80 Tiere leben hier, viele wurden ausgesetzt oder abgegeben, weil die Besitzer sie „nicht mehr wollten“. Die Pflegerin Frau Adam kennt jedes von ihnen.\n\n„Das Schlimmste sind nicht die Tiere, sondern manche Menschen“, sagt sie leise. Besonders nach Weihnachten landen viele Tiere hier — einst Geschenke, dann Last. Trotzdem überwiegt die Freude: wenn ein Hund nach Monaten endlich ein gutes Zuhause findet. „Für diesen einen Moment“, sagt Frau Adam, „mache ich das alles.“",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Tiere leben im Tierheim?", "opts": ["Rund 80", "Rund 8", "Rund 800"], "a": 0, "exp": "„Rund 80 Tiere leben hier“." },
+      { "type": "MCQ", "q": "Warum sind viele Tiere dort?", "opts": ["Sie wurden ausgesetzt oder abgegeben", "Sie sind krank geboren", "Sie kamen aus dem Wald"], "a": 0, "exp": "„viele wurden ausgesetzt oder abgegeben, weil die Besitzer sie „nicht mehr wollten““." },
+      { "type": "MCQ", "q": "Was sagt Frau Adam über das Schlimmste?", "opts": ["Nicht die Tiere, sondern manche Menschen", "Die Arbeit", "Das Wetter"], "a": 0, "exp": "„Das Schlimmste sind nicht die Tiere, sondern manche Menschen.“" },
+      { "type": "TF", "q": "Nach Weihnachten landen besonders viele Tiere im Heim.", "a": true, "exp": "„Besonders nach Weihnachten landen viele Tiere hier“." },
+      { "type": "MCQ", "q": "Was bereitet Frau Adam die größte Freude?", "opts": ["Wenn ein Tier ein gutes Zuhause findet", "Wenn Besucher kommen", "Wenn sie frei hat"], "a": 0, "exp": "„wenn ein Hund nach Monaten endlich ein gutes Zuhause findet“." },
+      { "type": "MCQ", "q": "Wofür macht Frau Adam die Arbeit?", "opts": ["Für diesen einen Moment der Vermittlung", "Für das Geld", "Für den Ruhm"], "a": 0, "exp": "„Für diesen einen Moment ... mache ich das alles.“" }
+    ]
+  },
+  {
+    "id": "B2_R42", "level": "B2", "type": "Sachtext", "title": "Wie Falschmeldungen entstehen",
+    "text": "WIE FALSCHMELDUNGEN ENTSTEHEN\n\nFalschmeldungen, oft „Fake News“ genannt, verbreiten sich im Internet rasend schnell. Studien zeigen sogar: Falsche Nachrichten werden häufiger geteilt als wahre. Der Grund liegt in der Psychologie — sie sind oft spektakulärer und lösen starke Gefühle wie Wut oder Angst aus.\n\nWer aufgeregt ist, klickt und teilt, ohne nachzudenken. Genau das machen sich manche zunutze, um Geld zu verdienen oder die Meinung zu beeinflussen. Schützen kann man sich, indem man kurz innehält: Wer hat das geschrieben? Gibt es seriöse Quellen? Ein gesundes Misstrauen ist keine Schwäche, sondern in der digitalen Welt eine notwendige Kompetenz.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie verbreiten sich Falschmeldungen im Internet?", "opts": ["Rasend schnell", "Sehr langsam", "Gar nicht"], "a": 0, "exp": "„verbreiten sich im Internet rasend schnell“." },
+      { "type": "MCQ", "q": "Was zeigen Studien?", "opts": ["Falsche Nachrichten werden häufiger geteilt als wahre", "Niemand teilt sie", "Sie sind selten"], "a": 0, "exp": "„Falsche Nachrichten werden häufiger geteilt als wahre.“" },
+      { "type": "MCQ", "q": "Warum ist das so?", "opts": ["Sie sind spektakulärer und lösen starke Gefühle aus", "Sie sind langweilig", "Sie sind kurz"], "a": 0, "exp": "„sie sind oft spektakulärer und lösen starke Gefühle wie Wut oder Angst aus“." },
+      { "type": "MCQ", "q": "Was machen sich manche zunutze?", "opts": ["Dass aufgeregte Menschen ohne Nachdenken teilen", "Dass niemand liest", "Dass alle vorsichtig sind"], "a": 0, "exp": "„Wer aufgeregt ist, klickt und teilt, ohne nachzudenken. Genau das machen sich manche zunutze“." },
+      { "type": "MCQ", "q": "Wie kann man sich laut Text schützen?", "opts": ["Kurz innehalten und Quellen prüfen", "Mehr teilen", "Schneller klicken"], "a": 0, "exp": "„indem man kurz innehält: Wer hat das geschrieben? Gibt es seriöse Quellen?“" },
+      { "type": "MCQ", "q": "Als was bezeichnet der Text ein gesundes Misstrauen?", "opts": ["Eine notwendige Kompetenz", "Eine Schwäche", "Ein Problem"], "a": 0, "exp": "„keine Schwäche, sondern in der digitalen Welt eine notwendige Kompetenz“." }
+    ]
+  },
+  {
+    "id": "B2_R43", "level": "B2", "type": "Argumentativer Text", "title": "Das bedingungslose Grundeinkommen",
+    "text": "DAS BEDINGUNGSLOSE GRUNDEINKOMMEN\n\nStellen Sie sich vor, jeder Mensch bekäme vom Staat monatlich Geld zum Leben — ohne Bedingung, ohne Gegenleistung. Das ist die Idee des bedingungslosen Grundeinkommens. Ihre Anhänger versprechen sich mehr Freiheit: Menschen könnten Arbeit wählen, die ihnen sinnvoll erscheint, statt jeden Job aus Not anzunehmen.\n\nGegner bezweifeln vor allem die Finanzierung und fragen: Würden dann noch genug Menschen arbeiten? Erste Experimente liefern gemischte, aber interessante Ergebnisse. Sicher ist: Angesichts von Automatisierung lohnt es sich, über neue Modelle nachzudenken. Ob das Grundeinkommen die Antwort ist, bleibt offen — die Frage dahinter aber ist hochaktuell.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist die Idee des bedingungslosen Grundeinkommens?", "opts": ["Jeder bekommt ohne Bedingung Geld zum Leben", "Nur Arme bekommen Geld", "Niemand zahlt Steuern"], "a": 0, "exp": "„jeder Mensch bekäme vom Staat monatlich Geld zum Leben — ohne Bedingung“." },
+      { "type": "MCQ", "q": "Was versprechen sich die Anhänger?", "opts": ["Mehr Freiheit bei der Wahl der Arbeit", "Weniger Freiheit", "Mehr Zwang"], "a": 0, "exp": "„mehr Freiheit: Menschen könnten Arbeit wählen, die ihnen sinnvoll erscheint“." },
+      { "type": "MCQ", "q": "Was bezweifeln die Gegner vor allem?", "opts": ["Die Finanzierung", "Die Idee von Freiheit", "Die Technik"], "a": 0, "exp": "„Gegner bezweifeln vor allem die Finanzierung“." },
+      { "type": "MCQ", "q": "Welche Frage stellen die Gegner?", "opts": ["Würden dann noch genug Menschen arbeiten?", "Wer regiert?", "Wann beginnt es?"], "a": 0, "exp": "„Würden dann noch genug Menschen arbeiten?“" },
+      { "type": "MCQ", "q": "Was macht das Thema laut Autor hochaktuell?", "opts": ["Die Automatisierung", "Das Wetter", "Die Geschichte"], "a": 0, "exp": "„Angesichts von Automatisierung lohnt es sich, über neue Modelle nachzudenken.“" },
+      { "type": "TF", "q": "Der Autor erklärt das Grundeinkommen für die sichere Lösung.", "a": false, "exp": "„Ob das Grundeinkommen die Antwort ist, bleibt offen“." }
+    ]
+  },
+  {
+    "id": "B2_R44", "level": "B2", "type": "Sachtext", "title": "Der Wald — mehr als nur Bäume",
+    "text": "DER WALD — MEHR ALS NUR BÄUME\n\nFür viele ist der Wald ein Ort der Erholung. Doch er ist weit mehr: Er ist Lebensraum für unzählige Tiere und Pflanzen, er speichert Wasser und filtert die Luft. Vor allem aber bindet er große Mengen des Treibhausgases CO2 und ist so ein wichtiger Verbündeter im Kampf gegen den Klimawandel.\n\nGleichzeitig leidet der Wald selbst unter diesem Wandel. Trockene Sommer und Schädlinge setzen vielen Bäumen zu. Förster pflanzen deshalb heute Mischwälder, die widerstandsfähiger sind als reine Nadelwälder. Den Wald zu schützen heißt also nicht nur, ihn zu bewahren, sondern ihn aktiv für die Zukunft umzubauen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist der Wald für viele Menschen?", "opts": ["Ein Ort der Erholung", "Eine Gefahr", "Ein Geschäft"], "a": 0, "exp": "„Für viele ist der Wald ein Ort der Erholung.“" },
+      { "type": "MCQ", "q": "Welche Funktionen des Waldes nennt der Text?", "opts": ["Lebensraum, Wasserspeicher, Luftfilter", "Nur Holzlieferant", "Nur Erholung"], "a": 0, "exp": "„Lebensraum für unzählige Tiere und Pflanzen, er speichert Wasser und filtert die Luft“." },
+      { "type": "MCQ", "q": "Warum ist der Wald wichtig im Kampf gegen den Klimawandel?", "opts": ["Er bindet große Mengen CO2", "Er produziert CO2", "Er macht Lärm"], "a": 0, "exp": "„bindet er große Mengen des Treibhausgases CO2“." },
+      { "type": "TF", "q": "Der Wald leidet selbst unter dem Klimawandel.", "a": true, "exp": "„Gleichzeitig leidet der Wald selbst unter diesem Wandel.“" },
+      { "type": "MCQ", "q": "Was pflanzen Förster heute?", "opts": ["Widerstandsfähige Mischwälder", "Nur Nadelwälder", "Gar nichts"], "a": 0, "exp": "„Förster pflanzen deshalb heute Mischwälder, die widerstandsfähiger sind“." },
+      { "type": "MCQ", "q": "Was heißt es laut Text, den Wald zu schützen?", "opts": ["Ihn aktiv für die Zukunft umzubauen", "Ihn nur in Ruhe zu lassen", "Ihn abzuholzen"], "a": 0, "exp": "„nicht nur, ihn zu bewahren, sondern ihn aktiv für die Zukunft umzubauen“." }
+    ]
+  },
+  {
+    "id": "B2_R45", "level": "B2", "type": "Interview", "title": "Eine Altenpflegerin über ihren Beruf",
+    "text": "INTERVIEW mit der Altenpflegerin Frau Demir\n\nReporter: Ihr Beruf gilt als hart. Warum machen Sie ihn?\nFrau Demir: Weil er sinnvoll ist. Ich begleite Menschen in einer verletzlichen Phase ihres Lebens. Das gibt mir viel zurück.\nReporter: Was müsste sich ändern?\nFrau Demir: Wir brauchen mehr Personal und mehr Zeit. Oft fehlt genau die Minute, in der man einfach nur zuhört.\nReporter: Und die Bezahlung?\nFrau Demir: Auch die muss besser werden. Aber ehrlich gesagt: Was uns am meisten fehlt, ist Anerkennung. Diese Arbeit hält die Gesellschaft zusammen — das sollte man sehen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie gilt der Beruf von Frau Demir?", "opts": ["Als hart", "Als leicht", "Als langweilig"], "a": 0, "exp": "„Ihr Beruf gilt als hart.“" },
+      { "type": "MCQ", "q": "Warum macht Frau Demir den Beruf?", "opts": ["Weil er sinnvoll ist", "Wegen des Geldes", "Aus Zwang"], "a": 0, "exp": "„Weil er sinnvoll ist.“" },
+      { "type": "MCQ", "q": "Was müsste sich laut Frau Demir vor allem ändern?", "opts": ["Mehr Personal und mehr Zeit", "Weniger Patienten", "Nur kürzere Tage"], "a": 0, "exp": "„Wir brauchen mehr Personal und mehr Zeit.“" },
+      { "type": "TF", "q": "Laut Frau Demir muss auch die Bezahlung besser werden.", "a": true, "exp": "„Auch die muss besser werden.“" },
+      { "type": "MCQ", "q": "Was fehlt laut Frau Demir am meisten?", "opts": ["Anerkennung", "Technik", "Räume"], "a": 0, "exp": "„Was uns am meisten fehlt, ist Anerkennung.“" },
+      { "type": "MCQ", "q": "Wie beschreibt sie ihre Arbeit?", "opts": ["Sie hält die Gesellschaft zusammen", "Sie ist unwichtig", "Sie ist gut bezahlt"], "a": 0, "exp": "„Diese Arbeit hält die Gesellschaft zusammen“." }
+    ]
+  },
+  {
+    "id": "B2_R46", "level": "B2", "type": "Argumentativer Text", "title": "Sind Zoos noch zeitgemäß?",
+    "text": "SIND ZOOS NOCH ZEITGEMÄSS?\n\nMillionen Menschen besuchen jedes Jahr Zoos. Doch immer mehr fragen sich, ob es richtig ist, Wildtiere in Gehegen zu halten. Tierschützer kritisieren, dass selbst große Anlagen niemals die Freiheit der Natur ersetzen können.\n\nDie Zoos verteidigen sich mit zwei Argumenten: Sie betreiben Artenschutz und züchten bedrohte Tiere, und sie wecken bei Besuchern Liebe zur Natur. Beides ist nicht von der Hand zu weisen. Vielleicht liegt die Zukunft in einem Wandel: weg von der reinen Schau, hin zu echten Schutzzentren. Ein Zoo, der nur unterhält, hat ausgedient — einer, der bewahrt und bildet, kann seinen Platz behalten.",
+    "questions": [
+      { "type": "MCQ", "q": "Was fragen sich immer mehr Menschen?", "opts": ["Ob es richtig ist, Wildtiere in Gehegen zu halten", "Ob Zoos zu teuer sind", "Ob es genug Zoos gibt"], "a": 0, "exp": "„ob es richtig ist, Wildtiere in Gehegen zu halten“." },
+      { "type": "MCQ", "q": "Was kritisieren die Tierschützer?", "opts": ["Gehege können die Freiheit der Natur nie ersetzen", "Zoos sind zu klein", "Es gibt zu wenige Tiere"], "a": 0, "exp": "„dass selbst große Anlagen niemals die Freiheit der Natur ersetzen können“." },
+      { "type": "MCQ", "q": "Mit welchen Argumenten verteidigen sich die Zoos?", "opts": ["Artenschutz und Liebe zur Natur wecken", "Unterhaltung und Gewinn", "Sport und Spiel"], "a": 0, "exp": "„Sie betreiben Artenschutz ... und sie wecken bei Besuchern Liebe zur Natur.“" },
+      { "type": "TF", "q": "Laut Autor sind beide Argumente der Zoos völlig unsinnig.", "a": false, "exp": "„Beides ist nicht von der Hand zu weisen.“" },
+      { "type": "MCQ", "q": "Worin liegt laut Autor die Zukunft?", "opts": ["Im Wandel zu echten Schutzzentren", "In mehr Unterhaltung", "In der Schließung aller Zoos"], "a": 0, "exp": "„weg von der reinen Schau, hin zu echten Schutzzentren“." },
+      { "type": "MCQ", "q": "Welcher Zoo kann laut Autor seinen Platz behalten?", "opts": ["Einer, der bewahrt und bildet", "Einer, der nur unterhält", "Keiner"], "a": 0, "exp": "„einer, der bewahrt und bildet, kann seinen Platz behalten“." }
+    ]
+  },
+  {
+    "id": "B2_R47", "level": "B2", "type": "Sachtext", "title": "Achtsamkeit im Alltag",
+    "text": "ACHTSAMKEIT IM ALLTAG\n\n„Achtsamkeit“ ist zu einem Modewort geworden, doch dahinter steckt eine alte und einfache Idee: ganz im gegenwärtigen Moment zu sein. Statt beim Essen aufs Handy zu schauen oder beim Gehen schon an die Arbeit zu denken, richtet man die Aufmerksamkeit bewusst auf das Hier und Jetzt.\n\nDas klingt banal, ist aber überraschend schwer. Unser Geist wandert ständig in die Vergangenheit oder Zukunft. Studien deuten darauf hin, dass regelmäßige Achtsamkeitsübungen Stress senken und die Konzentration verbessern können. Man braucht dafür keine teuren Kurse — schon ein paar bewusste Atemzüge am Tag sind ein Anfang. Die Kunst besteht darin, weniger im Kopf und mehr im Leben zu sein.",
+    "questions": [
+      { "type": "MCQ", "q": "Welche Idee steckt hinter „Achtsamkeit“?", "opts": ["Ganz im gegenwärtigen Moment zu sein", "Möglichst viel zu denken", "Schnell zu handeln"], "a": 0, "exp": "„ganz im gegenwärtigen Moment zu sein“." },
+      { "type": "TF", "q": "Laut Text ist Achtsamkeit leicht umzusetzen.", "a": false, "exp": "„Das klingt banal, ist aber überraschend schwer.“" },
+      { "type": "MCQ", "q": "Wohin wandert unser Geist laut Text ständig?", "opts": ["In die Vergangenheit oder Zukunft", "Nirgendwohin", "Nur in die Gegenwart"], "a": 0, "exp": "„Unser Geist wandert ständig in die Vergangenheit oder Zukunft.“" },
+      { "type": "MCQ", "q": "Was können Achtsamkeitsübungen laut Studien bewirken?", "opts": ["Stress senken und Konzentration verbessern", "Müdigkeit erhöhen", "Nichts"], "a": 0, "exp": "„Achtsamkeitsübungen Stress senken und die Konzentration verbessern können“." },
+      { "type": "TF", "q": "Man braucht laut Text teure Kurse für Achtsamkeit.", "a": false, "exp": "„Man braucht dafür keine teuren Kurse“." },
+      { "type": "MCQ", "q": "Worin besteht die Kunst laut Text?", "opts": ["Weniger im Kopf und mehr im Leben zu sein", "Mehr nachzudenken", "Schneller zu sein"], "a": 0, "exp": "„weniger im Kopf und mehr im Leben zu sein“." }
+    ]
+  },
+  {
+    "id": "B2_R48", "level": "B2", "type": "Argumentativer Text", "title": "Reparieren statt wegwerfen",
+    "text": "REPARIEREN STATT WEGWERFEN\n\nGeht heute ein Gerät kaputt, kaufen wir oft ein neues. Reparieren erscheint zu teuer oder zu kompliziert — manchmal ist es technisch gar nicht mehr vorgesehen. Hersteller bauen Produkte teils so, dass sie nach kurzer Zeit ersetzt werden müssen. „Geplante Obsoleszenz“ nennt man diesen Verdacht.\n\nDoch es gibt Gegenbewegungen. In „Repair-Cafés“ helfen Freiwillige, kaputte Dinge gemeinsam zu reparieren. Die EU plant zudem ein „Recht auf Reparatur“. Das ist gut so, denn jedes reparierte Gerät spart Rohstoffe und Müll. Letztlich geht es um eine Haltung: Dinge wieder als wertvoll zu betrachten, statt sie als Wegwerfware zu behandeln.",
+    "questions": [
+      { "type": "MCQ", "q": "Was machen wir laut Text oft, wenn ein Gerät kaputtgeht?", "opts": ["Wir kaufen ein neues", "Wir reparieren es selbst", "Wir werfen nichts weg"], "a": 0, "exp": "„kaufen wir oft ein neues“." },
+      { "type": "MCQ", "q": "Wie nennt man den Verdacht, dass Produkte schnell kaputtgehen sollen?", "opts": ["Geplante Obsoleszenz", "Garantie", "Inflation"], "a": 0, "exp": "„„Geplante Obsoleszenz“ nennt man diesen Verdacht.“" },
+      { "type": "MCQ", "q": "Was passiert in „Repair-Cafés“?", "opts": ["Freiwillige helfen, Dinge zu reparieren", "Man kauft neue Geräte", "Man wirft Müll weg"], "a": 0, "exp": "„helfen Freiwillige, kaputte Dinge gemeinsam zu reparieren“." },
+      { "type": "TF", "q": "Die EU plant ein „Recht auf Reparatur“.", "a": true, "exp": "„Die EU plant zudem ein „Recht auf Reparatur“.“" },
+      { "type": "MCQ", "q": "Was spart laut Text jedes reparierte Gerät?", "opts": ["Rohstoffe und Müll", "Zeit", "Nichts"], "a": 0, "exp": "„jedes reparierte Gerät spart Rohstoffe und Müll“." },
+      { "type": "MCQ", "q": "Worum geht es laut Autor letztlich?", "opts": ["Um eine Haltung: Dinge wieder als wertvoll zu betrachten", "Um Technik", "Um Geld allein"], "a": 0, "exp": "„Letztlich geht es um eine Haltung: Dinge wieder als wertvoll zu betrachten“." }
+    ]
+  },
+  {
+    "id": "B2_R49", "level": "B2", "type": "Sachtext", "title": "Die Gefahr des langen Sitzens",
+    "text": "SITZEN IST DAS NEUE RAUCHEN\n\n„Sitzen ist das neue Rauchen“ — dieser Satz klingt übertrieben, enthält aber einen wahren Kern. Viele Menschen sitzen heute den größten Teil des Tages: im Auto, im Büro, auf dem Sofa. Unser Körper aber ist für Bewegung gemacht.\n\nLanges Sitzen erhöht das Risiko für zahlreiche Krankheiten, und das lässt sich durch Sport am Abend nur teilweise ausgleichen. Entscheidend ist, die Sitzzeit immer wieder zu unterbrechen. Schon kleine Veränderungen helfen: im Stehen telefonieren, die Treppe nehmen, in der Pause kurz gehen. Es geht nicht darum, Sport zum Leistungssport zu machen, sondern Bewegung selbstverständlich in den Alltag einzubauen.",
+    "questions": [
+      { "type": "MCQ", "q": "Welcher Satz steht am Anfang?", "opts": ["„Sitzen ist das neue Rauchen“", "„Zeit ist Geld“", "„Sport ist Mord“"], "a": 0, "exp": "„„Sitzen ist das neue Rauchen“ — dieser Satz ...“" },
+      { "type": "TF", "q": "Laut Text ist unser Körper für langes Sitzen gemacht.", "a": false, "exp": "„Unser Körper aber ist für Bewegung gemacht.“" },
+      { "type": "MCQ", "q": "Was erhöht langes Sitzen?", "opts": ["Das Risiko für zahlreiche Krankheiten", "Die Lebenserwartung", "Die Konzentration"], "a": 0, "exp": "„Langes Sitzen erhöht das Risiko für zahlreiche Krankheiten“." },
+      { "type": "TF", "q": "Sport am Abend gleicht langes Sitzen vollständig aus.", "a": false, "exp": "„lässt sich durch Sport am Abend nur teilweise ausgleichen“." },
+      { "type": "MCQ", "q": "Was ist laut Text entscheidend?", "opts": ["Die Sitzzeit immer wieder zu unterbrechen", "Mehr zu sitzen", "Nur abends Sport zu treiben"], "a": 0, "exp": "„die Sitzzeit immer wieder zu unterbrechen“." },
+      { "type": "MCQ", "q": "Worum geht es laut Text?", "opts": ["Bewegung selbstverständlich in den Alltag einzubauen", "Leistungssport zu treiben", "Gar keinen Sport"], "a": 0, "exp": "„Bewegung selbstverständlich in den Alltag einzubauen“." }
+    ]
+  },
+  {
+    "id": "B2_R50", "level": "B2", "type": "Argumentativer Text", "title": "Die unterschätzte Kunst des Zuhörens",
+    "text": "KOMMENTAR: Die unterschätzte Kunst des Zuhörens\n\nWir lernen in der Schule lesen, schreiben und reden. Doch das Zuhören bringt uns kaum jemand bei — dabei ist es vielleicht die wichtigste Fähigkeit von allen. In Gesprächen warten viele nur darauf, selbst wieder an die Reihe zu kommen, statt wirklich zu verstehen, was der andere sagt.\n\nEchtes Zuhören bedeutet, für einen Moment die eigene Meinung zurückzustellen. Es ist anstrengend und macht verletzlich, denn man könnte ja seine Ansicht ändern müssen. Vielleicht aber liegt genau darin die Lösung für viele Konflikte — im Großen wie im Kleinen. Eine Gesellschaft, die wieder zuhören lernt, wäre eine klügere und friedlichere.",
+    "questions": [
+      { "type": "MCQ", "q": "Was bringt uns laut Text in der Schule kaum jemand bei?", "opts": ["Das Zuhören", "Das Lesen", "Das Schreiben"], "a": 0, "exp": "„das Zuhören bringt uns kaum jemand bei“." },
+      { "type": "MCQ", "q": "Worauf warten viele in Gesprächen laut Text?", "opts": ["Selbst wieder an die Reihe zu kommen", "Auf das Ende", "Auf eine Pause"], "a": 0, "exp": "„warten viele nur darauf, selbst wieder an die Reihe zu kommen“." },
+      { "type": "MCQ", "q": "Was bedeutet echtes Zuhören laut Autor?", "opts": ["Die eigene Meinung für einen Moment zurückzustellen", "Lauter zu reden", "Schneller zu antworten"], "a": 0, "exp": "„für einen Moment die eigene Meinung zurückzustellen“." },
+      { "type": "MCQ", "q": "Warum macht Zuhören laut Text verletzlich?", "opts": ["Man könnte seine Ansicht ändern müssen", "Man wird müde", "Man verliert immer"], "a": 0, "exp": "„denn man könnte ja seine Ansicht ändern müssen“." },
+      { "type": "TF", "q": "Laut Autor könnte Zuhören helfen, Konflikte zu lösen.", "a": true, "exp": "„liegt genau darin die Lösung für viele Konflikte“." },
+      { "type": "MCQ", "q": "Wie wäre laut Autor eine Gesellschaft, die wieder zuhört?", "opts": ["Klüger und friedlicher", "Lauter", "Ärmer"], "a": 0, "exp": "„wäre eine klügere und friedlichere“." }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+No Firebase app associated with site teach-me-german-app, injecting project default config.
+  You can link a Web app to a Hosting site here https://console.firebase.google.com/project/personal-german-trainer/settings/general/web
+
+   Thank you for trying our [3mearly preview[23m of Next.js support on Firebase Hosting.
+   [31mDuring the preview, support is best-effort and breaking changes can be expected. Proceed with caution.[39m[33m
+   The integration is known to work with Next.js version [3m12 - 16.0[23m. You may encounter errors.[39m
+
+   [1mDocumentation:[22m https://firebase.google.com/docs/hosting/frameworks/nextjs
+   [1mFile a bug:[22m https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   [1mSubmit a feature request:[22m https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+▲ Next.js 16.2.6 (Turbopack)
+
+
+
+  Creating an optimized production build ...
+
+✓ Compiled successfully in 13.2s
+
+  Running TypeScript ...
+
+  Finished TypeScript in 13.6s ...
+
+  Collecting page data using 7 workers ...
+
+  Generating static pages using 7 workers (0/32) ...
+
+  Generating static pages using 7 workers (8/32) 
+
+  Generating static pages using 7 workers (16/32) 
+
+  Generating static pages using 7 workers (24/32) 
+
+✓ Generating static pages using 7 workers (32/32) in 1185ms
+
+  Finalizing page optimization ...
+
+
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /favoriten
+├ ○ /fortschritt
+├ ○ /grammatik
+├ ○ /home
+├ ○ /konjugation
+├ ○ /lernplan
+├ ○ /nachrichten
+├ ○ /pruefungsinfo
+├ ● /redemittel/[level]
+│ ├ /redemittel/A1
+│ ├ /redemittel/A2
+│ ├ /redemittel/B1
+│ └ /redemittel/B2
+├ ○ /ueben/geschichten
+├ ○ /ueben/grammatik-quiz
+├ ○ /ueben/hoeren
+├ ○ /ueben/karteikarten
+├ ○ /ueben/konversation
+├ ○ /ueben/lesen
+├ ○ /ueben/quiz
+├ ○ /ueben/redemittel-quiz
+├ ○ /ueben/satzstellung
+├ ○ /ueben/schreiben
+├ ○ /ueben/sprechen
+├ ○ /ueben/verb-quiz
+└ ● /vocab/[level]
+  ├ /vocab/A1
+  ├ /vocab/A2
+  ├ /vocab/B1
+  └ /vocab/B2
+
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+
+[1m[37m===[39m Deploying to 'personal-german-trainer'...[22m
+
+[36m[1mi [22m[39m deploying [1mhosting[22m
+[36m[1mi  hosting[teach-me-german-app]:[22m[39m beginning deploy...
+[36m[1mi  hosting[teach-me-german-app]:[22m[39m found 117 files in [1m.firebase\teach-me-german-app\hosting[22m
+[36m[1mi  hosting:[22m[39m uploading new files [0/34] ([1m[32m0%[39m[22m)
+[36m[1mi  hosting:[22m[39m upload complete
+[32m[1m+  hosting[teach-me-german-app]:[22m[39m file upload complete
+[36m[1mi  hosting[teach-me-german-app]:[22m[39m finalizing version...
+[32m[1m+  hosting[teach-me-german-app]:[22m[39m version finalized
+[36m[1mi  hosting[teach-me-german-app]:[22m[39m releasing new version...
+[32m[1m+  hosting[teach-me-german-app]:[22m[39m release complete
+
+[32m[1m+ [22m[39m [1m[4mDeploy complete![24m[22m
+
+[1mProject Console:[22m https://console.firebase.google.com/project/personal-german-trainer/overview
+[1mHosting URL:[22m https://teach-me-german-app.web.app

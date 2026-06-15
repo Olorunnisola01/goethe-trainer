@@ -1,0 +1,206 @@
+
+=== GREETINGS & FAREWELLS (GREETINGS_FAREWELLS) ===
+   w=Auf Wiedersehen            t='Goodbye (formal)'
+   w=Tschüss                    t='Bye (informal)'
+   w=Entschuldigen Sie          t='Excuse me (formal)'
+   w=Wie geht es Ihnen?         t='How are you? (formal)'
+   w=Wie geht es dir?           t='How are you? (informal)'
+
+=== PERSONAL INFORMATION (PERSONAL_INFORMATION) ===
+   w=ausfüllen                  t='To fill in (a form)'
+
+=== FAMILY & RELATIONSHIPS (FAMILY_RELATIONSHIPS) ===
+   w=der Freund                 t='The (male) friend'
+   w=die Freundin               t='The (female) friend'
+   w=der Nachbar                t='The (male) neighbour'
+   w=die Nachbarin              t='The (female) neighbour'
+
+=== NUMBERS & QUANTITIES (NUMBERS_QUANTITIES) ===
+   w=null                       t='Zero (0)'
+   w=eins                       t='One (1)'
+   w=zwei                       t='Two (2)'
+   w=drei                       t='Three (3)'
+   w=vier                       t='Four (4)'
+   w=fünf                       t='Five (5)'
+   w=sechs                      t='Six (6)'
+   w=sieben                     t='Seven (7)'
+   w=acht                       t='Eight (8)'
+   w=neun                       t='Nine (9)'
+   w=zehn                       t='Ten (10)'
+   w=elf                        t='Eleven (11)'
+   w=zwölf                      t='Twelve (12)'
+   w=dreizehn                   t='Thirteen (13)'
+   w=vierzehn                   t='Fourteen (14)'
+   w=fünfzehn                   t='Fifteen (15)'
+   w=sechzehn                   t='Sixteen (16)'
+   w=siebzehn                   t='Seventeen (17)'
+   w=achtzehn                   t='Eighteen (18)'
+   w=neunzehn                   t='Nineteen (19)'
+   w=zwanzig                    t='Twenty (20)'
+   w=dreißig                    t='Thirty (30)'
+   w=vierzig                    t='Forty (40)'
+   w=fünfzig                    t='Fifty (50)'
+   w=sechzig                    t='Sixty (60)'
+   w=siebzig                    t='Seventy (70)'
+   w=achtzig                    t='Eighty (80)'
+   w=neunzig                    t='Ninety (90)'
+   w=hundert                    t='One hundred (100)'
+   w=tausend                    t='One thousand (1000)'
+   w=erste                      t='First (1st)'
+   w=zweite                     t='Second (2nd)'
+   w=dritte                     t='Third (3rd)'
+
+=== TIME, CALENDAR & DAYS (TIME_CALENDAR_DAYS) ===
+   w=die Uhrzeit                t='The time (of day)'
+
+=== HOME & LIVING SPACES (HOME_LIVING_SPACES) ===
+   w=das Stockwerk              t='The floor (storey)'
+
+=== FOOD & DRINK (FOOD_DRINK) ===
+   w=die Speisekarte            t='The menu (restaurant)'
+   w=die Halbpension            t='Half board (hotel)'
+
+=== SHOPPING & MONEY (SHOPPING_MONEY) ===
+   w=das Wechselgeld            t='The change (money returned)'
+
+=== TRANSPORTATION & GETTING AROUND (TRANSPORTATION_GETTING_AROUND) ===
+   w=weit weg                   t='Far (away)'
+   w=die Fahrkarte              t='The ticket (transport)'
+
+=== HEALTH & BODY (HEALTH_BODY) ===
+   w=der Arzt                   t='The (male) doctor'
+   w=die Ärztin                 t='The (female) doctor'
+   w=die Erkältung              t='The cold (illness)'
+
+=== CLOTHING & FASHION (CLOTHING_FASHION) ===
+   w=ausziehen                  t='To take off (clothing)'
+
+=== COLORS (COLORS) ===
+   w=hell                       t='Light (colour)'
+
+=== BASIC VERBS & ACTIONS (BASIC_VERBS_ACTIONS) ===
+   w=gehen                      t='To go (on foot)'
+   w=wohnen                     t='To live (reside)'
+   w=leben                      t='To live (be alive)'
+   w=wissen                     t='To know (a fact)'
+   w=stellen                    t='To put (place)'
+
+=== DESCRIPTIONS & ADJECTIVES (DESCRIPTIONS_ADJECTIVES) ===
+   w=kurz                       t='Short (length)'
+   w=leicht                     t='Light (weight)'
+
+=== QUESTION WORDS & BASICS (QUESTION_WORDS_BASICS) ===
+   w=in                         t='In (preposition)'
+   w=an                         t='At (preposition)'
+   w=auf                        t='On (preposition)'
+   w=aus                        t='From (preposition)'
+   w=bei                        t='At (preposition)'
+   w=mit                        t='With (preposition)'
+   w=nach                       t='After (preposition)'
+   w=von                        t='From (preposition)'
+   w=vor                        t='Before (preposition)'
+   w=zu                         t='To (preposition)'
+   w=für                        t='For (preposition)'
+   w=ohne                       t='Without (preposition)'
+   w=durch                      t='Through (preposition)'
+   w=gegen                      t='Against (preposition)'
+   w=über                       t='Over (preposition)'
+   w=unter                      t='Under (preposition)'
+   w=neben                      t='Next to (preposition)'
+   w=zwischen                   t='Between (preposition)'
+   w=hinter                     t='Behind (preposition)'
+
+=== ANIMALS & NATURE (ANIMALS_NATURE_BASIC) ===
+   w=das Hähnchen               t='The chicken (food)'
+
+=== SCHOOL & BASIC EDUCATION (SCHOOL_BASIC_EDUCATION) ===
+   w=der Lehrer                 t='The (male) teacher'
+   w=die Lehrerin               t='The (female) teacher'
+   w=der Schüler                t='The (male) pupil'
+   w=die Schülerin              t='The (female) pupil'
+
+=== TELLING THE TIME (TELLING_THE_TIME) ===
+   w=halb                       t='Half past (half to the next hour)'
+   w=nach                       t='Past (in telling time)'
+   w=vor                        t='To (in telling time)'
+
+=== BASIC CONJUNCTIONS & SENTENCE CONNECTORS (BASIC_CONJUNCTIONS_SENTENCE_CONNECTORS_A1) ===
+   w=weil                       t='Because (subordinating)'
+   w=dass                       t='That (subordinating)'
+
+=== COMMON ADVERBS & INTENSIFIERS (COMMON_ADVERBS_INTENSIFIERS_A1) ===
+   w=zu                         t='Too (excessively)'
+
+=== BASIC PREPOSITIONS IN CONTEXT (BASIC_PREPOSITIONS_IN_CONTEXT_A1) ===
+   w=nach Hause                 t='(Going) home'
+
+=== BASIC ADJECTIVE OPPOSITES (BASIC_ADJECTIVE_OPPOSITES_A1) ===
+   w=satt                       t='Full (after eating)'
+
+
+===== DISTINCT PARENTHETICAL CONTENTS in A1 English (t) =====
+     19  (preposition)
+      5  (male)
+      5  (female)
+      3  (formal)
+      2  (informal)
+      2  (in telling time)
+      2  (subordinating)
+      1  (a form)
+      1  (0)
+      1  (1)
+      1  (2)
+      1  (3)
+      1  (4)
+      1  (5)
+      1  (6)
+      1  (7)
+      1  (8)
+      1  (9)
+      1  (10)
+      1  (11)
+      1  (12)
+      1  (13)
+      1  (14)
+      1  (15)
+      1  (16)
+      1  (17)
+      1  (18)
+      1  (19)
+      1  (20)
+      1  (30)
+      1  (40)
+      1  (50)
+      1  (60)
+      1  (70)
+      1  (80)
+      1  (90)
+      1  (100)
+      1  (1000)
+      1  (1st)
+      1  (2nd)
+      1  (3rd)
+      1  (of day)
+      1  (storey)
+      1  (restaurant)
+      1  (hotel)
+      1  (money returned)
+      1  (away)
+      1  (transport)
+      1  (illness)
+      1  (clothing)
+      1  (colour)
+      1  (on foot)
+      1  (reside)
+      1  (be alive)
+      1  (a fact)
+      1  (place)
+      1  (length)
+      1  (weight)
+      1  (food)
+      1  (half to the next hour)
+      1  (excessively)
+      1  (going)
+      1  (after eating)
+
+TOTAL A1 entries with a paren in t: 94

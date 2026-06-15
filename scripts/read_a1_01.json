@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A1_R06", "level": "A1", "type": "E-Mail", "title": "Eine Geburtstagseinladung",
+    "text": "Von: lena@email.de\nAn: max@email.de\nBetreff: Meine Geburtstagsparty 🎉\n\nHallo Max,\n\nam Samstag werde ich 25 Jahre alt. Ich mache eine Party bei mir zu Hause. Die Party beginnt um 19 Uhr. Es gibt Pizza, Kuchen und Musik. Bitte bring etwas zu trinken mit. Meine Adresse ist Gartenstraße 12. Kannst du kommen? Schreib mir bitte bis Donnerstag.\n\nViele Grüße\nLena",
+    "questions": [
+      { "type": "TF", "q": "Lena wird 25 Jahre alt.", "a": true, "exp": "Richtig: „am Samstag werde ich 25 Jahre alt“." },
+      { "type": "TF", "q": "Die Party beginnt um 17 Uhr.", "a": false, "exp": "Die Party beginnt um 19 Uhr, nicht um 17 Uhr." },
+      { "type": "MCQ", "q": "Was soll Max mitbringen?", "opts": ["Etwas zu trinken", "Eine Pizza", "Einen Kuchen"], "a": 0, "exp": "„Bitte bring etwas zu trinken mit.“" },
+      { "type": "MCQ", "q": "Wo ist die Party?", "opts": ["Im Restaurant", "Bei Lena zu Hause", "Im Park"], "a": 1, "exp": "„Ich mache eine Party bei mir zu Hause.“" },
+      { "type": "TF", "q": "Max soll bis Donnerstag antworten.", "a": true, "exp": "„Schreib mir bitte bis Donnerstag.“" }
+    ]
+  },
+  {
+    "id": "A1_R07", "level": "A1", "type": "Schild", "title": "Öffnungszeiten der Bibliothek",
+    "text": "STADTBIBLIOTHEK\n\nÖffnungszeiten:\nMontag – Freitag: 9:00 – 18:00 Uhr\nSamstag: 10:00 – 14:00 Uhr\nSonntag: geschlossen\n\n📚 Bücher leihen: kostenlos\n⏰ Leihzeit: 4 Wochen\n🔇 Bitte leise sein!\n📱 Handys bitte ausschalten.",
+    "questions": [
+      { "type": "TF", "q": "Am Sonntag ist die Bibliothek geöffnet.", "a": false, "exp": "„Sonntag: geschlossen“." },
+      { "type": "MCQ", "q": "Wie lange kann man Bücher leihen?", "opts": ["2 Wochen", "4 Wochen", "6 Wochen"], "a": 1, "exp": "„Leihzeit: 4 Wochen“." },
+      { "type": "TF", "q": "Bücher leihen kostet Geld.", "a": false, "exp": "„Bücher leihen: kostenlos“." },
+      { "type": "MCQ", "q": "Wann öffnet die Bibliothek am Samstag?", "opts": ["9:00 Uhr", "10:00 Uhr", "14:00 Uhr"], "a": 1, "exp": "„Samstag: 10:00 – 14:00 Uhr“." },
+      { "type": "TF", "q": "Man muss in der Bibliothek leise sein.", "a": true, "exp": "„Bitte leise sein!“" }
+    ]
+  },
+  {
+    "id": "A1_R08", "level": "A1", "type": "Nachricht", "title": "Eine Absage per SMS",
+    "text": "Hallo Tom,\n\nes tut mir leid, aber ich kann heute Abend nicht ins Kino kommen. Ich bin krank und habe Fieber. Ich muss im Bett bleiben. Können wir nächste Woche gehen? Vielleicht am Dienstag?\n\nGute Besserung wünscht sich gerade jemand anderes – aber gute Nacht!\nDeine Anna",
+    "questions": [
+      { "type": "MCQ", "q": "Warum kann Anna nicht ins Kino?", "opts": ["Sie hat keine Zeit", "Sie ist krank", "Sie hat kein Geld"], "a": 1, "exp": "„Ich bin krank und habe Fieber.“" },
+      { "type": "TF", "q": "Anna möchte nächste Woche ins Kino gehen.", "a": true, "exp": "„Können wir nächste Woche gehen?“" },
+      { "type": "TF", "q": "Anna schlägt Freitag vor.", "a": false, "exp": "Sie schlägt Dienstag vor: „Vielleicht am Dienstag?“" },
+      { "type": "MCQ", "q": "Was hat Anna?", "opts": ["Kopfschmerzen", "Fieber", "Husten"], "a": 1, "exp": "„Ich bin krank und habe Fieber.“" },
+      { "type": "TF", "q": "Anna will heute Abend ins Kino gehen.", "a": false, "exp": "Sie kann heute Abend nicht kommen." }
+    ]
+  },
+  {
+    "id": "A1_R09", "level": "A1", "type": "Speisekarte", "title": "Im Café Sonnenschein",
+    "text": "CAFÉ SONNENSCHEIN ☀️\n\nGetränke:\nKaffee ............ 2,50 €\nTee ............... 2,00 €\nOrangensaft ....... 3,00 €\nKakao ............. 2,80 €\n\nKuchen:\nApfelkuchen ....... 3,50 €\nSchokokuchen ...... 3,80 €\nKäsekuchen ........ 3,50 €\n\nÖffnungszeiten: täglich 8 – 18 Uhr",
+    "questions": [
+      { "type": "MCQ", "q": "Was kostet ein Kaffee?", "opts": ["2,00 €", "2,50 €", "3,00 €"], "a": 1, "exp": "„Kaffee ... 2,50 €“." },
+      { "type": "TF", "q": "Das Café hat jeden Tag geöffnet.", "a": true, "exp": "„täglich 8 – 18 Uhr“." },
+      { "type": "TF", "q": "Der Orangensaft kostet 2,80 €.", "a": false, "exp": "Der Orangensaft kostet 3,00 €; der Kakao kostet 2,80 €." },
+      { "type": "MCQ", "q": "Welcher Kuchen ist am teuersten?", "opts": ["Apfelkuchen", "Schokokuchen", "Käsekuchen"], "a": 1, "exp": "Schokokuchen: 3,80 €." },
+      { "type": "TF", "q": "Tee ist billiger als Kaffee.", "a": true, "exp": "Tee 2,00 € < Kaffee 2,50 €." }
+    ]
+  },
+  {
+    "id": "A1_R10", "level": "A1", "type": "Anzeige", "title": "Wohnung zu vermieten",
+    "text": "WOHNUNG ZU VERMIETEN\n\n🏠 2 Zimmer, Küche, Bad\n📐 55 Quadratmeter\n🏢 2. Stock, mit Balkon\n💶 Miete: 600 Euro pro Monat\n🚇 5 Minuten zur U-Bahn\n🐱 Haustiere erlaubt\n\nKontakt: Frau Weber, Tel. 0176 – 8889999\nFrei ab 1. März",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Zimmer hat die Wohnung?", "opts": ["1", "2", "3"], "a": 1, "exp": "„2 Zimmer, Küche, Bad“." },
+      { "type": "TF", "q": "Die Wohnung hat einen Balkon.", "a": true, "exp": "„2. Stock, mit Balkon“." },
+      { "type": "TF", "q": "Haustiere sind verboten.", "a": false, "exp": "„Haustiere erlaubt“." },
+      { "type": "MCQ", "q": "Wie viel kostet die Wohnung pro Monat?", "opts": ["500 Euro", "600 Euro", "700 Euro"], "a": 1, "exp": "„Miete: 600 Euro pro Monat“." },
+      { "type": "TF", "q": "Die Wohnung ist ab dem 1. März frei.", "a": true, "exp": "„Frei ab 1. März“." }
+    ]
+  },
+  {
+    "id": "A1_R11", "level": "A1", "type": "Einladung", "title": "Einladung zum Sommerfest",
+    "text": "Liebe Nachbarn,\n\nwir laden Sie herzlich zum Sommerfest ein!\n\n🗓 Wann: Sonntag, 15. Juni, ab 15 Uhr\n📍 Wo: im Garten von Familie Müller\n🍔 Es gibt Grillwürste und Salate.\n🎶 Für Musik ist gesorgt.\n\nBitte bringen Sie nur gute Laune mit. Der Eintritt ist frei!\n\nIhre Familie Müller",
+    "questions": [
+      { "type": "TF", "q": "Das Sommerfest ist an einem Samstag.", "a": false, "exp": "Es ist am Sonntag, dem 15. Juni." },
+      { "type": "MCQ", "q": "Wo findet das Fest statt?", "opts": ["Im Park", "Im Garten von Familie Müller", "Im Restaurant"], "a": 1, "exp": "„im Garten von Familie Müller“." },
+      { "type": "TF", "q": "Man muss Eintritt bezahlen.", "a": false, "exp": "„Der Eintritt ist frei!“" },
+      { "type": "MCQ", "q": "Was gibt es zu essen?", "opts": ["Pizza", "Grillwürste und Salate", "Nur Kuchen"], "a": 1, "exp": "„Grillwürste und Salate“." },
+      { "type": "TF", "q": "Das Fest beginnt um 15 Uhr.", "a": true, "exp": "„ab 15 Uhr“." }
+    ]
+  },
+  {
+    "id": "A1_R12", "level": "A1", "type": "Notiz", "title": "Eine Notiz von der Mitbewohnerin",
+    "text": "Hallo Sarah,\n\nich bin heute bis 20 Uhr bei der Arbeit. Kannst du bitte einkaufen gehen? Wir brauchen Milch, Brot, Eier und Butter. Das Geld liegt auf dem Tisch in der Küche. Vergiss bitte nicht, den Hund zu füttern!\n\nDanke und bis später,\nJulia",
+    "questions": [
+      { "type": "MCQ", "q": "Bis wann ist Julia bei der Arbeit?", "opts": ["18 Uhr", "20 Uhr", "22 Uhr"], "a": 1, "exp": "„bis 20 Uhr bei der Arbeit“." },
+      { "type": "TF", "q": "Sarah soll einkaufen gehen.", "a": true, "exp": "„Kannst du bitte einkaufen gehen?“" },
+      { "type": "TF", "q": "Sie brauchen Käse und Wurst.", "a": false, "exp": "Sie brauchen Milch, Brot, Eier und Butter." },
+      { "type": "MCQ", "q": "Wo liegt das Geld?", "opts": ["Auf dem Tisch in der Küche", "Im Schrank", "In der Tasche"], "a": 0, "exp": "„Das Geld liegt auf dem Tisch in der Küche.“" },
+      { "type": "TF", "q": "Sarah soll den Hund füttern.", "a": true, "exp": "„Vergiss bitte nicht, den Hund zu füttern!“" }
+    ]
+  },
+  {
+    "id": "A1_R13", "level": "A1", "type": "Wetterbericht", "title": "Das Wetter heute",
+    "text": "WETTER HEUTE 🌤\n\nAm Morgen ist es kalt, nur 5 Grad. Es regnet ein bisschen. Am Nachmittag scheint die Sonne und es wird wärmer: 15 Grad. Am Abend gibt es Wind. Nehmen Sie morgens einen Regenschirm mit!\n\nMorgen wird es sonnig und warm.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viel Grad sind es am Morgen?", "opts": ["5 Grad", "10 Grad", "15 Grad"], "a": 0, "exp": "„Am Morgen ist es kalt, nur 5 Grad.“" },
+      { "type": "TF", "q": "Am Nachmittag scheint die Sonne.", "a": true, "exp": "„Am Nachmittag scheint die Sonne“." },
+      { "type": "TF", "q": "Man braucht morgens keinen Regenschirm.", "a": false, "exp": "„Nehmen Sie morgens einen Regenschirm mit!“" },
+      { "type": "MCQ", "q": "Wie wird das Wetter morgen?", "opts": ["Kalt und nass", "Sonnig und warm", "Sehr windig"], "a": 1, "exp": "„Morgen wird es sonnig und warm.“" },
+      { "type": "TF", "q": "Am Abend gibt es Wind.", "a": true, "exp": "„Am Abend gibt es Wind.“" }
+    ]
+  },
+  {
+    "id": "A1_R14", "level": "A1", "type": "Dialog", "title": "Im Kleidungsgeschäft",
+    "text": "Verkäuferin: Guten Tag! Kann ich Ihnen helfen?\nKunde: Ja, ich suche ein T-Shirt in Größe M.\nVerkäuferin: Welche Farbe möchten Sie?\nKunde: Blau, bitte.\nVerkäuferin: Hier, dieses T-Shirt kostet 15 Euro.\nKunde: Gut, das nehme ich. Kann ich mit Karte bezahlen?\nVerkäuferin: Natürlich. Die Kasse ist dort rechts.",
+    "questions": [
+      { "type": "MCQ", "q": "Was sucht der Kunde?", "opts": ["Eine Hose", "Ein T-Shirt", "Schuhe"], "a": 1, "exp": "„ich suche ein T-Shirt in Größe M“." },
+      { "type": "MCQ", "q": "Welche Farbe möchte der Kunde?", "opts": ["Rot", "Blau", "Grün"], "a": 1, "exp": "„Blau, bitte.“" },
+      { "type": "TF", "q": "Das T-Shirt kostet 15 Euro.", "a": true, "exp": "„dieses T-Shirt kostet 15 Euro“." },
+      { "type": "TF", "q": "Der Kunde bezahlt mit Bargeld.", "a": false, "exp": "Er fragt: „Kann ich mit Karte bezahlen?“" },
+      { "type": "MCQ", "q": "Welche Größe braucht der Kunde?", "opts": ["S", "M", "L"], "a": 1, "exp": "„in Größe M“." }
+    ]
+  },
+  {
+    "id": "A1_R15", "level": "A1", "type": "Schild", "title": "Regeln im Schwimmbad",
+    "text": "SCHWIMMBAD – REGELN\n\n🏊 Bitte vor dem Schwimmen duschen.\n🚫 Essen und Trinken nur im Café.\n🏃 Nicht rennen!\n👶 Kinder unter 6 Jahren nur mit den Eltern.\n🕐 Letzter Einlass: 19:30 Uhr.\n\nWir wünschen viel Spaß!",
+    "questions": [
+      { "type": "TF", "q": "Man soll vor dem Schwimmen duschen.", "a": true, "exp": "„Bitte vor dem Schwimmen duschen.“" },
+      { "type": "TF", "q": "Man darf überall essen und trinken.", "a": false, "exp": "„Essen und Trinken nur im Café.“" },
+      { "type": "MCQ", "q": "Wann ist der letzte Einlass?", "opts": ["18:30 Uhr", "19:30 Uhr", "20:30 Uhr"], "a": 1, "exp": "„Letzter Einlass: 19:30 Uhr.“" },
+      { "type": "MCQ", "q": "Wer darf nur mit den Eltern kommen?", "opts": ["Kinder unter 6 Jahren", "Alle Kinder", "Erwachsene"], "a": 0, "exp": "„Kinder unter 6 Jahren nur mit den Eltern.“" },
+      { "type": "TF", "q": "Im Schwimmbad darf man rennen.", "a": false, "exp": "„Nicht rennen!“" }
+    ]
+  },
+  {
+    "id": "A1_R16", "level": "A1", "type": "E-Mail", "title": "Bestätigung eines Arzttermins",
+    "text": "Von: praxis-dr-klein@email.de\nBetreff: Ihr Termin\n\nSehr geehrte Frau Schulz,\n\nwir bestätigen Ihren Termin am Mittwoch, dem 10. April, um 9:30 Uhr. Bitte bringen Sie Ihre Versichertenkarte mit. Wenn Sie nicht kommen können, rufen Sie uns bitte einen Tag vorher an.\n\nMit freundlichen Grüßen\nPraxis Dr. Klein",
+    "questions": [
+      { "type": "MCQ", "q": "Wann ist der Termin?", "opts": ["Montag, 9:30 Uhr", "Mittwoch, 9:30 Uhr", "Mittwoch, 10:30 Uhr"], "a": 1, "exp": "„am Mittwoch, dem 10. April, um 9:30 Uhr“." },
+      { "type": "TF", "q": "Frau Schulz soll ihre Versichertenkarte mitbringen.", "a": true, "exp": "„Bitte bringen Sie Ihre Versichertenkarte mit.“" },
+      { "type": "TF", "q": "Sie muss nicht anrufen, wenn sie nicht kommt.", "a": false, "exp": "Sie soll einen Tag vorher anrufen." },
+      { "type": "MCQ", "q": "Wann soll sie anrufen, wenn sie nicht kommen kann?", "opts": ["Am selben Tag", "Einen Tag vorher", "Eine Woche vorher"], "a": 1, "exp": "„rufen Sie uns bitte einen Tag vorher an“." },
+      { "type": "TF", "q": "Die E-Mail kommt von einer Arztpraxis.", "a": true, "exp": "Absender: „Praxis Dr. Klein“." }
+    ]
+  },
+  {
+    "id": "A1_R17", "level": "A1", "type": "Postkarte", "title": "Eine Postkarte aus München",
+    "text": "Liebe Oma,\n\nviele Grüße aus München! Hier ist es sehr schön. Gestern waren wir im Zoo und haben Elefanten gesehen. Heute essen wir Brezeln und trinken Limonade. Das Wetter ist warm und sonnig. Morgen fahren wir wieder nach Hause.\n\nBis bald und alles Liebe,\ndein Felix",
+    "questions": [
+      { "type": "MCQ", "q": "Wo ist Felix?", "opts": ["In Berlin", "In München", "In Hamburg"], "a": 1, "exp": "„viele Grüße aus München“." },
+      { "type": "TF", "q": "Felix war gestern im Zoo.", "a": true, "exp": "„Gestern waren wir im Zoo“." },
+      { "type": "TF", "q": "Das Wetter ist kalt und nass.", "a": false, "exp": "„Das Wetter ist warm und sonnig.“" },
+      { "type": "MCQ", "q": "Was isst Felix heute?", "opts": ["Pizza", "Brezeln", "Kuchen"], "a": 1, "exp": "„Heute essen wir Brezeln“." },
+      { "type": "TF", "q": "Felix fährt morgen nach Hause.", "a": true, "exp": "„Morgen fahren wir wieder nach Hause.“" }
+    ]
+  },
+  {
+    "id": "A1_R18", "level": "A1", "type": "Anzeige", "title": "Katze vermisst",
+    "text": "KATZE VERMISST! 🐱\n\nUnsere Katze Minka ist seit Montag weg. Sie ist schwarz-weiß und hat grüne Augen. Sie trägt ein rotes Halsband. Minka ist sehr lieb und kommt zu Menschen.\n\nWer sie sieht, bitte anrufen: 0151 – 2223334. Belohnung: 50 Euro!\n\nFamilie Bauer, Lindenweg 8",
+    "questions": [
+      { "type": "TF", "q": "Die Katze heißt Minka.", "a": true, "exp": "„Unsere Katze Minka“." },
+      { "type": "MCQ", "q": "Welche Farbe hat die Katze?", "opts": ["Ganz schwarz", "Schwarz-weiß", "Grau"], "a": 1, "exp": "„Sie ist schwarz-weiß“." },
+      { "type": "TF", "q": "Die Katze trägt ein blaues Halsband.", "a": false, "exp": "Sie trägt ein rotes Halsband." },
+      { "type": "MCQ", "q": "Wie viel Belohnung gibt es?", "opts": ["20 Euro", "50 Euro", "100 Euro"], "a": 1, "exp": "„Belohnung: 50 Euro!“" },
+      { "type": "TF", "q": "Die Katze ist seit Montag weg.", "a": true, "exp": "„ist seit Montag weg“." }
+    ]
+  },
+  {
+    "id": "A1_R19", "level": "A1", "type": "Nachricht", "title": "Eine Paketbenachrichtigung",
+    "text": "BENACHRICHTIGUNG\n\nLieber Kunde,\n\nwir haben heute versucht, Ihr Paket zu liefern. Leider waren Sie nicht zu Hause. Ihr Paket liegt jetzt im Paketshop in der Bahnhofstraße 3.\n\nÖffnungszeiten: Mo – Sa, 8 – 20 Uhr.\nBitte bringen Sie diesen Zettel und Ihren Ausweis mit. Das Paket liegt 7 Tage für Sie bereit.",
+    "questions": [
+      { "type": "TF", "q": "Das Paket wurde erfolgreich geliefert.", "a": false, "exp": "„Leider waren Sie nicht zu Hause.“" },
+      { "type": "MCQ", "q": "Wo liegt das Paket jetzt?", "opts": ["Beim Nachbarn", "Im Paketshop in der Bahnhofstraße 3", "Bei der Post"], "a": 1, "exp": "„im Paketshop in der Bahnhofstraße 3“." },
+      { "type": "MCQ", "q": "Was muss man mitbringen?", "opts": ["Nur Geld", "Den Zettel und einen Ausweis", "Gar nichts"], "a": 1, "exp": "„Bitte bringen Sie diesen Zettel und Ihren Ausweis mit.“" },
+      { "type": "TF", "q": "Das Paket liegt 7 Tage bereit.", "a": true, "exp": "„Das Paket liegt 7 Tage für Sie bereit.“" },
+      { "type": "TF", "q": "Der Paketshop ist sonntags geöffnet.", "a": false, "exp": "Öffnungszeiten: Mo – Sa." }
+    ]
+  },
+  {
+    "id": "A1_R20", "level": "A1", "type": "Plan", "title": "Wochenplan im Deutschkurs",
+    "text": "DEUTSCHKURS A1 – WOCHENPLAN\n\nMontag: Grammatik (9 – 11 Uhr)\nDienstag: Sprechen (9 – 11 Uhr)\nMittwoch: kein Unterricht\nDonnerstag: Hören & Lesen (9 – 11 Uhr)\nFreitag: Wortschatz + Test (9 – 12 Uhr)\n\nLehrerin: Frau Lang\nRaum: 204",
+    "questions": [
+      { "type": "TF", "q": "Am Mittwoch gibt es keinen Unterricht.", "a": true, "exp": "„Mittwoch: kein Unterricht“." },
+      { "type": "MCQ", "q": "Was lernt man am Dienstag?", "opts": ["Grammatik", "Sprechen", "Hören"], "a": 1, "exp": "„Dienstag: Sprechen“." },
+      { "type": "MCQ", "q": "Wann ist der Test?", "opts": ["Montag", "Donnerstag", "Freitag"], "a": 2, "exp": "„Freitag: Wortschatz + Test“." },
+      { "type": "TF", "q": "Der Freitagskurs dauert bis 12 Uhr.", "a": true, "exp": "„Freitag: ... (9 – 12 Uhr)“." },
+      { "type": "TF", "q": "Die Lehrerin heißt Frau Lang.", "a": true, "exp": "„Lehrerin: Frau Lang“." }
+    ]
+  }
+]

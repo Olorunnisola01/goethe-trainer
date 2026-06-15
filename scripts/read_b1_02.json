@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B1_R21", "level": "B1", "type": "Zeitungsartikel", "title": "Autofreier Sonntag in der Innenstadt",
+    "text": "AUTOFREIER SONNTAG IN DER INNENSTADT\n\nAm kommenden Sonntag bleibt die Innenstadt autofrei. Von 10 bis 18 Uhr dürfen keine Autos in das Zentrum fahren. Stattdessen gibt es ein großes Straßenfest mit Musik, Ständen und Spielen für Kinder.\n\nDie Stadt möchte zeigen, wie schön eine Stadt ohne Autos sein kann. Viele Geschäfte machen mit und bieten Aktionen an. Einige Autofahrer ärgern sich über die Sperrung, aber die meisten Bürger finden die Idee gut. Wenn das Fest ein Erfolg wird, soll es jeden Monat einen autofreien Sonntag geben.",
+    "questions": [
+      { "type": "MCQ", "q": "Was passiert am Sonntag?", "opts": ["Die Innenstadt wird autofrei", "Alle Geschäfte schließen", "Es gibt ein Konzert im Park"], "a": 0, "exp": "„bleibt die Innenstadt autofrei“." },
+      { "type": "MCQ", "q": "Wann dürfen keine Autos fahren?", "opts": ["Von 10 bis 18 Uhr", "Den ganzen Tag", "Nur morgens"], "a": 0, "exp": "„Von 10 bis 18 Uhr dürfen keine Autos in das Zentrum fahren.“" },
+      { "type": "TF", "q": "Es gibt ein Straßenfest.", "a": true, "exp": "„ein großes Straßenfest mit Musik, Ständen und Spielen“." },
+      { "type": "MCQ", "q": "Was möchte die Stadt zeigen?", "opts": ["Wie schön eine Stadt ohne Autos sein kann", "Dass Autos wichtig sind", "Wie man parkt"], "a": 0, "exp": "„wie schön eine Stadt ohne Autos sein kann“." },
+      { "type": "TF", "q": "Alle Bürger ärgern sich über die Sperrung.", "a": false, "exp": "„die meisten Bürger finden die Idee gut“." },
+      { "type": "MCQ", "q": "Was soll passieren, wenn das Fest ein Erfolg wird?", "opts": ["Jeden Monat ein autofreier Sonntag", "Nie wieder", "Eine autofreie Woche"], "a": 0, "exp": "„soll es jeden Monat einen autofreien Sonntag geben“." }
+    ]
+  },
+  {
+    "id": "B1_R22", "level": "B1", "type": "Blogeintrag", "title": "Mit 40 noch Klavier lernen?",
+    "text": "BLOG: Mit 40 noch Klavier lernen?\n\nViele denken, man kann nur als Kind ein Instrument lernen. Das stimmt nicht! Mit 40 habe ich angefangen, Klavier zu spielen.\n\nNatürlich lerne ich langsamer als ein Kind, und manchmal bin ich frustriert. Aber ich übe jeden Tag 20 Minuten, und ich mache Fortschritte. Das Beste daran: Nach einem langen Arbeitstag entspannt mich die Musik total. Ich vergesse den Stress. Mein Tipp an alle Erwachsenen: Es ist nie zu spät, etwas Neues zu lernen. Trau dich einfach!",
+    "questions": [
+      { "type": "MCQ", "q": "Was denken viele Menschen?", "opts": ["Man kann nur als Kind ein Instrument lernen", "Klavier ist langweilig", "Musik ist teuer"], "a": 0, "exp": "„Viele denken, man kann nur als Kind ein Instrument lernen.“" },
+      { "type": "MCQ", "q": "Wann hat der Autor angefangen?", "opts": ["Mit 40", "Mit 4", "Mit 14"], "a": 0, "exp": "„Mit 40 habe ich angefangen“." },
+      { "type": "TF", "q": "Der Autor lernt schneller als ein Kind.", "a": false, "exp": "„ich lerne langsamer als ein Kind“." },
+      { "type": "MCQ", "q": "Wie viel übt der Autor pro Tag?", "opts": ["20 Minuten", "2 Stunden", "Gar nicht"], "a": 0, "exp": "„ich übe jeden Tag 20 Minuten“." },
+      { "type": "TF", "q": "Die Musik entspannt den Autor nach der Arbeit.", "a": true, "exp": "„entspannt mich die Musik total“." },
+      { "type": "MCQ", "q": "Was ist der Tipp des Autors?", "opts": ["Es ist nie zu spät, etwas Neues zu lernen", "Nur Kinder sollten lernen", "Man soll aufgeben"], "a": 0, "exp": "„Es ist nie zu spät, etwas Neues zu lernen.“" }
+    ]
+  },
+  {
+    "id": "B1_R23", "level": "B1", "type": "Forum", "title": "Tipps für die erste eigene Wohnung",
+    "text": "FORUM: Tipps für die erste eigene Wohnung\n\nFrage von JungUndFrei: Ich ziehe bald in meine erste Wohnung. Worauf muss ich achten?\n\nAntwort von Erfahren42: Glückwunsch! Erstens: Lies den Mietvertrag genau, besonders wegen der Nebenkosten. Zweitens: Mach bei der Übergabe Fotos von der Wohnung, falls etwas kaputt ist. Drittens: Vergiss nicht, dich beim Einwohnermeldeamt anzumelden — das musst du in Deutschland innerhalb von zwei Wochen machen. Und: Lern deine Nachbarn kennen, das macht vieles leichter!",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist die Situation von JungUndFrei?", "opts": ["Er zieht in seine erste Wohnung", "Er sucht einen Job", "Er will heiraten"], "a": 0, "exp": "„Ich ziehe bald in meine erste Wohnung.“" },
+      { "type": "MCQ", "q": "Was soll man im Mietvertrag genau lesen?", "opts": ["Die Nebenkosten", "Den Namen", "Das Datum"], "a": 0, "exp": "„Lies den Mietvertrag genau, besonders wegen der Nebenkosten.“" },
+      { "type": "TF", "q": "Man soll bei der Übergabe Fotos machen.", "a": true, "exp": "„Mach bei der Übergabe Fotos von der Wohnung“." },
+      { "type": "MCQ", "q": "Wie schnell muss man sich anmelden?", "opts": ["Innerhalb von zwei Wochen", "Innerhalb eines Jahres", "Gar nicht"], "a": 0, "exp": "„innerhalb von zwei Wochen“." },
+      { "type": "MCQ", "q": "Wo muss man sich anmelden?", "opts": ["Beim Einwohnermeldeamt", "Bei der Bank", "Beim Arzt"], "a": 0, "exp": "„dich beim Einwohnermeldeamt anzumelden“." },
+      { "type": "TF", "q": "Erfahren42 rät, die Nachbarn kennenzulernen.", "a": true, "exp": "„Lern deine Nachbarn kennen, das macht vieles leichter!“" }
+    ]
+  },
+  {
+    "id": "B1_R24", "level": "B1", "type": "Sachtext", "title": "Die deutsche Brotkultur",
+    "text": "DIE DEUTSCHE BROTKULTUR\n\nDeutschland ist berühmt für sein Brot. Es gibt über 3.000 verschiedene Brotsorten — mehr als in jedem anderen Land. Vom hellen Weißbrot bis zum dunklen Vollkornbrot ist für jeden Geschmack etwas dabei.\n\nViele Deutsche kaufen ihr Brot lieber beim Bäcker als im Supermarkt, weil es dort frischer ist. Brot spielt auch beim Abendessen eine große Rolle: Das „Abendbrot“ ist eine alte Tradition. Statt warm zu kochen, isst man abends oft Brot mit Käse, Wurst und Gemüse. Diese Brotkultur ist sogar offiziell als Kulturerbe anerkannt.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Brotsorten gibt es in Deutschland?", "opts": ["Über 3.000", "Etwa 300", "Etwa 30"], "a": 0, "exp": "„über 3.000 verschiedene Brotsorten“." },
+      { "type": "TF", "q": "In Deutschland gibt es mehr Brotsorten als in anderen Ländern.", "a": true, "exp": "„mehr als in jedem anderen Land“." },
+      { "type": "MCQ", "q": "Warum kaufen viele Deutsche Brot beim Bäcker?", "opts": ["Es ist frischer", "Es ist billiger", "Es gibt keine Supermärkte"], "a": 0, "exp": "„weil es dort frischer ist“." },
+      { "type": "MCQ", "q": "Was ist das „Abendbrot“?", "opts": ["Brot mit Käse, Wurst und Gemüse am Abend", "Ein warmes Mittagessen", "Ein Frühstück"], "a": 0, "exp": "„isst man abends oft Brot mit Käse, Wurst und Gemüse“." },
+      { "type": "TF", "q": "Die Brotkultur ist als Kulturerbe anerkannt.", "a": true, "exp": "„sogar offiziell als Kulturerbe anerkannt“." },
+      { "type": "MCQ", "q": "Welche Brotsorten werden genannt?", "opts": ["Weißbrot und Vollkornbrot", "Nur Toast", "Nur Brötchen"], "a": 0, "exp": "„Vom hellen Weißbrot bis zum dunklen Vollkornbrot“." }
+    ]
+  },
+  {
+    "id": "B1_R25", "level": "B1", "type": "E-Mail", "title": "Der jährliche Team-Ausflug",
+    "text": "Betreff: Unser Team-Ausflug\n\nLiebes Team,\n\nes ist wieder Zeit für unseren jährlichen Ausflug! Dieses Jahr habe ich drei Ideen: einen Kochkurs, eine Wanderung oder einen Besuch im Kletterpark.\n\nBitte stimmt bis Freitag ab, was euch am besten gefällt. Den Link zur Umfrage findet ihr unten. Der Ausflug ist am 20. September, und die Firma bezahlt alles. Familienmitglieder dürfen leider nicht mitkommen, da es ein Team-Event ist.\n\nIch freue mich auf einen schönen Tag mit euch!\nEure Teamleiterin Petra",
+    "questions": [
+      { "type": "MCQ", "q": "Worum geht es in der E-Mail?", "opts": ["Um einen Team-Ausflug", "Um eine Gehaltserhöhung", "Um neue Computer"], "a": 0, "exp": "„Zeit für unseren jährlichen Ausflug“." },
+      { "type": "MCQ", "q": "Welche drei Ideen gibt es?", "opts": ["Kochkurs, Wanderung, Kletterpark", "Kino, Theater, Konzert", "Schwimmen, Tanzen, Reiten"], "a": 0, "exp": "„einen Kochkurs, eine Wanderung oder einen Besuch im Kletterpark“." },
+      { "type": "TF", "q": "Das Team soll bis Freitag abstimmen.", "a": true, "exp": "„Bitte stimmt bis Freitag ab“." },
+      { "type": "MCQ", "q": "Wer bezahlt den Ausflug?", "opts": ["Die Firma", "Die Mitarbeiter", "Die Teamleiterin privat"], "a": 0, "exp": "„die Firma bezahlt alles“." },
+      { "type": "TF", "q": "Familienmitglieder dürfen mitkommen.", "a": false, "exp": "„Familienmitglieder dürfen leider nicht mitkommen“." },
+      { "type": "MCQ", "q": "Wann ist der Ausflug?", "opts": ["Am 20. September", "Am Freitag", "Im Oktober"], "a": 0, "exp": "„Der Ausflug ist am 20. September“." }
+    ]
+  },
+  {
+    "id": "B1_R26", "level": "B1", "type": "Interview", "title": "Interview mit einer Buchhändlerin",
+    "text": "INTERVIEW mit Buchhändlerin Frau Stein\n\nReporter: Viele kaufen Bücher heute online. Wie geht es Ihrem Geschäft?\nFrau Stein: Es ist schwierig, das stimmt. Aber wir bieten etwas, das das Internet nicht hat: persönliche Beratung.\nReporter: Wie meinen Sie das?\nFrau Stein: Ich kenne meine Kunden und empfehle ihnen Bücher, die genau zu ihnen passen. Außerdem machen wir Lesungen und Veranstaltungen.\nReporter: Und die Zukunft?\nFrau Stein: Ich bin optimistisch. Es gibt immer Menschen, die echte Buchläden lieben.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Problem für Frau Steins Geschäft?", "opts": ["Viele kaufen Bücher online", "Die Bücher sind zu teuer", "Es gibt zu wenige Bücher"], "a": 0, "exp": "„Viele kaufen Bücher heute online.“" },
+      { "type": "MCQ", "q": "Was bietet ihr Geschäft, das das Internet nicht hat?", "opts": ["Persönliche Beratung", "Niedrigere Preise", "Schnellere Lieferung"], "a": 0, "exp": "„persönliche Beratung“." },
+      { "type": "TF", "q": "Frau Stein kennt ihre Kunden.", "a": true, "exp": "„Ich kenne meine Kunden und empfehle ihnen Bücher“." },
+      { "type": "MCQ", "q": "Was macht das Geschäft außerdem?", "opts": ["Lesungen und Veranstaltungen", "Es verkauft Kaffee", "Es repariert Handys"], "a": 0, "exp": "„Außerdem machen wir Lesungen und Veranstaltungen.“" },
+      { "type": "TF", "q": "Frau Stein ist pessimistisch über die Zukunft.", "a": false, "exp": "„Ich bin optimistisch.“" },
+      { "type": "MCQ", "q": "Warum ist Frau Stein optimistisch?", "opts": ["Es gibt immer Menschen, die echte Buchläden lieben", "Die Mieten sinken", "Online-Shops schließen"], "a": 0, "exp": "„Es gibt immer Menschen, die echte Buchläden lieben.“" }
+    ]
+  },
+  {
+    "id": "B1_R27", "level": "B1", "type": "Argumentativer Text", "title": "Sollen Geschäfte sonntags öffnen?",
+    "text": "SOLLEN GESCHÄFTE SONNTAGS ÖFFNEN?\n\nIn Deutschland sind die meisten Geschäfte sonntags geschlossen. Manche fordern, das zu ändern. Sie sagen: Menschen, die unter der Woche arbeiten, hätten am Sonntag endlich Zeit zum Einkaufen.\n\nIch bin dagegen. Der Sonntag soll ein Tag der Ruhe bleiben. Auch Verkäufer brauchen einen freien Tag mit ihrer Familie. Außerdem: Wenn die Geschäfte öffnen, müssen viele Menschen arbeiten, die das gar nicht wollen. Online kann man sowieso jederzeit einkaufen. Der ruhige Sonntag ist ein Wert, den wir schützen sollten.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie sind die Geschäfte in Deutschland sonntags?", "opts": ["Meistens geschlossen", "Immer offen", "Nur morgens offen"], "a": 0, "exp": "„die meisten Geschäfte sonntags geschlossen“." },
+      { "type": "MCQ", "q": "Was sagen die Befürworter der Sonntagsöffnung?", "opts": ["Berufstätige hätten dann Zeit zum Einkaufen", "Es ist billiger", "Es macht Spaß"], "a": 0, "exp": "„hätten am Sonntag endlich Zeit zum Einkaufen“." },
+      { "type": "TF", "q": "Der Autor ist für die Sonntagsöffnung.", "a": false, "exp": "„Ich bin dagegen.“" },
+      { "type": "MCQ", "q": "Warum ist der Autor dagegen?", "opts": ["Der Sonntag soll ein Tag der Ruhe bleiben", "Geschäfte sind hässlich", "Es gibt keine Kunden"], "a": 0, "exp": "„Der Sonntag soll ein Tag der Ruhe bleiben.“" },
+      { "type": "TF", "q": "Der Autor sagt, Verkäufer brauchen auch einen freien Tag.", "a": true, "exp": "„Auch Verkäufer brauchen einen freien Tag mit ihrer Familie.“" },
+      { "type": "MCQ", "q": "Was kann man laut Autor sowieso jederzeit?", "opts": ["Online einkaufen", "Im Geschäft einkaufen", "Nichts kaufen"], "a": 0, "exp": "„Online kann man sowieso jederzeit einkaufen.“" }
+    ]
+  },
+  {
+    "id": "B1_R28", "level": "B1", "type": "Sachtext", "title": "Energie sparen zu Hause",
+    "text": "RATGEBER: Energie sparen zu Hause\n\nEnergie wird immer teurer. Mit einfachen Tricks kann man viel Geld sparen und gleichzeitig die Umwelt schützen.\n\nSchalten Sie Geräte ganz aus, statt sie im Standby zu lassen — das spart bis zu zehn Prozent Strom. Heizen Sie nicht zu stark: Schon ein Grad weniger spart spürbar Energie. Lüften Sie kurz und kräftig, statt das Fenster lange offen zu lassen. Und benutzen Sie LED-Lampen, die viel weniger Strom verbrauchen als alte Glühbirnen. Diese kleinen Schritte machen zusammen einen großen Unterschied.",
+    "questions": [
+      { "type": "MCQ", "q": "Worum geht es im Ratgeber?", "opts": ["Energie sparen zu Hause", "Kochen lernen", "Reisen"], "a": 0, "exp": "„Energie sparen zu Hause“." },
+      { "type": "MCQ", "q": "Was spart bis zu zehn Prozent Strom?", "opts": ["Geräte ganz ausschalten", "Mehr heizen", "Lange lüften"], "a": 0, "exp": "„Schalten Sie Geräte ganz aus ... das spart bis zu zehn Prozent Strom.“" },
+      { "type": "TF", "q": "Ein Grad weniger heizen spart Energie.", "a": true, "exp": "„Schon ein Grad weniger spart spürbar Energie.“" },
+      { "type": "MCQ", "q": "Wie soll man lüften?", "opts": ["Kurz und kräftig", "Den ganzen Tag", "Gar nicht"], "a": 0, "exp": "„Lüften Sie kurz und kräftig“." },
+      { "type": "MCQ", "q": "Welche Lampen soll man benutzen?", "opts": ["LED-Lampen", "Alte Glühbirnen", "Kerzen"], "a": 0, "exp": "„benutzen Sie LED-Lampen“." },
+      { "type": "TF", "q": "Die kleinen Schritte machen keinen Unterschied.", "a": false, "exp": "„machen zusammen einen großen Unterschied“." }
+    ]
+  },
+  {
+    "id": "B1_R29", "level": "B1", "type": "Reportage", "title": "Im Sprachcafé",
+    "text": "REPORTAGE: Im Sprachcafé\n\nJeden Mittwoch öffnet das „Sprachcafé“ seine Türen. Hier treffen sich Deutsche und Menschen aus anderen Ländern, um zusammen Deutsch zu üben. Bei Kaffee und Kuchen sitzen sie an kleinen Tischen und reden.\n\nDie Atmosphäre ist locker, niemand muss perfekt sprechen. „Hier habe ich keine Angst vor Fehlern“, sagt Ahmad aus Syrien. Die freiwilligen Helfer korrigieren freundlich und geben Tipps. Für viele ist das Sprachcafé mehr als ein Sprachkurs: Es ist ein Ort, an dem echte Freundschaften entstehen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wann öffnet das Sprachcafé?", "opts": ["Jeden Mittwoch", "Jeden Tag", "Nur sonntags"], "a": 0, "exp": "„Jeden Mittwoch öffnet das „Sprachcafé“ seine Türen.“" },
+      { "type": "MCQ", "q": "Was machen die Menschen dort?", "opts": ["Zusammen Deutsch üben", "Tanzen", "Filme schauen"], "a": 0, "exp": "„um zusammen Deutsch zu üben“." },
+      { "type": "TF", "q": "Im Sprachcafé muss man perfekt sprechen.", "a": false, "exp": "„niemand muss perfekt sprechen“." },
+      { "type": "MCQ", "q": "Was sagt Ahmad?", "opts": ["Er hat keine Angst vor Fehlern", "Er findet es langweilig", "Er will gehen"], "a": 0, "exp": "„Hier habe ich keine Angst vor Fehlern.“" },
+      { "type": "TF", "q": "Die Helfer korrigieren freundlich.", "a": true, "exp": "„Die freiwilligen Helfer korrigieren freundlich“." },
+      { "type": "MCQ", "q": "Was ist das Sprachcafé für viele?", "opts": ["Ein Ort für echte Freundschaften", "Nur ein Kurs", "Ein Restaurant"], "a": 0, "exp": "„ein Ort, an dem echte Freundschaften entstehen“." }
+    ]
+  },
+  {
+    "id": "B1_R30", "level": "B1", "type": "Formeller Brief", "title": "Bewerbung als Erzieherin",
+    "text": "Betreff: Bewerbung als Erzieherin\n\nSehr geehrte Frau Direktorin,\n\nmit großem Interesse habe ich Ihre Anzeige gelesen und bewerbe mich um die Stelle als Erzieherin in Ihrer Kita.\n\nIch habe meine Ausbildung letztes Jahr abgeschlossen und danach ein Praktikum in einem Kindergarten gemacht. Die Arbeit mit Kindern macht mir große Freude, und ich bin geduldig und kreativ. Besonders gefällt mir an Ihrer Kita das Konzept der Naturpädagogik.\n\nÜber eine Einladung zu einem Gespräch würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nLea Sommer",
+    "questions": [
+      { "type": "MCQ", "q": "Um welche Stelle bewirbt sich Lea?", "opts": ["Als Erzieherin", "Als Lehrerin", "Als Köchin"], "a": 0, "exp": "„bewerbe mich um die Stelle als Erzieherin“." },
+      { "type": "TF", "q": "Lea hat ihre Ausbildung schon abgeschlossen.", "a": true, "exp": "„Ich habe meine Ausbildung letztes Jahr abgeschlossen“." },
+      { "type": "MCQ", "q": "Was hat Lea nach der Ausbildung gemacht?", "opts": ["Ein Praktikum im Kindergarten", "Eine Weltreise", "Eine zweite Ausbildung"], "a": 0, "exp": "„danach ein Praktikum in einem Kindergarten gemacht“." },
+      { "type": "MCQ", "q": "Wie beschreibt sich Lea?", "opts": ["Geduldig und kreativ", "Streng und laut", "Müde und langsam"], "a": 0, "exp": "„ich bin geduldig und kreativ“." },
+      { "type": "TF", "q": "Lea gefällt das Konzept der Naturpädagogik.", "a": true, "exp": "„Besonders gefällt mir ... das Konzept der Naturpädagogik.“" },
+      { "type": "MCQ", "q": "Was wünscht sich Lea am Ende?", "opts": ["Eine Einladung zu einem Gespräch", "Mehr Geld", "Einen Urlaub"], "a": 0, "exp": "„Über eine Einladung zu einem Gespräch würde ich mich sehr freuen.“" }
+    ]
+  },
+  {
+    "id": "B1_R31", "level": "B1", "type": "Sachtext", "title": "Vereine in Deutschland",
+    "text": "VEREINE IN DEUTSCHLAND\n\nIn Deutschland gibt es über 600.000 Vereine. Fast jeder zweite Deutsche ist Mitglied in einem Verein. Es gibt Sportvereine, Musikvereine, Tierschutzvereine und viele mehr.\n\nVereine sind wichtig für die Gesellschaft. Sie bringen Menschen zusammen, die das gleiche Interesse haben. Oft arbeiten die Mitglieder ehrenamtlich, also ohne Bezahlung. Besonders in kleinen Dörfern sind Vereine das Herz des Gemeinschaftslebens. Wer neu in eine Stadt zieht, findet über einen Verein schnell Kontakt und neue Freunde.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Vereine gibt es in Deutschland?", "opts": ["Über 600.000", "Etwa 6.000", "Etwa 60"], "a": 0, "exp": "„über 600.000 Vereine“." },
+      { "type": "TF", "q": "Fast jeder zweite Deutsche ist in einem Verein.", "a": true, "exp": "„Fast jeder zweite Deutsche ist Mitglied in einem Verein.“" },
+      { "type": "MCQ", "q": "Was machen Vereine für die Gesellschaft?", "opts": ["Sie bringen Menschen mit gleichen Interessen zusammen", "Sie verdienen viel Geld", "Sie bauen Häuser"], "a": 0, "exp": "„Sie bringen Menschen zusammen, die das gleiche Interesse haben.“" },
+      { "type": "MCQ", "q": "Wie arbeiten die Mitglieder oft?", "opts": ["Ehrenamtlich, ohne Bezahlung", "Für viel Geld", "Gar nicht"], "a": 0, "exp": "„Oft arbeiten die Mitglieder ehrenamtlich, also ohne Bezahlung.“" },
+      { "type": "TF", "q": "In kleinen Dörfern sind Vereine unwichtig.", "a": false, "exp": "„sind Vereine das Herz des Gemeinschaftslebens“." },
+      { "type": "MCQ", "q": "Wie hilft ein Verein, wenn man neu in einer Stadt ist?", "opts": ["Man bekommt schnell Kontakt", "Man muss viel zahlen", "Gar nicht"], "a": 0, "exp": "„findet über einen Verein schnell Kontakt und neue Freunde“." }
+    ]
+  },
+  {
+    "id": "B1_R32", "level": "B1", "type": "Blogeintrag", "title": "Eine Woche ohne Internet",
+    "text": "BLOG: Eine Woche ohne Internet\n\nIch habe ein Experiment gemacht: eine ganze Woche Urlaub ohne Internet und ohne Handy. Ich war in einer kleinen Hütte in den Bergen.\n\nDie ersten zwei Tage waren wirklich schwer. Ständig wollte ich auf mein Handy schauen, aber es war ja ausgeschaltet. Dann wurde es besser. Ich las drei Bücher, machte lange Spaziergänge und schlief tief. Ich merkte, wie laut mein normales Leben ist. Zurück zu Hause war ich entspannter denn je. Ich nehme mir vor, öfter offline zu sein.",
+    "questions": [
+      { "type": "MCQ", "q": "Welches Experiment hat der Autor gemacht?", "opts": ["Eine Woche ohne Internet", "Eine Woche ohne Essen", "Eine Woche ohne Schlaf"], "a": 0, "exp": "„eine ganze Woche Urlaub ohne Internet und ohne Handy“." },
+      { "type": "MCQ", "q": "Wo war der Autor?", "opts": ["In einer Hütte in den Bergen", "Am Meer", "In der Stadt"], "a": 0, "exp": "„in einer kleinen Hütte in den Bergen“." },
+      { "type": "TF", "q": "Die ersten zwei Tage waren schwer.", "a": true, "exp": "„Die ersten zwei Tage waren wirklich schwer.“" },
+      { "type": "MCQ", "q": "Was hat der Autor in der Woche gemacht?", "opts": ["Bücher gelesen und Spaziergänge gemacht", "Viel gearbeitet", "Ferngesehen"], "a": 0, "exp": "„Ich las drei Bücher, machte lange Spaziergänge und schlief tief.“" },
+      { "type": "TF", "q": "Nach dem Urlaub war der Autor gestresster.", "a": false, "exp": "„war ich entspannter denn je“." },
+      { "type": "MCQ", "q": "Was nimmt sich der Autor vor?", "opts": ["Öfter offline zu sein", "Nie wieder in die Berge", "Mehr Handy zu nutzen"], "a": 0, "exp": "„Ich nehme mir vor, öfter offline zu sein.“" }
+    ]
+  },
+  {
+    "id": "B1_R33", "level": "B1", "type": "Forum", "title": "Studium oder Ausbildung?",
+    "text": "FORUM: Studium oder Ausbildung?\n\nFrage von Abiturient_2024: Ich habe bald mein Abitur und weiß nicht, ob ich studieren oder eine Ausbildung machen soll. Was meint ihr?\n\nAntwort von Praktiker: Beides hat Vorteile! Bei einer Ausbildung verdienst du sofort Geld und sammelst praktische Erfahrung. Ein Studium dauert länger, öffnet aber manchmal mehr Türen. Wichtig ist: Was interessiert dich wirklich? Hör nicht nur auf andere. Manche machen erst eine Ausbildung und studieren später noch. Es gibt nicht nur einen richtigen Weg.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist die Frage von Abiturient_2024?", "opts": ["Studium oder Ausbildung", "Welche Stadt", "Welches Auto"], "a": 0, "exp": "„ob ich studieren oder eine Ausbildung machen soll“." },
+      { "type": "MCQ", "q": "Welchen Vorteil hat eine Ausbildung laut Praktiker?", "opts": ["Man verdient sofort Geld", "Sie ist langweilig", "Sie dauert ewig"], "a": 0, "exp": "„Bei einer Ausbildung verdienst du sofort Geld und sammelst praktische Erfahrung.“" },
+      { "type": "TF", "q": "Ein Studium dauert länger als eine Ausbildung.", "a": true, "exp": "„Ein Studium dauert länger“." },
+      { "type": "MCQ", "q": "Was ist laut Praktiker wichtig?", "opts": ["Was dich wirklich interessiert", "Was andere sagen", "Was am meisten Geld bringt"], "a": 0, "exp": "„Was interessiert dich wirklich? Hör nicht nur auf andere.“" },
+      { "type": "TF", "q": "Man kann erst eine Ausbildung machen und später studieren.", "a": true, "exp": "„Manche machen erst eine Ausbildung und studieren später noch.“" },
+      { "type": "MCQ", "q": "Was sagt Praktiker über den richtigen Weg?", "opts": ["Es gibt nicht nur einen richtigen Weg", "Studium ist immer besser", "Ausbildung ist immer besser"], "a": 0, "exp": "„Es gibt nicht nur einen richtigen Weg.“" }
+    ]
+  },
+  {
+    "id": "B1_R34", "level": "B1", "type": "Zeitungsartikel", "title": "Neue Ausstellung über das Alltagsleben",
+    "text": "NEUE AUSSTELLUNG ÜBER DAS ALLTAGSLEBEN\n\nDas Stadtmuseum zeigt ab Mai eine besondere Ausstellung: „Wie wir früher lebten“. Sie zeigt Gegenstände aus den letzten hundert Jahren — alte Telefone, Küchengeräte, Spielzeug und Kleidung.\n\nBesonders für junge Besucher ist es spannend zu sehen, wie das Leben ohne Smartphone und Internet war. Es gibt auch einen Bereich zum Anfassen und Ausprobieren. Schulklassen können kostenlose Führungen buchen. Die Ausstellung ist bis Ende des Jahres geöffnet. Der Eintritt kostet für Erwachsene sieben Euro.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie heißt die neue Ausstellung?", "opts": ["„Wie wir früher lebten“", "„Die Zukunft“", "„Tiere der Welt“"], "a": 0, "exp": "„eine besondere Ausstellung: „Wie wir früher lebten““." },
+      { "type": "MCQ", "q": "Was wird in der Ausstellung gezeigt?", "opts": ["Gegenstände aus den letzten hundert Jahren", "Nur Gemälde", "Lebende Tiere"], "a": 0, "exp": "„Gegenstände aus den letzten hundert Jahren“." },
+      { "type": "TF", "q": "Es gibt einen Bereich zum Anfassen.", "a": true, "exp": "„auch einen Bereich zum Anfassen und Ausprobieren“." },
+      { "type": "MCQ", "q": "Was können Schulklassen buchen?", "opts": ["Kostenlose Führungen", "Ein Mittagessen", "Einen Bus"], "a": 0, "exp": "„Schulklassen können kostenlose Führungen buchen.“" },
+      { "type": "TF", "q": "Die Ausstellung ist nur eine Woche geöffnet.", "a": false, "exp": "„bis Ende des Jahres geöffnet“." },
+      { "type": "MCQ", "q": "Was kostet der Eintritt für Erwachsene?", "opts": ["Sieben Euro", "Kostenlos", "Zwanzig Euro"], "a": 0, "exp": "„Der Eintritt kostet für Erwachsene sieben Euro.“" }
+    ]
+  },
+  {
+    "id": "B1_R35", "level": "B1", "type": "Argumentativer Text", "title": "Zu viel Verpackung!",
+    "text": "KOMMENTAR: Zu viel Verpackung!\n\nGestern habe ich online eine kleine Sache bestellt — und ein riesiges Paket bekommen. Darin: viel Plastik, viel Papier und mein winziges Produkt. Das ärgert mich!\n\nVerpackung schützt die Ware, das verstehe ich. Aber so viel Müll muss nicht sein. Die Firmen sollten kleinere Kartons benutzen und auf unnötiges Plastik verzichten. Auch wir Kunden können etwas tun: weniger online bestellen und mehr im Geschäft kaufen. Jeder kleine Schritt hilft, den Müllberg zu verkleinern.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber ärgert sich der Autor?", "opts": ["Über zu viel Verpackung", "Über hohe Preise", "Über langsamen Versand"], "a": 0, "exp": "„viel Plastik, viel Papier ... Das ärgert mich!“" },
+      { "type": "TF", "q": "Der Autor versteht, dass Verpackung die Ware schützt.", "a": true, "exp": "„Verpackung schützt die Ware, das verstehe ich.“" },
+      { "type": "MCQ", "q": "Was sollten die Firmen tun?", "opts": ["Kleinere Kartons benutzen", "Mehr Plastik verwenden", "Größere Pakete schicken"], "a": 0, "exp": "„Die Firmen sollten kleinere Kartons benutzen und auf unnötiges Plastik verzichten.“" },
+      { "type": "MCQ", "q": "Was können die Kunden laut Autor tun?", "opts": ["Weniger online bestellen", "Mehr bestellen", "Nichts"], "a": 0, "exp": "„weniger online bestellen und mehr im Geschäft kaufen“." },
+      { "type": "TF", "q": "Der Autor findet, kleine Schritte helfen nicht.", "a": false, "exp": "„Jeder kleine Schritt hilft, den Müllberg zu verkleinern.“" },
+      { "type": "MCQ", "q": "Was hat der Autor bestellt?", "opts": ["Eine kleine Sache", "Ein großes Möbelstück", "Nichts"], "a": 0, "exp": "„eine kleine Sache bestellt“." }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B1_R06", "level": "B1", "type": "Blogeintrag", "title": "Ein Jahr Homeoffice",
+    "text": "BLOG: Ein Jahr Homeoffice\n\nSeit einem Jahr arbeite ich von zu Hause. Am Anfang war ich begeistert: kein langer Arbeitsweg, mehr Zeit für die Familie und ich konnte sogar im Schlafanzug arbeiten. Doch nach einigen Monaten merkte ich auch die Nachteile.\n\nDie Grenze zwischen Arbeit und Freizeit verschwand. Oft arbeitete ich bis spät abends, weil der Computer ja direkt da war. Außerdem fehlten mir die Gespräche mit den Kollegen. Inzwischen habe ich eine Lösung gefunden: Ich gehe zweimal pro Woche ins Büro und arbeite sonst zu Hause. Diese Mischung ist für mich perfekt.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange arbeitet der Autor schon im Homeoffice?", "opts": ["Seit einem Monat", "Seit einem Jahr", "Seit fünf Jahren"], "a": 1, "exp": "„Seit einem Jahr arbeite ich von zu Hause.“" },
+      { "type": "TF", "q": "Am Anfang war der Autor vom Homeoffice begeistert.", "a": true, "exp": "„Am Anfang war ich begeistert“." },
+      { "type": "MCQ", "q": "Was war ein Vorteil am Anfang?", "opts": ["Kein langer Arbeitsweg", "Mehr Geld", "Mehr Kollegen"], "a": 0, "exp": "„kein langer Arbeitsweg“." },
+      { "type": "MCQ", "q": "Welches Problem beschreibt der Autor?", "opts": ["Die Grenze zwischen Arbeit und Freizeit verschwand", "Der Computer war kaputt", "Die Wohnung war zu klein"], "a": 0, "exp": "„Die Grenze zwischen Arbeit und Freizeit verschwand.“" },
+      { "type": "TF", "q": "Der Autor vermisste die Gespräche mit den Kollegen.", "a": true, "exp": "„fehlten mir die Gespräche mit den Kollegen“." },
+      { "type": "MCQ", "q": "Wie sieht die Lösung des Autors aus?", "opts": ["Eine Mischung aus Büro und Homeoffice", "Nur noch im Büro", "Gar nicht mehr arbeiten"], "a": 0, "exp": "„Ich gehe zweimal pro Woche ins Büro und arbeite sonst zu Hause.“" }
+    ]
+  },
+  {
+    "id": "B1_R07", "level": "B1", "type": "Zeitungsartikel", "title": "Weniger Plastik im Supermarkt",
+    "text": "WENIGER PLASTIK IM SUPERMARKT\n\nImmer mehr Supermärkte versuchen, Plastik zu reduzieren. In einem Geschäft in München kann man jetzt Nudeln, Reis und Müsli in eigene Behälter füllen. Verpackungen gibt es dort kaum noch.\n\nDie Kundin Frau Berg findet das gut: „Ich bringe einfach meine Gläser mit. So entsteht kein Müll.“ Allerdings ist diese Art des Einkaufens noch ungewohnt und manchmal teurer. Experten sagen: Wenn mehr Menschen mitmachen, werden die Preise sinken. Der Umweltschutz beginnt im Kleinen — beim täglichen Einkauf.",
+    "questions": [
+      { "type": "MCQ", "q": "Was versuchen immer mehr Supermärkte?", "opts": ["Plastik zu reduzieren", "Mehr zu verkaufen", "Länger zu öffnen"], "a": 0, "exp": "„versuchen, Plastik zu reduzieren“." },
+      { "type": "TF", "q": "In dem Geschäft kann man Lebensmittel in eigene Behälter füllen.", "a": true, "exp": "„Nudeln, Reis und Müsli in eigene Behälter füllen“." },
+      { "type": "MCQ", "q": "Was bringt Frau Berg mit?", "opts": ["Ihre eigenen Gläser", "Plastiktüten", "Nichts"], "a": 0, "exp": "„Ich bringe einfach meine Gläser mit.“" },
+      { "type": "TF", "q": "Diese Art des Einkaufens ist immer billiger.", "a": false, "exp": "„manchmal teurer“." },
+      { "type": "MCQ", "q": "Was sagen Experten über die Preise?", "opts": ["Sie sinken, wenn mehr Menschen mitmachen", "Sie steigen immer", "Sie bleiben gleich"], "a": 0, "exp": "„Wenn mehr Menschen mitmachen, werden die Preise sinken.“" },
+      { "type": "MCQ", "q": "Wo beginnt laut Text der Umweltschutz?", "opts": ["Beim täglichen Einkauf", "In der Politik", "In der Schule"], "a": 0, "exp": "„Der Umweltschutz beginnt im Kleinen — beim täglichen Einkauf.“" }
+    ]
+  },
+  {
+    "id": "B1_R08", "level": "B1", "type": "Forum", "title": "Beruf und Familie vereinbaren",
+    "text": "FORUM: Beruf und Familie\n\nFrage von Mama_von_zwei: Ich arbeite Vollzeit und habe zwei kleine Kinder. Abends bin ich völlig erschöpft. Wie schafft ihr das alles?\n\nAntwort von Papa_Tom: Du musst nicht perfekt sein! Wir teilen die Aufgaben fair zwischen mir und meiner Frau auf. Außerdem haben wir gelernt, „Nein“ zu sagen — nicht jede Einladung, nicht jedes Extra-Projekt. Und ganz wichtig: Plant auch Zeit nur für euch als Paar ein, nicht nur für die Kinder. Sonst vergisst man sich selbst.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Problem von Mama_von_zwei?", "opts": ["Sie ist abends erschöpft", "Sie hat keine Arbeit", "Sie hat keine Kinder"], "a": 0, "exp": "„Abends bin ich völlig erschöpft.“" },
+      { "type": "TF", "q": "Papa_Tom sagt, man muss perfekt sein.", "a": false, "exp": "„Du musst nicht perfekt sein!“" },
+      { "type": "MCQ", "q": "Wie teilen Papa_Tom und seine Frau die Aufgaben?", "opts": ["Fair zwischen beiden", "Die Frau macht alles", "Niemand macht etwas"], "a": 0, "exp": "„Wir teilen die Aufgaben fair ... auf.“" },
+      { "type": "MCQ", "q": "Was haben sie gelernt?", "opts": ["„Nein“ zu sagen", "Mehr zu arbeiten", "Umzuziehen"], "a": 0, "exp": "„wir haben gelernt, „Nein“ zu sagen“." },
+      { "type": "TF", "q": "Papa_Tom rät, auch Zeit als Paar einzuplanen.", "a": true, "exp": "„Plant auch Zeit nur für euch als Paar ein“." },
+      { "type": "MCQ", "q": "Was passiert sonst laut Papa_Tom?", "opts": ["Man vergisst sich selbst", "Man wird reich", "Nichts"], "a": 0, "exp": "„Sonst vergisst man sich selbst.“" }
+    ]
+  },
+  {
+    "id": "B1_R09", "level": "B1", "type": "Sachtext", "title": "Das Pfandsystem in Deutschland",
+    "text": "DAS PFANDSYSTEM IN DEUTSCHLAND\n\nIn Deutschland zahlt man beim Kauf von vielen Flaschen ein Pfand — also etwas Geld extra. Für eine Plastikflasche sind es meistens 25 Cent. Wenn man die leere Flasche zurückbringt, bekommt man das Geld zurück.\n\nDas System funktioniert sehr gut: Über 98 Prozent der Pfandflaschen kommen zurück. So werden weniger Flaschen weggeworfen und mehr wiederverwendet. Manche Menschen sammeln sogar Flaschen, die andere liegen lassen, und verdienen damit ein bisschen Geld. Das Pfandsystem ist gut für die Umwelt und einfach im Alltag.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist ein Pfand?", "opts": ["Etwas Geld extra beim Kauf", "Eine Steuer", "Ein Geschenk"], "a": 0, "exp": "„zahlt man ... ein Pfand — also etwas Geld extra“." },
+      { "type": "MCQ", "q": "Wie viel Pfand zahlt man für eine Plastikflasche?", "opts": ["25 Cent", "1 Euro", "5 Cent"], "a": 0, "exp": "„meistens 25 Cent“." },
+      { "type": "TF", "q": "Man bekommt das Pfand zurück, wenn man die Flasche zurückbringt.", "a": true, "exp": "„bekommt man das Geld zurück“." },
+      { "type": "MCQ", "q": "Wie viele Pfandflaschen kommen zurück?", "opts": ["Über 98 Prozent", "Etwa 50 Prozent", "Nur 10 Prozent"], "a": 0, "exp": "„Über 98 Prozent der Pfandflaschen kommen zurück.“" },
+      { "type": "TF", "q": "Manche Menschen verdienen mit gesammelten Flaschen Geld.", "a": true, "exp": "„sammeln sogar Flaschen ... und verdienen damit ein bisschen Geld“." },
+      { "type": "MCQ", "q": "Wie beschreibt der Text das Pfandsystem?", "opts": ["Gut für die Umwelt und einfach", "Kompliziert und teuer", "Schlecht für die Umwelt"], "a": 0, "exp": "„gut für die Umwelt und einfach im Alltag“." }
+    ]
+  },
+  {
+    "id": "B1_R10", "level": "B1", "type": "Formeller Brief", "title": "Beschwerde über schlechtes Internet",
+    "text": "Betreff: Beschwerde — schlechtes Internet\n\nSehr geehrte Damen und Herren,\n\nseit drei Wochen ist mein Internet sehr langsam oder fällt ganz aus. Ich arbeite im Homeoffice und bin auf eine stabile Verbindung angewiesen.\n\nIch habe bereits zweimal angerufen, aber das Problem wurde nicht gelöst. Ich bitte Sie, einen Techniker zu schicken. Falls sich nichts ändert, werde ich den Vertrag kündigen müssen. Ich erwarte Ihre Antwort innerhalb einer Woche.\n\nMit freundlichen Grüßen\nJulia Brandt",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Problem?", "opts": ["Das Internet ist langsam oder fällt aus", "Der Computer ist kaputt", "Die Rechnung ist falsch"], "a": 0, "exp": "„mein Internet sehr langsam oder fällt ganz aus“." },
+      { "type": "MCQ", "q": "Warum braucht Frau Brandt gutes Internet?", "opts": ["Sie arbeitet im Homeoffice", "Sie spielt gern", "Sie schaut Filme"], "a": 0, "exp": "„Ich arbeite im Homeoffice und bin auf eine stabile Verbindung angewiesen.“" },
+      { "type": "TF", "q": "Frau Brandt hat schon angerufen.", "a": true, "exp": "„Ich habe bereits zweimal angerufen“." },
+      { "type": "TF", "q": "Das Problem wurde bereits gelöst.", "a": false, "exp": "„aber das Problem wurde nicht gelöst“." },
+      { "type": "MCQ", "q": "Was möchte Frau Brandt?", "opts": ["Einen Techniker", "Mehr Geld", "Eine neue Wohnung"], "a": 0, "exp": "„Ich bitte Sie, einen Techniker zu schicken.“" },
+      { "type": "MCQ", "q": "Was passiert, wenn sich nichts ändert?", "opts": ["Sie kündigt den Vertrag", "Sie zahlt mehr", "Nichts"], "a": 0, "exp": "„werde ich den Vertrag kündigen müssen“." }
+    ]
+  },
+  {
+    "id": "B1_R11", "level": "B1", "type": "Reportage", "title": "Ein Morgen auf dem Wochenmarkt",
+    "text": "REPORTAGE: Ein Morgen auf dem Wochenmarkt\n\nEs ist sieben Uhr morgens, und der Marktplatz erwacht zum Leben. Die Händler bauen ihre Stände auf, das Obst leuchtet in allen Farben. Herr Klein verkauft seit 30 Jahren Gemüse. „Die Leute kommen wegen der Qualität und wegen des Gesprächs“, sagt er.\n\nViele Kunden kennen die Händler mit Namen. Eine ältere Dame erzählt: „Im Supermarkt fühle ich mich anonym. Hier auf dem Markt bin ich ein Mensch.“ Der Wochenmarkt ist mehr als ein Ort zum Einkaufen — er ist ein sozialer Treffpunkt mitten in der Stadt.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange verkauft Herr Klein schon Gemüse?", "opts": ["30 Jahre", "3 Jahre", "13 Jahre"], "a": 0, "exp": "„verkauft seit 30 Jahren Gemüse“." },
+      { "type": "MCQ", "q": "Warum kommen die Leute laut Herrn Klein?", "opts": ["Wegen der Qualität und des Gesprächs", "Wegen der niedrigen Preise", "Wegen der Werbung"], "a": 0, "exp": "„Die Leute kommen wegen der Qualität und wegen des Gesprächs.“" },
+      { "type": "TF", "q": "Viele Kunden kennen die Händler mit Namen.", "a": true, "exp": "„Viele Kunden kennen die Händler mit Namen.“" },
+      { "type": "MCQ", "q": "Wie fühlt sich die ältere Dame im Supermarkt?", "opts": ["Anonym", "Glücklich", "Sicher"], "a": 0, "exp": "„Im Supermarkt fühle ich mich anonym.“" },
+      { "type": "TF", "q": "Der Markt ist nur ein Ort zum Einkaufen.", "a": false, "exp": "„mehr als ein Ort zum Einkaufen — er ist ein sozialer Treffpunkt“." },
+      { "type": "MCQ", "q": "Um wie viel Uhr beginnt die Reportage?", "opts": ["Sieben Uhr morgens", "Neun Uhr", "Mittags"], "a": 0, "exp": "„Es ist sieben Uhr morgens“." }
+    ]
+  },
+  {
+    "id": "B1_R12", "level": "B1", "type": "Argumentativer Text", "title": "Handys an Schulen verbieten?",
+    "text": "MEINUNG: Handys an Schulen verbieten?\n\nViele Schulen diskutieren, ob Handys verboten werden sollen. Ich finde: Ja! In den Pausen schauen die Schüler nur noch auf ihre Bildschirme, statt miteinander zu reden. Das ist traurig.\n\nNatürlich haben Handys auch Vorteile: Man kann schnell Informationen finden oder die Eltern erreichen. Aber im Unterricht lenken sie zu sehr ab. Meine Idee: Handys bleiben während des Unterrichts in der Tasche, aber in den Pausen sind kurze Nachrichten erlaubt. So findet man einen guten Mittelweg.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber diskutieren viele Schulen?", "opts": ["Ob Handys verboten werden sollen", "Ob es mehr Ferien gibt", "Ob das Essen besser wird"], "a": 0, "exp": "„ob Handys verboten werden sollen“." },
+      { "type": "MCQ", "q": "Was macht den Autor traurig?", "opts": ["Schüler schauen in den Pausen nur auf Bildschirme", "Es gibt zu viele Hausaufgaben", "Die Schule ist alt"], "a": 0, "exp": "„schauen die Schüler nur noch auf ihre Bildschirme, statt miteinander zu reden“." },
+      { "type": "TF", "q": "Der Autor sieht keine Vorteile bei Handys.", "a": false, "exp": "„Natürlich haben Handys auch Vorteile“." },
+      { "type": "MCQ", "q": "Welchen Vorteil von Handys nennt der Autor?", "opts": ["Schnell Informationen finden", "Spiele spielen", "Fotos machen"], "a": 0, "exp": "„Man kann schnell Informationen finden oder die Eltern erreichen.“" },
+      { "type": "TF", "q": "Der Autor schlägt einen Mittelweg vor.", "a": true, "exp": "„So findet man einen guten Mittelweg.“" },
+      { "type": "MCQ", "q": "Was ist die Idee des Autors?", "opts": ["Handys im Unterricht weg, in den Pausen erlaubt", "Handys ganz verbieten", "Handys immer erlauben"], "a": 0, "exp": "„Handys bleiben während des Unterrichts in der Tasche, aber in den Pausen sind kurze Nachrichten erlaubt.“" }
+    ]
+  },
+  {
+    "id": "B1_R13", "level": "B1", "type": "Interview", "title": "Interview mit einer Stadtgärtnerin",
+    "text": "INTERVIEW mit Stadtgärtnerin Frau Adler\n\nReporter: Was macht eine Stadtgärtnerin?\nFrau Adler: Ich plane und pflege die Grünflächen der Stadt — Parks, Beete und die Bäume an den Straßen.\nReporter: Was hat sich in den letzten Jahren verändert?\nFrau Adler: Wegen des Klimawandels pflanzen wir jetzt andere Bäume, die mit der Hitze besser zurechtkommen.\nReporter: Was wünschen Sie sich?\nFrau Adler: Dass die Menschen die Natur in der Stadt mehr schätzen und nicht kaputt machen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist Frau Adlers Beruf?", "opts": ["Stadtgärtnerin", "Lehrerin", "Ärztin"], "a": 0, "exp": "„Stadtgärtnerin Frau Adler“." },
+      { "type": "MCQ", "q": "Was pflegt Frau Adler?", "opts": ["Die Grünflächen der Stadt", "Die Straßen", "Die Häuser"], "a": 0, "exp": "„Ich plane und pflege die Grünflächen der Stadt“." },
+      { "type": "TF", "q": "Wegen des Klimawandels pflanzt sie jetzt andere Bäume.", "a": true, "exp": "„pflanzen wir jetzt andere Bäume, die mit der Hitze besser zurechtkommen“." },
+      { "type": "MCQ", "q": "Warum pflanzt sie andere Bäume?", "opts": ["Sie kommen mit der Hitze besser zurecht", "Sie sind billiger", "Sie sind schöner"], "a": 0, "exp": "„die mit der Hitze besser zurechtkommen“." },
+      { "type": "TF", "q": "Frau Adler wünscht sich, dass Menschen die Natur mehr schätzen.", "a": true, "exp": "„Dass die Menschen die Natur in der Stadt mehr schätzen“." },
+      { "type": "MCQ", "q": "Was nennt Frau Adler als Beispiele für Grünflächen?", "opts": ["Parks, Beete, Bäume", "Schulen und Büros", "Geschäfte"], "a": 0, "exp": "„Parks, Beete und die Bäume an den Straßen“." }
+    ]
+  },
+  {
+    "id": "B1_R14", "level": "B1", "type": "Sachtext", "title": "Nervosität vor einem Vortrag",
+    "text": "RATGEBER: Was tun gegen Nervosität vor einem Vortrag?\n\nFast jeder ist vor einem Vortrag nervös — das ist ganz normal. Mit ein paar Tricks kann man die Angst aber reduzieren.\n\nErstens: Üben Sie Ihren Vortrag mehrmals laut. Je sicherer Sie den Text kennen, desto ruhiger sind Sie. Zweitens: Atmen Sie vor dem Beginn tief durch. Drittens: Schauen Sie nicht alle Zuhörer gleichzeitig an, sondern eine freundliche Person. Und denken Sie daran: Das Publikum will, dass Sie Erfolg haben — es ist auf Ihrer Seite!",
+    "questions": [
+      { "type": "MCQ", "q": "Worum geht es im Ratgeber?", "opts": ["Nervosität vor einem Vortrag", "Gesundes Essen", "Geld sparen"], "a": 0, "exp": "„Was tun gegen Nervosität vor einem Vortrag?“" },
+      { "type": "TF", "q": "Nervosität vor einem Vortrag ist ungewöhnlich.", "a": false, "exp": "„Fast jeder ist ... nervös — das ist ganz normal.“" },
+      { "type": "MCQ", "q": "Was ist der erste Tipp?", "opts": ["Den Vortrag mehrmals laut üben", "Nichts essen", "Früh schlafen"], "a": 0, "exp": "„Üben Sie Ihren Vortrag mehrmals laut.“" },
+      { "type": "MCQ", "q": "Was soll man vor dem Beginn tun?", "opts": ["Tief durchatmen", "Schnell reden", "Weglaufen"], "a": 0, "exp": "„Atmen Sie vor dem Beginn tief durch.“" },
+      { "type": "TF", "q": "Man soll alle Zuhörer gleichzeitig anschauen.", "a": false, "exp": "„Schauen Sie nicht alle Zuhörer gleichzeitig an, sondern eine freundliche Person.“" },
+      { "type": "MCQ", "q": "Was soll man sich merken?", "opts": ["Das Publikum will, dass man Erfolg hat", "Das Publikum ist gegen einen", "Niemand hört zu"], "a": 0, "exp": "„Das Publikum will, dass Sie Erfolg haben“." }
+    ]
+  },
+  {
+    "id": "B1_R15", "level": "B1", "type": "Blogeintrag", "title": "Weniger ist mehr",
+    "text": "BLOG: Weniger ist mehr\n\nVor einem Jahr hatte ich eine Wohnung voller Dinge, die ich nie benutzte. Schränke voll mit Kleidung, Regale voll mit Sachen. Eines Tages hatte ich genug und beschloss, auszumisten.\n\nIch habe alles verschenkt oder verkauft, was ich seit einem Jahr nicht benutzt hatte. Am Anfang war es schwer, mich von manchen Dingen zu trennen. Aber jetzt fühle ich mich freier und meine Wohnung ist viel ruhiger. Ich kaufe heute auch weniger. Minimalismus bedeutet für mich nicht Verzicht, sondern mehr Platz für das Wichtige.",
+    "questions": [
+      { "type": "MCQ", "q": "Was hatte der Autor vor einem Jahr?", "opts": ["Eine Wohnung voller Dinge", "Kein Geld", "Kein Zuhause"], "a": 0, "exp": "„eine Wohnung voller Dinge, die ich nie benutzte“." },
+      { "type": "MCQ", "q": "Was hat der Autor beschlossen?", "opts": ["Auszumisten", "Umzuziehen", "Mehr zu kaufen"], "a": 0, "exp": "„beschloss, auszumisten“." },
+      { "type": "TF", "q": "Der Autor hat alles behalten.", "a": false, "exp": "„Ich habe alles verschenkt oder verkauft, was ich seit einem Jahr nicht benutzt hatte.“" },
+      { "type": "TF", "q": "Am Anfang war das Ausmisten schwer.", "a": true, "exp": "„Am Anfang war es schwer, mich von manchen Dingen zu trennen.“" },
+      { "type": "MCQ", "q": "Wie fühlt sich der Autor jetzt?", "opts": ["Freier", "Trauriger", "Ärmer"], "a": 0, "exp": "„jetzt fühle ich mich freier“." },
+      { "type": "MCQ", "q": "Was bedeutet Minimalismus für den Autor?", "opts": ["Mehr Platz für das Wichtige", "Nichts mehr besitzen", "Sparen um jeden Preis"], "a": 0, "exp": "„nicht Verzicht, sondern mehr Platz für das Wichtige“." }
+    ]
+  },
+  {
+    "id": "B1_R16", "level": "B1", "type": "Zeitungsartikel", "title": "Die Stadt will fahrradfreundlicher werden",
+    "text": "STADT WILL FAHRRADFREUNDLICHER WERDEN\n\nDie Stadt plant große Veränderungen: Bis 2030 sollen 30 Prozent aller Wege mit dem Fahrrad gemacht werden. Dafür werden neue, breite Radwege gebaut und alte repariert.\n\nNicht alle sind begeistert. Einige Geschäftsleute fürchten, dass weniger Autofahrer auch weniger Kunden bedeuten. Doch Studien aus anderen Städten zeigen das Gegenteil: Wo es gute Radwege gibt, kommen oft mehr Kunden. Die Stadt will außerdem mehr Fahrradparkplätze und ein günstiges Leihrad-System einführen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Ziel der Stadt bis 2030?", "opts": ["30 % aller Wege per Fahrrad", "Mehr Autos", "Weniger Busse"], "a": 0, "exp": "„Bis 2030 sollen 30 Prozent aller Wege mit dem Fahrrad gemacht werden.“" },
+      { "type": "TF", "q": "Es werden neue Radwege gebaut.", "a": true, "exp": "„werden neue, breite Radwege gebaut“." },
+      { "type": "MCQ", "q": "Was fürchten einige Geschäftsleute?", "opts": ["Weniger Kunden", "Mehr Steuern", "Mehr Lärm"], "a": 0, "exp": "„weniger Autofahrer auch weniger Kunden bedeuten“." },
+      { "type": "MCQ", "q": "Was zeigen Studien aus anderen Städten?", "opts": ["Gute Radwege bringen oft mehr Kunden", "Radwege sind schlecht", "Niemand fährt Rad"], "a": 0, "exp": "„Wo es gute Radwege gibt, kommen oft mehr Kunden.“" },
+      { "type": "TF", "q": "Alle Menschen sind von den Plänen begeistert.", "a": false, "exp": "„Nicht alle sind begeistert.“" },
+      { "type": "MCQ", "q": "Was will die Stadt außerdem einführen?", "opts": ["Ein günstiges Leihrad-System", "Eine neue Steuer", "Mehr Parkhäuser für Autos"], "a": 0, "exp": "„ein günstiges Leihrad-System einführen“." }
+    ]
+  },
+  {
+    "id": "B1_R17", "level": "B1", "type": "E-Mail", "title": "Ein Stellenangebot höflich absagen",
+    "text": "Betreff: Ihre Stelle als Projektassistentin\n\nSehr geehrte Frau Lehmann,\n\nvielen Dank für das nette Gespräch letzte Woche und für Ihr Angebot. Ich habe lange darüber nachgedacht.\n\nLeider muss ich Ihnen absagen. Ich habe ein anderes Angebot bekommen, das besser zu meinen Plänen passt. Diese Entscheidung ist mir nicht leichtgefallen, denn Ihr Team hat mir sehr gut gefallen. Ich wünsche Ihnen viel Erfolg bei der Suche und hoffe, dass sich unsere Wege vielleicht später wieder kreuzen.\n\nMit freundlichen Grüßen\nSandra Vogel",
+    "questions": [
+      { "type": "MCQ", "q": "Worauf antwortet Sandra Vogel?", "opts": ["Auf ein Stellenangebot", "Auf eine Rechnung", "Auf eine Party-Einladung"], "a": 0, "exp": "„Ihre Stelle als Projektassistentin“ / „für Ihr Angebot“." },
+      { "type": "MCQ", "q": "Was teilt Sandra mit?", "opts": ["Sie sagt ab", "Sie nimmt die Stelle an", "Sie will mehr Geld"], "a": 0, "exp": "„Leider muss ich Ihnen absagen.“" },
+      { "type": "MCQ", "q": "Warum sagt sie ab?", "opts": ["Sie hat ein besseres Angebot", "Die Stelle ist zu weit weg", "Sie mag das Team nicht"], "a": 0, "exp": "„Ich habe ein anderes Angebot bekommen, das besser zu meinen Plänen passt.“" },
+      { "type": "TF", "q": "Die Entscheidung ist Sandra leichtgefallen.", "a": false, "exp": "„Diese Entscheidung ist mir nicht leichtgefallen“." },
+      { "type": "TF", "q": "Sandra hat das Team von Frau Lehmann gemocht.", "a": true, "exp": "„denn Ihr Team hat mir sehr gut gefallen“." },
+      { "type": "MCQ", "q": "Was wünscht Sandra Frau Lehmann?", "opts": ["Viel Erfolg bei der Suche", "Schöne Ferien", "Gute Besserung"], "a": 0, "exp": "„Ich wünsche Ihnen viel Erfolg bei der Suche“." }
+    ]
+  },
+  {
+    "id": "B1_R18", "level": "B1", "type": "Sachtext", "title": "Warum Schlaf so wichtig ist",
+    "text": "WARUM SCHLAF SO WICHTIG IST\n\nViele Menschen schlafen zu wenig. Sie arbeiten lange, schauen abends auf Bildschirme und stehen früh auf. Doch Schlaf ist kein Luxus, sondern lebenswichtig.\n\nIm Schlaf erholt sich der Körper, und das Gehirn speichert, was wir am Tag gelernt haben. Wer regelmäßig zu wenig schläft, kann sich schlechter konzentrieren und wird leichter krank. Experten empfehlen Erwachsenen sieben bis acht Stunden Schlaf. Ein Tipp: Schauen Sie eine Stunde vor dem Schlafen nicht mehr auf das Handy. Das blaue Licht macht wach.",
+    "questions": [
+      { "type": "TF", "q": "Viele Menschen schlafen zu wenig.", "a": true, "exp": "„Viele Menschen schlafen zu wenig.“" },
+      { "type": "MCQ", "q": "Was passiert im Schlaf?", "opts": ["Der Körper erholt sich und das Gehirn speichert Gelerntes", "Man verbraucht viel Energie", "Nichts Wichtiges"], "a": 0, "exp": "„erholt sich der Körper, und das Gehirn speichert, was wir am Tag gelernt haben“." },
+      { "type": "MCQ", "q": "Was passiert bei zu wenig Schlaf?", "opts": ["Man konzentriert sich schlechter und wird leichter krank", "Man wird stärker", "Man ist glücklicher"], "a": 0, "exp": "„kann sich schlechter konzentrieren und wird leichter krank“." },
+      { "type": "MCQ", "q": "Wie viel Schlaf empfehlen Experten Erwachsenen?", "opts": ["7 bis 8 Stunden", "3 bis 4 Stunden", "10 bis 12 Stunden"], "a": 0, "exp": "„sieben bis acht Stunden Schlaf“." },
+      { "type": "TF", "q": "Schlaf ist laut Text nur ein Luxus.", "a": false, "exp": "„Schlaf ist kein Luxus, sondern lebenswichtig.“" },
+      { "type": "MCQ", "q": "Welcher Tipp wird gegeben?", "opts": ["Vor dem Schlafen nicht aufs Handy schauen", "Spät essen", "Viel Kaffee trinken"], "a": 0, "exp": "„Schauen Sie eine Stunde vor dem Schlafen nicht mehr auf das Handy.“" }
+    ]
+  },
+  {
+    "id": "B1_R19", "level": "B1", "type": "Forum", "title": "Lohnt sich ein Ehrenamt?",
+    "text": "FORUM: Ehrenamt — lohnt sich das?\n\nFrage von Neuling: Ich habe etwas Freizeit und überlege, ehrenamtlich zu arbeiten. Lohnt sich das wirklich? Man bekommt ja kein Geld.\n\nAntwort von HelferHerz: Geld ist nicht alles! Ich engagiere mich seit drei Jahren in einem Altenheim und lese den Bewohnern vor. Das macht mich glücklich und ich habe tolle Menschen kennengelernt. Außerdem sieht ein Ehrenamt gut im Lebenslauf aus. Mein Tipp: Wähle etwas, das dir wirklich Spaß macht — dann fühlt es sich nie wie Arbeit an.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber denkt Neuling nach?", "opts": ["Ehrenamtlich zu arbeiten", "Eine Reise zu machen", "Umzuziehen"], "a": 0, "exp": "„überlege, ehrenamtlich zu arbeiten“." },
+      { "type": "MCQ", "q": "Was macht HelferHerz im Altenheim?", "opts": ["Den Bewohnern vorlesen", "Kochen", "Putzen"], "a": 0, "exp": "„lese den Bewohnern vor“." },
+      { "type": "TF", "q": "HelferHerz engagiert sich seit drei Jahren.", "a": true, "exp": "„Ich engagiere mich seit drei Jahren in einem Altenheim“." },
+      { "type": "TF", "q": "Laut HelferHerz ist Geld das Wichtigste.", "a": false, "exp": "„Geld ist nicht alles!“" },
+      { "type": "MCQ", "q": "Welchen Vorteil nennt HelferHerz noch?", "opts": ["Es sieht gut im Lebenslauf aus", "Man wird berühmt", "Man bekommt eine Wohnung"], "a": 0, "exp": "„Außerdem sieht ein Ehrenamt gut im Lebenslauf aus.“" },
+      { "type": "MCQ", "q": "Was ist HelferHerz' Tipp?", "opts": ["Etwas wählen, das Spaß macht", "Möglichst viel machen", "Nur an Geld denken"], "a": 0, "exp": "„Wähle etwas, das dir wirklich Spaß macht“." }
+    ]
+  },
+  {
+    "id": "B1_R20", "level": "B1", "type": "Reportage", "title": "Eine Nacht im Krankenhaus",
+    "text": "REPORTAGE: Eine Nacht im Krankenhaus\n\nWährend die meisten Menschen schlafen, arbeitet Krankenpfleger Tomas. Seine Schicht beginnt um 22 Uhr und endet um 6 Uhr morgens. „Nachts ist es ruhiger, aber auch anstrengend“, erzählt er.\n\nTomas kümmert sich um die Patienten, gibt Medikamente und beruhigt Menschen, die nicht schlafen können. Manchmal gibt es Notfälle, dann muss er schnell handeln. Am schwersten findet er es, gegen die Müdigkeit zu kämpfen. Trotzdem liebt er seinen Beruf: „Wenn ich einem Menschen helfen kann, ist das ein gutes Gefühl.“",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist Tomas von Beruf?", "opts": ["Krankenpfleger", "Arzt", "Polizist"], "a": 0, "exp": "„Krankenpfleger Tomas“." },
+      { "type": "MCQ", "q": "Wann beginnt seine Schicht?", "opts": ["Um 22 Uhr", "Um 6 Uhr", "Am Mittag"], "a": 0, "exp": "„Seine Schicht beginnt um 22 Uhr“." },
+      { "type": "TF", "q": "Tomas findet, nachts ist es lauter als am Tag.", "a": false, "exp": "„Nachts ist es ruhiger“." },
+      { "type": "MCQ", "q": "Was macht Tomas nachts?", "opts": ["Er kümmert sich um Patienten und gibt Medikamente", "Er putzt nur", "Er schläft"], "a": 0, "exp": "„kümmert sich um die Patienten, gibt Medikamente“." },
+      { "type": "MCQ", "q": "Was findet Tomas am schwersten?", "opts": ["Gegen die Müdigkeit zu kämpfen", "Die Patienten", "Das Essen"], "a": 0, "exp": "„Am schwersten findet er es, gegen die Müdigkeit zu kämpfen.“" },
+      { "type": "TF", "q": "Tomas liebt seinen Beruf.", "a": true, "exp": "„Trotzdem liebt er seinen Beruf“." }
+    ]
+  }
+]

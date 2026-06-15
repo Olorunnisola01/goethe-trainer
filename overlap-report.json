@@ -1,0 +1,2443 @@
+{
+  "summary": {
+    "B1-B2": 46,
+    "A1-A2": 19,
+    "A1-B2": 8,
+    "A2-B2": 9,
+    "A2-B1": 10
+  },
+  "overlaps": [
+    {
+      "word": "auf dem Laufenden bleiben",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "IDIOMS & COMMON EXPRESSIONS (B1)"
+          ],
+          "translations": [
+            "To keep up to date"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "IDIOME & FESTE WENDUNGEN 2"
+          ],
+          "translations": [
+            "to keep up to date / stay informed"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "backen",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "FOOD & DRINK"
+          ],
+          "translations": [
+            "To bake"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "LEISURE, HOBBIES & SPORTS"
+          ],
+          "translations": [
+            "To bake"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "darüber hinaus",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FIXED EXPRESSIONS & COLLOCATIONS"
+          ],
+          "translations": [
+            "Beyond that / furthermore / in addition"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KONNEKTOREN & SATZVERBINDUNG"
+          ],
+          "translations": [
+            "furthermore / beyond that"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das autonome Fahren",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SCIENCE, TECHNOLOGY & DIGITAL FUTURE (B1 DEEP)"
+          ],
+          "translations": [
+            "Autonomous driving / self-driving"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "TECHNIKETHIK & ZUKUNFTSFRAGEN"
+          ],
+          "translations": [
+            "autonomous driving"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Café",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The café / coffee shop"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "STADTLEBEN & URBANE KULTUR"
+          ],
+          "translations": [
+            "café"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Fach",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "SCHOOL & BASIC EDUCATION"
+          ],
+          "translations": [
+            "The subject"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "EDUCATION & SCHOOL (EXTENDED)"
+          ],
+          "translations": [
+            "The subject (school)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Finanzamt",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "POST, SERVICES & ADMINISTRATION"
+          ],
+          "translations": [
+            "The tax office"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "STEUERN, ABGABEN & ÖFFENTLICHE FINANZEN"
+          ],
+          "translations": [
+            "tax authority / tax office"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Gedicht",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "CULTURE, ARTS & MEDIA"
+          ],
+          "translations": [
+            "The poem"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "LITERATUR & LITERARISCHE GENRES"
+          ],
+          "translations": [
+            "poem"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Gesetz",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SOCIETY, POLITICS & CITIZENSHIP"
+          ],
+          "translations": [
+            "The law"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "RECHT & GESETZ VERTIEFT"
+          ],
+          "translations": [
+            "law"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Grundgesetz",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SOCIETY, POLITICS & CITIZENSHIP"
+          ],
+          "translations": [
+            "The Basic Law (German constitution)"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "RECHT & GESETZ VERTIEFT",
+            "DEUTSCHLANDS KULTUR & KULTURWISSEN"
+          ],
+          "translations": [
+            "Basic Law / Constitution",
+            "Basic Law (German constitution)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Hotel",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The hotel"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The hotel"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Kindergeld",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FAMILY LIFE, EVENTS & LAW"
+          ],
+          "translations": [
+            "Child benefit"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "ERZIEHUNG, WERTE & GENERATIONEN"
+          ],
+          "translations": [
+            "child benefit"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Konzert",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "LEISURE, HOBBIES & SPORTS"
+          ],
+          "translations": [
+            "The concert"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "MUSIK & MUSIKBRANCHE"
+          ],
+          "translations": [
+            "concert"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Krankenhaus",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "HEALTH & BODY"
+          ],
+          "translations": [
+            "The hospital"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "GESUNDHEITSSYSTEM & VERSORGUNG"
+          ],
+          "translations": [
+            "hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Museum",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The museum"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KREATIVITÄT & KUNSTPRODUKTION"
+          ],
+          "translations": [
+            "museum"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Passwort",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "COMMUNICATION & MEDIA"
+          ],
+          "translations": [
+            "The password"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DIGITALES & ONLINEWELT"
+          ],
+          "translations": [
+            "password"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Praktikum / der Praktikant",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "WORK & CAREER (EXTENDED)"
+          ],
+          "translations": [
+            "Internship / intern"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "FURTHER EDUCATION & TRAINING"
+          ],
+          "translations": [
+            "The internship / intern"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Rezept",
+      "levels": [
+        "A1",
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "FOOD & DRINK",
+            "HEALTH & BODY"
+          ],
+          "translations": [
+            "The recipe",
+            "The prescription / recipe"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "HEALTH & MEDICAL CARE"
+          ],
+          "translations": [
+            "The prescription"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "MEDIZIN & THERAPIEFORMEN",
+            "GESUNDHEITSSYSTEM & VERSORGUNG"
+          ],
+          "translations": [
+            "prescription",
+            "prescription"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Seminar / der Workshop",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "EDUCATION (EXTENDED)"
+          ],
+          "translations": [
+            "Seminar / workshop"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "FURTHER EDUCATION & TRAINING"
+          ],
+          "translations": [
+            "The seminar / workshop"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Stipendium",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FURTHER EDUCATION & TRAINING"
+          ],
+          "translations": [
+            "The scholarship / grant"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "BILDUNG & SCHULSYSTEM"
+          ],
+          "translations": [
+            "scholarship / grant"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Stockwerk / die Etage / das Erdgeschoss",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "NUMBERS IN DAILY LIFE (A2)"
+          ],
+          "translations": [
+            "Floor / storey / ground floor"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "CONSTRUCTION, ARCHITECTURE & HOUSING"
+          ],
+          "translations": [
+            "Storey / floor / ground floor"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Vorstellungsgespräch",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "WORK & PROFESSIONS"
+          ],
+          "translations": [
+            "The job interview"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "BEWERBUNG & STELLENSUCHE"
+          ],
+          "translations": [
+            "job interview"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "das Wetter",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "ANIMALS & NATURE (BASIC)"
+          ],
+          "translations": [
+            "The weather"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "NATURE, WEATHER & ENVIRONMENT"
+          ],
+          "translations": [
+            "The weather"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Algorithmus",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "TECHNOLOGY & DIGITAL LIFE"
+          ],
+          "translations": [
+            "The algorithm"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "JOURNALISMUS & MEDIENSPRACHE",
+            "TECHNIK & INNOVATION",
+            "KULTUR & MEDIENKONSUM",
+            "SOZIALE MEDIEN & DIGITALE IDENTITÄT",
+            "DIGITALE KOMMUNIKATION & NEUE MEDIEN"
+          ],
+          "translations": [
+            "algorithm",
+            "algorithm",
+            "algorithm",
+            "algorithm",
+            "algorithm"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Arzt / die Ärztin",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "HEALTH & BODY"
+          ],
+          "translations": [
+            "The doctor (male/female)"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "WORK & PROFESSIONS"
+          ],
+          "translations": [
+            "The doctor"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Fachkräftemangel",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "DISCUSSING TRENDS & SOCIAL CHANGE (B1)"
+          ],
+          "translations": [
+            "Skills shortage / shortage of skilled workers"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "WANDEL DER ARBEITSWELT"
+          ],
+          "translations": [
+            "shortage of skilled workers"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Hauptsatz",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "EXTENDED GRAMMAR VOCABULARY: WORD ORDER & CLAUSES"
+          ],
+          "translations": [
+            "Main clause"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "SATZSTRUKTUREN & GRAMMATISCHE BEGRIFFE"
+          ],
+          "translations": [
+            "main clause"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Interessenkonflikt",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "CIVIC LIFE & PARTICIPATION (B1)"
+          ],
+          "translations": [
+            "Conflict of interest"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "WISSENSCHAFT & GESELLSCHAFT"
+          ],
+          "translations": [
+            "conflict of interest"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Kalender",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "TIME, CALENDAR & DAYS"
+          ],
+          "translations": [
+            "The calendar"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "EVERYDAY OBJECTS & STATIONERY (A2)"
+          ],
+          "translations": [
+            "Calendar"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Krankenschein / die Krankmeldung",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "HEALTH & BODY (EXTENDED)"
+          ],
+          "translations": [
+            "Doctor's note / sick note"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "MEDICAL SYSTEM & HEALTHCARE"
+          ],
+          "translations": [
+            "The sick certificate / sick note"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Lebenslauf",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "WORK & PROFESSIONS"
+          ],
+          "translations": [
+            "The CV / résumé"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "EXAM INSTRUCTIONS & TEST VOCABULARY (B1)"
+          ],
+          "translations": [
+            "The CV / résumé"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Lehrer / die Lehrerin",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "SCHOOL & BASIC EDUCATION"
+          ],
+          "translations": [
+            "The teacher"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "WORK & PROFESSIONS"
+          ],
+          "translations": [
+            "The teacher"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Nebensatz",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "EXTENDED GRAMMAR VOCABULARY: WORD ORDER & CLAUSES"
+          ],
+          "translations": [
+            "Subordinate clause"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "SATZSTRUKTUREN & GRAMMATISCHE BEGRIFFE"
+          ],
+          "translations": [
+            "subordinate clause"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der ökologische Fußabdruck",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "ENVIRONMENTAL POLICY & CLIMATE (B1 EXTENDED)"
+          ],
+          "translations": [
+            "Ecological footprint"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KLIMAWANDEL & ÖKOLOGISCHE KRISE"
+          ],
+          "translations": [
+            "ecological footprint"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Reiseführer",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The travel guide (book)"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KULTURTOURISMUS & KULTURERLEBNISSE"
+          ],
+          "translations": [
+            "guidebook / travel guide"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Reisepass",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PERSONAL INFORMATION"
+          ],
+          "translations": [
+            "The passport"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "REISEN & TOURISMUS"
+          ],
+          "translations": [
+            "passport"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Roman",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "CULTURE, ARTS & MEDIA"
+          ],
+          "translations": [
+            "The novel"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "LITERATUR & LITERARISCHE GENRES"
+          ],
+          "translations": [
+            "novel"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Stau / im Stau stehen",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "TRANSPORT & GETTING AROUND (EXTENDED)"
+          ],
+          "translations": [
+            "Traffic jam / to be stuck in traffic"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "TRAFFIC, ROADS & TRANSPORT LAW"
+          ],
+          "translations": [
+            "The traffic jam / to be stuck in traffic"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "der Zoll",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The customs"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "GLOBALE WIRTSCHAFT & HANDEL"
+          ],
+          "translations": [
+            "customs duty / tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Ausstellung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "CULTURE, ARTS & MEDIA"
+          ],
+          "translations": [
+            "The exhibition"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KREATIVITÄT & KUNSTPRODUKTION"
+          ],
+          "translations": [
+            "exhibition"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Bank",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The bank"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "POST OFFICE & BANKING (BASIC)"
+          ],
+          "translations": [
+            "The bank"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Bibliothek",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The library"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "EDUCATION & SCHOOL (EXTENDED)"
+          ],
+          "translations": [
+            "The library"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Fassade",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "CONSTRUCTION, ARCHITECTURE & HOUSING"
+          ],
+          "translations": [
+            "Facade / front of a building"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "ARCHITEKTUR & KULTURERBE",
+            "DESIGN, ARCHITEKTUR & RAUMGESTALTUNG"
+          ],
+          "translations": [
+            "facade",
+            "facade"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Fremdsprache",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "LANGUAGE & COMMUNICATION SKILLS"
+          ],
+          "translations": [
+            "The foreign language"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "SPRACHEN LERNEN & METHODIK"
+          ],
+          "translations": [
+            "foreign language"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Gemeinschaft",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SOCIETY, POLITICS & CITIZENSHIP"
+          ],
+          "translations": [
+            "The community"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "INTERKULTURALITÄT & TRADITION",
+            "STADTLEBEN & URBANE KULTUR"
+          ],
+          "translations": [
+            "community",
+            "community"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Gentrifizierung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "HOUSING MARKET, PROPERTY & URBAN LIFE (B1)"
+          ],
+          "translations": [
+            "Gentrification"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "WOHNEN & STADTENTWICKLUNG",
+            "STADTLEBEN & URBANE KULTUR"
+          ],
+          "translations": [
+            "gentrification",
+            "gentrification"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Gewerkschaft",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "WORK, ECONOMY & BUSINESS"
+          ],
+          "translations": [
+            "The trade union"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "WIRTSCHAFT & UNTERNEHMEN",
+            "FINANZEN & WIRTSCHAFT VERTIEFT"
+          ],
+          "translations": [
+            "trade union",
+            "trade union"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Globalisierung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "GLOBAL ISSUES & CURRENT AFFAIRS"
+          ],
+          "translations": [
+            "Globalisation"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "GLOBALISIERUNG & WELTWIRTSCHAFT",
+            "WIRTSCHAFTSPOLITIK & KONJUNKTUR",
+            "MODERNE GESCHICHTE & ZEITGESCHICHTE"
+          ],
+          "translations": [
+            "globalisation",
+            "globalisation",
+            "globalisation"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Halbpension",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "FOOD & DRINK"
+          ],
+          "translations": [
+            "Half board (hotel)"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "REISEN & TOURISMUS"
+          ],
+          "translations": [
+            "half board"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Integration",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SOCIETY, POLITICS & CITIZENSHIP"
+          ],
+          "translations": [
+            "The integration"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "SOZIALER WANDEL & GESELLSCHAFT"
+          ],
+          "translations": [
+            "integration"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Kaution",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "HOUSING, RENTING & MOVING"
+          ],
+          "translations": [
+            "The deposit"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "TELEFONIEREN & FORMELLE KOMMUNIKATION"
+          ],
+          "translations": [
+            "deposit / security deposit"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Kreislaufwirtschaft",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "ENVIRONMENTAL POLICY & CLIMATE (B1 EXTENDED)"
+          ],
+          "translations": [
+            "Circular economy"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KLIMAWANDEL & ÖKOLOGISCHE KRISE"
+          ],
+          "translations": [
+            "circular economy"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Menschenrechte",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "GLOBAL ISSUES & CURRENT AFFAIRS"
+          ],
+          "translations": [
+            "Human rights"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "RECHT & GESETZ VERTIEFT"
+          ],
+          "translations": [
+            "human rights"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Menschenrechtsverletzung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "POLITICS & GOVERNANCE (B1 DEEP)"
+          ],
+          "translations": [
+            "Human rights violation"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KONFLIKT, FRIEDEN & SICHERHEIT",
+            "MENSCHENRECHTE & GRUNDFREIHEITEN"
+          ],
+          "translations": [
+            "human rights violation",
+            "human rights violation"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Muttersprache",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "LANGUAGE & COMMUNICATION SKILLS"
+          ],
+          "translations": [
+            "The mother tongue / native language"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "LINGUISTIK & SPRACHGEBRAUCH"
+          ],
+          "translations": [
+            "mother tongue"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Nebenkosten",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "HOUSING, RENTING & MOVING"
+          ],
+          "translations": [
+            "Additional costs / utilities"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "WOHNEN & STADTENTWICKLUNG"
+          ],
+          "translations": [
+            "additional costs / service charges"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Notaufnahme",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "MEDICAL SYSTEM & HEALTHCARE"
+          ],
+          "translations": [
+            "The emergency department / A**&**E"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "GESUNDHEITSSYSTEM & VERSORGUNG"
+          ],
+          "translations": [
+            "emergency department / A&E"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Sehenswürdigkeit",
+      "levels": [
+        "A1",
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The tourist sight / attraction"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The sight / tourist attraction"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "REISEN & TOURISMUS"
+          ],
+          "translations": [
+            "sight / tourist attraction"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Solidarität",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "GLOBAL ISSUES & CURRENT AFFAIRS"
+          ],
+          "translations": [
+            "Solidarity"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "INTERKULTURALITÄT & TRADITION",
+            "GESELLSCHAFTLICHE WERTE & NORMEN",
+            "GENDER & DIVERSITÄT"
+          ],
+          "translations": [
+            "solidarity",
+            "solidarity",
+            "solidarity"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Temperatur",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "ANIMALS & NATURE (BASIC)"
+          ],
+          "translations": [
+            "The temperature"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "NATURE, WEATHER & ENVIRONMENT"
+          ],
+          "translations": [
+            "The temperature"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Touristeninformation",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "PLACES IN TOWN & COMMUNITY"
+          ],
+          "translations": [
+            "The tourist information office"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The tourist information office"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Überschwemmung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "ENVIRONMENT & SUSTAINABILITY"
+          ],
+          "translations": [
+            "The flood"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "NATURPHÄNOMENE & NATURWISSENSCHAFTEN"
+          ],
+          "translations": [
+            "flood"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Überweisung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "MEDICAL SYSTEM & HEALTHCARE"
+          ],
+          "translations": [
+            "The referral (medical)"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "MEDIZIN & THERAPIEFORMEN",
+            "GESUNDHEITSSYSTEM & VERSORGUNG"
+          ],
+          "translations": [
+            "referral (medical)",
+            "referral (to specialist)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Unterkunft",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "TRAVEL & TOURISM"
+          ],
+          "translations": [
+            "The accommodation"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "REISEN & TOURISMUS"
+          ],
+          "translations": [
+            "accommodation"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Verantwortung",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SOCIETY, POLITICS & CITIZENSHIP"
+          ],
+          "translations": [
+            "The responsibility"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "PHILOSOPHIE & ETHIK"
+          ],
+          "translations": [
+            "responsibility"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Versandkosten",
+      "levels": [
+        "A2",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "SHOPPING (EXTENDED)"
+          ],
+          "translations": [
+            "Shipping costs / postage"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DIGITALES & ONLINEWELT"
+          ],
+          "translations": [
+            "shipping costs"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Verspätung / Verspätung haben",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "TRANSPORT & GETTING AROUND (EXTENDED)"
+          ],
+          "translations": [
+            "Delay / to be delayed"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "AIRPORT & TRAVEL PROCEDURES"
+          ],
+          "translations": [
+            "Delay / to be delayed"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "die Work-Life-Balance",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "DISCUSSING TRENDS & SOCIAL CHANGE (B1)"
+          ],
+          "translations": [
+            "Work-life balance"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DIGITALE BERUFSFELDER & NEW WORK",
+            "WANDEL DER ARBEITSWELT"
+          ],
+          "translations": [
+            "work-life balance",
+            "work-life balance"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "einerseits … andererseits",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FIXED EXPRESSIONS & COLLOCATIONS"
+          ],
+          "translations": [
+            "On the one hand … on the other hand"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KONNEKTOREN & SATZVERBINDUNG"
+          ],
+          "translations": [
+            "on the one hand … on the other"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "einschränken",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "EXTENDED SEPARABLE VERBS (B1)"
+          ],
+          "translations": [
+            "To restrict / to limit"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DEBATTE & RHETORIK"
+          ],
+          "translations": [
+            "to qualify / limit"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "entweder … oder",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC CONJUNCTIONS & SENTENCE CONNECTORS (A1)"
+          ],
+          "translations": [
+            "Either … or"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "CONNECTORS & USEFUL PHRASES (A2)"
+          ],
+          "translations": [
+            "Either … or"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "formulieren",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "LANGUAGE & COMMUNICATION SKILLS"
+          ],
+          "translations": [
+            "To formulate / to phrase"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DEBATTE & RHETORIK"
+          ],
+          "translations": [
+            "to formulate / phrase"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Ich bin der Meinung, dass …",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "EXPRESSING OPINIONS FORMALLY & INFORMALLY (A2/B1)"
+          ],
+          "translations": [
+            "I am of the opinion that …"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "OPINIONS & ARGUMENTATION (EXTENDED)"
+          ],
+          "translations": [
+            "I am of the opinion that …"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "im Hinblick auf",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FIXED EXPRESSIONS & COLLOCATIONS"
+          ],
+          "translations": [
+            "With a view to / regarding"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KONNEKTOREN & SATZVERBINDUNG"
+          ],
+          "translations": [
+            "with regard to / in view of"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "lesen",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC VERBS & ACTIONS"
+          ],
+          "translations": [
+            "To read"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "LEISURE, HOBBIES & SPORTS"
+          ],
+          "translations": [
+            "To read (for pleasure)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "obwohl",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC CONJUNCTIONS & SENTENCE CONNECTORS (A1)"
+          ],
+          "translations": [
+            "Although / even though"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "CONNECTORS & USEFUL PHRASES (A2)"
+          ],
+          "translations": [
+            "Although / even though"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "schließen",
+      "levels": [
+        "A1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC VERBS & ACTIONS"
+          ],
+          "translations": [
+            "To close"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "SUCHT & DIGITALES LEBEN"
+          ],
+          "translations": [
+            "to conclude / infer"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sofern",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "GENITIVE PREPOSITIONS & TWO-WAY PREPOSITIONS"
+          ],
+          "translations": [
+            "Provided that / as long as"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KONNEKTOREN & SATZVERBINDUNG"
+          ],
+          "translations": [
+            "provided that / as long as"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sowohl … als auch",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC CONJUNCTIONS & SENTENCE CONNECTORS (A1)"
+          ],
+          "translations": [
+            "Both … and"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "CONNECTORS & USEFUL PHRASES (A2)"
+          ],
+          "translations": [
+            "Both … and"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "über den Tellerrand schauen",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "IDIOMS & COMMON EXPRESSIONS (B1)"
+          ],
+          "translations": [
+            "To think outside the box"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "IDIOME & FESTE WENDUNGEN 2"
+          ],
+          "translations": [
+            "to think outside the box"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "überweisen / die Überweisung",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "POST OFFICE & BANKING (BASIC)"
+          ],
+          "translations": [
+            "To transfer / the bank transfer"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "BANKING, FINANCE & ADMINISTRATION"
+          ],
+          "translations": [
+            "To transfer / bank transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "während",
+      "levels": [
+        "A2",
+        "B1"
+      ],
+      "occurrences": [
+        {
+          "level": "A2",
+          "categories": [
+            "CONNECTORS & USEFUL PHRASES (A2)"
+          ],
+          "translations": [
+            "While / during"
+          ]
+        },
+        {
+          "level": "B1",
+          "categories": [
+            "GENITIVE PREPOSITIONS & TWO-WAY PREPOSITIONS"
+          ],
+          "translations": [
+            "During"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wahrnehmen",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "EXTENDED SEPARABLE VERBS (B1)"
+          ],
+          "translations": [
+            "To perceive / to take up / to notice"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "KOMMUNIKATION & INTERKULTURELLES"
+          ],
+          "translations": [
+            "to perceive / notice"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "weder … noch",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "BASIC CONJUNCTIONS & SENTENCE CONNECTORS (A1)"
+          ],
+          "translations": [
+            "Neither … nor"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "CONNECTORS & USEFUL PHRASES (A2)"
+          ],
+          "translations": [
+            "Neither … nor"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wiederholen / die Wiederholung",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "occurrences": [
+        {
+          "level": "A1",
+          "categories": [
+            "IN THE CLASSROOM & LEARNING GERMAN (A1)"
+          ],
+          "translations": [
+            "To repeat / to revise / revision"
+          ]
+        },
+        {
+          "level": "A2",
+          "categories": [
+            "EDUCATION (EXTENDED)"
+          ],
+          "translations": [
+            "To repeat / repetition / review"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "zur Verfügung stehen",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "FIXED EXPRESSIONS & COLLOCATIONS"
+          ],
+          "translations": [
+            "To be available"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "REDEWENDUNGEN & FESTE AUSDRÜCKE"
+          ],
+          "translations": [
+            "to be available"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "zurückgeben",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "SEPARABLE & REFLEXIVE VERBS (KEY)"
+          ],
+          "translations": [
+            "To return / give back"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "POLITIK & GESELLSCHAFT VERTIEFT"
+          ],
+          "translations": [
+            "to return / give back"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "zusammenfassen",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "occurrences": [
+        {
+          "level": "B1",
+          "categories": [
+            "EXAM INSTRUCTIONS & TEST VOCABULARY (B1)"
+          ],
+          "translations": [
+            "To summarise"
+          ]
+        },
+        {
+          "level": "B2",
+          "categories": [
+            "DEBATTE & RHETORIK"
+          ],
+          "translations": [
+            "to summarise"
+          ]
+        }
+      ]
+    }
+  ]
+}

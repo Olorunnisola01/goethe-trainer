@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B2_R06", "level": "B2", "type": "Argumentativer Text", "title": "Digitale Geräte im Klassenzimmer",
+    "text": "DIGITALE GERÄTE IM KLASSENZIMMER\n\nImmer mehr Schulen ersetzen Bücher durch Tablets. Befürworter argumentieren, dass digitale Geräte den Unterricht moderner und interaktiver machen. Schüler könnten in Sekunden Informationen finden und mit Lernprogrammen in ihrem eigenen Tempo arbeiten.\n\nKritiker warnen jedoch vor den Risiken. Studien deuten darauf hin, dass man sich Inhalte auf Papier oft besser merkt als auf dem Bildschirm. Außerdem lenken Geräte leicht ab. Die entscheidende Frage ist deshalb nicht, OB man Technik einsetzt, sondern WIE. Sinnvoll eingesetzt kann sie eine Bereicherung sein — als Ersatz für gutes Lernen taugt sie nicht.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ersetzen immer mehr Schulen durch Tablets?", "opts": ["Bücher", "Lehrer", "Tische"], "a": 0, "exp": "„ersetzen Bücher durch Tablets“." },
+      { "type": "MCQ", "q": "Was argumentieren die Befürworter?", "opts": ["Digitale Geräte machen den Unterricht moderner und interaktiver", "Bücher sind besser", "Technik ist zu teuer"], "a": 0, "exp": "„digitale Geräte ... machen den Unterricht moderner und interaktiver“." },
+      { "type": "MCQ", "q": "Wovor warnen die Kritiker mit Verweis auf Studien?", "opts": ["Man merkt sich Inhalte auf Papier oft besser", "Tablets sind kaputt", "Schüler werden krank"], "a": 0, "exp": "„man sich Inhalte auf Papier oft besser merkt als auf dem Bildschirm“." },
+      { "type": "TF", "q": "Laut Text lenken digitale Geräte leicht ab.", "a": true, "exp": "„Außerdem lenken Geräte leicht ab.“" },
+      { "type": "MCQ", "q": "Was ist laut Autor die entscheidende Frage?", "opts": ["Nicht OB, sondern WIE man Technik einsetzt", "Ob Technik teuer ist", "Wer die Geräte kauft"], "a": 0, "exp": "„nicht, OB man Technik einsetzt, sondern WIE“." },
+      { "type": "MCQ", "q": "Wie bewertet der Autor digitale Technik insgesamt?", "opts": ["Sinnvoll eingesetzt eine Bereicherung, aber kein Ersatz fürs Lernen", "Komplett schlecht", "Immer besser als Bücher"], "a": 0, "exp": "„Sinnvoll eingesetzt kann sie eine Bereicherung sein — als Ersatz für gutes Lernen taugt sie nicht.“" }
+    ]
+  },
+  {
+    "id": "B2_R07", "level": "B2", "type": "Sachtext", "title": "Das Rückgrat der Gesellschaft",
+    "text": "DAS RÜCKGRAT DER GESELLSCHAFT\n\nOhne ehrenamtliches Engagement würde in Deutschland vieles nicht funktionieren. Millionen Menschen helfen freiwillig — bei der Feuerwehr, in Sportvereinen, in der Flüchtlingshilfe oder bei der Tafel. Sie bekommen kein Geld, sondern handeln aus Überzeugung.\n\nDoch die Zahl der Freiwilligen sinkt, besonders bei jungen Menschen. Viele haben durch Beruf und Familie wenig Zeit. Experten fordern deshalb mehr Anerkennung: Wer sich engagiert, sollte etwa bei der Jobsuche oder im Studium Vorteile haben. Denn eine Gesellschaft, die auf Freiwillige baut, muss diese auch wertschätzen — sonst bricht das System irgendwann zusammen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was würde ohne Ehrenamt laut Text passieren?", "opts": ["Vieles würde nicht funktionieren", "Nichts würde sich ändern", "Alles wäre billiger"], "a": 0, "exp": "„würde in Deutschland vieles nicht funktionieren“." },
+      { "type": "MCQ", "q": "Aus welchem Grund handeln die Freiwilligen?", "opts": ["Aus Überzeugung, ohne Geld", "Für viel Geld", "Aus Zwang"], "a": 0, "exp": "„Sie bekommen kein Geld, sondern handeln aus Überzeugung.“" },
+      { "type": "TF", "q": "Die Zahl der Freiwilligen steigt.", "a": false, "exp": "„die Zahl der Freiwilligen sinkt“." },
+      { "type": "MCQ", "q": "Warum haben viele wenig Zeit?", "opts": ["Wegen Beruf und Familie", "Wegen des Wetters", "Wegen des Internets"], "a": 0, "exp": "„Viele haben durch Beruf und Familie wenig Zeit.“" },
+      { "type": "MCQ", "q": "Was fordern Experten?", "opts": ["Mehr Anerkennung für Engagierte", "Ein Verbot von Vereinen", "Höhere Steuern"], "a": 0, "exp": "„Experten fordern deshalb mehr Anerkennung“." },
+      { "type": "MCQ", "q": "Was droht laut Text, wenn man Freiwillige nicht wertschätzt?", "opts": ["Das System bricht irgendwann zusammen", "Es wird mehr Geld geben", "Nichts"], "a": 0, "exp": "„sonst bricht das System irgendwann zusammen“." }
+    ]
+  },
+  {
+    "id": "B2_R08", "level": "B2", "type": "Argumentativer Text", "title": "Der Preis der billigen Mode",
+    "text": "KOMMENTAR: Der Preis der billigen Mode\n\nEin T-Shirt für fünf Euro — wie ist das möglich? Die Antwort ist unbequem: Irgendjemand zahlt den wahren Preis, nur nicht wir. Oft sind es Näherinnen in fernen Ländern, die unter schlechten Bedingungen für wenig Geld arbeiten.\n\nWir kaufen immer mehr und immer schneller. Viele Kleidungsstücke tragen wir nur wenige Male, bevor sie im Müll landen. Das ist nicht nur sozial fragwürdig, sondern auch eine ökologische Katastrophe. Natürlich kann nicht jeder teure Mode kaufen. Aber wir alle können bewusster konsumieren: weniger, dafür langlebiger. Manchmal ist das billigste Produkt am Ende das teuerste.",
+    "questions": [
+      { "type": "MCQ", "q": "Worum geht es im Kommentar?", "opts": ["Den wahren Preis billiger Mode", "Teure Restaurants", "Gesundes Essen"], "a": 0, "exp": "„Der Preis der billigen Mode“." },
+      { "type": "MCQ", "q": "Wer zahlt laut Autor oft den wahren Preis?", "opts": ["Näherinnen in fernen Ländern", "Die reichen Kunden", "Die Politiker"], "a": 0, "exp": "„Oft sind es Näherinnen in fernen Ländern, die unter schlechten Bedingungen ... arbeiten.“" },
+      { "type": "TF", "q": "Laut Text tragen viele Menschen Kleidung nur wenige Male.", "a": true, "exp": "„Viele Kleidungsstücke tragen wir nur wenige Male, bevor sie im Müll landen.“" },
+      { "type": "MCQ", "q": "Wie bewertet der Autor das Problem?", "opts": ["Sozial fragwürdig und eine ökologische Katastrophe", "Harmlos", "Nur ein Modethema"], "a": 0, "exp": "„nicht nur sozial fragwürdig, sondern auch eine ökologische Katastrophe“." },
+      { "type": "MCQ", "q": "Was schlägt der Autor vor?", "opts": ["Bewusster konsumieren: weniger, dafür langlebiger", "Gar keine Kleidung kaufen", "Immer das Billigste kaufen"], "a": 0, "exp": "„weniger, dafür langlebiger“." },
+      { "type": "TF", "q": "Der Autor meint, jeder müsse teure Mode kaufen.", "a": false, "exp": "„Natürlich kann nicht jeder teure Mode kaufen.“" }
+    ]
+  },
+  {
+    "id": "B2_R09", "level": "B2", "type": "Interview", "title": "Interview mit einem Stadtplaner",
+    "text": "INTERVIEW mit Stadtplaner Dr. Berger\n\nReporter: Wie sieht die Stadt der Zukunft aus?\nDr. Berger: Lebenswerter, hoffe ich. Weniger Platz für Autos, mehr für Menschen, Grün und Begegnung.\nReporter: Viele Autofahrer fürchten solche Pläne.\nDr. Berger: Das verstehe ich. Aber Studien zeigen: Wenn man Straßen umgestaltet, gewöhnen sich die meisten schnell daran — und wollen danach nicht zurück.\nReporter: Was ist die größte Herausforderung?\nDr. Berger: Geduld. Eine Stadt verändert sich über Jahrzehnte, nicht über Nacht. Wir pflanzen heute Bäume, deren Schatten erst unsere Kinder genießen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie soll die Stadt der Zukunft laut Dr. Berger sein?", "opts": ["Lebenswerter, mit weniger Platz für Autos", "Voller Autos", "Ohne Menschen"], "a": 0, "exp": "„Lebenswerter ... Weniger Platz für Autos, mehr für Menschen, Grün und Begegnung.“" },
+      { "type": "TF", "q": "Dr. Berger versteht die Sorgen der Autofahrer.", "a": true, "exp": "„Das verstehe ich.“" },
+      { "type": "MCQ", "q": "Was zeigen Studien laut Dr. Berger?", "opts": ["Die meisten gewöhnen sich schnell an umgestaltete Straßen", "Niemand akzeptiert Veränderungen", "Autos sind unverzichtbar"], "a": 0, "exp": "„gewöhnen sich die meisten schnell daran — und wollen danach nicht zurück“." },
+      { "type": "MCQ", "q": "Was ist die größte Herausforderung?", "opts": ["Geduld", "Geld", "Technik"], "a": 0, "exp": "„Geduld.“" },
+      { "type": "TF", "q": "Laut Dr. Berger verändert sich eine Stadt über Nacht.", "a": false, "exp": "„über Jahrzehnte, nicht über Nacht“." },
+      { "type": "MCQ", "q": "Was meint Dr. Berger mit dem Bild von den Bäumen?", "opts": ["Veränderungen wirken erst in der Zukunft", "Bäume sind teuer", "Kinder mögen keine Bäume"], "a": 0, "exp": "„Wir pflanzen heute Bäume, deren Schatten erst unsere Kinder genießen.“" }
+    ]
+  },
+  {
+    "id": "B2_R10", "level": "B2", "type": "Sachtext", "title": "Die unterschätzte Bedeutung des Schlafs",
+    "text": "DIE UNTERSCHÄTZTE BEDEUTUNG DES SCHLAFS\n\nIn unserer Leistungsgesellschaft gilt wenig Schlaf oft als Zeichen von Fleiß. „Ich komme mit fünf Stunden aus“, sagen manche fast stolz. Doch die Wissenschaft widerspricht deutlich: Chronischer Schlafmangel schadet Körper und Geist.\n\nWer dauerhaft zu wenig schläft, hat ein höheres Risiko für Herzkrankheiten, Depressionen und Konzentrationsprobleme. Besonders betroffen sind Schichtarbeiter, deren innere Uhr ständig gestört wird. Fachleute fordern ein Umdenken: Schlaf ist keine verlorene Zeit, sondern die Grundlage für Gesundheit und Leistung. Eine ausgeschlafene Gesellschaft wäre nicht nur gesünder, sondern langfristig auch produktiver.",
+    "questions": [
+      { "type": "MCQ", "q": "Als was gilt wenig Schlaf in der Leistungsgesellschaft oft?", "opts": ["Als Zeichen von Fleiß", "Als Krankheit", "Als Faulheit"], "a": 0, "exp": "„gilt wenig Schlaf oft als Zeichen von Fleiß“." },
+      { "type": "TF", "q": "Die Wissenschaft stimmt dieser Meinung zu.", "a": false, "exp": "„Doch die Wissenschaft widerspricht deutlich“." },
+      { "type": "MCQ", "q": "Welche Risiken nennt der Text bei Schlafmangel?", "opts": ["Herzkrankheiten, Depressionen, Konzentrationsprobleme", "Nur Müdigkeit", "Keine"], "a": 0, "exp": "„ein höheres Risiko für Herzkrankheiten, Depressionen und Konzentrationsprobleme“." },
+      { "type": "MCQ", "q": "Wer ist besonders betroffen?", "opts": ["Schichtarbeiter", "Kinder", "Sportler"], "a": 0, "exp": "„Besonders betroffen sind Schichtarbeiter, deren innere Uhr ständig gestört wird.“" },
+      { "type": "MCQ", "q": "Was fordern die Fachleute?", "opts": ["Ein Umdenken über den Wert des Schlafs", "Mehr Arbeit", "Weniger Urlaub"], "a": 0, "exp": "„Fachleute fordern ein Umdenken“." },
+      { "type": "TF", "q": "Eine ausgeschlafene Gesellschaft wäre laut Text auch produktiver.", "a": true, "exp": "„langfristig auch produktiver“." }
+    ]
+  },
+  {
+    "id": "B2_R11", "level": "B2", "type": "Argumentativer Text", "title": "Eine Altersgrenze für soziale Medien?",
+    "text": "BRAUCHEN WIR EINE ALTERSGRENZE FÜR SOZIALE MEDIEN?\n\nImmer mehr Stimmen fordern, dass Kinder erst ab einem bestimmten Alter soziale Medien nutzen dürfen. Die Sorge ist berechtigt: Studien verbinden intensive Nutzung mit Schlafproblemen, Konzentrationsstörungen und einem negativen Selbstbild bei Jugendlichen.\n\nGegner einer solchen Grenze argumentieren, dass ein Verbot kaum kontrollierbar sei und Kinder ohnehin Wege finden würden. Sinnvoller sei es, Medienkompetenz zu fördern, also den klugen Umgang mit den Plattformen zu lehren. Beide Seiten haben recht: Verbote allein lösen das Problem nicht. Doch ohne klare Regeln lassen wir Kinder mit einer mächtigen Technik allein.",
+    "questions": [
+      { "type": "MCQ", "q": "Was fordern immer mehr Stimmen?", "opts": ["Eine Altersgrenze für soziale Medien", "Mehr Werbung", "Kostenlose Handys"], "a": 0, "exp": "„dass Kinder erst ab einem bestimmten Alter soziale Medien nutzen dürfen“." },
+      { "type": "MCQ", "q": "Womit verbinden Studien die intensive Nutzung?", "opts": ["Schlafprobleme und negatives Selbstbild", "Bessere Noten", "Mehr Freunde"], "a": 0, "exp": "„Schlafproblemen, Konzentrationsstörungen und einem negativen Selbstbild“." },
+      { "type": "MCQ", "q": "Was argumentieren die Gegner einer Altersgrenze?", "opts": ["Ein Verbot sei kaum kontrollierbar", "Soziale Medien seien harmlos", "Kinder sollten mehr nutzen"], "a": 0, "exp": "„dass ein Verbot kaum kontrollierbar sei“." },
+      { "type": "MCQ", "q": "Was schlagen die Gegner stattdessen vor?", "opts": ["Medienkompetenz fördern", "Alle Handys verbieten", "Nichts tun"], "a": 0, "exp": "„Sinnvoller sei es, Medienkompetenz zu fördern“." },
+      { "type": "TF", "q": "Der Autor meint, Verbote allein lösen das Problem.", "a": false, "exp": "„Verbote allein lösen das Problem nicht.“" },
+      { "type": "MCQ", "q": "Was ist die Schlussfolgerung des Autors?", "opts": ["Ohne klare Regeln lässt man Kinder allein", "Verbote sind perfekt", "Regeln sind unnötig"], "a": 0, "exp": "„ohne klare Regeln lassen wir Kinder mit einer mächtigen Technik allein“." }
+    ]
+  },
+  {
+    "id": "B2_R12", "level": "B2", "type": "Reportage", "title": "Wo Jung und Alt zusammenleben",
+    "text": "REPORTAGE: Wo Jung und Alt zusammenleben\n\nIm „Haus der Generationen“ wohnen Studenten, Familien und Senioren unter einem Dach. Was zunächst ungewöhnlich klingt, funktioniert erstaunlich gut. Die 82-jährige Frau Wendt hilft beim Kochen, der Student Jonas trägt ihr dafür die Einkäufe hoch.\n\n„Ich war nach dem Tod meines Mannes sehr einsam“, erzählt Frau Wendt. „Hier bin ich wieder mittendrin im Leben.“ Jonas wiederum schätzt die ruhige Atmosphäre und die Lebenserfahrung der Älteren. Projekte wie dieses zeigen: Die oft beklagte Einsamkeit in unserer Gesellschaft ist kein Schicksal. Manchmal braucht es nur neue Wohnformen — und die Bereitschaft, aufeinander zuzugehen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wer wohnt im „Haus der Generationen“?", "opts": ["Studenten, Familien und Senioren", "Nur alte Menschen", "Nur Studenten"], "a": 0, "exp": "„wohnen Studenten, Familien und Senioren unter einem Dach“." },
+      { "type": "MCQ", "q": "Was machen Frau Wendt und Jonas füreinander?", "opts": ["Sie hilft beim Kochen, er trägt die Einkäufe", "Nichts", "Sie streiten"], "a": 0, "exp": "„Frau Wendt hilft beim Kochen, der Student Jonas trägt ihr dafür die Einkäufe hoch“." },
+      { "type": "TF", "q": "Frau Wendt war nach dem Tod ihres Mannes einsam.", "a": true, "exp": "„Ich war nach dem Tod meines Mannes sehr einsam“." },
+      { "type": "MCQ", "q": "Was schätzt Jonas?", "opts": ["Die ruhige Atmosphäre und Lebenserfahrung der Älteren", "Den günstigen Preis", "Die Nähe zur Uni"], "a": 0, "exp": "„schätzt die ruhige Atmosphäre und die Lebenserfahrung der Älteren“." },
+      { "type": "MCQ", "q": "Welche Aussage über Einsamkeit macht der Text?", "opts": ["Sie ist kein Schicksal", "Sie ist unvermeidbar", "Sie betrifft nur Alte"], "a": 0, "exp": "„Die oft beklagte Einsamkeit ... ist kein Schicksal.“" },
+      { "type": "TF", "q": "Laut Text braucht es manchmal neue Wohnformen.", "a": true, "exp": "„Manchmal braucht es nur neue Wohnformen“." }
+    ]
+  },
+  {
+    "id": "B2_R13", "level": "B2", "type": "Sachtext", "title": "Denglisch — Bereicherung oder Verfall?",
+    "text": "DENGLISCH — BEREICHERUNG ODER VERFALL?\n\nIn der deutschen Sprache finden sich immer mehr englische Wörter: Man hat ein „Meeting“, macht „Homeoffice“ oder geht „shoppen“. Sprachschützer beklagen einen Verfall der deutschen Sprache. Sie befürchten, dass schöne deutsche Wörter verschwinden.\n\nSprachwissenschaftler sehen das gelassener. Sprache, sagen sie, war immer im Wandel und hat sich schon immer fremde Wörter geliehen — man denke an „Fenster“ aus dem Lateinischen. Eine lebendige Sprache nimmt auf, was sie braucht, und vergisst, was sie nicht braucht. Problematisch wird es höchstens dann, wenn Anglizismen die Verständigung erschweren, statt sie zu erleichtern.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber geht der Text?", "opts": ["Englische Wörter im Deutschen", "Englische Grammatik", "Reisen nach England"], "a": 0, "exp": "„finden sich immer mehr englische Wörter“." },
+      { "type": "MCQ", "q": "Was beklagen die Sprachschützer?", "opts": ["Einen Verfall der deutschen Sprache", "Zu wenige englische Wörter", "Schlechte Aussprache"], "a": 0, "exp": "„Sprachschützer beklagen einen Verfall der deutschen Sprache.“" },
+      { "type": "TF", "q": "Sprachwissenschaftler sehen das Thema gelassener.", "a": true, "exp": "„Sprachwissenschaftler sehen das gelassener.“" },
+      { "type": "MCQ", "q": "Welches Beispiel nennt der Text für ein geliehenes Wort?", "opts": ["„Fenster“ aus dem Lateinischen", "„Meeting“", "„Homeoffice“"], "a": 0, "exp": "„man denke an „Fenster“ aus dem Lateinischen“." },
+      { "type": "MCQ", "q": "Wann wird es laut Text problematisch?", "opts": ["Wenn Anglizismen die Verständigung erschweren", "Immer", "Nie"], "a": 0, "exp": "„wenn Anglizismen die Verständigung erschweren, statt sie zu erleichtern“." },
+      { "type": "TF", "q": "Laut Sprachwissenschaftlern war Sprache immer im Wandel.", "a": true, "exp": "„Sprache ... war immer im Wandel“." }
+    ]
+  },
+  {
+    "id": "B2_R14", "level": "B2", "type": "Zeitungsartikel", "title": "Zu gut für die Tonne",
+    "text": "ZU GUT FÜR DIE TONNE\n\nIn Deutschland werden jedes Jahr Millionen Tonnen Lebensmittel weggeworfen — ein großer Teil davon in privaten Haushalten. Oft landet Essen im Müll, nur weil das Mindesthaltbarkeitsdatum überschritten ist. Dabei sind viele Produkte danach noch tagelang genießbar.\n\nInitiativen wie „Foodsharing“ wollen das ändern. Über Apps und Verteilstationen geben Menschen Lebensmittel weiter, statt sie wegzuwerfen. Auch Supermärkte spenden zunehmend Ware, die sie nicht mehr verkaufen können. Experten betonen jedoch: Der größte Hebel liegt bei den Verbrauchern selbst. Wer bewusster einkauft und Reste verwertet, kann die Verschwendung deutlich verringern.",
+    "questions": [
+      { "type": "MCQ", "q": "Wo wird ein großer Teil der Lebensmittel weggeworfen?", "opts": ["In privaten Haushalten", "Nur in Restaurants", "Nur in Fabriken"], "a": 0, "exp": "„ein großer Teil davon in privaten Haushalten“." },
+      { "type": "MCQ", "q": "Warum landet Essen oft im Müll?", "opts": ["Weil das Mindesthaltbarkeitsdatum überschritten ist", "Weil es schlecht schmeckt", "Weil es zu teuer war"], "a": 0, "exp": "„nur weil das Mindesthaltbarkeitsdatum überschritten ist“." },
+      { "type": "TF", "q": "Nach dem Mindesthaltbarkeitsdatum ist alles sofort ungenießbar.", "a": false, "exp": "„viele Produkte danach noch tagelang genießbar“." },
+      { "type": "MCQ", "q": "Was machen Initiativen wie „Foodsharing“?", "opts": ["Lebensmittel weitergeben statt wegwerfen", "Lebensmittel verkaufen", "Müll sammeln"], "a": 0, "exp": "„geben Menschen Lebensmittel weiter, statt sie wegzuwerfen“." },
+      { "type": "MCQ", "q": "Wo liegt laut Experten der größte Hebel?", "opts": ["Bei den Verbrauchern selbst", "Bei der Politik", "Bei den Bauern"], "a": 0, "exp": "„Der größte Hebel liegt bei den Verbrauchern selbst.“" },
+      { "type": "TF", "q": "Bewusster einkaufen kann die Verschwendung verringern.", "a": true, "exp": "„Wer bewusster einkauft und Reste verwertet, kann die Verschwendung deutlich verringern.“" }
+    ]
+  },
+  {
+    "id": "B2_R15", "level": "B2", "type": "Argumentativer Text", "title": "Die Vier-Tage-Woche — ein Modell der Zukunft?",
+    "text": "KOMMENTAR: Die Vier-Tage-Woche — ein Modell der Zukunft?\n\nWeniger arbeiten, gleicher Lohn — klingt zu schön, um wahr zu sein. Doch erste Unternehmen, die die Vier-Tage-Woche getestet haben, berichten Erstaunliches: Die Produktivität blieb gleich oder stieg sogar, während die Mitarbeiter zufriedener und seltener krank waren.\n\nKritiker geben zu bedenken, dass dieses Modell nicht für jede Branche passt. In einem Krankenhaus oder einer Schule kann man die Arbeit nicht einfach komprimieren. Trotzdem sollten wir offen experimentieren. Die Annahme, dass mehr Stunden automatisch mehr Leistung bedeuten, ist längst widerlegt. Vielleicht ist weniger manchmal wirklich mehr.",
+    "questions": [
+      { "type": "MCQ", "q": "Was bedeutet die Vier-Tage-Woche in diesem Modell?", "opts": ["Weniger arbeiten bei gleichem Lohn", "Mehr arbeiten für mehr Geld", "Gar nicht arbeiten"], "a": 0, "exp": "„Weniger arbeiten, gleicher Lohn“." },
+      { "type": "MCQ", "q": "Was berichten die ersten Unternehmen?", "opts": ["Die Produktivität blieb gleich oder stieg", "Die Firma ging pleite", "Alle wurden krank"], "a": 0, "exp": "„Die Produktivität blieb gleich oder stieg sogar“." },
+      { "type": "TF", "q": "Die Mitarbeiter waren in den Tests unzufriedener.", "a": false, "exp": "„während die Mitarbeiter zufriedener und seltener krank waren“." },
+      { "type": "MCQ", "q": "Was geben die Kritiker zu bedenken?", "opts": ["Das Modell passt nicht für jede Branche", "Es ist zu billig", "Niemand will es"], "a": 0, "exp": "„dass dieses Modell nicht für jede Branche passt“." },
+      { "type": "MCQ", "q": "Welche Branchen nennt der Autor als Beispiel?", "opts": ["Krankenhaus und Schule", "Banken", "Restaurants"], "a": 0, "exp": "„In einem Krankenhaus oder einer Schule kann man die Arbeit nicht einfach komprimieren.“" },
+      { "type": "MCQ", "q": "Welche Annahme ist laut Autor widerlegt?", "opts": ["Mehr Stunden bedeuten automatisch mehr Leistung", "Pausen sind wichtig", "Arbeit macht müde"], "a": 0, "exp": "„Die Annahme, dass mehr Stunden automatisch mehr Leistung bedeuten, ist längst widerlegt.“" }
+    ]
+  },
+  {
+    "id": "B2_R16", "level": "B2", "type": "Sachtext", "title": "Künstliche Intelligenz und die Arbeitswelt",
+    "text": "KÜNSTLICHE INTELLIGENZ UND DIE ARBEITSWELT\n\nKaum ein Thema wird derzeit so heftig diskutiert wie die künstliche Intelligenz. Viele fürchten, dass Maschinen ihnen die Arbeit wegnehmen. Tatsächlich werden manche Tätigkeiten verschwinden — vor allem solche, die aus wiederholbaren Routinen bestehen.\n\nDoch die Geschichte zeigt: Neue Technologien haben noch immer auch neue Berufe geschaffen. Entscheidend ist, dass die Menschen die Chance bekommen, sich weiterzubilden. Wer lernt, mit den neuen Werkzeugen umzugehen, wird kaum ersetzt. Die größte Gefahr ist nicht die Technik selbst, sondern eine Gesellschaft, die manche Menschen beim Wandel zurücklässt.",
+    "questions": [
+      { "type": "MCQ", "q": "Was fürchten viele Menschen bei der KI?", "opts": ["Dass Maschinen ihnen die Arbeit wegnehmen", "Dass sie zu teuer ist", "Dass sie langsam ist"], "a": 0, "exp": "„Viele fürchten, dass Maschinen ihnen die Arbeit wegnehmen.“" },
+      { "type": "MCQ", "q": "Welche Tätigkeiten werden laut Text vor allem verschwinden?", "opts": ["Wiederholbare Routinen", "Kreative Berufe", "Alle Berufe"], "a": 0, "exp": "„vor allem solche, die aus wiederholbaren Routinen bestehen“." },
+      { "type": "TF", "q": "Laut Text haben neue Technologien immer nur Jobs vernichtet.", "a": false, "exp": "„Neue Technologien haben noch immer auch neue Berufe geschaffen.“" },
+      { "type": "MCQ", "q": "Was ist laut Text entscheidend?", "opts": ["Dass Menschen sich weiterbilden können", "Dass die Technik verboten wird", "Dass niemand lernt"], "a": 0, "exp": "„dass die Menschen die Chance bekommen, sich weiterzubilden“." },
+      { "type": "MCQ", "q": "Wer wird laut Text kaum ersetzt?", "opts": ["Wer lernt, mit den neuen Werkzeugen umzugehen", "Wer nichts tut", "Niemand"], "a": 0, "exp": "„Wer lernt, mit den neuen Werkzeugen umzugehen, wird kaum ersetzt.“" },
+      { "type": "MCQ", "q": "Was ist laut Autor die größte Gefahr?", "opts": ["Eine Gesellschaft, die Menschen beim Wandel zurücklässt", "Die Technik selbst", "Zu viel Bildung"], "a": 0, "exp": "„nicht die Technik selbst, sondern eine Gesellschaft, die manche Menschen beim Wandel zurücklässt“." }
+    ]
+  },
+  {
+    "id": "B2_R17", "level": "B2", "type": "Interview", "title": "Interview mit einer Klimaforscherin",
+    "text": "INTERVIEW mit Klimaforscherin Prof. Lang\n\nReporter: Ist es für den Klimaschutz schon zu spät?\nProf. Lang: Nein, aber wir haben keine Zeit zu verlieren. Jedes Zehntelgrad zählt.\nReporter: Viele Menschen fühlen sich machtlos.\nProf. Lang: Das verstehe ich, aber es ist ein Irrtum. Individuelles Handeln ist wichtig — entscheidender sind jedoch politische Rahmenbedingungen.\nReporter: Was meinen Sie damit?\nProf. Lang: Der Einzelne kann nur so klimafreundlich leben, wie es das System erlaubt. Wir brauchen bessere Bahnverbindungen, bezahlbare saubere Energie. Dann fällt das Richtige leichter.",
+    "questions": [
+      { "type": "MCQ", "q": "Ist es laut Prof. Lang zu spät für den Klimaschutz?", "opts": ["Nein, aber es ist keine Zeit zu verlieren", "Ja, definitiv", "Das weiß niemand"], "a": 0, "exp": "„Nein, aber wir haben keine Zeit zu verlieren.“" },
+      { "type": "TF", "q": "Laut Prof. Lang zählt jedes Zehntelgrad.", "a": true, "exp": "„Jedes Zehntelgrad zählt.“" },
+      { "type": "MCQ", "q": "Wie fühlen sich viele Menschen?", "opts": ["Machtlos", "Optimistisch", "Gleichgültig"], "a": 0, "exp": "„Viele Menschen fühlen sich machtlos.“" },
+      { "type": "MCQ", "q": "Was ist laut Prof. Lang entscheidender als individuelles Handeln?", "opts": ["Politische Rahmenbedingungen", "Das Wetter", "Werbung"], "a": 0, "exp": "„entscheidender sind jedoch politische Rahmenbedingungen“." },
+      { "type": "MCQ", "q": "Was meint sie mit dem System?", "opts": ["Der Einzelne kann nur so leben, wie das System erlaubt", "Das System ist egal", "Nur Politiker zählen"], "a": 0, "exp": "„Der Einzelne kann nur so klimafreundlich leben, wie es das System erlaubt.“" },
+      { "type": "MCQ", "q": "Was fordert Prof. Lang konkret?", "opts": ["Bessere Bahnverbindungen und bezahlbare saubere Energie", "Mehr Autos", "Höhere Preise für alles"], "a": 0, "exp": "„Wir brauchen bessere Bahnverbindungen, bezahlbare saubere Energie.“" }
+    ]
+  },
+  {
+    "id": "B2_R18", "level": "B2", "type": "Literarischer Text", "title": "Der Brief",
+    "text": "AUS EINER KURZGESCHICHTE: „Der Brief“\n\nFrau Holzer hielt den Umschlag lange in den Händen, ohne ihn zu öffnen. Vierzig Jahre lang hatte sie auf ein Lebenszeichen ihres Bruders gewartet, mit dem sie sich damals so heftig zerstritten hatte. Nun, da der Brief endlich da war, fürchtete sie sich vor seinem Inhalt.\n\nWas, wenn er ihr nie verziehen hatte? Was, wenn es zu spät war für eine Versöhnung? Schließlich riss sie den Umschlag auf. Es war nur ein einziger Satz: „Lass uns das Schweigen beenden.“ Frau Holzer lächelte unter Tränen. Manchmal genügen wenige Worte, um eine Tür wieder zu öffnen, die jahrzehntelang verschlossen war.",
+    "questions": [
+      { "type": "MCQ", "q": "Worauf hatte Frau Holzer vierzig Jahre gewartet?", "opts": ["Auf ein Lebenszeichen ihres Bruders", "Auf eine Rente", "Auf einen Urlaub"], "a": 0, "exp": "„Vierzig Jahre lang hatte sie auf ein Lebenszeichen ihres Bruders gewartet“." },
+      { "type": "MCQ", "q": "Warum hatte sie keinen Kontakt mehr zu ihrem Bruder?", "opts": ["Sie hatten sich heftig zerstritten", "Er war verreist", "Sie kannten sich nicht"], "a": 0, "exp": "„mit dem sie sich damals so heftig zerstritten hatte“." },
+      { "type": "TF", "q": "Frau Holzer öffnete den Brief sofort und ohne Zögern.", "a": false, "exp": "„hielt den Umschlag lange in den Händen, ohne ihn zu öffnen“." },
+      { "type": "MCQ", "q": "Wovor fürchtete sie sich?", "opts": ["Vor dem Inhalt des Briefes", "Vor dem Briefträger", "Vor nichts"], "a": 0, "exp": "„fürchtete sie sich vor seinem Inhalt“." },
+      { "type": "MCQ", "q": "Was stand in dem Brief?", "opts": ["„Lass uns das Schweigen beenden.“", "Eine Rechnung", "Nichts"], "a": 0, "exp": "„Es war nur ein einziger Satz: „Lass uns das Schweigen beenden.““" },
+      { "type": "MCQ", "q": "Was ist die Botschaft am Ende?", "opts": ["Wenige Worte können viel bewirken", "Briefe sind unwichtig", "Streit ist gut"], "a": 0, "exp": "„Manchmal genügen wenige Worte, um eine Tür wieder zu öffnen“." }
+    ]
+  },
+  {
+    "id": "B2_R19", "level": "B2", "type": "Argumentativer Text", "title": "Wenn der Tourismus zur Last wird",
+    "text": "WENN DER TOURISMUS ZUR LAST WIRD\n\nViele Städte leben vom Tourismus — doch immer öfter wird er zum Problem. In Orten wie Venedig oder Barcelona klagen die Einheimischen über überfüllte Gassen, steigende Mieten und den Verlust des normalen Lebens. „Overtourism“ nennt man dieses Phänomen.\n\nEinige Städte reagieren bereits: Sie begrenzen die Zahl der Besucher oder erheben eine Touristensteuer. Solche Maßnahmen sind umstritten, denn der Tourismus schafft auch Arbeitsplätze. Die Lösung kann nicht sein, Gäste auszusperren. Vielmehr braucht es einen sanfteren, nachhaltigeren Tourismus, der die Bedürfnisse der Bewohner ernst nimmt — sonst verlieren die Städte am Ende genau das, was die Besucher anzieht.",
+    "questions": [
+      { "type": "MCQ", "q": "Wovon leben viele Städte?", "opts": ["Vom Tourismus", "Von der Industrie", "Von der Landwirtschaft"], "a": 0, "exp": "„Viele Städte leben vom Tourismus“." },
+      { "type": "MCQ", "q": "Worüber klagen die Einheimischen?", "opts": ["Überfüllte Gassen und steigende Mieten", "Zu wenig Besucher", "Schlechtes Wetter"], "a": 0, "exp": "„überfüllte Gassen, steigende Mieten und den Verlust des normalen Lebens“." },
+      { "type": "MCQ", "q": "Wie nennt man dieses Phänomen?", "opts": ["Overtourism", "Tourismusboom", "Stadtflucht"], "a": 0, "exp": "„„Overtourism“ nennt man dieses Phänomen.“" },
+      { "type": "MCQ", "q": "Wie reagieren einige Städte?", "opts": ["Sie begrenzen Besucher oder erheben eine Steuer", "Sie bauen mehr Hotels", "Sie tun nichts"], "a": 0, "exp": "„Sie begrenzen die Zahl der Besucher oder erheben eine Touristensteuer.“" },
+      { "type": "TF", "q": "Laut Autor sollte man die Gäste einfach aussperren.", "a": false, "exp": "„Die Lösung kann nicht sein, Gäste auszusperren.“" },
+      { "type": "MCQ", "q": "Was fordert der Autor?", "opts": ["Einen nachhaltigeren Tourismus", "Mehr Touristen", "Gar keine Touristen"], "a": 0, "exp": "„braucht es einen sanfteren, nachhaltigeren Tourismus“." }
+    ]
+  },
+  {
+    "id": "B2_R20", "level": "B2", "type": "Sachtext", "title": "Mehr Mitsprache für die Bürger",
+    "text": "MEHR MITSPRACHE FÜR DIE BÜRGER\n\nIn immer mehr Städten dürfen die Bürger direkt über lokale Projekte mitentscheiden — etwa über die Gestaltung eines Parks oder die Verwendung eines Teils des Stadtbudgets. „Bürgerbeteiligung“ heißt das Schlagwort.\n\nBefürworter sehen darin eine Stärkung der Demokratie: Wer mitentscheiden darf, fühlt sich ernst genommen und engagiert sich stärker. Skeptiker warnen jedoch, dass oft nur wenige, meist gut gebildete Bürger teilnehmen, während andere Gruppen kaum vertreten sind. Damit Beteiligung wirklich gerecht ist, muss man also aktiv alle einladen. Sonst entscheidet am Ende doch nur eine kleine Minderheit — im Namen aller.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber dürfen Bürger in immer mehr Städten mitentscheiden?", "opts": ["Über lokale Projekte", "Über Bundesgesetze", "Über nichts"], "a": 0, "exp": "„dürfen die Bürger direkt über lokale Projekte mitentscheiden“." },
+      { "type": "MCQ", "q": "Wie heißt das Schlagwort?", "opts": ["Bürgerbeteiligung", "Steuererhöhung", "Stadtflucht"], "a": 0, "exp": "„„Bürgerbeteiligung“ heißt das Schlagwort.“" },
+      { "type": "MCQ", "q": "Was sehen die Befürworter darin?", "opts": ["Eine Stärkung der Demokratie", "Eine Geldverschwendung", "Ein Risiko"], "a": 0, "exp": "„eine Stärkung der Demokratie“." },
+      { "type": "MCQ", "q": "Wovor warnen die Skeptiker?", "opts": ["Oft nehmen nur wenige, gut gebildete Bürger teil", "Es ist zu teuer", "Niemand interessiert sich"], "a": 0, "exp": "„dass oft nur wenige, meist gut gebildete Bürger teilnehmen“." },
+      { "type": "MCQ", "q": "Was muss man laut Text tun, damit Beteiligung gerecht ist?", "opts": ["Aktiv alle einladen", "Niemanden einladen", "Nur Experten fragen"], "a": 0, "exp": "„muss man also aktiv alle einladen“." },
+      { "type": "TF", "q": "Sonst entscheidet laut Text nur eine kleine Minderheit.", "a": true, "exp": "„Sonst entscheidet am Ende doch nur eine kleine Minderheit — im Namen aller.“" }
+    ]
+  }
+]

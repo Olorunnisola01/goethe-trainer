@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B2_R21", "level": "B2", "type": "Sachtext", "title": "Bibliotheken im digitalen Zeitalter",
+    "text": "BIBLIOTHEKEN IM DIGITALEN ZEITALTER\n\nManche prophezeiten das Ende der Bibliotheken, als E-Books und Internet aufkamen. Wozu noch Regale voller Bücher, wenn alles online verfügbar ist? Doch das Gegenteil ist eingetreten: Viele Bibliotheken sind heute lebendiger denn je.\n\nDer Grund liegt in ihrem Wandel. Moderne Bibliotheken sind längst nicht mehr nur Orte zum Ausleihen, sondern Treffpunkte: Sie bieten Lesungen, Sprachkurse, Arbeitsplätze und kostenloses WLAN. Gerade für Menschen ohne eigenen ruhigen Raum oder schnelles Internet sind sie unverzichtbar. So haben sich Bibliotheken neu erfunden — als offene Wohnzimmer der Gesellschaft, die allen zur Verfügung stehen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was prophezeiten manche?", "opts": ["Das Ende der Bibliotheken", "Mehr Bücher", "Teurere Bücher"], "a": 0, "exp": "„Manche prophezeiten das Ende der Bibliotheken“." },
+      { "type": "TF", "q": "Die Vorhersage vom Ende der Bibliotheken ist eingetreten.", "a": false, "exp": "„Doch das Gegenteil ist eingetreten: Viele Bibliotheken sind heute lebendiger denn je.“" },
+      { "type": "MCQ", "q": "Worin liegt der Grund für den Erfolg?", "opts": ["In ihrem Wandel zu Treffpunkten", "In billigeren Büchern", "In weniger Besuchern"], "a": 0, "exp": "„Der Grund liegt in ihrem Wandel.“" },
+      { "type": "MCQ", "q": "Was bieten moderne Bibliotheken an?", "opts": ["Lesungen, Sprachkurse, Arbeitsplätze, WLAN", "Nur Bücher", "Essen"], "a": 0, "exp": "„Sie bieten Lesungen, Sprachkurse, Arbeitsplätze und kostenloses WLAN.“" },
+      { "type": "MCQ", "q": "Für wen sind sie besonders unverzichtbar?", "opts": ["Menschen ohne ruhigen Raum oder schnelles Internet", "Nur Studenten", "Nur Kinder"], "a": 0, "exp": "„Gerade für Menschen ohne eigenen ruhigen Raum oder schnelles Internet sind sie unverzichtbar.“" },
+      { "type": "MCQ", "q": "Als was bezeichnet der Text Bibliotheken?", "opts": ["Offene Wohnzimmer der Gesellschaft", "Museen", "Lager"], "a": 0, "exp": "„als offene Wohnzimmer der Gesellschaft“." }
+    ]
+  },
+  {
+    "id": "B2_R22", "level": "B2", "type": "Argumentativer Text", "title": "Streit um die gerechte Sprache",
+    "text": "KOMMENTAR: Streit um die gerechte Sprache\n\nKaum ein sprachliches Thema erhitzt die Gemüter so wie die geschlechtergerechte Sprache. Die einen sehen in Formen wie „Lehrerinnen und Lehrer“ einen wichtigen Schritt zu mehr Gleichberechtigung. Die anderen empfinden sie als umständlich oder als Bevormundung.\n\nIch glaube, beide Seiten sollten gelassener werden. Sprache verändert sich immer, ob es uns gefällt oder nicht — und sie spiegelt wider, wie wir denken. Wer sich angesprochen fühlen möchte, hat ein berechtigtes Anliegen. Gleichzeitig darf man niemandem eine bestimmte Form aufzwingen. Am Ende zählt weniger die perfekte Form als der Respekt, mit dem wir miteinander reden.",
+    "questions": [
+      { "type": "MCQ", "q": "Welches Thema erhitzt laut Text die Gemüter?", "opts": ["Die geschlechtergerechte Sprache", "Die Rechtschreibreform", "Fremdsprachen"], "a": 0, "exp": "„die geschlechtergerechte Sprache“." },
+      { "type": "MCQ", "q": "Wie sehen die einen solche Formen?", "opts": ["Als Schritt zu mehr Gleichberechtigung", "Als unnötig", "Als lustig"], "a": 0, "exp": "„einen wichtigen Schritt zu mehr Gleichberechtigung“." },
+      { "type": "MCQ", "q": "Wie empfinden die anderen sie?", "opts": ["Als umständlich oder Bevormundung", "Als schön", "Als modern"], "a": 0, "exp": "„empfinden sie als umständlich oder als Bevormundung“." },
+      { "type": "TF", "q": "Der Autor meint, beide Seiten sollten gelassener werden.", "a": true, "exp": "„beide Seiten sollten gelassener werden“." },
+      { "type": "MCQ", "q": "Was sagt der Autor über Sprache?", "opts": ["Sie verändert sich immer und spiegelt unser Denken", "Sie ist unveränderlich", "Sie ist unwichtig"], "a": 0, "exp": "„Sprache verändert sich immer ... und sie spiegelt wider, wie wir denken“." },
+      { "type": "MCQ", "q": "Was zählt laut Autor am Ende?", "opts": ["Der Respekt im Miteinander", "Die perfekte Form", "Die Lautstärke"], "a": 0, "exp": "„zählt weniger die perfekte Form als der Respekt, mit dem wir miteinander reden“." }
+    ]
+  },
+  {
+    "id": "B2_R23", "level": "B2", "type": "Argumentativer Text", "title": "Tempolimit — ja oder nein?",
+    "text": "TEMPOLIMIT — JA ODER NEIN?\n\nDeutschland ist eines der wenigen Länder ohne generelles Tempolimit auf Autobahnen. Regelmäßig wird über die Einführung gestritten. Befürworter nennen drei Argumente: weniger Unfälle, weniger CO2 und ein gleichmäßigerer Verkehrsfluss.\n\nGegner berufen sich vor allem auf die persönliche Freiheit. Außerdem, so argumentieren sie, sei der Effekt auf das Klima gering. Tatsächlich ist die Einsparung umstritten — doch selbst kleine Schritte können sinnvoll sein. Letztlich ist die Debatte auch eine über Werte: Wie viel individuelle Freiheit sind wir bereit, für gemeinsame Ziele wie Sicherheit und Umweltschutz aufzugeben? Eine einfache Antwort gibt es nicht.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist an Deutschland bei Autobahnen besonders?", "opts": ["Es gibt kein generelles Tempolimit", "Es gibt sehr niedrige Limits", "Es gibt keine Autobahnen"], "a": 0, "exp": "„eines der wenigen Länder ohne generelles Tempolimit auf Autobahnen“." },
+      { "type": "MCQ", "q": "Welche Argumente nennen die Befürworter?", "opts": ["Weniger Unfälle, weniger CO2, besserer Verkehrsfluss", "Mehr Spaß", "Höhere Geschwindigkeit"], "a": 0, "exp": "„weniger Unfälle, weniger CO2 und ein gleichmäßigerer Verkehrsfluss“." },
+      { "type": "MCQ", "q": "Worauf berufen sich die Gegner vor allem?", "opts": ["Auf die persönliche Freiheit", "Auf das Geld", "Auf die Technik"], "a": 0, "exp": "„Gegner berufen sich vor allem auf die persönliche Freiheit.“" },
+      { "type": "TF", "q": "Laut Text ist der Klimaeffekt eines Tempolimits eindeutig groß.", "a": false, "exp": "„Tatsächlich ist die Einsparung umstritten“." },
+      { "type": "MCQ", "q": "Worüber ist die Debatte laut Autor letztlich?", "opts": ["Über Werte wie Freiheit vs. gemeinsame Ziele", "Über Automarken", "Über Benzinpreise"], "a": 0, "exp": "„auch eine über Werte: Wie viel individuelle Freiheit sind wir bereit ... aufzugeben?“" },
+      { "type": "TF", "q": "Der Autor gibt eine klare, einfache Antwort auf die Frage.", "a": false, "exp": "„Eine einfache Antwort gibt es nicht.“" }
+    ]
+  },
+  {
+    "id": "B2_R24", "level": "B2", "type": "Interview", "title": "Ein Psychologe über Resilienz",
+    "text": "INTERVIEW mit dem Psychologen Dr. Faber über Resilienz\n\nReporter: Was bedeutet eigentlich „Resilienz“?\nDr. Faber: Vereinfacht gesagt die seelische Widerstandskraft — die Fähigkeit, Krisen zu bewältigen, ohne daran zu zerbrechen.\nReporter: Wird man so geboren oder kann man das lernen?\nDr. Faber: Beides spielt eine Rolle, aber die gute Nachricht ist: Resilienz lässt sich trainieren.\nReporter: Wie denn?\nDr. Faber: Wichtig sind stabile Beziehungen, ein Gefühl von Sinn und die Überzeugung, selbst etwas bewirken zu können. Wer gelernt hat, Probleme als lösbar zu sehen, kommt durch schwere Zeiten besser hindurch.",
+    "questions": [
+      { "type": "MCQ", "q": "Was bedeutet Resilienz laut Dr. Faber?", "opts": ["Seelische Widerstandskraft", "Körperliche Stärke", "Intelligenz"], "a": 0, "exp": "„die seelische Widerstandskraft — die Fähigkeit, Krisen zu bewältigen“." },
+      { "type": "MCQ", "q": "Kann man Resilienz lernen?", "opts": ["Ja, sie lässt sich trainieren", "Nein, nie", "Nur als Kind"], "a": 0, "exp": "„Resilienz lässt sich trainieren“." },
+      { "type": "TF", "q": "Laut Dr. Faber spielt nur die Geburt eine Rolle.", "a": false, "exp": "„Beides spielt eine Rolle“." },
+      { "type": "MCQ", "q": "Was ist laut Dr. Faber wichtig für Resilienz?", "opts": ["Stabile Beziehungen und ein Gefühl von Sinn", "Viel Geld", "Ein gutes Auto"], "a": 0, "exp": "„Wichtig sind stabile Beziehungen, ein Gefühl von Sinn“." },
+      { "type": "MCQ", "q": "Wer kommt besser durch schwere Zeiten?", "opts": ["Wer Probleme als lösbar sieht", "Wer aufgibt", "Wer allein ist"], "a": 0, "exp": "„Wer gelernt hat, Probleme als lösbar zu sehen, kommt durch schwere Zeiten besser hindurch.“" },
+      { "type": "TF", "q": "Resilienz hilft, Krisen zu bewältigen, ohne zu zerbrechen.", "a": true, "exp": "„die Fähigkeit, Krisen zu bewältigen, ohne daran zu zerbrechen“." }
+    ]
+  },
+  {
+    "id": "B2_R25", "level": "B2", "type": "Sachtext", "title": "Warum das Bienensterben uns alle angeht",
+    "text": "WARUM DAS BIENENSTERBEN UNS ALLE ANGEHT\n\nBienen sind klein, aber für uns von riesiger Bedeutung. Etwa ein Drittel unserer Nahrung hängt direkt oder indirekt von der Bestäubung durch Insekten ab. Verschwinden die Bienen, sind viele Obst- und Gemüsesorten bedroht.\n\nDoch genau das passiert: In vielen Regionen geht die Zahl der Bienen und anderer Insekten dramatisch zurück. Gründe sind der Einsatz von Pestiziden, der Verlust von Lebensräumen und die Folgen des Klimawandels. Jeder kann etwas tun — etwa heimische Blumen pflanzen oder auf Gift im Garten verzichten. Denn das Schicksal der kleinen Bienen ist enger mit unserem verbunden, als viele denken.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viel unserer Nahrung hängt von Insektenbestäubung ab?", "opts": ["Etwa ein Drittel", "Alles", "Fast nichts"], "a": 0, "exp": "„Etwa ein Drittel unserer Nahrung hängt ... von der Bestäubung durch Insekten ab.“" },
+      { "type": "TF", "q": "Wenn die Bienen verschwinden, sind viele Obst- und Gemüsesorten bedroht.", "a": true, "exp": "„Verschwinden die Bienen, sind viele Obst- und Gemüsesorten bedroht.“" },
+      { "type": "MCQ", "q": "Was passiert mit der Zahl der Bienen?", "opts": ["Sie geht dramatisch zurück", "Sie steigt stark", "Sie bleibt gleich"], "a": 0, "exp": "„geht die Zahl der Bienen und anderer Insekten dramatisch zurück“." },
+      { "type": "MCQ", "q": "Welche Gründe nennt der Text?", "opts": ["Pestizide, Verlust von Lebensräumen, Klimawandel", "Zu viel Regen", "Zu viele Blumen"], "a": 0, "exp": "„Gründe sind der Einsatz von Pestiziden, der Verlust von Lebensräumen und die Folgen des Klimawandels“." },
+      { "type": "MCQ", "q": "Was kann jeder Einzelne tun?", "opts": ["Heimische Blumen pflanzen, auf Gift verzichten", "Nichts", "Mehr Pestizide nutzen"], "a": 0, "exp": "„etwa heimische Blumen pflanzen oder auf Gift im Garten verzichten“." },
+      { "type": "MCQ", "q": "Was ist die Kernaussage des Textes?", "opts": ["Das Schicksal der Bienen ist mit unserem verbunden", "Bienen sind unwichtig", "Bienen sind gefährlich"], "a": 0, "exp": "„das Schicksal der kleinen Bienen ist enger mit unserem verbunden, als viele denken“." }
+    ]
+  },
+  {
+    "id": "B2_R26", "level": "B2", "type": "Reportage", "title": "Ein Vormittag bei der Tafel",
+    "text": "REPORTAGE: Ein Vormittag bei der Tafel\n\nEs ist kurz vor neun, und vor der Tafel hat sich bereits eine lange Schlange gebildet. Hier bekommen Menschen mit wenig Geld Lebensmittel, die Supermärkte sonst wegwerfen würden. Ehrenamtliche sortieren Obst, Gemüse und Brot.\n\n„Viele schämen sich am Anfang“, erzählt die Helferin Frau Klee. „Wir versuchen, ihnen das Gefühl zu nehmen.“ Unter den Besuchern sind Rentner, Alleinerziehende, aber auch Berufstätige, deren Lohn nicht reicht. Die Tafel ist ein Zeichen gelebter Solidarität — gleichzeitig wirft ihre wachsende Bedeutung eine unbequeme Frage auf: Warum braucht ein reiches Land sie überhaupt?",
+    "questions": [
+      { "type": "MCQ", "q": "Was bekommen die Menschen bei der Tafel?", "opts": ["Lebensmittel, die sonst weggeworfen würden", "Geld", "Kleidung"], "a": 0, "exp": "„bekommen Menschen mit wenig Geld Lebensmittel, die Supermärkte sonst wegwerfen würden“." },
+      { "type": "MCQ", "q": "Was erzählt Frau Klee über viele Besucher?", "opts": ["Viele schämen sich am Anfang", "Viele sind wütend", "Viele lachen"], "a": 0, "exp": "„Viele schämen sich am Anfang“." },
+      { "type": "MCQ", "q": "Wer ist unter den Besuchern?", "opts": ["Rentner, Alleinerziehende, Berufstätige", "Nur Touristen", "Nur Kinder"], "a": 0, "exp": "„Rentner, Alleinerziehende, aber auch Berufstätige, deren Lohn nicht reicht“." },
+      { "type": "TF", "q": "Alle Besucher der Tafel sind arbeitslos.", "a": false, "exp": "„aber auch Berufstätige, deren Lohn nicht reicht“." },
+      { "type": "MCQ", "q": "Als was bezeichnet der Text die Tafel?", "opts": ["Ein Zeichen gelebter Solidarität", "Ein Geschäft", "Ein Museum"], "a": 0, "exp": "„Die Tafel ist ein Zeichen gelebter Solidarität“." },
+      { "type": "MCQ", "q": "Welche unbequeme Frage wirft der Text auf?", "opts": ["Warum ein reiches Land die Tafel überhaupt braucht", "Wer die Tafel leitet", "Wann sie öffnet"], "a": 0, "exp": "„Warum braucht ein reiches Land sie überhaupt?“" }
+    ]
+  },
+  {
+    "id": "B2_R27", "level": "B2", "type": "Argumentativer Text", "title": "Sollte man Hausaufgaben abschaffen?",
+    "text": "SOLLTE MAN HAUSAUFGABEN ABSCHAFFEN?\n\nHausaufgaben gehören für die meisten Schüler zum Alltag — doch ihr Nutzen ist umstritten. Manche Bildungsforscher argumentieren, dass Hausaufgaben vor allem in der Grundschule wenig bringen und stattdessen Stress und Streit in den Familien verursachen.\n\nAndere halten dagegen: Selbstständiges Üben sei wichtig, und ganz ohne Wiederholung präge sich Stoff schlechter ein. Vielleicht liegt die Wahrheit dazwischen. Sinnvoll sind Aufgaben dann, wenn sie nicht bloß Beschäftigung sind, sondern wirklich zum Verständnis beitragen. Entscheidend ist nicht die Menge, sondern die Qualität — und ob alle Kinder zu Hause die gleiche Unterstützung haben. Genau hier liegt das eigentliche Problem.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist laut Text umstritten?", "opts": ["Der Nutzen von Hausaufgaben", "Die Länge der Ferien", "Das Schulessen"], "a": 0, "exp": "„doch ihr Nutzen ist umstritten“." },
+      { "type": "MCQ", "q": "Was sagen manche Bildungsforscher?", "opts": ["Hausaufgaben bringen besonders in der Grundschule wenig", "Hausaufgaben sind immer gut", "Schüler lieben sie"], "a": 0, "exp": "„dass Hausaufgaben vor allem in der Grundschule wenig bringen“." },
+      { "type": "MCQ", "q": "Was sagen die anderen?", "opts": ["Selbstständiges Üben ist wichtig", "Üben ist sinnlos", "Schule ist unnötig"], "a": 0, "exp": "„Selbstständiges Üben sei wichtig“." },
+      { "type": "MCQ", "q": "Wann sind Aufgaben laut Autor sinnvoll?", "opts": ["Wenn sie zum Verständnis beitragen", "Wenn es viele sind", "Nie"], "a": 0, "exp": "„wenn sie nicht bloß Beschäftigung sind, sondern wirklich zum Verständnis beitragen“." },
+      { "type": "TF", "q": "Laut Autor ist die Menge wichtiger als die Qualität.", "a": false, "exp": "„Entscheidend ist nicht die Menge, sondern die Qualität“." },
+      { "type": "MCQ", "q": "Worin liegt laut Autor das eigentliche Problem?", "opts": ["Ob alle Kinder zu Hause gleiche Unterstützung haben", "Die Farbe der Hefte", "Die Uhrzeit"], "a": 0, "exp": "„ob alle Kinder zu Hause die gleiche Unterstützung haben. Genau hier liegt das eigentliche Problem.“" }
+    ]
+  },
+  {
+    "id": "B2_R28", "level": "B2", "type": "Sachtext", "title": "Wie Werbung unser Verhalten steuert",
+    "text": "WIE WERBUNG UNSER VERHALTEN STEUERT\n\nWir glauben gern, dass wir frei entscheiden, was wir kaufen. Doch die Werbung weiß oft besser als wir selbst, wie sie uns erreicht. Sie spricht selten den Verstand an, sondern unsere Gefühle: Sehnsucht nach Glück, Zugehörigkeit oder Erfolg.\n\nEin Produkt wird kaum wegen seiner Eigenschaften beworben, sondern wegen des Lebensgefühls, das es verspricht. Wer ein bestimmtes Getränk kauft, kauft die Vorstellung von Freiheit und Freundschaft gleich mit. Das ist nicht grundsätzlich verwerflich — problematisch wird es, wenn wir es nicht durchschauen. Wer die Mechanismen kennt, kann bewusster entscheiden und sich weniger leicht verführen lassen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was glauben wir laut Text gern?", "opts": ["Dass wir frei entscheiden, was wir kaufen", "Dass Werbung schlecht ist", "Dass alles teuer ist"], "a": 0, "exp": "„dass wir frei entscheiden, was wir kaufen“." },
+      { "type": "MCQ", "q": "Was spricht Werbung laut Text vor allem an?", "opts": ["Unsere Gefühle", "Unseren Verstand", "Unser Gedächtnis"], "a": 0, "exp": "„Sie spricht selten den Verstand an, sondern unsere Gefühle“." },
+      { "type": "MCQ", "q": "Womit wird ein Produkt laut Text beworben?", "opts": ["Mit dem Lebensgefühl, das es verspricht", "Mit seinem Preis", "Mit seinem Gewicht"], "a": 0, "exp": "„sondern wegen des Lebensgefühls, das es verspricht“." },
+      { "type": "TF", "q": "Laut Text ist Werbung grundsätzlich verwerflich.", "a": false, "exp": "„Das ist nicht grundsätzlich verwerflich“." },
+      { "type": "MCQ", "q": "Wann wird Werbung laut Text problematisch?", "opts": ["Wenn wir sie nicht durchschauen", "Wenn sie bunt ist", "Wenn sie kurz ist"], "a": 0, "exp": "„problematisch wird es, wenn wir es nicht durchschauen“." },
+      { "type": "MCQ", "q": "Was kann, wer die Mechanismen kennt?", "opts": ["Bewusster entscheiden", "Nichts mehr kaufen", "Mehr ausgeben"], "a": 0, "exp": "„kann bewusster entscheiden und sich weniger leicht verführen lassen“." }
+    ]
+  },
+  {
+    "id": "B2_R29", "level": "B2", "type": "Leserbrief", "title": "Leserbrief: Mehr Platz für Radfahrer",
+    "text": "LESERBRIEF zum Artikel „Mehr Platz für Radfahrer“\n\nSehr geehrte Redaktion,\n\nmit Interesse habe ich Ihren Artikel über die neuen Radwege gelesen. Als täglicher Radfahrer begrüße ich die Pläne ausdrücklich. Zu oft habe ich mich im Verkehr unsicher gefühlt.\n\nAllerdings greift der Artikel meiner Meinung nach zu kurz. Es reicht nicht, einfach Linien auf die Straße zu malen. Wir brauchen baulich getrennte Wege, sonst bleibt das Radfahren gefährlich. Außerdem sollte man die Bedürfnisse von Fußgängern und älteren Menschen nicht vergessen. Eine gute Verkehrspolitik denkt an alle — nicht nur an eine Gruppe.\n\nMit freundlichen Grüßen, T. Vogel",
+    "questions": [
+      { "type": "MCQ", "q": "Worauf reagiert der Leserbrief?", "opts": ["Auf einen Artikel über neue Radwege", "Auf eine Werbung", "Auf einen Wetterbericht"], "a": 0, "exp": "„zum Artikel „Mehr Platz für Radfahrer““." },
+      { "type": "MCQ", "q": "Wie steht der Autor zu den Plänen?", "opts": ["Er begrüßt sie ausdrücklich", "Er lehnt sie ab", "Er ist gleichgültig"], "a": 0, "exp": "„begrüße ich die Pläne ausdrücklich“." },
+      { "type": "TF", "q": "Der Autor fühlt sich im Verkehr immer sicher.", "a": false, "exp": "„Zu oft habe ich mich im Verkehr unsicher gefühlt.“" },
+      { "type": "MCQ", "q": "Was kritisiert der Autor am Artikel?", "opts": ["Er greift zu kurz", "Er ist zu lang", "Er ist falsch"], "a": 0, "exp": "„greift der Artikel meiner Meinung nach zu kurz“." },
+      { "type": "MCQ", "q": "Was fordert der Autor konkret?", "opts": ["Baulich getrennte Wege", "Mehr Autos", "Höhere Steuern"], "a": 0, "exp": "„Wir brauchen baulich getrennte Wege“." },
+      { "type": "MCQ", "q": "An wen sollte gute Verkehrspolitik laut Autor denken?", "opts": ["An alle, nicht nur an eine Gruppe", "Nur an Radfahrer", "Nur an Autofahrer"], "a": 0, "exp": "„Eine gute Verkehrspolitik denkt an alle — nicht nur an eine Gruppe.“" }
+    ]
+  },
+  {
+    "id": "B2_R30", "level": "B2", "type": "Argumentativer Text", "title": "Traumberuf Influencer?",
+    "text": "KOMMENTAR: Traumberuf Influencer?\n\nFragt man heute Jugendliche nach ihrem Traumberuf, nennen viele „Influencer“. Das wird oft belächelt, doch man sollte es ernst nehmen. Hinter dem Wunsch steht die Sehnsucht nach Freiheit, Selbstverwirklichung und Anerkennung — verständliche Ziele.\n\nProblematisch ist eher das verzerrte Bild, das die sozialen Medien vermitteln. Sichtbar ist nur der Erfolg weniger, nicht die harte Arbeit oder das Scheitern der vielen. Kaum jemand zeigt, wie unsicher dieses Geschäft ist. Statt den Traum zu verspotten, sollten wir jungen Menschen helfen, realistisch zu bleiben — und ihnen zeigen, dass auch andere Wege erfüllend sein können.",
+    "questions": [
+      { "type": "MCQ", "q": "Was nennen viele Jugendliche heute als Traumberuf?", "opts": ["Influencer", "Arzt", "Lehrer"], "a": 0, "exp": "„nennen viele „Influencer““." },
+      { "type": "MCQ", "q": "Was steht laut Autor hinter diesem Wunsch?", "opts": ["Sehnsucht nach Freiheit, Selbstverwirklichung und Anerkennung", "Faulheit", "Geldgier allein"], "a": 0, "exp": "„die Sehnsucht nach Freiheit, Selbstverwirklichung und Anerkennung“." },
+      { "type": "TF", "q": "Der Autor findet, man sollte den Wunsch belächeln.", "a": false, "exp": "„Das wird oft belächelt, doch man sollte es ernst nehmen.“" },
+      { "type": "MCQ", "q": "Was ist laut Autor problematisch?", "opts": ["Das verzerrte Bild der sozialen Medien", "Die Technik", "Die Werbung"], "a": 0, "exp": "„das verzerrte Bild, das die sozialen Medien vermitteln“." },
+      { "type": "MCQ", "q": "Was ist in den Medien vor allem sichtbar?", "opts": ["Nur der Erfolg weniger", "Das Scheitern vieler", "Die harte Arbeit"], "a": 0, "exp": "„Sichtbar ist nur der Erfolg weniger, nicht die harte Arbeit oder das Scheitern der vielen.“" },
+      { "type": "MCQ", "q": "Was sollten wir laut Autor tun?", "opts": ["Jungen Menschen helfen, realistisch zu bleiben", "Den Traum verbieten", "Nichts sagen"], "a": 0, "exp": "„sollten wir jungen Menschen helfen, realistisch zu bleiben“." }
+    ]
+  },
+  {
+    "id": "B2_R31", "level": "B2", "type": "Sachtext", "title": "Die Macht der Gewohnheit",
+    "text": "DIE MACHT DER GEWOHNHEIT\n\nEin großer Teil unseres Tages besteht aus Gewohnheiten — Handlungen, die wir ausführen, ohne nachzudenken. Das ist sinnvoll: Unser Gehirn spart so Energie. Stellen Sie sich vor, Sie müssten jeden Morgen neu überlegen, wie man Zähne putzt.\n\nDoch Gewohnheiten haben eine Kehrseite. Schlechte Routinen sind schwer abzulegen, weil sie tief verankert sind. Forscher raten: Statt eine Gewohnheit nur zu verbieten, sollte man sie durch eine neue ersetzen. Auch kleine Schritte und feste Auslöser helfen — etwa direkt nach dem Aufstehen ein Glas Wasser zu trinken. Wer das versteht, kann sein Verhalten gezielter verändern, als er glaubt.",
+    "questions": [
+      { "type": "MCQ", "q": "Woraus besteht ein großer Teil unseres Tages?", "opts": ["Aus Gewohnheiten", "Aus Entscheidungen", "Aus Pausen"], "a": 0, "exp": "„Ein großer Teil unseres Tages besteht aus Gewohnheiten“." },
+      { "type": "MCQ", "q": "Warum ist das laut Text sinnvoll?", "opts": ["Das Gehirn spart Energie", "Es macht Spaß", "Es ist verboten"], "a": 0, "exp": "„Unser Gehirn spart so Energie.“" },
+      { "type": "TF", "q": "Schlechte Routinen sind leicht abzulegen.", "a": false, "exp": "„Schlechte Routinen sind schwer abzulegen, weil sie tief verankert sind.“" },
+      { "type": "MCQ", "q": "Was raten Forscher?", "opts": ["Eine Gewohnheit durch eine neue ersetzen", "Nie etwas ändern", "Alles auf einmal verbieten"], "a": 0, "exp": "„sollte man sie durch eine neue ersetzen“." },
+      { "type": "MCQ", "q": "Welches Beispiel für einen festen Auslöser nennt der Text?", "opts": ["Nach dem Aufstehen ein Glas Wasser trinken", "Abends laufen", "Mittags schlafen"], "a": 0, "exp": "„etwa direkt nach dem Aufstehen ein Glas Wasser zu trinken“." },
+      { "type": "MCQ", "q": "Was kann, wer das versteht?", "opts": ["Sein Verhalten gezielter verändern", "Nichts tun", "Mehr vergessen"], "a": 0, "exp": "„kann sein Verhalten gezielter verändern, als er glaubt“." }
+    ]
+  },
+  {
+    "id": "B2_R32", "level": "B2", "type": "Interview", "title": "Ein Landwirt über Bio-Landwirtschaft",
+    "text": "INTERVIEW mit Biobauer Herrn Schwarz\n\nReporter: Warum haben Sie auf Bio-Landwirtschaft umgestellt?\nHerr Schwarz: Ich wollte nicht länger mit Pestiziden arbeiten, die den Boden auslaugen. Heute ist meine Erde wieder voller Leben.\nReporter: Bio ist teurer. Verstehen die Kunden das?\nHerr Schwarz: Die meisten ja. Wer einmal versteht, wie viel Arbeit dahintersteckt, zahlt gern etwas mehr.\nReporter: Würden Sie zurückwechseln?\nHerr Schwarz: Niemals. Ich produziere vielleicht weniger, aber ich kann meinen Kindern wieder in die Augen schauen. Das ist mir wichtiger als der maximale Ertrag.",
+    "questions": [
+      { "type": "MCQ", "q": "Warum stellte Herr Schwarz auf Bio um?", "opts": ["Er wollte nicht mit Pestiziden arbeiten", "Er wollte mehr verdienen", "Er hatte keine Wahl"], "a": 0, "exp": "„Ich wollte nicht länger mit Pestiziden arbeiten, die den Boden auslaugen.“" },
+      { "type": "MCQ", "q": "Wie ist seine Erde heute?", "opts": ["Wieder voller Leben", "Tot", "Unverändert"], "a": 0, "exp": "„Heute ist meine Erde wieder voller Leben.“" },
+      { "type": "TF", "q": "Laut Herrn Schwarz verstehen die meisten Kunden den höheren Preis.", "a": true, "exp": "„Die meisten ja.“" },
+      { "type": "MCQ", "q": "Warum zahlen Kunden laut ihm gern mehr?", "opts": ["Wenn sie verstehen, wie viel Arbeit dahintersteckt", "Weil sie reich sind", "Aus Mitleid"], "a": 0, "exp": "„Wer einmal versteht, wie viel Arbeit dahintersteckt, zahlt gern etwas mehr.“" },
+      { "type": "TF", "q": "Herr Schwarz würde gern zur alten Methode zurückwechseln.", "a": false, "exp": "„Niemals.“" },
+      { "type": "MCQ", "q": "Was ist Herrn Schwarz wichtiger als maximaler Ertrag?", "opts": ["Seinen Kindern in die Augen schauen zu können", "Ein neues Auto", "Mehr Land"], "a": 0, "exp": "„ich kann meinen Kindern wieder in die Augen schauen. Das ist mir wichtiger als der maximale Ertrag.“" }
+    ]
+  },
+  {
+    "id": "B2_R33", "level": "B2", "type": "Argumentativer Text", "title": "Brauchen wir noch Trinkgeld?",
+    "text": "BRAUCHEN WIR NOCH TRINKGELD?\n\nIn Deutschland ist es üblich, im Restaurant etwa zehn Prozent Trinkgeld zu geben. Doch zunehmend wird gefragt, ob dieses System noch zeitgemäß ist. Kritiker meinen: Trinkgeld sei eine versteckte Subvention für Betriebe, die ihren Angestellten zu wenig zahlen.\n\nBefürworter halten dagegen, dass Trinkgeld gute Leistung belohne und für viele im Service ein wichtiger Teil des Einkommens sei. In manchen Ländern ist es längst im Preis enthalten. Vielleicht wäre das auch hier ehrlicher — vorausgesetzt, die höheren Löhne kämen tatsächlich bei den Beschäftigten an. Solange das nicht sicher ist, bleibt das Trinkgeld ein kleines, aber wichtiges Zeichen der Wertschätzung.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viel Trinkgeld ist in Deutschland üblich?", "opts": ["Etwa zehn Prozent", "Fünfzig Prozent", "Gar keins"], "a": 0, "exp": "„etwa zehn Prozent Trinkgeld zu geben“." },
+      { "type": "MCQ", "q": "Was meinen die Kritiker?", "opts": ["Trinkgeld sei eine versteckte Subvention für Betriebe", "Trinkgeld sei zu hoch", "Trinkgeld sei verboten"], "a": 0, "exp": "„Trinkgeld sei eine versteckte Subvention für Betriebe, die ... zu wenig zahlen“." },
+      { "type": "MCQ", "q": "Was sagen die Befürworter?", "opts": ["Trinkgeld belohnt gute Leistung und ist wichtiges Einkommen", "Trinkgeld ist sinnlos", "Trinkgeld schadet"], "a": 0, "exp": "„dass Trinkgeld gute Leistung belohne und für viele im Service ein wichtiger Teil des Einkommens sei“." },
+      { "type": "TF", "q": "In manchen Ländern ist das Trinkgeld schon im Preis enthalten.", "a": true, "exp": "„In manchen Ländern ist es längst im Preis enthalten.“" },
+      { "type": "MCQ", "q": "Unter welcher Bedingung wäre das laut Autor ehrlicher?", "opts": ["Wenn die höheren Löhne bei den Beschäftigten ankämen", "Wenn die Preise sänken", "Wenn es verboten wäre"], "a": 0, "exp": "„vorausgesetzt, die höheren Löhne kämen tatsächlich bei den Beschäftigten an“." },
+      { "type": "MCQ", "q": "Als was sieht der Autor das Trinkgeld vorläufig?", "opts": ["Als wichtiges Zeichen der Wertschätzung", "Als überflüssig", "Als Betrug"], "a": 0, "exp": "„bleibt das Trinkgeld ein kleines, aber wichtiges Zeichen der Wertschätzung“." }
+    ]
+  },
+  {
+    "id": "B2_R34", "level": "B2", "type": "Sachtext", "title": "Lärm — die unterschätzte Gefahr",
+    "text": "LÄRM — DIE UNTERSCHÄTZTE GEFAHR\n\nLärm ist mehr als nur lästig. Dauerhafte Belastung durch Verkehr, Baustellen oder laute Nachbarn kann krank machen. Studien zeigen einen Zusammenhang zwischen chronischem Lärm und Herz-Kreislauf-Erkrankungen, Schlafstörungen und Stress.\n\nBesonders heimtückisch ist, dass sich der Körper zwar an Geräusche gewöhnt, das Stresssystem aber weiterarbeitet — auch im Schlaf. Wir hören den Lärm irgendwann nicht mehr bewusst, doch er schadet uns trotzdem. Städte versuchen gegenzusteuern, etwa mit leiserem Asphalt oder Tempo-30-Zonen. Doch der wirksamste Schutz beginnt oft im Kleinen: Ruhe ist kein Luxus, sondern ein Grundbedürfnis.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist Lärm laut Text?", "opts": ["Mehr als nur lästig — er kann krank machen", "Nur unangenehm", "Harmlos"], "a": 0, "exp": "„Lärm ist mehr als nur lästig. Dauerhafte Belastung ... kann krank machen.“" },
+      { "type": "MCQ", "q": "Welchen Zusammenhang zeigen Studien?", "opts": ["Zwischen Lärm und Herz-Kreislauf-Erkrankungen", "Zwischen Lärm und Glück", "Zwischen Lärm und Reichtum"], "a": 0, "exp": "„einen Zusammenhang zwischen chronischem Lärm und Herz-Kreislauf-Erkrankungen, Schlafstörungen und Stress“." },
+      { "type": "MCQ", "q": "Was ist laut Text besonders heimtückisch?", "opts": ["Das Stresssystem arbeitet weiter, auch wenn man Lärm nicht mehr bewusst hört", "Lärm ist immer laut", "Lärm verschwindet nie"], "a": 0, "exp": "„der Körper gewöhnt sich ... das Stresssystem aber weiterarbeitet“." },
+      { "type": "TF", "q": "Wenn man Lärm nicht mehr bewusst hört, schadet er nicht mehr.", "a": false, "exp": "„Wir hören den Lärm irgendwann nicht mehr bewusst, doch er schadet uns trotzdem.“" },
+      { "type": "MCQ", "q": "Wie versuchen Städte gegenzusteuern?", "opts": ["Mit leiserem Asphalt oder Tempo-30-Zonen", "Mit mehr Autos", "Mit lauter Musik"], "a": 0, "exp": "„etwa mit leiserem Asphalt oder Tempo-30-Zonen“." },
+      { "type": "MCQ", "q": "Als was bezeichnet der Text Ruhe?", "opts": ["Kein Luxus, sondern ein Grundbedürfnis", "Einen Luxus", "Etwas Unwichtiges"], "a": 0, "exp": "„Ruhe ist kein Luxus, sondern ein Grundbedürfnis“." }
+    ]
+  },
+  {
+    "id": "B2_R35", "level": "B2", "type": "Argumentativer Text", "title": "Keine Zeit!",
+    "text": "GLOSSE: Keine Zeit!\n\n„Wie geht's?“ — „Stressig, viel zu tun!“ So lautet heute der normale Gruß. Wer keine Zeit hat, gilt als wichtig. Ein leerer Kalender dagegen wirkt fast verdächtig, als hätte man im Leben versagt.\n\nDabei haben wir die meiste Arbeit gar nicht, sondern wir machen sie uns. Wir füllen jede Lücke mit Terminen, Hobbys, Verpflichtungen — und wundern uns dann, dass wir erschöpft sind. Vielleicht wäre es mutiger, einfach mal „nichts“ zu tun und es auch zuzugeben. Denn die wahre Kunst besteht heute nicht darin, mehr zu schaffen, sondern darin, gelassen weniger zu wollen. Aber dafür habe ich gerade leider keine Zeit.",
+    "questions": [
+      { "type": "MCQ", "q": "Was gilt heute laut Glosse als Zeichen von Wichtigkeit?", "opts": ["Keine Zeit zu haben", "Viel zu schlafen", "Reich zu sein"], "a": 0, "exp": "„Wer keine Zeit hat, gilt als wichtig.“" },
+      { "type": "TF", "q": "Ein leerer Kalender wirkt laut Text positiv und entspannt.", "a": false, "exp": "„Ein leerer Kalender dagegen wirkt fast verdächtig, als hätte man im Leben versagt.“" },
+      { "type": "MCQ", "q": "Woher kommt laut Autor die meiste Arbeit?", "opts": ["Wir machen sie uns selbst", "Vom Chef", "Vom Staat"], "a": 0, "exp": "„wir machen sie uns“." },
+      { "type": "MCQ", "q": "Worüber wundern wir uns laut Text?", "opts": ["Dass wir erschöpft sind", "Dass wir Zeit haben", "Dass wir glücklich sind"], "a": 0, "exp": "„wundern uns dann, dass wir erschöpft sind“." },
+      { "type": "MCQ", "q": "Worin besteht laut Autor die wahre Kunst heute?", "opts": ["Gelassen weniger zu wollen", "Mehr zu schaffen", "Schneller zu sein"], "a": 0, "exp": "„nicht darin, mehr zu schaffen, sondern darin, gelassen weniger zu wollen“." },
+      { "type": "MCQ", "q": "Womit endet die Glosse humorvoll?", "opts": ["„dafür habe ich gerade leider keine Zeit“", "Mit einem Termin", "Mit einem Lob"], "a": 0, "exp": "„Aber dafür habe ich gerade leider keine Zeit.“" }
+    ]
+  }
+]

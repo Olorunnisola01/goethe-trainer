@@ -1,0 +1,183 @@
+[
+  {
+    "id": "LST_A1_1",
+    "level": "A1",
+    "part": "Teil 1",
+    "title": "Kurze Gespräche im Alltag",
+    "instructions": "Sie hören drei kurze Gespräche. Beantworten Sie die Fragen.",
+    "audioScript": "Gespräch eins. Frau: Entschuldigung, wie spät ist es? Mann: Es ist Viertel vor drei. Frau: Danke schön. Mann: Bitte. ... Gespräch zwei. Verkäufer: Guten Tag, was darf es sein? Kundin: Ich hätte gerne ein Brot und drei Brötchen, bitte. Verkäufer: Das macht zusammen vier Euro fünfzig. ... Gespräch drei. Anna: Hallo Tom, kommst du heute Abend zum Kino? Tom: Ich kann leider nicht, ich bin krank. Anna: Oh, gute Besserung!",
+    "duration": 300,
+    "questions": [
+      {
+        "q": "Wie spät ist es im ersten Gespräch?",
+        "opts": [
+          "Viertel nach drei",
+          "Viertel vor drei",
+          "Halb drei"
+        ],
+        "a": 1,
+        "exp": "Der Mann sagt: \"Es ist Viertel vor drei.\""
+      },
+      {
+        "q": "Was kauft die Kundin?",
+        "opts": [
+          "Ein Brot und drei Brötchen",
+          "Drei Brote",
+          "Ein Brötchen und drei Brote"
+        ],
+        "a": 0,
+        "exp": "\"Ich hätte gerne ein Brot und drei Brötchen, bitte.\""
+      },
+      {
+        "q": "Warum kommt Tom nicht ins Kino?",
+        "opts": [
+          "Er hat keine Zeit",
+          "Er ist krank",
+          "Er mag den Film nicht"
+        ],
+        "a": 1,
+        "exp": "Tom sagt: \"Ich kann leider nicht, ich bin krank.\""
+      }
+    ]
+  },
+  {
+    "id": "LST_A1_2",
+    "level": "A1",
+    "part": "Teil 2",
+    "title": "Ansagen am Bahnhof",
+    "instructions": "Sie hören zwei Ansagen am Bahnhof. Sind die Aussagen richtig oder falsch?",
+    "audioScript": "Achtung, eine Durchsage! Der ICE 525 nach München fährt heute von Gleis 7. Ich wiederhole: ICE 525 nach München, Abfahrt um neun Uhr fünfzehn von Gleis 7. ... Achtung, eine Durchsage. Der Regionalzug nach Hamburg hat zehn Minuten Verspätung. Wir bitten um Verständnis.",
+    "duration": 240,
+    "questions": [
+      {
+        "q": "Der ICE nach München fährt von Gleis 7.",
+        "opts": [
+          "Richtig",
+          "Falsch"
+        ],
+        "a": 0,
+        "exp": "\"...fährt heute von Gleis 7.\""
+      },
+      {
+        "q": "Der ICE fährt um neun Uhr ab.",
+        "opts": [
+          "Richtig",
+          "Falsch"
+        ],
+        "a": 1,
+        "exp": "Er fährt um 9:15 Uhr."
+      },
+      {
+        "q": "Der Zug nach Hamburg ist pünktlich.",
+        "opts": [
+          "Richtig",
+          "Falsch"
+        ],
+        "a": 1,
+        "exp": "Er hat 10 Minuten Verspätung."
+      }
+    ]
+  },
+  {
+    "id": "LST_A2_1",
+    "level": "A2",
+    "part": "Teil 1",
+    "title": "Telefongespräch — Termin beim Arzt",
+    "instructions": "Sie hören ein Gespräch zwischen einer Patientin und einer Arzthelferin. Beantworten Sie die Fragen.",
+    "audioScript": "Praxis Doktor Schmidt, guten Tag. Hallo, hier spricht Maria Becker. Ich hätte gerne einen Termin. Sehr gerne. Was haben Sie für Beschwerden? Ich habe seit drei Tagen starke Kopfschmerzen und Fieber. Verstehe. Können Sie morgen um zehn Uhr kommen? Morgen um zehn ist gut. Soll ich etwas mitbringen? Ja, bitte Ihre Versichertenkarte und eine Liste Ihrer Medikamente. Vielen Dank, bis morgen. Auf Wiederhören.",
+    "duration": 360,
+    "questions": [
+      {
+        "q": "Wie heißt die Patientin?",
+        "opts": [
+          "Maria Schmidt",
+          "Maria Becker",
+          "Anna Becker"
+        ],
+        "a": 1,
+        "exp": "\"Hier spricht Maria Becker.\""
+      },
+      {
+        "q": "Welche Beschwerden hat sie?",
+        "opts": [
+          "Bauchschmerzen",
+          "Kopfschmerzen und Fieber",
+          "Husten"
+        ],
+        "a": 1,
+        "exp": "\"...starke Kopfschmerzen und Fieber.\""
+      },
+      {
+        "q": "Wann ist der Termin?",
+        "opts": [
+          "Heute Nachmittag",
+          "Morgen um zehn",
+          "Übermorgen"
+        ],
+        "a": 1,
+        "exp": "\"Können Sie morgen um zehn Uhr kommen?\""
+      },
+      {
+        "q": "Was soll sie mitbringen?",
+        "opts": [
+          "Versichertenkarte und Medikamentenliste",
+          "Nur Bargeld",
+          "Einen Ausweis"
+        ],
+        "a": 0,
+        "exp": "\"Ihre Versichertenkarte und eine Liste Ihrer Medikamente.\""
+      }
+    ]
+  },
+  {
+    "id": "LST_B1_1",
+    "level": "B1",
+    "part": "Teil 1",
+    "title": "Radioausschnitt — Klimawandel im Alltag",
+    "instructions": "Sie hören einen kurzen Radioausschnitt. Beantworten Sie die Fragen.",
+    "audioScript": "Der Klimawandel verändert auch unseren Alltag in Deutschland. Heißere Sommer, kältere Winter und immer häufiger extreme Wetterlagen. Experten raten dazu, im Sommer mehr Wasser zu trinken, leichte Kleidung zu tragen und intensive Sonneneinstrahlung zwischen elf und fünfzehn Uhr zu vermeiden. Auch die Energiepreise steigen wegen der Klimakrise. Wer Energie sparen möchte, sollte zum Beispiel kürzer duschen, im Stand-by-Modus Geräte ausschalten und öfter mit dem Fahrrad fahren statt mit dem Auto. Kleine Veränderungen im Alltag können viel bewirken — sowohl für die Umwelt als auch für den eigenen Geldbeutel.",
+    "duration": 480,
+    "questions": [
+      {
+        "q": "Was sagen die Experten zur Sommerhitze?",
+        "opts": [
+          "Viel Kaffee trinken",
+          "Mehr Wasser trinken und Sonne meiden",
+          "Den ganzen Tag draußen bleiben"
+        ],
+        "a": 1,
+        "exp": "\"Mehr Wasser zu trinken... intensive Sonneneinstrahlung... vermeiden.\""
+      },
+      {
+        "q": "Warum steigen die Energiepreise?",
+        "opts": [
+          "Wegen der Klimakrise",
+          "Wegen des Krieges",
+          "Wegen der Inflation"
+        ],
+        "a": 0,
+        "exp": "\"Auch die Energiepreise steigen wegen der Klimakrise.\""
+      },
+      {
+        "q": "Welcher Tipp wird NICHT genannt?",
+        "opts": [
+          "Kürzer duschen",
+          "Mehr Fleisch essen",
+          "Geräte aus dem Stand-by nehmen"
+        ],
+        "a": 1,
+        "exp": "Mehr Fleisch wird nicht erwähnt."
+      },
+      {
+        "q": "Was bewirken kleine Veränderungen laut dem Text?",
+        "opts": [
+          "Nur etwas für die Umwelt",
+          "Nur Geld sparen",
+          "Beides — Umwelt und Geldbeutel"
+        ],
+        "a": 2,
+        "exp": "\"...sowohl für die Umwelt als auch für den eigenen Geldbeutel.\""
+      }
+    ]
+  }
+]

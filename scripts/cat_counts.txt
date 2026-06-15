@@ -1,0 +1,335 @@
+
+===== A1 — 28 categories, 760 headwords =====
+  GREETINGS & FAREWELLS                                30
+  PERSONAL INFORMATION                                 28
+  FAMILY & RELATIONSHIPS                               31
+  NUMBERS & QUANTITIES                                 42
+  TIME, CALENDAR & DAYS                                52
+  HOME & LIVING SPACES                                 38
+  FOOD & DRINK                                         49
+  SHOPPING & MONEY                                     27
+  TRANSPORTATION & GETTING AROUND                      29
+  HEALTH & BODY                                        32
+  CLOTHING & FASHION                                   25
+  COLORS                                               16
+  BASIC VERBS & ACTIONS                                39
+  DESCRIPTIONS & ADJECTIVES                            40
+  QUESTION WORDS & BASICS                              34
+  PLACES IN TOWN & COMMUNITY                           26
+  ANIMALS & NATURE                                     27
+  SCHOOL & BASIC EDUCATION                             21
+  NUMBERS, MEASUREMENTS & MONEY                        14
+  TELLING THE TIME                                     10
+  BASIC CONJUNCTIONS & SENTENCE CONNECTORS             15
+  COMMON ADVERBS & INTENSIFIERS                        16
+  WEATHER EXPRESSIONS                                  21
+  BASIC PREPOSITIONS IN CONTEXT                        23
+  IN THE CLASSROOM & LEARNING GERMAN                   22
+  BASIC ADJECTIVE OPPOSITES                            29
+  COMMON EVERYDAY VERBS                                19
+  FROM SHORT STORIES                                    5
+
+===== A2 — 44 categories, 666 headwords =====
+  EVERYDAY OBJECTS & STATIONERY                        14
+  DAILY ROUTINE & HOUSEHOLD                            28
+  LEISURE, HOBBIES & SPORTS                            32
+  TRAVEL & TOURISM                                     28
+  RESTAURANT & FOOD SERVICE                            20
+  EDUCATION & SCHOOL                                   24
+  WORK & PROFESSIONS                                   25
+  COMMUNICATION & MEDIA                                20
+  NATURE, WEATHER & ENVIRONMENT                        23
+  HEALTH & MEDICAL CARE                                19
+  FEELINGS & EMOTIONS                                  20
+  POST OFFICE & BANKING                                17
+  APPOINTMENTS & PLANNING                              11
+  INVITATIONS & SOCIAL LIFE                            11
+  CONNECTORS & USEFUL PHRASES                          17
+  DESCRIPTIONS: CHARACTER & APPEARANCE                 17
+  DIRECTIONS & LOCATION                                14
+  SHOPPING                                             14
+  HOME, FURNISHINGS & REPAIRS                          14
+  TRANSPORT & GETTING AROUND                           14
+  WORK & CAREER                                        12
+  HEALTH & BODY                                        14
+  EDUCATION                                            12
+  TELEPHONE, LETTERS & WRITTEN COMMUNICATION           12
+  NATURE, ANIMALS & ENVIRONMENT                        12
+  CULTURE, MEDIA & LEISURE                             14
+  DESCRIPTIONS: SIZE, SHAPE & MATERIAL                 11
+  COMPARING & CONTRASTING                              11
+  GIVING ADVICE & MAKING REQUESTS                      12
+  DESCRIBING EVENTS & EXPERIENCES                      15
+  PROFESSIONS & WORKPLACES                             14
+  HOLIDAYS, COUNTRIES & LANGUAGES                      13
+  HEALTH & PERSONAL HYGIENE                            10
+  AT THE DOCTOR & PHARMACY                             10
+  NUMBERS IN DAILY LIFE                                 7
+  EXPRESSING OPINIONS FORMALLY & INFORMALLY            11
+  DIGITAL COMMUNICATION & MESSAGING                    12
+  SPORT & BODY VOCABULARY                              10
+  MAKING PLANS & ARRANGEMENTS                           9
+  HOUSING ADVERTS & PROPERTY LANGUAGE                  10
+  JOB ADVERTS & RECRUITMENT LANGUAGE                    9
+  FOOD LABELS, DIETS & NUTRITION SCIENCE               12
+  SCHOOL & UNIVERSITY ADMINISTRATION                    9
+  FROM SHORT STORIES                                   23
+
+===== B1 — 93 categories, 1339 headwords =====
+  EXAM INSTRUCTIONS & TEST VOCABULARY                  16
+  ANGLIZISMEN & ABBREVIATIONS                          15
+  SOCIETY, POLITICS & CITIZENSHIP                      22
+  CULTURE, ARTS & MEDIA                                19
+  WORK, ECONOMY & BUSINESS                             21
+  ENVIRONMENT & SUSTAINABILITY                         18
+  LANGUAGE & COMMUNICATION SKILLS                      16
+  HOUSING, RENTING & MOVING                            15
+  BANKING, FINANCE & ADMINISTRATION                    16
+  POST, SERVICES & ADMINISTRATION                      13
+  TRAFFIC, ROADS & TRANSPORT LAW                       15
+  MEDICAL SYSTEM & HEALTHCARE                          15
+  FAMILY LIFE, EVENTS & LAW                            13
+  FURTHER EDUCATION & TRAINING                         11
+  GLOBAL ISSUES & CURRENT AFFAIRS                      14
+  HEALTH, FITNESS & WELLBEING                          17
+  TECHNOLOGY & DIGITAL LIFE                            18
+  SCIENCE, RESEARCH & EDUCATION                        16
+  COOKING METHODS & FOOD CULTURE                       17
+  SPORTS                                               17
+  CONSTRUCTION, ARCHITECTURE & HOUSING                 14
+  HOUSEHOLD REPAIRS & DIY                              13
+  AIRPORT & TRAVEL PROCEDURES                          15
+  WORD FAMILIES & DERIVATIONS                          15
+  VERB-PREPOSITION COMBINATIONS                        20
+  SEPARABLE & REFLEXIVE VERBS                          17
+  GRAMMAR-LINKED VOCABULARY: KONJUNKTIV II             12
+  GENITIVE PREPOSITIONS & TWO-WAY PREPOSITIONS         11
+  FIXED EXPRESSIONS & COLLOCATIONS                     18
+  ADJECTIVE-PREPOSITION COMBINATIONS                   15
+  THINKING, REASONING & PROBLEM SOLVING                12
+  ABSTRACT & ACADEMIC LANGUAGE                         11
+  OPINIONS & ARGUMENTATION                             13
+  SOCIAL ISSUES & VOLUNTEERING                          7
+  LAW & LEGAL RIGHTS                                   13
+  MEDIA LITERACY & JOURNALISM                           9
+  PHILOSOPHY, ETHICS & VALUES                           9
+  EXTENDED GRAMMAR VOCABULARY: WORD ORDER & CLAUSES    10
+  IDIOMS & COMMON EXPRESSIONS                          16
+  DESCRIBING PROCESSES & PROCEDURES                    10
+  NUMBERS, DATA & STATISTICS                           10
+  EXPRESSING UNCERTAINTY & PROBABILITY                 10
+  TRAVEL & CULTURE                                     12
+  ENVIRONMENTAL POLICY & CLIMATE                       11
+  RELATIONSHIPS, SOCIAL DYNAMICS & CONFLICT            10
+  DESCRIBING CHANGE & DEVELOPMENT                      10
+  HOUSING MARKET, PROPERTY & URBAN LIFE                11
+  ECONOMY, TRADE & GLOBALISATION                       12
+  POLITICS & GOVERNANCE                                14
+  MIGRATION, IDENTITY & INTEGRATION                    13
+  EDUCATION SYSTEM & LIFELONG LEARNING                 11
+  SCIENCE, TECHNOLOGY & DIGITAL FUTURE                 13
+  HEALTH SYSTEM & SOCIAL WELFARE                       12
+  ENVIRONMENT & URBAN PLANNING                         12
+  WRITING SKILLS & TEXT TYPES                          10
+  DISCUSSING TRENDS & SOCIAL CHANGE                    12
+  EXPRESSING VIEWS ON COMPLEX TOPICS                   12
+  CULTURAL LIFE, FESTIVALS & TRADITIONS                12
+  WORD FORMATION: PREFIXES & SUFFIXES                  12
+  REFLEXIVE VERBS & COMMON COLLOCATIONS                15
+  NUMBERS, FRACTIONS & MATHEMATICAL LANGUAGE           10
+  CIVIC LIFE & PARTICIPATION                           10
+  SOCIAL MEDIA, ONLINE LIFE & PRIVACY                  11
+  GERMAN-SPEAKING WORLD & CULTURE                       9
+  FORMAL WRITING & CORRESPONDENCE                      10
+  PHILOSOPHY OF DAILY LIFE & SELF-REFLECTION           12
+  EXTENDED SEPARABLE VERBS                             25
+  CONCESSION, CONTRAST & NUANCE                        12
+  DISCUSSING PLANS & INTENTIONS                         9
+  WORK SAFETY, RIGHTS & WORKPLACE LAW                   9
+  DESCRIBING LOCATION & SPATIAL RELATIONSHIPS          10
+  CRITICISM, PRAISE & EVALUATION LANGUAGE               8
+  HOUSING POLICY & SOCIAL HOUSING                       9
+  CONSUMER RIGHTS & COMPLAINTS                          9
+  INTERCULTURAL COMMUNICATION & ETIQUETTE              10
+  MEDICINE & HUMAN BIOLOGY                             12
+  LANDSCAPE, GEOGRAPHY & REGIONS                       10
+  AGRICULTURE, FOOD PRODUCTION & SUPPLY CHAIN           9
+  EXTENDED ADJECTIVES & ADVERBIAL PHRASES              74
+  HISTORY & COMMEMORATION                               9
+  SUSTAINABILITY & FUTURE PERSPECTIVES                  9
+  URBAN MOBILITY & TRANSPORT OF THE FUTURE             10
+  ENERGY, CLIMATE TECHNOLOGY & INNOVATION              10
+  GLOBALISATION: WINNERS & LOSERS                       9
+  LIVING ABROAD & EXPAT LIFE                           10
+  WORKPLACE COMMUNICATION & EMAIL LANGUAGE             10
+  EMERGENCY SERVICES & CRISIS COMMUNICATION            10
+  SOCIAL PARTICIPATION & VOLUNTEERING                   6
+  ACADEMIC WRITING & RESEARCH METHODS                  11
+  CREATIVE ARTS, DESIGN & ARCHITECTURE                  7
+  SPORT, COMPETITION & FAIR PLAY                       10
+  DESCRIBING PROCESSES IN NATURE & SCIENCE              9
+  FROM SHORT STORIES                                  133
+
+===== B2 — 162 categories, 2755 headwords =====
+  HEIMAT & AUSWANDERN                                  21
+  SPRACHE & IDENTITÄT                                  21
+  KOMMUNIKATION & INTERKULTURELLES                     20
+  MEHRSPRACHIGKEIT & SPRACHERWERB                      21
+  KRITIK & KONFLIKTLÖSUNG                              21
+  BEWERBUNG & STELLENSUCHE                             21
+  ARBEITSWELT & ARBEITSUMFELD                          21
+  TEAMARBEIT & VERANSTALTUNGEN                         21
+  GESELLSCHAFT & SOZIALES LEBEN                        21
+  ARMUT & SOZIALE GERECHTIGKEIT                        21
+  SUCHT & DIGITALES LEBEN                              21
+  FAMILIE & ROLLENBILDER                               21
+  WISSENSCHAFT & BILDUNG                               21
+  LÜGE, WAHRHEIT & PSYCHOLOGIE                         21
+  DIGITALES & ONLINEWELT                               21
+  TELEFONIEREN & FORMELLE KOMMUNIKATION                21
+  KULTUR & KUNSTWELT                                   21
+  SPRACHE & SPRACHENSTERBEN                            21
+  GESCHICHTE & HISTORISCHES                            20
+  DEUTSCHE GESCHICHTE (DDR & MAUERFALL)                20
+  GEFÜHLE & MUSIK                                      21
+  ENTSCHEIDUNGEN & EMOTIONEN                           21
+  ROBOTER & TECHNOLOGIE                                20
+  ZUKUNFTSVISIONEN & BERUFE                            21
+  KONNEKTOREN & SATZVERBINDUNG                         18
+  TEXTE SCHREIBEN & BERICHTEN                          20
+  KOMPLEXE NOMEN                                       16
+  FORTGESCHRITTENE VERBEN                              18
+  FORTGESCHRITTENE ADJEKTIVE                           19
+  HEIMAT & IDENTITÄT – VERBEN                          20
+  POLITIK & GESELLSCHAFT VERTIEFT                      18
+  WIRTSCHAFT & UNTERNEHMEN                             17
+  WISSENSCHAFT & NATUR                                 17
+  SCHLAF, STRESS & GESUNDHEIT                          18
+  LITERATUR & FILMKUNST                                20
+  GEFÜHLE & EMOTIONALE AUSDRÜCKE                       13
+  DIGITALE MEDIZIN & GESUNDHEITSTECHNIK                10
+  REDEWENDUNGEN & FESTE AUSDRÜCKE                      16
+  WICHTIGE ADJEKTIVE & NOMEN GEMISCHT                  19
+  PRAKTIKUM & KARRIEREPLANUNG                          20
+  LINGUISTIK & SPRACHGEBRAUCH                          15
+  ENERGIE & UMWELTPOLITIK                              18
+  JOURNALISMUS & MEDIENSPRACHE                         17
+  PSYCHOLOGIE & MENSCHLICHES VERHALTEN                 14
+  WOHNEN & STADTENTWICKLUNG                            20
+  BILDUNG & SCHULSYSTEM                                18
+  INTERKULTURALITÄT & TRADITION                        17
+  RECHT & GESETZ VERTIEFT                              21
+  GLOBALISIERUNG & WELTWIRTSCHAFT                      21
+  SOZIALER WANDEL & GESELLSCHAFT                       15
+  KÖRPER, SINNE & MEDIZIN                              16
+  TECHNIK & INNOVATION                                 19
+  SATZSTRUKTUREN & GRAMMATISCHE BEGRIFFE               20
+  MEDIZIN & THERAPIEFORMEN                             19
+  FORSCHUNGSMETHODEN & WISSENSCHAFT                    16
+  ENTWICKLUNG & GLOBALE GERECHTIGKEIT                  15
+  DEMOKRATIE & POLITISCHE PROZESSE                     21
+  KULTUR & MEDIENKONSUM                                18
+  REISEN & TOURISMUS                                   21
+  SPORT, FREIZEIT & HOBBYS                             19
+  ERNÄHRUNG & GESUNDER LEBENSSTIL                      19
+  ARCHITEKTUR & KULTURERBE                             17
+  SOZIALE MEDIEN & DIGITALE IDENTITÄT                  13
+  EMOTIONEN & PSYCHOLOGISCHE KONZEPTE                  17
+  FINANZEN & WIRTSCHAFT VERTIEFT                       18
+  SPRACHEN LERNEN & METHODIK                           18
+  KLIMAWANDEL & ÖKOLOGISCHE KRISE                      16
+  INTERKULTURELLE KOMMUNIKATION & KONFLIKTE            17
+  STRAFRECHT & JUSTIZ                                  20
+  KREATIVITÄT & KUNSTPRODUKTION                        18
+  THEATER, FILM & DARSTELLENDE KUNST                   19
+  MUSIK & MUSIKBRANCHE                                 20
+  LITERATUR & LITERARISCHE GENRES                      20
+  DIGITALE BERUFSFELDER & NEW WORK                     20
+  SOZIALSTAAT & SOZIALE SICHERUNG                      20
+  PHILOSOPHIE & ETHIK                                  21
+  MIGRATION, ASYL & INTEGRATION                        18
+  E-GOVERNMENT & DIGITALE VERWALTUNG                   18
+  NATUR, LANDSCHAFT & TIERWELT                         17
+  SCHULPÄDAGOGIK & LERNTHEORIE                         18
+  DEBATTE & RHETORIK                                   16
+  STADTLEBEN & URBANE KULTUR                           17
+  WIRTSCHAFTSPOLITIK & KONJUNKTUR                      13
+  KOMMUNIKATION IM BERUF                               18
+  GESUNDHEITSSYSTEM & VERSORGUNG                       16
+  GESELLSCHAFTLICHE WERTE & NORMEN                     12
+  SPRACHERWERBSTHEORIEN & KOGNITION                    18
+  GLOBALE HERAUSFORDERUNGEN                            18
+  WANDEL DER ARBEITSWELT                               17
+  WISSENSCHAFT & GESELLSCHAFT                          15
+  SOZIOLOGIE & SOZIALE STRUKTUREN                      18
+  SOZIALPSYCHOLOGIE & GRUPPENVERHALTEN                 16
+  SPRACHWANDEL & VARIETÄTEN                            19
+  MODERNE GESCHICHTE & ZEITGESCHICHTE                  17
+  BIOETHIK & MEDIZINISCHE ETHIK                        19
+  GENDER & DIVERSITÄT                                  16
+  UMWELTRECHT & UMWELTPOLITIK                          19
+  DIGITALPOLITIK & TECHNOLOGIERECHT                    20
+  INTERNATIONALE BEZIEHUNGEN & GEOPOLITIK              20
+  DIGITALE TRANSFORMATION & INDUSTRIE                  18
+  GRAMMATIK: KONJUNKTIV & PASSIV VERTIEFT              18
+  IDIOME & FESTE WENDUNGEN 2                           20
+  KONSUM, WERBUNG & VERBRAUCHERSCHUTZ                  19
+  KONFLIKT, FRIEDEN & SICHERHEIT                       20
+  MEDIZINISCHE FORSCHUNG & BIOTECHNOLOGIE              20
+  LANDWIRTSCHAFT & ERNÄHRUNGSPOLITIK                   19
+  STADTENTWICKLUNG & INFRASTRUKTUR                     20
+  ERZIEHUNG, WERTE & GENERATIONEN                      19
+  SPRACHE & MACHT                                      19
+  DIGITALE BILDUNG & E-LEARNING                        20
+  SPORT & GESELLSCHAFT                                 19
+  DESIGN, ARCHITEKTUR & RAUMGESTALTUNG                 17
+  POLITISCHE PARTIZIPATION & ZIVILGESELLSCHAFT         18
+  DEUTSCHLANDS KULTUR & KULTURWISSEN                   19
+  MENSCHENRECHTE & GRUNDFREIHEITEN                     16
+  PSYCHISCHE GESUNDHEIT & WOHLBEFINDEN                 18
+  FINANZMÄRKTE & INVESTITIONEN                         19
+  KULTURTOURISMUS & KULTURERLEBNISSE                   18
+  GESCHICHTSBEWUSSTSEIN & ERINNERUNG                   19
+  DIGITALE KOMMUNIKATION & NEUE MEDIEN                 15
+  TECHNIKETHIK & ZUKUNFTSFRAGEN                        20
+  KRIMINALITÄT & GESELLSCHAFT                          20
+  SOZIALPOLITIK & SOZIALER STAAT                       16
+  GEOGRAPHIE & REGIONALE UNTERSCHIEDE                  20
+  STEUERN, ABGABEN & ÖFFENTLICHE FINANZEN              18
+  TIERSCHUTZ & TIERETHIK                               17
+  GESELLSCHAFTSPHILOSOPHIE & UTOPIEN                   20
+  KUNSTGESCHICHTE & EPOCHEN                            14
+  GLOBALE WIRTSCHAFT & HANDEL                          17
+  GESUNDHEITSPOLITIK & ÖFFENTLICHE GESUNDHEIT          17
+  INNOVATION, START-UPS & UNTERNEHMERTUM               19
+  KLIMAANPASSUNG & RESILIENZ                           17
+  INTEGRATION & GESELLSCHAFTLICHER ZUSAMMENHALT        19
+  LERNSTRATEGIEN & GEDÄCHTNIS                          20
+  KONFLIKTMANAGEMENT & INTERNATIONALE DIPLOMATIE       18
+  NATURPHÄNOMENE & NATURWISSENSCHAFTEN                 17
+  UMWELT & KLIMAWANDEL                                  5
+  DIGITALE WELT & KI                                    3
+  GESUNDHEIT & PSYCHE                                   3
+  WIRTSCHAFT & ARBEITSWELT                              3
+  POLITIK, RECHT & GESELLSCHAFT                         2
+  ARBEIT & BERUFSWELT                                   6
+  UMWELT & NACHHALTIGKEIT                               5
+  MEDIEN & DIGITALISIERUNG                              2
+  GESELLSCHAFT & WERTE                                  6
+  POLITIK & DEMOKRATIE                                  3
+  GESUNDHEIT & PSYCHOLOGIE                              3
+  WISSENSCHAFT, FORSCHUNG & ETHIK                      11
+  GLOBALISIERUNG & INTERNATIONALE BEZIEHUNGEN          12
+  WIRTSCHAFT & GLOBALISIERUNG                           6
+  BILDUNG & WISSENSCHAFT                               14
+  KUNST, KULTUR & MEDIEN                               10
+  MOBILITÄT & VERKEHR                                   6
+  RECHT & JUSTIZ                                        6
+  PSYCHOLOGIE & GESELLSCHAFT                            4
+  UMWELTPOLITIK & NACHHALTIGKEIT                        7
+  TECHNIK & ZUKUNFT                                     6
+  GESUNDHEITSSYSTEM & MEDIZIN                           5
+  MODERNE ARBEITSWELT                                  13
+  SOZIALE GERECHTIGKEIT                                 6
+  WISSENSCHAFT & FORSCHUNG                              9
+  AUS KURZGESCHICHTEN                                  93

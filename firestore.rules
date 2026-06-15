@@ -1,0 +1,51 @@
+rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: users
+// Document ID: {userId} == the authenticated user's Firebase Auth uid
+// Purpose: stores ONE user's private notebook (Notizen) data.
+// Fields:
+//   - uid: string (required, immutable) — must equal the document id / auth uid
+//   - notes: list (required) — array of note maps (id, title, body HTML,
+//            cover, texture, category, pinned, createdAt, updatedAt). Max 5000.
+//   - categories: list (required) — array of folder-name strings. Max 500.
+//   - updatedAt: number (required) — client epoch millis of the last save.
+//
+// This is strictly private, per-user data. There are no shared/public reads,
+// no roles, and no PII beyond what the user themselves writes into notes.
+// Access is owner-only for every operation.
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ----- Helpers -----
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Validate the notebook document shape on create AND update.
+    function isValidNotebook(userId) {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['uid', 'notes', 'categories', 'updatedAt'])
+        && d.keys().hasAll(['uid', 'notes', 'categories', 'updatedAt'])
+        && d.uid is string && d.uid == userId
+        && d.notes is list && d.notes.size() <= 5000
+        && d.categories is list && d.categories.size() <= 500
+        && d.updatedAt is number;
+    }
+
+    // Each user's private notebook. Owner-only for every operation.
+    match /users/{userId} {
+      allow read:          if isOwner(userId);
+      allow create, update: if isOwner(userId) && isValidNotebook(userId);
+      allow delete:         if isOwner(userId);
+    }
+  }
+}

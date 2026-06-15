@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A2_R21", "level": "A2", "type": "E-Mail", "title": "Besuch und Wegbeschreibung",
+    "text": "Betreff: Besuch am Wochenende\n\nHallo Sofia,\n\nschön, dass du mich am Samstag besuchst! Hier die Wegbeschreibung: Nimm den Zug bis zum Hauptbahnhof. Dann gehst du aus dem Bahnhof nach links und immer geradeaus. Nach der Apotheke gehst du rechts in die Lindenstraße. Mein Haus ist Nummer 7, blaue Tür.\n\nRuf mich an, wenn du dich verläufst! Ich freue mich sehr.\n\nLiebe Grüße, Jana",
+    "questions": [
+      { "type": "TF", "q": "Sofia besucht Jana am Samstag.", "a": true, "exp": "„dass du mich am Samstag besuchst“." },
+      { "type": "MCQ", "q": "Wie soll Sofia anreisen?", "opts": ["Mit dem Zug", "Mit dem Auto", "Mit dem Flugzeug"], "a": 0, "exp": "„Nimm den Zug bis zum Hauptbahnhof.“" },
+      { "type": "MCQ", "q": "Wohin geht Sofia nach der Apotheke?", "opts": ["Nach rechts in die Lindenstraße", "Nach links", "Geradeaus weiter"], "a": 0, "exp": "„Nach der Apotheke gehst du rechts in die Lindenstraße.“" },
+      { "type": "MCQ", "q": "Welche Hausnummer hat Jana?", "opts": ["7", "17", "70"], "a": 0, "exp": "„Mein Haus ist Nummer 7“." },
+      { "type": "TF", "q": "Janas Tür ist rot.", "a": false, "exp": "„blaue Tür“." }
+    ]
+  },
+  {
+    "id": "A2_R22", "level": "A2", "type": "Anzeige", "title": "Gebrauchtwagen zu verkaufen",
+    "text": "GEBRAUCHTWAGEN ZU VERKAUFEN\n\nMarke: Volkswagen Golf\nBaujahr: 2016\nKilometerstand: 95.000 km\nFarbe: silber\nTÜV: neu (bis 2026)\n\nDas Auto ist in gutem Zustand, Nichtraucher-Auto. Klimaanlage und Winterreifen inklusive.\n\nPreis: 8.500 Euro (Verhandlungsbasis)\nProbefahrt möglich. Kontakt: Herr Demir, 0171-3344556",
+    "questions": [
+      { "type": "MCQ", "q": "Welche Marke ist das Auto?", "opts": ["BMW", "Volkswagen Golf", "Audi"], "a": 1, "exp": "„Marke: Volkswagen Golf“." },
+      { "type": "MCQ", "q": "Wie viele Kilometer ist das Auto gefahren?", "opts": ["9.500 km", "95.000 km", "8.500 km"], "a": 1, "exp": "„Kilometerstand: 95.000 km“." },
+      { "type": "TF", "q": "Im Auto wurde geraucht.", "a": false, "exp": "„Nichtraucher-Auto“." },
+      { "type": "TF", "q": "Eine Probefahrt ist möglich.", "a": true, "exp": "„Probefahrt möglich.“" },
+      { "type": "MCQ", "q": "Was ist im Preis inklusive?", "opts": ["Klimaanlage und Winterreifen", "Ein neues Radio", "Benzin für ein Jahr"], "a": 0, "exp": "„Klimaanlage und Winterreifen inklusive“." }
+    ]
+  },
+  {
+    "id": "A2_R23", "level": "A2", "type": "Blogeintrag", "title": "Ich habe Klettern ausprobiert",
+    "text": "BLOG: Ich habe Klettern ausprobiert!\n\nEine Freundin hat mich in die Kletterhalle mitgenommen. Ich hatte ein bisschen Angst, denn ich habe Höhenangst. Zuerst hat uns ein Trainer alles über die Sicherheit erklärt. Das war sehr wichtig.\n\nDie erste Wand war leicht, aber dann wurde es schwieriger. Bei der dritten Wand wollte ich aufgeben — doch meine Freundin hat mich motiviert. Am Ende habe ich es bis nach oben geschafft! Ich war stolz und glücklich. Nächste Woche gehe ich wieder.",
+    "questions": [
+      { "type": "MCQ", "q": "Wer hat den Autor in die Kletterhalle mitgenommen?", "opts": ["Eine Freundin", "Der Bruder", "Ein Trainer"], "a": 0, "exp": "„Eine Freundin hat mich ... mitgenommen.“" },
+      { "type": "TF", "q": "Der Autor hat Höhenangst.", "a": true, "exp": "„denn ich habe Höhenangst“." },
+      { "type": "MCQ", "q": "Was hat der Trainer zuerst erklärt?", "opts": ["Alles über die Sicherheit", "Wie man Tickets kauft", "Die Geschichte des Sports"], "a": 0, "exp": "„hat uns ein Trainer alles über die Sicherheit erklärt“." },
+      { "type": "TF", "q": "Der Autor hat bei der dritten Wand aufgegeben.", "a": false, "exp": "„meine Freundin hat mich motiviert. Am Ende habe ich es ... geschafft!“" },
+      { "type": "TF", "q": "Der Autor möchte wieder klettern gehen.", "a": true, "exp": "„Nächste Woche gehe ich wieder.“" }
+    ]
+  },
+  {
+    "id": "A2_R24", "level": "A2", "type": "Forum", "title": "Ein Restaurant in Köln",
+    "text": "FORUM: Stadt Köln\n\nFrage von Tourist22: Hallo! Ich besuche Köln nächste Woche. Könnt ihr mir ein gutes, nicht zu teures Restaurant empfehlen?\n\nAntwort von KölnerJunge: Geh unbedingt ins „Haus Töller“ in der Altstadt! Echt kölsche Küche, faire Preise und super freundlich. Probier den Sauerbraten! Tipp: Reservier am Wochenende, sonst musst du lange warten. Die Adresse findest du leicht online.",
+    "questions": [
+      { "type": "MCQ", "q": "Was sucht Tourist22?", "opts": ["Ein gutes Restaurant", "Ein Hotel", "Ein Museum"], "a": 0, "exp": "„Könnt ihr mir ein gutes, nicht zu teures Restaurant empfehlen?“" },
+      { "type": "MCQ", "q": "Welches Restaurant wird empfohlen?", "opts": ["Haus Töller", "Café Sonne", "Pizzeria Roma"], "a": 0, "exp": "„Geh unbedingt ins „Haus Töller““." },
+      { "type": "TF", "q": "Das Restaurant ist sehr teuer.", "a": false, "exp": "„faire Preise“." },
+      { "type": "MCQ", "q": "Was soll der Tourist probieren?", "opts": ["Den Sauerbraten", "Die Pizza", "Den Fisch"], "a": 0, "exp": "„Probier den Sauerbraten!“" },
+      { "type": "TF", "q": "Am Wochenende sollte man reservieren.", "a": true, "exp": "„Reservier am Wochenende, sonst musst du lange warten.“" }
+    ]
+  },
+  {
+    "id": "A2_R25", "level": "A2", "type": "Zeitungsartikel", "title": "Bibliothek öffnet länger",
+    "text": "BIBLIOTHEK ÖFFNET LÄNGER\n\nGute Nachrichten für Leseratten: Die Stadtbibliothek hat ab Juni längere Öffnungszeiten. Neu ist sie auch am Sonntag von 12 bis 18 Uhr geöffnet.\n\nDer Grund: Viele Berufstätige und Studierende haben sich das gewünscht. „Wir möchten für alle da sein“, sagt die Leiterin Frau Adler. Außerdem gibt es jetzt mehr Computerplätze und einen ruhigen Lernraum. Der Eintritt bleibt natürlich kostenlos.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist neu an der Bibliothek?", "opts": ["Längere Öffnungszeiten", "Ein Café", "Höhere Preise"], "a": 0, "exp": "„hat ab Juni längere Öffnungszeiten“." },
+      { "type": "TF", "q": "Die Bibliothek ist jetzt auch am Sonntag offen.", "a": true, "exp": "„auch am Sonntag von 12 bis 18 Uhr geöffnet“." },
+      { "type": "MCQ", "q": "Warum gibt es die Änderung?", "opts": ["Berufstätige und Studierende haben es gewünscht", "Es gibt mehr Geld", "Die alte Bibliothek war kaputt"], "a": 0, "exp": "„Viele Berufstätige und Studierende haben sich das gewünscht.“" },
+      { "type": "TF", "q": "Der Eintritt kostet jetzt Geld.", "a": false, "exp": "„Der Eintritt bleibt natürlich kostenlos.“" },
+      { "type": "MCQ", "q": "Was gibt es jetzt zusätzlich?", "opts": ["Mehr Computerplätze und einen Lernraum", "Ein Schwimmbad", "Einen Spielplatz"], "a": 0, "exp": "„mehr Computerplätze und einen ruhigen Lernraum“." }
+    ]
+  },
+  {
+    "id": "A2_R26", "level": "A2", "type": "Bericht", "title": "Ein Tag im Tierheim",
+    "text": "BERICHT: Ein Tag im Tierheim\n\nAm Samstag habe ich freiwillig im Tierheim geholfen. Zuerst war ich nervös, weil ich noch nie mit so vielen Tieren gearbeitet hatte. Eine Mitarbeiterin hat mir gezeigt, was zu tun ist.\n\nIch habe die Hunde gefüttert und bin mit ihnen spazieren gegangen. Am Nachmittag habe ich die Katzenkäfige sauber gemacht. Es war anstrengend, aber die Tiere waren so dankbar. Ich komme nächste Woche wieder. Vielleicht möchte ich später sogar einen Hund adoptieren.",
+    "questions": [
+      { "type": "MCQ", "q": "Wo hat der Autor geholfen?", "opts": ["Im Tierheim", "Im Krankenhaus", "In der Schule"], "a": 0, "exp": "„habe ich freiwillig im Tierheim geholfen“." },
+      { "type": "TF", "q": "Der Autor war am Anfang nervös.", "a": true, "exp": "„Zuerst war ich nervös“." },
+      { "type": "MCQ", "q": "Was hat der Autor mit den Hunden gemacht?", "opts": ["Sie gefüttert und spazieren geführt", "Sie gewaschen", "Sie verkauft"], "a": 0, "exp": "„Ich habe die Hunde gefüttert und bin mit ihnen spazieren gegangen.“" },
+      { "type": "TF", "q": "Die Arbeit war einfach und gar nicht anstrengend.", "a": false, "exp": "„Es war anstrengend“." },
+      { "type": "MCQ", "q": "Was möchte der Autor später vielleicht tun?", "opts": ["Einen Hund adoptieren", "Ein Tierheim eröffnen", "Nichts mehr"], "a": 0, "exp": "„Vielleicht möchte ich später sogar einen Hund adoptieren.“" }
+    ]
+  },
+  {
+    "id": "A2_R27", "level": "A2", "type": "E-Mail", "title": "Bestätigung der Bestellung",
+    "text": "Betreff: Ihre Bestellung Nr. 7890\n\nSehr geehrter Herr Vogel,\n\nvielen Dank für Ihre Bestellung. Sie haben ein Paar Schuhe (Größe 43, schwarz) für 79 Euro bestellt.\n\nIhr Paket wird in 2 bis 3 Werktagen geliefert. Sie bekommen eine E-Mail mit der Sendungsnummer. Wenn die Schuhe nicht passen, können Sie sie innerhalb von 30 Tagen kostenlos zurückschicken.\n\nMit freundlichen Grüßen\nIhr Online-Shop SchuhWelt",
+    "questions": [
+      { "type": "MCQ", "q": "Was hat Herr Vogel bestellt?", "opts": ["Ein Paar Schuhe", "Eine Jacke", "Eine Tasche"], "a": 0, "exp": "„ein Paar Schuhe (Größe 43, schwarz)“." },
+      { "type": "MCQ", "q": "Wie lange dauert die Lieferung?", "opts": ["2 bis 3 Werktage", "eine Woche", "einen Monat"], "a": 0, "exp": "„in 2 bis 3 Werktagen geliefert“." },
+      { "type": "TF", "q": "Herr Vogel kann die Schuhe zurückschicken, wenn sie nicht passen.", "a": true, "exp": "„können Sie sie innerhalb von 30 Tagen kostenlos zurückschicken“." },
+      { "type": "TF", "q": "Das Zurückschicken kostet Geld.", "a": false, "exp": "„kostenlos zurückschicken“." },
+      { "type": "MCQ", "q": "Was bekommt Herr Vogel per E-Mail?", "opts": ["Die Sendungsnummer", "Eine Rechnung", "Einen Gutschein"], "a": 0, "exp": "„Sie bekommen eine E-Mail mit der Sendungsnummer.“" }
+    ]
+  },
+  {
+    "id": "A2_R28", "level": "A2", "type": "Anzeige", "title": "Programm des Stadtfestes",
+    "text": "PROGRAMM — STADTFEST AM SAMSTAG\n\n11:00 Uhr — Eröffnung am Marktplatz (Bürgermeister)\n12:30 Uhr — Konzert der Schulband\n14:00 Uhr — Kinderprogramm: Clown und Spiele\n16:00 Uhr — Tanzgruppe aus Spanien\n19:00 Uhr — Großes Konzert (Rockband „Die Wellen“)\n22:00 Uhr — Feuerwerk\n\nEssen und Getränke gibt es den ganzen Tag an vielen Ständen. Eintritt frei!",
+    "questions": [
+      { "type": "MCQ", "q": "Wann beginnt das Kinderprogramm?", "opts": ["12:30 Uhr", "14:00 Uhr", "16:00 Uhr"], "a": 1, "exp": "„14:00 Uhr — Kinderprogramm“." },
+      { "type": "MCQ", "q": "Was passiert um 22 Uhr?", "opts": ["Ein Konzert", "Ein Feuerwerk", "Die Eröffnung"], "a": 1, "exp": "„22:00 Uhr — Feuerwerk“." },
+      { "type": "TF", "q": "Der Eintritt zum Stadtfest ist frei.", "a": true, "exp": "„Eintritt frei!“" },
+      { "type": "MCQ", "q": "Wer eröffnet das Fest?", "opts": ["Der Bürgermeister", "Die Rockband", "Eine Tanzgruppe"], "a": 0, "exp": "„Eröffnung am Marktplatz (Bürgermeister)“." },
+      { "type": "TF", "q": "Es gibt nur am Abend Essen.", "a": false, "exp": "„Essen und Getränke gibt es den ganzen Tag“." }
+    ]
+  },
+  {
+    "id": "A2_R29", "level": "A2", "type": "Formeller Brief", "title": "Reklamation einer Kaffeemaschine",
+    "text": "Betreff: Reklamation — kaputte Kaffeemaschine\n\nSehr geehrte Damen und Herren,\n\nvor einer Woche habe ich bei Ihnen eine Kaffeemaschine gekauft (Rechnung im Anhang). Leider funktioniert sie nicht richtig: Das Wasser wird nicht heiß.\n\nIch möchte die Maschine gegen eine neue tauschen oder mein Geld zurückbekommen. Bitte teilen Sie mir mit, wie ich vorgehen soll.\n\nMit freundlichen Grüßen\nPetra Lang",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Problem mit der Kaffeemaschine?", "opts": ["Das Wasser wird nicht heiß", "Sie ist zu laut", "Sie ist zu klein"], "a": 0, "exp": "„Das Wasser wird nicht heiß.“" },
+      { "type": "MCQ", "q": "Wann hat Frau Lang die Maschine gekauft?", "opts": ["Vor einer Woche", "Vor einem Monat", "Gestern"], "a": 0, "exp": "„vor einer Woche habe ich ... gekauft“." },
+      { "type": "TF", "q": "Frau Lang möchte eine neue Maschine oder ihr Geld zurück.", "a": true, "exp": "„gegen eine neue tauschen oder mein Geld zurückbekommen“." },
+      { "type": "TF", "q": "Frau Lang ist mit der Maschine zufrieden.", "a": false, "exp": "„Leider funktioniert sie nicht richtig“." },
+      { "type": "MCQ", "q": "Was hat Frau Lang an die E-Mail angehängt?", "opts": ["Die Rechnung", "Ein Foto", "Nichts"], "a": 0, "exp": "„(Rechnung im Anhang)“." }
+    ]
+  },
+  {
+    "id": "A2_R30", "level": "A2", "type": "FAQ", "title": "Häufige Fragen zur Rückgabe",
+    "text": "RÜCKGABE — HÄUFIGE FRAGEN\n\nKann ich Artikel zurückgeben?\nJa, innerhalb von 30 Tagen. Die Ware muss unbenutzt sein.\n\nWer bezahlt die Rücksendung?\nBei einem Fehler unsererseits bezahlen wir. Sonst zahlen Sie das Porto selbst.\n\nWann bekomme ich mein Geld zurück?\nNach Erhalt der Ware dauert es etwa 5 bis 7 Tage.\n\nKann ich auch im Geschäft zurückgeben?\nJa, in allen unseren Filialen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange hat man für die Rückgabe Zeit?", "opts": ["14 Tage", "30 Tage", "60 Tage"], "a": 1, "exp": "„innerhalb von 30 Tagen“." },
+      { "type": "TF", "q": "Die Ware darf benutzt sein.", "a": false, "exp": "„Die Ware muss unbenutzt sein.“" },
+      { "type": "MCQ", "q": "Wer zahlt die Rücksendung bei einem Fehler des Shops?", "opts": ["Der Shop", "Der Kunde", "Niemand"], "a": 0, "exp": "„Bei einem Fehler unsererseits bezahlen wir.“" },
+      { "type": "MCQ", "q": "Wie lange dauert die Rückzahlung?", "opts": ["5 bis 7 Tage", "1 Tag", "einen Monat"], "a": 0, "exp": "„dauert es etwa 5 bis 7 Tage“." },
+      { "type": "TF", "q": "Man kann auch im Geschäft zurückgeben.", "a": true, "exp": "„Ja, in allen unseren Filialen.“" }
+    ]
+  },
+  {
+    "id": "A2_R31", "level": "A2", "type": "Interview", "title": "Interview mit einem Koch",
+    "text": "INTERVIEW mit Koch Bernd\n\nReporter: Herr Bernd, warum sind Sie Koch geworden?\nBernd: Schon als Kind habe ich gern mit meiner Oma gekocht. Das hat mich geprägt.\nReporter: Was ist das Wichtigste in der Küche?\nBernd: Frische Zutaten! Ohne gute Produkte gibt es kein gutes Essen.\nReporter: Und Ihr Lieblingsgericht?\nBernd: Eine einfache Gemüsesuppe. Manchmal ist einfach am besten.",
+    "questions": [
+      { "type": "MCQ", "q": "Warum ist Bernd Koch geworden?", "opts": ["Er hat als Kind mit seiner Oma gekocht", "Er wollte reich werden", "Seine Eltern wollten es"], "a": 0, "exp": "„Schon als Kind habe ich gern mit meiner Oma gekocht.“" },
+      { "type": "MCQ", "q": "Was ist für Bernd das Wichtigste?", "opts": ["Frische Zutaten", "Teure Geräte", "Schnelligkeit"], "a": 0, "exp": "„Frische Zutaten!“" },
+      { "type": "TF", "q": "Bernds Lieblingsgericht ist sehr kompliziert.", "a": false, "exp": "„Eine einfache Gemüsesuppe.“" },
+      { "type": "TF", "q": "Bernd findet, einfach ist manchmal am besten.", "a": true, "exp": "„Manchmal ist einfach am besten.“" },
+      { "type": "MCQ", "q": "Mit wem hat Bernd als Kind gekocht?", "opts": ["Mit seiner Oma", "Mit seinem Bruder", "Allein"], "a": 0, "exp": "„mit meiner Oma gekocht“." }
+    ]
+  },
+  {
+    "id": "A2_R32", "level": "A2", "type": "Schild", "title": "Aushang vom Fundbüro",
+    "text": "GEFUNDEN!\n\nAm Montag wurde im Park ein Schlüsselbund gefunden. Daran sind drei Schlüssel und ein kleiner roter Anhänger.\n\nDer Besitzer kann den Schlüsselbund im Büro des Parks abholen (Öffnungszeiten: Mo–Fr, 9–17 Uhr). Bitte beschreiben Sie den Anhänger genau, damit wir sicher sind.\n\nWir haben außerdem einen blauen Regenschirm und Handschuhe gefunden.",
+    "questions": [
+      { "type": "MCQ", "q": "Was wurde am Montag gefunden?", "opts": ["Ein Schlüsselbund", "Ein Handy", "Eine Brille"], "a": 0, "exp": "„wurde im Park ein Schlüsselbund gefunden“." },
+      { "type": "TF", "q": "Am Schlüsselbund ist ein roter Anhänger.", "a": true, "exp": "„ein kleiner roter Anhänger“." },
+      { "type": "MCQ", "q": "Wo kann man den Schlüsselbund abholen?", "opts": ["Im Büro des Parks", "Bei der Polizei", "Im Supermarkt"], "a": 0, "exp": "„im Büro des Parks abholen“." },
+      { "type": "TF", "q": "Das Büro ist auch am Wochenende offen.", "a": false, "exp": "„Mo–Fr, 9–17 Uhr“." },
+      { "type": "MCQ", "q": "Was wurde außerdem gefunden?", "opts": ["Ein Regenschirm und Handschuhe", "Ein Buch", "Geld"], "a": 0, "exp": "„einen blauen Regenschirm und Handschuhe“." }
+    ]
+  },
+  {
+    "id": "A2_R33", "level": "A2", "type": "E-Mail", "title": "Eine Überraschungsparty planen",
+    "text": "Betreff: Toms Überraschungsparty 🤫\n\nHallo zusammen,\n\nTom wird nächsten Samstag 30! Wir machen eine Überraschungsparty bei mir. Bitte sagt Tom nichts!\n\nKommt um 18 Uhr — Tom kommt erst um 19 Uhr. Lena bringt den Kuchen, Max kümmert sich um die Musik. Kann jemand Getränke mitbringen? Schreibt bitte in die Gruppe, was ihr mitbringt.\n\nIch freue mich! Sara",
+    "questions": [
+      { "type": "TF", "q": "Tom soll von der Party nichts wissen.", "a": true, "exp": "„Bitte sagt Tom nichts!“" },
+      { "type": "MCQ", "q": "Wann sollen die Gäste kommen?", "opts": ["Um 18 Uhr", "Um 19 Uhr", "Um 20 Uhr"], "a": 0, "exp": "„Kommt um 18 Uhr — Tom kommt erst um 19 Uhr.“" },
+      { "type": "MCQ", "q": "Wer bringt den Kuchen?", "opts": ["Lena", "Max", "Sara"], "a": 0, "exp": "„Lena bringt den Kuchen“." },
+      { "type": "TF", "q": "Max kümmert sich um die Musik.", "a": true, "exp": "„Max kümmert sich um die Musik.“" },
+      { "type": "MCQ", "q": "Worum bittet Sara die anderen?", "opts": ["Getränke mitzubringen", "Geld mitzubringen", "Tom anzurufen"], "a": 0, "exp": "„Kann jemand Getränke mitbringen?“" }
+    ]
+  },
+  {
+    "id": "A2_R34", "level": "A2", "type": "Sachtext", "title": "Kaffee in Deutschland",
+    "text": "KAFFEE — DAS LIEBLINGSGETRÄNK DER DEUTSCHEN\n\nKaffee ist in Deutschland sehr beliebt. Im Durchschnitt trinkt jeder Mensch hier etwa 160 Liter Kaffee pro Jahr — mehr als Wasser oder Bier!\n\nViele Deutsche trinken morgens zum Frühstück Kaffee. Am Nachmittag gibt es oft „Kaffee und Kuchen“, besonders am Wochenende. Diese Tradition ist sehr alt. Heute gibt es auch viele moderne Cafés, in denen junge Leute arbeiten und sich treffen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viel Kaffee trinkt ein Mensch in Deutschland pro Jahr?", "opts": ["etwa 60 Liter", "etwa 160 Liter", "etwa 16 Liter"], "a": 1, "exp": "„etwa 160 Liter Kaffee pro Jahr“." },
+      { "type": "TF", "q": "Die Deutschen trinken mehr Bier als Kaffee.", "a": false, "exp": "„mehr als Wasser oder Bier!“" },
+      { "type": "MCQ", "q": "Wann gibt es oft „Kaffee und Kuchen“?", "opts": ["Am Nachmittag", "Am frühen Morgen", "In der Nacht"], "a": 0, "exp": "„Am Nachmittag gibt es oft „Kaffee und Kuchen““." },
+      { "type": "TF", "q": "Die Tradition „Kaffee und Kuchen“ ist neu.", "a": false, "exp": "„Diese Tradition ist sehr alt.“" },
+      { "type": "MCQ", "q": "Was machen junge Leute in modernen Cafés?", "opts": ["Arbeiten und sich treffen", "Nur schlafen", "Einkaufen"], "a": 0, "exp": "„in denen junge Leute arbeiten und sich treffen“." }
+    ]
+  },
+  {
+    "id": "A2_R35", "level": "A2", "type": "Nachricht", "title": "Planänderung im Gruppenchat",
+    "text": "GRUPPENCHAT: Wanderung am Sonntag\n\nLeon: Leute, das Wetter am Sonntag soll schlecht werden. Regen den ganzen Tag. ☔\nMia: Oh nein! Sollen wir die Wanderung verschieben?\nLeon: Ja, ich denke schon. Wie wäre es mit nächstem Sonntag?\nMia: Passt mir gut!\nFelix: Mir auch. Dann gehen wir diesen Sonntag vielleicht ins Museum?\nMia: Super Idee! Treffen wir uns um 14 Uhr vor dem Museum.",
+    "questions": [
+      { "type": "MCQ", "q": "Warum wird die Wanderung verschoben?", "opts": ["Wegen des schlechten Wetters", "Weil niemand Zeit hat", "Wegen Krankheit"], "a": 0, "exp": "„das Wetter am Sonntag soll schlecht werden. Regen den ganzen Tag.“" },
+      { "type": "MCQ", "q": "Auf wann wird die Wanderung verschoben?", "opts": ["Auf nächsten Sonntag", "Auf Samstag", "Sie fällt ganz aus"], "a": 0, "exp": "„Wie wäre es mit nächstem Sonntag?“" },
+      { "type": "TF", "q": "Felix schlägt vor, ins Museum zu gehen.", "a": true, "exp": "„Dann gehen wir diesen Sonntag vielleicht ins Museum?“" },
+      { "type": "MCQ", "q": "Wann treffen sie sich vor dem Museum?", "opts": ["Um 14 Uhr", "Um 12 Uhr", "Um 16 Uhr"], "a": 0, "exp": "„Treffen wir uns um 14 Uhr vor dem Museum.“" },
+      { "type": "TF", "q": "Alle finden die Museums-Idee schlecht.", "a": false, "exp": "„Super Idee!“" }
+    ]
+  }
+]

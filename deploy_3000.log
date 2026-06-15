@@ -1,0 +1,109 @@
+﻿node.exe : No Firebase app associated with site teach-me-german-app, injecting project default config.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No Firebase app...default config.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  You can link a Web app to a Hosting site here 
+https://console.firebase.google.com/project/personal-german-trainer/settings/general/web
+
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 16.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+
+
+
+  Creating an optimized production build ...
+
+Γ£ô Compiled successfully in 20.1s
+
+  Running TypeScript ...
+
+  Finished TypeScript in 15.2s ...
+
+  Collecting page data using 7 workers ...
+
+  Generating static pages using 7 workers (0/33) ...
+
+  Generating static pages using 7 workers (8/33) 
+
+  Generating static pages using 7 workers (16/33) 
+
+  Generating static pages using 7 workers (24/33) 
+
+Γ£ô Generating static pages using 7 workers (33/33) in 1444ms
+
+  Finalizing page optimization ...
+
+
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /favoriten
+Γö£ Γùï /fortschritt
+Γö£ Γùï /grammatik
+Γö£ Γùï /home
+Γö£ Γùï /konjugation
+Γö£ Γùï /lernplan
+Γö£ Γùï /nachrichten
+Γö£ Γùï /notizen
+Γö£ Γùï /pruefungsinfo
+Γö£ ΓùÅ /redemittel/[level]
+Γöé Γö£ /redemittel/A1
+Γöé Γö£ /redemittel/A2
+Γöé Γö£ /redemittel/B1
+Γöé Γöö /redemittel/B2
+Γö£ Γùï /ueben/geschichten
+Γö£ Γùï /ueben/grammatik-quiz
+Γö£ Γùï /ueben/hoeren
+Γö£ Γùï /ueben/karteikarten
+Γö£ Γùï /ueben/konversation
+Γö£ Γùï /ueben/lesen
+Γö£ Γùï /ueben/quiz
+Γö£ Γùï /ueben/redemittel-quiz
+Γö£ Γùï /ueben/satzstellung
+Γö£ Γùï /ueben/schreiben
+Γö£ Γùï /ueben/sprechen
+Γö£ Γùï /ueben/verb-quiz
+Γöö ΓùÅ /vocab/[level]
+  Γö£ /vocab/A1
+  Γö£ /vocab/A2
+  Γö£ /vocab/B1
+  Γöö /vocab/B2
+
+
+
+Γùï  (Static)  prerendered as static content
+ΓùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+
+
+=== Deploying to 'personal-german-trainer'...
+
+i  deploying hosting
+i  hosting[teach-me-german-app]: beginning deploy...
+i  hosting[teach-me-german-app]: found 125 files in .firebase\teach-me-german-app\hosting
+i  hosting: uploading new files [0/35] (0%)
+i  hosting: uploading new files [0/35] (0%)
+i  hosting: upload complete
++  hosting[teach-me-german-app]: file upload complete
+i  hosting[teach-me-german-app]: finalizing version...
++  hosting[teach-me-german-app]: version finalized
+i  hosting[teach-me-german-app]: releasing new version...
++  hosting[teach-me-german-app]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/personal-german-trainer/overview
+Hosting URL: https://teach-me-german-app.web.app

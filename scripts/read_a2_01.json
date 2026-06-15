@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A2_R06", "level": "A2", "type": "Blogeintrag", "title": "Ein Wochenende in Hamburg",
+    "text": "MEIN BLOG: Ein Wochenende in Hamburg\n\nLetztes Wochenende war ich zum ersten Mal in Hamburg. Am Samstag habe ich eine Hafenrundfahrt gemacht — das war fantastisch! Das Wetter war leider regnerisch, aber das hat mich nicht gestört. Am Abend habe ich in einem kleinen Restaurant frischen Fisch gegessen.\n\nAm Sonntag habe ich den berühmten Fischmarkt besucht. Er beginnt schon um 5 Uhr morgens! Ich bin extra früh aufgestanden. Es war voll, laut und total spannend. Hamburg hat mir sehr gefallen. Nächstes Mal möchte ich auch ein Musical besuchen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was hat der Autor am Samstag gemacht?", "opts": ["Eine Hafenrundfahrt", "Den Fischmarkt besucht", "Ein Musical gesehen"], "a": 0, "exp": "„Am Samstag habe ich eine Hafenrundfahrt gemacht“." },
+      { "type": "TF", "q": "Das Wetter am Samstag war sonnig.", "a": false, "exp": "„Das Wetter war leider regnerisch“." },
+      { "type": "MCQ", "q": "Wann beginnt der Fischmarkt?", "opts": ["Um 5 Uhr morgens", "Um 9 Uhr", "Am Mittag"], "a": 0, "exp": "„Er beginnt schon um 5 Uhr morgens!“" },
+      { "type": "TF", "q": "Der Fischmarkt war ruhig und leer.", "a": false, "exp": "„Es war voll, laut und total spannend.“" },
+      { "type": "MCQ", "q": "Was möchte der Autor beim nächsten Mal machen?", "opts": ["Ein Musical besuchen", "Wieder Fisch essen", "Zu Hause bleiben"], "a": 0, "exp": "„Nächstes Mal möchte ich auch ein Musical besuchen.“" }
+    ]
+  },
+  {
+    "id": "A2_R07", "level": "A2", "type": "E-Mail", "title": "Beschwerde über Lärm",
+    "text": "Betreff: Lärm am Abend\n\nSehr geehrter Herr Klein,\n\nich wohne in der Wohnung unter Ihnen. In den letzten Wochen ist es abends oft sehr laut bei Ihnen. Besonders nach 22 Uhr höre ich laute Musik. Ich muss früh aufstehen und kann dann nicht schlafen.\n\nKönnten Sie die Musik nach 22 Uhr bitte leiser machen? Ich möchte keinen Streit, sondern eine freundliche Lösung. Vielen Dank für Ihr Verständnis.\n\nMit freundlichen Grüßen\nFrau Sommer",
+    "questions": [
+      { "type": "MCQ", "q": "Wo wohnt Frau Sommer?", "opts": ["Über Herrn Klein", "Unter Herrn Klein", "Neben Herrn Klein"], "a": 1, "exp": "„ich wohne in der Wohnung unter Ihnen“." },
+      { "type": "MCQ", "q": "Was ist das Problem?", "opts": ["Laute Musik am Abend", "Ein kaputter Aufzug", "Ein Wasserschaden"], "a": 0, "exp": "„höre ich laute Musik“ nach 22 Uhr." },
+      { "type": "TF", "q": "Frau Sommer kann gut schlafen.", "a": false, "exp": "„kann dann nicht schlafen“." },
+      { "type": "TF", "q": "Frau Sommer möchte einen Streit.", "a": false, "exp": "„Ich möchte keinen Streit, sondern eine freundliche Lösung.“" },
+      { "type": "MCQ", "q": "Was möchte Frau Sommer?", "opts": ["Dass die Musik leiser wird", "Dass Herr Klein auszieht", "Mehr Miete"], "a": 0, "exp": "„Könnten Sie die Musik nach 22 Uhr bitte leiser machen?“" }
+    ]
+  },
+  {
+    "id": "A2_R08", "level": "A2", "type": "Forum", "title": "Tipps zum Deutschlernen",
+    "text": "FORUM: Deutsch lernen\n\nFrage von Marco: Ich lerne seit 3 Monaten Deutsch, aber ich verstehe Muttersprachler nicht. Sie sprechen so schnell! Was kann ich tun?\n\nAntwort von Lena89: Das ist ganz normal! Mein Tipp: Hör jeden Tag deutsche Podcasts, auch wenn du nicht alles verstehst. Schau auch Serien mit deutschen Untertiteln. Nach ein paar Monaten wird es viel besser. Wichtig ist: nicht aufgeben! Sprich außerdem selbst so viel wie möglich.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist Marcos Problem?", "opts": ["Er versteht Muttersprachler nicht", "Er kann nicht schreiben", "Er hat kein Buch"], "a": 0, "exp": "„ich verstehe Muttersprachler nicht. Sie sprechen so schnell!“" },
+      { "type": "MCQ", "q": "Was empfiehlt Lena89?", "opts": ["Jeden Tag Podcasts hören", "Nur Bücher lesen", "Einen Lehrer bezahlen"], "a": 0, "exp": "„Hör jeden Tag deutsche Podcasts“." },
+      { "type": "TF", "q": "Lena89 sagt, Marco soll aufgeben.", "a": false, "exp": "„nicht aufgeben!“" },
+      { "type": "TF", "q": "Marco lernt seit drei Monaten Deutsch.", "a": true, "exp": "„Ich lerne seit 3 Monaten Deutsch“." },
+      { "type": "MCQ", "q": "Was soll Marco mit Serien machen?", "opts": ["Sie mit deutschen Untertiteln schauen", "Sie ohne Ton schauen", "Keine Serien schauen"], "a": 0, "exp": "„Schau auch Serien mit deutschen Untertiteln.“" }
+    ]
+  },
+  {
+    "id": "A2_R09", "level": "A2", "type": "Zeitungsartikel", "title": "Neuer Radweg in der Stadt",
+    "text": "NEUER RADWEG IN DER STADT\n\nAb nächstem Monat gibt es in der Stadtmitte einen neuen Radweg. Er ist 3 Kilometer lang und verbindet den Bahnhof mit dem Stadtpark. Die Stadt hofft, dass mehr Menschen mit dem Fahrrad fahren.\n\n„Autofahren in der Stadt ist teuer und schlecht für die Umwelt“, sagt Bürgermeisterin Frau Wolf. Der Radweg hat 500.000 Euro gekostet. Viele Bürger freuen sich, aber einige Autofahrer sind unzufrieden, weil es jetzt weniger Parkplätze gibt.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lang ist der neue Radweg?", "opts": ["1 Kilometer", "3 Kilometer", "5 Kilometer"], "a": 1, "exp": "„Er ist 3 Kilometer lang“." },
+      { "type": "MCQ", "q": "Was verbindet der Radweg?", "opts": ["Den Bahnhof mit dem Stadtpark", "Zwei Schulen", "Den Flughafen mit der Stadt"], "a": 0, "exp": "„verbindet den Bahnhof mit dem Stadtpark“." },
+      { "type": "TF", "q": "Die Stadt möchte, dass mehr Menschen Fahrrad fahren.", "a": true, "exp": "„Die Stadt hofft, dass mehr Menschen mit dem Fahrrad fahren.“" },
+      { "type": "TF", "q": "Alle Bürger sind glücklich über den Radweg.", "a": false, "exp": "„einige Autofahrer sind unzufrieden“." },
+      { "type": "MCQ", "q": "Warum sind einige Autofahrer unzufrieden?", "opts": ["Es gibt weniger Parkplätze", "Der Weg ist zu kurz", "Das Benzin ist teuer"], "a": 0, "exp": "„weil es jetzt weniger Parkplätze gibt“." }
+    ]
+  },
+  {
+    "id": "A2_R10", "level": "A2", "type": "E-Mail", "title": "Einladung zum Vorstellungsgespräch",
+    "text": "Betreff: Ihre Bewerbung — Einladung\n\nSehr geehrte Frau Yilmaz,\n\nvielen Dank für Ihre Bewerbung als Verkäuferin. Wir möchten Sie gerne kennenlernen und laden Sie zu einem Vorstellungsgespräch ein.\n\nTermin: Dienstag, 14. März, um 10 Uhr\nOrt: unser Büro, Marktstraße 8, 2. Stock\n\nBitte bringen Sie Ihre Zeugnisse mit. Falls der Termin nicht passt, rufen Sie uns bitte an: 030-1112233.\n\nMit freundlichen Grüßen\nKaufhaus Stern",
+    "questions": [
+      { "type": "MCQ", "q": "Wofür hat sich Frau Yilmaz beworben?", "opts": ["Als Verkäuferin", "Als Lehrerin", "Als Köchin"], "a": 0, "exp": "„Ihre Bewerbung als Verkäuferin“." },
+      { "type": "TF", "q": "Frau Yilmaz wird zu einem Vorstellungsgespräch eingeladen.", "a": true, "exp": "„laden Sie zu einem Vorstellungsgespräch ein“." },
+      { "type": "MCQ", "q": "Wann ist der Termin?", "opts": ["Dienstag, 10 Uhr", "Montag, 14 Uhr", "Mittwoch, 10 Uhr"], "a": 0, "exp": "„Dienstag, 14. März, um 10 Uhr“." },
+      { "type": "TF", "q": "Frau Yilmaz soll ihre Zeugnisse mitbringen.", "a": true, "exp": "„Bitte bringen Sie Ihre Zeugnisse mit.“" },
+      { "type": "MCQ", "q": "Was soll sie tun, wenn der Termin nicht passt?", "opts": ["Anrufen", "Eine E-Mail schreiben", "Nichts tun"], "a": 0, "exp": "„rufen Sie uns bitte an“." }
+    ]
+  },
+  {
+    "id": "A2_R11", "level": "A2", "type": "Anzeige", "title": "Zimmer in WG frei",
+    "text": "ZIMMER IN WG FREI 🏠\n\nWir sind eine nette WG (2 Studenten, 1 Studentin) und suchen einen neuen Mitbewohner. Das Zimmer ist 18 Quadratmeter groß und möbliert.\n\nMiete: 380 Euro (alles inklusive)\nDie Wohnung liegt zentral, nur 10 Minuten zur Uni.\nWir kochen gern zusammen und suchen jemanden, der sauber und freundlich ist.\n\nBesichtigung am Samstag. Schreib uns: wg-sonne@email.de",
+    "questions": [
+      { "type": "MCQ", "q": "Wie groß ist das Zimmer?", "opts": ["10 m²", "18 m²", "38 m²"], "a": 1, "exp": "„18 Quadratmeter groß“." },
+      { "type": "TF", "q": "Das Zimmer ist möbliert.", "a": true, "exp": "„18 Quadratmeter groß und möbliert“." },
+      { "type": "MCQ", "q": "Wie viel kostet die Miete?", "opts": ["180 Euro", "380 Euro", "800 Euro"], "a": 1, "exp": "„Miete: 380 Euro (alles inklusive)“." },
+      { "type": "TF", "q": "Die Wohnung ist weit von der Uni entfernt.", "a": false, "exp": "„nur 10 Minuten zur Uni“." },
+      { "type": "MCQ", "q": "Was für einen Mitbewohner suchen sie?", "opts": ["Jemanden, der sauber und freundlich ist", "Einen Lehrer", "Jemanden mit Auto"], "a": 0, "exp": "„jemanden, der sauber und freundlich ist“." }
+    ]
+  },
+  {
+    "id": "A2_R12", "level": "A2", "type": "Bericht", "title": "Ausflug ins Naturmuseum",
+    "text": "BERICHT: Unser Ausflug ins Naturmuseum\n\nAm letzten Freitag hat unsere Klasse das Naturmuseum besucht. Wir sind mit dem Bus gefahren und um 9 Uhr angekommen. Eine Museumsführerin hat uns alles erklärt.\n\nAm interessantesten waren die Dinosaurier-Skelette. Sie sind riesig! In einem Workshop durften wir auch echte Steine und Knochen anfassen. Zum Schluss gab es ein Quiz, und unsere Gruppe hat gewonnen. Alle waren begeistert. Es war ein toller Tag, und wir haben viel gelernt.",
+    "questions": [
+      { "type": "MCQ", "q": "Wohin ist die Klasse gefahren?", "opts": ["Ins Naturmuseum", "In den Zoo", "Ins Theater"], "a": 0, "exp": "„das Naturmuseum besucht“." },
+      { "type": "MCQ", "q": "Was war am interessantesten?", "opts": ["Die Dinosaurier-Skelette", "Das Mittagessen", "Die Busfahrt"], "a": 0, "exp": "„Am interessantesten waren die Dinosaurier-Skelette.“" },
+      { "type": "TF", "q": "Im Workshop durften sie Steine und Knochen anfassen.", "a": true, "exp": "„durften wir auch echte Steine und Knochen anfassen“." },
+      { "type": "TF", "q": "Die Klasse hat das Quiz verloren.", "a": false, "exp": "„unsere Gruppe hat gewonnen“." },
+      { "type": "MCQ", "q": "Wie sind sie zum Museum gekommen?", "opts": ["Mit dem Bus", "Mit dem Zug", "Zu Fuß"], "a": 0, "exp": "„Wir sind mit dem Bus gefahren“." }
+    ]
+  },
+  {
+    "id": "A2_R13", "level": "A2", "type": "Einladung", "title": "Einladung zum Sommerfest",
+    "text": "EINLADUNG ZUM SOMMERFEST\n\nLiebe Kolleginnen und Kollegen,\n\nauch dieses Jahr feiern wir unser Sommerfest! Alle Mitarbeiter und ihre Familien sind herzlich eingeladen.\n\nWann: Freitag, 12. Juli, ab 16 Uhr\nWo: im Garten hinter dem Bürogebäude\n\nEs gibt Grillen, Spiele für Kinder und Live-Musik. Bitte meldet euch bis 5. Juli an, damit wir genug Essen bestellen können. Wir freuen uns auf einen schönen Abend zusammen!\n\nEure Geschäftsführung",
+    "questions": [
+      { "type": "MCQ", "q": "Wer ist eingeladen?", "opts": ["Nur die Chefs", "Alle Mitarbeiter und ihre Familien", "Nur neue Mitarbeiter"], "a": 1, "exp": "„Alle Mitarbeiter und ihre Familien sind herzlich eingeladen.“" },
+      { "type": "MCQ", "q": "Wo findet das Fest statt?", "opts": ["Im Restaurant", "Im Garten hinter dem Bürogebäude", "Im Park"], "a": 1, "exp": "„im Garten hinter dem Bürogebäude“." },
+      { "type": "TF", "q": "Es gibt Live-Musik.", "a": true, "exp": "„Spiele für Kinder und Live-Musik“." },
+      { "type": "TF", "q": "Man muss sich nicht anmelden.", "a": false, "exp": "„Bitte meldet euch bis 5. Juli an“." },
+      { "type": "MCQ", "q": "Warum soll man sich anmelden?", "opts": ["Damit genug Essen bestellt wird", "Um zu bezahlen", "Um einen Platz zu bekommen"], "a": 0, "exp": "„damit wir genug Essen bestellen können“." }
+    ]
+  },
+  {
+    "id": "A2_R14", "level": "A2", "type": "FAQ", "title": "Häufige Fragen zum Fitnessstudio",
+    "text": "HÄUFIGE FRAGEN — FITNESSSTUDIO\n\nKann ich den Vertrag jederzeit kündigen?\nJa, aber Sie müssen einen Monat vorher kündigen.\n\nGibt es Kurse für Anfänger?\nJa, jeden Montag und Mittwoch um 18 Uhr.\n\nKann ich einen Freund mitbringen?\nEinmal pro Monat dürfen Sie einen Gast kostenlos mitbringen.\n\nGibt es Parkplätze?\nLeider nein, aber die U-Bahn-Station ist direkt vor der Tür.",
+    "questions": [
+      { "type": "TF", "q": "Man kann den Vertrag sofort kündigen.", "a": false, "exp": "„Sie müssen einen Monat vorher kündigen“." },
+      { "type": "MCQ", "q": "Wann gibt es Anfängerkurse?", "opts": ["Montag und Mittwoch", "Nur am Wochenende", "Jeden Tag"], "a": 0, "exp": "„jeden Montag und Mittwoch um 18 Uhr“." },
+      { "type": "MCQ", "q": "Wie oft darf man einen Gast mitbringen?", "opts": ["Jeden Tag", "Einmal pro Monat", "Nie"], "a": 1, "exp": "„Einmal pro Monat dürfen Sie einen Gast kostenlos mitbringen.“" },
+      { "type": "TF", "q": "Das Studio hat Parkplätze.", "a": false, "exp": "„Leider nein“." },
+      { "type": "TF", "q": "Die U-Bahn-Station ist direkt vor der Tür.", "a": true, "exp": "„die U-Bahn-Station ist direkt vor der Tür“." }
+    ]
+  },
+  {
+    "id": "A2_R15", "level": "A2", "type": "Formeller Brief", "title": "Ein Abonnement kündigen",
+    "text": "Betreff: Kündigung meines Abonnements\n\nSehr geehrte Damen und Herren,\n\nhiermit kündige ich mein Zeitschriften-Abonnement (Kundennummer: 45678) zum nächstmöglichen Termin.\n\nDie Zeitschrift hat mir gut gefallen, aber ich habe leider keine Zeit mehr zum Lesen. Bitte bestätigen Sie mir die Kündigung schriftlich.\n\nMit freundlichen Grüßen\nThomas Becker",
+    "questions": [
+      { "type": "MCQ", "q": "Was möchte Herr Becker?", "opts": ["Sein Abonnement kündigen", "Eine neue Zeitschrift bestellen", "Eine Beschwerde machen"], "a": 0, "exp": "„hiermit kündige ich mein Zeitschriften-Abonnement“." },
+      { "type": "TF", "q": "Herr Becker hat die Zeitschrift nicht gemocht.", "a": false, "exp": "„Die Zeitschrift hat mir gut gefallen“." },
+      { "type": "MCQ", "q": "Warum kündigt er?", "opts": ["Er hat keine Zeit zum Lesen", "Sie ist zu teuer", "Sie ist langweilig"], "a": 0, "exp": "„ich habe leider keine Zeit mehr zum Lesen“." },
+      { "type": "TF", "q": "Er möchte eine schriftliche Bestätigung.", "a": true, "exp": "„Bitte bestätigen Sie mir die Kündigung schriftlich.“" },
+      { "type": "MCQ", "q": "Was ist seine Kundennummer?", "opts": ["45678", "12345", "1112233"], "a": 0, "exp": "„Kundennummer: 45678“." }
+    ]
+  },
+  {
+    "id": "A2_R16", "level": "A2", "type": "Blogeintrag", "title": "Mein erstes Mal Brot backen",
+    "text": "FOODBLOG: Mein erstes Mal Brot backen\n\nIch habe noch nie Brot gebacken, aber gestern habe ich es einfach probiert. Das Rezept war zum Glück nicht schwer: Mehl, Wasser, Hefe, Salz. Man muss den Teig kneten und dann eine Stunde warten.\n\nDas Warten war für mich am schwersten — ich bin ungeduldig! Am Ende kam das Brot aus dem Ofen und roch wunderbar. Der Geschmack? Nicht perfekt, aber für das erste Mal richtig gut. Nächstes Wochenende backe ich wieder. Selbstgemachtes Brot schmeckt einfach besser.",
+    "questions": [
+      { "type": "TF", "q": "Der Autor hat schon oft Brot gebacken.", "a": false, "exp": "„Ich habe noch nie Brot gebacken“." },
+      { "type": "MCQ", "q": "Was braucht man für das Rezept?", "opts": ["Mehl, Wasser, Hefe, Salz", "Eier und Zucker", "Milch und Butter"], "a": 0, "exp": "„Mehl, Wasser, Hefe, Salz“." },
+      { "type": "MCQ", "q": "Was war für den Autor am schwersten?", "opts": ["Das Warten", "Das Kneten", "Das Einkaufen"], "a": 0, "exp": "„Das Warten war für mich am schwersten“." },
+      { "type": "TF", "q": "Das Brot war perfekt.", "a": false, "exp": "„Nicht perfekt, aber für das erste Mal richtig gut.“" },
+      { "type": "TF", "q": "Der Autor möchte wieder backen.", "a": true, "exp": "„Nächstes Wochenende backe ich wieder.“" }
+    ]
+  },
+  {
+    "id": "A2_R17", "level": "A2", "type": "Schild", "title": "Information für die Bewohner",
+    "text": "WICHTIGE INFORMATION FÜR ALLE BEWOHNER\n\nAm Donnerstag, dem 8. Mai, wird das Wasser von 8 bis 14 Uhr abgestellt. Grund: Reparatur der Wasserleitung.\n\nBitte stellen Sie sich vorher genug Wasser bereit. Am Nachmittag funktioniert wieder alles normal.\n\nAußerdem wird nächste Woche das Treppenhaus gestrichen. Bitte stellen Sie keine Schuhe oder Pflanzen in den Flur.\n\nVielen Dank, Ihr Hausmeister Herr Groß",
+    "questions": [
+      { "type": "MCQ", "q": "Was passiert am Donnerstag?", "opts": ["Das Wasser wird abgestellt", "Der Aufzug wird repariert", "Es gibt ein Fest"], "a": 0, "exp": "„wird das Wasser von 8 bis 14 Uhr abgestellt“." },
+      { "type": "MCQ", "q": "Warum wird das Wasser abgestellt?", "opts": ["Reparatur der Wasserleitung", "Wegen eines Festes", "Ohne Grund"], "a": 0, "exp": "„Grund: Reparatur der Wasserleitung“." },
+      { "type": "TF", "q": "Die Bewohner sollen vorher Wasser bereitstellen.", "a": true, "exp": "„Bitte stellen Sie sich vorher genug Wasser bereit.“" },
+      { "type": "TF", "q": "Das Treppenhaus wird diese Woche gestrichen.", "a": false, "exp": "„nächste Woche das Treppenhaus gestrichen“." },
+      { "type": "MCQ", "q": "Was soll man nicht in den Flur stellen?", "opts": ["Schuhe oder Pflanzen", "Fahrräder", "Müll"], "a": 0, "exp": "„keine Schuhe oder Pflanzen in den Flur“." }
+    ]
+  },
+  {
+    "id": "A2_R18", "level": "A2", "type": "Interview", "title": "Interview mit einer Straßenmusikerin",
+    "text": "INTERVIEW mit der Straßenmusikerin Nina\n\nReporter: Nina, wie lange machst du schon Musik?\nNina: Seit zehn Jahren spiele ich Gitarre, seit drei Jahren singe ich auf der Straße.\nReporter: Warum auf der Straße?\nNina: Ich liebe den Kontakt mit den Menschen. Jeder kann zuhören, das ist schön.\nReporter: Lebst du von der Musik?\nNina: Noch nicht. Ich arbeite halbtags in einem Café. Aber mein Traum ist ein eigenes Album.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange spielt Nina schon Gitarre?", "opts": ["Drei Jahre", "Zehn Jahre", "Ein Jahr"], "a": 1, "exp": "„Seit zehn Jahren spiele ich Gitarre“." },
+      { "type": "TF", "q": "Nina singt seit drei Jahren auf der Straße.", "a": true, "exp": "„seit drei Jahren singe ich auf der Straße“." },
+      { "type": "MCQ", "q": "Warum spielt Nina auf der Straße?", "opts": ["Sie liebt den Kontakt mit Menschen", "Sie hat kein Studio", "Es ist Pflicht"], "a": 0, "exp": "„Ich liebe den Kontakt mit den Menschen.“" },
+      { "type": "TF", "q": "Nina lebt schon von der Musik.", "a": false, "exp": "„Noch nicht. Ich arbeite halbtags in einem Café.“" },
+      { "type": "MCQ", "q": "Was ist Ninas Traum?", "opts": ["Ein eigenes Album", "Ein großes Haus", "Eine Weltreise"], "a": 0, "exp": "„mein Traum ist ein eigenes Album“." }
+    ]
+  },
+  {
+    "id": "A2_R19", "level": "A2", "type": "E-Mail", "title": "Bitte um mehr Zeit",
+    "text": "Betreff: Bitte um mehr Zeit\n\nLiebe Frau Berg,\n\nich soll meine Hausarbeit bis Freitag abgeben. Leider war ich diese Woche krank und konnte nicht arbeiten. Ich habe ein Attest vom Arzt.\n\nKönnte ich die Arbeit bitte erst nächsten Mittwoch abgeben? Ich brauche nur ein paar Tage mehr. Vielen Dank für Ihr Verständnis.\n\nMit freundlichen Grüßen\nDavid Klein",
+    "questions": [
+      { "type": "MCQ", "q": "Was möchte David?", "opts": ["Mehr Zeit für die Hausarbeit", "Eine bessere Note", "Einen neuen Prüfungstermin"], "a": 0, "exp": "„Könnte ich die Arbeit bitte erst nächsten Mittwoch abgeben?“" },
+      { "type": "MCQ", "q": "Warum braucht David mehr Zeit?", "opts": ["Er war krank", "Er war im Urlaub", "Er hatte keine Lust"], "a": 0, "exp": "„Leider war ich diese Woche krank“." },
+      { "type": "TF", "q": "David hat ein Attest vom Arzt.", "a": true, "exp": "„Ich habe ein Attest vom Arzt.“" },
+      { "type": "TF", "q": "David soll die Arbeit ursprünglich am Montag abgeben.", "a": false, "exp": "Ursprünglich bis Freitag." },
+      { "type": "MCQ", "q": "Bis wann möchte David abgeben?", "opts": ["Freitag", "Nächsten Mittwoch", "Nächsten Montag"], "a": 1, "exp": "„erst nächsten Mittwoch abgeben“." }
+    ]
+  },
+  {
+    "id": "A2_R20", "level": "A2", "type": "Sachtext", "title": "Müll trennen in Deutschland",
+    "text": "MÜLL TRENNEN IN DEUTSCHLAND\n\nIn Deutschland trennt man den Müll sehr genau. Es gibt verschiedene Tonnen: Die blaue Tonne ist für Papier, die gelbe für Plastik und Verpackungen, die braune für Bioabfall (zum Beispiel Essensreste).\n\nGlas bringt man zu speziellen Containern — getrennt nach Farben: weiß, grün und braun. Pfandflaschen kann man im Supermarkt zurückgeben und bekommt Geld zurück. Mülltrennung ist wichtig für die Umwelt, denn so kann man viele Materialien wiederverwenden.",
+    "questions": [
+      { "type": "MCQ", "q": "Was kommt in die blaue Tonne?", "opts": ["Papier", "Plastik", "Bioabfall"], "a": 0, "exp": "„Die blaue Tonne ist für Papier“." },
+      { "type": "MCQ", "q": "Wohin kommt Bioabfall?", "opts": ["In die gelbe Tonne", "In die braune Tonne", "In den Glascontainer"], "a": 1, "exp": "„die braune für Bioabfall“." },
+      { "type": "TF", "q": "Glas wird nach Farben getrennt.", "a": true, "exp": "„getrennt nach Farben: weiß, grün und braun“." },
+      { "type": "TF", "q": "Für Pfandflaschen bekommt man kein Geld.", "a": false, "exp": "„bekommt Geld zurück“." },
+      { "type": "MCQ", "q": "Warum ist Mülltrennung wichtig?", "opts": ["Für die Umwelt", "Für die Polizei", "Für die Schule"], "a": 0, "exp": "„wichtig für die Umwelt, denn so kann man viele Materialien wiederverwenden“." }
+    ]
+  }
+]

@@ -1,0 +1,4015 @@
+[
+  {
+    "id": "EXA1_1",
+    "level": "A1",
+    "title": "Prüfungssatz 1",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Zu jedem Gespräch gibt es eine Frage. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Mann: Entschuldigung, wie spät ist es? Frau: Es ist halb drei.",
+            "q": "Wie spät ist es?",
+            "opts": [
+              "a) 2:00 Uhr",
+              "b) 2:30 Uhr",
+              "c) 3:30 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Kind: Mama, wo ist meine Schultasche? Mutter: Im Flur, neben der Tür.",
+            "q": "Wo ist die Schultasche?",
+            "opts": [
+              "a) In der Küche",
+              "b) Im Schlafzimmer",
+              "c) Im Flur"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Verkäuferin: Das macht drei Euro zwanzig, bitte. Kunde: Hier sind fünf Euro.",
+            "q": "Was kostet der Einkauf?",
+            "opts": [
+              "a) 2,20 €",
+              "b) 3,20 €",
+              "c) 5,00 €"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Anna: Was machst du am Wochenende? Tom: Ich gehe ins Kino. Anna: Schön!",
+            "q": "Was macht Tom am Wochenende?",
+            "opts": [
+              "a) Er besucht Freunde",
+              "b) Er geht ins Kino",
+              "c) Er bleibt zu Hause"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie fahren Sie zur Arbeit? Mann: Im Sommer mit dem Fahrrad, im Winter mit dem Bus.",
+            "q": "Wie fährt der Mann im Winter zur Arbeit?",
+            "opts": [
+              "a) Mit dem Fahrrad",
+              "b) Mit dem Auto",
+              "c) Mit dem Bus"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Kellner: Was möchten Sie trinken? Gast: Einen Orangensaft, bitte. Groß oder klein? Gast: Klein.",
+            "q": "Was bestellt der Gast?",
+            "opts": [
+              "a) Einen großen Kaffee",
+              "b) Einen kleinen Orangensaft",
+              "c) Ein Glas Wasser"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen aus dem öffentlichen Leben. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Achtung! Der Zug nach Hamburg fährt heute von Gleis fünf. Ich wiederhole: Gleis fünf.",
+            "statement": "Der Zug nach Hamburg fährt von Gleis 5.",
+            "correct": true
+          },
+          {
+            "script": "Liebe Kunden! Heute schließen wir um neunzehn Uhr dreißig. Morgen öffnen wir um neun Uhr.",
+            "statement": "Das Geschäft schließt heute um 19 Uhr.",
+            "correct": false
+          },
+          {
+            "script": "Achtung liebe Besucher! Das Freibad schließt heute wegen Wartungsarbeiten bereits um sechzehn Uhr.",
+            "statement": "Das Freibad ist heute länger geöffnet als sonst.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Fahrgäste, die Buslinie zwölf hat heute etwa zehn Minuten Verspätung. Wir bitten um Ihr Verständnis.",
+            "statement": "Die Buslinie 12 kommt heute nicht pünktlich.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten vom Anrufbeantworter. Zu jeder Nachricht gibt es eine Frage. Wählen Sie: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist Arztpraxis Meier. Ihr Termin am Dienstag um zehn Uhr ist bestätigt. Bitte bringen Sie Ihre Versichertenkarte mit.",
+            "q": "Wann ist der Termin?",
+            "opts": [
+              "a) Montag um 10 Uhr",
+              "b) Dienstag um 10 Uhr",
+              "c) Donnerstag um 10 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi, hier ist Max. Meine Geburtstagsparty ist am Samstag um achtzehn Uhr bei mir. Kannst du kommen? Ruf mich an!",
+            "q": "Wann findet die Party statt?",
+            "opts": [
+              "a) Freitag um 18 Uhr",
+              "b) Samstag um 18 Uhr",
+              "c) Sonntag um 18 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hier ist die Stadtbibliothek. Ihr Buch ist angekommen. Sie können es ab morgen abholen. Bitte bringen Sie Ihren Bibliotheksausweis mit.",
+            "q": "Was soll man morgen tun?",
+            "opts": [
+              "a) Ein Buch zurückgeben",
+              "b) Sich neu anmelden",
+              "c) Ein Buch abholen"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Morgen, liebe Schülerinnen und Schüler! Der Unterricht beginnt heute zwanzig Minuten später als gewöhnlich. Bitte warten Sie vor dem Eingang.",
+            "q": "Wann beginnt der Unterricht heute?",
+            "opts": [
+              "a) Zur normalen Zeit",
+              "b) Zwanzig Minuten früher",
+              "c) Zwanzig Minuten später"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Restaurant Bella Italia hier. Wir bestätigen Ihren Tisch für Samstag, neunzehn Uhr, für drei Personen. Schönen Abend!",
+            "q": "Für wie viele Personen ist der Tisch reserviert?",
+            "opts": [
+              "a) Zwei Personen",
+              "b) Drei Personen",
+              "c) Vier Personen"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_2",
+    "level": "A1",
+    "title": "Prüfungssatz 2",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Wie viel kostet diese Jacke? Verkäufer: Fünfundsechzig Euro. Frau: Zu teuer!",
+            "q": "Was kostet die Jacke?",
+            "opts": [
+              "a) 45 Euro",
+              "b) 55 Euro",
+              "c) 65 Euro"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Arzt: Wie lange haben Sie Kopfschmerzen? Patient: Seit gestern Abend.",
+            "q": "Seit wann hat er Kopfschmerzen?",
+            "opts": [
+              "a) Seit heute Morgen",
+              "b) Seit gestern Abend",
+              "c) Seit zwei Tagen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau A: Wie alt ist deine Tochter? Frau B: Sie wird nächsten Monat sieben.",
+            "q": "Wie alt wird das Kind?",
+            "opts": [
+              "a) Sechs Jahre alt",
+              "b) Sieben Jahre alt",
+              "c) Acht Jahre alt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wann öffnet die Post? Frau: Montag bis Freitag um acht Uhr.",
+            "q": "Wann öffnet die Post?",
+            "opts": [
+              "a) Um 7 Uhr",
+              "b) Um 8 Uhr",
+              "c) Um 9 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Student: Wo ist Zimmer dreizehn? Sekretärin: Im zweiten Stock, rechts.",
+            "q": "Wo ist Zimmer 13?",
+            "opts": [
+              "a) Im ersten Stock links",
+              "b) Im zweiten Stock rechts",
+              "c) Im dritten Stock"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich hätte gerne ein Kilo Äpfel. Verkäufer: Die grünen oder die roten? Frau: Die roten bitte.",
+            "q": "Was kauft die Frau?",
+            "opts": [
+              "a) Grüne Äpfel",
+              "b) Rote Äpfel",
+              "c) Birnen"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Achtung, Durchsage am Flughafen. Flug LH 320 nach Wien ist jetzt am Gate B7 zum Einsteigen bereit.",
+            "statement": "Das Flugzeug nach Wien wartet am Gate B7.",
+            "correct": true
+          },
+          {
+            "script": "Liebe Kinobesucher! Die Vorstellung um zwanzig Uhr ist leider ausverkauft. Karten gibt es noch für zweiundzwanzig Uhr.",
+            "statement": "Man kann noch Karten für die 20-Uhr-Vorstellung kaufen.",
+            "correct": false
+          },
+          {
+            "script": "Das Stadtmuseum ist dienstags bis sonntags von zehn bis achtzehn Uhr geöffnet. Montags ist Ruhetag.",
+            "statement": "Das Museum ist montags geöffnet.",
+            "correct": false
+          },
+          {
+            "script": "Achtung, Kunden! Wir haben heute eine Sonderaktion: alle Obst- und Gemüseprodukte sind zwanzig Prozent günstiger.",
+            "statement": "Heute sind Früchte und Gemüse im Angebot.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Guten Tag, hier ist DHL. Wir haben Ihr Paket nicht zustellen können. Sie können es morgen in unserem Paketshop in der Bahnhofstraße abholen.",
+            "q": "Was soll man tun?",
+            "opts": [
+              "a) Zu Hause warten",
+              "b) Das Paket im Shop abholen",
+              "c) DHL zurückrufen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist Zahnarzt Klein. Ihr Termin am Freitag um vierzehn Uhr muss leider verschoben werden. Bitte rufen Sie uns zurück.",
+            "q": "Warum soll man anrufen?",
+            "opts": [
+              "a) Um einen neuen Termin zu machen",
+              "b) Um zu bezahlen",
+              "c) Um eine Frage zu stellen"
+            ],
+            "a": 0
+          },
+          {
+            "script": "Hallo alle! Der Deutschkurs am Mittwoch fällt diese Woche aus. Der nächste Kurs ist wie gewohnt am Montag.",
+            "q": "Was passiert am Mittwoch?",
+            "opts": [
+              "a) Der Kurs findet statt",
+              "b) Der Kurs fällt aus",
+              "c) Der Kurs beginnt früher"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Mama, hier ist Julia. Ich komme heute etwas später, gegen neunzehn Uhr. Ich bin bei Lena und wir essen noch zusammen.",
+            "q": "Um wie viel Uhr kommt Julia?",
+            "opts": [
+              "a) Um 18 Uhr",
+              "b) Um 19 Uhr",
+              "c) Um 20 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist Herr Schmidt vom Sportverein. Ihre Anmeldung für den Tenniskurs ist bestätigt. Der Kurs beginnt am Dienstag um siebzehn Uhr.",
+            "q": "Wann beginnt der Kurs?",
+            "opts": [
+              "a) Montag 17 Uhr",
+              "b) Dienstag 17 Uhr",
+              "c) Donnerstag 17 Uhr"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_3",
+    "level": "A1",
+    "title": "Prüfungssatz 3",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Entschuldigung, wo ist die nächste Apotheke? Mann: Geradeaus, dann links. Frau: Danke!",
+            "q": "Wo ist die Apotheke?",
+            "opts": [
+              "a) Rechts und dann geradeaus",
+              "b) Geradeaus und dann links",
+              "c) Gleich hier rechts"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Lehrer: Ist die Hausaufgabe fertig? Schüler: Nein, ich habe sie vergessen.",
+            "q": "Was hat der Schüler vergessen?",
+            "opts": [
+              "a) Sein Buch",
+              "b) Seine Hausaufgabe",
+              "c) Seinen Stift"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Was kostet ein Kaffee? Kellner: Zwei Euro fünfzig. Mit Kuchen drei Euro neunzig.",
+            "q": "Was kostet Kaffee und Kuchen?",
+            "opts": [
+              "a) 2,50 Euro",
+              "b) 3,90 Euro",
+              "c) 6,40 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wie ist das Wetter morgen? Frau: Es soll regnen. Nimm einen Schirm mit!",
+            "q": "Wie wird das Wetter morgen?",
+            "opts": [
+              "a) Sonnig",
+              "b) Regnerisch",
+              "c) Bewölkt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Spielst du Fußball? Kind: Nein, ich spiele lieber Tennis. Frau: Seit wann? Kind: Seit einem Jahr.",
+            "q": "Was spielt das Kind?",
+            "opts": [
+              "a) Fußball",
+              "b) Tennis",
+              "c) Basketball"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Brauchen Sie Hilfe? Frau: Ja, ich suche die Käseabteilung. Mann: Gleich hier, zwischen Wurst und Joghurt.",
+            "q": "Was sucht die Frau?",
+            "opts": [
+              "a) Die Wurstabteilung",
+              "b) Die Joghurtabteilung",
+              "c) Die Käseabteilung"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Guten Morgen, Durchsage in der Schule! Heute Nachmittag fällt der Sportunterricht in Halle zwei wegen Reparatur aus.",
+            "statement": "Der Sportunterricht findet heute statt.",
+            "correct": false
+          },
+          {
+            "script": "Achtung Reisende! Der Regionalzug nach Köln hat heute fünfzehn Minuten Verspätung. Neuer Abfahrtszeit: elf Uhr fünfzehn.",
+            "statement": "Der Zug nach Köln fährt um 11:00 Uhr ab.",
+            "correct": false
+          },
+          {
+            "script": "Willkommen im Tierpark! Kinder bis sechs Jahre haben freien Eintritt. Erwachsene zahlen zwölf Euro.",
+            "statement": "Kinder bis 6 Jahre zahlen keinen Eintritt.",
+            "correct": true
+          },
+          {
+            "script": "Achtung Kunden im Erdgeschoss! Die Rolltreppe ist momentan außer Betrieb. Bitte benutzen Sie den Aufzug.",
+            "statement": "Die Rolltreppe ist außer Betrieb.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist Petra. Ich wollte fragen, ob du am Samstag zum Flohmarkt mitkommen möchtest. Er beginnt um zehn Uhr am Stadtpark. Ruf mich an!",
+            "q": "Wo ist der Flohmarkt?",
+            "opts": [
+              "a) Am Bahnhof",
+              "b) Am Stadtpark",
+              "c) In der Stadtmitte"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist die Autowerkstatt Müller. Ihr Auto ist fertig. Sie können es heute ab sechzehn Uhr abholen.",
+            "q": "Ab wann kann man das Auto abholen?",
+            "opts": [
+              "a) Ab 14 Uhr",
+              "b) Ab 16 Uhr",
+              "c) Ab 18 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Tobias! Hier ist Karin. Ich bringe morgen das Buch mit, das du gesucht hast. Ich bin um halb acht in der Schule.",
+            "q": "Was bringt Karin mit?",
+            "opts": [
+              "a) Ein Heft",
+              "b) Ein Buch",
+              "c) Eine CD"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hier spricht Frau Weber von der Hausverwaltung. Am Donnerstag von acht bis zwölf Uhr gibt es kein Wasser im Haus wegen Reparatur.",
+            "statement": "Am Donnerstag gibt es morgens kein Wasser.",
+            "q": "Wann gibt es kein Wasser?",
+            "opts": [
+              "a) Mittwoch 8–12 Uhr",
+              "b) Donnerstag 8–12 Uhr",
+              "c) Freitag 8–12 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Abend, hier ist das Kino Metropol. Ihr gebuchter Film \"Bella Italia\" läuft morgen um neunzehn Uhr dreißig. Bitte kommen Sie fünfzehn Minuten früher.",
+            "q": "Wann soll man im Kino sein?",
+            "opts": [
+              "a) Um 19:00 Uhr",
+              "b) Um 19:15 Uhr",
+              "c) Um 19:30 Uhr"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_4",
+    "level": "A1",
+    "title": "Prüfungssatz 4",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Rezeptionist: Guten Tag! Haben Sie reserviert? Gast: Ja, auf den Namen Fischer, zwei Nächte.",
+            "q": "Wie viele Nächte bleibt der Gast?",
+            "opts": [
+              "a) Eine Nacht",
+              "b) Zwei Nächte",
+              "c) Drei Nächte"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Was ist das Tagesgericht? Kellner: Heute haben wir Schnitzel mit Pommes für neun Euro fünfzig.",
+            "q": "Was kostet das Tagesgericht?",
+            "opts": [
+              "a) 7,50 €",
+              "b) 9,50 €",
+              "c) 11,50 €"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wann kommt der nächste Zug? Frau: In zwölf Minuten, auf Gleis drei.",
+            "q": "Wann kommt der Zug?",
+            "opts": [
+              "a) In 10 Minuten",
+              "b) In 12 Minuten",
+              "c) In 15 Minuten"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Lehrerin: Wie heißt die Hauptstadt von Österreich? Schüler: Wien! Lehrerin: Richtig!",
+            "q": "Was ist die Hauptstadt von Österreich?",
+            "opts": [
+              "a) Bern",
+              "b) Zürich",
+              "c) Wien"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Spielen Ihre Kinder Sport? Mann: Ja, mein Sohn schwimmt, meine Tochter spielt Volleyball.",
+            "q": "Was macht die Tochter?",
+            "opts": [
+              "a) Sie schwimmt",
+              "b) Sie spielt Volleyball",
+              "c) Sie tanzt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Haben Sie Brot ohne Gluten? Bäcker: Ja, das Dinkelbrot ist glutenfrei.",
+            "q": "Was ist glutenfrei?",
+            "opts": [
+              "a) Das Weizenbrot",
+              "b) Das Roggenbrot",
+              "c) Das Dinkelbrot"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Achtung Fahrgäste! Der Bus Linie sieben fährt heute wegen einer Umleitung nicht über die Hauptstraße.",
+            "statement": "Die Buslinie 7 fährt heute über die Hauptstraße.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Gäste im Hotel Sonnenhof! Das Frühstücksbuffet ist von sieben bis zehn Uhr geöffnet.",
+            "statement": "Das Frühstück beginnt um 7 Uhr.",
+            "correct": true
+          },
+          {
+            "script": "Hallenbad — Achtung! Das Kinderbecken ist ab morgen wieder geöffnet. Das Sportbecken bleibt geschlossen.",
+            "statement": "Ab morgen ist das Kinderbecken wieder geöffnet.",
+            "correct": true
+          },
+          {
+            "script": "Liebe Kunden! Heute Sonderangebot: Alle Weine aus Frankreich sind dreißig Prozent günstiger bis Ladenschluss.",
+            "statement": "Die Sonderaktion gilt nur für Weine aus Deutschland.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist Sandra. Ich habe das Portemonnaie gefunden, das du gestern verloren hast. Ich bringe es dir morgen früh in die Schule.",
+            "q": "Was hat Sandra gefunden?",
+            "opts": [
+              "a) Einen Schlüssel",
+              "b) Ein Portemonnaie",
+              "c) Ein Handy"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist die Sparkasse. Ihre neue EC-Karte liegt zur Abholung bereit. Die Bank ist werktags von neun bis siebzehn Uhr geöffnet.",
+            "q": "Was kann man bei der Bank abholen?",
+            "opts": [
+              "a) Einen Kontoauszug",
+              "b) Eine neue EC-Karte",
+              "c) Bargeld"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Leon, hier ist Dein Bruder. Ich bin heute Abend später zu Hause, so gegen neunzehn Uhr. Kannst du bitte das Abendessen kochen?",
+            "q": "Was soll Leon tun?",
+            "opts": [
+              "a) Einkaufen gehen",
+              "b) Das Abendessen kochen",
+              "c) Den Bruder abholen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, Elektromarkt Kaiser. Ihr Laptop ist repariert. Sie können ihn heute ab vierzehn Uhr abholen. Bitte Quittung mitbringen.",
+            "q": "Was braucht man zum Abholen?",
+            "opts": [
+              "a) Den alten Laptop",
+              "b) Einen Ausweis",
+              "c) Die Quittung"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Hallo, hier ist Frau Bauer von der Volkshochschule. Der Spanischkurs A1 am Montag ist schon voll. Es gibt aber noch Plätze am Mittwoch.",
+            "q": "Welcher Kurs ist noch frei?",
+            "opts": [
+              "a) Der Montags-Kurs",
+              "b) Der Mittwochs-Kurs",
+              "c) Der Freitags-Kurs"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_5",
+    "level": "A1",
+    "title": "Prüfungssatz 5",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Wie komme ich zum Stadtpark? Mann: Mit der Tram Linie vier, drei Stationen.",
+            "q": "Wie kommt man zum Stadtpark?",
+            "opts": [
+              "a) Mit dem Bus",
+              "b) Mit der Tram Linie 4",
+              "c) Zu Fuß"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Kind: Darf ich noch eine Stunde spielen? Vater: Es ist schon acht Uhr. Geh jetzt ins Bett.",
+            "q": "Wann ist es?",
+            "opts": [
+              "a) Sieben Uhr",
+              "b) Acht Uhr",
+              "c) Neun Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Haben Sie Größe zweiundvierzig in Blau? Verkäufer: In Blau leider nicht, aber in Grün.",
+            "q": "Was gibt es in Größe 42?",
+            "opts": [
+              "a) Blau und Grün",
+              "b) Nur Blau",
+              "c) Nur Grün"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Mann: Isst du gerne Fisch? Frau: Nicht so gerne. Ich esse lieber Fleisch.",
+            "q": "Was isst die Frau lieber?",
+            "opts": [
+              "a) Fisch",
+              "b) Gemüse",
+              "c) Fleisch"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Lehrerin: Schreib deinen Namen oben rechts auf das Blatt. Schüler: Hier?",
+            "q": "Wo soll der Name stehen?",
+            "opts": [
+              "a) Oben links",
+              "b) Oben rechts",
+              "c) Unten rechts"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie lange dauert der Film? Mann: Etwa zwei Stunden. Er beginnt um acht.",
+            "q": "Wie lange dauert der Film?",
+            "opts": [
+              "a) Eine Stunde",
+              "b) Anderthalb Stunden",
+              "c) Zwei Stunden"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Liebe Passagiere! Bitte halten Sie Ihr Ticket und Ihren Ausweis bereit. Boarding beginnt in zehn Minuten.",
+            "statement": "Boarding hat bereits begonnen.",
+            "correct": false
+          },
+          {
+            "script": "Achtung Kunden! Wegen technischer Probleme sind heute alle Kartenterminals außer Betrieb. Bitte zahlen Sie bar.",
+            "statement": "Heute kann man nur bar bezahlen.",
+            "correct": true
+          },
+          {
+            "script": "Liebe Besucher im Aquarium! Das Füttern der Haie findet täglich um dreizehn Uhr in Halle drei statt.",
+            "statement": "Die Haie werden in Halle 3 gefüttert.",
+            "correct": true
+          },
+          {
+            "script": "Guten Abend liebe Zuschauer! Wegen einer technischen Panne beginnt die Vorstellung zwanzig Minuten später.",
+            "statement": "Die Vorstellung beginnt wie geplant.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist Tina. Ich habe morgen Geburtstag und feiere mit Freunden im Garten. Fang um sechzehn Uhr an. Komm doch auch!",
+            "q": "Wann beginnt die Feier?",
+            "opts": [
+              "a) Um 14 Uhr",
+              "b) Um 15 Uhr",
+              "c) Um 16 Uhr"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Hier ist die Praxis Dr. Hoffmann. Sie hatten heute einen Termin um elf Uhr. Wir haben Sie nicht erreicht. Bitte rufen Sie uns zurück.",
+            "q": "Was soll man tun?",
+            "opts": [
+              "a) Zur Praxis fahren",
+              "b) Die Praxis zurückrufen",
+              "c) Nichts tun"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Morgen! Hier ist Felix. Ich habe heute Morgen deine Hausaufgaben mitgebracht. Ich warte um halb acht am Schuleingang.",
+            "q": "Wo wartet Felix?",
+            "opts": [
+              "a) Im Klassenzimmer",
+              "b) In der Cafeteria",
+              "c) Am Schuleingang"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Tag, hier ist die Reinigung Schnell-Clean. Ihr Anzug ist fertig. Sie können ihn bis Freitag abholen. Danach berechnen wir Lagergebühr.",
+            "q": "Bis wann soll man den Anzug abholen?",
+            "opts": [
+              "a) Bis Donnerstag",
+              "b) Bis Freitag",
+              "c) Bis Samstag"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Anna! Hier ist Ben. Morgen spielen wir Fußball im Stadtpark um vierzehn Uhr. Bring bitte deine Fußballschuhe mit.",
+            "q": "Was soll Anna mitbringen?",
+            "opts": [
+              "a) Einen Ball",
+              "b) Fußballschuhe",
+              "c) Wasser"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_6",
+    "level": "A1",
+    "title": "Prüfungssatz 6",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Haben Sie Tomaten? Verkäufer: Ja, ein Kilo für zwei Euro. Frau: Ich nehme zwei Kilo.",
+            "q": "Wie viel kauft die Frau?",
+            "opts": [
+              "a) Ein Kilo",
+              "b) Zwei Kilo",
+              "c) Drei Kilo"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Darf ich hier rauchen? Mann: Nein, das Gebäude ist rauchfrei. Frau: Entschuldigung.",
+            "q": "Was darf man nicht?",
+            "opts": [
+              "a) Essen",
+              "b) Telefonieren",
+              "c) Rauchen"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Mutter: Wie war die Schule? Kind: Gut! Ich habe eine Eins in Mathe bekommen.",
+            "q": "Was hat das Kind bekommen?",
+            "opts": [
+              "a) Eine Zwei in Mathe",
+              "b) Eine Eins in Mathe",
+              "c) Eine Eins in Deutsch"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wann schließt das Café? Mann: Normalerweise um einundzwanzig Uhr. Heute schon um zwanzig Uhr.",
+            "q": "Wann schließt das Café heute?",
+            "opts": [
+              "a) Um 19 Uhr",
+              "b) Um 20 Uhr",
+              "c) Um 21 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Haben Sie Einzelzimmer frei? Rezeptionistin: Ja, mit Frühstück fünfundsiebzig Euro.",
+            "q": "Was kostet das Einzelzimmer?",
+            "opts": [
+              "a) 65 Euro",
+              "b) 75 Euro",
+              "c) 85 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie lange lernen Sie schon Deutsch? Mann: Seit vier Monaten. Aber ich lerne schnell.",
+            "q": "Wie lange lernt er Deutsch?",
+            "opts": [
+              "a) Seit zwei Monaten",
+              "b) Seit drei Monaten",
+              "c) Seit vier Monaten"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Willkommen im Supermarkt! Heute haben wir Sonderangebote auf alle Milchprodukte. Die Aktion gilt nur heute.",
+            "statement": "Die Sonderaktion für Milchprodukte gilt mehrere Tage.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Fluggäste, Flug EW 456 nach Barcelona ist bereit zum Boarding. Bitte begeben Sie sich zu Gate C12.",
+            "statement": "Der Flug nach Barcelona boarding ist an Gate C12.",
+            "correct": true
+          },
+          {
+            "script": "Guten Morgen! Die Stadtbücherei ist heute wegen einer Schulveranstaltung erst ab vierzehn Uhr geöffnet.",
+            "statement": "Die Bücherei öffnet heute später als gewöhnlich.",
+            "correct": true
+          },
+          {
+            "script": "Achtung! Am Wochenende ist der Marktplatz wegen des Stadtfestes für Autos gesperrt. Parken am Bahnhof.",
+            "statement": "Am Wochenende kann man am Marktplatz parken.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo Tim, hier ist Claudia. Ich bin heute krank und kann nicht zum Deutschkurs. Kannst du mir die Notizen schicken? Danke!",
+            "q": "Warum schreibt Claudia?",
+            "opts": [
+              "a) Sie braucht ein Buch",
+              "b) Sie will die Notizen haben",
+              "c) Sie fragt nach dem Termin"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist der Paketdienst. Sie waren nicht zu Hause. Ihr Paket liegt beim Nachbarn in Wohnung sechs.",
+            "q": "Wo ist das Paket?",
+            "opts": [
+              "a) Beim Paketshop",
+              "b) Beim Nachbarn",
+              "c) Vor der Tür"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi, hier ist Jonas. Kannst du morgen mit mir zum Schwimmbad? Es öffnet um neun Uhr. Ich hole dich um acht dreißig ab.",
+            "q": "Wann holt Jonas sie ab?",
+            "opts": [
+              "a) Um 8:00 Uhr",
+              "b) Um 8:30 Uhr",
+              "c) Um 9:00 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Abend, hier ist die Theatergruppe Stadtbühne. Ihre Karten für Samstag sind reserviert. Die Vorstellung beginnt um achtzehn Uhr dreißig.",
+            "q": "Wann beginnt die Vorstellung?",
+            "opts": [
+              "a) Um 18:00 Uhr",
+              "b) Um 18:30 Uhr",
+              "c) Um 19:00 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist Frau Schulz aus Wohnung drei. Ich habe Ihren Schlüssel gefunden. Er liegt bei mir. Klingeln Sie einfach.",
+            "q": "Was hat Frau Schulz gefunden?",
+            "opts": [
+              "a) Ein Portemonnaie",
+              "b) Ein Handy",
+              "c) Einen Schlüssel"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_7",
+    "level": "A1",
+    "title": "Prüfungssatz 7",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Was schenkst du deiner Mutter zum Geburtstag? Mann: Ich kaufe ihr Blumen und Pralinen.",
+            "q": "Was kauft er seiner Mutter?",
+            "opts": [
+              "a) Bücher und Blumen",
+              "b) Blumen und Pralinen",
+              "c) Pralinen und Parfüm"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Fahren Sie mit dem Lift oder mit der Treppe? Mann: Mit dem Lift. Ich bin im sechsten Stock.",
+            "q": "In welchem Stock wohnt er?",
+            "opts": [
+              "a) Im vierten Stock",
+              "b) Im fünften Stock",
+              "c) Im sechsten Stock"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Kunde: Ich möchte dieses Hemd zurückgeben. Verkäuferin: Haben Sie die Quittung? Kunde: Ja, hier.",
+            "q": "Was will der Kunde?",
+            "opts": [
+              "a) Das Hemd kaufen",
+              "b) Das Hemd umtauschen",
+              "c) Das Hemd zurückgeben"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Wie ist dein neues Büro? Mann: Klein aber schön. Und nah an der U-Bahn.",
+            "q": "Was sagt er über das Büro?",
+            "opts": [
+              "a) Es ist groß und teuer",
+              "b) Es ist klein aber schön",
+              "c) Es ist weit von der U-Bahn"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mutter: Hast du dein Zimmer aufgeräumt? Kind: Noch nicht, ich mache es gleich. Mutter: Jetzt sofort!",
+            "q": "Was muss das Kind tun?",
+            "opts": [
+              "a) Seine Hausaufgaben machen",
+              "b) Sein Zimmer aufräumen",
+              "c) Frühstück machen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Tourist: Wie weit ist es bis zum Dom? Polizist: Ungefähr zehn Minuten zu Fuß. Gehen Sie geradeaus.",
+            "q": "Wie lange dauert es zum Dom?",
+            "opts": [
+              "a) Fünf Minuten",
+              "b) Zehn Minuten",
+              "c) Fünfzehn Minuten"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Guten Tag, liebe Kunden! Heute ist unser letzter Öffnungstag vor dem Umbau. Wir sind in zwei Wochen wieder für Sie da.",
+            "statement": "Das Geschäft macht zwei Wochen zu.",
+            "correct": true
+          },
+          {
+            "script": "Achtung Reisende am Gleis vier! Der ICE nach Hannover fährt heute pünktlich um sechzehn Uhr fünfzehn.",
+            "statement": "Der ICE nach Hannover hat Verspätung.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Besucher! Der Streichelzoo schließt heute wegen schlechten Wetters bereits um fünfzehn Uhr.",
+            "statement": "Der Streichelzoo schließt heute früher.",
+            "correct": true
+          },
+          {
+            "script": "Wichtige Durchsage! Auf der A9 Richtung München gibt es einen Stau von sieben Kilometern. Bitte Alternativroute nutzen.",
+            "statement": "Die A9 ist heute frei.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist Maria. Ich komme am Freitag mit dem Zug an, Ankunft um siebzehn Uhr fünfzehn am Hauptbahnhof. Kannst du mich abholen?",
+            "q": "Wann kommt Maria an?",
+            "opts": [
+              "a) Freitag um 16:15",
+              "b) Freitag um 17:15",
+              "c) Samstag um 17:15"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, Elektromarkt hier. Das Tablet, das Sie bestellt haben, ist leider vergriffen. Wir können es in drei Wochen liefern.",
+            "q": "Wann ist das Tablet lieferbar?",
+            "opts": [
+              "a) In einer Woche",
+              "b) In zwei Wochen",
+              "c) In drei Wochen"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Hi Paul, hier ist Lena! Wir machen heute Abend ein Picknick im Park um siebzehn Uhr. Bring bitte etwas zu trinken mit!",
+            "q": "Was soll Paul mitbringen?",
+            "opts": [
+              "a) Essen",
+              "b) Eine Decke",
+              "c) Etwas zu trinken"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Tag, hier ist Frau König vom Finanzamt. Bitte rufen Sie uns bis Donnerstag zurück. Wir haben noch Fragen zu Ihrer Steuererklärung.",
+            "q": "Bis wann soll man zurückrufen?",
+            "opts": [
+              "a) Bis Mittwoch",
+              "b) Bis Donnerstag",
+              "c) Bis Freitag"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist der Sportverein. Das Training am Dienstag fällt diese Woche wegen Hallenpflege aus. Das nächste Training ist am Donnerstag.",
+            "q": "Wann ist das nächste Training?",
+            "opts": [
+              "a) Dienstag",
+              "b) Mittwoch",
+              "c) Donnerstag"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_8",
+    "level": "A1",
+    "title": "Prüfungssatz 8",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Was nimmst du zum Frühstück? Mann: Meistens Toast und Kaffee. Manchmal auch Müsli.",
+            "q": "Was isst er meistens zum Frühstück?",
+            "opts": [
+              "a) Müsli und Tee",
+              "b) Toast und Kaffee",
+              "c) Brot und Orangensaft"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Schüler: Haben wir morgen Deutschtest? Lehrerin: Ja, aber nur zwanzig Minuten.",
+            "q": "Wie lange dauert der Test?",
+            "opts": [
+              "a) Zehn Minuten",
+              "b) Zwanzig Minuten",
+              "c) Dreißig Minuten"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Entschuldigung, ist der Platz hier frei? Mann: Nein, der ist leider besetzt. Meine Frau kommt gleich.",
+            "q": "Ist der Platz frei?",
+            "opts": [
+              "a) Ja, der Platz ist frei",
+              "b) Nein, der Platz ist besetzt",
+              "c) Der Mann weiß es nicht"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Was machst du am liebsten in der Freizeit? Kind: Ich zeichne gerne und höre Musik.",
+            "q": "Was macht das Kind gern?",
+            "opts": [
+              "a) Lesen und Schwimmen",
+              "b) Zeichnen und Musik hören",
+              "c) Spielen und Tanzen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Haben Sie auch Vollkornbrot? Bäcker: Ja, noch zwei Laibe. Groß oder klein? Mann: Den großen bitte.",
+            "q": "Was kauft der Mann?",
+            "opts": [
+              "a) Kleines Vollkornbrot",
+              "b) Großes Vollkornbrot",
+              "c) Weizenbrot"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie lange dauert die Fahrt nach Frankfurt? Frau am Schalter: Mit dem ICE eine Stunde zwanzig.",
+            "q": "Wie lange dauert die Fahrt?",
+            "opts": [
+              "a) Eine Stunde",
+              "b) Eine Stunde zwanzig",
+              "c) Zwei Stunden"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Liebe Sportlerinnen und Sportler! Das Fitnessstudio ist ab nächster Woche täglich auch sonntags geöffnet.",
+            "statement": "Das Fitnessstudio ist ab nächster Woche auch sonntags offen.",
+            "correct": true
+          },
+          {
+            "script": "Achtung an allen Bahnsteigen! Heute Nacht gibt es zwischen zwanzig Uhr und sechs Uhr keinen Zugverkehr wegen Bauarbeiten.",
+            "statement": "Züge fahren heute die ganze Nacht.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Kunden bei TechWorld! Dieser Samstag ist unser letzter Tag im alten Ladengeschäft. Ab Montag finden Sie uns in der Müllerstraße zwölf.",
+            "statement": "Ab Montag ist der Laden an einer neuen Adresse.",
+            "correct": true
+          },
+          {
+            "script": "Achtung, alle Fluggäste nach London! Ihr Flug wurde auf morgen früh um sieben Uhr verschoben.",
+            "statement": "Der Flug nach London fliegt heute noch.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo Jana, hier ist deine Mutter. Ich bin heute Abend erst um zwanzig Uhr dreißig zu Hause. Das Essen steht im Kühlschrank.",
+            "q": "Um wie viel Uhr kommt die Mutter?",
+            "opts": [
+              "a) Um 19:30",
+              "b) Um 20:00",
+              "c) Um 20:30"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Tag, hier ist die Hausverwaltung. Der Aufzug wird morgen Vormittag von acht bis zwölf Uhr gewartet. Er ist in dieser Zeit außer Betrieb.",
+            "q": "Wie lange ist der Aufzug morgen außer Betrieb?",
+            "opts": [
+              "a) Von 7 bis 11 Uhr",
+              "b) Von 8 bis 12 Uhr",
+              "c) Von 9 bis 13 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Thomas! Hier ist Nico. Wir spielen am Samstag Basketball, aber nicht um vier, sondern um drei Uhr im Stadtsportzentrum.",
+            "q": "Um wie viel Uhr ist das Spiel?",
+            "opts": [
+              "a) Um 14 Uhr",
+              "b) Um 15 Uhr",
+              "c) Um 16 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist die Bäckerei Meyer. Ihre Geburtstagstorte ist fertig. Sie können sie morgen ab zehn Uhr abholen.",
+            "q": "Ab wann kann man die Torte abholen?",
+            "opts": [
+              "a) Heute noch",
+              "b) Morgen ab 10 Uhr",
+              "c) Übermorgen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo Steffi, hier ist Deine Freundin Mia. Ich habe die Kinokarten für Freitag gekauft — zwei Stück für die siebzehn-Uhr-Vorstellung.",
+            "q": "Wie viele Karten hat Mia gekauft?",
+            "opts": [
+              "a) Eine Karte",
+              "b) Zwei Karten",
+              "c) Drei Karten"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_9",
+    "level": "A1",
+    "title": "Prüfungssatz 9",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Ist das Hallenbad auch samstags geöffnet? Mann an der Kasse: Ja, von acht bis sechzehn Uhr.",
+            "q": "Wann ist das Hallenbad samstags geöffnet?",
+            "opts": [
+              "a) 7–15 Uhr",
+              "b) 8–16 Uhr",
+              "c) 9–17 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie viele Bücher darf ich ausleihen? Bibliothekarin: Maximal fünf Bücher für drei Wochen.",
+            "q": "Wie lange kann man die Bücher behalten?",
+            "opts": [
+              "a) Zwei Wochen",
+              "b) Drei Wochen",
+              "c) Vier Wochen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau A: Macht Anna auch Sport? Frau B: Ja, sie ist im Schwimmverein — zweimal pro Woche.",
+            "q": "Wie oft geht Anna schwimmen?",
+            "opts": [
+              "a) Einmal pro Woche",
+              "b) Zweimal pro Woche",
+              "c) Dreimal pro Woche"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Was kostet ein Monatsticket? Frau am Schalter: Für alle Zonen neunundsiebzig Euro.",
+            "q": "Was kostet ein Monatsticket?",
+            "opts": [
+              "a) 69 Euro",
+              "b) 79 Euro",
+              "c) 89 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Darf ich Ihren Bleistift ausleihen? Mann: Ich habe leider nur einen Kugelschreiber. Frau: Auch gut, danke!",
+            "q": "Was leiht der Mann?",
+            "opts": [
+              "a) Einen Bleistift",
+              "b) Ein Lineal",
+              "c) Einen Kugelschreiber"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Was haben Sie heute Abend vor? Mann: Nichts Besonderes. Ich schaue vielleicht einen Film.",
+            "q": "Was macht der Mann heute Abend?",
+            "opts": [
+              "a) Er geht aus",
+              "b) Er schaut vielleicht einen Film",
+              "c) Er lernt Deutsch"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Herzlich willkommen im Zoo! Heute Nachmittag um vierzehn Uhr gibt es eine Tierführung für Kinder. Treffpunkt am Eingang.",
+            "statement": "Die Kinderführung ist morgen um 14 Uhr.",
+            "correct": false
+          },
+          {
+            "script": "Achtung! Die Umkleideräume im Sportzentrum werden morgen renoviert. Bitte benutzen Sie die Räume im Erdgeschoss.",
+            "statement": "Morgen werden die Umkleideräume renoviert.",
+            "correct": true
+          },
+          {
+            "script": "Liebe Zuggäste! Der Speisewagen ist im Moment geschlossen. In zwanzig Minuten sind wieder Getränke und Snacks erhältlich.",
+            "statement": "Der Speisewagen ist den ganzen Tag geschlossen.",
+            "correct": false
+          },
+          {
+            "script": "Supermarkt Frisch! Heute ab siebzehn Uhr: frische Backwaren zum halben Preis. Solange der Vorrat reicht.",
+            "statement": "Am Nachmittag sind Backwaren günstiger.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Guten Tag, hier ist Frau Peters vom Sprachkurs. Sie haben vergessen, heute Ihre Hausaufgaben abzugeben. Bitte bringen Sie sie morgen mit.",
+            "q": "Was hat man vergessen?",
+            "opts": [
+              "a) Das Lehrbuch",
+              "b) Die Hausaufgaben",
+              "c) Das Heft"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Sarah, hier ist Mama. Ich bin gerade im Supermarkt. Brauchen wir noch Milch? Schreib mir bitte schnell eine Nachricht.",
+            "q": "Was fragt die Mutter?",
+            "opts": [
+              "a) Ob Sarah Hunger hat",
+              "b) Ob sie Milch brauchen",
+              "c) Wann Sarah nach Hause kommt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist Sebastian. Mein Zug hat leider Verspätung. Ich komme nicht um achtzehn, sondern erst um neunzehn Uhr an.",
+            "q": "Um wie viel Uhr kommt Sebastian an?",
+            "opts": [
+              "a) Um 17 Uhr",
+              "b) Um 18 Uhr",
+              "c) Um 19 Uhr"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Tag, hier ist Frau Noll von der Kinderarztpraxis. Für Emma ist ein Termin am Mittwoch um zehn Uhr frei. Bitte bestätigen Sie bis heute Abend.",
+            "q": "Bis wann soll man bestätigen?",
+            "opts": [
+              "a) Bis morgen früh",
+              "b) Bis heute Abend",
+              "c) Bis Mittwoch"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist der Hundesalon Pfötchen. Ihr Hund Bruno ist fertig und kann abgeholt werden. Wir haben bis achtzehn Uhr geöffnet.",
+            "q": "Bis wann hat der Salon geöffnet?",
+            "opts": [
+              "a) Bis 17 Uhr",
+              "b) Bis 18 Uhr",
+              "c) Bis 19 Uhr"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA1_10",
+    "level": "A1",
+    "title": "Prüfungssatz 10",
+    "teile": [
+      {
+        "num": 1,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 1 – Kurze Gespräche",
+        "instructions": "Sie hören sechs kurze Gespräche aus dem Alltag. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Frau: Wo ist hier ein Geldautomat? Mann: Im Bahnhofsgebäude, gleich links am Eingang.",
+            "q": "Wo ist der Geldautomat?",
+            "opts": [
+              "a) Rechts am Ausgang",
+              "b) Links am Eingang des Bahnhofs",
+              "c) Neben der Post"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wann beginnt der Deutschkurs? Sekretärin: Am Montag, dem sechsten März, um neun Uhr.",
+            "q": "Wann beginnt der Kurs?",
+            "opts": [
+              "a) Montag, 6. März, 9 Uhr",
+              "b) Mittwoch, 6. März, 9 Uhr",
+              "c) Montag, 7. März, 9 Uhr"
+            ],
+            "a": 0
+          },
+          {
+            "script": "Frau: Haben Sie vegetarische Gerichte? Kellner: Ja, die Gemüsesuppe und die Käsespätzle.",
+            "q": "Was ist vegetarisch?",
+            "opts": [
+              "a) Die Schnitzel",
+              "b) Die Gemüsesuppe",
+              "c) Der Fisch"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wie oft fährt der Bus nach Waldheim? Frau: Stündlich. Der nächste in zwanzig Minuten.",
+            "q": "Wie oft fährt der Bus?",
+            "opts": [
+              "a) Alle 30 Minuten",
+              "b) Alle 45 Minuten",
+              "c) Stündlich"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Schüler: Herr Braun, darf ich heute früher gehen? Ich habe einen Arzttermin. Lehrer: Ja, aber nach der Pause.",
+            "q": "Wann darf der Schüler gehen?",
+            "opts": [
+              "a) Sofort",
+              "b) Nach der Pause",
+              "c) Erst nach dem Unterricht"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Kochen Sie gerne? Mann: Ja, sehr! Ich koche jeden Abend. Am liebsten Pasta.",
+            "q": "Was kocht er am liebsten?",
+            "opts": [
+              "a) Suppe",
+              "b) Fleischgerichte",
+              "c) Pasta"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "tf",
+        "maxPlays": 1,
+        "title": "Teil 2 – Ansagen",
+        "instructions": "Sie hören vier kurze Ansagen. Ist die Aussage richtig oder falsch? Sie hören jeden Text einmal.",
+        "dialogs": [
+          {
+            "script": "Guten Morgen! Heute ist ein langer Tag: Unser Markt ist von sieben Uhr morgens bis zwanzig Uhr abends geöffnet.",
+            "statement": "Der Markt öffnet heute um 7 Uhr.",
+            "correct": true
+          },
+          {
+            "script": "Achtung im Kaufhaus! Der Fahrstuhl im Südflügel ist wegen Wartung bis vierzehn Uhr außer Betrieb. Bitte benutzen Sie die Rolltreppe.",
+            "statement": "Der Fahrstuhl ist im Nordflügel außer Betrieb.",
+            "correct": false
+          },
+          {
+            "script": "Liebe Eltern! Morgen findet der Elternabend nicht wie geplant um achtzehn, sondern um neunzehn Uhr statt.",
+            "statement": "Der Elternabend beginnt morgen um 18 Uhr.",
+            "correct": false
+          },
+          {
+            "script": "Achtung auf Bahnsteig sieben! Der ICE dreihundertdrei nach Frankfurt fährt heute pünktlich. Bitte einsteigen und Türen schließen.",
+            "statement": "Der ICE nach Frankfurt fährt pünktlich.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "maxPlays": 2,
+        "title": "Teil 3 – Nachrichten",
+        "instructions": "Sie hören fünf kurze Nachrichten. Wählen Sie die richtige Antwort: a, b oder c. Sie hören jeden Text zweimal.",
+        "dialogs": [
+          {
+            "script": "Hallo, hier ist deine Nachbarin Frau Klein. Heute kommen Handwerker für die Heizung. Sie brauchen Zugang zum Keller. Bitte ruf mich an.",
+            "q": "Warum ruft Frau Klein an?",
+            "opts": [
+              "a) Wegen einer Party",
+              "b) Wegen Handwerkern im Keller",
+              "c) Wegen einer Lieferung"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hi Felix, hier ist Lea. Unser Treffen morgen — können wir es von drei auf vier Uhr verschieben? Ich habe noch einen Termin.",
+            "q": "Auf wann soll das Treffen verschoben werden?",
+            "opts": [
+              "a) Von 14 auf 15 Uhr",
+              "b) Von 15 auf 16 Uhr",
+              "c) Von 16 auf 17 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Guten Tag, hier ist die Fahrschule Schnell. Ihre Fahrstunde am Freitag um zehn Uhr ist bestätigt. Bitte pünktlich sein.",
+            "q": "Wann ist die Fahrstunde?",
+            "opts": [
+              "a) Donnerstag 10 Uhr",
+              "b) Freitag 10 Uhr",
+              "c) Samstag 10 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Hallo, hier ist das Fundbüro am Bahnhof. Wir haben einen Rucksack mit Ihren Initialen gefunden. Bitte kommen Sie mit Ihrem Ausweis vorbei.",
+            "q": "Was wurde gefunden?",
+            "opts": [
+              "a) Ein Koffer",
+              "b) Eine Tasche",
+              "c) Ein Rucksack"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Guten Abend, hier ist Ihr Nachbar Herr Wagner. Ich habe morgen eine Party von achtzehn bis zweiundzwanzig Uhr. Es wird etwas lauter. Entschuldigung!",
+            "q": "Wie lange dauert die Party?",
+            "opts": [
+              "a) Von 17 bis 21 Uhr",
+              "b) Von 18 bis 22 Uhr",
+              "c) Von 19 bis 23 Uhr"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_1",
+    "level": "A2",
+    "title": "Prüfungssatz 1",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch? Kreuzen Sie an.",
+        "audioScript": "Guten Morgen, Sie hören Radio Süd! Heute haben wir ein besonderes Programm für Sie. Ab zehn Uhr gibt es eine Live-Übertragung des Stadtfests vom Marktplatz. Das Stadtfest dauert bis einundzwanzig Uhr. Der Eintritt ist frei. Am Nachmittag um fünfzehn Uhr spielt die Stadtkapelle. Es gibt Speisen und Getränke aus der Region. Parken Sie bitte am Bahnhof, da der Marktplatz für Autos gesperrt ist.",
+        "dialogs": [
+          {
+            "statement": "Das Stadtfest ist kostenlos.",
+            "correct": true
+          },
+          {
+            "statement": "Die Stadtkapelle spielt um 15 Uhr.",
+            "correct": true
+          },
+          {
+            "statement": "Das Fest beginnt um 9 Uhr.",
+            "correct": false
+          },
+          {
+            "statement": "Der Marktplatz ist für Autos gesperrt.",
+            "correct": true
+          },
+          {
+            "statement": "Man kann am Marktplatz parken.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Reisebüro Sonnenschein, guten Tag! Guten Tag, ich möchte eine Reise nach Wien buchen, für zwei Personen, eine Woche. Von wann bis wann? Vom zehnten bis siebzehnten August. Möchten Sie Hotel inklusive? Ja, Frühstück wäre schön. Ein Doppelzimmer im Hotel Zentral kostet in der Zeit achthundert Euro für beide Personen. Soll ich eine Option reservieren? Ja bitte, auf den Namen Baumann. Ich schicke Ihnen eine Bestätigung per E-Mail.",
+        "questions": [
+          {
+            "q": "Wohin geht die Reise?",
+            "opts": [
+              "a) Prag",
+              "b) Wien",
+              "c) Zürich"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Für wie viele Personen?",
+            "opts": [
+              "a) Eine Person",
+              "b) Zwei Personen",
+              "c) Drei Personen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie lange dauert die Reise?",
+            "opts": [
+              "a) Fünf Tage",
+              "b) Sieben Tage",
+              "c) Zehn Tage"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was ist im Preis enthalten?",
+            "opts": [
+              "a) Vollpension",
+              "b) Halbpension",
+              "c) Frühstück"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Auf welchen Namen wird reserviert?",
+            "opts": [
+              "a) Baumann",
+              "b) Sonnenschein",
+              "c) Zentral"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie für jedes Gespräch die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Mann: Entschuldigung, wie lange dauert die Fahrt nach Hamburg? Frau: Mit dem ICE etwa zwei Stunden.",
+            "q": "Wie lange dauert die Fahrt?",
+            "opts": [
+              "a) Eine Stunde",
+              "b) Zwei Stunden",
+              "c) Drei Stunden"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich möchte diese Hose umtauschen. Verkäuferin: Haben Sie noch den Kassenbon? Frau: Ja, hier.",
+            "q": "Was möchte die Frau?",
+            "opts": [
+              "a) Die Hose kaufen",
+              "b) Die Hose umtauschen",
+              "c) Die Hose bezahlen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Student: Wann ist die Klausur? Professor: Nächsten Mittwoch, von zehn bis zwölf Uhr.",
+            "q": "Wann ist die Klausur?",
+            "opts": [
+              "a) Montag",
+              "b) Dienstag",
+              "c) Mittwoch"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Was empfehlen Sie zum Hauptgang? Kellner: Die Forelle ist heute sehr frisch.",
+            "q": "Was empfiehlt der Kellner?",
+            "opts": [
+              "a) Das Steak",
+              "b) Die Forelle",
+              "c) Die Suppe"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Kind: Papa, kann ich heute bei Freunden schlafen? Vater: Ja, aber ruf Mama vorher an.",
+            "q": "Was soll das Kind tun?",
+            "opts": [
+              "a) Früh nach Hause kommen",
+              "b) Mama anrufen",
+              "c) Nichts tun"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_2",
+    "level": "A2",
+    "title": "Prüfungssatz 2",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Guten Abend, hier ist eine wichtige Durchsage für alle Fahrgäste. Wegen eines technischen Defekts sind die Linien U2 und U6 zurzeit gesperrt. Bitte benutzen Sie die Buslinien M41 und M46 als Ersatz. Die Reparaturarbeiten dauern voraussichtlich bis zweiundzwanzig Uhr. Fahrkarten für die U-Bahn gelten auch im Ersatzbus. Wir bitten um Ihr Verständnis.",
+        "dialogs": [
+          {
+            "statement": "Die U2 fährt normal.",
+            "correct": false
+          },
+          {
+            "statement": "Man kann Busse als Ersatz nehmen.",
+            "correct": true
+          },
+          {
+            "statement": "Die Reparaturen dauern bis 22 Uhr.",
+            "correct": true
+          },
+          {
+            "statement": "Für den Ersatzbus braucht man eine neue Fahrkarte.",
+            "correct": false
+          },
+          {
+            "statement": "Drei U-Bahn-Linien sind gesperrt.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Zahnarztpraxis Lange, guten Tag! Guten Tag, hier ist Frau Berger. Ich habe starke Zahnschmerzen. Wann haben Sie einen freien Termin? Können Sie heute Nachmittag um fünfzehn Uhr kommen? Ja, das passt mir. Welcher Zahn tut weh? Der hintere links. Sind Sie bei uns Patientin? Nein, ich war noch nicht hier. Dann kommen Sie bitte fünfzehn Minuten früher, um Ihre Daten aufzunehmen. Alles klar, bis heute.",
+        "questions": [
+          {
+            "q": "Was hat Frau Berger?",
+            "opts": [
+              "a) Kopfschmerzen",
+              "b) Zahnschmerzen",
+              "c) Magenschmerzen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann ist der Termin?",
+            "opts": [
+              "a) Um 14 Uhr",
+              "b) Um 15 Uhr",
+              "c) Um 16 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Welcher Zahn tut weh?",
+            "opts": [
+              "a) Vorne rechts",
+              "b) Hinten rechts",
+              "c) Hinten links"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Ist Frau Berger schon Patientin?",
+            "opts": [
+              "a) Ja",
+              "b) Nein",
+              "c) Sie weiß es nicht"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie früh soll sie kommen?",
+            "opts": [
+              "a) 5 Minuten früher",
+              "b) 10 Minuten früher",
+              "c) 15 Minuten früher"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Wie viel Urlaub haben Sie im Jahr? Mann: Dreißig Tage. Frau: Das ist viel!",
+            "q": "Wie viel Urlaub hat der Mann?",
+            "opts": [
+              "a) 20 Tage",
+              "b) 25 Tage",
+              "c) 30 Tage"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Kellner: Haben Sie reserviert? Gast: Ja, auf den Namen Müller, für drei Personen. Kellner: Hier entlang bitte.",
+            "q": "Für wie viele Personen ist die Reservierung?",
+            "opts": [
+              "a) Zwei",
+              "b) Drei",
+              "c) Vier"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Dieser Laptop ist zu schwer. Verkäufer: Wir haben auch leichtere Modelle. Frau: Zeigen Sie mir bitte.",
+            "q": "Was ist das Problem mit dem Laptop?",
+            "opts": [
+              "a) Zu teuer",
+              "b) Zu langsam",
+              "c) Zu schwer"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Ich kann nicht schlafen. Apotheker: Versuchen Sie diesen Tee. Er beruhigt sehr gut.",
+            "q": "Was empfiehlt der Apotheker?",
+            "opts": [
+              "a) Tabletten",
+              "b) Tee",
+              "c) Sport"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wo kann ich hier Geld wechseln? Frau: In der Bank um die Ecke, direkt beim Haupteingang.",
+            "q": "Wo kann man Geld wechseln?",
+            "opts": [
+              "a) Im Hotel",
+              "b) Am Bahnhof",
+              "c) In der Bank"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_3",
+    "level": "A2",
+    "title": "Prüfungssatz 3",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Hier ist Ihre tägliche Wettervorhersage. Heute wird es im Norden stark bewölkt mit Regen. Im Süden bleibt es trocken und es gibt sogar etwas Sonne. Die Temperaturen liegen zwischen acht und vierzehn Grad. Morgen bringt ein neues Tief Regen in ganz Deutschland. Am Wochenende erholen wir uns — Sonne und bis zu achtzehn Grad sind zu erwarten. Genießen Sie das Wochenende!",
+        "dialogs": [
+          {
+            "statement": "Im Norden ist es heute regnerisch.",
+            "correct": true
+          },
+          {
+            "statement": "Im Süden gibt es heute Sonne.",
+            "correct": true
+          },
+          {
+            "statement": "Morgen scheint überall die Sonne.",
+            "correct": false
+          },
+          {
+            "statement": "Am Wochenende wird es wärmer.",
+            "correct": true
+          },
+          {
+            "statement": "Die Temperaturen heute liegen über 20 Grad.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Bibliothek Stadtmitte, guten Tag. Hier ist Michael Braun. Ich habe ein Buch ausgeliehen und möchte es verlängern. Wie heißt das Buch? Deutsch lernen für Fortgeschrittene. Einen Moment… Das Buch kann nicht verlängert werden, es ist von einem anderen Kunden vorgemerkt. Wann muss ich es zurückbringen? Bis Freitag dieser Woche. Gibt es eine Strafe wenn ich zu spät bin? Ja, zehn Cent pro Tag. Dann bringe ich es morgen zurück.",
+        "questions": [
+          {
+            "q": "Was möchte Michael Braun?",
+            "opts": [
+              "a) Ein Buch ausleihen",
+              "b) Ein Buch verlängern",
+              "c) Ein Buch zurückgeben"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Warum kann das Buch nicht verlängert werden?",
+            "opts": [
+              "a) Es ist beschädigt",
+              "b) Es ist vorgemerkt",
+              "c) Es ist verloren"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Bis wann muss er das Buch zurückbringen?",
+            "opts": [
+              "a) Montag",
+              "b) Mittwoch",
+              "c) Freitag"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Was kostet eine verspätete Rückgabe?",
+            "opts": [
+              "a) 5 Cent pro Tag",
+              "b) 10 Cent pro Tag",
+              "c) 20 Cent pro Tag"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann bringt er das Buch zurück?",
+            "opts": [
+              "a) Heute",
+              "b) Morgen",
+              "c) Freitag"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Ist die Stelle noch frei? Personalchefin: Nein, leider haben wir schon jemanden gefunden.",
+            "q": "Ist die Stelle noch frei?",
+            "opts": [
+              "a) Ja",
+              "b) Nein",
+              "c) Vielleicht"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Ich möchte ein Konto eröffnen. Bankberaterin: Haben Sie Ihren Ausweis dabei? Mann: Ja, hier.",
+            "q": "Was braucht man für ein Konto?",
+            "opts": [
+              "a) Reisepass",
+              "b) Ausweis",
+              "c) Führerschein"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Der Zug hat Verspätung. Wie lange? Mann: Circa zwanzig Minuten laut Anzeige.",
+            "q": "Wie lange ist die Verspätung?",
+            "opts": [
+              "a) 10 Minuten",
+              "b) 20 Minuten",
+              "c) 30 Minuten"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Kundin: Kann ich dieses Parfüm testen? Verkäuferin: Natürlich, hier ist ein Teststreifen.",
+            "q": "Was möchte die Kundin?",
+            "opts": [
+              "a) Das Parfüm kaufen",
+              "b) Das Parfüm testen",
+              "c) Das Parfüm zurückgeben"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich lerne seit sechs Monaten Deutsch. Mann: Wie viele Stunden pro Woche? Frau: Vier Stunden.",
+            "q": "Wie oft lernt die Frau Deutsch?",
+            "opts": [
+              "a) 2 Stunden pro Woche",
+              "b) 3 Stunden pro Woche",
+              "c) 4 Stunden pro Woche"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_4",
+    "level": "A2",
+    "title": "Prüfungssatz 4",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Hier ist ein Hinweis für alle Eltern! Ab dem neuen Schuljahr gelten neue Regeln für die Schulkantine. Jeden Tag gibt es drei Gerichte zur Auswahl, darunter immer ein vegetarisches Gericht. Die Preise liegen zwischen zwei fünfzig und vier Euro. Kinder können online oder mit Bargeld bezahlen. Allergene werden in der Speisekarte angegeben. Anmeldung für den Mittagstisch bis zum fünfzehnten August.",
+        "dialogs": [
+          {
+            "statement": "Es gibt täglich drei Gerichte.",
+            "correct": true
+          },
+          {
+            "statement": "Es gibt immer ein vegetarisches Gericht.",
+            "correct": true
+          },
+          {
+            "statement": "Alle Gerichte kosten vier Euro.",
+            "correct": false
+          },
+          {
+            "statement": "Man kann nur bar bezahlen.",
+            "correct": false
+          },
+          {
+            "statement": "Die Anmeldung ist bis zum 15. August.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Fitnessstudio FitCity, guten Tag. Hallo, ich interessiere mich für eine Mitgliedschaft. Welche Möglichkeiten haben wir? Wir haben drei Modelle: Basis für neunzehn Euro monatlich, Standard für neunundzwanzig Euro und Premium für neunundvierzig Euro. Was ist der Unterschied? Basis gibt Ihnen die Geräte, Standard zusätzlich alle Kurse, Premium alles inklusive Sauna. Kann ich erst mal reinschauen? Natürlich, kommen Sie einfach vorbei. Gibt es Rabatt für Studenten? Ja, zehn Prozent.",
+        "questions": [
+          {
+            "q": "Was kostet das Standard-Modell?",
+            "opts": [
+              "a) 19 Euro",
+              "b) 29 Euro",
+              "c) 49 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was enthält das Basis-Modell?",
+            "opts": [
+              "a) Kurse und Geräte",
+              "b) Nur Geräte",
+              "c) Geräte und Sauna"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was ist im Premium-Modell dabei?",
+            "opts": [
+              "a) Nur Kurse",
+              "b) Kurse und Geräte",
+              "c) Alles inklusive Sauna"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Kann man das Studio vorher besuchen?",
+            "opts": [
+              "a) Nein",
+              "b) Ja",
+              "c) Nur mit Termin"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie viel Rabatt haben Studenten?",
+            "opts": [
+              "a) 5%",
+              "b) 10%",
+              "c) 15%"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Mann: Können Sie mir helfen? Mein Computer ist abgestürzt. Techniker: Wann war das letzte Update? Mann: Letzte Woche.",
+            "q": "Was ist das Problem?",
+            "opts": [
+              "a) Internet weg",
+              "b) Computer abgestürzt",
+              "c) Drucker kaputt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich suche ein Geschenk für meine Mutter. Wie alt wird sie? Sechzig. Verkäuferin: Wie wäre ein Seidenschal?",
+            "q": "Für wen ist das Geschenk?",
+            "opts": [
+              "a) Für die Schwester",
+              "b) Für die Mutter",
+              "c) Für die Freundin"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Tourist: Ist das Museum heute geöffnet? Frau: Ja, bis siebzehn Uhr. Tourist: Gibt es Audio-Guides? Frau: Ja, auf Englisch und Deutsch.",
+            "q": "Bis wann ist das Museum offen?",
+            "opts": [
+              "a) 15 Uhr",
+              "b) 16 Uhr",
+              "c) 17 Uhr"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Mann: Was trinken Sie? Frau: Einen Orangensaft bitte. Kellner: Frisch gepresst? Frau: Ja bitte!",
+            "q": "Was trinkt die Frau?",
+            "opts": [
+              "a) Apfelsaft",
+              "b) Orangensaft",
+              "c) Wasser"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie lange sind Sie schon in Deutschland? Mann: Zwei Jahre. Frau: Sprechen Sie gut Deutsch! Mann: Danke, ich lerne noch.",
+            "q": "Wie lange ist der Mann in Deutschland?",
+            "opts": [
+              "a) Ein Jahr",
+              "b) Zwei Jahre",
+              "c) Drei Jahre"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_5",
+    "level": "A2",
+    "title": "Prüfungssatz 5",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Guten Morgen aus dem Rathaus! Wir informieren Sie über die neue Mülltrennung in unserer Stadt. Ab nächsten Monat gibt es eine neue blaue Tonne für Papier, eine gelbe für Verpackungen und eine graue für Restmüll. Bioabfall kommt in die braune Tonne. Sperrmüll muss online angemeldet werden. Mehr Informationen erhalten Sie auf der Website der Stadtverwaltung.",
+        "dialogs": [
+          {
+            "statement": "Die blaue Tonne ist für Papier.",
+            "correct": true
+          },
+          {
+            "statement": "Bioabfall kommt in die gelbe Tonne.",
+            "correct": false
+          },
+          {
+            "statement": "Sperrmüll kann man einfach draußen stellen.",
+            "correct": false
+          },
+          {
+            "statement": "Es gibt eine neue graue Tonne für Restmüll.",
+            "correct": true
+          },
+          {
+            "statement": "Infos gibt es auf der Website der Stadtverwaltung.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Autohaus Braun, guten Morgen. Guten Morgen, mein Auto springt nicht an. Wie alt ist das Fahrzeug? Fünf Jahre. Haben Sie die Batterie überprüft? Nein, wie mache ich das? Kommen Sie vorbei, wir schauen es an. Was könnte es sein? Vielleicht die Batterie oder die Lichtmaschine. Was kostet die Diagnose? Die ist kostenlos. Wann können Sie kommen? Am besten heute Nachmittag.",
+        "questions": [
+          {
+            "q": "Was ist das Problem?",
+            "opts": [
+              "a) Das Auto hat einen Unfall",
+              "b) Das Auto springt nicht an",
+              "c) Das Auto hat Reifenpanne"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie alt ist das Auto?",
+            "opts": [
+              "a) 3 Jahre",
+              "b) 4 Jahre",
+              "c) 5 Jahre"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Was könnte das Problem sein?",
+            "opts": [
+              "a) Motor oder Getriebe",
+              "b) Batterie oder Lichtmaschine",
+              "c) Bremsen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was kostet die Diagnose?",
+            "opts": [
+              "a) 50 Euro",
+              "b) 30 Euro",
+              "c) Nichts"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Wann soll der Kunde kommen?",
+            "opts": [
+              "a) Morgen früh",
+              "b) Heute Nachmittag",
+              "c) Nächste Woche"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Können Sie das Paket liefern? Lieferant: Ja, morgen zwischen zehn und vierzehn Uhr.",
+            "q": "Wann wird geliefert?",
+            "opts": [
+              "a) Heute",
+              "b) Morgen 10–14 Uhr",
+              "c) Übermorgen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Dieser Wein ist ausgezeichnet! Kellner: Das freut mich, er kommt aus dem Südtirol.",
+            "q": "Woher kommt der Wein?",
+            "opts": [
+              "a) Frankreich",
+              "b) Südtirol",
+              "c) Spanien"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Haben Sie Kopfschmerzen? Mann: Ja, seit gestern. Frau: Nehmen Sie Aspirin.",
+            "q": "Wie lange hat er Kopfschmerzen?",
+            "opts": [
+              "a) Seit heute",
+              "b) Seit gestern",
+              "c) Seit einer Woche"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mädchen: Darf ich das Buch haben? Vater: Wenn du dein Zimmer aufräumst. Mädchen: Okay!",
+            "q": "Was muss das Mädchen tun?",
+            "opts": [
+              "a) Lernen",
+              "b) Zimmer aufräumen",
+              "c) Einkaufen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Student: Wann endet das Semester? Professor: Am fünfzehnten Februar. Student: Dann muss ich mich beeilen.",
+            "q": "Wann endet das Semester?",
+            "opts": [
+              "a) 15. Januar",
+              "b) 15. Februar",
+              "c) 15. März"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_6",
+    "level": "A2",
+    "title": "Prüfungssatz 6",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Herzlich willkommen bei der Stadtbücherei Frankfurt! Wir freuen uns, Ihnen unser neues Angebot vorzustellen. Ab sofort können Sie E-Books und Hörbücher digital ausleihen. Die digitale Ausleihe ist kostenlos für alle Mitglieder. Ein Mitgliedsbeitrag kostet zehn Euro pro Jahr. Kinder und Jugendliche unter achtzehn Jahren sind beitragsfrei. Anmelden können Sie sich online oder direkt bei uns.",
+        "dialogs": [
+          {
+            "statement": "E-Books kann man jetzt digital ausleihen.",
+            "correct": true
+          },
+          {
+            "statement": "Die digitale Ausleihe kostet extra.",
+            "correct": false
+          },
+          {
+            "statement": "Ein Mitgliedsbeitrag kostet 10 Euro pro Monat.",
+            "correct": false
+          },
+          {
+            "statement": "Kinder unter 18 zahlen keinen Beitrag.",
+            "correct": true
+          },
+          {
+            "statement": "Man kann sich nur online anmelden.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Hotel Garni, guten Tag. Ich möchte ein Zimmer für das Wochenende buchen. Welches Wochenende? Zwölfter und dreizehnter Mai. Für wie viele Personen? Für zwei, ein Doppelzimmer. Mit oder ohne Frühstück? Mit Frühstück bitte. Das kostet hundertzwanzig Euro pro Nacht. Gibt es einen Parkplatz? Ja, kostenlos für Hotelgäste. Kann ich mit Kreditkarte zahlen? Natürlich. Auf welchen Namen? Müller. Vielen Dank!",
+        "questions": [
+          {
+            "q": "Wann möchte der Gast ein Zimmer?",
+            "opts": [
+              "a) 10.-11. Mai",
+              "b) 12.-13. Mai",
+              "c) 14.-15. Mai"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was kostet die Nacht?",
+            "opts": [
+              "a) 100 Euro",
+              "b) 110 Euro",
+              "c) 120 Euro"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Ist der Parkplatz kostenlos?",
+            "opts": [
+              "a) Ja",
+              "b) Nein",
+              "c) Nur für eine Stunde"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Wie heißt der Gast?",
+            "opts": [
+              "a) Meier",
+              "b) Müller",
+              "c) Maier"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie bezahlt der Gast?",
+            "opts": [
+              "a) Bar",
+              "b) Kreditkarte",
+              "c) Überweisung"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Wie war die Party? Mann: Super! Wir haben bis drei Uhr getanzt. Frau: So spät!",
+            "q": "Wie lange haben sie getanzt?",
+            "opts": [
+              "a) Bis Mitternacht",
+              "b) Bis 2 Uhr",
+              "c) Bis 3 Uhr"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Diese Wohnung hat keinen Balkon. Makler: Stimmt, aber einen großen Garten.",
+            "q": "Was hat die Wohnung nicht?",
+            "opts": [
+              "a) Garten",
+              "b) Balkon",
+              "c) Küche"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Brauche ich ein Visum für die USA? Reisebüroangestellte: Als EU-Bürger brauchen Sie keins, aber eine ESTA-Genehmigung.",
+            "q": "Was braucht man als EU-Bürger für die USA?",
+            "opts": [
+              "a) Visum",
+              "b) ESTA-Genehmigung",
+              "c) Nichts"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich möchte Spanisch lernen. Wie lange dauert ein Kurs? Lehrer: Drei Monate, zweimal pro Woche.",
+            "q": "Wie oft findet der Kurs statt?",
+            "opts": [
+              "a) Einmal",
+              "b) Zweimal",
+              "c) Dreimal pro Woche"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Kann ich hier zahlen? Kassiererin: Ja, bar oder mit Karte. Mann: Karte bitte. Kassiererin: Pin eingeben.",
+            "q": "Wie zahlt der Mann?",
+            "opts": [
+              "a) Bar",
+              "b) Karte",
+              "c) Per App"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_7",
+    "level": "A2",
+    "title": "Prüfungssatz 7",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Radio Kultur berichtet: Die Stadtmuseum-Ausstellung \"Alte Meister\" verlängert sich bis Ende März. Die Ausstellung zeigt Gemälde aus dem sechzehnten und siebzehnten Jahrhundert. Öffnungszeiten: Dienstag bis Sonntag, zehn bis achtzehn Uhr. Montags geschlossen. Eintritt zwölf Euro, ermäßigt acht Euro für Studenten und Rentner. Führungen auf Deutsch und Englisch jeweils um elf und um fünfzehn Uhr.",
+        "dialogs": [
+          {
+            "statement": "Die Ausstellung endet Ende März.",
+            "correct": true
+          },
+          {
+            "statement": "Das Museum ist montags geöffnet.",
+            "correct": false
+          },
+          {
+            "statement": "Studenten zahlen acht Euro.",
+            "correct": true
+          },
+          {
+            "statement": "Es gibt Führungen auf Französisch.",
+            "correct": false
+          },
+          {
+            "statement": "Führungen finden um 11 und 15 Uhr statt.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Volkshochschule Hamburg, guten Tag. Guten Tag, ich suche einen Deutschkurs für Ausländer. Welches Niveau haben Sie? Ich denke A2, ich lerne seit einem Jahr. Wir haben einen Kurs B1 Start, der beginnt am ersten März. Wie oft in der Woche? Zweimal, montags und donnerstags, achtzehn bis zwanzig Uhr. Wie viel kostet der Kurs? Einhundertzwanzig Euro für drei Monate. Gibt es eine Anmeldegebühr? Nein. Wie kann ich mich anmelden? Online oder persönlich.",
+        "questions": [
+          {
+            "q": "Wie lange lernt die Person schon Deutsch?",
+            "opts": [
+              "a) Sechs Monate",
+              "b) Ein Jahr",
+              "c) Zwei Jahre"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann beginnt der Kurs?",
+            "opts": [
+              "a) 1. Februar",
+              "b) 1. März",
+              "c) 1. April"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann findet der Kurs statt?",
+            "opts": [
+              "a) Mo/Do 18–20 Uhr",
+              "b) Di/Fr 18–20 Uhr",
+              "c) Mi/Sa 18–20 Uhr"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Was kostet der Kurs?",
+            "opts": [
+              "a) 100 Euro",
+              "b) 120 Euro",
+              "c) 150 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie kann man sich anmelden?",
+            "opts": [
+              "a) Nur online",
+              "b) Nur persönlich",
+              "c) Online oder persönlich"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Ich habe meine Brille verloren. Polizist: Haben Sie Ihr Fundbüro gefragt? Frau: Nein, gute Idee.",
+            "q": "Was hat die Frau verloren?",
+            "opts": [
+              "a) Schlüssel",
+              "b) Brille",
+              "c) Portemonnaie"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wie komme ich zum Flughafen? Taxifahrer: Etwa vierzig Minuten mit dem Taxi.",
+            "q": "Wie lange zum Flughafen?",
+            "opts": [
+              "a) 20 Minuten",
+              "b) 30 Minuten",
+              "c) 40 Minuten"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Der Kaffee ist kalt. Kellner: Entschuldigung, ich bringe sofort einen neuen.",
+            "q": "Was ist falsch mit dem Kaffee?",
+            "opts": [
+              "a) Zu süß",
+              "b) Kalt",
+              "c) Zu stark"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Was kann ich für Sie tun? Frau: Ich möchte mein Gepäck aufgeben. Mann: Darf ich Ihren Reisepass sehen?",
+            "q": "Was möchte die Frau?",
+            "opts": [
+              "a) Einchecken",
+              "b) Gepäck aufgeben",
+              "c) Ticket kaufen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Kind: Darf ich noch eine Stunde spielen? Mutter: Es ist schon neun Uhr! Ab ins Bett. Kind: Ach Mama...",
+            "q": "Wie spät ist es?",
+            "opts": [
+              "a) Acht Uhr",
+              "b) Neun Uhr",
+              "c) Zehn Uhr"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXA2_8",
+    "level": "A2",
+    "title": "Prüfungssatz 8",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung / Ansage",
+        "instructions": "Sie hören eine Ansage. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Liebe Kolleginnen und Kollegen, ich möchte Sie über die neue Kantinenpolitik informieren. Ab Montag gibt es in der Kantine täglich ein Tagesmenü für sechs Euro fünfzig. Das Menü umfasst Suppe, Hauptgericht und Dessert. Bezahlt wird nur noch mit der Mitarbeiterkarte, Bargeld wird nicht mehr akzeptiert. Wer noch keine Karte hat, kann sie bis Freitag in der Personalabteilung abholen.",
+        "dialogs": [
+          {
+            "statement": "Das Tagesmenü kostet 6,50 Euro.",
+            "correct": true
+          },
+          {
+            "statement": "Das Menü enthält keine Suppe.",
+            "correct": false
+          },
+          {
+            "statement": "Man kann noch mit Bargeld bezahlen.",
+            "correct": false
+          },
+          {
+            "statement": "Die Mitarbeiterkarte ist bis Freitag abholbar.",
+            "correct": true
+          },
+          {
+            "statement": "Barzahlung ist ab Montag nicht mehr möglich.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Telefongespräch",
+        "instructions": "Sie hören ein Telefongespräch. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Hallo, hier ist der Kundenservice von StreamPlus. Wie kann ich helfen? Ich möchte mein Abonnement kündigen. Darf ich fragen, warum? Es ist zu teuer und ich schaue kaum. Verstehe. Sie müssen dreißig Tage vorher kündigen. Kann ich sofort kündigen? Sie können heute kündigen, aber das Abo läuft noch einen Monat. Wie kündige ich? Per E-Mail oder über Ihre Kontoeinstellungen. Gut, ich mache das online. Ist das alles? Ja, vielen Dank.",
+        "questions": [
+          {
+            "q": "Was möchte der Kunde?",
+            "opts": [
+              "a) Abonnement ändern",
+              "b) Abonnement kündigen",
+              "c) Neues Abo kaufen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Warum kündigt er?",
+            "opts": [
+              "a) Schlechte Qualität",
+              "b) Zu teuer und wenig genutzt",
+              "c) Umzug"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie lange muss man vorher kündigen?",
+            "opts": [
+              "a) 14 Tage",
+              "b) 30 Tage",
+              "c) 60 Tage"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Läuft das Abo sofort ab?",
+            "opts": [
+              "a) Ja",
+              "b) Nein, noch einen Monat",
+              "c) Nach zwei Wochen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie kündigt er?",
+            "opts": [
+              "a) Per Brief",
+              "b) Per Telefon",
+              "c) Online"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "mc",
+        "title": "Teil 3 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Diese Tasche ist sehr schön. Wie viel kostet sie? Verkäufer: Hundertneunzig Euro, aber im Angebot sind es hundertfünfzig.",
+            "q": "Was kostet die Tasche im Angebot?",
+            "opts": [
+              "a) 130 Euro",
+              "b) 150 Euro",
+              "c) 190 Euro"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Ich habe heute Morgen verschlafen. Chef: Das darf nicht wieder passieren.",
+            "q": "Was ist passiert?",
+            "opts": [
+              "a) Krank gewesen",
+              "b) Verschlafen",
+              "c) Zug verpasst"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Haben Sie noch vegetarische Optionen? Kellner: Ja, wir haben Pasta Primavera und Gemüsecurry.",
+            "q": "Wie viele vegetarische Optionen gibt es?",
+            "opts": [
+              "a) Eine",
+              "b) Zwei",
+              "c) Drei"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Wann fährt der nächste Zug nach Köln? Frau: In zehn Minuten auf Gleis drei.",
+            "q": "Wann fährt der Zug?",
+            "opts": [
+              "a) In 5 Minuten",
+              "b) In 10 Minuten",
+              "c) In 15 Minuten"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich möchte mein Passwort ändern. Helpdesk: Klicken Sie auf \"Einstellungen\" und dann auf \"Sicherheit\".",
+            "q": "Was soll die Frau tun?",
+            "opts": [
+              "a) Anrufen",
+              "b) Auf Einstellungen klicken",
+              "c) Neu registrieren"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_1",
+    "level": "B1",
+    "title": "Prüfungssatz 1",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Willkommen zu unserem Beitrag über das Thema Homeoffice. Seit der Pandemie arbeiten in Deutschland viele Menschen regelmäßig von zu Hause. Laut einer aktuellen Studie arbeiten fast vierzig Prozent aller Arbeitnehmer mindestens einmal pro Woche im Homeoffice. Die meisten Arbeitgeber bewerten diese Entwicklung positiv, da die Produktivität gestiegen ist. Allerdings klagen viele Mitarbeiter über soziale Isolation. Experten empfehlen ein hybrides Modell: zwei bis drei Tage im Büro, der Rest zu Hause. Einige Firmen bieten sogar finanzielle Zuschüsse für die Ausstattung des Homeoffice an. Die Gewerkschaften fordern ein gesetzliches Recht auf Homeoffice.",
+        "dialogs": [
+          {
+            "statement": "Fast 40% der Arbeitnehmer arbeiten mindestens einmal pro Woche im Homeoffice.",
+            "correct": true
+          },
+          {
+            "statement": "Die meisten Arbeitgeber sind gegen Homeoffice.",
+            "correct": false
+          },
+          {
+            "statement": "Die Produktivität ist gestiegen.",
+            "correct": true
+          },
+          {
+            "statement": "Viele Mitarbeiter fühlen sich sozial isoliert.",
+            "correct": true
+          },
+          {
+            "statement": "Experten empfehlen ausschließlich Homeoffice.",
+            "correct": false
+          },
+          {
+            "statement": "Einige Firmen bezuschussen die Homeoffice-Ausstattung.",
+            "correct": true
+          },
+          {
+            "statement": "Die Gewerkschaften sind gegen Homeoffice.",
+            "correct": false
+          },
+          {
+            "statement": "Hybrides Arbeiten bedeutet 2-3 Tage im Büro.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Heute spreche ich mit Dr. Petra Klein, Ernährungsexpertin. Dr. Klein, wie viele Mahlzeiten sollten wir täglich essen? Das hängt vom Individuum ab, aber drei Mahlzeiten pro Tag sind für die meisten Menschen gut. Was ist das wichtigste Frühstück? Ein ausgewogenes Frühstück mit Proteinen, Ballaststoffen und etwas Obst. Was halten Sie von Diäten? Extremdiäten halte ich für schädlich, da der Körper alle Nährstoffe braucht. Ist Zucker wirklich so schlimm? In Maßen ist alles erlaubt. Problematisch wird es, wenn Zucker versteckt in verarbeiteten Lebensmitteln steckt. Was empfehlen Sie fürs Abendessen? Leichte Kost, möglichst vor achtzehn Uhr. Und was trinken? Mindestens zwei Liter Wasser täglich, wenig Alkohol.",
+        "questions": [
+          {
+            "q": "Wie viele Mahlzeiten empfiehlt Dr. Klein?",
+            "opts": [
+              "a) Zwei",
+              "b) Drei",
+              "c) Fünf"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was gehört zum idealen Frühstück?",
+            "opts": [
+              "a) Nur Obst",
+              "b) Proteine, Ballaststoffe und Obst",
+              "c) Kaffee und Toast"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was hält sie von Extremdiäten?",
+            "opts": [
+              "a) Sie empfiehlt sie",
+              "b) Sie hält sie für schädlich",
+              "c) Sie sieht kein Problem"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann ist Zucker problematisch?",
+            "opts": [
+              "a) Immer",
+              "b) Wenn er versteckt in Lebensmitteln steckt",
+              "c) Nie"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann empfiehlt sie das Abendessen?",
+            "opts": [
+              "a) Vor 17 Uhr",
+              "b) Vor 18 Uhr",
+              "c) Vor 20 Uhr"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie viel Wasser täglich?",
+            "opts": [
+              "a) 1 Liter",
+              "b) 1,5 Liter",
+              "c) 2 Liter"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Klimaschutz im Alltag: Was kann jeder Einzelne tun? Das Umweltbundesamt hat untersucht, welche Maßnahmen die größte Wirkung haben. An erster Stelle steht der Verzicht auf das Auto. Wer auf öffentliche Verkehrsmittel umsteigt, spart durchschnittlich zwei Tonnen CO₂ pro Jahr. Auch die Ernährung spielt eine Rolle: Weniger Fleisch zu essen reduziert den ökologischen Fußabdruck erheblich. Das Heizen macht in deutschen Haushalten fast fünfzig Prozent des Energieverbrauchs aus. Eine Absenkung der Raumtemperatur um zwei Grad spart etwa zehn Prozent Energie.",
+        "dialogs": [
+          {
+            "statement": "Das Umweltbundesamt hat diese Studie durchgeführt.",
+            "correct": true
+          },
+          {
+            "statement": "Der Verzicht aufs Auto ist der wirksamste Beitrag.",
+            "correct": true
+          },
+          {
+            "statement": "Man spart bis zu 5 Tonnen CO₂ durch kein Auto.",
+            "correct": false
+          },
+          {
+            "statement": "Weniger Fleisch reduziert den ökologischen Fußabdruck.",
+            "correct": true
+          },
+          {
+            "statement": "Heizen macht fast 50% des Energieverbrauchs aus.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Kollegin: Hast du die E-Mail von der Geschäftsführung gelesen? Kollege: Ja, die Fusion wird offiziell. Kollegin: Ich bin gespannt, was sich ändert.",
+            "q": "Was wird offiziell?",
+            "opts": [
+              "a) Eine Entlassung",
+              "b) Die Fusion",
+              "c) Ein neues Produkt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich suche eine Stelle als Buchhalter. Personalberater: Mit wie viel Berufserfahrung? Frau: Fünf Jahre in der Steuerberatung.",
+            "q": "Wie lange hat die Frau Berufserfahrung?",
+            "opts": [
+              "a) Drei Jahre",
+              "b) Vier Jahre",
+              "c) Fünf Jahre"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Mann: Diese Nachricht macht mir Sorgen. Therapeut: Was genau beunruhigt Sie? Mann: Die Unsicherheit über die Zukunft.",
+            "q": "Was beunruhigt den Mann?",
+            "opts": [
+              "a) Geldprobleme",
+              "b) Unsicherheit über die Zukunft",
+              "c) Gesundheitsprobleme"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Der Vermieter will die Miete erhöhen. Mann: Um wie viel? Frau: Um fünfzehn Prozent. Das ist illegal!",
+            "q": "Was ist das Problem?",
+            "opts": [
+              "a) Wohnung ist zu klein",
+              "b) Miete soll um 15% steigen",
+              "c) Heizung ist kaputt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Student: Ich habe die Prüfung leider nicht bestanden. Professorin: Woran lag es? Student: An der Zeit — die letzte Aufgabe konnte ich nicht fertig machen.",
+            "q": "Warum hat er die Prüfung nicht bestanden?",
+            "opts": [
+              "a) Er war krank",
+              "b) Zu wenig Zeit",
+              "c) Falsche Vorbereitung"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_2",
+    "level": "B1",
+    "title": "Prüfungssatz 2",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Thema heute: Digitalisierung in deutschen Schulen. Deutschland hinkt im internationalen Vergleich bei der Digitalisierung der Schulen hinterher. Während in skandinavischen Ländern fast alle Schüler Tablets haben, fehlen in vielen deutschen Schulen noch grundlegende technische Ausstattungen. Die Bundesregierung hat ein Programm mit fünf Milliarden Euro aufgelegt, um Schulen mit schnellem Internet und digitalen Geräten auszustatten. Lehrerinnen und Lehrer beklagen jedoch, dass nicht nur Technik fehlt, sondern auch Fortbildungen. Kritiker sagen, die analoge Pädagogik dürfe nicht vernachlässigt werden.",
+        "dialogs": [
+          {
+            "statement": "Deutschland ist beim digitalen Lernen führend.",
+            "correct": false
+          },
+          {
+            "statement": "In Skandinavien haben fast alle Schüler Tablets.",
+            "correct": true
+          },
+          {
+            "statement": "Die Bundesregierung investiert 5 Milliarden Euro.",
+            "correct": true
+          },
+          {
+            "statement": "Lehrer wünschen sich auch Fortbildungen.",
+            "correct": true
+          },
+          {
+            "statement": "Kritiker fordern mehr digitale Technik.",
+            "correct": false
+          },
+          {
+            "statement": "Viele Schulen haben noch kein schnelles Internet.",
+            "correct": true
+          },
+          {
+            "statement": "Das Digitalisierungsprogramm kommt aus den Bundesländern.",
+            "correct": false
+          },
+          {
+            "statement": "Analoge Pädagogik soll laut Kritikern nicht vernachlässigt werden.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Ich spreche heute mit Jonas Weber, der vor zwei Jahren sein eigenes Unternehmen gegründet hat. Jonas, warum haben Sie sich für die Selbstständigkeit entschieden? Ich wollte meine eigenen Ideen umsetzen und nicht immer auf Entscheidungen warten. War die Finanzierung schwierig? Ja, am Anfang war es sehr schwer, einen Kredit zu bekommen. Was hat Ihnen geholfen? Ein Gründerstipendium der Bundesregierung und die Unterstützung meiner Familie. Wie viele Mitarbeiter haben Sie? Derzeit acht. Was würden Sie Gründern raten? Netzwerken ist alles. Und: rechnet immer mit doppelt so langer Zeit wie geplant.",
+        "questions": [
+          {
+            "q": "Warum wurde Jonas selbstständig?",
+            "opts": [
+              "a) Wegen Jobverlust",
+              "b) Eigene Ideen umsetzen",
+              "c) Höheres Gehalt"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was war am Anfang schwierig?",
+            "opts": [
+              "a) Kunden finden",
+              "b) Kredit bekommen",
+              "c) Mitarbeiter einstellen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was hat ihm geholfen?",
+            "opts": [
+              "a) Bankkredit und Familie",
+              "b) Stipendium und Familie",
+              "c) Investoren und Freunde"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wie viele Mitarbeiter hat er?",
+            "opts": [
+              "a) Fünf",
+              "b) Sechs",
+              "c) Acht"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Was rät er Gründern vor allem?",
+            "opts": [
+              "a) Viel Geld sparen",
+              "b) Netzwerken",
+              "c) Schnell wachsen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was sagt er über die Zeitplanung?",
+            "opts": [
+              "a) Alles geht schneller als gedacht",
+              "b) Man braucht doppelt so lang",
+              "c) Es kommt auf die Branche an"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Wohnungsnot in deutschen Großstädten: ein wachsendes Problem. In Städten wie München, Hamburg und Berlin ist bezahlbarer Wohnraum knapp. Die Mieten sind in den letzten zehn Jahren um bis zu siebzig Prozent gestiegen. Hauptursachen sind Bevölkerungswachstum, Zuzug aus dem Ausland und zu wenig Neubau. Die Politik reagiert mit Mietendeckeln, die jedoch umstritten sind, weil sie Investitionen hemmen könnten. Experten fordern mehr sozialen Wohnungsbau und Anreize für private Investoren.",
+        "dialogs": [
+          {
+            "statement": "In München, Hamburg und Berlin fehlen günstige Wohnungen.",
+            "correct": true
+          },
+          {
+            "statement": "Die Mieten stiegen in zehn Jahren um 70%.",
+            "correct": true
+          },
+          {
+            "statement": "Zu viel Neubau ist das Hauptproblem.",
+            "correct": false
+          },
+          {
+            "statement": "Mietendeckel sind politisch unumstritten.",
+            "correct": false
+          },
+          {
+            "statement": "Experten fordern mehr sozialen Wohnungsbau.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Mann: Ich habe das Vorstellungsgespräch bestanden! Frau: Wirklich? Herzlichen Glückwunsch! Wann fängst du an? Mann: Nächsten Montag.",
+            "q": "Wann beginnt der neue Job?",
+            "opts": [
+              "a) Diese Woche",
+              "b) Nächsten Montag",
+              "c) Nächsten Monat"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Sollten wir die Konferenz absagen? Kollege: Nein, wir verschieben sie auf nächste Woche. Frau: Einverstanden.",
+            "q": "Was passiert mit der Konferenz?",
+            "opts": [
+              "a) Sie wird abgesagt",
+              "b) Sie wird verschoben",
+              "c) Sie findet statt"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Studentin: Ich finde das Thema zu schwer. Tutor: Dann fangen wir mit den Grundlagen an. Das hilft bestimmt.",
+            "q": "Was schlägt der Tutor vor?",
+            "opts": [
+              "a) Einen anderen Kurs",
+              "b) Mit Grundlagen beginnen",
+              "c) Mehr lesen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Diese Statistik zeigt klar, dass Bewegung die Gesundheit verbessert. Frau: Einverstanden, aber Ernährung ist genauso wichtig.",
+            "q": "Worüber sind sie sich einig?",
+            "opts": [
+              "a) Bewegung verbessert die Gesundheit",
+              "b) Nur Ernährung zählt",
+              "c) Statistiken sind unzuverlässig"
+            ],
+            "a": 0
+          },
+          {
+            "script": "Frau: Das Projekt ist drei Wochen hinter dem Zeitplan. Chef: Woran liegt das? Frau: Die Lieferung der Materialien hat sich verzögert.",
+            "q": "Warum liegt das Projekt zurück?",
+            "opts": [
+              "a) Zu wenig Personal",
+              "b) Materiallieferung verzögert",
+              "c) Schlechte Planung"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_3",
+    "level": "B1",
+    "title": "Prüfungssatz 3",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Unsere heutige Sendung befasst sich mit dem Thema ehrenamtliche Arbeit in Deutschland. Etwa dreißig Millionen Menschen engagieren sich hierzulande ehrenamtlich. Das entspricht fast einem Drittel der Bevölkerung. Am häufigsten werden soziale Einrichtungen, Sportvereine und Feuerwehr unterstützt. Junge Menschen zwischen vierzehn und dreißig Jahren sind besonders aktiv. Viele Unternehmen fördern inzwischen das Ehrenamt ihrer Mitarbeiter durch bezahlte Freistellungen. Studien zeigen, dass Ehrenamtliche zufriedener und gesünder sind als Menschen, die sich nicht engagieren.",
+        "dialogs": [
+          {
+            "statement": "Etwa 30 Millionen Deutsche sind ehrenamtlich tätig.",
+            "correct": true
+          },
+          {
+            "statement": "Das entspricht fast der Hälfte der Bevölkerung.",
+            "correct": false
+          },
+          {
+            "statement": "Sportvereine werden häufig ehrenamtlich unterstützt.",
+            "correct": true
+          },
+          {
+            "statement": "Ältere Menschen über 60 sind am aktivsten.",
+            "correct": false
+          },
+          {
+            "statement": "Manche Unternehmen geben Freizeit für Ehrenamt.",
+            "correct": true
+          },
+          {
+            "statement": "Ehrenamtliche sind laut Studien gesünder.",
+            "correct": true
+          },
+          {
+            "statement": "Soziale Einrichtungen sind der häufigste Bereich.",
+            "correct": true
+          },
+          {
+            "statement": "Nur wenige Unternehmen unterstützen Ehrenamt.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Heute zu Gast: die Schriftstellerin Lea Bernhard. Frau Bernhard, wann haben Sie angefangen zu schreiben? Als Kind, mit etwa acht Jahren. Erst Gedichte, später Kurzgeschichten. Was inspiriert Sie? Das tägliche Leben, Begegnungen mit Menschen. Das Außergewöhnliche im Gewöhnlichen. Haben Sie ein Ritual beim Schreiben? Ich schreibe nur morgens, nach dem ersten Kaffee, mindestens zwei Stunden. Wie gehen Sie mit Schreibblockaden um? Ich gehe spazieren oder lese Bücher aus anderen Genres. Wie lange hat Ihr letzter Roman gedauert? Drei Jahre. Sind Sie mit dem Ergebnis zufrieden? Ja, es ist mein persönlichstes Buch bisher.",
+        "questions": [
+          {
+            "q": "Wann begann sie zu schreiben?",
+            "opts": [
+              "a) Mit 6 Jahren",
+              "b) Mit 8 Jahren",
+              "c) Mit 10 Jahren"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was inspiriert sie?",
+            "opts": [
+              "a) Reisen",
+              "b) Das tägliche Leben",
+              "c) Träume"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann schreibt sie?",
+            "opts": [
+              "a) Nachmittags",
+              "b) Abends",
+              "c) Morgens"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Wie bewältigt sie Schreibblockaden?",
+            "opts": [
+              "a) Spazieren oder lesen",
+              "b) Sport machen",
+              "c) Mit Freunden sprechen"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Wie lange hat der letzte Roman gedauert?",
+            "opts": [
+              "a) Zwei Jahre",
+              "b) Drei Jahre",
+              "c) Vier Jahre"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was sagt sie über ihr letztes Buch?",
+            "opts": [
+              "a) Es ist ihr schlechtestes",
+              "b) Es ist ihr persönlichstes",
+              "c) Es ist noch nicht fertig"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Bericht über Elektromobilität: Deutschland will bis zweitausendvierzig vollständig auf Elektroautos umstellen. Derzeit sind aber erst etwa fünf Prozent aller Autos elektrisch. Die größten Hindernisse sind der hohe Kaufpreis und fehlende Ladeinfrastruktur. In Städten gibt es bereits ein gutes Netz, aber auf dem Land ist die Ladeinfrastruktur noch lückenhaft. Die Autoindustrie investiert massiv in neue Modelle. Staatliche Kaufprämien wurden jedoch kürzlich abgeschafft.",
+        "dialogs": [
+          {
+            "statement": "Deutschland will bis 2040 auf Elektroautos umstellen.",
+            "correct": true
+          },
+          {
+            "statement": "Bereits 50% der Autos sind elektrisch.",
+            "correct": false
+          },
+          {
+            "statement": "Hoher Kaufpreis ist ein Hindernis.",
+            "correct": true
+          },
+          {
+            "statement": "Die Ladeinfrastruktur auf dem Land ist gut.",
+            "correct": false
+          },
+          {
+            "statement": "Staatliche Kaufprämien wurden abgeschafft.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Mann: Ich ziehe nächsten Monat in eine neue Stadt. Frau: Wirklich? Hast du schon eine Wohnung? Mann: Ja, in der Innenstadt.",
+            "q": "Wohin zieht der Mann?",
+            "opts": [
+              "a) In ein Dorf",
+              "b) In die Innenstadt einer neuen Stadt",
+              "c) Ins Ausland"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Ärztin: Sie müssen sich mehr bewegen. Patient: Ich habe keine Zeit. Ärztin: Schon dreißig Minuten Gehen täglich hilft sehr.",
+            "q": "Was empfiehlt die Ärztin?",
+            "opts": [
+              "a) Sport im Fitnessstudio",
+              "b) Täglich 30 Minuten gehen",
+              "c) Abnehmen"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Diese Zahlen stimmen nicht. Buchhalter: Ich überprüfe das sofort. Da muss ein Fehler sein.",
+            "q": "Was ist das Problem?",
+            "opts": [
+              "a) Fehlende Unterlagen",
+              "b) Falsche Zahlen",
+              "c) Verspätete Lieferung"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Tourist: Ich habe meinen Pass verloren. Polizist: Gehen Sie sofort zur Botschaft Ihres Landes.",
+            "q": "Was soll der Tourist tun?",
+            "opts": [
+              "a) Zur Polizei gehen",
+              "b) Zur Botschaft gehen",
+              "c) Ins Hotel zurück"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Sind Sie für oder gegen Kernkraft? Mann: Ich bin unentschlossen. Es gibt Argumente auf beiden Seiten.",
+            "q": "Was ist die Meinung des Mannes?",
+            "opts": [
+              "a) Klar dafür",
+              "b) Klar dagegen",
+              "c) Unentschlossen"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_4",
+    "level": "B1",
+    "title": "Prüfungssatz 4",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Heute berichten wir über den Tourismus in Deutschland. Im Jahr zweitausendzweiundzwanzig besuchten über vierzig Millionen Auslandstouristen Deutschland. Die beliebtesten Ziele sind Bayern, Berlin und der Rhein. Kulturelle Sehenswürdigkeiten stehen ganz oben auf der Wunschliste der Besucher. Viele Touristen kommen aus den USA, China und den Niederlanden. Der Tourismus trägt etwa hundert Milliarden Euro zur deutschen Wirtschaft bei. Jedoch beklagen viele Städte zu viele Touristen, sogenannten Overtourism. Umweltschützer fordern nachhaltigen Tourismus.",
+        "dialogs": [
+          {
+            "statement": "Über 40 Millionen Auslandstouristen kamen 2022.",
+            "correct": true
+          },
+          {
+            "statement": "Berlin ist das beliebteste Ziel.",
+            "correct": false
+          },
+          {
+            "statement": "Viele Touristen kommen aus den USA.",
+            "correct": true
+          },
+          {
+            "statement": "Tourismus bringt ca. 100 Milliarden Euro.",
+            "correct": true
+          },
+          {
+            "statement": "Overtourism ist in manchen Städten ein Problem.",
+            "correct": true
+          },
+          {
+            "statement": "Umweltschützer fordern mehr Tourismus.",
+            "correct": false
+          },
+          {
+            "statement": "Kulturelle Sehenswürdigkeiten sind nicht beliebt.",
+            "correct": false
+          },
+          {
+            "statement": "China gehört zu den Hauptherkunftsländern.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Zu Gast heute: Dr. Frank Müller, Stadtplaner. Dr. Müller, welche Herausforderungen haben Städte heute? Die größten sind Klimawandel, Digitalisierung und Bevölkerungswachstum. Was muss sich ändern? Städte müssen grüner werden, mehr Bäume, mehr Parks, weniger Autos. Ist das realistisch? Ja, wenn die Politik mutig genug ist. Gibt es gute Beispiele? Wien und Amsterdam zeigen, dass Verkehrswende möglich ist. Was kostet das? Viel, aber Nichtstun kostet langfristig mehr. Wann kommen die Ergebnisse? In zwanzig bis dreißig Jahren sehen wir echte Veränderungen.",
+        "questions": [
+          {
+            "q": "Was sind laut Dr. Müller die drei Hauptherausforderungen?",
+            "opts": [
+              "a) Kriminalität, Lärm, Müll",
+              "b) Klimawandel, Digitalisierung, Bevölkerungswachstum",
+              "c) Armut, Wohnungsnot, Verkehr"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was muss sich ändern?",
+            "opts": [
+              "a) Mehr Autobahnen bauen",
+              "b) Städte grüner machen",
+              "c) Wohnungen abreißen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Welche Städte nennt er als Beispiel?",
+            "opts": [
+              "a) Berlin und Paris",
+              "b) Wien und Amsterdam",
+              "c) Stockholm und Kopenhagen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was sagt er zu den Kosten?",
+            "opts": [
+              "a) Es ist zu teuer",
+              "b) Nichtstun kostet langfristig mehr",
+              "c) Es ist kostenlos"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann sieht man echte Veränderungen?",
+            "opts": [
+              "a) In 5 Jahren",
+              "b) In 10 Jahren",
+              "c) In 20–30 Jahren"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Unter welcher Bedingung ist die Grünplanung realistisch?",
+            "opts": [
+              "a) Mit Technologie",
+              "b) Mit mutiger Politik",
+              "c) Mit Bürgerengagement"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Bericht über Arbeit im Wandel: Immer mehr Unternehmen führen die Vier-Tage-Woche ein. Pilotprojekte in Großbritannien zeigten, dass die Produktivität nicht sinkt — im Gegenteil, sie stieg bei vielen Firmen. Mitarbeiter waren glücklicher und hatten weniger Krankheitstage. Kritiker sagen, das funktioniert nicht in allen Branchen. In der Pflege oder im Einzelhandel sei es kaum umsetzbar. Die Mehrheit der Beschäftigten befürwortet die Vier-Tage-Woche, ein Drittel lehnt sie ab.",
+        "dialogs": [
+          {
+            "statement": "Die Vier-Tage-Woche senkt die Produktivität.",
+            "correct": false
+          },
+          {
+            "statement": "Pilotprojekte fanden in Großbritannien statt.",
+            "correct": true
+          },
+          {
+            "statement": "Mitarbeiter hatten weniger Krankheitstage.",
+            "correct": true
+          },
+          {
+            "statement": "Die Vier-Tage-Woche ist in allen Branchen leicht umsetzbar.",
+            "correct": false
+          },
+          {
+            "statement": "Ein Drittel der Beschäftigten lehnt sie ab.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Ich finde, wir sollten mehr in Bildung investieren. Mann: Da stimme ich zu, aber auch in Infrastruktur.",
+            "q": "Worüber sind sie sich einig?",
+            "opts": [
+              "a) Mehr Militär",
+              "b) Mehr Bildungsinvestition",
+              "c) Weniger Steuern"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Dozentin: Diese Hausarbeit ist ausgezeichnet! Student: Wirklich? Ich dachte, die Argumentation ist schwach.",
+            "q": "Was denkt die Dozentin?",
+            "opts": [
+              "a) Die Arbeit ist schlecht",
+              "b) Die Arbeit ist ausgezeichnet",
+              "c) Die Arbeit muss überarbeitet werden"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Journalist: Was war Ihre Reaktion auf die Kritik? Bürgermeisterin: Ich nehme Kritik ernst und lerne daraus.",
+            "q": "Wie reagiert die Bürgermeisterin auf Kritik?",
+            "opts": [
+              "a) Sie lehnt sie ab",
+              "b) Sie nimmt sie ernst",
+              "c) Sie ignoriert sie"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich hatte einen Autounfall. Mann: Waren Sie verletzt? Frau: Nein, zum Glück nicht.",
+            "q": "Was ist mit der Frau passiert?",
+            "opts": [
+              "a) Sie war krank",
+              "b) Sie hatte einen Unfall",
+              "c) Sie hat ihr Auto verloren"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Ich habe drei Monate gebraucht, diese Sprache zu lernen. Frau: Ich auch! Es ist wirklich schwer.",
+            "q": "Wie lange hat er die Sprache gelernt?",
+            "opts": [
+              "a) Einen Monat",
+              "b) Zwei Monate",
+              "c) Drei Monate"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_5",
+    "level": "B1",
+    "title": "Prüfungssatz 5",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Heute Thema: Plastik und Umwelt. Deutschland ist eines der größten Plastikproduzenten in Europa. Jährlich werden hierzulande über vierzig Kilogramm Plastikmüll pro Person erzeugt. Nur etwa die Hälfte davon wird recycelt. Die Bundesregierung hat das Plastiktütenverbot eingeführt und plant strengere Regeln für Einwegverpackungen. Supermärkte bieten zunehmend unverpackte Produkte an. Experten sind sich einig, dass es eine grundlegende Veränderung im Konsumverhalten braucht.",
+        "dialogs": [
+          {
+            "statement": "Deutschland ist einer der größten Plastikproduzenten in Europa.",
+            "correct": true
+          },
+          {
+            "statement": "Pro Person werden jährlich 40 kg Plastik erzeugt.",
+            "correct": true
+          },
+          {
+            "statement": "Fast alles Plastik wird recycelt.",
+            "correct": false
+          },
+          {
+            "statement": "Plastiktüten sind in Deutschland verboten.",
+            "correct": true
+          },
+          {
+            "statement": "Experten sagen, kleine Änderungen reichen.",
+            "correct": false
+          },
+          {
+            "statement": "Supermärkte bieten immer mehr unverpackte Waren an.",
+            "correct": true
+          },
+          {
+            "statement": "Die Regierung plant keine weiteren Maßnahmen.",
+            "correct": false
+          },
+          {
+            "statement": "Einwegverpackungen sollen strenger reguliert werden.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Zu Gast ist Prof. Sandra Koch, Psychologin. Prof. Koch, was ist Stress eigentlich genau? Stress ist eine körperliche und psychische Reaktion auf Anforderungen, die wir als bedrohlich empfinden. Wann wird Stress gefährlich? Wenn er chronisch wird. Kurzfristiger Stress ist normal und sogar hilfreich. Was sind Warnsignale? Schlafprobleme, Reizbarkeit, Konzentrationsschwäche. Was hilft dagegen? Regelmäßige Pausen, Bewegung und soziale Kontakte. Können Sie einen Tipp geben? Lernen Sie Nein zu sagen — Überlastung ist die häufigste Stressursache. Und: Holen Sie sich Hilfe, wenn nötig.",
+        "questions": [
+          {
+            "q": "Was ist Stress laut Prof. Koch?",
+            "opts": [
+              "a) Immer negativ",
+              "b) Eine Reaktion auf als bedrohlich empfundene Anforderungen",
+              "c) Nur körperlich"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wann ist Stress gefährlich?",
+            "opts": [
+              "a) Immer",
+              "b) Bei kurzer Dauer",
+              "c) Bei chronischem Stress"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Was ist ein Warnsignal?",
+            "opts": [
+              "a) Hunger",
+              "b) Schlafprobleme",
+              "c) Kopfschmerzen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was hilft gegen Stress?",
+            "opts": [
+              "a) Mehr arbeiten",
+              "b) Bewegung und soziale Kontakte",
+              "c) Alleine sein"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was ist die häufigste Stressursache?",
+            "opts": [
+              "a) Geldsorgen",
+              "b) Überlastung",
+              "c) Einsamkeit"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was rät sie zusätzlich?",
+            "opts": [
+              "a) Mehr schlafen",
+              "b) Weniger essen",
+              "c) Bei Bedarf Hilfe suchen"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Bericht: Sport und Gesellschaft. In Deutschland treiben rund sieben Millionen Menschen aktiv Sport in Vereinen. Fußball ist mit Abstand die beliebteste Sportart. Frauen bevorzugen häufig Yoga, Schwimmen und Tanzen. Laut einer Studie treiben Kinder heute weniger Sport als vor zwanzig Jahren, weil sie mehr Zeit vor Bildschirmen verbringen. Schulen sollen laut Experten mehr Sportstunden einführen. Der Breitensport hat positiven Einfluss auf die psychische Gesundheit.",
+        "dialogs": [
+          {
+            "statement": "Sieben Millionen Menschen sind in Sportvereinen.",
+            "correct": true
+          },
+          {
+            "statement": "Tennis ist die beliebteste Sportart.",
+            "correct": false
+          },
+          {
+            "statement": "Frauen mögen häufig Yoga und Schwimmen.",
+            "correct": true
+          },
+          {
+            "statement": "Kinder treiben heute mehr Sport als früher.",
+            "correct": false
+          },
+          {
+            "statement": "Schulen sollen mehr Sportstunden anbieten.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Ich möchte ein Auslandsjahr machen. Vater: Wohin möchtest du? Frau: Nach Japan. Vater: Das klingt aufregend!",
+            "q": "Wohin möchte die Frau?",
+            "opts": [
+              "a) China",
+              "b) Südkorea",
+              "c) Japan"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Chef: Ihr Bericht war sehr gut. Mitarbeiterin: Danke, ich habe viel Zeit investiert. Chef: Das sieht man!",
+            "q": "Was sagt der Chef über den Bericht?",
+            "opts": [
+              "a) Er war schlecht",
+              "b) Er war in Ordnung",
+              "c) Er war sehr gut"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Frau: Haben Sie Erfahrung mit Buchhaltung? Bewerber: Ja, vier Jahre in einem mittelständischen Unternehmen.",
+            "q": "Wie viel Erfahrung hat er?",
+            "opts": [
+              "a) Zwei Jahre",
+              "b) Drei Jahre",
+              "c) Vier Jahre"
+            ],
+            "a": 2
+          },
+          {
+            "script": "Mann: Können wir heute die Tagesordnung ändern? Kollegin: Ja, aber dann müssen wir den Punkt drei verschieben.",
+            "q": "Was passiert mit Punkt drei?",
+            "opts": [
+              "a) Wird gestrichen",
+              "b) Wird verschoben",
+              "c) Bleibt gleich"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Ich habe das Formular falsch ausgefüllt. Beamter: Kein Problem, hier ist ein neues. Füllen Sie es bitte sorgfältig aus.",
+            "q": "Was hat die Frau falsch gemacht?",
+            "opts": [
+              "a) Falsche Adresse angegeben",
+              "b) Formular falsch ausgefüllt",
+              "c) Falsches Formular genommen"
+            ],
+            "a": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EXB1_6",
+    "level": "B1",
+    "title": "Prüfungssatz 6",
+    "teile": [
+      {
+        "num": 1,
+        "type": "tf",
+        "title": "Teil 1 – Radiosendung",
+        "instructions": "Sie hören eine Radiosendung. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Heute: Gesundheitssystem in Deutschland. Deutschland hat eines der besten Gesundheitssysteme weltweit. Jeder Bürger ist pflichtversichert, entweder gesetzlich oder privat. Die gesetzliche Krankenversicherung wird von Arbeitgeber und Arbeitnehmer je zur Hälfte bezahlt. Wartezeiten auf Facharztterminen sind ein häufig beklagtes Problem. Hausärzte spielen eine wichtige Rolle als erste Anlaufstelle. In ländlichen Gebieten gibt es oft zu wenige Ärzte. Die Digitalisierung, zum Beispiel digitale Patientenakten, soll das System verbessern.",
+        "dialogs": [
+          {
+            "statement": "Deutschland hat eines der besten Gesundheitssysteme.",
+            "correct": true
+          },
+          {
+            "statement": "Krankenversicherung ist in Deutschland freiwillig.",
+            "correct": false
+          },
+          {
+            "statement": "Arbeitgeber zahlt die Hälfte der Krankenversicherung.",
+            "correct": true
+          },
+          {
+            "statement": "Lange Wartezeiten beim Facharzt sind selten.",
+            "correct": false
+          },
+          {
+            "statement": "Hausärzte sind die erste Anlaufstelle.",
+            "correct": true
+          },
+          {
+            "statement": "In Städten fehlen die meisten Ärzte.",
+            "correct": false
+          },
+          {
+            "statement": "Digitale Patientenakten sollen das System verbessern.",
+            "correct": true
+          },
+          {
+            "statement": "Die Privatversicherung ist die einzige Möglichkeit.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "type": "mc",
+        "title": "Teil 2 – Interview",
+        "instructions": "Sie hören ein Interview. Wählen Sie die richtige Lösung: a, b oder c.",
+        "audioScript": "Zu Gast ist Architekt Markus Frei. Herr Frei, was ist nachhaltige Architektur? Das ist Bauen mit möglichst geringem Umwelteinfluss: energieeffizient, mit natürlichen Materialien und langer Lebensdauer. Was sind typische Merkmale? Solarpaneele, gute Wärmedämmung, Regenwassernutzung und grüne Dächer. Ist nachhaltiges Bauen teurer? Anfangs ja, aber langfristig spart man viel Energie und Geld. Gibt es Fördermittel? Ja, die KfW-Bank fördert nachhaltige Bauprojekte. Wie wird die Zukunft aussehen? Alle neuen Gebäude werden energieneutral sein müssen.",
+        "questions": [
+          {
+            "q": "Was ist nachhaltige Architektur?",
+            "opts": [
+              "a) Schnelles Bauen",
+              "b) Umweltschonendes Bauen",
+              "c) Billiges Bauen"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was ist ein Merkmal nachhaltiger Gebäude?",
+            "opts": [
+              "a) Große Fensterfronten",
+              "b) Solarpaneele und grüne Dächer",
+              "c) Viel Beton"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Ist nachhaltiges Bauen langfristig teurer?",
+            "opts": [
+              "a) Ja",
+              "b) Nein",
+              "c) Gleich teuer"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Wer fördert nachhaltige Bauprojekte?",
+            "opts": [
+              "a) Die EU",
+              "b) Die KfW-Bank",
+              "c) Die Gemeinde"
+            ],
+            "a": 1
+          },
+          {
+            "q": "Was sagt er über die Zukunft?",
+            "opts": [
+              "a) Alles bleibt gleich",
+              "b) Nur Holz wird verwendet",
+              "c) Neue Gebäude werden energieneutral sein"
+            ],
+            "a": 2
+          },
+          {
+            "q": "Was ist ein Merkmal nachhaltiger Architektur?",
+            "opts": [
+              "a) Kurze Lebensdauer",
+              "b) Regenwassernutzung",
+              "c) Viel Plastik"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "type": "tf",
+        "title": "Teil 3 – Vortrag / Bericht",
+        "instructions": "Sie hören einen Bericht. Sind die Aussagen richtig oder falsch?",
+        "audioScript": "Bericht: Migration und Integration in Deutschland. Deutschland ist eines der bedeutendsten Einwanderungsländer weltweit. Jährlich kommen Hunderttausende Menschen aus aller Welt. Die größten Gruppen kommen aus der Türkei, Syrien und Osteuropa. Integration gelingt am besten durch Sprachkurse, Bildung und Zugang zum Arbeitsmarkt. Viele Migranten arbeiten in Bereichen, in denen Fachkräftemangel herrscht. Die Gesellschaft ist gespalten: manche sehen Migration als Bereicherung, andere als Problem.",
+        "dialogs": [
+          {
+            "statement": "Deutschland ist ein bedeutendes Einwanderungsland.",
+            "correct": true
+          },
+          {
+            "statement": "Die meisten Migranten kommen aus China.",
+            "correct": false
+          },
+          {
+            "statement": "Sprachkurse helfen bei der Integration.",
+            "correct": true
+          },
+          {
+            "statement": "Migranten arbeiten oft in Bereichen mit Fachkräftemangel.",
+            "correct": true
+          },
+          {
+            "statement": "Alle sehen Migration als Bereicherung.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "type": "mc",
+        "title": "Teil 4 – Kurze Gespräche",
+        "instructions": "Sie hören fünf kurze Gespräche. Wählen Sie die richtige Lösung: a, b oder c.",
+        "dialogs": [
+          {
+            "script": "Frau: Dieser Roman hat mich tief berührt. Mann: Worum geht es? Frau: Um eine Frau, die ihre Heimat verlassen muss.",
+            "q": "Wovon handelt der Roman?",
+            "opts": [
+              "a) Liebe",
+              "b) Heimatverlust",
+              "c) Krieg"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Studentin: Ich weiß nicht, ob ich weiterstudieren soll. Professorin: Ihre Noten sind ausgezeichnet. Studentin: Aber es ist so stressig.",
+            "q": "Warum ist die Studentin unsicher?",
+            "opts": [
+              "a) Schlechte Noten",
+              "b) Zu viel Stress",
+              "c) Kein Geld"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Frau: Wie finden Sie die neue Kollegin? Mann: Sie ist sehr kompetent, aber ein bisschen schüchtern.",
+            "q": "Wie ist die neue Kollegin?",
+            "opts": [
+              "a) Kompetent und selbstbewusst",
+              "b) Kompetent aber schüchtern",
+              "c) Nett aber langsam"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Vater: Du verbringst zu viel Zeit am Handy. Sohn: Ich lerne damit, Papa. Vater: Wirklich? Was denn?",
+            "q": "Was sagt der Sohn über das Handy?",
+            "opts": [
+              "a) Er spielt damit",
+              "b) Er lernt damit",
+              "c) Er sieht Videos"
+            ],
+            "a": 1
+          },
+          {
+            "script": "Mann: Der Vertrag läuft nächsten Monat ab. Frau: Sollen wir verlängern? Mann: Ich schlage vor, neu zu verhandeln.",
+            "q": "Was schlägt der Mann vor?",
+            "opts": [
+              "a) Vertrag kündigen",
+              "b) Vertrag verlängern",
+              "c) Neu verhandeln"
+            ],
+            "a": 2
+          }
+        ]
+      }
+    ]
+  }
+]

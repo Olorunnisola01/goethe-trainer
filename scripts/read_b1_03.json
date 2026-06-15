@@ -1,0 +1,182 @@
+[
+  {
+    "id": "B1_R36", "level": "B1", "type": "Sachtext", "title": "Secondhand ist wieder modern",
+    "text": "SECONDHAND IST WIEDER MODERN\n\nFrüher kauften viele Menschen am liebsten neue Kleidung. Heute ändert sich das: Secondhand-Kleidung wird immer beliebter, besonders bei jungen Leuten.\n\nDie Gründe sind unterschiedlich. Manche wollen Geld sparen, andere möchten die Umwelt schützen. Denn die Produktion neuer Kleidung verbraucht viel Wasser und Energie. In vielen Städten gibt es heute schöne Secondhand-Läden und Flohmärkte. Online kann man gebrauchte Kleidung ebenfalls leicht kaufen und verkaufen. So bekommt jedes Kleidungsstück ein zweites Leben.",
+    "questions": [
+      { "type": "MCQ", "q": "Was wird laut Text immer beliebter?", "opts": ["Secondhand-Kleidung", "Teure Markenkleidung", "Selbstgenähte Kleidung"], "a": 0, "exp": "„Secondhand-Kleidung wird immer beliebter“." },
+      { "type": "MCQ", "q": "Bei wem ist Secondhand besonders beliebt?", "opts": ["Bei jungen Leuten", "Bei alten Menschen", "Bei niemandem"], "a": 0, "exp": "„besonders bei jungen Leuten“." },
+      { "type": "MCQ", "q": "Welche Gründe nennt der Text?", "opts": ["Geld sparen und Umwelt schützen", "Mode und Werbung", "Langeweile"], "a": 0, "exp": "„Manche wollen Geld sparen, andere möchten die Umwelt schützen.“" },
+      { "type": "TF", "q": "Die Produktion neuer Kleidung verbraucht viel Wasser und Energie.", "a": true, "exp": "„verbraucht viel Wasser und Energie“." },
+      { "type": "TF", "q": "Man kann gebrauchte Kleidung nur in Läden kaufen.", "a": false, "exp": "„Online kann man gebrauchte Kleidung ebenfalls leicht kaufen und verkaufen.“" },
+      { "type": "MCQ", "q": "Was bekommt jedes Kleidungsstück so?", "opts": ["Ein zweites Leben", "Einen höheren Preis", "Eine neue Farbe"], "a": 0, "exp": "„So bekommt jedes Kleidungsstück ein zweites Leben.“" }
+    ]
+  },
+  {
+    "id": "B1_R37", "level": "B1", "type": "Blogeintrag", "title": "Training für meinen ersten Marathon",
+    "text": "BLOG: Ich trainiere für meinen ersten Marathon\n\nIn vier Monaten laufe ich meinen ersten Marathon — 42 Kilometer! Vor einem Jahr konnte ich nicht einmal einen Kilometer laufen, ohne stehen zu bleiben.\n\nMein Trainingsplan ist streng: Ich laufe viermal pro Woche, auch bei Regen. Am Wochenende mache ich die langen Läufe. Manchmal tut alles weh und ich will aufhören. Aber dann denke ich an mein Ziel. Wichtig ist auch die richtige Ernährung und genug Schlaf. Ich bin gespannt, ob ich es schaffe — aber ich gebe alles!",
+    "questions": [
+      { "type": "MCQ", "q": "Wofür trainiert der Autor?", "opts": ["Für seinen ersten Marathon", "Für ein Fußballspiel", "Für ein Schwimmrennen"], "a": 0, "exp": "„laufe ich meinen ersten Marathon“." },
+      { "type": "MCQ", "q": "Wie lang ist ein Marathon?", "opts": ["42 Kilometer", "10 Kilometer", "100 Kilometer"], "a": 0, "exp": "„42 Kilometer!“" },
+      { "type": "TF", "q": "Vor einem Jahr konnte der Autor schon weit laufen.", "a": false, "exp": "„Vor einem Jahr konnte ich nicht einmal einen Kilometer laufen“." },
+      { "type": "MCQ", "q": "Wie oft läuft der Autor pro Woche?", "opts": ["Viermal", "Einmal", "Jeden Tag zweimal"], "a": 0, "exp": "„Ich laufe viermal pro Woche“." },
+      { "type": "TF", "q": "Der Autor läuft auch bei Regen.", "a": true, "exp": "„auch bei Regen“." },
+      { "type": "MCQ", "q": "Was ist laut Autor außerdem wichtig?", "opts": ["Richtige Ernährung und genug Schlaf", "Teure Schuhe", "Viel Fernsehen"], "a": 0, "exp": "„Wichtig ist auch die richtige Ernährung und genug Schlaf.“" }
+    ]
+  },
+  {
+    "id": "B1_R38", "level": "B1", "type": "Forum", "title": "Als Erwachsener Freunde finden",
+    "text": "FORUM: Als Erwachsener Freunde finden\n\nFrage von Neu_in_Berlin: Ich bin mit 35 in eine neue Stadt gezogen und kenne niemanden. Wie findet man als Erwachsener neue Freunde? In der Schule war das so einfach!\n\nAntwort von Stadtmensch: Ich kenne das Gefühl! Mein Tipp: Such dir ein Hobby in einer Gruppe — Sport, Tanzen, ein Chor. Da triffst du Menschen mit gleichen Interessen. Sei geduldig: Echte Freundschaften brauchen Zeit. Und trau dich, Leute anzusprechen oder einzuladen. Die meisten freuen sich darüber!",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das Problem von Neu_in_Berlin?", "opts": ["Er kennt in der neuen Stadt niemanden", "Er hat keine Arbeit", "Er kann nicht tanzen"], "a": 0, "exp": "„Ich bin ... in eine neue Stadt gezogen und kenne niemanden.“" },
+      { "type": "MCQ", "q": "Was empfiehlt Stadtmensch?", "opts": ["Ein Hobby in einer Gruppe", "Allein zu Hause bleiben", "Umzuziehen"], "a": 0, "exp": "„Such dir ein Hobby in einer Gruppe“." },
+      { "type": "TF", "q": "Stadtmensch sagt, Freundschaften brauchen Zeit.", "a": true, "exp": "„Echte Freundschaften brauchen Zeit.“" },
+      { "type": "MCQ", "q": "Was soll man sich trauen?", "opts": ["Leute anzusprechen oder einzuladen", "Niemanden anzusprechen", "Wegzulaufen"], "a": 0, "exp": "„trau dich, Leute anzusprechen oder einzuladen“." },
+      { "type": "TF", "q": "Laut Stadtmensch freuen sich die meisten Leute, wenn man sie anspricht.", "a": true, "exp": "„Die meisten freuen sich darüber!“" },
+      { "type": "MCQ", "q": "Warum trifft man im Hobby Freunde?", "opts": ["Wegen gleicher Interessen", "Wegen des Geldes", "Nur zufällig"], "a": 0, "exp": "„Da triffst du Menschen mit gleichen Interessen.“" }
+    ]
+  },
+  {
+    "id": "B1_R39", "level": "B1", "type": "Zeitungsartikel", "title": "Stadt pflanzt 1000 neue Bäume",
+    "text": "STADT PFLANZT 1000 NEUE BÄUME\n\nDie Stadt hat ein großes Projekt gestartet: In den nächsten zwei Jahren sollen 1000 neue Bäume gepflanzt werden. Bäume sind wichtig, denn sie spenden Schatten, kühlen die Luft und sind gut für das Klima.\n\nIn den heißen Sommern der letzten Jahre wurde es in der Stadt oft unangenehm warm. Bäume können dabei helfen. Auch Bürger können mitmachen: Wer möchte, kann eine Baumpatenschaft übernehmen und sich um einen jungen Baum kümmern. Schon viele Familien haben sich angemeldet.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viele Bäume will die Stadt pflanzen?", "opts": ["1000", "100", "10000"], "a": 0, "exp": "„1000 neue Bäume gepflanzt werden“." },
+      { "type": "MCQ", "q": "In welcher Zeit sollen sie gepflanzt werden?", "opts": ["In zwei Jahren", "In einem Monat", "In zehn Jahren"], "a": 0, "exp": "„In den nächsten zwei Jahren“." },
+      { "type": "TF", "q": "Bäume kühlen die Luft.", "a": true, "exp": "„sie spenden Schatten, kühlen die Luft“." },
+      { "type": "MCQ", "q": "Warum sind Bäume in der Stadt wichtig geworden?", "opts": ["Wegen der heißen Sommer", "Wegen des Regens", "Wegen der Autos"], "a": 0, "exp": "„In den heißen Sommern ... wurde es ... oft unangenehm warm.“" },
+      { "type": "TF", "q": "Bürger können eine Baumpatenschaft übernehmen.", "a": true, "exp": "„kann eine Baumpatenschaft übernehmen“." },
+      { "type": "MCQ", "q": "Wer hat sich schon angemeldet?", "opts": ["Viele Familien", "Niemand", "Nur Firmen"], "a": 0, "exp": "„Schon viele Familien haben sich angemeldet.“" }
+    ]
+  },
+  {
+    "id": "B1_R40", "level": "B1", "type": "Interview", "title": "Interview mit einer jungen Gründerin",
+    "text": "INTERVIEW mit der Gründerin Sara (28)\n\nReporter: Sie haben mit 25 Ihre eigene Firma gegründet. War das nicht riskant?\nSara: Doch, sehr! Ich habe meinen sicheren Job aufgegeben. Viele haben mich für verrückt gehalten.\nReporter: Was machen Sie genau?\nSara: Wir produzieren Seife aus natürlichen Zutaten, ganz ohne Plastik.\nReporter: Was war die größte Herausforderung?\nSara: Am Anfang das Geld. Aber heute verkaufen wir in ganz Deutschland. Mein Tipp: Glaubt an eure Ideen!",
+    "questions": [
+      { "type": "MCQ", "q": "Was hat Sara mit 25 gemacht?", "opts": ["Ihre eigene Firma gegründet", "Ein Haus gekauft", "Eine Weltreise gemacht"], "a": 0, "exp": "„mit 25 Ihre eigene Firma gegründet“." },
+      { "type": "TF", "q": "Sara hat ihren sicheren Job aufgegeben.", "a": true, "exp": "„Ich habe meinen sicheren Job aufgegeben.“" },
+      { "type": "MCQ", "q": "Was produziert Saras Firma?", "opts": ["Seife aus natürlichen Zutaten", "Autos", "Kleidung"], "a": 0, "exp": "„Wir produzieren Seife aus natürlichen Zutaten“." },
+      { "type": "MCQ", "q": "Was war die größte Herausforderung am Anfang?", "opts": ["Das Geld", "Das Wetter", "Die Sprache"], "a": 0, "exp": "„Am Anfang das Geld.“" },
+      { "type": "TF", "q": "Heute verkauft die Firma nur in einer Stadt.", "a": false, "exp": "„heute verkaufen wir in ganz Deutschland“." },
+      { "type": "MCQ", "q": "Was ist Saras Tipp?", "opts": ["An die eigenen Ideen glauben", "Nie etwas riskieren", "Immer aufgeben"], "a": 0, "exp": "„Glaubt an eure Ideen!“" }
+    ]
+  },
+  {
+    "id": "B1_R41", "level": "B1", "type": "Argumentativer Text", "title": "Sollte der Bus kostenlos sein?",
+    "text": "SOLLTE DER BUS KOSTENLOS SEIN?\n\nIn einigen Städten denkt man darüber nach, Busse und Bahnen kostenlos zu machen. Ich finde diese Idee gut. Wenn der Nahverkehr nichts kostet, fahren mehr Menschen Bus statt Auto. Das wäre besser für die Umwelt und gegen Staus.\n\nNatürlich gibt es ein Problem: Wer bezahlt das? Der Staat müsste das Geld irgendwo finden, vielleicht über Steuern. Manche sagen, das ist zu teuer. Doch saubere Luft und weniger Autos sind auch viel wert. Für mich überwiegen die Vorteile.",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber denkt man in einigen Städten nach?", "opts": ["Busse und Bahnen kostenlos zu machen", "Mehr Autos zu kaufen", "Die Preise zu erhöhen"], "a": 0, "exp": "„Busse und Bahnen kostenlos zu machen“." },
+      { "type": "TF", "q": "Der Autor findet die Idee gut.", "a": true, "exp": "„Ich finde diese Idee gut.“" },
+      { "type": "MCQ", "q": "Welchen Vorteil nennt der Autor?", "opts": ["Mehr Menschen fahren Bus statt Auto", "Es gibt mehr Staus", "Die Luft wird schlechter"], "a": 0, "exp": "„fahren mehr Menschen Bus statt Auto. Das wäre besser für die Umwelt“." },
+      { "type": "MCQ", "q": "Welches Problem nennt der Autor?", "opts": ["Wer bezahlt das?", "Niemand fährt Bus", "Die Busse sind zu schnell"], "a": 0, "exp": "„Wer bezahlt das?“" },
+      { "type": "TF", "q": "Der Autor findet, die Nachteile überwiegen.", "a": false, "exp": "„Für mich überwiegen die Vorteile.“" },
+      { "type": "MCQ", "q": "Wie könnte der Staat das Geld finden?", "opts": ["Über Steuern", "Über Werbung", "Gar nicht"], "a": 0, "exp": "„vielleicht über Steuern“." }
+    ]
+  },
+  {
+    "id": "B1_R42", "level": "B1", "type": "Formeller Brief", "title": "Beschwerde über eine Reise",
+    "text": "Betreff: Beschwerde über meine Reise\n\nSehr geehrte Damen und Herren,\n\nletzte Woche war ich mit Ihrer Agentur in einem Hotel in Spanien. Leider war vieles anders als versprochen. Das Hotel lag nicht am Strand, sondern 30 Minuten entfernt. Das Zimmer war schmutzig und die Klimaanlage funktionierte nicht.\n\nIm Katalog sah alles ganz anders aus. Ich bin sehr enttäuscht und möchte einen Teil meines Geldes zurück. Bitte antworten Sie mir innerhalb von 14 Tagen.\n\nMit freundlichen Grüßen\nMartin Frei",
+    "questions": [
+      { "type": "MCQ", "q": "Worüber beschwert sich Herr Frei?", "opts": ["Über seine Reise", "Über sein Essen", "Über seine Arbeit"], "a": 0, "exp": "„Beschwerde über meine Reise“." },
+      { "type": "MCQ", "q": "Wo lag das Hotel?", "opts": ["30 Minuten vom Strand entfernt", "Direkt am Strand", "In den Bergen"], "a": 0, "exp": "„Das Hotel lag nicht am Strand, sondern 30 Minuten entfernt.“" },
+      { "type": "TF", "q": "Die Klimaanlage funktionierte nicht.", "a": true, "exp": "„die Klimaanlage funktionierte nicht“." },
+      { "type": "TF", "q": "Im Katalog sah alles genauso aus.", "a": false, "exp": "„Im Katalog sah alles ganz anders aus.“" },
+      { "type": "MCQ", "q": "Was möchte Herr Frei?", "opts": ["Einen Teil seines Geldes zurück", "Eine neue Reise sofort", "Nichts"], "a": 0, "exp": "„möchte einen Teil meines Geldes zurück“." },
+      { "type": "MCQ", "q": "Innerhalb welcher Frist soll man antworten?", "opts": ["14 Tage", "2 Tage", "Ein Jahr"], "a": 0, "exp": "„innerhalb von 14 Tagen“." }
+    ]
+  },
+  {
+    "id": "B1_R43", "level": "B1", "type": "Reportage", "title": "Wenn die Stadt schläft, backt Herr Pohl",
+    "text": "REPORTAGE: Wenn die Stadt schläft, backt Herr Pohl\n\nUm zwei Uhr nachts beginnt für Bäcker Herr Pohl der Arbeitstag. Während alle schlafen, knetet er Teig und heizt den großen Ofen an. „Frische Brötchen am Morgen — dafür muss jemand früh aufstehen“, sagt er lächelnd.\n\nDie Arbeit ist hart und der Schlafrhythmus ungewöhnlich. Trotzdem liebt Herr Pohl seinen Beruf seit über 20 Jahren. Besonders mag er den Moment, wenn die ersten Kunden kommen und das warme Brot riechen. „Ihr Lächeln ist mein Lohn“, sagt er. Ohne Menschen wie ihn gäbe es morgens keine frischen Brötchen.",
+    "questions": [
+      { "type": "MCQ", "q": "Wann beginnt Herr Pohls Arbeitstag?", "opts": ["Um zwei Uhr nachts", "Um acht Uhr morgens", "Am Mittag"], "a": 0, "exp": "„Um zwei Uhr nachts beginnt ... der Arbeitstag.“" },
+      { "type": "MCQ", "q": "Was ist Herr Pohl von Beruf?", "opts": ["Bäcker", "Arzt", "Lehrer"], "a": 0, "exp": "„Bäcker Herr Pohl“." },
+      { "type": "TF", "q": "Herr Pohl arbeitet seit über 20 Jahren als Bäcker.", "a": true, "exp": "„seinen Beruf seit über 20 Jahren“." },
+      { "type": "MCQ", "q": "Welchen Moment mag Herr Pohl besonders?", "opts": ["Wenn die ersten Kunden das warme Brot riechen", "Wenn er schläft", "Wenn er Pause macht"], "a": 0, "exp": "„wenn die ersten Kunden kommen und das warme Brot riechen“." },
+      { "type": "TF", "q": "Herr Pohl findet seine Arbeit leicht.", "a": false, "exp": "„Die Arbeit ist hart und der Schlafrhythmus ungewöhnlich.“" },
+      { "type": "MCQ", "q": "Was ist laut Herrn Pohl sein „Lohn“?", "opts": ["Das Lächeln der Kunden", "Viel Geld", "Ein langer Urlaub"], "a": 0, "exp": "„Ihr Lächeln ist mein Lohn“." }
+    ]
+  },
+  {
+    "id": "B1_R44", "level": "B1", "type": "Sachtext", "title": "Die Mittagspause in Deutschland",
+    "text": "DIE MITTAGSPAUSE IN DEUTSCHLAND\n\nIn deutschen Firmen ist die Mittagspause wichtig. Meistens dauert sie 30 bis 60 Minuten. Viele Angestellte essen zusammen in der Kantine oder gehen kurz spazieren.\n\nGesetzlich ist eine Pause sogar vorgeschrieben: Wer länger als sechs Stunden arbeitet, muss eine Pause machen. Das ist gut für die Gesundheit und die Konzentration. Studien zeigen: Wer regelmäßig Pausen macht, arbeitet danach besser und macht weniger Fehler. Die Pause ist also keine verlorene Zeit, sondern eine kluge Investition.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange dauert die Mittagspause meistens?", "opts": ["30 bis 60 Minuten", "2 Stunden", "5 Minuten"], "a": 0, "exp": "„Meistens dauert sie 30 bis 60 Minuten.“" },
+      { "type": "MCQ", "q": "Was machen viele Angestellte in der Pause?", "opts": ["In der Kantine essen oder spazieren gehen", "Weiterarbeiten", "Schlafen"], "a": 0, "exp": "„essen zusammen in der Kantine oder gehen kurz spazieren“." },
+      { "type": "TF", "q": "Eine Pause ist gesetzlich vorgeschrieben.", "a": true, "exp": "„Gesetzlich ist eine Pause sogar vorgeschrieben“." },
+      { "type": "MCQ", "q": "Wer muss eine Pause machen?", "opts": ["Wer länger als sechs Stunden arbeitet", "Niemand", "Nur Chefs"], "a": 0, "exp": "„Wer länger als sechs Stunden arbeitet, muss eine Pause machen.“" },
+      { "type": "TF", "q": "Laut Studien arbeitet man nach Pausen schlechter.", "a": false, "exp": "„Wer regelmäßig Pausen macht, arbeitet danach besser“." },
+      { "type": "MCQ", "q": "Was ist die Pause laut Text?", "opts": ["Eine kluge Investition", "Verlorene Zeit", "Verboten"], "a": 0, "exp": "„keine verlorene Zeit, sondern eine kluge Investition“." }
+    ]
+  },
+  {
+    "id": "B1_R45", "level": "B1", "type": "Sachtext", "title": "Ein guter Lebenslauf",
+    "text": "RATGEBER: Ein guter Lebenslauf\n\nDer Lebenslauf ist oft das Erste, was ein Arbeitgeber von Ihnen sieht. Deshalb sollte er ordentlich und übersichtlich sein.\n\nSchreiben Sie Ihre Daten klar: Name, Kontakt, Ausbildung und Berufserfahrung. Beginnen Sie immer mit der neuesten Station. Lügen Sie nie — das fällt im Gespräch schnell auf. Ein Foto ist in Deutschland üblich, aber nicht Pflicht. Achten Sie auch auf die Rechtschreibung! Ein Fehler kann einen schlechten Eindruck machen. Tipp: Lassen Sie Ihren Lebenslauf von einer anderen Person lesen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist der Lebenslauf oft?", "opts": ["Das Erste, was ein Arbeitgeber sieht", "Das Wichtigste im Gespräch", "Unwichtig"], "a": 0, "exp": "„das Erste, was ein Arbeitgeber von Ihnen sieht“." },
+      { "type": "MCQ", "q": "Womit soll man bei der Berufserfahrung beginnen?", "opts": ["Mit der neuesten Station", "Mit der ältesten Station", "Mit den Hobbys"], "a": 0, "exp": "„Beginnen Sie immer mit der neuesten Station.“" },
+      { "type": "TF", "q": "Man darf im Lebenslauf ruhig ein bisschen lügen.", "a": false, "exp": "„Lügen Sie nie — das fällt im Gespräch schnell auf.“" },
+      { "type": "TF", "q": "Ein Foto ist in Deutschland Pflicht.", "a": false, "exp": "„üblich, aber nicht Pflicht“." },
+      { "type": "MCQ", "q": "Worauf soll man besonders achten?", "opts": ["Auf die Rechtschreibung", "Auf die Farbe", "Auf die Länge"], "a": 0, "exp": "„Achten Sie auch auf die Rechtschreibung!“" },
+      { "type": "MCQ", "q": "Was ist der letzte Tipp?", "opts": ["Den Lebenslauf von jemandem lesen lassen", "Schnell abschicken", "Ein Bild malen"], "a": 0, "exp": "„Lassen Sie Ihren Lebenslauf von einer anderen Person lesen.“" }
+    ]
+  },
+  {
+    "id": "B1_R46", "level": "B1", "type": "Blogeintrag", "title": "Drei Monate als Freiwillige in Peru",
+    "text": "BLOG: Drei Monate als Freiwillige in Peru\n\nNach der Schule wollte ich nicht sofort studieren. Stattdessen ging ich für drei Monate als Freiwillige nach Peru und half in einer Schule.\n\nDie Zeit war intensiv. Ich unterrichtete Englisch und spielte mit den Kindern. Am Anfang war die Sprache ein Problem, aber mit Händen und Füßen ging es. Ich lernte viel über eine andere Kultur — und über mich selbst. Manchmal war ich auch traurig, weil die Kinder so wenig hatten. Diese Erfahrung hat mein Leben verändert. Ich bin reifer zurückgekommen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was machte der Autor nach der Schule?", "opts": ["Freiwilligenarbeit in Peru", "Sofort studieren", "Eine Reise als Tourist"], "a": 0, "exp": "„ging ich für drei Monate als Freiwillige nach Peru“." },
+      { "type": "MCQ", "q": "Was machte der Autor in der Schule in Peru?", "opts": ["Englisch unterrichten und mit Kindern spielen", "Putzen", "Kochen"], "a": 0, "exp": "„Ich unterrichtete Englisch und spielte mit den Kindern.“" },
+      { "type": "TF", "q": "Am Anfang war die Sprache ein Problem.", "a": true, "exp": "„Am Anfang war die Sprache ein Problem“." },
+      { "type": "MCQ", "q": "Worüber lernte der Autor viel?", "opts": ["Über eine andere Kultur und sich selbst", "Über Mathematik", "Über Autos"], "a": 0, "exp": "„Ich lernte viel über eine andere Kultur — und über mich selbst.“" },
+      { "type": "TF", "q": "Der Autor war manchmal traurig.", "a": true, "exp": "„Manchmal war ich auch traurig, weil die Kinder so wenig hatten.“" },
+      { "type": "MCQ", "q": "Wie kam der Autor zurück?", "opts": ["Reifer", "Ärmer", "Gelangweilt"], "a": 0, "exp": "„Ich bin reifer zurückgekommen.“" }
+    ]
+  },
+  {
+    "id": "B1_R47", "level": "B1", "type": "Forum", "title": "Hund in der Stadtwohnung?",
+    "text": "FORUM: Hund in der Stadtwohnung?\n\nFrage von Tierfreund: Ich wohne in einer kleinen Stadtwohnung und überlege, einen Hund zu holen. Ist das fair für das Tier?\n\nAntwort von Hundeprofi: Das kommt darauf an! Ein Hund braucht viel Bewegung, egal wie groß die Wohnung ist. Wenn du dreimal am Tag mit ihm rausgehst und Zeit für ihn hast, kann es funktionieren. Aber wenn du den ganzen Tag arbeitest, ist es nicht fair. Überleg gut: Ein Hund lebt viele Jahre und braucht Verantwortung.",
+    "questions": [
+      { "type": "MCQ", "q": "Was überlegt Tierfreund?", "opts": ["Einen Hund zu holen", "Umzuziehen", "Eine Katze zu verkaufen"], "a": 0, "exp": "„überlege, einen Hund zu holen“." },
+      { "type": "MCQ", "q": "Was braucht ein Hund laut Hundeprofi?", "opts": ["Viel Bewegung", "Eine große Wohnung", "Teures Futter"], "a": 0, "exp": "„Ein Hund braucht viel Bewegung“." },
+      { "type": "TF", "q": "Laut Hundeprofi spielt die Größe der Wohnung die wichtigste Rolle.", "a": false, "exp": "„viel Bewegung, egal wie groß die Wohnung ist“." },
+      { "type": "MCQ", "q": "Wann kann es funktionieren?", "opts": ["Wenn man dreimal am Tag rausgeht und Zeit hat", "Wenn man nie zu Hause ist", "Nie"], "a": 0, "exp": "„Wenn du dreimal am Tag mit ihm rausgehst und Zeit für ihn hast“." },
+      { "type": "TF", "q": "Wenn man den ganzen Tag arbeitet, ist ein Hund fair.", "a": false, "exp": "„wenn du den ganzen Tag arbeitest, ist es nicht fair“." },
+      { "type": "MCQ", "q": "Was betont Hundeprofi am Ende?", "opts": ["Ein Hund braucht Verantwortung", "Ein Hund ist billig", "Ein Hund lebt kurz"], "a": 0, "exp": "„Ein Hund lebt viele Jahre und braucht Verantwortung.“" }
+    ]
+  },
+  {
+    "id": "B1_R48", "level": "B1", "type": "Zeitungsartikel", "title": "Schüler legen einen Garten an",
+    "text": "SCHÜLER LEGEN EINEN GARTEN AN\n\nAn einer Schule in Bremen gibt es ein neues Projekt: einen Schulgarten. Die Schüler bauen Gemüse und Kräuter selbst an. Sie pflanzen, gießen und ernten — alles mit eigenen Händen.\n\n„Die Kinder lernen, woher unser Essen kommt“, sagt die Lehrerin Frau Horn. „Und sie essen plötzlich gern Gemüse, das sie selbst angebaut haben.“ Das geerntete Gemüse wird in der Schulküche gekocht. Das Projekt ist so erfolgreich, dass andere Schulen es jetzt auch ausprobieren wollen.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist das neue Projekt an der Schule?", "opts": ["Ein Schulgarten", "Ein Schwimmbad", "Eine Bibliothek"], "a": 0, "exp": "„ein neues Projekt: einen Schulgarten“." },
+      { "type": "MCQ", "q": "Was bauen die Schüler an?", "opts": ["Gemüse und Kräuter", "Blumen zum Verkaufen", "Bäume"], "a": 0, "exp": "„Die Schüler bauen Gemüse und Kräuter selbst an.“" },
+      { "type": "TF", "q": "Die Kinder lernen, woher das Essen kommt.", "a": true, "exp": "„Die Kinder lernen, woher unser Essen kommt.“" },
+      { "type": "MCQ", "q": "Was passiert mit dem geernteten Gemüse?", "opts": ["Es wird in der Schulküche gekocht", "Es wird verkauft", "Es wird weggeworfen"], "a": 0, "exp": "„Das geerntete Gemüse wird in der Schulküche gekocht.“" },
+      { "type": "TF", "q": "Laut Frau Horn essen die Kinder das selbst angebaute Gemüse gern.", "a": true, "exp": "„sie essen plötzlich gern Gemüse, das sie selbst angebaut haben“." },
+      { "type": "MCQ", "q": "Warum wollen andere Schulen es ausprobieren?", "opts": ["Weil das Projekt erfolgreich ist", "Weil es Pflicht ist", "Weil es billig ist"], "a": 0, "exp": "„Das Projekt ist so erfolgreich, dass andere Schulen es jetzt auch ausprobieren wollen.“" }
+    ]
+  },
+  {
+    "id": "B1_R49", "level": "B1", "type": "Sachtext", "title": "Wasser sparen im Alltag",
+    "text": "WASSER SPAREN IM ALLTAG\n\nWasser ist kostbar, auch wenn es bei uns einfach aus dem Hahn kommt. Jeder Mensch in Deutschland verbraucht etwa 120 Liter pro Tag — fürs Duschen, Waschen, Kochen und die Toilette.\n\nMan kann leicht Wasser sparen. Duschen Sie kürzer statt zu baden — ein Bad braucht dreimal so viel Wasser. Drehen Sie den Hahn beim Zähneputzen zu. Reparieren Sie tropfende Wasserhähne schnell. Diese kleinen Dinge helfen, eine wichtige Ressource zu schützen. Denn sauberes Wasser ist nicht überall auf der Welt selbstverständlich.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie viel Wasser verbraucht ein Mensch in Deutschland pro Tag?", "opts": ["Etwa 120 Liter", "Etwa 12 Liter", "Etwa 1200 Liter"], "a": 0, "exp": "„etwa 120 Liter pro Tag“." },
+      { "type": "TF", "q": "Ein Bad braucht weniger Wasser als eine Dusche.", "a": false, "exp": "„ein Bad braucht dreimal so viel Wasser“." },
+      { "type": "MCQ", "q": "Was soll man beim Zähneputzen tun?", "opts": ["Den Hahn zudrehen", "Den Hahn laufen lassen", "Baden"], "a": 0, "exp": "„Drehen Sie den Hahn beim Zähneputzen zu.“" },
+      { "type": "MCQ", "q": "Was soll man mit tropfenden Wasserhähnen tun?", "opts": ["Schnell reparieren", "Ignorieren", "Öfter benutzen"], "a": 0, "exp": "„Reparieren Sie tropfende Wasserhähne schnell.“" },
+      { "type": "TF", "q": "Sauberes Wasser ist überall auf der Welt selbstverständlich.", "a": false, "exp": "„sauberes Wasser ist nicht überall auf der Welt selbstverständlich“." },
+      { "type": "MCQ", "q": "Warum soll man Wasser sparen?", "opts": ["Um eine wichtige Ressource zu schützen", "Weil es verboten ist", "Um reich zu werden"], "a": 0, "exp": "„helfen, eine wichtige Ressource zu schützen“." }
+    ]
+  },
+  {
+    "id": "B1_R50", "level": "B1", "type": "Argumentativer Text", "title": "Warum wir wieder mehr lesen sollten",
+    "text": "KOMMENTAR: Warum wir wieder mehr lesen sollten\n\nViele Menschen sagen, sie hätten keine Zeit zum Lesen. Doch Stunden am Handy haben sie schon. Ich finde das schade, denn Lesen hat viele Vorteile.\n\nBeim Lesen lernt man neue Wörter und denkt über andere Welten nach. Ein gutes Buch kann uns trösten, zum Lachen bringen oder neue Ideen geben. Außerdem ist Lesen eine Pause für das Gehirn — ganz ohne Bildschirm. Mein Vorschlag: Lest jeden Abend nur zehn Minuten in einem Buch. Nach einem Monat werdet ihr den Unterschied spüren.",
+    "questions": [
+      { "type": "MCQ", "q": "Was sagen viele Menschen?", "opts": ["Sie hätten keine Zeit zum Lesen", "Lesen ist langweilig", "Bücher sind zu teuer"], "a": 0, "exp": "„sie hätten keine Zeit zum Lesen“." },
+      { "type": "TF", "q": "Laut Autor verbringen viele Menschen Stunden am Handy.", "a": true, "exp": "„Stunden am Handy haben sie schon.“" },
+      { "type": "MCQ", "q": "Welchen Vorteil von Lesen nennt der Autor?", "opts": ["Man lernt neue Wörter", "Man wird müde", "Man verdient Geld"], "a": 0, "exp": "„Beim Lesen lernt man neue Wörter und denkt über andere Welten nach.“" },
+      { "type": "MCQ", "q": "Was kann ein gutes Buch laut Autor?", "opts": ["Trösten, zum Lachen bringen, Ideen geben", "Krank machen", "Geld kosten"], "a": 0, "exp": "„kann uns trösten, zum Lachen bringen oder neue Ideen geben“." },
+      { "type": "TF", "q": "Lesen ist laut Autor eine Pause für das Gehirn.", "a": true, "exp": "„Außerdem ist Lesen eine Pause für das Gehirn“." },
+      { "type": "MCQ", "q": "Was ist der Vorschlag des Autors?", "opts": ["Jeden Abend zehn Minuten lesen", "Nie wieder lesen", "Nur am Wochenende lesen"], "a": 0, "exp": "„Lest jeden Abend nur zehn Minuten in einem Buch.“" }
+    ]
+  }
+]

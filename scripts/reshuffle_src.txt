@@ -1,0 +1,593 @@
+
+############## A1 — existing categories (targets) ##############
+   :: GREETINGS & FAREWELLS
+   :: PERSONAL INFORMATION
+   :: FAMILY & RELATIONSHIPS
+   :: NUMBERS & QUANTITIES
+   :: TIME, CALENDAR & DAYS
+   :: HOME & LIVING SPACES
+   :: FOOD & DRINK
+   :: SHOPPING & MONEY
+   :: TRANSPORTATION & GETTING AROUND
+   :: HEALTH & BODY
+   :: CLOTHING & FASHION
+   :: COLORS
+   :: BASIC VERBS & ACTIONS
+   :: DESCRIPTIONS & ADJECTIVES
+   :: QUESTION WORDS & BASICS
+   :: PLACES IN TOWN & COMMUNITY
+   :: ANIMALS & NATURE
+   :: SCHOOL & BASIC EDUCATION
+   :: NUMBERS, MEASUREMENTS & MONEY
+   :: TELLING THE TIME
+   :: BASIC CONJUNCTIONS & SENTENCE CONNECTORS
+   :: COMMON ADVERBS & INTENSIFIERS
+   :: WEATHER EXPRESSIONS
+   :: BASIC PREPOSITIONS IN CONTEXT
+   :: IN THE CLASSROOM & LEARNING GERMAN
+   :: BASIC ADJECTIVE OPPOSITES
+   :: COMMON EVERYDAY VERBS
+
+---- A1 FROM-STORIES entries to place (5) ----
+   darin                        | in it / inside
+   vorbei                       | past / over
+   der Spaß                     | fun
+   bekommen                     | to get / receive
+   der Magen                    | stomach
+
+############## A2 — existing categories (targets) ##############
+   :: EVERYDAY OBJECTS & STATIONERY
+   :: DAILY ROUTINE & HOUSEHOLD
+   :: LEISURE, HOBBIES & SPORTS
+   :: TRAVEL & TOURISM
+   :: RESTAURANT & FOOD SERVICE
+   :: EDUCATION & SCHOOL
+   :: WORK & PROFESSIONS
+   :: COMMUNICATION & MEDIA
+   :: NATURE, WEATHER & ENVIRONMENT
+   :: HEALTH & MEDICAL CARE
+   :: FEELINGS & EMOTIONS
+   :: POST OFFICE & BANKING
+   :: APPOINTMENTS & PLANNING
+   :: INVITATIONS & SOCIAL LIFE
+   :: CONNECTORS & USEFUL PHRASES
+   :: DESCRIPTIONS: CHARACTER & APPEARANCE
+   :: DIRECTIONS & LOCATION
+   :: SHOPPING
+   :: HOME, FURNISHINGS & REPAIRS
+   :: TRANSPORT & GETTING AROUND
+   :: WORK & CAREER
+   :: HEALTH & BODY
+   :: EDUCATION
+   :: TELEPHONE, LETTERS & WRITTEN COMMUNICATION
+   :: NATURE, ANIMALS & ENVIRONMENT
+   :: CULTURE, MEDIA & LEISURE
+   :: DESCRIPTIONS: SIZE, SHAPE & MATERIAL
+   :: COMPARING & CONTRASTING
+   :: GIVING ADVICE & MAKING REQUESTS
+   :: DESCRIBING EVENTS & EXPERIENCES
+   :: PROFESSIONS & WORKPLACES
+   :: HOLIDAYS, COUNTRIES & LANGUAGES
+   :: HEALTH & PERSONAL HYGIENE
+   :: AT THE DOCTOR & PHARMACY
+   :: NUMBERS IN DAILY LIFE
+   :: EXPRESSING OPINIONS FORMALLY & INFORMALLY
+   :: DIGITAL COMMUNICATION & MESSAGING
+   :: SPORT & BODY VOCABULARY
+   :: MAKING PLANS & ARRANGEMENTS
+   :: HOUSING ADVERTS & PROPERTY LANGUAGE
+   :: JOB ADVERTS & RECRUITMENT LANGUAGE
+   :: FOOD LABELS, DIETS & NUTRITION SCIENCE
+   :: SCHOOL & UNIVERSITY ADMINISTRATION
+
+---- A2 FROM-STORIES entries to place (23) ----
+   namens                       | named / by the name of
+   lustig                       | funny
+   diesmal                      | this time
+   froh                         | glad
+   der Dollar                   | dollar
+   mögen                        | to like
+   bewegen                      | to move
+   das Boot                     | boat
+   herum                        | around
+   hinzu                        | in addition
+   der Ball                     | ball
+   großartig                    | great / wonderful
+   schlimm                      | bad / terrible
+   letzte                       | last
+   erwarten                     | to expect
+   die Planung                  | planning
+   der Schwanz                  | tail
+   komisch                      | strange / odd
+   zuvor                        | before / previously
+   verpassen                    | to miss
+   daneben                      | next to it / beside
+   innen                        | inside
+   behalten                     | to keep
+
+############## B1 — existing categories (targets) ##############
+   :: EXAM INSTRUCTIONS & TEST VOCABULARY
+   :: ANGLIZISMEN & ABBREVIATIONS
+   :: SOCIETY, POLITICS & CITIZENSHIP
+   :: CULTURE, ARTS & MEDIA
+   :: WORK, ECONOMY & BUSINESS
+   :: ENVIRONMENT & SUSTAINABILITY
+   :: LANGUAGE & COMMUNICATION SKILLS
+   :: HOUSING, RENTING & MOVING
+   :: BANKING, FINANCE & ADMINISTRATION
+   :: POST, SERVICES & ADMINISTRATION
+   :: TRAFFIC, ROADS & TRANSPORT LAW
+   :: MEDICAL SYSTEM & HEALTHCARE
+   :: FAMILY LIFE, EVENTS & LAW
+   :: FURTHER EDUCATION & TRAINING
+   :: GLOBAL ISSUES & CURRENT AFFAIRS
+   :: HEALTH, FITNESS & WELLBEING
+   :: TECHNOLOGY & DIGITAL LIFE
+   :: SCIENCE, RESEARCH & EDUCATION
+   :: COOKING METHODS & FOOD CULTURE
+   :: SPORTS
+   :: CONSTRUCTION, ARCHITECTURE & HOUSING
+   :: HOUSEHOLD REPAIRS & DIY
+   :: AIRPORT & TRAVEL PROCEDURES
+   :: WORD FAMILIES & DERIVATIONS
+   :: VERB-PREPOSITION COMBINATIONS
+   :: SEPARABLE & REFLEXIVE VERBS
+   :: GRAMMAR-LINKED VOCABULARY: KONJUNKTIV II
+   :: GENITIVE PREPOSITIONS & TWO-WAY PREPOSITIONS
+   :: FIXED EXPRESSIONS & COLLOCATIONS
+   :: ADJECTIVE-PREPOSITION COMBINATIONS
+   :: THINKING, REASONING & PROBLEM SOLVING
+   :: ABSTRACT & ACADEMIC LANGUAGE
+   :: OPINIONS & ARGUMENTATION
+   :: SOCIAL ISSUES & VOLUNTEERING
+   :: LAW & LEGAL RIGHTS
+   :: MEDIA LITERACY & JOURNALISM
+   :: PHILOSOPHY, ETHICS & VALUES
+   :: EXTENDED GRAMMAR VOCABULARY: WORD ORDER & CLAUSES
+   :: IDIOMS & COMMON EXPRESSIONS
+   :: DESCRIBING PROCESSES & PROCEDURES
+   :: NUMBERS, DATA & STATISTICS
+   :: EXPRESSING UNCERTAINTY & PROBABILITY
+   :: TRAVEL & CULTURE
+   :: ENVIRONMENTAL POLICY & CLIMATE
+   :: RELATIONSHIPS, SOCIAL DYNAMICS & CONFLICT
+   :: DESCRIBING CHANGE & DEVELOPMENT
+   :: HOUSING MARKET, PROPERTY & URBAN LIFE
+   :: ECONOMY, TRADE & GLOBALISATION
+   :: POLITICS & GOVERNANCE
+   :: MIGRATION, IDENTITY & INTEGRATION
+   :: EDUCATION SYSTEM & LIFELONG LEARNING
+   :: SCIENCE, TECHNOLOGY & DIGITAL FUTURE
+   :: HEALTH SYSTEM & SOCIAL WELFARE
+   :: ENVIRONMENT & URBAN PLANNING
+   :: WRITING SKILLS & TEXT TYPES
+   :: DISCUSSING TRENDS & SOCIAL CHANGE
+   :: EXPRESSING VIEWS ON COMPLEX TOPICS
+   :: CULTURAL LIFE, FESTIVALS & TRADITIONS
+   :: WORD FORMATION: PREFIXES & SUFFIXES
+   :: REFLEXIVE VERBS & COMMON COLLOCATIONS
+   :: NUMBERS, FRACTIONS & MATHEMATICAL LANGUAGE
+   :: CIVIC LIFE & PARTICIPATION
+   :: SOCIAL MEDIA, ONLINE LIFE & PRIVACY
+   :: GERMAN-SPEAKING WORLD & CULTURE
+   :: FORMAL WRITING & CORRESPONDENCE
+   :: PHILOSOPHY OF DAILY LIFE & SELF-REFLECTION
+   :: EXTENDED SEPARABLE VERBS
+   :: CONCESSION, CONTRAST & NUANCE
+   :: DISCUSSING PLANS & INTENTIONS
+   :: WORK SAFETY, RIGHTS & WORKPLACE LAW
+   :: DESCRIBING LOCATION & SPATIAL RELATIONSHIPS
+   :: CRITICISM, PRAISE & EVALUATION LANGUAGE
+   :: HOUSING POLICY & SOCIAL HOUSING
+   :: CONSUMER RIGHTS & COMPLAINTS
+   :: INTERCULTURAL COMMUNICATION & ETIQUETTE
+   :: MEDICINE & HUMAN BIOLOGY
+   :: LANDSCAPE, GEOGRAPHY & REGIONS
+   :: AGRICULTURE, FOOD PRODUCTION & SUPPLY CHAIN
+   :: EXTENDED ADJECTIVES & ADVERBIAL PHRASES
+   :: HISTORY & COMMEMORATION
+   :: SUSTAINABILITY & FUTURE PERSPECTIVES
+   :: URBAN MOBILITY & TRANSPORT OF THE FUTURE
+   :: ENERGY, CLIMATE TECHNOLOGY & INNOVATION
+   :: GLOBALISATION: WINNERS & LOSERS
+   :: LIVING ABROAD & EXPAT LIFE
+   :: WORKPLACE COMMUNICATION & EMAIL LANGUAGE
+   :: EMERGENCY SERVICES & CRISIS COMMUNICATION
+   :: SOCIAL PARTICIPATION & VOLUNTEERING
+   :: ACADEMIC WRITING & RESEARCH METHODS
+   :: CREATIVE ARTS, DESIGN & ARCHITECTURE
+   :: SPORT, COMPETITION & FAIR PLAY
+   :: DESCRIBING PROCESSES IN NATURE & SCIENCE
+
+---- B1 FROM-STORIES entries to place (133) ----
+   klopfen                      | to knock
+   die Kiste                    | box / crate
+   seltsam                      | strange
+   herein                       | in (inward)
+   die Bushaltestelle           | bus stop
+   betrachten                   | to look at / regard
+   der Keks                     | biscuit / cookie
+   springen                     | to jump
+   die Ziege                    | goat
+   der Eimer                    | bucket
+   zittern                      | to tremble / shake
+   beobachten                   | to observe / watch
+   sich unterhalten             | to chat / talk
+   silbern                      | silver (made of)
+   verloren                     | lost
+   der Zettel                   | note / slip of paper
+   der Löwe                     | lion
+   der Knopf                    | button
+   drücken                      | to press
+   krachen                      | to crash / bang
+   der Heimweg                  | way home
+   die Magie                    | magic
+   merken                       | to notice / realise
+   das Tuch                     | cloth
+   der Zoo                      | zoo
+   das Müsli                    | muesli / cereal
+   verschwinden                 | to disappear
+   sich drehen                  | to turn (around)
+   besorgt                      | worried
+   fremd                        | strange / foreign
+   erfahren                     | to find out
+   beibringen                   | to teach
+   rutschen                     | to slip / slide
+   zerbrechen                   | to break / shatter
+   graben                       | to dig
+   der Sand                     | sand
+   der Ballon                   | balloon
+   die Halbzeit                 | half-time
+   der Torwart                  | goalkeeper
+   verärgert                    | annoyed
+   überraschen                  | to surprise
+   der Alarm                    | alarm
+   der Dachboden                | attic
+   glänzend                     | shiny / shining
+   der Käfig                    | cage
+   das Unkraut                  | weeds
+   beschließen                  | to decide
+   schief                       | crooked / lopsided
+   der/die Angestellte          | employee
+   die Kette                    | chain / necklace
+   die Notiz                    | note
+   der Atem                     | breath
+   herbei                       | over (to here)
+   notieren                     | to note down
+   die Heimatstadt              | home town
+   schmal                       | narrow
+   vermissen                    | to miss (someone)
+   das Papier                   | paper
+   retten                       | to save / rescue
+   der Geruch                   | smell
+   kräftig                      | strong / hearty
+   fressen                      | to eat (animals)
+   der Stall                    | stable / barn
+   stoßen                       | to bump / push
+   riechen                      | to smell
+   die Zwiebel                  | onion
+   die Trommel                  | drum
+   blass                        | pale
+   der Staub                    | dust
+   rüber                        | over (here)
+   umher                        | around / about
+   die Flut                     | tide / flood
+   die Welle                    | wave
+   die Astronomie               | astronomy
+   deuten (auf)                 | to point (at)
+   die Zeichnung                | drawing
+   die Galaxie                  | galaxy
+   hinein                       | in (inward)
+   jener                        | that (one)
+   verwirrt                     | confused
+   schmücken                    | to decorate
+   das Fell                     | fur / coat
+   das Futter                   | feed / animal food
+   begleiten                    | to accompany
+   der Affe                     | monkey
+   die Oma                      | grandma
+   der Duft                     | scent / aroma
+   erfüllen                     | to fill / fulfil
+   winzig                       | tiny
+   der Schmuck                  | jewellery
+   der Schatz                   | treasure
+   die Güte                     | kindness / goodness
+   örtlich                      | local
+   schießen                     | to shoot / kick
+   bemerken                     | to notice
+   erledigen                    | to get done / run (errands)
+   der Tropfen                  | drop
+   endlos                       | endless
+   woanders                     | somewhere else
+   hinauf                       | up (upward)
+   der Honig                    | honey
+   reinigen                     | to clean
+   das Kabel                    | cable
+   versagen                     | to fail
+   die Richterin                | judge (female)
+   wahr                         | true / real
+   schüchtern                   | shy
+   die Königin                  | queen
+   aufgehen                     | to rise (sun)
+   der Samen                    | seed
+   nebenan                      | next door
+   wochenlang                   | for weeks
+   die Schüssel                 | bowl
+   der Riss                     | crack
+   trocknen                     | to dry
+   stabil                       | stable / sturdy
+   betreten                     | to enter
+   hinüber                      | over (to there)
+   die Lektion                  | lesson
+   hetzen                       | to rush / hurry
+   das Kätzchen                 | kitten
+   der Knoblauch                | garlic
+   das Abenteuer                | adventure
+   das Plakat                   | poster
+   die Kerze                    | candle
+   der Stein                    | stone
+   die Jahreszeit               | season
+   genießen                     | to enjoy
+   das Rätsel                   | riddle / mystery
+   die Soße                     | sauce
+   stumm                        | silent / mute
+   sinken                       | to sink
+   freiwillig                   | voluntary / voluntarily
+
+############## B2 — existing categories (targets) ##############
+   :: HEIMAT & AUSWANDERN
+   :: SPRACHE & IDENTITÄT
+   :: KOMMUNIKATION & INTERKULTURELLES
+   :: MEHRSPRACHIGKEIT & SPRACHERWERB
+   :: KRITIK & KONFLIKTLÖSUNG
+   :: BEWERBUNG & STELLENSUCHE
+   :: ARBEITSWELT & ARBEITSUMFELD
+   :: TEAMARBEIT & VERANSTALTUNGEN
+   :: GESELLSCHAFT & SOZIALES LEBEN
+   :: ARMUT & SOZIALE GERECHTIGKEIT
+   :: SUCHT & DIGITALES LEBEN
+   :: FAMILIE & ROLLENBILDER
+   :: WISSENSCHAFT & BILDUNG
+   :: LÜGE, WAHRHEIT & PSYCHOLOGIE
+   :: DIGITALES & ONLINEWELT
+   :: TELEFONIEREN & FORMELLE KOMMUNIKATION
+   :: KULTUR & KUNSTWELT
+   :: SPRACHE & SPRACHENSTERBEN
+   :: GESCHICHTE & HISTORISCHES
+   :: DEUTSCHE GESCHICHTE (DDR & MAUERFALL)
+   :: GEFÜHLE & MUSIK
+   :: ENTSCHEIDUNGEN & EMOTIONEN
+   :: ROBOTER & TECHNOLOGIE
+   :: ZUKUNFTSVISIONEN & BERUFE
+   :: KONNEKTOREN & SATZVERBINDUNG
+   :: TEXTE SCHREIBEN & BERICHTEN
+   :: KOMPLEXE NOMEN
+   :: FORTGESCHRITTENE VERBEN
+   :: FORTGESCHRITTENE ADJEKTIVE
+   :: HEIMAT & IDENTITÄT – VERBEN
+   :: POLITIK & GESELLSCHAFT VERTIEFT
+   :: WIRTSCHAFT & UNTERNEHMEN
+   :: WISSENSCHAFT & NATUR
+   :: SCHLAF, STRESS & GESUNDHEIT
+   :: LITERATUR & FILMKUNST
+   :: GEFÜHLE & EMOTIONALE AUSDRÜCKE
+   :: DIGITALE MEDIZIN & GESUNDHEITSTECHNIK
+   :: REDEWENDUNGEN & FESTE AUSDRÜCKE
+   :: WICHTIGE ADJEKTIVE & NOMEN GEMISCHT
+   :: PRAKTIKUM & KARRIEREPLANUNG
+   :: LINGUISTIK & SPRACHGEBRAUCH
+   :: ENERGIE & UMWELTPOLITIK
+   :: JOURNALISMUS & MEDIENSPRACHE
+   :: PSYCHOLOGIE & MENSCHLICHES VERHALTEN
+   :: WOHNEN & STADTENTWICKLUNG
+   :: BILDUNG & SCHULSYSTEM
+   :: INTERKULTURALITÄT & TRADITION
+   :: RECHT & GESETZ VERTIEFT
+   :: GLOBALISIERUNG & WELTWIRTSCHAFT
+   :: SOZIALER WANDEL & GESELLSCHAFT
+   :: KÖRPER, SINNE & MEDIZIN
+   :: TECHNIK & INNOVATION
+   :: SATZSTRUKTUREN & GRAMMATISCHE BEGRIFFE
+   :: MEDIZIN & THERAPIEFORMEN
+   :: FORSCHUNGSMETHODEN & WISSENSCHAFT
+   :: ENTWICKLUNG & GLOBALE GERECHTIGKEIT
+   :: DEMOKRATIE & POLITISCHE PROZESSE
+   :: KULTUR & MEDIENKONSUM
+   :: REISEN & TOURISMUS
+   :: SPORT, FREIZEIT & HOBBYS
+   :: ERNÄHRUNG & GESUNDER LEBENSSTIL
+   :: ARCHITEKTUR & KULTURERBE
+   :: SOZIALE MEDIEN & DIGITALE IDENTITÄT
+   :: EMOTIONEN & PSYCHOLOGISCHE KONZEPTE
+   :: FINANZEN & WIRTSCHAFT VERTIEFT
+   :: SPRACHEN LERNEN & METHODIK
+   :: KLIMAWANDEL & ÖKOLOGISCHE KRISE
+   :: INTERKULTURELLE KOMMUNIKATION & KONFLIKTE
+   :: STRAFRECHT & JUSTIZ
+   :: KREATIVITÄT & KUNSTPRODUKTION
+   :: THEATER, FILM & DARSTELLENDE KUNST
+   :: MUSIK & MUSIKBRANCHE
+   :: LITERATUR & LITERARISCHE GENRES
+   :: DIGITALE BERUFSFELDER & NEW WORK
+   :: SOZIALSTAAT & SOZIALE SICHERUNG
+   :: PHILOSOPHIE & ETHIK
+   :: MIGRATION, ASYL & INTEGRATION
+   :: E-GOVERNMENT & DIGITALE VERWALTUNG
+   :: NATUR, LANDSCHAFT & TIERWELT
+   :: SCHULPÄDAGOGIK & LERNTHEORIE
+   :: DEBATTE & RHETORIK
+   :: STADTLEBEN & URBANE KULTUR
+   :: WIRTSCHAFTSPOLITIK & KONJUNKTUR
+   :: KOMMUNIKATION IM BERUF
+   :: GESUNDHEITSSYSTEM & VERSORGUNG
+   :: GESELLSCHAFTLICHE WERTE & NORMEN
+   :: SPRACHERWERBSTHEORIEN & KOGNITION
+   :: GLOBALE HERAUSFORDERUNGEN
+   :: WANDEL DER ARBEITSWELT
+   :: WISSENSCHAFT & GESELLSCHAFT
+   :: SOZIOLOGIE & SOZIALE STRUKTUREN
+   :: SOZIALPSYCHOLOGIE & GRUPPENVERHALTEN
+   :: SPRACHWANDEL & VARIETÄTEN
+   :: MODERNE GESCHICHTE & ZEITGESCHICHTE
+   :: BIOETHIK & MEDIZINISCHE ETHIK
+   :: GENDER & DIVERSITÄT
+   :: UMWELTRECHT & UMWELTPOLITIK
+   :: DIGITALPOLITIK & TECHNOLOGIERECHT
+   :: INTERNATIONALE BEZIEHUNGEN & GEOPOLITIK
+   :: DIGITALE TRANSFORMATION & INDUSTRIE
+   :: GRAMMATIK: KONJUNKTIV & PASSIV VERTIEFT
+   :: IDIOME & FESTE WENDUNGEN 2
+   :: KONSUM, WERBUNG & VERBRAUCHERSCHUTZ
+   :: KONFLIKT, FRIEDEN & SICHERHEIT
+   :: MEDIZINISCHE FORSCHUNG & BIOTECHNOLOGIE
+   :: LANDWIRTSCHAFT & ERNÄHRUNGSPOLITIK
+   :: STADTENTWICKLUNG & INFRASTRUKTUR
+   :: ERZIEHUNG, WERTE & GENERATIONEN
+   :: SPRACHE & MACHT
+   :: DIGITALE BILDUNG & E-LEARNING
+   :: SPORT & GESELLSCHAFT
+   :: DESIGN, ARCHITEKTUR & RAUMGESTALTUNG
+   :: POLITISCHE PARTIZIPATION & ZIVILGESELLSCHAFT
+   :: DEUTSCHLANDS KULTUR & KULTURWISSEN
+   :: MENSCHENRECHTE & GRUNDFREIHEITEN
+   :: PSYCHISCHE GESUNDHEIT & WOHLBEFINDEN
+   :: FINANZMÄRKTE & INVESTITIONEN
+   :: KULTURTOURISMUS & KULTURERLEBNISSE
+   :: GESCHICHTSBEWUSSTSEIN & ERINNERUNG
+   :: DIGITALE KOMMUNIKATION & NEUE MEDIEN
+   :: TECHNIKETHIK & ZUKUNFTSFRAGEN
+   :: KRIMINALITÄT & GESELLSCHAFT
+   :: SOZIALPOLITIK & SOZIALER STAAT
+   :: GEOGRAPHIE & REGIONALE UNTERSCHIEDE
+   :: STEUERN, ABGABEN & ÖFFENTLICHE FINANZEN
+   :: TIERSCHUTZ & TIERETHIK
+   :: GESELLSCHAFTSPHILOSOPHIE & UTOPIEN
+   :: KUNSTGESCHICHTE & EPOCHEN
+   :: GLOBALE WIRTSCHAFT & HANDEL
+   :: GESUNDHEITSPOLITIK & ÖFFENTLICHE GESUNDHEIT
+   :: INNOVATION, START-UPS & UNTERNEHMERTUM
+   :: KLIMAANPASSUNG & RESILIENZ
+   :: INTEGRATION & GESELLSCHAFTLICHER ZUSAMMENHALT
+   :: LERNSTRATEGIEN & GEDÄCHTNIS
+   :: KONFLIKTMANAGEMENT & INTERNATIONALE DIPLOMATIE
+   :: NATURPHÄNOMENE & NATURWISSENSCHAFTEN
+   :: UMWELT & KLIMAWANDEL
+   :: DIGITALE WELT & KI
+   :: GESUNDHEIT & PSYCHE
+   :: WIRTSCHAFT & ARBEITSWELT
+   :: POLITIK, RECHT & GESELLSCHAFT
+   :: ARBEIT & BERUFSWELT
+   :: UMWELT & NACHHALTIGKEIT
+   :: MEDIEN & DIGITALISIERUNG
+   :: GESELLSCHAFT & WERTE
+   :: POLITIK & DEMOKRATIE
+   :: GESUNDHEIT & PSYCHOLOGIE
+   :: WISSENSCHAFT, FORSCHUNG & ETHIK
+   :: GLOBALISIERUNG & INTERNATIONALE BEZIEHUNGEN
+   :: WIRTSCHAFT & GLOBALISIERUNG
+   :: BILDUNG & WISSENSCHAFT
+   :: KUNST, KULTUR & MEDIEN
+   :: MOBILITÄT & VERKEHR
+   :: RECHT & JUSTIZ
+   :: PSYCHOLOGIE & GESELLSCHAFT
+   :: UMWELTPOLITIK & NACHHALTIGKEIT
+   :: TECHNIK & ZUKUNFT
+   :: GESUNDHEITSSYSTEM & MEDIZIN
+   :: MODERNE ARBEITSWELT
+   :: SOZIALE GERECHTIGKEIT
+   :: WISSENSCHAFT & FORSCHUNG
+
+---- B2 FROM-STORIES entries to place (93) ----
+   nicken                       | to nod
+   schütteln                    | to shake
+   die Krabbe                   | crab
+   die Brieftasche              | wallet
+   die Karotte                  | carrot
+   wischen                      | to wipe
+   winken                       | to wave
+   der Luftballon               | balloon
+   das Sandwich                 | sandwich
+   schweigen                    | to be silent
+   unordentlich                 | messy / untidy
+   das Lieblingsessen           | favourite food
+   kauen                        | to chew
+   belebt                       | busy / lively
+   unerwartet                   | unexpected
+   kneifen                      | to pinch
+   salzig                       | salty
+   ausgefallen                  | fancy / unusual
+   sich weiten                  | to widen
+   der Laden                    | shop / store
+   töpfern                      | to do pottery
+   der Schultag                 | school day
+   sich hinsetzen               | to sit down
+   herüber                      | over (to here)
+   stöhnen                      | to groan
+   grinsen                      | to grin
+   die Parkbank                 | park bench
+   das Spielzeug                | toy
+   bedecken                     | to cover
+   die Tomatensauce             | tomato sauce
+   das Basilikum                | basil
+   füttern                      | to feed
+   starren                      | to stare
+   eilen                        | to hurry / rush
+   aufheben                     | to pick up
+   das Kochbuch                 | cookbook
+   das Gewürz                   | spice
+   schaukeln                    | to swing / rock
+   klettern                     | to climb
+   der Tänzer                   | dancer
+   fegen                        | to sweep
+   die Muschel                  | seashell
+   zappeln                      | to wriggle / squirm
+   wiederkommen                 | to come back
+   verängstigt                  | frightened / scared
+   das Halsband                 | collar
+   die Giraffe                  | giraffe
+   verspielt                    | playful
+   das Gehege                   | enclosure
+   beängstigend                 | frightening / scary
+   der Einband                  | cover / binding (book)
+   das Fußballspiel             | football match
+   jubeln                       | to cheer
+   die Nettigkeit               | kindness
+   der Regentropfen             | raindrop
+   ertönen                      | to sound / ring out
+   verriegelt                   | locked / bolted
+   stoppen                      | to stop
+   durchsuchen                  | to search through
+   die Geburtstagsfeier         | birthday party
+   testen                       | to test
+   umarmen                      | to hug
+   erwidern                     | to reply / retort
+   verbrennen                   | to burn
+   klatschen                    | to clap / applaud
+   dunkelblau                   | dark blue
+   atmen                        | to breathe
+   die Schaufel                 | shovel / spade
+   hinzufügen                   | to add
+   der Karton                   | cardboard box
+   zerbrochen                   | broken / shattered
+   die Pfote                    | paw
+   schimpfen                    | to scold / grumble
+   die Kunstausstellung         | art exhibition
+   betreiben                    | to run / operate
+   klingen                      | to sound
+   scherzen                     | to joke
+   der Tagesablauf              | daily routine
+   seufzen                      | to sigh
+   das Dessert                  | dessert
+   zubereiten                   | to prepare (food)
+   berühren                     | to touch
+   reinlegen                    | to trick / fool
+   anzünden                     | to light
+   toben                        | to rage / romp
+   stillstehen                  | to stand still
+   der Schneefall               | snowfall
+   die Flocke                   | flake
+   die Türschwelle              | doorstep
+   das Mietshaus                | apartment building
+   der Donner                   | thunder
+   der Schoß                    | lap
+   hupen                        | to honk

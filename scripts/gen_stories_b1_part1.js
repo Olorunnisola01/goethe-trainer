@@ -1,0 +1,564 @@
+/**
+ * Generate B1 stories 101–150 (part 1 of 2)
+ * Run: node scripts/gen_stories_b1_part1.js
+ */
+const fs = require('fs');
+const path = require('path');
+
+const OUT = 'C:/Users/ADELEKEOLORUNISOLAO/Desktop/goethe-trainer/public/data/stories_b1_part1.json';
+
+const stories = [
+  {
+    id: 'S101', num: '101', title: 'Der neue Job', titleEn: 'The New Job', level: 'B1',
+    de: 'Lena hat nach langen Monaten der Bewerbungen endlich eine Stelle als Grafikdesignerin gefunden. Am ersten Arbeitstag ist sie nervös und schläft kaum. Sie zieht sich sorgfältig an, trinkt zwei Tassen Kaffee und fährt mit der U-Bahn ins Büro. Ihr neuer Chef begrüßt sie freundlich und stellt sie dem Team vor. Die Kollegen sind offen und erklären ihr die Arbeitsabläufe geduldig. Mittags essen sie gemeinsam in der Kantine. Lena erzählt, dass sie früher in einer kleinen Werbeagentur gearbeitet hat. Nachmittags bekommt sie ihr erstes Projekt: ein Logo für einen lokalen Bio-Markt. Sie arbeitet konzentriert und liefert um 17 Uhr einen ersten Entwurf ab. Der Chef ist beeindruckt. Auf dem Heimweg lächelt Lena. Sie ist froh, dass sie diesen Schritt gewagt hat.',
+    en: 'After long months of applications, Lena has finally found a job as a graphic designer. On her first day she is nervous and barely sleeps. She dresses carefully, drinks two cups of coffee, and takes the subway to the office. Her new boss greets her warmly and introduces her to the team. Her colleagues are open and patiently explain the workflows. At noon they eat together in the canteen. Lena mentions she previously worked at a small advertising agency. In the afternoon she receives her first project: a logo for a local organic market. She works focused and submits a first draft at 5 p.m. The boss is impressed. On the way home, Lena smiles. She is glad she took this step.',
+    vocab: [
+      { de: 'die Bewerbung (-en)', en: 'application' },
+      { de: 'der Arbeitsablauf (-läufe)', en: 'workflow' },
+      { de: 'der Entwurf (-würfe)', en: 'draft / design' },
+      { de: 'wagen', en: 'to dare / to venture' },
+    ]
+  },
+  {
+    id: 'S102', num: '102', title: 'Fernweh', titleEn: 'Wanderlust', level: 'B1',
+    de: 'Seit Jahren träumt Markus davon, Südamerika zu bereisen. Dieses Jahr hat er endlich genug Geld gespart. Er bucht einen Flug nach Bogotá und plant von dort aus weiterzureisen. Im Hostel lernt er andere Reisende kennen — Franzosen, Japaner, Australier. Gemeinsam erkunden sie die Altstadt mit ihren bunten Häusern. Markus isst zum ersten Mal Arepas und ist begeistert. Er besucht einen Kochkurs und lernt, wie man typische kolumbianische Gerichte zubereitet. Abends sitzen sie auf der Dachterrasse und reden über ihre Länder und Kulturen. Markus merkt, wie groß die Welt ist und wie ähnlich sich Menschen gleichzeitig sind. Er schreibt alles in ein kleines Notizbuch. Zu Hause will er ein Blog darüber starten. Das Reisen hat ihn verändert — zum Besseren.',
+    en: 'For years Markus has dreamed of travelling South America. This year he has finally saved enough money. He books a flight to Bogotá and plans to travel onward from there. At the hostel he meets other travellers — French, Japanese, Australians. Together they explore the old town with its colourful houses. Markus eats arepas for the first time and is thrilled. He takes a cooking class and learns how to prepare typical Colombian dishes. In the evenings they sit on the rooftop terrace and talk about their countries and cultures. Markus realises how big the world is and yet how similar people are at the same time. He writes everything in a small notebook. At home he wants to start a blog about it. Travelling has changed him — for the better.',
+    vocab: [
+      { de: 'das Fernweh', en: 'wanderlust / longing to travel' },
+      { de: 'erkunden', en: 'to explore' },
+      { de: 'das Gericht (-e)', en: 'dish / meal' },
+      { de: 'verändern', en: 'to change' },
+    ]
+  },
+  {
+    id: 'S103', num: '103', title: 'Die Wohngemeinschaft', titleEn: 'The Shared Flat', level: 'B1',
+    de: 'Nach dem Umzug in die neue Stadt sucht Yara eine Wohngemeinschaft. Sie findet eine Anzeige online: drei Zimmer, zentrale Lage, 450 Euro warm. Beim Besichtigungstermin lernt sie ihre möglichen Mitbewohner kennen — Jonas, ein Informatikstudent, und Priya, eine Krankenpflegerin. Die Wohnung ist nicht groß, aber gemütlich. Die Küche ist gut ausgestattet, und es gibt einen kleinen Balkon. Yara gefällt die offene Atmosphäre. Sie entscheidet sich sofort dafür. Nach dem Einzug stellen sie gemeinsame Regeln auf: Abwasch am Abend, Einkaufsliste am Kühlschrank, kein Lärm nach 23 Uhr. Manchmal gibt es kleine Konflikte — wer hat das Salz aufgebraucht? Aber sie reden offen miteinander. Bald fühlt sich Yara wie zu Hause.',
+    en: 'After moving to the new city, Yara looks for a shared flat. She finds an ad online: three rooms, central location, €450 all-in. At the viewing she meets her potential flatmates — Jonas, a computer science student, and Priya, a nurse. The flat is not large but cosy. The kitchen is well equipped, and there is a small balcony. Yara likes the open atmosphere. She decides immediately. After moving in they set up shared rules: washing up in the evening, shopping list on the fridge, no noise after 11 p.m. Sometimes there are small conflicts — who used up the salt? But they talk openly with each other. Soon Yara feels at home.',
+    vocab: [
+      { de: 'die Wohngemeinschaft (-en) / WG', en: 'shared flat' },
+      { de: 'der Mitbewohner (-)', en: 'flatmate' },
+      { de: 'die Besichtigung (-en)', en: 'viewing / inspection' },
+      { de: 'aufbrauchen', en: 'to use up' },
+    ]
+  },
+  {
+    id: 'S104', num: '104', title: 'Das Vorstellungsgespräch', titleEn: 'The Job Interview', level: 'B1',
+    de: 'David hat sich auf eine Stelle als Marketingassistent beworben. Heute ist das Vorstellungsgespräch. Er bereitet sich gründlich vor: recherchiert das Unternehmen, übt mögliche Fragen und wählt ein passendes Outfit. Im Gespräch ist die Personalchefin freundlich, aber direkt. Sie fragt nach seinen Stärken, Schwächen und Gehaltsvorstellungen. David antwortet ruhig und ehrlich. Als sie ihn fragt, warum er seinen letzten Job verlassen hat, erklärt er sachlich, dass er mehr Verantwortung übernehmen wollte. Am Ende darf er selbst Fragen stellen. Er erkundigt sich nach den Aufstiegsmöglichkeiten. Das Gespräch dauert 45 Minuten. Auf dem Weg hinaus schüttelt er der Personalchefin die Hand. Drei Tage später kommt die E-Mail: Er hat die Stelle bekommen.',
+    en: 'David has applied for a position as a marketing assistant. Today is the job interview. He prepares thoroughly: researches the company, practises possible questions and chooses a suitable outfit. In the interview the HR manager is friendly but direct. She asks about his strengths, weaknesses and salary expectations. David answers calmly and honestly. When she asks why he left his last job, he explains matter-of-factly that he wanted to take on more responsibility. At the end he is allowed to ask his own questions. He enquires about opportunities for advancement. The interview lasts 45 minutes. On the way out he shakes the HR manager\'s hand. Three days later the email arrives: he has got the job.',
+    vocab: [
+      { de: 'das Vorstellungsgespräch (-e)', en: 'job interview' },
+      { de: 'die Gehaltsvorstellung (-en)', en: 'salary expectation' },
+      { de: 'sachlich', en: 'matter-of-fact / objective' },
+      { de: 'die Aufstiegsmöglichkeit (-en)', en: 'opportunity for advancement' },
+    ]
+  },
+  {
+    id: 'S105', num: '105', title: 'Klimawandel im Alltag', titleEn: 'Climate Change in Daily Life', level: 'B1',
+    de: 'Sommer in der Stadt ist heute anders als früher. Die Temperaturen steigen jedes Jahr. Sandra merkt es beim morgendlichen Joggen: Schon um 7 Uhr ist es drückend heiß. Sie liest viel über den Klimawandel und will ihren Teil beitragen. Sie kauft ein Lastenfahrrad statt mit dem Auto zu fahren, ernährt sich überwiegend pflanzlich und kauft secondhand ein. Ihr Freundeskreis diskutiert das Thema oft. Manche sagen, individuelle Maßnahmen nützen nichts — es brauche politischen Wandel. Sandra stimmt zu, glaubt aber, dass beides nötig ist. Sie engagiert sich in einer lokalen Klimagruppe und organisiert Pflanzaktionen im Stadtviertel. Es ist nicht einfach, Veränderungen anzustoßen. Aber sie gibt nicht auf.',
+    en: 'Summer in the city is different today than it used to be. Temperatures rise every year. Sandra notices it on her morning jog: by 7 a.m. it is already oppressively hot. She reads a lot about climate change and wants to do her part. She buys a cargo bike instead of driving a car, eats mostly plant-based food, and shops secondhand. Her circle of friends often discusses the topic. Some say individual measures are useless — political change is needed. Sandra agrees but believes both are necessary. She gets involved in a local climate group and organises planting events in the neighbourhood. It is not easy to initiate change. But she does not give up.',
+    vocab: [
+      { de: 'der Klimawandel', en: 'climate change' },
+      { de: 'drückend heiß', en: 'oppressively hot' },
+      { de: 'pflanzlich', en: 'plant-based' },
+      { de: 'anstoßen', en: 'to initiate / to kick off' },
+    ]
+  },
+  {
+    id: 'S106', num: '106', title: 'Das Ehrenamt', titleEn: 'Volunteering', level: 'B1',
+    de: 'Seit zwei Jahren arbeitet Kenji jeden Samstag in einer Suppenküche. Er kocht mit einem Team von Freiwilligen und verteilt Mahlzeiten an Obdachlose und Bedürftige. Manche Gäste kommen regelmäßig. Kenji kennt ihre Namen und ihre Geschichten. Einer heißt Thomas — früher Elektriker, jetzt seit drei Jahren ohne Wohnung. Kenji hört ihm zu, ohne zu urteilen. Das Ehrenamt hat Kenjis Perspektive verändert. Er macht sich weniger Sorgen über kleinere Probleme in seinem eigenen Leben. Manchmal bringt er selbst gebackenes Brot mit. Die anderen Freiwilligen sind ein bunt gemischtes Team — Studenten, Rentner, Berufstätige. Sie lachen viel und arbeiten gut zusammen. Kenji kann sich kaum vorstellen, damit aufzuhören.',
+    en: 'For two years Kenji has worked every Saturday in a soup kitchen. He cooks with a team of volunteers and distributes meals to the homeless and those in need. Some guests come regularly. Kenji knows their names and their stories. One is called Thomas — formerly an electrician, now without a home for three years. Kenji listens to him without judging. Volunteering has changed Kenji\'s perspective. He worries less about minor problems in his own life. Sometimes he brings home-baked bread. The other volunteers are a colourful mixed team — students, retirees, working people. They laugh a lot and work well together. Kenji can hardly imagine stopping.',
+    vocab: [
+      { de: 'das Ehrenamt (-ämter)', en: 'voluntary work / volunteer post' },
+      { de: 'die Suppenküche (-n)', en: 'soup kitchen' },
+      { de: 'bedürftig', en: 'needy / in need' },
+      { de: 'urteilen', en: 'to judge' },
+    ]
+  },
+  {
+    id: 'S107', num: '107', title: 'Digitale Erschöpfung', titleEn: 'Digital Exhaustion', level: 'B1',
+    de: 'Nina verbringt täglich mehr als acht Stunden vor Bildschirmen — im Büro und abends zu Hause. Sie bemerkt, dass sie sich ständig müde und gereizt fühlt. Ihr Arzt spricht von "digitalem Stress" und empfiehlt eine Bildschirmpause. Nina ist skeptisch: Wie soll das gehen, wenn alles über das Handy läuft? Sie versucht es trotzdem. Abends legt sie das Smartphone um 20 Uhr weg. Stattdessen liest sie ein Buch oder geht spazieren. Nach einer Woche schläft sie besser. Nach zwei Wochen fühlt sie sich ruhiger. Sie entscheidet sich, Social Media nur noch einmal täglich zu checken. Es fällt ihr schwer, aber sie merkt den Unterschied. Digitale Gewohnheiten zu ändern braucht Zeit und Disziplin.',
+    en: 'Nina spends more than eight hours a day in front of screens — at the office and in the evenings at home. She notices that she constantly feels tired and irritable. Her doctor talks about "digital stress" and recommends a screen break. Nina is sceptical: how is that supposed to work when everything runs through the phone? She tries it anyway. In the evenings she puts the smartphone away at 8 p.m. Instead she reads a book or goes for a walk. After one week she sleeps better. After two weeks she feels calmer. She decides to check social media only once a day. It is hard for her, but she notices the difference. Changing digital habits takes time and discipline.',
+    vocab: [
+      { de: 'gereizt', en: 'irritable / annoyed' },
+      { de: 'die Bildschirmpause (-n)', en: 'screen break' },
+      { de: 'skeptisch', en: 'sceptical' },
+      { de: 'die Gewohnheit (-en)', en: 'habit' },
+    ]
+  },
+  {
+    id: 'S108', num: '108', title: 'Ein Jahr im Ausland', titleEn: 'A Year Abroad', level: 'B1',
+    de: 'Mit 22 beschließt Amira, ein Jahr in Deutschland zu verbringen. Sie findet einen Au-pair-Platz bei einer Familie in Freiburg. Die ersten Wochen sind aufregend und gleichzeitig überwältigend. Die Sprache, das Wetter, das Essen — alles ist anders. Sie vermisst ihre Familie in Marokko sehr. Aber sie lernt schnell. Sie besucht einen Deutschkurs und macht neue Freundschaften. Die Kinder der Gastfamilie sind neugierig und lustig — sie helfen ihr, natürliche Alltagssprache zu lernen. Monat für Monat wird es leichter. Sie besucht Städte, wandert im Schwarzwald und kocht für die Familie marokkanisches Essen. Am Ende des Jahres will sie eigentlich gehen. Aber sie bleibt noch sechs Monate.',
+    en: 'At 22, Amira decides to spend a year in Germany. She finds an au pair placement with a family in Freiburg. The first weeks are exciting and at the same time overwhelming. The language, the weather, the food — everything is different. She misses her family in Morocco very much. But she learns quickly. She attends a German course and makes new friends. The host family\'s children are curious and funny — they help her learn natural everyday language. Month by month it gets easier. She visits cities, hikes in the Black Forest, and cooks Moroccan food for the family. At the end of the year she actually wants to leave. But she stays six more months.',
+    vocab: [
+      { de: 'überwältigend', en: 'overwhelming' },
+      { de: 'der Au-pair-Platz', en: 'au pair position' },
+      { de: 'die Gastfamilie (-n)', en: 'host family' },
+      { de: 'neugierig', en: 'curious' },
+    ]
+  },
+  {
+    id: 'S109', num: '109', title: 'Die Berufswahl', titleEn: 'Choosing a Career', level: 'B1',
+    de: 'Leon ist 17 und weiß nicht, was er nach dem Abitur machen soll. Sein Vater ist Ingenieur und erwartet, dass Leon studiert. Aber Leon interessiert sich für Musik — er spielt seit fünf Jahren Gitarre und schreibt eigene Songs. Er besucht einen Berufsberatungstermin im Jobcenter. Die Beraterin hört ihm aufmerksam zu und erklärt ihm verschiedene Möglichkeiten: Musikstudium, duales Studium, Ausbildung zum Tontechniker. Leon recherchiert, spricht mit Musikern und besucht einen Tag in einem Tonstudio. Er bemerkt, dass Leidenschaft allein nicht reicht — man muss auch Geschäftssinn mitbringen. Am Ende entscheidet er sich für eine Ausbildung als Veranstaltungstechniker. Sein Vater ist anfangs enttäuscht, respektiert die Entscheidung aber.',
+    en: 'Leon is 17 and does not know what to do after his school-leaving exam. His father is an engineer and expects Leon to study. But Leon is interested in music — he has been playing guitar for five years and writes his own songs. He attends a career counselling appointment at the job centre. The counsellor listens to him attentively and explains various options: music degree, dual study programme, training as a sound engineer. Leon researches, talks with musicians, and spends a day in a recording studio. He notices that passion alone is not enough — you also need business sense. In the end he decides to train as an events technician. His father is initially disappointed but respects the decision.',
+    vocab: [
+      { de: 'die Berufswahl', en: 'career choice' },
+      { de: 'die Berufsberatung', en: 'career counselling' },
+      { de: 'der Geschäftssinn', en: 'business sense' },
+      { de: 'enttäuscht', en: 'disappointed' },
+    ]
+  },
+  {
+    id: 'S110', num: '110', title: 'Heimweh', titleEn: 'Homesickness', level: 'B1',
+    de: 'Seit sechs Monaten lebt Carlos in Berlin. Er kam aus Mexiko, um Informatik zu studieren. Auf dem Papier läuft alles gut: gute Noten, nette Kommilitonen, eine bezahlbare Wohnung. Aber abends sitzt er oft allein da und hört mexikanische Musik. Er vermisst das Essen seiner Mutter, die laute Familie, den warmen Sommer. Manchmal ruft er dreimal pro Woche nach Hause an. Seine Mutter sagt ihm, er soll stark sein. Das hilft kurz, aber das Gefühl bleibt. Er spricht mit einem Studienberater, der ihn an eine Selbsthilfegruppe für internationale Studierende verweist. Dort trifft er andere, denen es genauso geht. Sie treffen sich regelmäßig, kochen gemeinsam, reden. Carlos merkt: Er ist nicht allein. Das Heimweh verschwindet nicht ganz. Aber es wird leichter.',
+    en: 'For six months Carlos has been living in Berlin. He came from Mexico to study computer science. On paper everything is going well: good grades, nice fellow students, an affordable flat. But in the evenings he often sits alone and listens to Mexican music. He misses his mother\'s cooking, the loud family, the warm summer. Sometimes he calls home three times a week. His mother tells him to be strong. That helps briefly, but the feeling remains. He talks to a study adviser who refers him to a self-help group for international students. There he meets others who feel the same way. They meet regularly, cook together, talk. Carlos notices: he is not alone. The homesickness does not disappear completely. But it gets easier.',
+    vocab: [
+      { de: 'das Heimweh', en: 'homesickness' },
+      { de: 'der Kommilitone (-n)', en: 'fellow student' },
+      { de: 'verweisen (auf)', en: 'to refer (to)' },
+      { de: 'die Selbsthilfegruppe (-n)', en: 'self-help group' },
+    ]
+  },
+  {
+    id: 'S111', num: '111', title: 'Der Burnout', titleEn: 'Burnout', level: 'B1',
+    de: 'Thomas arbeitet seit zehn Jahren als Projektmanager. Er liebt seinen Job — oder hat ihn geliebt. In letzter Zeit schläft er schlecht, reagiert gereizt auf Kleinigkeiten und verliert die Freude an allem. Sein Arzt stellt fest: Burnout. Thomas muss eine sechswöchige Auszeit nehmen. Das fällt ihm schwer. Er fühlt sich nutzlos und schuldig. Aber langsam lernt er, loszulassen. Er fängt an zu malen, etwas, das er als Kind geliebt hat. Er macht lange Spaziergänge und schreibt Tagebuch. In der Psychotherapie versteht er, warum er immer Ja sagt, obwohl er Nein meint. Er lernt, Grenzen zu setzen. Nach der Auszeit kehrt er in die Arbeit zurück — aber anders. Er delegiert mehr, geht pünktlich nach Hause und sagt öfter Nein.',
+    en: 'Thomas has been working as a project manager for ten years. He loves his job — or used to. Lately he sleeps poorly, reacts irritably to small things, and loses joy in everything. His doctor determines: burnout. Thomas must take a six-week break. That is hard for him. He feels useless and guilty. But slowly he learns to let go. He starts painting, something he loved as a child. He takes long walks and keeps a diary. In psychotherapy he understands why he always says yes when he means no. He learns to set boundaries. After the break he returns to work — but differently. He delegates more, goes home on time, and says no more often.',
+    vocab: [
+      { de: 'der Burnout', en: 'burnout' },
+      { de: 'die Auszeit (-en)', en: 'break / time out' },
+      { de: 'loslassen', en: 'to let go' },
+      { de: 'delegieren', en: 'to delegate' },
+    ]
+  },
+  {
+    id: 'S112', num: '112', title: 'Die Nachbarschaftshilfe', titleEn: 'Neighbourhood Help', level: 'B1',
+    de: 'In dem kleinen Mehrfamilienhaus in der Goethestraße kennen sich die Bewohner kaum. Jeder kommt und geht, ohne zu grüßen. Das ändert sich, als die alte Frau Brunner stürzt und drei Wochen nicht einkaufen gehen kann. Ihre Nachbarin Selin bemerkt, dass die Post sich stapelt. Sie klingelt und fragt, ob sie helfen kann. Bald bringen mehrere Nachbarn abwechselnd Einkäufe vorbei. Jemand organisiert eine WhatsApp-Gruppe für das Haus. Sie helfen sich gegenseitig: Pakete annehmen, Blumen gießen, Kinder von der Schule abholen. Nach Frau Brunners Genesung treffen sie sich zum ersten Mal alle zusammen auf eine Tasse Kaffee im Flur. Es ist eng, aber herzlich. Aus Fremden werden Nachbarn.',
+    en: 'In the small apartment building on Goethestrasse the residents barely know each other. Everyone comes and goes without greeting. That changes when old Mrs Brunner falls and cannot go shopping for three weeks. Her neighbour Selin notices that the mail is piling up. She rings the bell and asks if she can help. Soon several neighbours take turns bringing groceries. Someone organises a WhatsApp group for the building. They help each other: accepting parcels, watering flowers, picking children up from school. After Mrs Brunner\'s recovery they all meet together for the first time for a cup of coffee in the hallway. It is cramped but warm. Strangers become neighbours.',
+    vocab: [
+      { de: 'die Nachbarschaftshilfe', en: 'neighbourhood help' },
+      { de: 'stürzen', en: 'to fall / to collapse' },
+      { de: 'sich stapeln', en: 'to pile up' },
+      { de: 'die Genesung', en: 'recovery' },
+    ]
+  },
+  {
+    id: 'S113', num: '113', title: 'Der Sprachkurs', titleEn: 'The Language Course', level: 'B1',
+    de: 'Fatima kommt aus dem Iran und hat vor einem Jahr in Deutschland Asyl beantragt. Sie besucht jetzt einen Integrationskurs. Die Klasse ist bunt: Syrer, Afghanen, Eritreer, ein Kubaner. Die Lehrerin, Frau Wolf, ist geduldig und motivierend. Sie erklärt Grammatik mit alltäglichen Beispielen. Fatima lernt schnell — sie hatte Germanistik studiert und spricht bereits etwas Deutsch. Nach drei Monaten kann sie sich auf dem Amt verständigen und einen Brief schreiben. Sie hilft manchmal anderen Kursteilnehmern. Das gibt ihr ein gutes Gefühl. Sie hofft, bald als Übersetzerin zu arbeiten. Deutsch ist für sie nicht nur eine Sprache — es ist ein Schlüssel.',
+    en: 'Fatima comes from Iran and applied for asylum in Germany a year ago. She is now attending an integration course. The class is diverse: Syrians, Afghans, Eritreans, one Cuban. The teacher, Ms Wolf, is patient and motivating. She explains grammar with everyday examples. Fatima learns quickly — she had studied German studies and already speaks some German. After three months she can communicate at the office and write a letter. She sometimes helps other course participants. That gives her a good feeling. She hopes to soon work as a translator. German is for her not just a language — it is a key.',
+    vocab: [
+      { de: 'der Integrationskurs (-e)', en: 'integration course' },
+      { de: 'Asyl beantragen', en: 'to apply for asylum' },
+      { de: 'der Kursteilnehmer (-)', en: 'course participant' },
+      { de: 'der Schlüssel (-)', en: 'key' },
+    ]
+  },
+  {
+    id: 'S114', num: '114', title: 'Stadtflucht', titleEn: 'Fleeing the City', level: 'B1',
+    de: 'Nach zwölf Jahren in München entscheidet sich das Paar Anna und Felix, aufs Land zu ziehen. Die Mieten sind zu hoch, der Lärm zu laut, das Leben zu stressig. Sie kaufen ein altes Bauernhaus in einem Dorf in Bayern. Die ersten Monate sind chaotisch: Das Dach ist undicht, die Heizung veraltet, der Garten ein Dickicht. Aber sie arbeiten mit Freude daran. Die Dorfbewohner sind zuerst neugierig, dann hilfsbereit. Der Bauer nebenan zeigt Felix, wie man Holz hackt. Die ältere Nachbarin schenkt Anna Gemüse aus dem Garten. Bald fühlen sie sich angekommen. Sie vermissen wenig aus der Stadt. Nur die guten Restaurants — und ihre Freunde, die manchmal zum Besuch kommen.',
+    en: 'After twelve years in Munich, the couple Anna and Felix decide to move to the countryside. The rents are too high, the noise too loud, life too stressful. They buy an old farmhouse in a village in Bavaria. The first months are chaotic: the roof leaks, the heating is outdated, the garden is a thicket. But they work on it with joy. The villagers are first curious, then helpful. The farmer next door shows Felix how to chop wood. The older neighbour gives Anna vegetables from the garden. Soon they feel settled. They miss little from the city. Only the good restaurants — and their friends, who sometimes come to visit.',
+    vocab: [
+      { de: 'die Stadtflucht', en: 'exodus from the city' },
+      { de: 'undicht', en: 'leaky' },
+      { de: 'das Dickicht (-e)', en: 'thicket / undergrowth' },
+      { de: 'veraltet', en: 'outdated' },
+    ]
+  },
+  {
+    id: 'S115', num: '115', title: 'Zwischen zwei Kulturen', titleEn: 'Between Two Cultures', level: 'B1',
+    de: 'Elif ist in Deutschland geboren, aber ihre Eltern kommen aus der Türkei. Zu Hause spricht sie Türkisch, isst türkisches Essen und feiert türkische Feste. In der Schule ist sie einfach "Elif aus der Klasse 10b". Manchmal fühlt sie sich weder ganz deutsch noch ganz türkisch. Freunde fragen sie: "Wo kommst du eigentlich her?" Die Frage nervt sie. Sie kommt aus Köln. Nach einer Reise in die Türkei merkt sie, dass sie dort als "die Deutsche" gilt. Es ist ein merkwürdiges Gefühl. In einem Workshop über kulturelle Identität lernt sie, dass viele so fühlen. Sie beginnt, sich als "bicultural" zu beschreiben — und das fühlt sich richtig an. Beide Kulturen sind ein Teil von ihr.',
+    en: 'Elif was born in Germany, but her parents come from Turkey. At home she speaks Turkish, eats Turkish food, and celebrates Turkish festivals. At school she is simply "Elif from class 10b". Sometimes she feels neither fully German nor fully Turkish. Friends ask her: "Where are you really from?" The question annoys her. She is from Cologne. After a trip to Turkey she notices that she is considered "the German" there. It is a strange feeling. In a workshop on cultural identity she learns that many people feel this way. She begins to describe herself as "bicultural" — and that feels right. Both cultures are a part of her.',
+    vocab: [
+      { de: 'bikulturell', en: 'bicultural' },
+      { de: 'die Identität (-en)', en: 'identity' },
+      { de: 'gelten als', en: 'to be considered as' },
+      { de: 'merkwürdig', en: 'strange / peculiar' },
+    ]
+  },
+  {
+    id: 'S116', num: '116', title: 'Der Umschulungskurs', titleEn: 'The Retraining Course', level: 'B1',
+    de: 'Mit 40 Jahren verliert Ralf seine Stelle als Buchhalter durch Automatisierung. Die Agentur für Arbeit bietet ihm eine Umschulung zum IT-Systemelektroniker an. Ralf zögert — er ist kein Technikmensch. Aber er hat keine Wahl. Im Kurs sind jüngere und ältere Kollegen. Am Anfang versteht er kaum etwas. Die Fachbegriffe sind fremd, die Konzepte kompliziert. Er lernt täglich vier Stunden und fragt viel. Nach drei Monaten kommt der erste Erfolg: Er repariert selbständig einen Computer. Das motiviert ihn enorm. Nach dem Kursabschluss findet er eine Stelle in einem mittelständischen Betrieb. Der Lohn ist niedriger als vorher. Aber er findet die Arbeit interessanter. Manchmal braucht man Krisen, um etwas Neues zu entdecken.',
+    en: 'At 40, Ralf loses his job as an accountant through automation. The employment agency offers him retraining as an IT systems electronics engineer. Ralf hesitates — he is not a tech person. But he has no choice. In the course there are younger and older colleagues. At the beginning he barely understands anything. The technical terms are unfamiliar, the concepts complicated. He studies four hours a day and asks a lot. After three months comes the first success: he independently repairs a computer. That motivates him enormously. After finishing the course he finds a job at a medium-sized company. The pay is lower than before. But he finds the work more interesting. Sometimes you need crises to discover something new.',
+    vocab: [
+      { de: 'die Umschulung (-en)', en: 'retraining / career change' },
+      { de: 'die Automatisierung', en: 'automation' },
+      { de: 'mittelständisch', en: 'medium-sized (business)' },
+      { de: 'selbständig', en: 'independently / self-employed' },
+    ]
+  },
+  {
+    id: 'S117', num: '117', title: 'Die Schulreform', titleEn: 'The School Reform', level: 'B1',
+    de: 'In der Schule von Klara werden gerade viele Dinge umgestellt. Es gibt jetzt offenen Unterricht, Projektwochen und weniger klassische Prüfungen. Stattdessen werden Portfolios bewertet — Sammlungen von Arbeiten der Schüler. Manche Eltern sind begeistert, andere kritisch. Klaras Mutter fragt: "Wie soll mein Kind sich aufs Gymnasium vorbereiten, wenn es keine Noten gibt?" Der Direktor erklärt auf dem Elternabend, dass Lernkompetenz wichtiger sei als Auswendiglernen. Klara selbst mag die neue Methode. Sie lernt lieber durch Projekte als durch Pauken. Aber sie vermisst die klare Struktur von früher. Am Ende des Schuljahres sieht sie ihren Lernfortschritt im Portfolio. Sie ist stolz auf das, was sie geschafft hat.',
+    en: 'At Klara\'s school many things are currently being changed. There is now open teaching, project weeks, and fewer traditional exams. Instead, portfolios are assessed — collections of students\' work. Some parents are enthusiastic, others critical. Klara\'s mother asks: "How is my child supposed to prepare for secondary school if there are no grades?" The headmaster explains at the parents\' evening that learning competence is more important than rote learning. Klara herself likes the new method. She prefers to learn through projects rather than cramming. But she misses the clear structure from before. At the end of the school year she sees her learning progress in the portfolio. She is proud of what she has achieved.',
+    vocab: [
+      { de: 'die Schulreform (-en)', en: 'school reform' },
+      { de: 'das Portfolio (-s)', en: 'portfolio' },
+      { de: 'auswendig lernen', en: 'to learn by heart' },
+      { de: 'pauken', en: 'to cram / to swot' },
+    ]
+  },
+  {
+    id: 'S118', num: '118', title: 'Der Verein', titleEn: 'The Club', level: 'B1',
+    de: 'Als Kenan in die neue Stadt zieht, fühlt er sich einsam. Ein Kollege schlägt ihm vor, einem Sportverein beizutreten. Kenan spielt gern Fußball, aber er ist seit Jahren nicht mehr auf dem Platz gestanden. Er meldet sich beim SV Blau-Weiß an. Beim ersten Training ist er nervös. Aber die anderen nehmen ihn herzlich auf. Nach ein paar Wochen kennt er alle beim Vornamen. Nach dem Training gehen sie oft zusammen in die Vereinskneipe. Dort reden sie über Fußball, Politik und das Leben. Kenan bemerkt, wie der Verein mehr ist als Sport — er ist eine Gemeinschaft. Er übernimmt bald eine kleine Aufgabe: Er organisiert die Trainingszeiten. Ein Jahr später ist er in den Vorstand gewählt worden.',
+    en: 'When Kenan moves to the new city, he feels lonely. A colleague suggests he join a sports club. Kenan enjoys playing football, but he has not been on the pitch for years. He signs up at SV Blau-Weiß. At the first training session he is nervous. But the others welcome him warmly. After a few weeks he knows everyone by their first name. After training they often go to the club pub together. There they talk about football, politics, and life. Kenan notices that the club is more than sport — it is a community. He soon takes on a small task: he organises the training times. A year later he has been elected to the committee.',
+    vocab: [
+      { de: 'der Sportverein (-e)', en: 'sports club' },
+      { de: 'beitreten', en: 'to join' },
+      { de: 'die Gemeinschaft (-en)', en: 'community' },
+      { de: 'der Vorstand (-stände)', en: 'committee / board' },
+    ]
+  },
+  {
+    id: 'S119', num: '119', title: 'Zu Hause arbeiten', titleEn: 'Working from Home', level: 'B1',
+    de: 'Seit der Pandemie arbeitet Julia im Homeoffice. Anfangs liebte sie es: kein Pendeln, kein Lärm im Großraumbüro, mehr Zeit für sich. Aber mit der Zeit vermisst sie den Austausch mit Kollegen. Videokonferenzen ersetzen keine echten Gespräche. Sie merkt auch, dass sie abends schwer abschalten kann — der Laptop liegt immer auf dem Schreibtisch. Sie setzt sich klare Regeln: Arbeitsbeginn um 8 Uhr, Schluss um 17 Uhr, danach kein E-Mail-Check mehr. Sie baut eine Ecke im Wohnzimmer als Homeoffice ein und kauft einen ergonomischen Stuhl. Zweimal die Woche fährt sie ins Büro — für das soziale Miteinander. Die Kombination aus Homeoffice und Büro funktioniert gut für sie. Sie nennt es "das Beste aus zwei Welten".',
+    en: 'Since the pandemic Julia has been working from home. At first she loved it: no commuting, no noise in the open-plan office, more time for herself. But over time she misses the exchange with colleagues. Video conferences do not replace real conversations. She also notices that she finds it hard to switch off in the evenings — the laptop is always on the desk. She sets herself clear rules: start work at 8 a.m., finish at 5 p.m., no email checking after that. She sets up a corner in the living room as a home office and buys an ergonomic chair. Twice a week she goes to the office — for the social interaction. The combination of home office and office works well for her. She calls it "the best of both worlds".',
+    vocab: [
+      { de: 'das Homeoffice', en: 'home office / working from home' },
+      { de: 'das Pendeln', en: 'commuting' },
+      { de: 'abschalten', en: 'to switch off / unwind' },
+      { de: 'ergonomisch', en: 'ergonomic' },
+    ]
+  },
+  {
+    id: 'S120', num: '120', title: 'Die Wohnungsnot', titleEn: 'The Housing Shortage', level: 'B1',
+    de: 'In deutschen Großstädten ist bezahlbarer Wohnraum knapp. Das merkt auch Tobias, als er nach Frankfurt zieht. Er schickt wochenlang Bewerbungen ab, sieht sich Wohnungen an, die in schlechtem Zustand und trotzdem teuer sind. Einmal kommt er zur Besichtigung und wartet mit 30 anderen Interessenten. Er fragt sich, was er falsch macht. Ein Freund rät ihm, sein Anschreiben persönlicher zu gestalten. Er erwähnt seinen Job, sein ruhiges Leben, seine Haustierlosigkeit. Beim nächsten Mal bekommt er eine Chance. Er bekommt ein kleines Appartement — teuer, aber sauber. Tobias weiß, dass er Glück hatte. Er liest Artikel über die Wohnungspolitik und fragt sich, wann sich das ändert.',
+    en: 'In German cities affordable housing is scarce. Tobias experiences this too when he moves to Frankfurt. He sends applications for weeks, views flats that are in poor condition and yet expensive. Once he comes to a viewing and waits with 30 other interested people. He wonders what he is doing wrong. A friend advises him to make his cover letter more personal. He mentions his job, his quiet lifestyle, his pet-free status. The next time he gets a chance. He gets a small apartment — expensive, but clean. Tobias knows he was lucky. He reads articles about housing policy and wonders when things will change.',
+    vocab: [
+      { de: 'die Wohnungsnot', en: 'housing shortage' },
+      { de: 'bezahlbar', en: 'affordable' },
+      { de: 'das Anschreiben (-)', en: 'cover letter' },
+      { de: 'knapp', en: 'scarce / tight' },
+    ]
+  },
+  {
+    id: 'S121', num: '121', title: 'Das Tagebuch', titleEn: 'The Diary', level: 'B1',
+    de: 'Maria schreibt seit ihrem zwölften Lebensjahr Tagebuch. Jeden Abend setzt sie sich an den Schreibtisch und hält fest, was sie erlebt, gedacht und gefühlt hat. Es ist ihr persönlicher Rückzugsort. Als sie 30 wird, liest sie alte Einträge. Sie schmunzelt über die Sorgen von damals. Sie staunt, wie viel sie sich verändert hat — und doch auch, wie vieles gleich geblieben ist. Ein Verleger findet einen ihrer Texte in einem Literaturwettbewerb und fragt, ob sie mehr schreiben würde. Sie zögert. Das Tagebuch ist privat. Aber sie beginnt, ähnliche Erfahrungen in Form von Essays zu schreiben. Sie nennt das "das halboffene Tagebuch" — ehrlich, aber nicht ganz nackt.',
+    en: 'Maria has been keeping a diary since she was twelve. Every evening she sits at her desk and records what she has experienced, thought and felt. It is her personal retreat. When she turns 30, she reads old entries. She smiles at the worries of that time. She is amazed at how much she has changed — and yet also how much has stayed the same. A publisher finds one of her texts in a literary competition and asks if she would write more. She hesitates. The diary is private. But she begins to write similar experiences in the form of essays. She calls it "the half-open diary" — honest, but not entirely exposed.',
+    vocab: [
+      { de: 'das Tagebuch (-bücher)', en: 'diary' },
+      { de: 'festhalten', en: 'to capture / record' },
+      { de: 'schmunzeln', en: 'to smile to oneself' },
+      { de: 'der Verleger (-)', en: 'publisher' },
+    ]
+  },
+  {
+    id: 'S122', num: '122', title: 'Rente mit 67', titleEn: 'Retirement at 67', level: 'B1',
+    de: 'Werner ist Elektriker und arbeitet seit 45 Jahren. Mit 67 muss er jetzt in Rente gehen. Auf der Abschiedsfeier im Betrieb halten Kollegen Reden und überreichen ihm ein Reisegutschein. Werner lächelt, aber innerlich ist er unsicher. Was macht er jetzt mit seinen Tagen? Die erste Woche ohne Arbeit ist seltsam. Er steht gewohnheitsmäßig früh auf, hat aber nichts zu tun. Er beginnt, den Garten zu pflegen, den er jahrelang vernachlässigt hat. Er lernt online Schach spielen. Er fährt mit seiner Frau Inge nach Portugal — ihren ersten Urlaub seit zehn Jahren. Dort sitzt er am Meer und denkt nach. Rente ist kein Nichtstun. Es ist eine neue Phase. Er nimmt sie an.',
+    en: 'Werner is an electrician and has been working for 45 years. At 67 he now has to retire. At the farewell party at the company, colleagues give speeches and present him with a travel voucher. Werner smiles, but inwardly he is uncertain. What does he do with his days now? The first week without work is strange. He gets up early out of habit but has nothing to do. He begins to tend the garden, which he has neglected for years. He learns to play chess online. He travels with his wife Inge to Portugal — their first holiday in ten years. There he sits by the sea and reflects. Retirement is not doing nothing. It is a new phase. He accepts it.',
+    vocab: [
+      { de: 'die Rente (-n)', en: 'pension / retirement' },
+      { de: 'vernachlässigen', en: 'to neglect' },
+      { de: 'der Gutschein (-e)', en: 'voucher' },
+      { de: 'gewohnheitsmäßig', en: 'out of habit / habitually' },
+    ]
+  },
+  {
+    id: 'S123', num: '123', title: 'Das Praktikum', titleEn: 'The Internship', level: 'B1',
+    de: 'Lina macht im dritten Semester ein Pflichtpraktikum bei einer kleinen Unternehmensberatung. Sie war aufgeregt und ist jetzt etwas enttäuscht: Statt strategischer Analysen macht sie hauptsächlich Kaffee und kopiert Dokumente. In der zweiten Woche spricht sie mutig mit ihrem Betreuer. Sie sagt, dass sie gern mehr Verantwortung übernehmen würde. Er ist überrascht, aber wohlwollend. Ab der dritten Woche darf sie bei Kundengesprächen dabei sein und ein Marktresearch-Dokument erstellen. Sie lernt viel — auch über das Reden für sich selbst. Am Ende schreibt der Betreuer ihr eine sehr gute Beurteilung. Lina erkennt: Wer nichts sagt, bekommt auch nichts.',
+    en: 'Lina is doing a compulsory internship at a small management consultancy in her third semester. She was excited and is now slightly disappointed: instead of strategic analyses she mainly makes coffee and copies documents. In the second week she bravely speaks to her supervisor. She says she would like to take on more responsibility. He is surprised but well-disposed. From the third week onwards she is allowed to sit in on client meetings and create a market research document. She learns a lot — also about speaking up for herself. At the end the supervisor writes her an excellent appraisal. Lina realises: if you say nothing, you get nothing.',
+    vocab: [
+      { de: 'das Praktikum (-ka)', en: 'internship' },
+      { de: 'die Unternehmensberatung', en: 'management consultancy' },
+      { de: 'wohlwollend', en: 'well-disposed / benevolent' },
+      { de: 'die Beurteilung (-en)', en: 'appraisal / assessment' },
+    ]
+  },
+  {
+    id: 'S124', num: '124', title: 'Der Stadtgarten', titleEn: 'The Community Garden', level: 'B1',
+    de: 'In einem ehemaligen Brachgelände mitten in der Stadt hat sich etwas Unerwartetes entwickelt: ein Gemeinschaftsgarten. Zwanzig Menschen aus der Nachbarschaft teilen sich Beete, pflanzen Tomaten, Kräuter und Blumen und treffen sich jeden Samstag. Clara hat das Projekt vor zwei Jahren initiiert. Sie hatte keine Ahnung von Gartenarbeit, aber viel Energie. Heute weiß sie, wann man gießt, wie man Schädlinge bekämpft und was Kompost bewirkt. Der Garten ist mehr als Gemüseanbau — er ist ein sozialer Treffpunkt. Kinder lernen, woher Karotten kommen. Rentner tauschen Rezepte aus. Junge Eltern entspannen sich. Clara sagt manchmal: "Wir pflanzen nicht nur Tomaten. Wir pflanzen Verbindungen."',
+    en: 'On a former wasteland in the middle of the city, something unexpected has developed: a community garden. Twenty people from the neighbourhood share beds, plant tomatoes, herbs and flowers, and meet every Saturday. Clara initiated the project two years ago. She had no idea about gardening, but lots of energy. Today she knows when to water, how to combat pests, and what compost does. The garden is more than vegetable growing — it is a social meeting point. Children learn where carrots come from. Retirees exchange recipes. Young parents relax. Clara sometimes says: "We are not just planting tomatoes. We are planting connections."',
+    vocab: [
+      { de: 'das Brachgelände (-)', en: 'wasteland / brownfield site' },
+      { de: 'das Beet (-e)', en: 'flower bed / vegetable bed' },
+      { de: 'der Schädling (-e)', en: 'pest' },
+      { de: 'der Kompost', en: 'compost' },
+    ]
+  },
+  {
+    id: 'S125', num: '125', title: 'Das Gesundheitssystem', titleEn: 'The Healthcare System', level: 'B1',
+    de: 'Olga kommt aus der Ukraine und lebt seit einem Jahr in Deutschland. Sie ist krank geworden und muss zum Arzt. Das System ist anders als zu Hause. Sie braucht eine Krankenversicherungskarte und einen Termin. Der nächstmögliche Termin beim Hausarzt ist in drei Wochen. Sie versteht nicht, warum man so lange warten muss. Eine Sozialarbeiterin erklärt ihr, dass sie als gesetzlich Versicherte nur bedingt Zugang zu bestimmten Fachärzten hat. Olga ist frustriert. Am Ende findet sie eine Kassenärztin, die noch kurzfristig Termine hat. Die Ärztin ist kompetent und freundlich. Die Bürokratie war schwierig — aber die medizinische Versorgung ist gut. Olga lernt: Man muss das System kennen, um sich richtig zu bewegen.',
+    en: 'Olga comes from Ukraine and has been living in Germany for a year. She has fallen ill and needs to see a doctor. The system is different from back home. She needs a health insurance card and an appointment. The next available appointment with the GP is in three weeks. She does not understand why one must wait so long. A social worker explains to her that as a statutory insured person she has limited access to certain specialists. Olga is frustrated. In the end she finds a panel doctor who still has short-notice appointments. The doctor is competent and friendly. The bureaucracy was difficult — but the medical care is good. Olga learns: you have to know the system to navigate it properly.',
+    vocab: [
+      { de: 'die Krankenversicherung (-en)', en: 'health insurance' },
+      { de: 'der Hausarzt (-ärzte)', en: 'GP / family doctor' },
+      { de: 'gesetzlich versichert', en: 'statutorily insured' },
+      { de: 'die Bürokratie', en: 'bureaucracy' },
+    ]
+  },
+  {
+    id: 'S126', num: '126', title: 'Das Konzert', titleEn: 'The Concert', level: 'B1',
+    de: 'Paul und Mira haben seit Monaten auf das Open-Air-Konzert gewartet. Die Band ist ihre Lieblingsband seit dem Studium. Am Abend des Konzerts regnet es. Trotzdem stehen sie mit Tausenden anderen Menschen vor der Bühne. Als die Band anfängt zu spielen, vergessen sie den Regen. Die Musik trägt sie. Sie singen mit, tanzen, umarmen sich. Nach dem dritten Lied hört der Regen auf. Der Himmel reißt auf und die Sonne bricht kurz durch. Das Publikum jubelt. Nach dem Konzert sitzen Paul und Mira in einem kleinen Café und reden noch stundenlang. Sie sind durchnässt, glücklich und ein bisschen taub von der Lautstärke. Manche Abende bleiben für immer.',
+    en: 'Paul and Mira have been waiting for the open-air concert for months. The band has been their favourite since university. On the evening of the concert it rains. Despite this, they stand with thousands of other people in front of the stage. When the band starts to play, they forget the rain. The music carries them. They sing along, dance, embrace each other. After the third song the rain stops. The sky breaks open and the sun briefly shines through. The audience cheers. After the concert Paul and Mira sit in a small café and talk for hours more. They are soaked, happy, and a little deaf from the volume. Some evenings stay with you forever.',
+    vocab: [
+      { de: 'das Open-Air-Konzert (-e)', en: 'open-air concert' },
+      { de: 'durchnässt', en: 'soaked through' },
+      { de: 'jubeln', en: 'to cheer / to rejoice' },
+      { de: 'taub', en: 'deaf / numb' },
+    ]
+  },
+  {
+    id: 'S127', num: '127', title: 'Der Generationenkonflikt', titleEn: 'The Generation Conflict', level: 'B1',
+    de: 'Beim Sonntagsessen kommt es wieder zu einem Streit. Omas Meinung zur Jugend von heute unterscheidet sich stark von der ihrer Enkeltochter Sophie. "Ihr habt keine Disziplin mehr", sagt Oma Erna. "Und ihr habt eure Chancen nie genutzt", antwortet Sophie. Die Stimmung ist angespannt. Sophies Vater versucht zu vermitteln. Er erklärt, dass beide Generationen ihre eigenen Herausforderungen hatten: Erna hat Krieg und Wiederaufbau erlebt, Sophie klimatische Unsicherheit und digitale Überlastung. Beide Seiten hören zu. Es ist kein Friede, aber ein kleines Verständnis. Beim Nachtisch lachen sie dann doch noch gemeinsam über eine alte Familiengeschichte. Konflikte lösen sich selten ganz. Aber manchmal reicht ein Augenblick der Verbundenheit.',
+    en: 'At the Sunday meal there is another argument. Grandma\'s opinion of today\'s youth differs greatly from that of her granddaughter Sophie. "You no longer have any discipline," says Grandma Erna. "And you never used your opportunities," Sophie replies. The mood is tense. Sophie\'s father tries to mediate. He explains that both generations had their own challenges: Erna experienced war and reconstruction, Sophie climate uncertainty and digital overload. Both sides listen. It is not peace, but a small understanding. Over dessert they then laugh together about an old family story after all. Conflicts rarely resolve completely. But sometimes a moment of connection is enough.',
+    vocab: [
+      { de: 'der Generationenkonflikt (-e)', en: 'generation conflict' },
+      { de: 'vermitteln', en: 'to mediate' },
+      { de: 'die Verbundenheit', en: 'sense of connection / togetherness' },
+      { de: 'angespannt', en: 'tense' },
+    ]
+  },
+  {
+    id: 'S128', num: '128', title: 'Das Musikstudium', titleEn: 'Studying Music', level: 'B1',
+    de: 'Seit ihrer Kindheit spielt Hanna Geige. Mit 18 wird sie an einer renommierten Musikhochschule angenommen. Die ersten Monate sind intensiv: Tägliches Üben von fünf bis sechs Stunden ist normal. Die Professoren sind anspruchsvoll, die Konkurrenz ist spürbar. Hanna zweifelt manchmal, ob sie gut genug ist. Aber dann spielt sie in einem Kammerkonzert für 200 Menschen und fühlt sich lebendig wie nie zuvor. Sie lernt, dass Technik allein nicht reicht — Ausdruck, Interpretation, Mut gehören dazu. Im zweiten Jahr bekommt sie ein kleines Stipendium. Sie sieht es als Bestätigung. Musik ist für sie keine Karriere — es ist eine Berufung.',
+    en: 'Since childhood Hanna has been playing violin. At 18 she is accepted at a renowned music college. The first months are intense: daily practice of five to six hours is normal. The professors are demanding, the competition is palpable. Hanna sometimes doubts whether she is good enough. But then she plays in a chamber concert for 200 people and feels more alive than ever before. She learns that technique alone is not enough — expression, interpretation, courage are also part of it. In the second year she receives a small scholarship. She sees it as confirmation. Music for her is not a career — it is a calling.',
+    vocab: [
+      { de: 'renommiert', en: 'renowned / reputable' },
+      { de: 'anspruchsvoll', en: 'demanding' },
+      { de: 'das Stipendium (-ien)', en: 'scholarship' },
+      { de: 'die Berufung (-en)', en: 'calling / vocation' },
+    ]
+  },
+  {
+    id: 'S129', num: '129', title: 'Die Grenzgänger', titleEn: 'The Cross-Border Commuters', level: 'B1',
+    de: 'Elena wohnt in Polen, arbeitet aber in Deutschland — nur 20 Kilometer entfernt. Jeden Morgen überquert sie die Grenze. Ihr Arbeitgeber schätzt sie: Sie spricht Polnisch, Deutsch und Englisch fließend und arbeitet zuverlässig. Trotzdem gibt es manchmal kleine Reibungspunkte: Sie bekommt keine Einladungen zu informellen Firmenessen, weil sie nicht "aus der Gegend" ist. Sie ist weder ganz in Polen noch in Deutschland verwurzelt. Aber sie sieht das positiv: Sie kennt zwei Systeme, zwei Kulturen, zwei Arten zu denken. Und ihr Gehalt in Euro macht vieles in Polen leichter. Abends kehrt sie nach Hause zurück, wo ihre Familie auf Polnisch spricht und ihr Mutter polnische Suppe kocht. Europa ist für sie kein abstrakter Begriff — es ist ihr Alltag.',
+    en: 'Elena lives in Poland but works in Germany — only 20 kilometres away. Every morning she crosses the border. Her employer values her: she speaks Polish, German and English fluently and works reliably. Nevertheless there are sometimes small friction points: she does not receive invitations to informal company dinners because she is not "from the area." She is neither fully rooted in Poland nor in Germany. But she sees this positively: she knows two systems, two cultures, two ways of thinking. And her salary in euros makes many things easier in Poland. In the evenings she returns home, where her family speaks Polish and her mother cooks Polish soup. Europe for her is not an abstract concept — it is her daily life.',
+    vocab: [
+      { de: 'der Grenzgänger (-)', en: 'cross-border commuter' },
+      { de: 'überqueren', en: 'to cross' },
+      { de: 'verwurzelt', en: 'rooted' },
+      { de: 'der Reibungspunkt (-e)', en: 'friction point' },
+    ]
+  },
+  {
+    id: 'S130', num: '130', title: 'Das Erbe', titleEn: 'The Inheritance', level: 'B1',
+    de: 'Als Oma Lieselotte stirbt, hinterlässt sie ihrer Enkelin Rosa ein kleines Haus auf dem Land. Rosa ist überrascht und gerührt. Sie besucht das Haus zum ersten Mal allein. Es ist alt, etwas verfallen — aber voller Erinnerungen. Die Küche riecht noch nach Omas Kuchen. Im Schrank stehen Bücher mit handschriftlichen Anmerkungen. Rosa findet ein Fotoalbum aus den 1960er Jahren. Sie sieht Oma als junge Frau — lebhaft, lachend, weit gereist. Sie wusste so wenig von ihr. Jetzt wünscht sie, sie hätte mehr gefragt. Rosa beschließt, das Haus zu renovieren und die Sommer dort zu verbringen. Es ist ein Ort, der Vergangenheit und Zukunft verbindet.',
+    en: 'When Grandma Lieselotte dies, she leaves her granddaughter Rosa a small house in the countryside. Rosa is surprised and moved. She visits the house for the first time alone. It is old, somewhat dilapidated — but full of memories. The kitchen still smells of Grandma\'s cake. In the cupboard stand books with handwritten annotations. Rosa finds a photo album from the 1960s. She sees Grandma as a young woman — vivid, laughing, widely travelled. She knew so little about her. Now she wishes she had asked more questions. Rosa decides to renovate the house and spend summers there. It is a place that connects past and future.',
+    vocab: [
+      { de: 'das Erbe', en: 'inheritance / heritage' },
+      { de: 'hinterlassen', en: 'to leave behind / bequeath' },
+      { de: 'verfallen', en: 'dilapidated / in decay' },
+      { de: 'gerührt', en: 'moved / touched' },
+    ]
+  },
+  {
+    id: 'S131', num: '131', title: 'Die Bibliothek', titleEn: 'The Library', level: 'B1',
+    de: 'Ben liebt Bücher, hat aber wenig Geld. Deshalb verbringt er viel Zeit in der Stadtbibliothek. Er leiht sich Romane, Sachbücher und Graphic Novels. Die Bibliothekarin, Frau Kessler, kennt seinen Geschmack und legt manchmal Bücher für ihn zurück. Die Bibliothek ist auch sein Lernort: Hier schreibt er Hausarbeiten, lernt für Prüfungen, liest für sein Vergnügen. An ruhigen Nachmittagen riecht es nach Papier und alten Büchern — ein Geruch, den er liebt. Manchmal trifft er andere Stammgäste. Sie nicken sich zu. Es gibt eine stille Gemeinschaft hier. Als die Stadt überlegt, die Bibliothek zu schließen, unterschreibt Ben sofort die Petition. Für ihn ist die Bibliothek kein Luxus — sie ist notwendig.',
+    en: 'Ben loves books but has little money. That is why he spends a lot of time in the public library. He borrows novels, non-fiction, and graphic novels. The librarian, Ms Kessler, knows his taste and sometimes sets books aside for him. The library is also his place of learning: here he writes essays, studies for exams, reads for pleasure. On quiet afternoons it smells of paper and old books — a smell he loves. Sometimes he meets other regulars. They nod to each other. There is a quiet community here. When the city considers closing the library, Ben signs the petition immediately. For him the library is not a luxury — it is a necessity.',
+    vocab: [
+      { de: 'die Stadtbibliothek (-en)', en: 'public library' },
+      { de: 'der Stammgast (-gäste)', en: 'regular visitor' },
+      { de: 'die Petition (-en)', en: 'petition' },
+      { de: 'notwendig', en: 'necessary' },
+    ]
+  },
+  {
+    id: 'S132', num: '132', title: 'Die Sprachbarriere', titleEn: 'The Language Barrier', level: 'B1',
+    de: 'Mia arbeitet als Pflegerin in einem Seniorenheim. Eine neue Bewohnerin, Frau Petrov, spricht kaum Deutsch — sie ist aus Bulgarien und hat die Sprache nie richtig gelernt. Die Kommunikation ist schwierig. Mia versucht es mit einfachen Worten, Gesten, einem Bild-Wörterbuch. Manchmal kommt die Enkelin als Übersetzerin. Langsam entsteht ein Vertrauensverhältnis. Frau Petrov zeigt Mia Fotos aus ihrer Heimat. Mia kocht einmal bulgarischen Bohneneintopf für sie — aus dem Internet. Frau Petrov weint vor Freude. Sprache ist wichtig, aber nicht alles. Manchmal versteht man sich auch ohne Worte.',
+    en: 'Mia works as a carer in a nursing home. A new resident, Mrs Petrov, barely speaks German — she is from Bulgaria and never properly learned the language. Communication is difficult. Mia tries with simple words, gestures, a picture dictionary. Sometimes the granddaughter comes as a translator. Slowly a relationship of trust develops. Mrs Petrov shows Mia photos from her homeland. Mia once cooks Bulgarian bean stew for her — from the internet. Mrs Petrov cries with joy. Language is important, but not everything. Sometimes you understand each other without words.',
+    vocab: [
+      { de: 'die Sprachbarriere (-n)', en: 'language barrier' },
+      { de: 'die Pflegerin (-nen)', en: 'carer / nurse (female)' },
+      { de: 'das Vertrauensverhältnis (-se)', en: 'relationship of trust' },
+      { de: 'der Bohneneintopf (-töpfe)', en: 'bean stew' },
+    ]
+  },
+  {
+    id: 'S133', num: '133', title: 'Das Nachhaltigkeitsprojekt', titleEn: 'The Sustainability Project', level: 'B1',
+    de: 'An der Schule von Luis gibt es seit diesem Jahr ein Nachhaltigkeitsprojekt. Schüler organisieren sich in Gruppen und wählen ein Thema: Energie, Wasser, Ernährung, Transport. Luis Gruppe beschäftigt sich mit Plastikmüll. Sie analysieren den Verbrauch in der Schule, befragen Lehrer und Mitschüler und erarbeiten Vorschläge. Dann präsentieren sie dem Schuldirektor: weniger Plastikflaschen im Automaten, Mehrwegbecher in der Cafeteria, Recycling-Stationen. Der Direktor hört zu und setzt zwei der drei Vorschläge um. Luis ist stolz. Er merkt, dass Veränderungen möglich sind — wenn man hartnäckig bleibt und Daten mitbringt.',
+    en: 'At Luis\'s school there has been a sustainability project this year. Students organise themselves into groups and choose a topic: energy, water, food, transport. Luis\'s group deals with plastic waste. They analyse consumption at the school, question teachers and fellow students, and develop proposals. Then they present to the school headmaster: fewer plastic bottles in the vending machine, reusable cups in the cafeteria, recycling stations. The headmaster listens and implements two of the three proposals. Luis is proud. He notices that changes are possible — if you remain persistent and bring data.',
+    vocab: [
+      { de: 'die Nachhaltigkeit', en: 'sustainability' },
+      { de: 'der Plastikmüll', en: 'plastic waste' },
+      { de: 'hartnäckig', en: 'persistent / stubborn' },
+      { de: 'der Mehrwegbecher (-)', en: 'reusable cup' },
+    ]
+  },
+  {
+    id: 'S134', num: '134', title: 'Die Fernbeziehung', titleEn: 'The Long-Distance Relationship', level: 'B1',
+    de: 'Seit einem Jahr führen Nora und Daniel eine Fernbeziehung. Sie lebt in Hamburg, er in Wien. Alle zwei Wochen besuchen sie sich abwechselnd. Dazwischen gibt es tägliche Videoanrufe, Sprachnachrichten und manchmal kleine Pakete. Das Schöne: Wenn sie sich sehen, ist es immer besonders. Das Schwere: Die Einsamkeit an langen Abenden, wenn man sich nach einer Umarmung sehnt. Sie reden offen über die Herausforderungen. Nach einem Jahr muss eine Entscheidung getroffen werden: Wer zieht um? Daniel bewirbt sich auf Jobs in Hamburg. Nora sucht Wohnungen für zwei. Es ist ein Kompromiss — aber einer, den sie gemeinsam treffen.',
+    en: 'For a year Nora and Daniel have been in a long-distance relationship. She lives in Hamburg, he in Vienna. Every two weeks they visit each other alternately. In between there are daily video calls, voice messages, and sometimes small parcels. The good thing: when they see each other, it is always special. The hard thing: the loneliness on long evenings when you long for a hug. They talk openly about the challenges. After a year a decision must be made: who moves? Daniel applies for jobs in Hamburg. Nora looks for flats for two. It is a compromise — but one they make together.',
+    vocab: [
+      { de: 'die Fernbeziehung (-en)', en: 'long-distance relationship' },
+      { de: 'abwechselnd', en: 'alternately / in turns' },
+      { de: 'sich sehnen nach', en: 'to long for' },
+      { de: 'der Kompromiss (-e)', en: 'compromise' },
+    ]
+  },
+  {
+    id: 'S135', num: '135', title: 'Der Umweltaktivist', titleEn: 'The Environmental Activist', level: 'B1',
+    de: 'Kai ist 19 und engagiert sich aktiv in einer Klimabewegung. Er klebt Plakate, organisiert Demonstrationen und schreibt Petitionen. Seine Eltern unterstützen ihn — zumindest teilweise. Sein Vater, der als LKW-Fahrer arbeitet, hört mit Unbehagen, wenn Kai von "fossilfreier Zukunft" spricht. "Was soll ich dann tun?", fragt er einmal. Die Frage bleibt im Raum. Kai merkt, dass Aktivismus nur funktioniert, wenn er auch die Menschen einschließt, die er scheinbar kritisiert. Er beginnt, komplexer zu denken: Was bedeutet gerechter Wandel? Wie schützt man Umwelt und Arbeitsplätze gleichzeitig? Er hat keine einfachen Antworten mehr. Aber er stellt die richtigen Fragen.',
+    en: 'Kai is 19 and actively involved in a climate movement. He puts up posters, organises demonstrations, and writes petitions. His parents support him — at least partially. His father, who works as a lorry driver, listens with unease when Kai talks about a "fossil-free future." "What should I do then?" he asks once. The question hangs in the air. Kai notices that activism only works if it also includes the people it seemingly criticises. He begins to think more complexly: what does just transition mean? How do you protect the environment and jobs at the same time? He no longer has simple answers. But he asks the right questions.',
+    vocab: [
+      { de: 'der Umweltaktivist (-en)', en: 'environmental activist' },
+      { de: 'das Unbehagen', en: 'unease / discomfort' },
+      { de: 'der gerechte Wandel', en: 'just transition' },
+      { de: 'einschließen', en: 'to include' },
+    ]
+  },
+  {
+    id: 'S136', num: '136', title: 'Die Erbschaft', titleEn: 'The Bequest', level: 'B1',
+    de: 'Als Onkel Herbert stirbt, erbt sein Neffe Jonas unerwartet 40.000 Euro. Jonas ist 26, lebt in einer WG und verdient wenig als freier Grafiker. Das Geld macht ihn unsicher. Er fragt Freunde um Rat. Die einen sagen: Investieren! Die anderen: Reisen! Sein Vater empfiehlt, es auf ein Tagesgeldkonto zu legen. Jonas denkt wochenlang nach. Er beschließt: 10.000 in einen ETF-Sparplan, 5.000 für eine Weiterbildung, 5.000 für eine Reise nach Asien, den Rest als Notgroschen. Er geht zur Bank und lässt sich beraten. Es fühlt sich gut an, durchdacht zu handeln — nicht impulsiv. Zum ersten Mal in seinem Leben hat er finanzielle Sicherheit.',
+    en: 'When Uncle Herbert dies, his nephew Jonas unexpectedly inherits €40,000. Jonas is 26, lives in a shared flat, and earns little as a freelance graphic designer. The money makes him uncertain. He asks friends for advice. Some say: invest! Others: travel! His father recommends putting it in an instant-access savings account. Jonas thinks for weeks. He decides: €10,000 in an ETF savings plan, €5,000 for further training, €5,000 for a trip to Asia, the rest as a nest egg. He goes to the bank and gets advice. It feels good to act thoughtfully — not impulsively. For the first time in his life he has financial security.',
+    vocab: [
+      { de: 'die Erbschaft (-en)', en: 'inheritance / bequest' },
+      { de: 'der Notgroschen (-)', en: 'nest egg / emergency fund' },
+      { de: 'der ETF-Sparplan (-pläne)', en: 'ETF savings plan' },
+      { de: 'durchdacht', en: 'well-considered / thought through' },
+    ]
+  },
+  {
+    id: 'S137', num: '137', title: 'Der Datenschutz', titleEn: 'Data Protection', level: 'B1',
+    de: 'Sophia bekommt eine E-Mail von ihrer Bank: Ihre Daten wurden bei einem Cyberangriff möglicherweise gestohlen. Sie soll sofort ihr Passwort ändern. Sophia ist beunruhigt. Sie liest den Text dreimal. Dann googelt sie die Absenderadresse — und stellt fest, dass es sich um eine Phishing-Mail handelt. Sie meldet die E-Mail und löscht sie. Trotzdem beginnt sie, mehr über Datenschutz nachzudenken. Sie ändert alle ihre Passwörter und verwendet ab sofort einen Passwortmanager. Sie liest die Datenschutzhinweise von Apps, bevor sie ihnen zustimmt — zum ersten Mal in ihrem Leben. Datenschutz war für sie bisher abstrakt. Jetzt ist er real.',
+    en: 'Sophia receives an email from her bank: her data may have been stolen in a cyber attack. She should immediately change her password. Sophia is alarmed. She reads the text three times. Then she googles the sender\'s address — and finds that it is a phishing email. She reports the email and deletes it. Nevertheless she begins to think more about data protection. She changes all her passwords and uses a password manager from now on. She reads the privacy notices of apps before agreeing to them — for the first time in her life. Data protection was previously abstract for her. Now it is real.',
+    vocab: [
+      { de: 'der Datenschutz', en: 'data protection' },
+      { de: 'der Cyberangriff (-e)', en: 'cyber attack' },
+      { de: 'das Phishing', en: 'phishing' },
+      { de: 'der Passwortmanager (-)', en: 'password manager' },
+    ]
+  },
+  {
+    id: 'S138', num: '138', title: 'Die Klassenreise', titleEn: 'The Class Trip', level: 'B1',
+    de: 'Die Klasse 10c fährt für fünf Tage nach Berlin. Für einige Schüler ist es das erste Mal in der Hauptstadt. Sie besuchen den Reichstag, das Holocaustdenkmal, die Berliner Mauer und das DDR-Museum. Im Museum stehen sie vor Alltagsgegenständen aus der DDR-Zeit — alten Fernseher, Pionierkleidung, Stasi-Akten. Manche finden es langweilig, manche sind fassungslos. Ihr Lehrer, Herr Bauer, lässt sie die Exponate still betrachten. Abends diskutieren sie im Hostel: Wie war das möglich? Konnte man wirklich nicht fliehen? Die Fragen sind ernst. Am letzten Tag kaufen sie Souvenirs am Brandenburger Tor. Die Geschichte ist nicht nur in Büchern.',
+    en: 'Class 10c travels to Berlin for five days. For some students it is the first time in the capital. They visit the Reichstag, the Holocaust Memorial, the Berlin Wall, and the DDR Museum. In the museum they stand before everyday objects from the GDR era — old televisions, Pioneer clothing, Stasi files. Some find it boring, some are stunned. Their teacher, Mr Bauer, lets them observe the exhibits in silence. In the evening they discuss in the hostel: how was that possible? Could you really not escape? The questions are serious. On the last day they buy souvenirs at the Brandenburg Gate. History is not only in books.',
+    vocab: [
+      { de: 'das Holocaustdenkmal (-e)', en: 'Holocaust memorial' },
+      { de: 'fassungslos', en: 'stunned / speechless' },
+      { de: 'das Exponat (-e)', en: 'exhibit' },
+      { de: 'die Stasi-Akte (-n)', en: 'Stasi file' },
+    ]
+  },
+  {
+    id: 'S139', num: '139', title: 'Der Pflegefall', titleEn: 'Needing Care', level: 'B1',
+    de: 'Als Vater Gerhard einen Schlaganfall bekommt, ändert sich alles. Er kann nicht mehr alleine leben. Seine Tochter Claudia übernimmt die Hauptverantwortung, obwohl sie selbst Vollzeit arbeitet und zwei Kinder hat. Sie organisiert eine Haushaltshilfe für morgens, bringt abends selbst das Essen und erledigt die Behördengänge. Ihr Bruder wohnt weit weg und hilft wenig. Das belastet sie. In einer Selbsthilfegruppe für pflegende Angehörige lernt sie: Sie muss auch auf sich achten. Sie beantragt einen Pflegeplatz im Seniorenheim. Der Vater ist zunächst dagegen. Dann sieht er, wie erschöpft Claudia ist, und stimmt zu. Manchmal ist Fürsorge auch das Loslassen.',
+    en: 'When father Gerhard has a stroke, everything changes. He can no longer live alone. His daughter Claudia takes on primary responsibility, even though she herself works full-time and has two children. She organises a household helper for the mornings, brings food herself in the evenings, and handles the administrative errands. Her brother lives far away and helps little. That burdens her. In a self-help group for caring relatives she learns: she must also look after herself. She applies for a care place in a nursing home. The father is initially against it. Then he sees how exhausted Claudia is, and agrees. Sometimes care also means letting go.',
+    vocab: [
+      { de: 'der Pflegefall (-fälle)', en: 'person needing care' },
+      { de: 'der Schlaganfall (-fälle)', en: 'stroke' },
+      { de: 'der pflegende Angehörige', en: 'caring relative' },
+      { de: 'die Fürsorge', en: 'care / welfare' },
+    ]
+  },
+  {
+    id: 'S140', num: '140', title: 'Die Sprache der Musik', titleEn: 'The Language of Music', level: 'B1',
+    de: 'Jonas spielt seit drei Jahren Klavier, aber er kann keine Noten lesen. Er lernt alles nach Gehör — YouTube-Videos, Nachahmung, Gefühl. Seine Lehrerin sagt, er habe Talent, aber ohne Theorie komme er irgendwann nicht weiter. Jonas widersetzt sich zunächst. Noten fühlen sich wie Mathematik an — kalt und mechanisch. Dann spielt er einmal Beethoven aus einer Partitur. Plötzlich versteht er, was Beethoven gedacht hat. Die Noten sind keine Einschränkung — sie sind eine Sprache. Er beginnt, Theorie zu lernen. Es macht ihm keinen Spaß, aber es öffnet Türen. Nach einem Jahr kann er selbst Kompositionen aufschreiben. Er nannte es früher Pflicht. Jetzt nennt er es Freiheit.',
+    en: 'Jonas has been playing piano for three years, but he cannot read sheet music. He learns everything by ear — YouTube videos, imitation, feeling. His teacher says he has talent, but without theory he will eventually hit a wall. Jonas initially resists. Sheet music feels like mathematics — cold and mechanical. Then he once plays Beethoven from a score. Suddenly he understands what Beethoven was thinking. The notes are not a restriction — they are a language. He begins to learn theory. He does not enjoy it, but it opens doors. After a year he can write down his own compositions. He used to call it duty. Now he calls it freedom.',
+    vocab: [
+      { de: 'die Partitur (-en)', en: 'musical score' },
+      { de: 'nach Gehör', en: 'by ear' },
+      { de: 'widersetzten (sich)', en: 'to resist / to oppose' },
+      { de: 'die Einschränkung (-en)', en: 'restriction / limitation' },
+    ]
+  },
+  {
+    id: 'S141', num: '141', title: 'Der Stadtrat', titleEn: 'The City Council', level: 'B1',
+    de: 'Ingrid ist 55 und arbeitet als Lehrerin. Eines Tages beschließt sie, sich politisch zu engagieren und kandidiert für den Stadtrat. Sie geht von Tür zu Tür, verteilt Flyer, spricht auf kleinen Versammlungen. Die Themen, die sie bewegen: Bildung, Radwege, bezahlbare Mieten. Viele Nachbarn hören ihr aufmerksam zu. Manche unterschreiben ihre Unterstützungsliste. Andere schließen die Tür. Der Wahlabend ist spannend. Sie bekommt 5,7 Prozent und zieht damit in den Stadtrat ein. Beim ersten Sitzungstag ist sie nervös, aber entschlossen. Es ist laut, bürokratisch, manchmal frustrierend. Aber sie kann mitentscheiden. Das war ihr Ziel.',
+    en: 'Ingrid is 55 and works as a teacher. One day she decides to get politically involved and stands for the city council. She goes door to door, distributes flyers, speaks at small meetings. The issues that move her: education, cycle paths, affordable rents. Many neighbours listen to her attentively. Some sign her supporters\' list. Others close the door. Election night is exciting. She receives 5.7 per cent and thereby enters the city council. On the first day of session she is nervous but determined. It is loud, bureaucratic, sometimes frustrating. But she can have a say. That was her goal.',
+    vocab: [
+      { de: 'der Stadtrat (-räte)', en: 'city council / councillor' },
+      { de: 'kandidieren', en: 'to stand (as a candidate)' },
+      { de: 'entschlossen', en: 'determined / resolute' },
+      { de: 'mitentscheiden', en: 'to have a say / to co-decide' },
+    ]
+  },
+  {
+    id: 'S142', num: '142', title: 'Das Vorurteil', titleEn: 'The Prejudice', level: 'B1',
+    de: 'Als Samuel in das neue Büro kommt, merkt er schnell: Manche Kollegen behandeln ihn anders. Er ist Schwarzer Deutscher, geboren in Hannover, aufgewachsen in Bremen. Trotzdem wird er oft gefragt: "Aber wo kommst du wirklich her?" Manchmal werden seine Beiträge in Meetings ignoriert — und kurz darauf von einem weißen Kollegen wiederholt und gelobt. Er spricht mit einem Freund darüber. Der rät ihm, es direkt anzusprechen. Samuel wählt das ruhige Gespräch: Er erklärt einer Kollegin, wie sich das anfühlt. Sie ist zuerst defensiv, dann nachdenklich. Vom nächsten Meeting an läuft es besser. Nicht perfekt — aber bewusster. Wandel beginnt in kleinen Gesprächen.',
+    en: 'When Samuel comes to the new office, he quickly notices: some colleagues treat him differently. He is a Black German, born in Hanover, grown up in Bremen. Nevertheless he is often asked: "But where are you really from?" Sometimes his contributions in meetings are ignored — and shortly afterwards repeated and praised by a white colleague. He talks to a friend about it. The friend advises him to address it directly. Samuel chooses the calm conversation: he explains to a colleague how it feels. She is initially defensive, then thoughtful. From the next meeting onward it goes better. Not perfect — but more conscious. Change begins in small conversations.',
+    vocab: [
+      { de: 'das Vorurteil (-e)', en: 'prejudice' },
+      { de: 'defensiv', en: 'defensive' },
+      { de: 'nachdenklich', en: 'thoughtful / pensive' },
+      { de: 'bewusst', en: 'conscious / aware' },
+    ]
+  },
+  {
+    id: 'S143', num: '143', title: 'Die Selbstständigkeit', titleEn: 'Self-Employment', level: 'B1',
+    de: 'Miriam hat jahrelang als Buchdesignerin angestellt gearbeitet. Dann kündigt sie und macht sich selbstständig. Der erste Monat ist aufregend — sie richtet ihr Homeoffice ein, erstellt eine Website und schreibt ihr erstes Angebot. Im zweiten Monat kommen wenige Aufträge. Im dritten kommt ein Auftrag, aber der Kunde zahlt spät. Miriam lernt, was niemand im Studium lehrt: Rechnungen schreiben, Steuer vorauszahlen, Kunden anmahnen, Durststrecken aushalten. Sie überlegt kurz, zurückzugehen. Dann sagt eine zufriedene Kundin: "Ihr Design hat mein Buch verändert." Das reicht. Miriam bleibt selbstständig. Es ist keine einfache Entscheidung — es ist die richtige.',
+    en: 'Miriam has worked for years as a book designer in employment. Then she resigns and becomes self-employed. The first month is exciting — she sets up her home office, creates a website, and writes her first quote. In the second month few orders come in. In the third a commission comes in, but the client pays late. Miriam learns what nobody teaches at university: writing invoices, paying tax in advance, chasing clients, enduring lean periods. She briefly considers going back. Then a satisfied client says: "Your design transformed my book." That is enough. Miriam stays self-employed. It is not an easy decision — it is the right one.',
+    vocab: [
+      { de: 'die Selbstständigkeit', en: 'self-employment' },
+      { de: 'kündigen', en: 'to resign / to terminate' },
+      { de: 'die Durststrecke (-n)', en: 'lean period / dry spell' },
+      { de: 'anmahnen', en: 'to send a reminder / to chase' },
+    ]
+  },
+  {
+    id: 'S144', num: '144', title: 'Die Diskussion', titleEn: 'The Discussion', level: 'B1',
+    de: 'In einem Literaturseminar liest die Gruppe den Roman "Der Vorleser" von Bernhard Schlink. Die Diskussion wird heiß. Eine Studentin findet es problematisch, dass Hanna — die Täterin — so menschlich und sympathisch dargestellt wird. Ein anderer meint, genau das sei der Punkt: Man soll verstehen, wie normale Menschen Böses tun können. Eine dritte Studentin sagt: "Verständnis ist keine Entschuldigung." Der Professor hört zu und leitet. Er stellt Fragen, antwortet wenig. Am Ende haben sie keine Einigkeit erreicht — aber alle denken tiefer als vorher. Das, sagt der Professor, sei das Ziel guter Literatur.',
+    en: 'In a literature seminar the group reads the novel "The Reader" by Bernhard Schlink. The discussion gets heated. A student finds it problematic that Hanna — the perpetrator — is portrayed as so human and sympathetic. Another believes that is precisely the point: one should understand how ordinary people can do evil. A third student says: "Understanding is not an excuse." The professor listens and facilitates. He asks questions, answers little. In the end they have not reached agreement — but everyone thinks more deeply than before. That, says the professor, is the goal of good literature.',
+    vocab: [
+      { de: 'die Täterin (-nen)', en: 'female perpetrator' },
+      { de: 'sympathisch', en: 'sympathetic / likeable' },
+      { de: 'die Entschuldigung (-en)', en: 'excuse / apology' },
+      { de: 'leiten', en: 'to lead / to facilitate' },
+    ]
+  },
+  {
+    id: 'S145', num: '145', title: 'Die Ausstellung', titleEn: 'The Exhibition', level: 'B1',
+    de: 'Im Stadtmuseum gibt es eine neue Ausstellung über Migration — Geschichten von Menschen, die in die Stadt gekommen sind. Die Ausstellung zeigt Fotos, Dokumente, persönliche Gegenstände: ein zerrissenes Wörterbuch, ein Foto einer zurückgelassenen Familie, ein Behälter mit Erde aus der Heimat. Viele Besucher sind berührt. Eine alte Frau weint vor einem Bild. Ein Schulkind fragt laut: "Warum haben die alles verlassen?" Kein Erwachsener antwortet sofort. Dann erklärt eine junge Frau ruhig: "Manchmal ist Gehen die einzige Möglichkeit, zu überleben." Die Ausstellung regt zum Nachdenken an. Manche kommen zweimal.',
+    en: 'In the city museum there is a new exhibition about migration — stories of people who have come to the city. The exhibition shows photos, documents, personal objects: a torn dictionary, a photo of a family left behind, a container with soil from home. Many visitors are moved. An old woman cries in front of a picture. A schoolchild asks loudly: "Why did they leave everything?" No adult answers immediately. Then a young woman explains calmly: "Sometimes leaving is the only way to survive." The exhibition prompts reflection. Some people come twice.',
+    vocab: [
+      { de: 'die Ausstellung (-en)', en: 'exhibition' },
+      { de: 'zerissen', en: 'torn' },
+      { de: 'zurücklassen', en: 'to leave behind' },
+      { de: 'zum Nachdenken anregen', en: 'to prompt reflection' },
+    ]
+  },
+  {
+    id: 'S146', num: '146', title: 'Das freiwillige Jahr', titleEn: 'The Voluntary Year', level: 'B1',
+    de: 'Nach dem Abitur entscheidet sich Lucia für ein Freiwilliges Soziales Jahr in einer Kindertagesstätte. Sie wollte zuerst direkt studieren, aber ein Freiwilligendienst klingt interessant. In der Kita betreut sie Kinder zwischen zwei und sechs Jahren. Es ist körperlich anstrengend und emotional fordernd. Aber sie liebt es. Sie entwickelt Geduld, die sie vorher nicht hatte. Sie lernt, Konflikte zwischen Kindern zu moderieren. Sie lernt, dass Kleinigkeiten für Kinder keine Kleinigkeiten sind. Am Ende des Jahres ist sie sicherer: Sie will Grundschullehrerin werden. Ohne das FSJ wäre sie vielleicht nie darauf gekommen.',
+    en: 'After her school-leaving exam, Lucia decides to do a Voluntary Social Year at a nursery. She initially wanted to start studying straight away, but a volunteer service sounds interesting. At the nursery she looks after children between two and six years old. It is physically tiring and emotionally demanding. But she loves it. She develops patience she did not have before. She learns to mediate conflicts between children. She learns that small things are not small things for children. At the end of the year she is more certain: she wants to become a primary school teacher. Without the FSJ she might never have thought of it.',
+    vocab: [
+      { de: 'das Freiwillige Soziale Jahr (FSJ)', en: 'Voluntary Social Year' },
+      { de: 'die Kindertagesstätte (-n) / Kita', en: 'nursery / day-care centre' },
+      { de: 'fordernd', en: 'demanding / challenging' },
+      { de: 'moderieren', en: 'to moderate / to facilitate' },
+    ]
+  },
+  {
+    id: 'S147', num: '147', title: 'Der Dokumentarfilm', titleEn: 'The Documentary', level: 'B1',
+    de: 'Jonas ist Filmstudent und dreht seinen ersten Dokumentarfilm — über ältere Menschen und Einsamkeit. Er befragt zehn Menschen über 75 in Seniorenheimen und in Privatwohnungen. Manche erzählen offen, manche schweigen lange. Herr Richter, 82, sagt: "Ich habe seit drei Wochen kein Gespräch mehr geführt, das länger als fünf Minuten dauerte." Jonas ist betroffen. Er verbringt viele Stunden im Schnittplatz. Er sucht nach dem richtigen Rhythmus, der richtigen Bildfolge. Als der Film fertig ist, zeigt er ihn in einem kleinen Kino. Das Publikum ist still. Hinterher gibt es viele Fragen. Jonas merkt: Ein Film kann bewegen, was Zahlen nicht können.',
+    en: 'Jonas is a film student and is shooting his first documentary — about older people and loneliness. He interviews ten people over 75 in nursing homes and in private flats. Some speak openly, some are silent for a long time. Mr Richter, 82, says: "I have not had a conversation lasting more than five minutes for three weeks." Jonas is affected. He spends many hours at the editing desk. He searches for the right rhythm, the right sequence of images. When the film is finished, he shows it in a small cinema. The audience is silent. Afterwards there are many questions. Jonas notices: a film can move what numbers cannot.',
+    vocab: [
+      { de: 'der Dokumentarfilm (-e)', en: 'documentary film' },
+      { de: 'der Schnittplatz (-plätze)', en: 'editing desk' },
+      { de: 'betroffen', en: 'affected / struck' },
+      { de: 'die Bildfolge (-n)', en: 'sequence of images' },
+    ]
+  },
+  {
+    id: 'S148', num: '148', title: 'Die Weiterbildung', titleEn: 'Further Training', level: 'B1',
+    de: 'Sandra ist 38 und hat gerade ihren Abschluss als zertifizierte Projektmanagerin gemacht. Das Studium hat sie neben der Arbeit absolviert — abends und am Wochenende, über zwei Jahre. Es war nicht einfach. Manchmal war sie so müde, dass sie beim Lesen einschlief. Aber sie biss sich durch. Heute steht sie bei der Abschlussfeier mit ihrem Zertifikat und denkt: Das habe ich mir selbst bewiesen. Ihr Chef hat ihr schon eine neue Stelle angeboten. Ihr Gehalt steigt um 15 Prozent. Aber das Wichtigste ist etwas anderes: Sie weiß jetzt, dass sie Dinge schaffen kann, die sie früher für unmöglich gehalten hätte.',
+    en: 'Sandra is 38 and has just passed her exam as a certified project manager. She completed the training alongside work — in the evenings and at weekends, over two years. It was not easy. Sometimes she was so tired that she fell asleep while reading. But she pushed through. Today she stands at the graduation ceremony with her certificate and thinks: I proved this to myself. Her boss has already offered her a new position. Her salary rises by 15 per cent. But the most important thing is something else: she now knows that she can achieve things she previously thought impossible.',
+    vocab: [
+      { de: 'die Weiterbildung (-en)', en: 'further training / continuing education' },
+      { de: 'zertifiziert', en: 'certified' },
+      { de: 'durchbeißen (sich)', en: 'to push through / persevere' },
+      { de: 'beweisen', en: 'to prove' },
+    ]
+  },
+  {
+    id: 'S149', num: '149', title: 'Die Barrieren abbauen', titleEn: 'Breaking Down Barriers', level: 'B1',
+    de: 'Lisa sitzt seit einem Unfall im Rollstuhl. Sie ist 30 und arbeitet als IT-Entwicklerin. In ihrer Stadt kämpft sie für Barrierefreiheit. Das Bürogebäude hat keinen Fahrstuhl. Das Restaurant, in das sie gerne geht, hat eine Stufe am Eingang. Der Supermarkt hat enge Gänge. Lisa dokumentiert alles und schickt Beschwerden an Behörden. Manche reagieren schnell, manche gar nicht. Sie findet andere Aktivisten und gründet eine Initiative. Sie spricht auf Stadtratssitzungen, gibt Interviews. Langsam ändert sich etwas. Das Restaurant baut eine Rampe. Das Büro bekommt einen Lift. Lisa weiß: Barrierefreiheit ist kein Luxus. Sie ist ein Menschenrecht.',
+    en: 'Lisa has been in a wheelchair since an accident. She is 30 and works as an IT developer. In her city she fights for accessibility. The office building has no lift. The restaurant she likes to go to has a step at the entrance. The supermarket has narrow aisles. Lisa documents everything and sends complaints to authorities. Some respond quickly, some not at all. She finds other activists and founds an initiative. She speaks at city council meetings, gives interviews. Slowly something changes. The restaurant builds a ramp. The office gets a lift. Lisa knows: accessibility is not a luxury. It is a human right.',
+    vocab: [
+      { de: 'die Barrierefreiheit', en: 'accessibility / barrier-free access' },
+      { de: 'der Rollstuhl (-stühle)', en: 'wheelchair' },
+      { de: 'die Initiative (-n)', en: 'initiative' },
+      { de: 'das Menschenrecht (-e)', en: 'human right' },
+    ]
+  },
+  {
+    id: 'S150', num: '150', title: 'Der Brief aus der Vergangenheit', titleEn: 'The Letter from the Past', level: 'B1',
+    de: 'Beim Ausräumen des Elternhauses findet Tobias einen alten Briefumschlag hinter dem Bücherregal. Der Absender ist unbekannt. Der Brief ist auf Polnisch geschrieben — eine Sprache, die Tobias nicht spricht. Er weiß, dass sein Großvater aus Polen stammte, aber nie darüber gesprochen hat. Er lässt den Brief von einer Dolmetscherin übersetzen. Es ist ein Brief einer Frau an seinen Großvater — voller Sehnsucht, voller unausgesprochener Liebe. Datiert 1952. Tobias weiß nicht, ob sein Großvater je geantwortet hat. Er hält den Brief lange in den Händen. Manche Geschichten bleiben für immer offen.',
+    en: 'While clearing out the parental home, Tobias finds an old envelope behind the bookshelf. The sender is unknown. The letter is written in Polish — a language Tobias does not speak. He knows that his grandfather came from Poland but never talked about it. He has the letter translated by an interpreter. It is a letter from a woman to his grandfather — full of longing, full of unspoken love. Dated 1952. Tobias does not know whether his grandfather ever replied. He holds the letter in his hands for a long time. Some stories remain open forever.',
+    vocab: [
+      { de: 'der Briefumschlag (-schläge)', en: 'envelope' },
+      { de: 'die Dolmetscherin (-nen)', en: 'interpreter (female)' },
+      { de: 'die Sehnsucht (-süchte)', en: 'longing / yearning' },
+      { de: 'unausgesprochen', en: 'unspoken' },
+    ]
+  },
+];
+
+fs.writeFileSync(OUT, JSON.stringify(stories, null, 2), 'utf8');
+console.log(`✅ Saved ${stories.length} B1 stories (part 1) to ${OUT}`);

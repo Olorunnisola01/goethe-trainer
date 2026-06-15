@@ -1,0 +1,55 @@
+﻿
+> goethe-trainer@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 10.9s
+  Running TypeScript ...
+  Finished TypeScript in 18.4s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/31) ...
+  Generating static pages using 7 workers (7/31) 
+  Generating static pages using 7 workers (15/31) 
+  Generating static pages using 7 workers (23/31) 
+Γ£ô Generating static pages using 7 workers (31/31) in 1854ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /favoriten
+Γö£ Γùï /fortschritt
+Γö£ Γùï /grammatik
+Γö£ Γùï /home
+Γö£ Γùï /konjugation
+Γö£ Γùï /lernplan
+Γö£ Γùï /pruefungsinfo
+Γö£ ΓùÅ /redemittel/[level]
+Γöé Γö£ /redemittel/A1
+Γöé Γö£ /redemittel/A2
+Γöé Γö£ /redemittel/B1
+Γöé Γöö /redemittel/B2
+Γö£ Γùï /ueben/geschichten
+Γö£ Γùï /ueben/grammatik-quiz
+Γö£ Γùï /ueben/hoeren
+Γö£ Γùï /ueben/karteikarten
+Γö£ Γùï /ueben/konversation
+Γö£ Γùï /ueben/lesen
+Γö£ Γùï /ueben/quiz
+Γö£ Γùï /ueben/redemittel-quiz
+Γö£ Γùï /ueben/satzstellung
+Γö£ Γùï /ueben/schreiben
+Γö£ Γùï /ueben/sprechen
+Γö£ Γùï /ueben/verb-quiz
+Γöö ΓùÅ /vocab/[level]
+  Γö£ /vocab/A1
+  Γö£ /vocab/A2
+  Γö£ /vocab/B1
+  Γöö /vocab/B2
+
+
+Γùï  (Static)  prerendered as static content
+ΓùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

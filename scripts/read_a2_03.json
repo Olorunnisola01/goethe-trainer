@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A2_R36", "level": "A2", "type": "E-Mail", "title": "Bestätigung der Urlaubsbuchung",
+    "text": "Betreff: Ihre Urlaubsbuchung\n\nSehr geehrte Familie Wagner,\n\nwir bestätigen Ihre Reise nach Mallorca. Hier die Details:\n\nFlug: 3. August, 7:00 Uhr ab Frankfurt\nHotel: Sol y Mar, 7 Nächte, Halbpension\nRückflug: 10. August, 18:00 Uhr\n\nDer Gesamtpreis beträgt 1.450 Euro. Bitte zahlen Sie bis zum 1. Juli. Die Flugtickets schicken wir Ihnen eine Woche vor Abflug.\n\nSchöne Ferien wünscht Ihr Reisebüro Sonne",
+    "questions": [
+      { "type": "MCQ", "q": "Wohin fährt Familie Wagner?", "opts": ["Nach Mallorca", "Nach Italien", "Nach Griechenland"], "a": 0, "exp": "„Ihre Reise nach Mallorca“." },
+      { "type": "MCQ", "q": "Wie viele Nächte bleiben sie im Hotel?", "opts": ["3", "7", "10"], "a": 1, "exp": "„7 Nächte, Halbpension“." },
+      { "type": "TF", "q": "Der Gesamtpreis beträgt 1.450 Euro.", "a": true, "exp": "„Der Gesamtpreis beträgt 1.450 Euro.“" },
+      { "type": "TF", "q": "Sie müssen bis zum 3. August zahlen.", "a": false, "exp": "„Bitte zahlen Sie bis zum 1. Juli.“" },
+      { "type": "MCQ", "q": "Wann bekommt die Familie die Flugtickets?", "opts": ["Eine Woche vor Abflug", "Heute", "Am Flughafen"], "a": 0, "exp": "„Die Flugtickets schicken wir Ihnen eine Woche vor Abflug.“" }
+    ]
+  },
+  {
+    "id": "A2_R37", "level": "A2", "type": "Anzeige", "title": "Ein Intensiv-Deutschkurs",
+    "text": "INTENSIV-DEUTSCHKURS B1\n\n📅 4 Wochen, Montag bis Freitag, 9 – 13 Uhr\n👥 Kleine Gruppen (max. 8 Personen)\n📝 Mit Prüfungsvorbereitung\n💶 Preis: 480 Euro\n🎓 Lehrer mit langer Erfahrung\n\nDer Kurs ist perfekt, wenn Sie schnell Fortschritte machen möchten. Anmeldung online bis zum 20. des Monats.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie lange dauert der Kurs?", "opts": ["2 Wochen", "4 Wochen", "8 Wochen"], "a": 1, "exp": "„4 Wochen, Montag bis Freitag“." },
+      { "type": "MCQ", "q": "Wie viele Personen sind maximal in der Gruppe?", "opts": ["8", "10", "20"], "a": 0, "exp": "„max. 8 Personen“." },
+      { "type": "TF", "q": "Der Kurs bereitet auf eine Prüfung vor.", "a": true, "exp": "„Mit Prüfungsvorbereitung“." },
+      { "type": "MCQ", "q": "Was kostet der Kurs?", "opts": ["280 Euro", "480 Euro", "880 Euro"], "a": 1, "exp": "„Preis: 480 Euro“." },
+      { "type": "TF", "q": "Der Kurs findet am Wochenende statt.", "a": false, "exp": "„Montag bis Freitag, 9 – 13 Uhr“." }
+    ]
+  },
+  {
+    "id": "A2_R38", "level": "A2", "type": "Blogeintrag", "title": "Mein erster Arbeitstag",
+    "text": "BLOG: Mein erster Arbeitstag\n\nGestern war mein erster Tag im neuen Büro. Ehrlich gesagt war ich sehr nervös. Ich bin viel zu früh aufgestanden und habe dreimal die Adresse kontrolliert.\n\nIm Büro waren alle freundlich. Eine Kollegin hat mir den Computer und die Kaffeemaschine gezeigt. Am Anfang habe ich viele Namen vergessen — das war mir peinlich. Aber am Ende des Tages fühlte ich mich schon viel wohler. Ich glaube, das wird ein guter Job!",
+    "questions": [
+      { "type": "TF", "q": "Der Autor war am ersten Tag nervös.", "a": true, "exp": "„war ich sehr nervös“." },
+      { "type": "MCQ", "q": "Was hat der Autor dreimal kontrolliert?", "opts": ["Die Adresse", "Den Computer", "Die Uhr"], "a": 0, "exp": "„habe dreimal die Adresse kontrolliert“." },
+      { "type": "MCQ", "q": "Was hat die Kollegin gezeigt?", "opts": ["Den Computer und die Kaffeemaschine", "Die Stadt", "Das Restaurant"], "a": 0, "exp": "„hat mir den Computer und die Kaffeemaschine gezeigt“." },
+      { "type": "TF", "q": "Der Autor hat sich alle Namen sofort gemerkt.", "a": false, "exp": "„habe ich viele Namen vergessen“." },
+      { "type": "TF", "q": "Am Ende fühlte sich der Autor wohler.", "a": true, "exp": "„am Ende des Tages fühlte ich mich schon viel wohler“." }
+    ]
+  },
+  {
+    "id": "A2_R39", "level": "A2", "type": "Forum", "title": "Tipps zum Geld sparen",
+    "text": "FORUM: Tipps zum Geld sparen\n\nFrage von Student_Tim: Ich bin Student und habe oft am Monatsende kein Geld mehr. Habt ihr Spartipps?\n\nAntwort von SparFuchs: Klar! Koch selbst, statt essen zu gehen — das spart viel. Schreib alle Ausgaben auf, dann siehst du, wohin dein Geld geht. Kauf gebrauchte Bücher und nutze die Bibliothek. Und: Mach einen festen Plan, wie viel du pro Woche ausgibst.",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist Tims Problem?", "opts": ["Er hat am Monatsende kein Geld", "Er hat keine Wohnung", "Er kann nicht kochen"], "a": 0, "exp": "„habe oft am Monatsende kein Geld mehr“." },
+      { "type": "MCQ", "q": "Was empfiehlt SparFuchs zum Essen?", "opts": ["Selbst kochen", "Immer essen gehen", "Nichts essen"], "a": 0, "exp": "„Koch selbst, statt essen zu gehen“." },
+      { "type": "TF", "q": "SparFuchs empfiehlt, alle Ausgaben aufzuschreiben.", "a": true, "exp": "„Schreib alle Ausgaben auf“." },
+      { "type": "TF", "q": "SparFuchs sagt, man soll neue Bücher kaufen.", "a": false, "exp": "„Kauf gebrauchte Bücher und nutze die Bibliothek.“" },
+      { "type": "MCQ", "q": "Was soll Tim noch machen?", "opts": ["Einen festen Ausgabenplan machen", "Mehr arbeiten", "Umziehen"], "a": 0, "exp": "„Mach einen festen Plan, wie viel du pro Woche ausgibst.“" }
+    ]
+  },
+  {
+    "id": "A2_R40", "level": "A2", "type": "Zeitungsartikel", "title": "Neuer Spielplatz eröffnet",
+    "text": "NEUER SPIELPLATZ ERÖFFNET\n\nIm Stadtteil Nord gibt es einen neuen Spielplatz. Am Samstag wurde er feierlich eröffnet. Es gibt eine große Rutsche, Schaukeln, einen Sandkasten und sogar eine kleine Kletterwand.\n\nViele Familien waren bei der Eröffnung dabei. „Endlich haben unsere Kinder einen sicheren Ort zum Spielen“, freute sich eine Mutter. Der Spielplatz war ein Wunsch vieler Eltern. Die Stadt plant für nächstes Jahr noch mehr Bänke und Bäume.",
+    "questions": [
+      { "type": "MCQ", "q": "Was wurde am Samstag eröffnet?", "opts": ["Ein neuer Spielplatz", "Eine Schule", "Ein Schwimmbad"], "a": 0, "exp": "Ein neuer Spielplatz wurde „feierlich eröffnet“." },
+      { "type": "TF", "q": "Auf dem Spielplatz gibt es eine Kletterwand.", "a": true, "exp": "„sogar eine kleine Kletterwand“." },
+      { "type": "MCQ", "q": "Wer war bei der Eröffnung dabei?", "opts": ["Viele Familien", "Nur der Bürgermeister", "Niemand"], "a": 0, "exp": "„Viele Familien waren bei der Eröffnung dabei.“" },
+      { "type": "TF", "q": "Der Spielplatz war ein Wunsch vieler Eltern.", "a": true, "exp": "„Der Spielplatz war ein Wunsch vieler Eltern.“" },
+      { "type": "MCQ", "q": "Was plant die Stadt für nächstes Jahr?", "opts": ["Mehr Bänke und Bäume", "Ein Parkhaus", "Eine Brücke"], "a": 0, "exp": "„noch mehr Bänke und Bäume“." }
+    ]
+  },
+  {
+    "id": "A2_R41", "level": "A2", "type": "Bericht", "title": "Mein erster Spendenlauf",
+    "text": "BERICHT: Mein erster Spendenlauf\n\nLetzten Sonntag habe ich an einem Spendenlauf teilgenommen. Das Geld geht an ein Kinderkrankenhaus. Ich bin 5 Kilometer gelaufen — für mich war das viel!\n\nDas Wetter war perfekt, und überall standen Menschen, die uns angefeuert haben. Bei Kilometer 4 war ich sehr müde, aber ich habe nicht aufgegeben. Im Ziel gab es Wasser und Obst für alle. Ich war stolz, dass ich etwas Gutes getan habe. Nächstes Jahr laufe ich wieder mit!",
+    "questions": [
+      { "type": "MCQ", "q": "Wofür war der Spendenlauf?", "opts": ["Für ein Kinderkrankenhaus", "Für eine Schule", "Für ein Tierheim"], "a": 0, "exp": "„Das Geld geht an ein Kinderkrankenhaus.“" },
+      { "type": "MCQ", "q": "Wie weit ist der Autor gelaufen?", "opts": ["3 Kilometer", "5 Kilometer", "10 Kilometer"], "a": 1, "exp": "„Ich bin 5 Kilometer gelaufen“." },
+      { "type": "TF", "q": "Bei Kilometer 4 hat der Autor aufgegeben.", "a": false, "exp": "„aber ich habe nicht aufgegeben“." },
+      { "type": "TF", "q": "Im Ziel gab es Wasser und Obst.", "a": true, "exp": "„Im Ziel gab es Wasser und Obst für alle.“" },
+      { "type": "MCQ", "q": "Was möchte der Autor nächstes Jahr tun?", "opts": ["Wieder mitlaufen", "Nur zuschauen", "Nichts"], "a": 0, "exp": "„Nächstes Jahr laufe ich wieder mit!“" }
+    ]
+  },
+  {
+    "id": "A2_R42", "level": "A2", "type": "E-Mail", "title": "Zusammen Mittagessen?",
+    "text": "Betreff: Mittagessen?\n\nHallo Markus,\n\nhast du heute Mittag Zeit? Ich möchte gern mit dir essen gehen. Es gibt ein neues italienisches Restaurant gleich um die Ecke. Die Pizza dort soll sehr gut sein.\n\nTreffen wir uns um 12:30 Uhr am Eingang? Wenn du keine Zeit hast, ist das auch kein Problem. Sag einfach Bescheid.\n\nViele Grüße\nAnja",
+    "questions": [
+      { "type": "MCQ", "q": "Was möchte Anja machen?", "opts": ["Mit Markus essen gehen", "Ein Meeting halten", "Einen Kaffee kochen"], "a": 0, "exp": "„Ich möchte gern mit dir essen gehen.“" },
+      { "type": "MCQ", "q": "Was für ein Restaurant ist es?", "opts": ["Ein italienisches", "Ein chinesisches", "Ein deutsches"], "a": 0, "exp": "„ein neues italienisches Restaurant“." },
+      { "type": "TF", "q": "Sie sollen sich um 12:30 Uhr treffen.", "a": true, "exp": "„Treffen wir uns um 12:30 Uhr am Eingang?“" },
+      { "type": "TF", "q": "Markus muss unbedingt mitkommen.", "a": false, "exp": "„Wenn du keine Zeit hast, ist das auch kein Problem.“" },
+      { "type": "MCQ", "q": "Was soll besonders gut sein?", "opts": ["Die Pizza", "Der Salat", "Der Kaffee"], "a": 0, "exp": "„Die Pizza dort soll sehr gut sein.“" }
+    ]
+  },
+  {
+    "id": "A2_R43", "level": "A2", "type": "Anzeige", "title": "Neue Kurse der Volkshochschule",
+    "text": "VOLKSHOCHSCHULE — NEUE KURSE\n\n• Spanisch für Anfänger — Mo, 18 Uhr — 90 €\n• Yoga für den Rücken — Di, 19 Uhr — 75 €\n• Fotografie-Workshop — Sa, 10 Uhr — 60 €\n• Kochen: Italienische Küche — Mi, 18:30 Uhr — 110 €\n\nAlle Kurse beginnen im September. Anmeldung im Sekretariat oder online. Für Studenten gibt es 20 % Rabatt!",
+    "questions": [
+      { "type": "MCQ", "q": "Wann ist der Yoga-Kurs?", "opts": ["Montag", "Dienstag", "Samstag"], "a": 1, "exp": "„Yoga für den Rücken — Di, 19 Uhr“." },
+      { "type": "MCQ", "q": "Was kostet der Kochkurs?", "opts": ["60 €", "90 €", "110 €"], "a": 2, "exp": "„Kochen: Italienische Küche ... 110 €“." },
+      { "type": "TF", "q": "Alle Kurse beginnen im September.", "a": true, "exp": "„Alle Kurse beginnen im September.“" },
+      { "type": "TF", "q": "Studenten zahlen den vollen Preis.", "a": false, "exp": "„Für Studenten gibt es 20 % Rabatt!“" },
+      { "type": "MCQ", "q": "Welcher Kurs ist am Samstag?", "opts": ["Der Fotografie-Workshop", "Der Spanischkurs", "Der Kochkurs"], "a": 0, "exp": "„Fotografie-Workshop — Sa, 10 Uhr“." }
+    ]
+  },
+  {
+    "id": "A2_R44", "level": "A2", "type": "Brief", "title": "Danke an die Nachbarn",
+    "text": "Liebe Familie Schmidt,\n\nvielen Dank für Ihre Hilfe letzte Woche! Als unser Auto kaputt war, haben Sie uns zum Arzt gefahren. Das war wirklich sehr nett von Ihnen.\n\nAls kleines Dankeschön haben wir einen Kuchen gebacken. Wir stellen ihn heute Abend vor Ihre Tür. Wir sind froh, so gute Nachbarn zu haben!\n\nHerzliche Grüße\nFamilie Özdemir",
+    "questions": [
+      { "type": "MCQ", "q": "Wofür bedankt sich Familie Özdemir?", "opts": ["Für die Hilfe letzte Woche", "Für ein Geschenk", "Für eine Einladung"], "a": 0, "exp": "„vielen Dank für Ihre Hilfe letzte Woche!“" },
+      { "type": "MCQ", "q": "Was hat Familie Schmidt gemacht?", "opts": ["Sie zum Arzt gefahren", "Ihr Auto repariert", "Für sie eingekauft"], "a": 0, "exp": "„haben Sie uns zum Arzt gefahren“." },
+      { "type": "TF", "q": "Als Dankeschön haben sie einen Kuchen gebacken.", "a": true, "exp": "„haben wir einen Kuchen gebacken“." },
+      { "type": "MCQ", "q": "Wann bringen sie den Kuchen?", "opts": ["Heute Abend", "Morgen früh", "Nächste Woche"], "a": 0, "exp": "„Wir stellen ihn heute Abend vor Ihre Tür.“" },
+      { "type": "TF", "q": "Familie Özdemir ist unzufrieden mit den Nachbarn.", "a": false, "exp": "„Wir sind froh, so gute Nachbarn zu haben!“" }
+    ]
+  },
+  {
+    "id": "A2_R45", "level": "A2", "type": "FAQ", "title": "Fragen zur Ticket-App",
+    "text": "FAQ — UNSERE TICKET-APP\n\nWie kaufe ich ein Ticket?\nÖffnen Sie die App, wählen Sie Ihre Strecke und bezahlen Sie mit Karte oder Handy.\n\nMuss ich das Ticket ausdrucken?\nNein! Zeigen Sie es einfach auf dem Handy vor.\n\nWas mache ich, wenn mein Handy leer ist?\nBitte laden Sie es vorher. Ohne gültiges Ticket müssen Sie eine Strafe zahlen.\n\nKann ich ein Monatsticket kaufen?\nJa, das ist günstiger als Einzeltickets.",
+    "questions": [
+      { "type": "MCQ", "q": "Wie bezahlt man in der App?", "opts": ["Mit Karte oder Handy", "Nur mit Bargeld", "Gar nicht"], "a": 0, "exp": "„bezahlen Sie mit Karte oder Handy“." },
+      { "type": "TF", "q": "Man muss das Ticket ausdrucken.", "a": false, "exp": "„Nein! Zeigen Sie es einfach auf dem Handy vor.“" },
+      { "type": "MCQ", "q": "Was passiert ohne gültiges Ticket?", "opts": ["Man muss eine Strafe zahlen", "Nichts", "Man bekommt Geld"], "a": 0, "exp": "„Ohne gültiges Ticket müssen Sie eine Strafe zahlen.“" },
+      { "type": "TF", "q": "Ein Monatsticket ist günstiger als Einzeltickets.", "a": true, "exp": "„Ja, das ist günstiger als Einzeltickets.“" },
+      { "type": "MCQ", "q": "Was soll man tun, wenn das Handy leer ist?", "opts": ["Es vorher laden", "Ohne Ticket fahren", "Zu Hause bleiben"], "a": 0, "exp": "„Bitte laden Sie es vorher.“" }
+    ]
+  },
+  {
+    "id": "A2_R46", "level": "A2", "type": "Interview", "title": "Interview mit einer jungen Schwimmerin",
+    "text": "INTERVIEW mit der Schwimmerin Lea (15)\n\nReporter: Lea, wie oft trainierst du?\nLea: Sechsmal pro Woche, immer früh am Morgen vor der Schule.\nReporter: Ist das nicht schwer?\nLea: Doch, manchmal bin ich müde. Aber ich liebe das Schwimmen.\nReporter: Was ist dein Ziel?\nLea: Ich möchte eines Tages an den Olympischen Spielen teilnehmen.\nReporter: Das wünschen wir dir!",
+    "questions": [
+      { "type": "MCQ", "q": "Wie oft trainiert Lea pro Woche?", "opts": ["Dreimal", "Sechsmal", "Jeden Tag zweimal"], "a": 1, "exp": "„Sechsmal pro Woche“." },
+      { "type": "MCQ", "q": "Wann trainiert Lea?", "opts": ["Früh am Morgen", "Am Nachmittag", "Am Abend"], "a": 0, "exp": "„immer früh am Morgen vor der Schule“." },
+      { "type": "TF", "q": "Lea ist manchmal müde.", "a": true, "exp": "„manchmal bin ich müde“." },
+      { "type": "TF", "q": "Lea mag das Schwimmen nicht.", "a": false, "exp": "„Aber ich liebe das Schwimmen.“" },
+      { "type": "MCQ", "q": "Was ist Leas Ziel?", "opts": ["An den Olympischen Spielen teilnehmen", "Lehrerin werden", "Aufhören"], "a": 0, "exp": "„Ich möchte eines Tages an den Olympischen Spielen teilnehmen.“" }
+    ]
+  },
+  {
+    "id": "A2_R47", "level": "A2", "type": "Schild", "title": "Hinweise in der Umkleidekabine",
+    "text": "HINWEISE — UMKLEIDEKABINE\n\n🔒 Bitte benutzen Sie ein Schloss für Ihren Schrank.\n💶 Wertsachen geben Sie bitte an der Kasse ab.\n👟 Straßenschuhe sind im Schwimmbereich verboten.\n🚿 Vor dem Schwimmen bitte duschen.\n\nDas Schwimmbad haftet nicht für gestohlene Sachen!",
+    "questions": [
+      { "type": "MCQ", "q": "Was soll man für den Schrank benutzen?", "opts": ["Ein Schloss", "Eine Tasche", "Nichts"], "a": 0, "exp": "„Bitte benutzen Sie ein Schloss für Ihren Schrank.“" },
+      { "type": "MCQ", "q": "Wo gibt man Wertsachen ab?", "opts": ["An der Kasse", "In der Kabine", "Im Wasser"], "a": 0, "exp": "„Wertsachen geben Sie bitte an der Kasse ab.“" },
+      { "type": "TF", "q": "Straßenschuhe sind im Schwimmbereich erlaubt.", "a": false, "exp": "„Straßenschuhe sind im Schwimmbereich verboten.“" },
+      { "type": "TF", "q": "Man soll vor dem Schwimmen duschen.", "a": true, "exp": "„Vor dem Schwimmen bitte duschen.“" },
+      { "type": "MCQ", "q": "Wer haftet für gestohlene Sachen?", "opts": ["Niemand — das Schwimmbad nicht", "Die Polizei", "Der Bademeister"], "a": 0, "exp": "„Das Schwimmbad haftet nicht für gestohlene Sachen!“" }
+    ]
+  },
+  {
+    "id": "A2_R48", "level": "A2", "type": "E-Mail", "title": "Die Heizung ist kaputt",
+    "text": "Betreff: Heizung kaputt\n\nSehr geehrter Herr Wolf,\n\nseit gestern funktioniert die Heizung in meiner Wohnung nicht mehr. Es ist sehr kalt, besonders nachts. Ich habe schon alles probiert, aber sie wird nicht warm.\n\nKönnten Sie bitte schnell einen Handwerker schicken? Es ist Winter und die Kälte ist wirklich ein Problem. Vielen Dank im Voraus.\n\nMit freundlichen Grüßen\nIhre Mieterin Frau Koch",
+    "questions": [
+      { "type": "MCQ", "q": "Was ist kaputt?", "opts": ["Die Heizung", "Der Kühlschrank", "Das Fenster"], "a": 0, "exp": "„funktioniert die Heizung in meiner Wohnung nicht mehr“." },
+      { "type": "TF", "q": "Seit gestern ist die Heizung kaputt.", "a": true, "exp": "„seit gestern funktioniert die Heizung ... nicht mehr“." },
+      { "type": "MCQ", "q": "Was möchte Frau Koch?", "opts": ["Einen Handwerker", "Eine neue Wohnung", "Weniger Miete"], "a": 0, "exp": "„Könnten Sie bitte schnell einen Handwerker schicken?“" },
+      { "type": "TF", "q": "Es ist gerade Sommer.", "a": false, "exp": "„Es ist Winter“." },
+      { "type": "MCQ", "q": "Wann ist es besonders kalt?", "opts": ["Nachts", "Mittags", "Morgens"], "a": 0, "exp": "„Es ist sehr kalt, besonders nachts.“" }
+    ]
+  },
+  {
+    "id": "A2_R49", "level": "A2", "type": "Sachtext", "title": "Die Sonntagsruhe in Deutschland",
+    "text": "DIE SONNTAGSRUHE IN DEUTSCHLAND\n\nIn Deutschland ist der Sonntag ein besonderer Tag. Die meisten Geschäfte sind geschlossen. Man kann also sonntags nicht einkaufen — viele Touristen sind überrascht!\n\nAuch laute Arbeiten sind verboten: Man darf zum Beispiel nicht Rasen mähen oder die Waschmaschine laut laufen lassen. Der Sonntag ist zum Ausruhen da. Viele Familien machen einen Spaziergang oder besuchen Verwandte. Diese Tradition ist vielen Menschen wichtig.",
+    "questions": [
+      { "type": "TF", "q": "Am Sonntag sind die meisten Geschäfte geschlossen.", "a": true, "exp": "„Die meisten Geschäfte sind geschlossen.“" },
+      { "type": "MCQ", "q": "Was darf man sonntags NICHT machen?", "opts": ["Rasen mähen", "Spazieren gehen", "Verwandte besuchen"], "a": 0, "exp": "„Man darf zum Beispiel nicht Rasen mähen“." },
+      { "type": "TF", "q": "Touristen finden die Sonntagsruhe immer normal.", "a": false, "exp": "„viele Touristen sind überrascht!“" },
+      { "type": "MCQ", "q": "Was machen viele Familien sonntags?", "opts": ["Einen Spaziergang oder Verwandte besuchen", "Arbeiten", "Einkaufen"], "a": 0, "exp": "„machen einen Spaziergang oder besuchen Verwandte“." },
+      { "type": "TF", "q": "Der Sonntag ist zum Ausruhen da.", "a": true, "exp": "„Der Sonntag ist zum Ausruhen da.“" }
+    ]
+  },
+  {
+    "id": "A2_R50", "level": "A2", "type": "Nachricht", "title": "Eine Lerngruppe organisieren",
+    "text": "GRUPPENCHAT: Lerngruppe für die Prüfung\n\nNina: Hallo! Wollen wir vor der Deutschprüfung zusammen lernen?\nOmar: Ja, gute Idee! Ich verstehe die Grammatik nicht so gut.\nNina: Perfekt. Treffen wir uns Mittwoch um 16 Uhr in der Bibliothek?\nOmar: Passt. Soll ich Übungen mitbringen?\nNina: Ja, bitte! Ich bringe meine Notizen und etwas zu essen mit.\nOmar: Super, bis Mittwoch!",
+    "questions": [
+      { "type": "MCQ", "q": "Warum wollen sie sich treffen?", "opts": ["Um für die Prüfung zu lernen", "Um Kaffee zu trinken", "Um Sport zu machen"], "a": 0, "exp": "„Wollen wir vor der Deutschprüfung zusammen lernen?“" },
+      { "type": "MCQ", "q": "Was versteht Omar nicht gut?", "opts": ["Die Grammatik", "Die Wörter", "Das Hören"], "a": 0, "exp": "„Ich verstehe die Grammatik nicht so gut.“" },
+      { "type": "TF", "q": "Sie treffen sich am Mittwoch um 16 Uhr.", "a": true, "exp": "„Treffen wir uns Mittwoch um 16 Uhr in der Bibliothek?“" },
+      { "type": "MCQ", "q": "Wo treffen sie sich?", "opts": ["In der Bibliothek", "Im Café", "Bei Nina"], "a": 0, "exp": "„in der Bibliothek“." },
+      { "type": "TF", "q": "Nina bringt nur Notizen mit.", "a": false, "exp": "„Ich bringe meine Notizen und etwas zu essen mit.“" }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "SPK_A1_1",
+    "level": "A1",
+    "part": "Teil 1",
+    "title": "Sich vorstellen",
+    "instructions": "Stellen Sie sich vor. Sagen Sie mindestens 5 Sätze über sich (Name, Alter, Land, Sprachen, Familie, Beruf, Hobby).",
+    "instructionsEn": "Introduce yourself. Say at least 5 sentences (name, age, country, languages, family, job, hobby).",
+    "examplePrompt": "Erzählen Sie mir etwas über sich.",
+    "duration": 120,
+    "rubric": "Did the speaker cover at least 5 of: Name, Alter, Herkunft, Familie, Beruf, Sprachen, Hobby? Were sentences in proper German with correct verb conjugation?"
+  },
+  {
+    "id": "SPK_A1_2",
+    "level": "A1",
+    "part": "Teil 2",
+    "title": "Fragen stellen — Wohnort",
+    "instructions": "Sie bekommen ein Wort und stellen damit eine Frage. Wort: \"Wohnort\".",
+    "instructionsEn": "You get a word and form a question with it. Word: \"Wohnort\" (place of residence).",
+    "examplePrompt": "Bilden Sie eine Frage mit dem Wort \"Wohnort\".",
+    "duration": 60,
+    "rubric": "Did they form a grammatically correct question (e.g., \"Wo wohnen Sie?\", \"Was ist Ihr Wohnort?\")?"
+  },
+  {
+    "id": "SPK_A1_3",
+    "level": "A1",
+    "part": "Teil 3",
+    "title": "Bitten formulieren — Stift",
+    "instructions": "Sie sehen ein Symbol (Stift). Bitten Sie höflich um den Stift.",
+    "instructionsEn": "You see a symbol (a pen). Politely ask for the pen.",
+    "examplePrompt": "Formulieren Sie eine höfliche Bitte für: Stift.",
+    "duration": 45,
+    "rubric": "Did they make a polite request like \"Können Sie mir bitte den Stift geben?\" or \"Hätten Sie einen Stift für mich?\""
+  },
+  {
+    "id": "SPK_A2_1",
+    "level": "A2",
+    "part": "Teil 1",
+    "title": "Sich und sein Leben vorstellen",
+    "instructions": "Erzählen Sie ausführlich über sich: Person, Familie, Wohnort, Alltag, Hobbys, Sprachen, Pläne. 7–10 Sätze.",
+    "instructionsEn": "Tell me about yourself in detail: person, family, where you live, daily life, hobbies, languages, plans. 7–10 sentences.",
+    "examplePrompt": "Erzählen Sie ausführlich über sich.",
+    "duration": 180,
+    "rubric": "Did they cover at least 6 topic areas with full sentences? Was tense usage correct (Präsens with occasional Perfekt)?"
+  },
+  {
+    "id": "SPK_A2_2",
+    "level": "A2",
+    "part": "Teil 2",
+    "title": "Etwas planen — Geburtstag",
+    "instructions": "Sie und Ihr Partner planen eine Geburtstagsparty. Schlagen Sie vor: Wann? Wo? Wer kommt? Was kaufen? Was kochen?",
+    "instructionsEn": "You and your partner plan a birthday party. Suggest: When? Where? Who comes? What to buy? What to cook?",
+    "examplePrompt": "Planen Sie mit mir eine Geburtstagsparty. Machen Sie Vorschläge.",
+    "duration": 180,
+    "rubric": "Did they make several concrete suggestions (e.g., \"Wir könnten...\", \"Was hältst du von...?\", \"Wie wäre es mit...?\")? Did they react to a likely partner response?"
+  },
+  {
+    "id": "SPK_A2_3",
+    "level": "A2",
+    "part": "Teil 3",
+    "title": "Auf Aussagen reagieren",
+    "instructions": "Reagieren Sie auf die Aussage: \"Ich finde, junge Leute lesen heute zu wenig Bücher.\"",
+    "instructionsEn": "React to the statement: \"I think young people read too few books these days.\" Agree, disagree, give reasons.",
+    "examplePrompt": "Was halten Sie davon? Ich finde, junge Leute lesen heute zu wenig Bücher.",
+    "duration": 120,
+    "rubric": "Did they take a position (agree/disagree) and give at least 2 reasons or examples? Was opinion vocabulary used (z.B. \"Ich finde...\", \"Meiner Meinung nach...\")?"
+  },
+  {
+    "id": "SPK_B1_1",
+    "level": "B1",
+    "part": "Teil 1",
+    "title": "Gemeinsam etwas planen — Klassenausflug",
+    "instructions": "Planen Sie mit Ihrem Partner einen Klassenausflug: Ziel, Datum, Anreise, Programm, Kosten. Diskutieren Sie und einigen Sie sich.",
+    "instructionsEn": "Plan a class trip with your partner: destination, date, transport, programme, cost. Discuss and reach agreement.",
+    "examplePrompt": "Lassen Sie uns einen Klassenausflug planen. Was schlagen Sie vor?",
+    "duration": 240,
+    "rubric": "Did they propose ideas, react to counter-proposals, justify with reasons, and reach a clear agreement? Use of \"Ich schlage vor, dass...\", \"Damit bin ich einverstanden\", \"Wäre es nicht besser, wenn...?\""
+  },
+  {
+    "id": "SPK_B1_2",
+    "level": "B1",
+    "part": "Teil 2",
+    "title": "Präsentation — Soziale Medien",
+    "instructions": "Halten Sie eine kurze Präsentation (3–5 Min) über die Vor- und Nachteile von sozialen Medien. Struktur: Einleitung, Argumente, persönliche Meinung, Schluss.",
+    "instructionsEn": "Give a short 3–5 minute presentation on the pros and cons of social media. Structure: intro, arguments, personal opinion, conclusion.",
+    "examplePrompt": "Halten Sie bitte eine kurze Präsentation über soziale Medien.",
+    "duration": 300,
+    "rubric": "Did they have a clear structure (intro/body/conclusion), at least 2 pros + 2 cons with examples, and a personal stance? Use of connectors (außerdem, jedoch, deshalb)?"
+  },
+  {
+    "id": "SPK_B1_3",
+    "level": "B1",
+    "part": "Teil 3",
+    "title": "Über die Präsentation sprechen",
+    "instructions": "Antworten Sie auf eine Frage zu Ihrer Präsentation: \"Welche Lösungen sehen Sie für die genannten Probleme?\"",
+    "instructionsEn": "Answer a follow-up question on your presentation: \"What solutions do you see for the problems mentioned?\"",
+    "examplePrompt": "Welche Lösungen sehen Sie für die genannten Probleme?",
+    "duration": 180,
+    "rubric": "Did they propose at least 2 concrete solutions, justify them, and acknowledge limitations? Use of \"Eine mögliche Lösung wäre...\", \"Man könnte...\", \"Allerdings...\""
+  }
+]

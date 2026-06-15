@@ -1,0 +1,3706 @@
+[
+  {
+    "cat": "Sich vorstellen",
+    "en": "Introducing Yourself",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Ich heiße ...",
+        "en": "My name is ..."
+      },
+      {
+        "de": "Mein Name ist ...",
+        "en": "My name is ..."
+      },
+      {
+        "de": "Ich komme aus ...",
+        "en": "I come from ..."
+      },
+      {
+        "de": "Ich wohne in ...",
+        "en": "I live in ..."
+      },
+      {
+        "de": "Ich bin ... Jahre alt.",
+        "en": "I am ... years old."
+      },
+      {
+        "de": "Ich bin ... von Beruf.",
+        "en": "I am a ... by profession."
+      },
+      {
+        "de": "Ich spreche ein bisschen Deutsch.",
+        "en": "I speak a little German."
+      },
+      {
+        "de": "Ich lerne Deutsch.",
+        "en": "I am learning German."
+      },
+      {
+        "de": "Ich bin verheiratet / ledig / geschieden.",
+        "en": "I am married / single / divorced."
+      },
+      {
+        "de": "Ich habe ... Kinder.",
+        "en": "I have ... children."
+      },
+      {
+        "de": "Meine Telefonnummer ist ...",
+        "en": "My telephone number is ..."
+      },
+      {
+        "de": "Darf ich mich vorstellen? Ich bin ...",
+        "en": "May I introduce myself? I am ..."
+      },
+      {
+        "de": "Freut mich, Sie / dich kennenzulernen.",
+        "en": "Pleased to meet you."
+      }
+    ]
+  },
+  {
+    "cat": "Begruessen und Verabschieden",
+    "en": "Greetings and Farewells",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Hallo! / Guten Morgen! / Guten Tag! / Guten Abend!",
+        "en": "Hello! / Good morning! / Good day! / Good evening!"
+      },
+      {
+        "de": "Wie geht es Ihnen? (formal)",
+        "en": "How are you? (formal)"
+      },
+      {
+        "de": "Wie geht es dir? (informal)",
+        "en": "How are you? (informal)"
+      },
+      {
+        "de": "Mir geht es gut, danke.",
+        "en": "I am fine, thank you."
+      },
+      {
+        "de": "Nicht so gut, leider.",
+        "en": "Not so well, unfortunately."
+      },
+      {
+        "de": "Und Ihnen / dir?",
+        "en": "And you?"
+      },
+      {
+        "de": "Auf Wiedersehen! / Tschüss! / Bis bald!",
+        "en": "Goodbye! / Bye! / See you soon!"
+      },
+      {
+        "de": "Bis morgen! / Bis später!",
+        "en": "See you tomorrow! / See you later!"
+      },
+      {
+        "de": "Einen schönen Tag noch!",
+        "en": "Have a nice day!"
+      },
+      {
+        "de": "Schönes Wochenende!",
+        "en": "Have a nice weekend!"
+      }
+    ]
+  },
+  {
+    "cat": "Bitten, Danken und Entschuldigen",
+    "en": "Requests, Thanks and Apologies",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Bitte.",
+        "en": "Please."
+      },
+      {
+        "de": "Danke. / Danke schön. / Vielen Dank.",
+        "en": "Thank you. / Thank you very much."
+      },
+      {
+        "de": "Bitte schön. / Gern geschehen.",
+        "en": "You are welcome. / My pleasure."
+      },
+      {
+        "de": "Kein Problem.",
+        "en": "No problem."
+      },
+      {
+        "de": "Entschuldigung! / Entschuldigen Sie!",
+        "en": "Excuse me! (to get attention or apologise)"
+      },
+      {
+        "de": "Es tut mir leid.",
+        "en": "I am sorry."
+      },
+      {
+        "de": "Macht nichts.",
+        "en": "It does not matter. Never mind."
+      },
+      {
+        "de": "Können Sie das bitte wiederholen?",
+        "en": "Can you please repeat that?"
+      },
+      {
+        "de": "Können Sie bitte langsamer sprechen?",
+        "en": "Can you please speak more slowly?"
+      },
+      {
+        "de": "Ich verstehe das nicht.",
+        "en": "I do not understand that."
+      },
+      {
+        "de": "Wie bitte?",
+        "en": "Pardon? Could you repeat that?"
+      },
+      {
+        "de": "Können Sie das bitte aufschreiben?",
+        "en": "Can you please write that down?"
+      }
+    ]
+  },
+  {
+    "cat": "Im Cafe und Restaurant",
+    "en": "In the Cafe and Restaurant",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Einen Tisch für zwei Personen, bitte.",
+        "en": "A table for two people, please."
+      },
+      {
+        "de": "Die Speisekarte, bitte.",
+        "en": "The menu, please."
+      },
+      {
+        "de": "Ich hätte gern ... / Ich möchte ...",
+        "en": "I would like ..."
+      },
+      {
+        "de": "Einmal ..., bitte.",
+        "en": "One ..., please."
+      },
+      {
+        "de": "Was empfehlen Sie?",
+        "en": "What do you recommend?"
+      },
+      {
+        "de": "Haben Sie auch vegetarische Gerichte?",
+        "en": "Do you also have vegetarian dishes?"
+      },
+      {
+        "de": "Das schmeckt sehr gut!",
+        "en": "That tastes very good!"
+      },
+      {
+        "de": "Die Rechnung, bitte. / Zahlen, bitte.",
+        "en": "The bill, please."
+      },
+      {
+        "de": "Stimmt so.",
+        "en": "Keep the change."
+      },
+      {
+        "de": "Getrennt oder zusammen?",
+        "en": "Separately or together? (paying)"
+      }
+    ]
+  },
+  {
+    "cat": "Einkaufen und Preise",
+    "en": "Shopping and Prices",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Ich suche ...",
+        "en": "I am looking for ..."
+      },
+      {
+        "de": "Haben Sie ...?",
+        "en": "Do you have ...?"
+      },
+      {
+        "de": "Was kostet das? / Wie viel kostet das?",
+        "en": "How much does that cost?"
+      },
+      {
+        "de": "Das ist zu teuer.",
+        "en": "That is too expensive."
+      },
+      {
+        "de": "Ich nehme das.",
+        "en": "I will take that."
+      },
+      {
+        "de": "Kann ich mit Karte zahlen?",
+        "en": "Can I pay by card?"
+      },
+      {
+        "de": "Wo ist die Kasse?",
+        "en": "Where is the till / checkout?"
+      },
+      {
+        "de": "Kann ich bitte eine Tüte haben?",
+        "en": "Can I please have a bag?"
+      },
+      {
+        "de": "Das ist alles, danke.",
+        "en": "That is everything, thank you."
+      }
+    ]
+  },
+  {
+    "cat": "Nach dem Weg fragen",
+    "en": "Asking for Directions",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Entschuldigung, wo ist ...?",
+        "en": "Excuse me, where is ...?"
+      },
+      {
+        "de": "Wie komme ich zum / zur ...?",
+        "en": "How do I get to the ...?"
+      },
+      {
+        "de": "Gehen Sie geradeaus.",
+        "en": "Go straight ahead."
+      },
+      {
+        "de": "Biegen Sie links / rechts ab.",
+        "en": "Turn left / right."
+      },
+      {
+        "de": "Es ist auf der linken / rechten Seite.",
+        "en": "It is on the left / right side."
+      },
+      {
+        "de": "Das ist nicht weit von hier.",
+        "en": "That is not far from here."
+      },
+      {
+        "de": "Das sind ungefähr fünf Minuten zu Fuß.",
+        "en": "That is approximately five minutes on foot."
+      },
+      {
+        "de": "Nehmen Sie die erste Straße rechts.",
+        "en": "Take the first street on the right."
+      },
+      {
+        "de": "Ich bin fremd hier.",
+        "en": "I am a stranger here. I do not know this area."
+      }
+    ]
+  },
+  {
+    "cat": "Datum und Uhrzeit",
+    "en": "Date and Time",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Wie viel Uhr ist es? / Wie spät ist es?",
+        "en": "What time is it?"
+      },
+      {
+        "de": "Es ist ... Uhr.",
+        "en": "It is ... o clock."
+      },
+      {
+        "de": "Um wie viel Uhr ...?",
+        "en": "At what time ...?"
+      },
+      {
+        "de": "Der Wievielte ist heute?",
+        "en": "What is today's date?"
+      },
+      {
+        "de": "Heute ist der ...",
+        "en": "Today is the ..."
+      },
+      {
+        "de": "Wann haben Sie geöffnet?",
+        "en": "When are you open?"
+      },
+      {
+        "de": "Von ... bis ... Uhr.",
+        "en": "From ... to ... o clock."
+      },
+      {
+        "de": "Am Montag / Dienstag ...",
+        "en": "On Monday / Tuesday ..."
+      },
+      {
+        "de": "Ich habe am ... Zeit.",
+        "en": "I am free on the ..."
+      }
+    ]
+  },
+  {
+    "cat": "Beim Arzt und in der Apotheke",
+    "en": "At the Doctor and Pharmacy",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Ich bin krank.",
+        "en": "I am ill."
+      },
+      {
+        "de": "Ich habe Schmerzen.",
+        "en": "I have pain."
+      },
+      {
+        "de": "Ich habe Kopfschmerzen / Bauchschmerzen / Rückenschmerzen.",
+        "en": "I have a headache / stomach ache / back pain."
+      },
+      {
+        "de": "Ich habe Fieber.",
+        "en": "I have a fever."
+      },
+      {
+        "de": "Ich habe Husten / Schnupfen.",
+        "en": "I have a cough / a cold."
+      },
+      {
+        "de": "Ich brauche einen Arzt.",
+        "en": "I need a doctor."
+      },
+      {
+        "de": "Haben Sie etwas gegen Kopfschmerzen?",
+        "en": "Do you have something for headaches?"
+      },
+      {
+        "de": "Seit wann haben Sie die Schmerzen?",
+        "en": "Since when have you had the pain?"
+      }
+    ]
+  },
+  {
+    "cat": "Im Kursraum",
+    "en": "In the Classroom",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Wie heißt das auf Deutsch?",
+        "en": "What is that called in German?"
+      },
+      {
+        "de": "Wie schreibt man das?",
+        "en": "How do you write / spell that?"
+      },
+      {
+        "de": "Können Sie das buchstabieren?",
+        "en": "Can you spell that?"
+      },
+      {
+        "de": "Was bedeutet ...?",
+        "en": "What does ... mean?"
+      },
+      {
+        "de": "Ich weiß es nicht.",
+        "en": "I do not know."
+      },
+      {
+        "de": "Ich habe eine Frage.",
+        "en": "I have a question."
+      },
+      {
+        "de": "Noch einmal, bitte.",
+        "en": "Once more, please."
+      },
+      {
+        "de": "Auf welcher Seite sind wir?",
+        "en": "Which page are we on?"
+      }
+    ]
+  },
+  {
+    "cat": "Kleines Gespraech (Small Talk)",
+    "en": "Small Talk A1",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Das Wetter ist schön heute.",
+        "en": "The weather is nice today."
+      },
+      {
+        "de": "Es regnet. / Es schneit. / Die Sonne scheint.",
+        "en": "It is raining. / It is snowing. / The sun is shining."
+      },
+      {
+        "de": "Ich wohne seit ... in Deutschland.",
+        "en": "I have been living in Germany for ..."
+      },
+      {
+        "de": "Deutsch ist schwer, aber interessant.",
+        "en": "German is difficult, but interesting."
+      },
+      {
+        "de": "Was machen Sie beruflich?",
+        "en": "What do you do for work?"
+      },
+      {
+        "de": "Woher kommen Sie?",
+        "en": "Where do you come from?"
+      },
+      {
+        "de": "Haben Sie Familie hier?",
+        "en": "Do you have family here?"
+      },
+      {
+        "de": "Ich verstehe Sie gut.",
+        "en": "I understand you well."
+      }
+    ]
+  },
+  {
+    "cat": "Anrede",
+    "en": "Greeting / Addressing the Audience",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Guten Tag, meine Damen und Herren!",
+        "en": "Good day, ladies and gentlemen!"
+      },
+      {
+        "de": "Meine Damen und Herren, ...",
+        "en": "Ladies and gentlemen, ..."
+      },
+      {
+        "de": "Sehr geehrte Damen und Herren, ...",
+        "en": "Dear ladies and gentlemen, ..."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Einleitung",
+    "en": "Opening the Presentation",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Mein Name ist ..., und ich arbeite bei ... [Firma].",
+        "en": "My name is ..., and I work at ... [Company]."
+      },
+      {
+        "de": "Herzlich willkommen!",
+        "en": "A warm welcome!"
+      },
+      {
+        "de": "Willkommen in ... [Stadt] / bei ... [Firma].",
+        "en": "Welcome to ... [City] / at ... [Company]."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Thema nennen",
+    "en": "Stating Your Topic",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Mein Vortrag hat das Thema ...",
+        "en": "My talk is on the topic of ..."
+      },
+      {
+        "de": "Ich möchte heute über das Thema … sprechen.",
+        "en": "I would like to speak today about the topic of ..."
+      },
+      {
+        "de": "Ich spreche heute über (das Thema) ...",
+        "en": "Today I am speaking about (the topic of) ..."
+      },
+      {
+        "de": "Ich möchte ... präsentieren.",
+        "en": "I would like to present ..."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Begründung",
+    "en": "Justifying Your Topic",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Das Thema ist wichtig / interessant, weil ...",
+        "en": "The topic is important / interesting because ..."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Gliederung",
+    "en": "Outlining the Structure",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Mein Vortrag besteht aus ... Teilen: Teil 1 ...; Teil 2 ...",
+        "en": "My talk consists of ... parts: Part 1 ...; Part 2 ..."
+      },
+      {
+        "de": "Am Anfang … / Im ersten Teil …",
+        "en": "At the beginning ... / In the first part ..."
+      },
+      {
+        "de": "Danach ... / Dann ...",
+        "en": "After that ... / Then ..."
+      },
+      {
+        "de": "Am Schluss ... / Am Ende ...",
+        "en": "At the end ... / In conclusion ..."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Hauptteil — Übergänge",
+    "en": "Transitions in the Main Body",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich spreche jetzt über …",
+        "en": "I will now speak about ..."
+      },
+      {
+        "de": "Jetzt kommen wir zu ...",
+        "en": "Now we come to ..."
+      },
+      {
+        "de": "Das war alles dazu.",
+        "en": "That is all on that point."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Auf Tabellen / Bilder verweisen",
+    "en": "Referring to Tables, Images & Visuals",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Diese Tabelle / Abbildung zeigt, ...",
+        "en": "This table / illustration shows ..."
+      },
+      {
+        "de": "Sehen Sie sich bitte die Tabelle / Abbildung an.",
+        "en": "Please take a look at the table / illustration."
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Schluss & Dank",
+    "en": "Closing & Thanking",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Vielen Dank.",
+        "en": "Thank you very much."
+      },
+      {
+        "de": "Vielen Dank für Ihr Interesse.",
+        "en": "Thank you very much for your interest."
+      },
+      {
+        "de": "Haben Sie Fragen?",
+        "en": "Do you have any questions?"
+      }
+    ],
+    "presentationHeavy": true
+  },
+  {
+    "cat": "Selbstpräsentation",
+    "en": "Self-Introduction",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich bin ...",
+        "en": "I am ..."
+      },
+      {
+        "de": "Ich kann ...",
+        "en": "I can ..."
+      },
+      {
+        "de": "Meine Stärken sind ...",
+        "en": "My strengths are ..."
+      },
+      {
+        "de": "Ich finde die Stelle interessant, weil …",
+        "en": "I find the position interesting because ..."
+      }
+    ]
+  },
+  {
+    "cat": "Meinung & Überzeugung",
+    "en": "Expressing Opinions & Convictions",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich finde …",
+        "en": "I find ... / I think ..."
+      },
+      {
+        "de": "Ich denke / meine / glaube, dass …",
+        "en": "I think / believe / reckon that ..."
+      },
+      {
+        "de": "Meiner Meinung nach …",
+        "en": "In my opinion ..."
+      },
+      {
+        "de": "Ich bin sicher, dass …",
+        "en": "I am sure that ..."
+      },
+      {
+        "de": "Das finde ich (nicht) gut.",
+        "en": "I think that is (not) good."
+      }
+    ]
+  },
+  {
+    "cat": "Zurückhaltung",
+    "en": "Expressing Uncertainty",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Das weiß ich nicht so genau.",
+        "en": "I don't know that exactly."
+      },
+      {
+        "de": "Ich bin nicht ganz sicher.",
+        "en": "I am not entirely sure."
+      },
+      {
+        "de": "Das ist (schon) möglich, aber …",
+        "en": "That is (quite) possible, but ..."
+      }
+    ]
+  },
+  {
+    "cat": "Zeit gewinnen",
+    "en": "Buying Time to Think",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Eine gute / interessante Frage.",
+        "en": "A good / interesting question."
+      },
+      {
+        "de": "Na ja, …",
+        "en": "Well, ..."
+      },
+      {
+        "de": "Warten Sie mal, …",
+        "en": "Just a moment, let me think ..."
+      }
+    ]
+  },
+  {
+    "cat": "Positive Rückmeldung & Informationen erfragen",
+    "en": "Positive Feedback & Asking for Information",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Gern. / Natürlich. / Selbstverständlich.",
+        "en": "Gladly. / Of course. / Certainly."
+      },
+      {
+        "de": "Das ist überhaupt kein Problem.",
+        "en": "That is absolutely no problem."
+      },
+      {
+        "de": "Ich möchte noch fragen: …",
+        "en": "I would like to ask: ..."
+      },
+      {
+        "de": "Darf ich fragen, …",
+        "en": "May I ask, ..."
+      },
+      {
+        "de": "Ich hätte eine Frage.",
+        "en": "I have a question."
+      }
+    ]
+  },
+  {
+    "cat": "Einkaufen & Bestellen",
+    "en": "Shopping & Ordering Food/Drinks",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Was darf es sein?",
+        "en": "What would you like? / What can I get you?"
+      },
+      {
+        "de": "Ich hätte gern ... / Ich möchte gern ...",
+        "en": "I would like ... (polite ordering form)"
+      },
+      {
+        "de": "Einmal / Zweimal ..., bitte.",
+        "en": "One / Two ..., please."
+      },
+      {
+        "de": "Was kostet das? / Was macht das?",
+        "en": "How much does that cost? / How much is that altogether?"
+      },
+      {
+        "de": "Das ist zu teuer.",
+        "en": "That is too expensive."
+      },
+      {
+        "de": "Haben Sie ...?",
+        "en": "Do you have ...?"
+      },
+      {
+        "de": "Ich nehme das.",
+        "en": "I'll take that."
+      },
+      {
+        "de": "Kann ich bitte die Rechnung haben?",
+        "en": "Can I have the bill, please?"
+      },
+      {
+        "de": "Zahlen, bitte.",
+        "en": "The bill, please."
+      },
+      {
+        "de": "Das schmeckt sehr gut!",
+        "en": "That tastes very good!"
+      },
+      {
+        "de": "Ich bin allergisch gegen ...",
+        "en": "I am allergic to ..."
+      },
+      {
+        "de": "Ohne ... bitte.",
+        "en": "Without ..., please."
+      },
+      {
+        "de": "Haben Sie etwas Billigeres?",
+        "en": "Do you have something cheaper?"
+      },
+      {
+        "de": "Ich suche ...",
+        "en": "I am looking for ..."
+      }
+    ]
+  },
+  {
+    "cat": "Fahrkarten & Tickets kaufen",
+    "en": "Buying Tickets & Using Public Transport",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Eine Fahrkarte nach ... bitte.",
+        "en": "A ticket to ... please."
+      },
+      {
+        "de": "Einmal / Zweimal nach ..., hin und zurück / einfach.",
+        "en": "One / Two tickets to ..., return / single journey."
+      },
+      {
+        "de": "Von welchem Gleis fährt der Zug nach ...?",
+        "en": "From which platform does the train to ... leave?"
+      },
+      {
+        "de": "Wann fährt der nächste Zug / Bus nach ...?",
+        "en": "When does the next train / bus to ... depart?"
+      },
+      {
+        "de": "Wie lange dauert die Fahrt?",
+        "en": "How long does the journey take?"
+      },
+      {
+        "de": "Muss ich umsteigen?",
+        "en": "Do I have to change trains / buses?"
+      },
+      {
+        "de": "Ich möchte einen Termin machen.",
+        "en": "I would like to make an appointment."
+      },
+      {
+        "de": "Ich möchte ein Zimmer reservieren.",
+        "en": "I would like to reserve a room."
+      }
+    ]
+  },
+  {
+    "cat": "Nach dem Weg fragen & Wegbeschreibung geben",
+    "en": "Asking for & Giving Directions",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Entschuldigung, wie komme ich zum / zur ...?",
+        "en": "Excuse me, how do I get to the ...?"
+      },
+      {
+        "de": "Wo ist der / die / das ...?",
+        "en": "Where is the ...?"
+      },
+      {
+        "de": "Gehen Sie geradeaus.",
+        "en": "Go straight ahead."
+      },
+      {
+        "de": "Biegen Sie links / rechts ab.",
+        "en": "Turn left / right."
+      },
+      {
+        "de": "Es ist auf der linken / rechten Seite.",
+        "en": "It is on the left / right side."
+      },
+      {
+        "de": "Das ist nicht weit von hier.",
+        "en": "That is not far from here."
+      },
+      {
+        "de": "Das sind ungefähr ... Minuten zu Fuß.",
+        "en": "That is approximately ... minutes on foot."
+      },
+      {
+        "de": "Nehmen Sie die erste / zweite Straße links / rechts.",
+        "en": "Take the first / second street on the left / right."
+      },
+      {
+        "de": "An der Kreuzung biegen Sie links / rechts ab.",
+        "en": "At the crossroads / intersection, turn left / right."
+      },
+      {
+        "de": "Überqueren Sie die Brücke / die Straße.",
+        "en": "Cross the bridge / the road."
+      },
+      {
+        "de": "Gehen Sie an der Ampel vorbei.",
+        "en": "Walk past the traffic lights."
+      },
+      {
+        "de": "Das Gebäude ist direkt neben / gegenüber von ...",
+        "en": "The building is directly next to / opposite ..."
+      },
+      {
+        "de": "Sie können die Straßenbahn / U-Bahn nehmen.",
+        "en": "You can take the tram / underground."
+      }
+    ]
+  },
+  {
+    "cat": "Verabredungen & Termine",
+    "en": "Making Appointments & Arrangements",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Können wir uns ... treffen?",
+        "en": "Can we meet on ...?"
+      },
+      {
+        "de": "Wann hast du / haben Sie Zeit?",
+        "en": "When do you have time?"
+      },
+      {
+        "de": "Passt es dir / Ihnen am ...?",
+        "en": "Does ... suit you?"
+      },
+      {
+        "de": "Ja, das passt mir gut.",
+        "en": "Yes, that suits me well."
+      },
+      {
+        "de": "Nein, da habe ich leider keine Zeit.",
+        "en": "No, unfortunately I don't have time then."
+      },
+      {
+        "de": "Wie wäre es mit ...?",
+        "en": "How about ...?"
+      },
+      {
+        "de": "Ich bin um ... Uhr frei.",
+        "en": "I am free at ... o'clock."
+      },
+      {
+        "de": "Wir treffen uns um ... Uhr vor dem / der ...",
+        "en": "We will meet at ... o'clock in front of the ..."
+      }
+    ]
+  },
+  {
+    "cat": "Einladungen aussprechen & darauf reagieren",
+    "en": "Making & Responding to Invitations",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich lade dich / Sie zu ... ein.",
+        "en": "I invite you to ..."
+      },
+      {
+        "de": "Möchtest du / Möchten Sie mitkommen?",
+        "en": "Would you like to come along?"
+      },
+      {
+        "de": "Hast du / Haben Sie Lust auf ...?",
+        "en": "Do you feel like ...?"
+      },
+      {
+        "de": "Ja, gern! Das ist eine super Idee!",
+        "en": "Yes, gladly! That is a great idea!"
+      },
+      {
+        "de": "Das klingt toll!",
+        "en": "That sounds great!"
+      },
+      {
+        "de": "Leider kann ich nicht, weil ...",
+        "en": "Unfortunately I can't, because ..."
+      },
+      {
+        "de": "Das tut mir leid, ich habe schon etwas vor.",
+        "en": "I'm sorry, I already have plans."
+      },
+      {
+        "de": "Vielleicht ein anderes Mal.",
+        "en": "Maybe another time."
+      }
+    ]
+  },
+  {
+    "cat": "Sich entschuldigen",
+    "en": "Apologising",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Entschuldigung! / Es tut mir leid!",
+        "en": "Excuse me! / I am sorry!"
+      },
+      {
+        "de": "Das war mein Fehler.",
+        "en": "That was my mistake."
+      },
+      {
+        "de": "Ich entschuldige mich.",
+        "en": "I apologise."
+      },
+      {
+        "de": "Tut mir leid, das war nicht meine Absicht.",
+        "en": "Sorry, that was not my intention."
+      },
+      {
+        "de": "Das werde ich nicht wieder tun.",
+        "en": "I will not do that again."
+      },
+      {
+        "de": "Machen Sie sich keine Sorgen.",
+        "en": "Don't worry."
+      },
+      {
+        "de": "Kein Problem!",
+        "en": "No problem!"
+      }
+    ]
+  },
+  {
+    "cat": "Telefongespräche",
+    "en": "Phone Conversation Phrases",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Hallo, hier ist ...",
+        "en": "Hello, this is ... (identifying yourself on the phone)"
+      },
+      {
+        "de": "Kann ich bitte mit ... sprechen?",
+        "en": "Can I please speak to ...?"
+      },
+      {
+        "de": "Einen Moment, bitte.",
+        "en": "One moment, please."
+      },
+      {
+        "de": "Der / Die ... ist gerade nicht da.",
+        "en": "... is not here at the moment."
+      },
+      {
+        "de": "Kann ich eine Nachricht hinterlassen?",
+        "en": "Can I leave a message?"
+      },
+      {
+        "de": "Könnten Sie mich bitte zurückrufen?",
+        "en": "Could you please call me back?"
+      },
+      {
+        "de": "Meine Telefonnummer ist ...",
+        "en": "My telephone number is ..."
+      },
+      {
+        "de": "Ich rufe später noch einmal an.",
+        "en": "I will call again later."
+      },
+      {
+        "de": "Auf Wiederhören!",
+        "en": "Goodbye! (on the phone — lit. 'until we hear each other again')"
+      }
+    ]
+  },
+  {
+    "cat": "Persönliche Informationen",
+    "en": "Personal Information",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich komme aus ...",
+        "en": "I come from ..."
+      },
+      {
+        "de": "Ich wohne in ...",
+        "en": "I live in ..."
+      },
+      {
+        "de": "Ich bin ... Jahre alt.",
+        "en": "I am ... years old."
+      },
+      {
+        "de": "Ich bin verheiratet / ledig / geschieden.",
+        "en": "I am married / single / divorced."
+      },
+      {
+        "de": "Ich habe ... Kinder / Geschwister.",
+        "en": "I have ... children / siblings."
+      },
+      {
+        "de": "Meine Familie besteht aus ...",
+        "en": "My family consists of ..."
+      },
+      {
+        "de": "Mein Vater / Meine Mutter ist ...",
+        "en": "My father / mother is ..."
+      },
+      {
+        "de": "Ich arbeite als ...",
+        "en": "I work as ..."
+      },
+      {
+        "de": "Ich lerne Deutsch seit ... Monaten / Jahren.",
+        "en": "I have been learning German for ... months / years."
+      }
+    ]
+  },
+  {
+    "cat": "Tagesablauf beschreiben",
+    "en": "Describing Daily Routines",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich stehe um ... Uhr auf.",
+        "en": "I get up at ... o'clock."
+      },
+      {
+        "de": "Ich frühstücke um ...",
+        "en": "I have breakfast at ..."
+      },
+      {
+        "de": "Ich fahre mit dem Bus / Zug / Auto zur Arbeit.",
+        "en": "I take the bus / train / car to work."
+      },
+      {
+        "de": "Ich fange um ... Uhr mit der Arbeit an.",
+        "en": "I start work at ... o'clock."
+      },
+      {
+        "de": "Ich mache Mittagspause von ... bis ...",
+        "en": "I have a lunch break from ... until ..."
+      },
+      {
+        "de": "Nach der Arbeit ...",
+        "en": "After work ..."
+      },
+      {
+        "de": "Abends ...",
+        "en": "In the evenings ..."
+      },
+      {
+        "de": "Ich gehe um ... Uhr ins Bett.",
+        "en": "I go to bed at ... o'clock."
+      }
+    ]
+  },
+  {
+    "cat": "Hobbys & Freizeit",
+    "en": "Hobbies & Free Time",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "In meiner Freizeit ...",
+        "en": "In my free time ..."
+      },
+      {
+        "de": "Ich treibe gern Sport. / Ich spiele gern ...",
+        "en": "I enjoy doing sport. / I enjoy playing ..."
+      },
+      {
+        "de": "Ich mag ... sehr gern.",
+        "en": "I like ... very much."
+      },
+      {
+        "de": "Meine Lieblingshobbys sind ...",
+        "en": "My favourite hobbies are ..."
+      },
+      {
+        "de": "Ich interessiere mich für ...",
+        "en": "I am interested in ..."
+      },
+      {
+        "de": "Am Wochenende ...",
+        "en": "At the weekend ..."
+      },
+      {
+        "de": "Ich gehe oft / manchmal / selten ...",
+        "en": "I often / sometimes / rarely go ..."
+      },
+      {
+        "de": "Das macht mir viel Spaß.",
+        "en": "I enjoy that very much. / That is a lot of fun."
+      }
+    ]
+  },
+  {
+    "cat": "Personen, Orte & Gegenstände beschreiben",
+    "en": "Describing People, Places & Objects",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Er / Sie ist groß / klein / schlank / kräftig.",
+        "en": "He / She is tall / short / slim / stocky."
+      },
+      {
+        "de": "Er / Sie hat ... Haare und ... Augen.",
+        "en": "He / She has ... hair and ... eyes."
+      },
+      {
+        "de": "Er / She trägt ...",
+        "en": "He / She is wearing ..."
+      },
+      {
+        "de": "Er / Sie sieht ... aus.",
+        "en": "He / She looks ..."
+      },
+      {
+        "de": "Das Bild zeigt ...",
+        "en": "The picture shows ..."
+      },
+      {
+        "de": "Im Vordergrund / Hintergrund sieht man ...",
+        "en": "In the foreground / background one can see ..."
+      },
+      {
+        "de": "Links / Rechts im Bild ist / sind ...",
+        "en": "On the left / right of the picture there is / are ..."
+      },
+      {
+        "de": "In der Mitte des Bildes sieht man ...",
+        "en": "In the middle of the picture one can see ..."
+      },
+      {
+        "de": "Der Ort liegt in ...",
+        "en": "The place is located in ..."
+      },
+      {
+        "de": "Das Gebäude ist ... und hat ...",
+        "en": "The building is ... and has ..."
+      },
+      {
+        "de": "Der Gegenstand ist aus ... gemacht.",
+        "en": "The object is made of ..."
+      },
+      {
+        "de": "Es sieht aus wie ...",
+        "en": "It looks like ..."
+      }
+    ]
+  },
+  {
+    "cat": "Beschwerden ausdrücken",
+    "en": "Describing Health Complaints",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich habe Kopfschmerzen / Bauchschmerzen / Halsschmerzen.",
+        "en": "I have a headache / stomach ache / sore throat."
+      },
+      {
+        "de": "Ich habe Fieber.",
+        "en": "I have a fever / a temperature."
+      },
+      {
+        "de": "Mir ist schlecht / übel.",
+        "en": "I feel sick / nauseous."
+      },
+      {
+        "de": "Ich bin erkältet.",
+        "en": "I have a cold."
+      },
+      {
+        "de": "Ich fühle mich nicht wohl.",
+        "en": "I don't feel well."
+      },
+      {
+        "de": "Ich habe Rückenschmerzen / Zahnschmerzen.",
+        "en": "I have back pain / toothache."
+      },
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "en": "I have to go to the doctor."
+      },
+      {
+        "de": "Ich brauche ein Medikament gegen ...",
+        "en": "I need a medicine / remedy for ..."
+      },
+      {
+        "de": "Ich habe mich verletzt.",
+        "en": "I have injured myself."
+      },
+      {
+        "de": "Rufen Sie bitte einen Arzt / den Notruf!",
+        "en": "Please call a doctor / the emergency services!"
+      }
+    ]
+  },
+  {
+    "cat": "Beim Arzt",
+    "en": "At the Doctor's Surgery",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich möchte einen Termin beim Arzt machen.",
+        "en": "I would like to make an appointment with the doctor."
+      },
+      {
+        "de": "Seit wann haben Sie die Schmerzen?",
+        "en": "Since when have you had the pain?"
+      },
+      {
+        "de": "Die Schmerzen habe ich seit ... Tagen / Wochen.",
+        "en": "I have had the pain for ... days / weeks."
+      },
+      {
+        "de": "Wo tut es weh?",
+        "en": "Where does it hurt?"
+      },
+      {
+        "de": "Hier tut es weh. / Das tut sehr weh.",
+        "en": "Here it hurts. / That hurts very much."
+      },
+      {
+        "de": "Ich nehme diese Tabletten.",
+        "en": "I am taking these tablets."
+      },
+      {
+        "de": "Wie oft soll ich das nehmen?",
+        "en": "How often should I take this?"
+      },
+      {
+        "de": "Ich habe eine Allergie gegen ...",
+        "en": "I have an allergy to ..."
+      }
+    ]
+  },
+  {
+    "cat": "Einleitung von Nachrichten",
+    "en": "Opening a Short Message",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Liebe/r ...,",
+        "en": "Dear ..., (informal — Liebe for female, Lieber for male)"
+      },
+      {
+        "de": "Hallo ...,",
+        "en": "Hello ..., (casual / informal)"
+      },
+      {
+        "de": "Ich schreibe dir, weil ...",
+        "en": "I am writing to you because ..."
+      },
+      {
+        "de": "Ich wollte dir schnell schreiben, dass ...",
+        "en": "I just wanted to quickly write to you that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Bestätigen & Absagen",
+    "en": "Confirming & Cancelling",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich kann leider nicht kommen, weil ...",
+        "en": "Unfortunately I cannot come because ..."
+      },
+      {
+        "de": "Ich sage den Termin ab.",
+        "en": "I am cancelling the appointment."
+      },
+      {
+        "de": "Ich bestätige den Termin am ...",
+        "en": "I confirm the appointment on ..."
+      },
+      {
+        "de": "Können wir den Termin verschieben?",
+        "en": "Can we reschedule the appointment?"
+      },
+      {
+        "de": "Ich komme gerne!",
+        "en": "I would love to come!"
+      }
+    ]
+  },
+  {
+    "cat": "Danken & Bitten",
+    "en": "Thanking & Making Requests",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Vielen Dank für ...",
+        "en": "Many thanks for ..."
+      },
+      {
+        "de": "Danke für deine Hilfe!",
+        "en": "Thank you for your help!"
+      },
+      {
+        "de": "Kannst du mir bitte ... schicken / mitbringen?",
+        "en": "Can you please send / bring me ...?"
+      },
+      {
+        "de": "Ich bitte dich um ...",
+        "en": "I am asking you for ..."
+      }
+    ]
+  },
+  {
+    "cat": "Abschluss von Nachrichten",
+    "en": "Closing a Short Message",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Viele Grüße,",
+        "en": "Kind regards, / Best wishes, (informal closing)"
+      },
+      {
+        "de": "Liebe Grüße,",
+        "en": "Warm regards, (informal closing)"
+      },
+      {
+        "de": "Bis bald!",
+        "en": "See you soon!"
+      },
+      {
+        "de": "Ich freue mich auf deine Antwort.",
+        "en": "I look forward to your reply."
+      }
+    ]
+  },
+  {
+    "cat": "Prüfung beginnen & reagieren",
+    "en": "Starting the Exam & Responding to the Examiner",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Darf ich anfangen?",
+        "en": "May I begin?"
+      },
+      {
+        "de": "Bin ich dran?",
+        "en": "Is it my turn?"
+      },
+      {
+        "de": "Einen Moment, bitte.",
+        "en": "One moment, please."
+      },
+      {
+        "de": "Ich habe die Frage nicht verstanden.",
+        "en": "I did not understand the question."
+      },
+      {
+        "de": "Können Sie die Frage bitte wiederholen?",
+        "en": "Could you please repeat the question?"
+      },
+      {
+        "de": "Könnten Sie bitte langsamer sprechen?",
+        "en": "Could you please speak more slowly?"
+      },
+      {
+        "de": "Was bedeutet das Wort ...?",
+        "en": "What does the word ... mean?"
+      },
+      {
+        "de": "Wie sagt man ... auf Deutsch?",
+        "en": "How do you say ... in German?"
+      },
+      {
+        "de": "Ich bin fertig.",
+        "en": "I am finished."
+      },
+      {
+        "de": "Ich weiß es leider nicht.",
+        "en": "Unfortunately I don't know."
+      }
+    ]
+  },
+  {
+    "cat": "Klärung & Verständnis",
+    "en": "Asking for Clarification",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Wie bitte? Ich habe Sie / dich nicht verstanden.",
+        "en": "Pardon? I did not understand you."
+      },
+      {
+        "de": "Können Sie das bitte wiederholen?",
+        "en": "Can you please repeat that?"
+      },
+      {
+        "de": "Können Sie das bitte erklären?",
+        "en": "Can you please explain that?"
+      },
+      {
+        "de": "Was meinen Sie damit?",
+        "en": "What do you mean by that?"
+      },
+      {
+        "de": "Können Sie ein Beispiel geben?",
+        "en": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "cat": "Bild beschreiben — Sprechen Teil 1",
+    "en": "Describing a Picture — Sprechen Teil 1",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Das Bild zeigt ...",
+        "en": "The picture shows ..."
+      },
+      {
+        "de": "Ich sehe ...",
+        "en": "I can see ..."
+      },
+      {
+        "de": "Im Vordergrund / Hintergrund ist / sind ...",
+        "en": "In the foreground / background there is / are ..."
+      },
+      {
+        "de": "In der Mitte des Bildes ...",
+        "en": "In the middle of the picture ..."
+      },
+      {
+        "de": "Links / Rechts sieht man ...",
+        "en": "On the left / right one can see ..."
+      },
+      {
+        "de": "Die Person(en) auf dem Bild ...",
+        "en": "The person / people in the picture ..."
+      },
+      {
+        "de": "Ich denke, die Person ist ...",
+        "en": "I think the person is ..."
+      },
+      {
+        "de": "Es sieht aus, als ob ...",
+        "en": "It looks as if ..."
+      },
+      {
+        "de": "Das Bild macht einen ... Eindruck.",
+        "en": "The picture gives a ... impression."
+      },
+      {
+        "de": "Auf dem Bild sieht man ...",
+        "en": "In the picture you can see ..."
+      },
+      {
+        "de": "Im Vordergrund / Im Hintergrund ist/sind ...",
+        "en": "In the foreground / In the background there is/are ..."
+      },
+      {
+        "de": "Links / Rechts / In der Mitte erkennt man ...",
+        "en": "On the left / On the right / In the middle you can see ..."
+      },
+      {
+        "de": "Die Person / Die Menschen tragen ... und wirken ...",
+        "en": "The person / The people are wearing ... and seem ..."
+      },
+      {
+        "de": "Die Stimmung auf dem Bild ist fröhlich / ernst / hektisch.",
+        "en": "The mood in the picture is cheerful / serious / hectic."
+      },
+      {
+        "de": "Ich glaube, das Bild soll zeigen, dass ...",
+        "en": "I think the picture is meant to show that ..."
+      },
+      {
+        "de": "Ein interessantes Detail ist ...",
+        "en": "An interesting detail is ..."
+      }
+    ]
+  },
+  {
+    "cat": "Modalpartikeln mit Beispielen",
+    "en": "Modal Particles with Usage Examples",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "doch — Das ist doch klar!",
+        "en": "'doch' adds emphasis or expresses mild contradiction — 'Surely that is clear!' / 'But of course that is clear!'"
+      },
+      {
+        "de": "mal — Warte mal!",
+        "en": "'mal' softens a request and sounds more casual — 'Just wait a moment!' / 'Hold on!'"
+      },
+      {
+        "de": "halt / eben — Das ist halt / eben so.",
+        "en": "'halt' / 'eben' express resignation or matter-of-factness — 'That's just the way it is.' / 'That's simply how it is.'"
+      },
+      {
+        "de": "ja — Das weißt du ja.",
+        "en": "'ja' appeals to shared knowledge — 'You know that, of course.' / 'As you know.'"
+      },
+      {
+        "de": "denn — Was machst du denn?",
+        "en": "'denn' adds curiosity or interest to a question — 'What are you doing then?' / 'So what exactly are you doing?'"
+      },
+      {
+        "de": "eigentlich — Was machen Sie eigentlich?",
+        "en": "'eigentlich' softens enquiry — 'What exactly do you do?' / 'What is it you actually do?'"
+      }
+    ]
+  },
+  {
+    "cat": "Anrede & Einleitung",
+    "en": "Address & Opening",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Verehrte Zuhörer!",
+        "en": "Dear / Esteemed listeners!"
+      },
+      {
+        "de": "Darf ich Sie um Ihre Aufmerksamkeit bitten?",
+        "en": "May I have your attention, please?"
+      },
+      {
+        "de": "Ich begrüße Sie (herzlich) zu meiner Präsentation.",
+        "en": "I (warmly) welcome you to my presentation."
+      },
+      {
+        "de": "Wir begrüßen Sie zu unserem Vortrag / Referat.",
+        "en": "We welcome you to our talk / paper."
+      }
+    ]
+  },
+  {
+    "cat": "Thema, Begründung & Gliederung",
+    "en": "Topic, Justification & Structure",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Das Thema meines Vortrags ist / lautet: ...",
+        "en": "The topic of my talk is: ..."
+      },
+      {
+        "de": "Wir werden heute über ... sprechen.",
+        "en": "Today we will be speaking about ..."
+      },
+      {
+        "de": "In meiner Präsentation möchte ich Ihnen heute … vorstellen.",
+        "en": "In my presentation today I would like to introduce you to ..."
+      },
+      {
+        "de": "Ich möchte Ihnen etwas über ... vortragen / präsentieren.",
+        "en": "I would like to present / talk to you about ..."
+      },
+      {
+        "de": "Dieses Thema ist bedeutsam, weil ...",
+        "en": "This topic is significant because ..."
+      },
+      {
+        "de": "Mein Vortrag besteht aus folgenden Teilen: Am Anfang werde ich über ... sprechen, danach über ... und am Ende über ...",
+        "en": "My talk consists of the following parts: First I will speak about ..., then about ..., and finally about ..."
+      },
+      {
+        "de": "Als erstes … / Zu Beginn …",
+        "en": "First of all ... / To begin with ..."
+      },
+      {
+        "de": "Im zweiten Teil werde ich Ihnen ... vorstellen.",
+        "en": "In the second part I will introduce you to ..."
+      },
+      {
+        "de": "Als letztes ... / Im letzten Teil ...",
+        "en": "Lastly ... / In the last part ..."
+      }
+    ]
+  },
+  {
+    "cat": "Hauptteil — Übergänge",
+    "en": "Transitions in the Main Body",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Als erstes / nächstes spreche ich über ...",
+        "en": "First / next I will speak about ..."
+      },
+      {
+        "de": "Ich komme jetzt zu ...",
+        "en": "I am now moving to ..."
+      },
+      {
+        "de": "Der nächste Punkt ...",
+        "en": "The next point ..."
+      },
+      {
+        "de": "Ein weiterer (wichtiger) Punkt ...",
+        "en": "Another (important) point ..."
+      },
+      {
+        "de": "Dann komme ich zu ...",
+        "en": "Then I will come to ..."
+      },
+      {
+        "de": "So viel zu diesem Punkt / Thema ...",
+        "en": "So much for this point / topic ..."
+      }
+    ]
+  },
+  {
+    "cat": "Auf Visuals verweisen & Publikum ansprechen",
+    "en": "Referring to Visuals & Addressing the Audience",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Zu diesem Punkt möchte ich Ihnen ein paar Diagramme / Tabellen zeigen.",
+        "en": "On this point I would like to show you some diagrams / tables."
+      },
+      {
+        "de": "Zu diesem Punkt zeige ich Ihnen später eine Tabelle.",
+        "en": "I will show you a table on this point later."
+      },
+      {
+        "de": "Wie Sie in der Tabelle gesehen haben, …",
+        "en": "As you saw in the table, ..."
+      },
+      {
+        "de": "Können Sie sich vorstellen, dass ...?",
+        "en": "Can you imagine that ...?"
+      },
+      {
+        "de": "Wie Sie wissen / erkennen, ...",
+        "en": "As you know / can see, ..."
+      },
+      {
+        "de": "Sie haben gesehen, dass ...",
+        "en": "You have seen that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Schluss, Zusammenfassung & Fragen",
+    "en": "Conclusion, Summary & Questions",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich möchte nun kurz zusammenfassen: …",
+        "en": "I would now like to briefly summarize: ..."
+      },
+      {
+        "de": "Zum Schluss möchte ich die entscheidenden Punkte nochmal kurz nennen: …",
+        "en": "In conclusion I would like to briefly mention the key points once more: ..."
+      },
+      {
+        "de": "Vielen Dank für Ihre Aufmerksamkeit.",
+        "en": "Thank you very much for your attention."
+      },
+      {
+        "de": "Ich bedanke mich für Ihre Aufmerksamkeit.",
+        "en": "I thank you for your attention."
+      },
+      {
+        "de": "Wenn Sie Fragen haben, beantworte ich sie gern.",
+        "en": "If you have questions, I will be happy to answer them."
+      },
+      {
+        "de": "Das ist eine interessante / schwere Frage.",
+        "en": "That is an interesting / difficult question."
+      },
+      {
+        "de": "Diese Frage kann ich leider nicht beantworten, weil ...",
+        "en": "Unfortunately I cannot answer this question because ..."
+      }
+    ]
+  },
+  {
+    "cat": "Vorschläge machen",
+    "en": "Making Suggestions & Proposals",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich schlage vor, dass wir ...",
+        "en": "I suggest that we ..."
+      },
+      {
+        "de": "Wie wäre es, wenn wir ...?",
+        "en": "How about if we ...?"
+      },
+      {
+        "de": "Wir könnten auch ...",
+        "en": "We could also ..."
+      },
+      {
+        "de": "Was hältst du / halten Sie davon, wenn wir ...?",
+        "en": "What do you think about us ...?"
+      },
+      {
+        "de": "Ich würde vorschlagen, dass ...",
+        "en": "I would suggest that ..."
+      },
+      {
+        "de": "Eine Möglichkeit wäre ...",
+        "en": "One possibility would be ..."
+      },
+      {
+        "de": "Vielleicht könnten wir ...",
+        "en": "Perhaps we could ..."
+      },
+      {
+        "de": "Sollen wir lieber ...?",
+        "en": "Should we rather ...? (suggesting an alternative)"
+      }
+    ]
+  },
+  {
+    "cat": "Zustimmung & Ablehnung beim Planen",
+    "en": "Agreement & Disagreement in Planning",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Das ist ein guter Vorschlag.",
+        "en": "That is a good suggestion."
+      },
+      {
+        "de": "Das ist eine gute Idee, aber ...",
+        "en": "That is a good idea, but ..."
+      },
+      {
+        "de": "Das klingt gut!",
+        "en": "That sounds good!"
+      },
+      {
+        "de": "Einverstanden / Abgemacht!",
+        "en": "Agreed! / It's a deal!"
+      },
+      {
+        "de": "Einigen wir uns auf ...",
+        "en": "Let's agree on ..."
+      },
+      {
+        "de": "Damit bin ich einverstanden.",
+        "en": "I agree with that."
+      },
+      {
+        "de": "Das finde ich nicht so gut, weil ...",
+        "en": "I don't think that is so good, because ..."
+      },
+      {
+        "de": "Das ist leider nicht möglich, weil ...",
+        "en": "That is unfortunately not possible, because ..."
+      },
+      {
+        "de": "Ich bin dagegen, weil ...",
+        "en": "I am against that, because ..."
+      }
+    ]
+  },
+  {
+    "cat": "Termin & Organisation vereinbaren",
+    "en": "Arranging Time, Tasks & Organisation",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Wann passt es dir / Ihnen?",
+        "en": "When suits you?"
+      },
+      {
+        "de": "Mir passt ... am besten.",
+        "en": "... suits me best."
+      },
+      {
+        "de": "Können wir uns auf ... einigen?",
+        "en": "Can we agree on ...?"
+      },
+      {
+        "de": "Wie lange soll das dauern?",
+        "en": "How long should that take?"
+      },
+      {
+        "de": "Wer ist dafür verantwortlich?",
+        "en": "Who is responsible for that?"
+      },
+      {
+        "de": "Das könntest du / Sie übernehmen.",
+        "en": "You could take care of that."
+      },
+      {
+        "de": "Ich kümmere mich um ...",
+        "en": "I will take care of ..."
+      },
+      {
+        "de": "Haben wir alles geplant?",
+        "en": "Have we planned everything?"
+      },
+      {
+        "de": "Ich denke, wir sind fertig.",
+        "en": "I think we are done."
+      }
+    ]
+  },
+  {
+    "cat": "Meinung einholen & auf andere eingehen",
+    "en": "Asking for Opinions & Responding to Others",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Was meinst du / meinen Sie dazu?",
+        "en": "What do you think about that?"
+      },
+      {
+        "de": "Wie siehst du / sehen Sie das?",
+        "en": "How do you see that?"
+      },
+      {
+        "de": "Hast du / Haben Sie noch andere Ideen?",
+        "en": "Do you have any other ideas?"
+      },
+      {
+        "de": "Das ist ein wichtiger Punkt.",
+        "en": "That is an important point."
+      },
+      {
+        "de": "Da bin ich ganz deiner / Ihrer Meinung.",
+        "en": "I completely agree with you on that."
+      },
+      {
+        "de": "Das stimmt, aber man muss auch bedenken, dass ...",
+        "en": "That is true, but one must also consider that ..."
+      },
+      {
+        "de": "Ich verstehe deinen / Ihren Punkt, aber ...",
+        "en": "I understand your point, but ..."
+      },
+      {
+        "de": "Können wir das anders lösen?",
+        "en": "Can we solve that differently?"
+      }
+    ]
+  },
+  {
+    "cat": "Selbstpräsentation, Stärken & Interesse",
+    "en": "Self-Introduction, Strengths & Interest in the Role",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich möchte mich kurz vorstellen: …",
+        "en": "I would like to briefly introduce myself: ..."
+      },
+      {
+        "de": "Ich interessiere mich für die Stelle, weil …",
+        "en": "I am interested in the position because ..."
+      },
+      {
+        "de": "Abschließend möchte ich noch sagen, dass …",
+        "en": "In closing I would like to add that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Wichtigkeit, Überzeugung & Zurückhaltung",
+    "en": "Importance, Conviction & Hedging",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Besondere Bedeutung hat …",
+        "en": "Particular importance is attached to ..."
+      },
+      {
+        "de": "Wir dürfen nicht vergessen, dass …",
+        "en": "We must not forget that ..."
+      },
+      {
+        "de": "Es ist wichtig zu erwähnen, dass …",
+        "en": "It is important to mention that ..."
+      },
+      {
+        "de": "Meiner Ansicht nach …",
+        "en": "From my point of view ..."
+      },
+      {
+        "de": "Es ist doch (ganz) klar, dass …",
+        "en": "It is (quite) clear that ..."
+      },
+      {
+        "de": "Ich halte es für gut, dass …",
+        "en": "I consider it good that ..."
+      },
+      {
+        "de": "Ich bin mir nicht ganz sicher, ob …",
+        "en": "I am not entirely sure whether ..."
+      },
+      {
+        "de": "Ich weiß nicht (so recht), ob …",
+        "en": "I am not (quite) sure whether ..."
+      },
+      {
+        "de": "Da gibt es sowohl Vor- als auch Nachteile.",
+        "en": "There are both advantages and disadvantages to that."
+      }
+    ]
+  },
+  {
+    "cat": "Zeit gewinnen, Feedback & Informationen erfragen",
+    "en": "Buying Time, Giving Feedback & Asking for Information",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Da muss ich kurz überlegen.",
+        "en": "I need to think about that for a moment."
+      },
+      {
+        "de": "Das kann ich Ihnen genau sagen.",
+        "en": "I can tell you that precisely."
+      },
+      {
+        "de": "Der Gedanke gefällt mir gut.",
+        "en": "I really like that idea."
+      },
+      {
+        "de": "Wie sieht es denn mit ... aus?",
+        "en": "What is the situation with ...?"
+      },
+      {
+        "de": "Wie soll das denn genau aussehen?",
+        "en": "What exactly would that look like?"
+      }
+    ]
+  },
+  {
+    "cat": "Meinung begründen",
+    "en": "Justifying & Giving Reasons for Opinions",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Meiner Meinung nach ..., weil ...",
+        "en": "In my opinion ..., because ..."
+      },
+      {
+        "de": "Ich bin der Meinung, dass ...",
+        "en": "I am of the opinion that ..."
+      },
+      {
+        "de": "Das finde ich wichtig, weil ...",
+        "en": "I find that important because ..."
+      },
+      {
+        "de": "Ich denke, dass ..., und zwar deshalb, weil ...",
+        "en": "I think that ..., specifically because ..."
+      },
+      {
+        "de": "Aus diesem Grund ...",
+        "en": "For this reason ..."
+      },
+      {
+        "de": "Deshalb / Daher / Darum ...",
+        "en": "Therefore / That is why ..."
+      },
+      {
+        "de": "Ich finde das (nicht) gut, weil ...",
+        "en": "I think that is (not) good, because ..."
+      }
+    ]
+  },
+  {
+    "cat": "Auf andere Meinungen reagieren",
+    "en": "Reacting to Others' Opinions",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Da bin ich ganz Ihrer / deiner Meinung.",
+        "en": "I completely agree with you."
+      },
+      {
+        "de": "Das sehe ich genauso.",
+        "en": "I see it exactly the same way."
+      },
+      {
+        "de": "Das stimmt, aber man muss auch bedenken, dass ...",
+        "en": "That is true, but one must also consider that ..."
+      },
+      {
+        "de": "Ich verstehe Ihren Punkt, aber ...",
+        "en": "I understand your point, but ..."
+      },
+      {
+        "de": "Das sehe ich etwas anders, weil ...",
+        "en": "I see that a little differently, because ..."
+      },
+      {
+        "de": "Das ist ein interessanter Gedanke, jedoch ...",
+        "en": "That is an interesting thought, however ..."
+      },
+      {
+        "de": "Sie haben recht, aber ...",
+        "en": "You are right, but ..."
+      },
+      {
+        "de": "Ich bin anderer Meinung.",
+        "en": "I have a different opinion."
+      }
+    ]
+  },
+  {
+    "cat": "Vor- und Nachteile nennen",
+    "en": "Listing Pros and Cons",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ein Vorteil ist, dass ...",
+        "en": "One advantage is that ..."
+      },
+      {
+        "de": "Ein Nachteil ist, dass ...",
+        "en": "One disadvantage is that ..."
+      },
+      {
+        "de": "Auf der einen Seite ..., auf der anderen Seite ...",
+        "en": "On the one side ..., on the other side ..."
+      },
+      {
+        "de": "Einerseits hat das Vorteile, andererseits ...",
+        "en": "On one hand there are advantages, on the other hand ..."
+      },
+      {
+        "de": "Ein weiterer Vorteil / Nachteil ist, dass ...",
+        "en": "A further advantage / disadvantage is that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Ratschläge geben",
+    "en": "Giving Advice",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Sie sollten / Du solltest ...",
+        "en": "You should ..."
+      },
+      {
+        "de": "Ich empfehle Ihnen / dir ...",
+        "en": "I recommend that you ..."
+      },
+      {
+        "de": "Am besten ...",
+        "en": "It is best to ..."
+      },
+      {
+        "de": "Es wäre gut, wenn Sie / du ...",
+        "en": "It would be good if you ..."
+      },
+      {
+        "de": "Warum probieren Sie / probierst du nicht ...?",
+        "en": "Why don't you try ...?"
+      },
+      {
+        "de": "An Ihrer / deiner Stelle würde ich ...",
+        "en": "If I were you, I would ..."
+      }
+    ]
+  },
+  {
+    "cat": "Diskussion führen",
+    "en": "Conducting a Discussion",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich stimme zu, dass ...",
+        "en": "I agree that ..."
+      },
+      {
+        "de": "Ich stimme nicht zu, dass ...",
+        "en": "I do not agree that ..."
+      },
+      {
+        "de": "Können Sie / Kannst du das erklären?",
+        "en": "Can you explain that?"
+      },
+      {
+        "de": "Ich möchte noch ergänzen, dass ...",
+        "en": "I would like to add that ..."
+      },
+      {
+        "de": "Darf ich kurz unterbrechen?",
+        "en": "May I briefly interrupt?"
+      },
+      {
+        "de": "Ich möchte auf Ihren Punkt eingehen.",
+        "en": "I would like to address your point."
+      }
+    ]
+  },
+  {
+    "cat": "Vergangenes berichten",
+    "en": "Narrating Past Events",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Das habe ich schon einmal erlebt.",
+        "en": "I have experienced that before."
+      },
+      {
+        "de": "Ich habe das zum ersten Mal gemacht.",
+        "en": "I did that for the first time."
+      },
+      {
+        "de": "Als ich Kind war, ...",
+        "en": "When I was a child, ..."
+      },
+      {
+        "de": "Früher habe ich oft ...",
+        "en": "In the past I often ..."
+      },
+      {
+        "de": "Damals war es so, dass ...",
+        "en": "Back then, it was like this: ..."
+      },
+      {
+        "de": "Ich erinnere mich gut daran, dass ...",
+        "en": "I remember well that ..."
+      },
+      {
+        "de": "Das war ein unvergessliches Erlebnis.",
+        "en": "That was an unforgettable experience."
+      },
+      {
+        "de": "Seitdem habe ich ...",
+        "en": "Since then I have ..."
+      },
+      {
+        "de": "Zuerst ... / Dann ... / Danach ... / Am Ende ...",
+        "en": "First ... / Then ... / After that ... / In the end ..."
+      }
+    ]
+  },
+  {
+    "cat": "Persönliche Erfahrung einbringen",
+    "en": "Connecting Personal Experience to a Topic",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "In meinem Heimatland ist es so, dass ...",
+        "en": "In my home country, it is the case that ..."
+      },
+      {
+        "de": "Aus meiner eigenen Erfahrung kann ich sagen, dass ...",
+        "en": "From my own experience I can say that ..."
+      },
+      {
+        "de": "Ich kenne das aus eigener Erfahrung.",
+        "en": "I know that from personal experience."
+      },
+      {
+        "de": "Bei uns zu Hause war es üblich, dass ...",
+        "en": "Back home it was common practice to ..."
+      },
+      {
+        "de": "Das habe ich selbst erlebt, als ...",
+        "en": "I experienced that myself when ..."
+      },
+      {
+        "de": "Das ist anders als in meinem Heimatland, wo ...",
+        "en": "That is different from my home country, where ..."
+      }
+    ]
+  },
+  {
+    "cat": "Wünsche & Träume ausdrücken — Konjunktiv II",
+    "en": "Expressing Wishes & Dreams — Subjunctive II",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich würde gern ...",
+        "en": "I would like to ... (würde + infinitive — most common form)"
+      },
+      {
+        "de": "Ich wünschte, ich könnte ...",
+        "en": "I wish I could ... (könnte — subjunctive II of können)"
+      },
+      {
+        "de": "Es wäre schön, wenn ...",
+        "en": "It would be nice if ... (wäre — subjunctive II of sein)"
+      },
+      {
+        "de": "Ich hätte gerne mehr Zeit für ...",
+        "en": "I would like to have more time for ... (hätte — subjunctive II of haben)"
+      },
+      {
+        "de": "Wenn ich ... hätte / wäre, würde ich ...",
+        "en": "If I had / were ..., I would ... (conditional clause with Konjunktiv II)"
+      },
+      {
+        "de": "Ich würde am liebsten ...",
+        "en": "Most of all I would like to ... (am liebsten — at most preferred)"
+      },
+      {
+        "de": "Mein größter Wunsch wäre ...",
+        "en": "My greatest wish would be ..."
+      },
+      {
+        "de": "Es wäre toll, wenn ...",
+        "en": "It would be great if ..."
+      }
+    ]
+  },
+  {
+    "cat": "Formelle Anrede & Einleitung",
+    "en": "Formal Address & Opening",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Sehr geehrte Damen und Herren,",
+        "en": "Dear Sir or Madam, (when no name is known — standard formal opening)"
+      },
+      {
+        "de": "Sehr geehrter Herr ... / Sehr geehrte Frau ...,",
+        "en": "Dear Mr ... / Dear Ms ..., (when name is known — formal)"
+      },
+      {
+        "de": "Ich schreibe Ihnen, weil ...",
+        "en": "I am writing to you because ..."
+      },
+      {
+        "de": "Ich möchte mich erkundigen, ob ...",
+        "en": "I would like to enquire whether ..."
+      },
+      {
+        "de": "Ich möchte Ihnen mitteilen, dass ...",
+        "en": "I would like to inform you that ..."
+      },
+      {
+        "de": "Bezüglich Ihrer Anfrage / Anzeige ...",
+        "en": "With regard to your enquiry / advertisement ..."
+      },
+      {
+        "de": "Vielen Dank für Ihre E-Mail vom ...",
+        "en": "Thank you very much for your email of ... (date)"
+      }
+    ]
+  },
+  {
+    "cat": "Informationen anfragen",
+    "en": "Requesting Information about Courses, Events etc.",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich möchte mich erkundigen, ob ...",
+        "en": "I would like to enquire whether ..."
+      },
+      {
+        "de": "Könnten Sie mir bitte mitteilen, ob ...?",
+        "en": "Could you please let me know whether ...?"
+      },
+      {
+        "de": "Ich hätte eine Frage zu ...",
+        "en": "I have a question about ..."
+      },
+      {
+        "de": "Könnten Sie mir bitte Informationen zu ... schicken?",
+        "en": "Could you please send me information about ...?"
+      },
+      {
+        "de": "Ich interessiere mich für ... und wäre Ihnen dankbar, wenn Sie mir mehr darüber berichten könnten.",
+        "en": "I am interested in ... and would be grateful if you could tell me more about it."
+      }
+    ]
+  },
+  {
+    "cat": "Auf Einladungen reagieren",
+    "en": "Responding to Invitations",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich freue mich sehr über Ihre Einladung.",
+        "en": "I am very pleased about your invitation."
+      },
+      {
+        "de": "Ich nehme Ihre Einladung gerne an.",
+        "en": "I gladly accept your invitation."
+      },
+      {
+        "de": "Ich komme gerne zu ...",
+        "en": "I would love to come to ..."
+      },
+      {
+        "de": "Leider kann ich nicht kommen, weil ...",
+        "en": "Unfortunately I cannot come because ..."
+      },
+      {
+        "de": "Es tut mir sehr leid, aber ich muss absagen.",
+        "en": "I am very sorry, but I have to cancel."
+      },
+      {
+        "de": "Könnten wir einen anderen Termin vereinbaren?",
+        "en": "Could we arrange a different date?"
+      }
+    ]
+  },
+  {
+    "cat": "Sich entschuldigen (schriftlich)",
+    "en": "Apologising in Writing",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich möchte mich herzlich bei Ihnen entschuldigen.",
+        "en": "I would like to sincerely apologise to you."
+      },
+      {
+        "de": "Leider muss ich Ihnen mitteilen, dass ...",
+        "en": "Unfortunately I must inform you that ..."
+      },
+      {
+        "de": "Es tut mir leid, dass ...",
+        "en": "I am sorry that ..."
+      },
+      {
+        "de": "Ich bitte Sie, mir zu verzeihen.",
+        "en": "I ask you to forgive me."
+      },
+      {
+        "de": "Das war mein Fehler, und ich werde dafür sorgen, dass ...",
+        "en": "That was my mistake, and I will ensure that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Bitten & Dankbarkeit ausdrücken",
+    "en": "Making Requests & Expressing Gratitude",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich bitte Sie, ...",
+        "en": "I kindly request that you ..."
+      },
+      {
+        "de": "Ich wäre Ihnen sehr dankbar, wenn Sie ...",
+        "en": "I would be very grateful to you if you ..."
+      },
+      {
+        "de": "Ich wäre Ihnen dankbar, wenn ...",
+        "en": "I would be grateful if ..."
+      },
+      {
+        "de": "Könnten Sie mir bitte ...?",
+        "en": "Could you please ...?"
+      },
+      {
+        "de": "Vielen Dank im Voraus.",
+        "en": "Thank you very much in advance."
+      },
+      {
+        "de": "Ich danke Ihnen herzlich für ...",
+        "en": "I sincerely thank you for ..."
+      }
+    ]
+  },
+  {
+    "cat": "Formeller Abschluss",
+    "en": "Formal Closing",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Für Rückfragen stehe ich gern zur Verfügung.",
+        "en": "I am happy to be available for any further queries."
+      },
+      {
+        "de": "Ich freue mich auf Ihre Antwort.",
+        "en": "I look forward to your reply."
+      },
+      {
+        "de": "Mit freundlichen Grüßen,",
+        "en": "Kind regards, / Yours sincerely, (standard formal closing in German)"
+      },
+      {
+        "de": "Mit freundlichem Gruß,",
+        "en": "With kind regards, (slightly less formal variant)"
+      },
+      {
+        "de": "Hochachtungsvoll,",
+        "en": "Yours faithfully, (very formal — used when you do not know the person)"
+      },
+      {
+        "de": "Ich würde mich über eine baldige Antwort freuen.",
+        "en": "I would appreciate a prompt reply."
+      }
+    ]
+  },
+  {
+    "cat": "Einladungen & Verabredungen (B1)",
+    "en": "Invitations & Arrangements",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich würde dich / Sie gerne zu ... einladen.",
+        "en": "I would like to invite you to ..."
+      },
+      {
+        "de": "Hast du / Haben Sie Lust, am ... zu ...?",
+        "en": "Do you feel like ... on ...?"
+      },
+      {
+        "de": "Das klingt wunderbar, ich komme gerne!",
+        "en": "That sounds wonderful, I would love to come!"
+      },
+      {
+        "de": "Ich freue mich schon sehr darauf.",
+        "en": "I am really looking forward to it."
+      },
+      {
+        "de": "Leider habe ich an dem Tag schon etwas vor.",
+        "en": "Unfortunately I already have plans that day."
+      },
+      {
+        "de": "Können wir einen anderen Termin finden?",
+        "en": "Can we find a different date?"
+      }
+    ]
+  },
+  {
+    "cat": "Sich entschuldigen (B1)",
+    "en": "Apologising — B1 Level",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Es tut mir wirklich leid.",
+        "en": "I am truly sorry."
+      },
+      {
+        "de": "Ich entschuldige mich aufrichtig.",
+        "en": "I sincerely apologise."
+      },
+      {
+        "de": "Das hätte nicht passieren sollen.",
+        "en": "That should not have happened."
+      },
+      {
+        "de": "Ich versichere Ihnen / dir, dass ...",
+        "en": "I assure you that ..."
+      },
+      {
+        "de": "Das werde ich nicht wieder vorkommen lassen.",
+        "en": "I will not let that happen again."
+      }
+    ]
+  },
+  {
+    "cat": "Überraschung & Unglaube ausdrücken",
+    "en": "Expressing Surprise & Disbelief",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Das überrascht mich!",
+        "en": "That surprises me!"
+      },
+      {
+        "de": "Das hätte ich nicht gedacht!",
+        "en": "I would not have thought that!"
+      },
+      {
+        "de": "Das ist ja unglaublich!",
+        "en": "That is incredible!"
+      },
+      {
+        "de": "Wirklich? Das wusste ich nicht.",
+        "en": "Really? I didn't know that."
+      },
+      {
+        "de": "Das ist kaum zu glauben.",
+        "en": "That is hard to believe."
+      },
+      {
+        "de": "Das kann doch nicht sein!",
+        "en": "That can't be right! / Surely that can't be true!"
+      },
+      {
+        "de": "Erstaunlich! / Unglaublich!",
+        "en": "Astonishing! / Incredible!"
+      }
+    ]
+  },
+  {
+    "cat": "Telefongespräche (B1)",
+    "en": "Phone Conversation Phrases — B1 Level",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Hier ist ... / Am Apparat.",
+        "en": "This is ... / Speaking. (identifying yourself on the phone — 'Am Apparat' is formal)"
+      },
+      {
+        "de": "Ich verbinde Sie mit ...",
+        "en": "I am connecting you to ... / I will put you through to ..."
+      },
+      {
+        "de": "Könnten Sie mich bitte zurückrufen?",
+        "en": "Could you please call me back?"
+      },
+      {
+        "de": "Ich rufe wegen ... an.",
+        "en": "I am calling about ..."
+      },
+      {
+        "de": "Können Sie bitte eine Nachricht ausrichten?",
+        "en": "Could you please pass on a message?"
+      },
+      {
+        "de": "Ich versuche es später noch einmal.",
+        "en": "I will try again later."
+      },
+      {
+        "de": "Die Leitung ist leider besetzt.",
+        "en": "The line is unfortunately busy."
+      },
+      {
+        "de": "Bitte hinterlassen Sie eine Nachricht nach dem Signalton.",
+        "en": "Please leave a message after the beep."
+      }
+    ]
+  },
+  {
+    "cat": "Hypothesen & Bedingungen",
+    "en": "Hypotheses & Conditional Phrases",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Wenn ..., dann ...",
+        "en": "If ..., then ..."
+      },
+      {
+        "de": "Falls ..., so ...",
+        "en": "If (in case) ..., then ..."
+      },
+      {
+        "de": "Es könnte sein, dass ...",
+        "en": "It could be that ..."
+      },
+      {
+        "de": "Angenommen, dass ...",
+        "en": "Assuming that ..."
+      },
+      {
+        "de": "Unter der Bedingung, dass ...",
+        "en": "On the condition that ..."
+      }
+    ]
+  },
+  {
+    "cat": "Modalpartikeln mit Beispielen (B1)",
+    "en": "Modal Particles — B1 Level with Usage Examples",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "doch — Das ist doch klar!",
+        "en": "'doch' adds emphasis, contradiction or confirmation — 'Surely that is clear!' / 'But of course that's obvious!'"
+      },
+      {
+        "de": "mal — Schau mal!",
+        "en": "'mal' softens requests and adds a casual tone — 'Just have a look!' / 'Take a look at this!'"
+      },
+      {
+        "de": "halt / eben — Das ist halt / eben schwierig.",
+        "en": "'halt'/'eben' express inevitability — 'That is just difficult.' / 'That's simply how it is.'"
+      },
+      {
+        "de": "ja — Du weißt ja, dass ...",
+        "en": "'ja' appeals to shared knowledge — 'You know, of course, that ...' / 'As you know, ...'"
+      },
+      {
+        "de": "eigentlich — Eigentlich wollte ich früher kommen.",
+        "en": "'eigentlich' indicates a deviation from expectation — 'Actually, I wanted to come earlier.' / 'I had originally planned to come earlier.'"
+      },
+      {
+        "de": "wohl — Sie ist wohl krank.",
+        "en": "'wohl' expresses probability or supposition — 'She is probably ill.' / 'She must be ill, I would think.'"
+      },
+      {
+        "de": "denn — Warum kommst du denn nicht?",
+        "en": "'denn' adds curious interest to questions — 'Why aren't you coming then?' / 'So why exactly aren't you coming?'"
+      }
+    ]
+  },
+  {
+    "cat": "Gesprächsführung",
+    "en": "Managing the Conversation",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Darf ich anfangen?",
+        "en": "May I begin?"
+      },
+      {
+        "de": "Soll ich anfangen?",
+        "en": "Shall I begin? (offering to start)"
+      },
+      {
+        "de": "Darf ich noch etwas ergänzen?",
+        "en": "May I add something?"
+      },
+      {
+        "de": "Ich bin fertig mit diesem Punkt.",
+        "en": "I have finished with this point."
+      },
+      {
+        "de": "Darf ich kurz unterbrechen?",
+        "en": "May I briefly interrupt?"
+      },
+      {
+        "de": "Was denken Sie / denkst du dazu?",
+        "en": "What do you think about that?"
+      },
+      {
+        "de": "Ich stimme zu / Ich stimme nicht zu.",
+        "en": "I agree. / I do not agree."
+      }
+    ]
+  },
+  {
+    "cat": "Klärung & Verständnis",
+    "en": "Clarification & Understanding",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich habe das nicht ganz verstanden.",
+        "en": "I did not quite understand that."
+      },
+      {
+        "de": "Könnten Sie das bitte wiederholen?",
+        "en": "Could you please repeat that?"
+      },
+      {
+        "de": "Was meinen Sie mit ...?",
+        "en": "What do you mean by ...?"
+      },
+      {
+        "de": "Können Sie das bitte erläutern?",
+        "en": "Could you please elaborate on that?"
+      },
+      {
+        "de": "Habe ich das richtig verstanden, dass ...?",
+        "en": "Have I understood correctly that ...?"
+      },
+      {
+        "de": "Anders gesagt ...",
+        "en": "In other words ..."
+      }
+    ]
+  },
+  {
+    "cat": "Meinung äußern & begründen",
+    "en": "Expressing & justifying opinions",
+    "topic": "Argumentation",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Meiner Meinung nach ist das ein wichtiges Thema.",
+        "en": "In my opinion, this is an important topic."
+      },
+      {
+        "de": "Ich bin der Überzeugung, dass wir handeln müssen.",
+        "en": "I am convinced that we must act."
+      },
+      {
+        "de": "Es steht außer Frage, dass Bildung wichtig ist.",
+        "en": "There is no doubt that education is important."
+      },
+      {
+        "de": "Ich möchte betonen, dass dies kein einfaches Problem ist.",
+        "en": "I would like to emphasise that this is not a simple problem."
+      },
+      {
+        "de": "Ich halte es für unerlässlich, dass wir zusammenarbeiten.",
+        "en": "I consider it essential that we work together."
+      },
+      {
+        "de": "Das lässt sich damit begründen, dass …",
+        "en": "This can be justified by the fact that …"
+      },
+      {
+        "de": "Dafür spricht, dass …",
+        "en": "In favour of this is the fact that …"
+      },
+      {
+        "de": "Dagegen lässt sich einwenden, dass …",
+        "en": "Against this one can object that …"
+      },
+      {
+        "de": "Aus diesem Grund bin ich der Ansicht, dass …",
+        "en": "For this reason I am of the opinion that …"
+      },
+      {
+        "de": "Ich sehe das aus einer anderen Perspektive.",
+        "en": "I see this from a different perspective."
+      }
+    ]
+  },
+  {
+    "cat": "Zustimmen & widersprechen",
+    "en": "Agreeing & disagreeing",
+    "topic": "Diskussion",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Da stimme ich Ihnen vollkommen zu.",
+        "en": "I completely agree with you on that."
+      },
+      {
+        "de": "Das sehe ich genauso wie Sie.",
+        "en": "I see it exactly the same way as you."
+      },
+      {
+        "de": "Sie haben absolut Recht damit.",
+        "en": "You are absolutely right about that."
+      },
+      {
+        "de": "Ich muss Ihnen in diesem Punkt widersprechen.",
+        "en": "I must disagree with you on this point."
+      },
+      {
+        "de": "Das kann ich so nicht stehen lassen.",
+        "en": "I cannot let that stand unchallenged."
+      },
+      {
+        "de": "Da bin ich anderer Meinung.",
+        "en": "I disagree on that."
+      },
+      {
+        "de": "Einerseits haben Sie Recht, andererseits …",
+        "en": "On the one hand you are right, on the other hand …"
+      },
+      {
+        "de": "Das mag stimmen, aber man sollte auch bedenken, dass …",
+        "en": "That may be true, but one should also consider that …"
+      },
+      {
+        "de": "Ich kann Ihren Standpunkt verstehen, teile ihn aber nicht.",
+        "en": "I can understand your point of view, but I do not share it."
+      },
+      {
+        "de": "Das sehe ich etwas differenzierter.",
+        "en": "I see that in a more nuanced way."
+      }
+    ]
+  },
+  {
+    "cat": "Vor- und Nachteile abwägen",
+    "en": "Weighing up advantages and disadvantages",
+    "topic": "Argumentation",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Ein wesentlicher Vorteil ist, dass …",
+        "en": "A significant advantage is that …"
+      },
+      {
+        "de": "Ein nicht zu unterschätzender Nachteil besteht darin, dass …",
+        "en": "A not-to-be-underestimated disadvantage consists in the fact that …"
+      },
+      {
+        "de": "Auf der einen Seite … auf der anderen Seite …",
+        "en": "On the one side … on the other side …"
+      },
+      {
+        "de": "Es ist nicht von der Hand zu weisen, dass …",
+        "en": "It cannot be denied that …"
+      },
+      {
+        "de": "Hinzu kommt, dass …",
+        "en": "Added to this is the fact that …"
+      },
+      {
+        "de": "Abgesehen davon, dass …",
+        "en": "Apart from the fact that …"
+      },
+      {
+        "de": "Letztendlich überwiegen die Vorteile.",
+        "en": "Ultimately the advantages outweigh the disadvantages."
+      },
+      {
+        "de": "Alles in allem lässt sich sagen, dass …",
+        "en": "All in all one can say that …"
+      },
+      {
+        "de": "Wenn man die Vor- und Nachteile abwägt, …",
+        "en": "When weighing up the pros and cons, …"
+      },
+      {
+        "de": "Im Vergleich dazu ist … deutlich besser.",
+        "en": "In comparison to that, … is clearly better."
+      }
+    ]
+  },
+  {
+    "cat": "Probleme beschreiben & Lösungen vorschlagen",
+    "en": "Describing problems & suggesting solutions",
+    "topic": "Diskussion",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Das eigentliche Problem liegt darin, dass …",
+        "en": "The actual problem lies in the fact that …"
+      },
+      {
+        "de": "Es handelt sich hierbei um ein strukturelles Problem.",
+        "en": "This is a structural problem."
+      },
+      {
+        "de": "Eine mögliche Lösung wäre, wenn …",
+        "en": "A possible solution would be if …"
+      },
+      {
+        "de": "Man könnte das Problem beheben, indem man …",
+        "en": "One could solve the problem by …"
+      },
+      {
+        "de": "Es wäre sinnvoll, mehr in Bildung zu investieren.",
+        "en": "It would make sense to invest more in education."
+      },
+      {
+        "de": "Ich schlage vor, dass wir zunächst …",
+        "en": "I suggest that we first …"
+      },
+      {
+        "de": "Um dem entgegenzuwirken, sollte man …",
+        "en": "To counteract this, one should …"
+      },
+      {
+        "de": "Entscheidend ist, dass alle Beteiligten zusammenarbeiten.",
+        "en": "What is decisive is that all involved work together."
+      },
+      {
+        "de": "Auf lange Sicht ist das keine nachhaltige Lösung.",
+        "en": "In the long run that is not a sustainable solution."
+      },
+      {
+        "de": "Kurzfristig könnte man …, langfristig sollte man …",
+        "en": "In the short term one could …, in the long term one should …"
+      }
+    ]
+  },
+  {
+    "cat": "Hypothesen & Bedingungen ausdrücken",
+    "en": "Expressing hypotheses & conditions",
+    "topic": "Argumentation",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Wenn man davon ausgeht, dass …, dann …",
+        "en": "If one assumes that …, then …"
+      },
+      {
+        "de": "Angenommen, das stimmt, dann müssten wir …",
+        "en": "Assuming that is true, we would have to …"
+      },
+      {
+        "de": "Unter der Voraussetzung, dass …",
+        "en": "On the condition that …"
+      },
+      {
+        "de": "Das würde bedeuten, dass …",
+        "en": "That would mean that …"
+      },
+      {
+        "de": "Sofern das zutrifft, …",
+        "en": "Insofar as that is the case, …"
+      },
+      {
+        "de": "Im Falle, dass … eintritt, …",
+        "en": "In the event that … occurs, …"
+      },
+      {
+        "de": "Selbst wenn das der Fall wäre, …",
+        "en": "Even if that were the case, …"
+      },
+      {
+        "de": "Das würde voraussetzen, dass …",
+        "en": "That would presuppose that …"
+      },
+      {
+        "de": "Es könnte sein, dass … — das lässt sich jedoch nicht belegen.",
+        "en": "It could be that … — however, that cannot be proven."
+      },
+      {
+        "de": "Rein hypothetisch gesehen, …",
+        "en": "Purely hypothetically speaking, …"
+      }
+    ]
+  },
+  {
+    "cat": "Texte zusammenfassen & referieren",
+    "en": "Summarising texts & reporting",
+    "topic": "Schreiben & Lesen",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Der Text / Artikel befasst sich mit dem Thema …",
+        "en": "The text / article deals with the topic of …"
+      },
+      {
+        "de": "Im Mittelpunkt steht die Frage, ob …",
+        "en": "At the centre is the question of whether …"
+      },
+      {
+        "de": "Der Autor / Die Autorin vertritt die These, dass …",
+        "en": "The author argues the thesis that …"
+      },
+      {
+        "de": "Als Beleg führt er / sie an, dass …",
+        "en": "As evidence he / she cites the fact that …"
+      },
+      {
+        "de": "Zusammenfassend lässt sich sagen, dass …",
+        "en": "In summary one can say that …"
+      },
+      {
+        "de": "Abschließend kommt der Autor zu dem Schluss, dass …",
+        "en": "In conclusion the author arrives at the conclusion that …"
+      },
+      {
+        "de": "Laut dem Artikel / der Studie …",
+        "en": "According to the article / the study …"
+      },
+      {
+        "de": "Der Verfasser stellt fest, dass …",
+        "en": "The author notes that …"
+      },
+      {
+        "de": "Darüber hinaus wird darauf hingewiesen, dass …",
+        "en": "Furthermore, it is pointed out that …"
+      },
+      {
+        "de": "Der Text gibt Anlass zu der Frage, ob …",
+        "en": "The text gives cause to the question of whether …"
+      }
+    ]
+  },
+  {
+    "cat": "Bewerbung & formelle Kommunikation",
+    "en": "Applications & formal communication",
+    "topic": "Beruf",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Hiermit bewerbe ich mich um die ausgeschriebene Stelle als …",
+        "en": "I hereby apply for the advertised position as …"
+      },
+      {
+        "de": "Ich bin überzeugt, dass ich Ihren Anforderungen entspreche.",
+        "en": "I am convinced that I meet your requirements."
+      },
+      {
+        "de": "Meine Kenntnisse und Erfahrungen passen ideal zu dieser Stelle.",
+        "en": "My knowledge and experience are ideally suited to this position."
+      },
+      {
+        "de": "Ich freue mich auf ein persönliches Gespräch.",
+        "en": "I look forward to a personal conversation."
+      },
+      {
+        "de": "Ich stehe Ihnen für Rückfragen gern zur Verfügung.",
+        "en": "I am happy to be available for any questions."
+      },
+      {
+        "de": "Im Anhang finden Sie meine vollständigen Bewerbungsunterlagen.",
+        "en": "In the attachment you will find my complete application documents."
+      },
+      {
+        "de": "Mit freundlichen Grüßen",
+        "en": "Yours sincerely"
+      },
+      {
+        "de": "Bezug nehmend auf Ihre Stellenanzeige …",
+        "en": "With reference to your job advertisement …"
+      },
+      {
+        "de": "Ich erlauben mir, Ihnen meine Bewerbung zu übersenden.",
+        "en": "I take the liberty of sending you my application."
+      },
+      {
+        "de": "Ich bin derzeit auf der Suche nach einer neuen beruflichen Herausforderung.",
+        "en": "I am currently looking for a new professional challenge."
+      }
+    ]
+  },
+  {
+    "cat": "Verhandeln & Kompromisse finden",
+    "en": "Negotiating & finding compromises",
+    "topic": "Beruf & Diskussion",
+    "level": "B2",
+    "phrases": [
+      {
+        "de": "Ich wäre bereit, einen Kompromiss zu finden.",
+        "en": "I would be willing to find a compromise."
+      },
+      {
+        "de": "Könnten wir uns auf … einigen?",
+        "en": "Could we agree on …?"
+      },
+      {
+        "de": "Das ist für mich nicht akzeptabel.",
+        "en": "That is not acceptable to me."
+      },
+      {
+        "de": "Unter welchen Bedingungen wären Sie bereit, …?",
+        "en": "Under what conditions would you be willing to …?"
+      },
+      {
+        "de": "Ich denke, wir sollten aufeinander zugehen.",
+        "en": "I think we should meet each other halfway."
+      },
+      {
+        "de": "Das ist ein fairer Vorschlag.",
+        "en": "That is a fair proposal."
+      },
+      {
+        "de": "Ich schlage folgende Lösung vor: …",
+        "en": "I suggest the following solution: …"
+      },
+      {
+        "de": "Wir sind uns in diesem Punkt einig.",
+        "en": "We are in agreement on this point."
+      },
+      {
+        "de": "Ich behalte mir vor, das nochmals zu überdenken.",
+        "en": "I reserve the right to reconsider that."
+      },
+      {
+        "de": "Lassen Sie uns einen Mittelweg finden.",
+        "en": "Let us find a middle way."
+      }
+    ]
+  },
+  {
+    "cat": "Familie und Freunde",
+    "en": "Family and Friends",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Hast du Geschwister?",
+        "en": "Do you have siblings?"
+      },
+      {
+        "de": "Ich habe einen Bruder und eine Schwester.",
+        "en": "I have one brother and one sister."
+      },
+      {
+        "de": "Meine Eltern wohnen in ...",
+        "en": "My parents live in ..."
+      },
+      {
+        "de": "Ich habe einen Hund / eine Katze / kein Haustier.",
+        "en": "I have a dog / a cat / no pet."
+      },
+      {
+        "de": "Wir treffen uns oft am Wochenende.",
+        "en": "We often meet at the weekend."
+      },
+      {
+        "de": "Mein bester Freund / meine beste Freundin heißt ...",
+        "en": "My best friend is called ..."
+      },
+      {
+        "de": "Ich habe viele Freunde in der Schule / bei der Arbeit.",
+        "en": "I have many friends at school / at work."
+      },
+      {
+        "de": "Wie ist deine Familie?",
+        "en": "What is your family like?"
+      }
+    ]
+  },
+  {
+    "cat": "Hobbys und Freizeit",
+    "en": "Hobbies and Free Time",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Was machst du gern in deiner Freizeit?",
+        "en": "What do you like to do in your free time?"
+      },
+      {
+        "de": "Ich spiele gern Fußball / Tennis / Gitarre.",
+        "en": "I like playing football / tennis / guitar."
+      },
+      {
+        "de": "In meiner Freizeit lese ich Bücher / koche ich / höre ich Musik.",
+        "en": "In my free time I read books / cook / listen to music."
+      },
+      {
+        "de": "Ich treffe mich mit Freunden / gehe ins Kino.",
+        "en": "I meet friends / go to the cinema."
+      },
+      {
+        "de": "Am Wochenende schlafe ich lange / mache ich einen Ausflug.",
+        "en": "At the weekend I sleep in / go on a trip."
+      },
+      {
+        "de": "Mein Hobby ist ...",
+        "en": "My hobby is ..."
+      },
+      {
+        "de": "Ich habe nicht viel Freizeit, weil ich viel arbeite.",
+        "en": "I don't have much free time because I work a lot."
+      }
+    ]
+  },
+  {
+    "cat": "Wohnen und Zuhause",
+    "en": "Living and Home",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Ich wohne in einer Wohnung / einem Haus / einem Zimmer.",
+        "en": "I live in a flat / a house / a room."
+      },
+      {
+        "de": "Ich habe ein eigenes Zimmer.",
+        "en": "I have my own room."
+      },
+      {
+        "de": "Die Wohnung ist klein / groß / hell / günstig.",
+        "en": "The flat is small / big / bright / cheap."
+      },
+      {
+        "de": "Ich wohne in der Stadt / auf dem Land / in der Nähe vom Zentrum.",
+        "en": "I live in the city / in the countryside / near the centre."
+      },
+      {
+        "de": "Die Miete kostet ... Euro im Monat.",
+        "en": "The rent is ... euros per month."
+      },
+      {
+        "de": "Wo wohnst du?",
+        "en": "Where do you live?"
+      },
+      {
+        "de": "Ich suche eine neue Wohnung.",
+        "en": "I am looking for a new flat."
+      }
+    ]
+  },
+  {
+    "cat": "Reisen und Verkehrsmittel",
+    "en": "Travel and Means of Transport",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Ich fahre gern in den Urlaub / reise gern.",
+        "en": "I like going on holiday / travelling."
+      },
+      {
+        "de": "Letztes Jahr war ich in Spanien / Italien.",
+        "en": "Last year I was in Spain / Italy."
+      },
+      {
+        "de": "Ich nehme den Bus / die U-Bahn / den Zug / das Auto.",
+        "en": "I take the bus / the underground / the train / the car."
+      },
+      {
+        "de": "Wie komme ich zum Bahnhof / Flughafen?",
+        "en": "How do I get to the station / airport?"
+      },
+      {
+        "de": "Eine Fahrkarte nach Berlin, bitte.",
+        "en": "A ticket to Berlin, please."
+      },
+      {
+        "de": "Der Flug ist um ... Uhr.",
+        "en": "The flight is at ... o'clock."
+      },
+      {
+        "de": "Ich habe Gepäck / nur Handgepäck.",
+        "en": "I have luggage / only hand luggage."
+      }
+    ]
+  },
+  {
+    "cat": "Einfache Bitten und Reaktionen (Alltag)",
+    "en": "Simple Requests and Reactions (Daily Life)",
+    "topic": "",
+    "level": "A1",
+    "phrases": [
+      {
+        "de": "Können Sie mir bitte helfen?",
+        "en": "Can you help me, please?"
+      },
+      {
+        "de": "Haben Sie ...? / Gibt es ...?",
+        "en": "Do you have ...? / Is there ...?"
+      },
+      {
+        "de": "Ich hätte gern ... / Ich möchte ...",
+        "en": "I would like ..."
+      },
+      {
+        "de": "Kann ich das bitte haben? / Darf ich ...?",
+        "en": "Can I have that, please? / May I ...?"
+      },
+      {
+        "de": "Ja, gern. / Ja, natürlich. / Klar!",
+        "en": "Yes, with pleasure. / Yes, of course. / Sure!"
+      },
+      {
+        "de": "Nein, danke. / Leider nicht. / Das passt nicht.",
+        "en": "No, thank you. / Unfortunately not."
+      },
+      {
+        "de": "Das ist zu teuer. Haben Sie etwas Billigeres?",
+        "en": "That is too expensive. Do you have something cheaper?"
+      },
+      {
+        "de": "Entschuldigung, wo finde ich ...?",
+        "en": "Excuse me, where can I find ...?"
+      },
+      {
+        "de": "Könnten Sie das bitte wiederholen?",
+        "en": "Could you please repeat that?"
+      }
+    ]
+  },
+  {
+    "cat": "Vergangenheit erzählen (Wochenende, Ausflug)",
+    "en": "Talking about the Past (Weekend, Trip)",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Letztes Wochenende bin ich ... gewesen.",
+        "en": "Last weekend I went to ..."
+      },
+      {
+        "de": "Zuerst habe ich ..., dann habe ich ... gemacht.",
+        "en": "First I ..., then I did ..."
+      },
+      {
+        "de": "Am Samstag war ich im Park / im Museum / bei Freunden.",
+        "en": "On Saturday I was in the park / at the museum / with friends."
+      },
+      {
+        "de": "Es hat viel Spaß gemacht. / Es war anstrengend / interessant.",
+        "en": "It was a lot of fun. / It was tiring / interesting."
+      },
+      {
+        "de": "Ich habe ein neues Restaurant / einen Film entdeckt.",
+        "en": "I discovered a new restaurant / a film."
+      },
+      {
+        "de": "Am Ende des Tages war ich müde, aber glücklich.",
+        "en": "At the end of the day I was tired but happy."
+      },
+      {
+        "de": "Ich habe viel gelernt / gesehen / erlebt.",
+        "en": "I learned / saw / experienced a lot."
+      }
+    ]
+  },
+  {
+    "cat": "Pläne machen und Vorschläge (A2)",
+    "en": "Making Plans and Suggestions (A2)",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Lass uns ins Kino / ins Restaurant / spazieren gehen.",
+        "en": "Let's go to the cinema / to a restaurant / for a walk."
+      },
+      {
+        "de": "Wie wäre es mit Samstag / mit einem Ausflug?",
+        "en": "How about Saturday / a day trip?"
+      },
+      {
+        "de": "Hast du Lust auf ...? / Was hältst du von ...?",
+        "en": "Do you fancy ...? / What do you think of ...?"
+      },
+      {
+        "de": "Das klingt super / gut / interessant!",
+        "en": "That sounds great / good / interesting!"
+      },
+      {
+        "de": "Leider habe ich keine Zeit, weil ich arbeiten muss.",
+        "en": "Unfortunately I have no time because I have to work."
+      },
+      {
+        "de": "Ein anderes Mal gern. / Vielleicht nächste Woche?",
+        "en": "Another time with pleasure. / Maybe next week?"
+      },
+      {
+        "de": "Ich bin einverstanden. / Okay, abgemacht!",
+        "en": "I agree. / Okay, it's a deal!"
+      },
+      {
+        "de": "Wann und wo treffen wir uns?",
+        "en": "When and where shall we meet?"
+      }
+    ]
+  },
+  {
+    "cat": "Feiern, Geschenke und Einladungen (A2)",
+    "en": "Parties, Gifts and Invitations (A2)",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Was schenkst du ... zum Geburtstag?",
+        "en": "What are you giving ... for their birthday?"
+      },
+      {
+        "de": "Ich lade dich zu meiner Party ein. Kommst du?",
+        "en": "I'm inviting you to my party. Are you coming?"
+      },
+      {
+        "de": "Ich bringe eine Flasche Wein / etwas zu essen mit.",
+        "en": "I'll bring a bottle of wine / something to eat."
+      },
+      {
+        "de": "Herzlichen Glückwunsch zum Geburtstag!",
+        "en": "Happy birthday!"
+      },
+      {
+        "de": "Vielen Dank für die Einladung. Ich komme gern.",
+        "en": "Thank you very much for the invitation. I'd love to come."
+      },
+      {
+        "de": "Ich kann leider nicht kommen, weil ...",
+        "en": "Unfortunately I can't come because ..."
+      },
+      {
+        "de": "Wir feiern im Restaurant / bei mir zu Hause.",
+        "en": "We're celebrating at a restaurant / at my place."
+      }
+    ]
+  },
+  {
+    "cat": "Einfache Meinungen und Begründungen (A2)",
+    "en": "Simple Opinions and Reasons (A2)",
+    "topic": "",
+    "level": "A2",
+    "phrases": [
+      {
+        "de": "Ich finde das gut / nicht so gut, weil ...",
+        "en": "I think that's good / not so good, because ..."
+      },
+      {
+        "de": "Meiner Meinung nach ist ... teuer / langweilig / praktisch.",
+        "en": "In my opinion ... is expensive / boring / practical."
+      },
+      {
+        "de": "Das gefällt mir (nicht), weil ...",
+        "en": "I (don't) like that because ..."
+      },
+      {
+        "de": "Ich mag ... lieber als ...",
+        "en": "I prefer ... to ..."
+      },
+      {
+        "de": "Das ist eine gute / schlechte Idee, finde ich.",
+        "en": "That's a good / bad idea, I think."
+      },
+      {
+        "de": "Warum? — Weil es ... ist.",
+        "en": "Why? — Because it is ..."
+      }
+    ]
+  },
+  {
+    "cat": "Gemeinsam planen – Was, Wann, Wo, Absagen & Zusagen",
+    "en": "Planning Together – What, When, Where, Declining & Accepting",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Was könnten wir machen? / Was denkst du, wenn wir ...?",
+        "en": "What could we do? / What do you think if we ...?"
+      },
+      {
+        "de": "Sollen wir ... oder lieber ...? Was hältst du davon?",
+        "en": "Shall we ... or would you rather ...? What do you think?"
+      },
+      {
+        "de": "Wie sieht es bei dir am Samstag / nächsten Wochenende aus?",
+        "en": "How does Saturday / next weekend look for you?"
+      },
+      {
+        "de": "Hättest du am Samstag um 14 Uhr Zeit? Wäre es für dich in Ordnung, wenn ...?",
+        "en": "Would you have time on Saturday at 2 pm? Would it be okay for you if ...?"
+      },
+      {
+        "de": "Am Samstag kann ich leider nicht – ich muss arbeiten / habe einen Termin.",
+        "en": "Unfortunately I can't on Saturday – I have to work / have an appointment."
+      },
+      {
+        "de": "Könnten wir es auf Sonntag / nächsten Dienstag verschieben?",
+        "en": "Could we move it to Sunday / next Tuesday?"
+      },
+      {
+        "de": "Sonntag klingt ganz gut! / Das ist eine super Idee! / Prima!",
+        "en": "Sunday sounds good! / That's a great idea! / Great!"
+      },
+      {
+        "de": "Das passt mir perfekt. / Das klappt! / Sehr gut, dann machen wir das so.",
+        "en": "That suits me perfectly. / That works! / Very good, let's do it like that."
+      },
+      {
+        "de": "Ich bin flexibel. / Für mich passt alles nach 16 Uhr.",
+        "en": "I'm flexible. / Anything after 4 pm works for me."
+      },
+      {
+        "de": "Einverstanden! / Abgemacht! / Dann bis Samstag!",
+        "en": "Agreed! / It's a deal! / See you Saturday then!"
+      },
+      {
+        "de": "Leider passt es mir nicht so gut, weil ...",
+        "en": "Unfortunately it doesn't suit me so well because ..."
+      },
+      {
+        "de": "Wie wäre es mit ... Uhr im Café / im Park / bei dir?",
+        "en": "How about ... o'clock at the café / in the park / at your place?"
+      }
+    ]
+  },
+  {
+    "cat": "Präsentationsfeedback geben und auf Fragen reagieren (B1)",
+    "en": "Giving Presentation Feedback and Responding to Questions (B1)",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Ich habe deinen Vortrag sehr interessant gefunden, weil ...",
+        "en": "I found your presentation very interesting because ..."
+      },
+      {
+        "de": "Ich wusste nicht, dass ... / Mich hat überrascht, dass ...",
+        "en": "I didn't know that ... / I was surprised that ..."
+      },
+      {
+        "de": "Die Präsentation war gut strukturiert / sehr informativ.",
+        "en": "The presentation was well structured / very informative."
+      },
+      {
+        "de": "Ich habe (aber) eine Frage: ...",
+        "en": "I have (however) a question: ..."
+      },
+      {
+        "de": "Könntest du bitte noch einmal erklären, warum / wie ...?",
+        "en": "Could you please explain again why / how ...?"
+      },
+      {
+        "de": "Danke für deine / Ihre Frage. Ich würde sagen, dass ...",
+        "en": "Thank you for your question. I would say that ..."
+      },
+      {
+        "de": "Das ist eine gute / interessante Frage! Dazu kann ich sagen: ...",
+        "en": "That's a good / interesting question! I can say the following about it: ..."
+      },
+      {
+        "de": "Es freut mich, dass es dir / Ihnen gefallen hat.",
+        "en": "I'm glad you liked it."
+      },
+      {
+        "de": "Vielen Dank für das interessante Feedback.",
+        "en": "Thank you very much for the interesting feedback."
+      },
+      {
+        "de": "Haben Sie / Hast du noch weitere Fragen?",
+        "en": "Do you have any more questions?"
+      }
+    ]
+  },
+  {
+    "cat": "Diskussion und Reagieren – Erweiterungen (B1)",
+    "en": "Discussion and Reacting – Extensions (B1)",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Da bin ich (nicht) ganz deiner / Ihrer Meinung, weil ...",
+        "en": "I (don't) completely agree with you there, because ..."
+      },
+      {
+        "de": "Allerdings muss man auch bedenken, dass ...",
+        "en": "However, one must also consider that ..."
+      },
+      {
+        "de": "Ein gutes Argument dafür / dagegen ist ...",
+        "en": "A good argument for / against it is ..."
+      },
+      {
+        "de": "Lass uns die Vor- und Nachteile noch einmal kurz zusammenfassen.",
+        "en": "Let's briefly summarise the pros and cons again."
+      },
+      {
+        "de": "Ich kann deinen Standpunkt verstehen, aber ...",
+        "en": "I can understand your point of view, but ..."
+      },
+      {
+        "de": "Ein Kompromiss wäre vielleicht ...",
+        "en": "A compromise might be ..."
+      }
+    ]
+  },
+  {
+    "cat": "Schreiben: Textstruktur & Konnektoren (B1)",
+    "en": "Writing: Text Structure & Connectors (B1)",
+    "topic": "",
+    "level": "B1",
+    "phrases": [
+      {
+        "de": "Lieber / Liebe ...,",
+        "en": "Dear ...,"
+      },
+      {
+        "de": "Vielen Dank für deinen / Ihren Brief / deine / Ihre E-Mail.",
+        "en": "Thank you very much for your letter / email."
+      },
+      {
+        "de": "Ich schreibe dir / Ihnen, weil ... / um dir / Ihnen von ... zu erzählen.",
+        "en": "I'm writing to you because ... / to tell you about ..."
+      },
+      {
+        "de": "Zuerst / Zunächst einmal möchte ich ...",
+        "en": "First of all I would like to ..."
+      },
+      {
+        "de": "Ein weiterer wichtiger Punkt ist ...",
+        "en": "Another important point is ..."
+      },
+      {
+        "de": "Außerdem / Des Weiteren / Darüber hinaus ...",
+        "en": "In addition / Furthermore / Moreover ..."
+      },
+      {
+        "de": "Deshalb / Aus diesem Grund ...",
+        "en": "Therefore / For this reason ..."
+      },
+      {
+        "de": "Allerdings / Trotzdem / Dennoch ...",
+        "en": "However / Nevertheless / Still ..."
+      },
+      {
+        "de": "Einerseits ... , andererseits ...",
+        "en": "On the one hand ... , on the other hand ..."
+      },
+      {
+        "de": "Zusammenfassend kann man sagen, dass ...",
+        "en": "To sum up, one can say that ..."
+      },
+      {
+        "de": "Ich hoffe, bald wieder von dir / Ihnen zu hören.",
+        "en": "I hope to hear from you again soon."
+      },
+      {
+        "de": "Herzliche / Viele Grüße",
+        "en": "Best / Kind regards"
+      },
+      {
+        "de": "Mit freundlichen Grüßen",
+        "en": "Yours sincerely / Kind regards (formal)"
+      }
+    ]
+  }
+]

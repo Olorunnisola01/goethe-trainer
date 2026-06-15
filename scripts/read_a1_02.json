@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A1_R21", "level": "A1", "type": "Fahrkarte", "title": "Eine Zugfahrkarte",
+    "text": "FAHRKARTE\n\nVon: Köln Hauptbahnhof\nNach: Frankfurt Hauptbahnhof\nDatum: 12. Mai\nAbfahrt: 14:20 Uhr — Gleis 7\nAnkunft: 15:25 Uhr\n\nPreis: 39 Euro\nWagen 12, Platz 45 (Fenster)\n\nBitte steigen Sie 10 Minuten vor der Abfahrt ein.",
+    "questions": [
+      { "type": "MCQ", "q": "Wohin fährt der Zug?", "opts": ["Nach Köln", "Nach Frankfurt", "Nach Berlin"], "a": 1, "exp": "„Nach: Frankfurt Hauptbahnhof“." },
+      { "type": "MCQ", "q": "Von welchem Gleis fährt der Zug ab?", "opts": ["Gleis 7", "Gleis 12", "Gleis 45"], "a": 0, "exp": "„Abfahrt: 14:20 Uhr — Gleis 7“." },
+      { "type": "TF", "q": "Die Fahrt kostet 39 Euro.", "a": true, "exp": "„Preis: 39 Euro“." },
+      { "type": "TF", "q": "Der Zug kommt um 14:20 Uhr an.", "a": false, "exp": "Um 14:20 fährt er ab; die Ankunft ist um 15:25 Uhr." },
+      { "type": "MCQ", "q": "Wo ist der Sitzplatz?", "opts": ["Am Gang", "Am Fenster", "In der Mitte"], "a": 1, "exp": "„Platz 45 (Fenster)“." }
+    ]
+  },
+  {
+    "id": "A1_R22", "level": "A1", "type": "Rezept", "title": "Rezept für Tomatensuppe",
+    "text": "REZEPT: Tomatensuppe (für 2 Personen)\n\nZutaten:\n- 500 g Tomaten\n- 1 Zwiebel\n- 2 Esslöffel Öl\n- Salz und Pfeffer\n\nZubereitung:\n1. Die Zwiebel klein schneiden.\n2. Das Öl in einem Topf heiß machen.\n3. Zwiebel und Tomaten 15 Minuten kochen.\n4. Mit Salz und Pfeffer würzen.\n\nGuten Appetit!",
+    "questions": [
+      { "type": "MCQ", "q": "Für wie viele Personen ist das Rezept?", "opts": ["1", "2", "4"], "a": 1, "exp": "„für 2 Personen“." },
+      { "type": "TF", "q": "Man braucht 500 g Tomaten.", "a": true, "exp": "„500 g Tomaten“." },
+      { "type": "TF", "q": "Man kocht alles 30 Minuten.", "a": false, "exp": "„15 Minuten kochen“." },
+      { "type": "MCQ", "q": "Was macht man zuerst?", "opts": ["Die Zwiebel klein schneiden", "Salz dazugeben", "Die Suppe essen"], "a": 0, "exp": "Schritt 1: „Die Zwiebel klein schneiden.“" },
+      { "type": "TF", "q": "Man würzt mit Salz und Pfeffer.", "a": true, "exp": "„Mit Salz und Pfeffer würzen.“" }
+    ]
+  },
+  {
+    "id": "A1_R23", "level": "A1", "type": "E-Mail", "title": "Danke für das Geschenk",
+    "text": "Betreff: Danke!\n\nLiebe Tante Erika,\n\nvielen Dank für das schöne Geschenk zum Geburtstag! Das Buch gefällt mir sehr gut. Ich habe schon angefangen zu lesen. Es ist sehr spannend.\n\nWann besuchst du uns wieder? Mama macht dann deinen Lieblingskuchen.\n\nLiebe Grüße\nPaul",
+    "questions": [
+      { "type": "MCQ", "q": "Was hat Paul bekommen?", "opts": ["Ein Buch", "Eine Uhr", "Geld"], "a": 0, "exp": "„Das Buch gefällt mir sehr gut.“" },
+      { "type": "TF", "q": "Paul hat das Buch noch nicht angefangen.", "a": false, "exp": "„Ich habe schon angefangen zu lesen.“" },
+      { "type": "TF", "q": "Paul findet das Buch spannend.", "a": true, "exp": "„Es ist sehr spannend.“" },
+      { "type": "MCQ", "q": "Was macht Mama beim nächsten Besuch?", "opts": ["Den Lieblingskuchen", "Eine Pizza", "Nichts"], "a": 0, "exp": "„Mama macht dann deinen Lieblingskuchen.“" },
+      { "type": "TF", "q": "Das Geschenk war zum Geburtstag.", "a": true, "exp": "„für das schöne Geschenk zum Geburtstag“." }
+    ]
+  },
+  {
+    "id": "A1_R24", "level": "A1", "type": "Anzeige", "title": "Neues Fitnessstudio",
+    "text": "FITNESSSTUDIO POWER 💪\n\nNEU in deiner Stadt!\n\n✅ Geräte, Kurse und Sauna\n✅ Geöffnet: täglich 6 – 23 Uhr\n✅ Preis: 25 Euro pro Monat\n✅ Erste Woche gratis!\n\nKomm vorbei: Sportstraße 5\nMit Trainer und Trainerin",
+    "questions": [
+      { "type": "TF", "q": "Die erste Woche ist gratis.", "a": true, "exp": "„Erste Woche gratis!“" },
+      { "type": "MCQ", "q": "Wie viel kostet das Studio pro Monat?", "opts": ["15 Euro", "25 Euro", "50 Euro"], "a": 1, "exp": "„25 Euro pro Monat“." },
+      { "type": "TF", "q": "Das Studio hat eine Sauna.", "a": true, "exp": "„Geräte, Kurse und Sauna“." },
+      { "type": "MCQ", "q": "Wann ist das Studio geöffnet?", "opts": ["Nur morgens", "Täglich 6 – 23 Uhr", "Nur am Wochenende"], "a": 1, "exp": "„täglich 6 – 23 Uhr“." },
+      { "type": "TF", "q": "Das Studio ist in der Sportstraße 5.", "a": true, "exp": "„Komm vorbei: Sportstraße 5“." }
+    ]
+  },
+  {
+    "id": "A1_R25", "level": "A1", "type": "Durchsage", "title": "Durchsage am Bahnhof",
+    "text": "ACHTUNG – DURCHSAGE\n\nDer Zug nach Hamburg um 10:15 Uhr hat 20 Minuten Verspätung.\nNeue Abfahrt: 10:35 Uhr von Gleis 4 (nicht Gleis 2!).\n\nReisende nach Bremen: Bitte am Schalter 3 melden.\n\nWir bitten um Entschuldigung.",
+    "questions": [
+      { "type": "TF", "q": "Der Zug nach Hamburg hat Verspätung.", "a": true, "exp": "„hat 20 Minuten Verspätung“." },
+      { "type": "MCQ", "q": "Wann fährt der Zug jetzt ab?", "opts": ["10:15 Uhr", "10:35 Uhr", "11:00 Uhr"], "a": 1, "exp": "„Neue Abfahrt: 10:35 Uhr“." },
+      { "type": "MCQ", "q": "Von welchem Gleis fährt der Zug?", "opts": ["Gleis 2", "Gleis 3", "Gleis 4"], "a": 2, "exp": "„von Gleis 4 (nicht Gleis 2!)“." },
+      { "type": "TF", "q": "Reisende nach Bremen sollen zu Schalter 3.", "a": true, "exp": "„Bitte am Schalter 3 melden.“" },
+      { "type": "TF", "q": "Der Zug fährt von Gleis 2 ab.", "a": false, "exp": "Er fährt von Gleis 4, nicht von Gleis 2." }
+    ]
+  },
+  {
+    "id": "A1_R26", "level": "A1", "type": "Nachricht", "title": "Eine Verabredung",
+    "text": "Hi Sara!\n\nHast du am Samstag Zeit? Wir könnten zusammen ins Schwimmbad gehen. Treffen wir uns um 14 Uhr am Eingang? Bring deine Badesachen und ein Handtuch mit. Danach können wir ein Eis essen.\n\nIch freue mich! 😊\nNina",
+    "questions": [
+      { "type": "MCQ", "q": "Wohin wollen sie gehen?", "opts": ["Ins Kino", "Ins Schwimmbad", "Ins Café"], "a": 1, "exp": "„ins Schwimmbad gehen“." },
+      { "type": "MCQ", "q": "Wann treffen sie sich?", "opts": ["12 Uhr", "14 Uhr", "16 Uhr"], "a": 1, "exp": "„um 14 Uhr am Eingang“." },
+      { "type": "TF", "q": "Sara soll ein Handtuch mitbringen.", "a": true, "exp": "„Bring deine Badesachen und ein Handtuch mit.“" },
+      { "type": "TF", "q": "Sie treffen sich am Sonntag.", "a": false, "exp": "Am Samstag: „Hast du am Samstag Zeit?“" },
+      { "type": "MCQ", "q": "Was machen sie danach?", "opts": ["Ein Eis essen", "Nach Hause gehen", "Einkaufen"], "a": 0, "exp": "„Danach können wir ein Eis essen.“" }
+    ]
+  },
+  {
+    "id": "A1_R27", "level": "A1", "type": "Schild", "title": "Information im Hotel",
+    "text": "HOTEL AM SEE — INFORMATION\n\nFrühstück: 7:00 – 10:00 Uhr im Restaurant (1. Stock)\nZimmer putzen: täglich bis 12 Uhr\nWLAN: kostenlos (Passwort: SeeHotel2024)\nCheck-out: bis 11 Uhr\n\nDie Rezeption ist 24 Stunden offen.\nFragen? Wählen Sie die 9.",
+    "questions": [
+      { "type": "MCQ", "q": "Wo gibt es Frühstück?", "opts": ["Im Zimmer", "Im Restaurant im 1. Stock", "Im Garten"], "a": 1, "exp": "„im Restaurant (1. Stock)“." },
+      { "type": "TF", "q": "Das WLAN kostet Geld.", "a": false, "exp": "„WLAN: kostenlos“." },
+      { "type": "MCQ", "q": "Bis wann muss man auschecken?", "opts": ["10 Uhr", "11 Uhr", "12 Uhr"], "a": 1, "exp": "„Check-out: bis 11 Uhr“." },
+      { "type": "TF", "q": "Die Rezeption ist immer offen.", "a": true, "exp": "„Die Rezeption ist 24 Stunden offen.“" },
+      { "type": "MCQ", "q": "Wann gibt es Frühstück?", "opts": ["6 – 9 Uhr", "7 – 10 Uhr", "8 – 11 Uhr"], "a": 1, "exp": "„Frühstück: 7:00 – 10:00 Uhr“." }
+    ]
+  },
+  {
+    "id": "A1_R28", "level": "A1", "type": "Anzeige", "title": "Kinoprogramm",
+    "text": "KINO STERN — HEUTE\n\n15:00 Uhr — Der kleine Drache (für Kinder)\n17:30 Uhr — Liebe in Paris (Romantik)\n20:00 Uhr — Schnelle Autos (Action)\n22:30 Uhr — Die dunkle Nacht (Horror)\n\nKarten: 9 Euro (Kinder 6 Euro)\nPopcorn und Getränke im Foyer.",
+    "questions": [
+      { "type": "MCQ", "q": "Welcher Film ist für Kinder?", "opts": ["Der kleine Drache", "Liebe in Paris", "Schnelle Autos"], "a": 0, "exp": "„Der kleine Drache (für Kinder)“." },
+      { "type": "MCQ", "q": "Wann beginnt der Actionfilm?", "opts": ["17:30 Uhr", "20:00 Uhr", "22:30 Uhr"], "a": 1, "exp": "„20:00 Uhr — Schnelle Autos (Action)“." },
+      { "type": "TF", "q": "Eine Karte für Kinder kostet 6 Euro.", "a": true, "exp": "„Karten: 9 Euro (Kinder 6 Euro)“." },
+      { "type": "TF", "q": "Der Horrorfilm läuft um 17:30 Uhr.", "a": false, "exp": "„Die dunkle Nacht (Horror)“ läuft um 22:30 Uhr." },
+      { "type": "MCQ", "q": "Wo gibt es Popcorn?", "opts": ["Im Saal", "Im Foyer", "Draußen"], "a": 1, "exp": "„Popcorn und Getränke im Foyer.“" }
+    ]
+  },
+  {
+    "id": "A1_R29", "level": "A1", "type": "Brief", "title": "Brief von einem Brieffreund",
+    "text": "Hallo!\n\nMein Name ist Carlos und ich komme aus Spanien. Ich bin 16 Jahre alt und lerne seit einem Jahr Deutsch. Ich möchte einen Brieffreund in Deutschland. Meine Hobbys sind Fußball und Gitarre spielen. Ich habe einen Hund und eine kleine Schwester.\n\nSchreib mir bald!\nDein Carlos",
+    "questions": [
+      { "type": "MCQ", "q": "Woher kommt Carlos?", "opts": ["Aus Italien", "Aus Spanien", "Aus Frankreich"], "a": 1, "exp": "„ich komme aus Spanien“." },
+      { "type": "MCQ", "q": "Wie alt ist Carlos?", "opts": ["14", "16", "18"], "a": 1, "exp": "„Ich bin 16 Jahre alt“." },
+      { "type": "TF", "q": "Carlos lernt seit einem Jahr Deutsch.", "a": true, "exp": "„lerne seit einem Jahr Deutsch“." },
+      { "type": "TF", "q": "Carlos hat eine Katze.", "a": false, "exp": "„Ich habe einen Hund.“" },
+      { "type": "MCQ", "q": "Was sind Carlos' Hobbys?", "opts": ["Lesen und Malen", "Fußball und Gitarre", "Schwimmen und Tanzen"], "a": 1, "exp": "„Meine Hobbys sind Fußball und Gitarre spielen.“" }
+    ]
+  },
+  {
+    "id": "A1_R30", "level": "A1", "type": "Anzeige", "title": "Babysitter gesucht",
+    "text": "BABYSITTER GESUCHT 👶\n\nWir suchen eine nette Person für unseren Sohn (3 Jahre).\nWann: Freitagabend, 18 – 23 Uhr\nWo: in Köln-Süd\nBezahlung: 12 Euro pro Stunde\n\nErfahrung mit Kindern ist wichtig.\nBitte melden bei Familie Klein: 0177 – 4445556",
+    "questions": [
+      { "type": "TF", "q": "Die Familie sucht einen Babysitter.", "a": true, "exp": "„BABYSITTER GESUCHT“." },
+      { "type": "MCQ", "q": "Wie alt ist das Kind?", "opts": ["1 Jahr", "3 Jahre", "6 Jahre"], "a": 1, "exp": "„unseren Sohn (3 Jahre)“." },
+      { "type": "MCQ", "q": "Wie viel Geld gibt es pro Stunde?", "opts": ["10 Euro", "12 Euro", "15 Euro"], "a": 1, "exp": "„12 Euro pro Stunde“." },
+      { "type": "TF", "q": "Der Job ist am Freitagabend.", "a": true, "exp": "„Freitagabend, 18 – 23 Uhr“." },
+      { "type": "TF", "q": "Erfahrung mit Kindern ist nicht wichtig.", "a": false, "exp": "„Erfahrung mit Kindern ist wichtig.“" }
+    ]
+  },
+  {
+    "id": "A1_R31", "level": "A1", "type": "Speisekarte", "title": "Speiseplan der Mensa",
+    "text": "MENSA — SPEISEPLAN HEUTE\n\nGericht 1: Nudeln mit Tomatensoße (vegetarisch) — 3,50 €\nGericht 2: Hähnchen mit Reis — 4,80 €\nGericht 3: Fischfilet mit Kartoffeln — 5,20 €\n\nDazu: Salat 1,50 €, Suppe 2,00 €\nNachtisch: Pudding 1,00 €\n\nÖffnungszeiten: 11:30 – 14:00 Uhr",
+    "questions": [
+      { "type": "MCQ", "q": "Welches Gericht ist vegetarisch?", "opts": ["Nudeln mit Tomatensoße", "Hähnchen mit Reis", "Fischfilet"], "a": 0, "exp": "„Gericht 1: Nudeln ... (vegetarisch)“." },
+      { "type": "MCQ", "q": "Was kostet das Hähnchen mit Reis?", "opts": ["3,50 €", "4,80 €", "5,20 €"], "a": 1, "exp": "„Hähnchen mit Reis — 4,80 €“." },
+      { "type": "TF", "q": "Der Pudding kostet 1 Euro.", "a": true, "exp": "„Nachtisch: Pudding 1,00 €“." },
+      { "type": "TF", "q": "Die Mensa ist bis 16 Uhr offen.", "a": false, "exp": "„Öffnungszeiten: 11:30 – 14:00 Uhr“." },
+      { "type": "MCQ", "q": "Was ist das teuerste Gericht?", "opts": ["Nudeln", "Hähnchen", "Fischfilet"], "a": 2, "exp": "Fischfilet: 5,20 €." }
+    ]
+  },
+  {
+    "id": "A1_R32", "level": "A1", "type": "Notiz", "title": "Bitte die Pflanzen gießen",
+    "text": "Liebe Frau Meyer,\n\nwir sind eine Woche im Urlaub. Können Sie bitte unsere Pflanzen gießen? Die Blumen im Wohnzimmer brauchen jeden zweiten Tag Wasser. Die Pflanze auf dem Balkon braucht jeden Tag Wasser. Der Schlüssel ist bei Ihnen.\n\nVielen Dank!\nFamilie Klein",
+    "questions": [
+      { "type": "TF", "q": "Familie Klein ist eine Woche im Urlaub.", "a": true, "exp": "„wir sind eine Woche im Urlaub“." },
+      { "type": "MCQ", "q": "Wie oft brauchen die Blumen im Wohnzimmer Wasser?", "opts": ["Jeden Tag", "Jeden zweiten Tag", "Einmal pro Woche"], "a": 1, "exp": "„jeden zweiten Tag Wasser“." },
+      { "type": "MCQ", "q": "Wie oft braucht die Balkonpflanze Wasser?", "opts": ["Jeden Tag", "Jeden zweiten Tag", "Nie"], "a": 0, "exp": "„braucht jeden Tag Wasser“." },
+      { "type": "TF", "q": "Frau Meyer hat keinen Schlüssel.", "a": false, "exp": "„Der Schlüssel ist bei Ihnen.“" },
+      { "type": "TF", "q": "Frau Meyer soll die Pflanzen gießen.", "a": true, "exp": "„Können Sie bitte unsere Pflanzen gießen?“" }
+    ]
+  },
+  {
+    "id": "A1_R33", "level": "A1", "type": "Anzeige", "title": "Angebote im Supermarkt",
+    "text": "SUPERMARKT FRISCH — ANGEBOTE DER WOCHE\n\n🍎 Äpfel (1 kg) — nur 1,99 €\n🥛 Milch (1 Liter) — 0,89 €\n🍫 Schokolade — 2 für 3 €\n🍞 Brot — 1,50 €\n\nGültig von Montag bis Samstag.\nÖffnungszeiten: 8 – 21 Uhr\nNeu: jetzt auch sonntags Brötchen!",
+    "questions": [
+      { "type": "MCQ", "q": "Was kostet 1 kg Äpfel?", "opts": ["0,89 €", "1,50 €", "1,99 €"], "a": 2, "exp": "„Äpfel (1 kg) — nur 1,99 €“." },
+      { "type": "TF", "q": "Die Angebote gelten bis Samstag.", "a": true, "exp": "„Gültig von Montag bis Samstag.“" },
+      { "type": "MCQ", "q": "Was kostet ein Liter Milch?", "opts": ["0,89 €", "1,99 €", "3,00 €"], "a": 0, "exp": "„Milch (1 Liter) — 0,89 €“." },
+      { "type": "TF", "q": "Der Supermarkt schließt um 18 Uhr.", "a": false, "exp": "„Öffnungszeiten: 8 – 21 Uhr“." },
+      { "type": "TF", "q": "Es gibt jetzt sonntags Brötchen.", "a": true, "exp": "„Neu: jetzt auch sonntags Brötchen!“" }
+    ]
+  },
+  {
+    "id": "A1_R34", "level": "A1", "type": "Einladung", "title": "Eine Hochzeitseinladung",
+    "text": "Wir heiraten! 💍\n\nAnna und Thomas laden Sie herzlich ein.\n\nWann: Samstag, 20. Juli, um 14 Uhr\nWo: Kirche St. Martin, danach Feier im Hotel Rose\n\nBitte sagen Sie bis 1. Juli Bescheid, ob Sie kommen.\nWir freuen uns auf Sie!",
+    "questions": [
+      { "type": "MCQ", "q": "Wer heiratet?", "opts": ["Anna und Thomas", "Maria und Peter", "Lena und Max"], "a": 0, "exp": "„Anna und Thomas laden Sie herzlich ein.“" },
+      { "type": "MCQ", "q": "Wann ist die Hochzeit?", "opts": ["20. Juni", "20. Juli", "1. Juli"], "a": 1, "exp": "„Samstag, 20. Juli, um 14 Uhr“." },
+      { "type": "TF", "q": "Die Feier ist im Hotel Rose.", "a": true, "exp": "„danach Feier im Hotel Rose“." },
+      { "type": "TF", "q": "Man muss nicht antworten.", "a": false, "exp": "„Bitte sagen Sie bis 1. Juli Bescheid“." },
+      { "type": "MCQ", "q": "Wo ist die Trauung?", "opts": ["Im Hotel", "In der Kirche St. Martin", "Im Garten"], "a": 1, "exp": "„Kirche St. Martin“." }
+    ]
+  },
+  {
+    "id": "A1_R35", "level": "A1", "type": "Schild", "title": "Regeln im Stadtpark",
+    "text": "STADTPARK — BITTE BEACHTEN\n\n🐕 Hunde bitte an der Leine führen.\n🚲 Fahrradfahren nur auf den Wegen.\n🗑 Müll in die Mülleimer werfen.\n🌷 Blumen nicht pflücken!\n🌙 Der Park schließt um 22 Uhr.\n\nVielen Dank für Ihr Verständnis.",
+    "questions": [
+      { "type": "TF", "q": "Hunde müssen an der Leine sein.", "a": true, "exp": "„Hunde bitte an der Leine führen.“" },
+      { "type": "TF", "q": "Man darf Blumen pflücken.", "a": false, "exp": "„Blumen nicht pflücken!“" },
+      { "type": "MCQ", "q": "Wann schließt der Park?", "opts": ["20 Uhr", "22 Uhr", "24 Uhr"], "a": 1, "exp": "„Der Park schließt um 22 Uhr.“" },
+      { "type": "MCQ", "q": "Wo darf man Fahrrad fahren?", "opts": ["Überall", "Nur auf den Wegen", "Gar nicht"], "a": 1, "exp": "„Fahrradfahren nur auf den Wegen.“" },
+      { "type": "TF", "q": "Den Müll soll man in die Mülleimer werfen.", "a": true, "exp": "„Müll in die Mülleimer werfen.“" }
+    ]
+  }
+]

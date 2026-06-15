@@ -1,0 +1,5202 @@
+[
+  {
+    "num": 1,
+    "verb": "sein",
+    "english": "be",
+    "level": "A1",
+    "praesens": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist",
+      "wir": "sind",
+      "ihr": "seid",
+      "sie": "sind"
+    },
+    "praeteritum": {
+      "ich": "war",
+      "du": "warst",
+      "er": "war",
+      "wir": "waren",
+      "ihr": "wart",
+      "sie": "waren"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gewesen"
+    }
+  },
+  {
+    "num": 2,
+    "verb": "haben",
+    "english": "have",
+    "level": "A1",
+    "praesens": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie": "haben"
+    },
+    "praeteritum": {
+      "ich": "hatte",
+      "du": "hattest",
+      "er": "hatte",
+      "wir": "hatten",
+      "ihr": "hattet",
+      "sie": "hatten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehabt"
+    }
+  },
+  {
+    "num": 3,
+    "verb": "werden",
+    "english": "become/will",
+    "level": "A1",
+    "praesens": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird",
+      "wir": "werden",
+      "ihr": "werdet",
+      "sie": "werden"
+    },
+    "praeteritum": {
+      "ich": "wurde",
+      "du": "wurdest",
+      "er": "wurde",
+      "wir": "wurden",
+      "ihr": "wurdet",
+      "sie": "wurden"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  {
+    "num": 4,
+    "verb": "können",
+    "english": "can",
+    "level": "A1",
+    "praesens": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie": "können"
+    },
+    "praeteritum": {
+      "ich": "konnte",
+      "du": "konntest",
+      "er": "konnte",
+      "wir": "konnten",
+      "ihr": "konntet",
+      "sie": "konnten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekonnt"
+    }
+  },
+  {
+    "num": 5,
+    "verb": "müssen",
+    "english": "must",
+    "level": "A1",
+    "praesens": {
+      "ich": "muss",
+      "du": "musst",
+      "er": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie": "müssen"
+    },
+    "praeteritum": {
+      "ich": "musste",
+      "du": "musstest",
+      "er": "musste",
+      "wir": "mussten",
+      "ihr": "musstet",
+      "sie": "mussten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemusst"
+    }
+  },
+  {
+    "num": 6,
+    "verb": "wollen",
+    "english": "want",
+    "level": "A1",
+    "praesens": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie": "wollen"
+    },
+    "praeteritum": {
+      "ich": "wollte",
+      "du": "wolltest",
+      "er": "wollte",
+      "wir": "wollten",
+      "ihr": "wolltet",
+      "sie": "wollten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewollt"
+    }
+  },
+  {
+    "num": 7,
+    "verb": "dürfen",
+    "english": "may/allowed",
+    "level": "A1",
+    "praesens": {
+      "ich": "darf",
+      "du": "darfst",
+      "er": "darf",
+      "wir": "dürfen",
+      "ihr": "dürft",
+      "sie": "dürfen"
+    },
+    "praeteritum": {
+      "ich": "durfte",
+      "du": "durftest",
+      "er": "durfte",
+      "wir": "durften",
+      "ihr": "durftet",
+      "sie": "durften"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedurft"
+    }
+  },
+  {
+    "num": 8,
+    "verb": "sollen",
+    "english": "should",
+    "level": "A1",
+    "praesens": {
+      "ich": "soll",
+      "du": "sollst",
+      "er": "soll",
+      "wir": "sollen",
+      "ihr": "sollt",
+      "sie": "sollen"
+    },
+    "praeteritum": {
+      "ich": "sollte",
+      "du": "solltest",
+      "er": "sollte",
+      "wir": "sollten",
+      "ihr": "solltet",
+      "sie": "sollten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesollt"
+    }
+  },
+  {
+    "num": 9,
+    "verb": "mögen",
+    "english": "like",
+    "level": "A1",
+    "praesens": {
+      "ich": "mag",
+      "du": "magst",
+      "er": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie": "mögen"
+    },
+    "praeteritum": {
+      "ich": "mochte",
+      "du": "mochtest",
+      "er": "mochte",
+      "wir": "mochten",
+      "ihr": "mochtet",
+      "sie": "mochten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemocht"
+    }
+  },
+  {
+    "num": 10,
+    "verb": "machen",
+    "english": "make/do",
+    "level": "A1",
+    "praesens": {
+      "ich": "mache",
+      "du": "machst",
+      "er": "macht",
+      "wir": "machen",
+      "ihr": "macht",
+      "sie": "machen"
+    },
+    "praeteritum": {
+      "ich": "machte",
+      "du": "machtest",
+      "er": "machte",
+      "wir": "machten",
+      "ihr": "machtet",
+      "sie": "machten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemacht"
+    }
+  },
+  {
+    "num": 11,
+    "verb": "gehen",
+    "english": "go",
+    "level": "A1",
+    "praesens": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie": "gehen"
+    },
+    "praeteritum": {
+      "ich": "ging",
+      "du": "gingst",
+      "er": "ging",
+      "wir": "gingen",
+      "ihr": "gingt",
+      "sie": "gingen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gegangen"
+    }
+  },
+  {
+    "num": 12,
+    "verb": "kommen",
+    "english": "come",
+    "level": "A1",
+    "praesens": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt",
+      "wir": "kommen",
+      "ihr": "kommt",
+      "sie": "kommen"
+    },
+    "praeteritum": {
+      "ich": "kam",
+      "du": "kamst",
+      "er": "kam",
+      "wir": "kamen",
+      "ihr": "kamt",
+      "sie": "kamen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gekommen"
+    }
+  },
+  {
+    "num": 13,
+    "verb": "sagen",
+    "english": "say",
+    "level": "A1",
+    "praesens": {
+      "ich": "sage",
+      "du": "sagst",
+      "er": "sagt",
+      "wir": "sagen",
+      "ihr": "sagt",
+      "sie": "sagen"
+    },
+    "praeteritum": {
+      "ich": "sagte",
+      "du": "sagtest",
+      "er": "sagte",
+      "wir": "sagten",
+      "ihr": "sagtet",
+      "sie": "sagten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesagt"
+    }
+  },
+  {
+    "num": 14,
+    "verb": "sehen",
+    "english": "see",
+    "level": "A1",
+    "praesens": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er": "sieht",
+      "wir": "sehen",
+      "ihr": "seht",
+      "sie": "sehen"
+    },
+    "praeteritum": {
+      "ich": "sah",
+      "du": "sahst",
+      "er": "sah",
+      "wir": "sahen",
+      "ihr": "saht",
+      "sie": "sahen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesehen"
+    }
+  },
+  {
+    "num": 15,
+    "verb": "geben",
+    "english": "give",
+    "level": "A1",
+    "praesens": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er": "gibt",
+      "wir": "geben",
+      "ihr": "gebt",
+      "sie": "geben"
+    },
+    "praeteritum": {
+      "ich": "gab",
+      "du": "gabst",
+      "er": "gab",
+      "wir": "gaben",
+      "ihr": "gabt",
+      "sie": "gaben"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegeben"
+    }
+  },
+  {
+    "num": 16,
+    "verb": "nehmen",
+    "english": "take",
+    "level": "A1",
+    "praesens": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er": "nimmt",
+      "wir": "nehmen",
+      "ihr": "nehmt",
+      "sie": "nehmen"
+    },
+    "praeteritum": {
+      "ich": "nahm",
+      "du": "nahmst",
+      "er": "nahm",
+      "wir": "nahmen",
+      "ihr": "nahmt",
+      "sie": "nahmen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "genommen"
+    }
+  },
+  {
+    "num": 17,
+    "verb": "wissen",
+    "english": "know",
+    "level": "A1",
+    "praesens": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß",
+      "wir": "wissen",
+      "ihr": "wisst",
+      "sie": "wissen"
+    },
+    "praeteritum": {
+      "ich": "wusste",
+      "du": "wusstest",
+      "er": "wusste",
+      "wir": "wussten",
+      "ihr": "wusstet",
+      "sie": "wussten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewusst"
+    }
+  },
+  {
+    "num": 18,
+    "verb": "denken",
+    "english": "think",
+    "level": "A1",
+    "praesens": {
+      "ich": "denke",
+      "du": "denkst",
+      "er": "denkt",
+      "wir": "denken",
+      "ihr": "denkt",
+      "sie": "denken"
+    },
+    "praeteritum": {
+      "ich": "dachte",
+      "du": "dachtest",
+      "er": "dachte",
+      "wir": "dachten",
+      "ihr": "dachtet",
+      "sie": "dachten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedacht"
+    }
+  },
+  {
+    "num": 19,
+    "verb": "finden",
+    "english": "find",
+    "level": "A1",
+    "praesens": {
+      "ich": "finde",
+      "du": "findest",
+      "er": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie": "finden"
+    },
+    "praeteritum": {
+      "ich": "fand",
+      "du": "fandst",
+      "er": "fand",
+      "wir": "fanden",
+      "ihr": "fandet",
+      "sie": "fanden"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefunden"
+    }
+  },
+  {
+    "num": 20,
+    "verb": "sprechen",
+    "english": "speak",
+    "level": "A1",
+    "praesens": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie": "sprechen"
+    },
+    "praeteritum": {
+      "ich": "sprach",
+      "du": "sprachst",
+      "er": "sprach",
+      "wir": "sprachen",
+      "ihr": "spracht",
+      "sie": "sprachen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesprochen"
+    }
+  },
+  {
+    "num": 21,
+    "verb": "heißen",
+    "english": "be called",
+    "level": "A1",
+    "praesens": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er": "heißt",
+      "wir": "heißen",
+      "ihr": "heißt",
+      "sie": "heißen"
+    },
+    "praeteritum": {
+      "ich": "hieß",
+      "du": "hießt",
+      "er": "hieß",
+      "wir": "hießen",
+      "ihr": "hießt",
+      "sie": "hießen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geheißen"
+    }
+  },
+  {
+    "num": 22,
+    "verb": "lesen",
+    "english": "read",
+    "level": "A1",
+    "praesens": {
+      "ich": "lese",
+      "du": "liest",
+      "er": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie": "lesen"
+    },
+    "praeteritum": {
+      "ich": "las",
+      "du": "last",
+      "er": "las",
+      "wir": "lasen",
+      "ihr": "last",
+      "sie": "lasen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelesen"
+    }
+  },
+  {
+    "num": 23,
+    "verb": "schreiben",
+    "english": "write",
+    "level": "A1",
+    "praesens": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er": "schreibt",
+      "wir": "schreiben",
+      "ihr": "schreibt",
+      "sie": "schreiben"
+    },
+    "praeteritum": {
+      "ich": "schrieb",
+      "du": "schriebst",
+      "er": "schrieb",
+      "wir": "schrieben",
+      "ihr": "schriebt",
+      "sie": "schrieben"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschrieben"
+    }
+  },
+  {
+    "num": 24,
+    "verb": "arbeiten",
+    "english": "work",
+    "level": "A1",
+    "praesens": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie": "arbeiten"
+    },
+    "praeteritum": {
+      "ich": "arbeitete",
+      "du": "arbeitetest",
+      "er": "arbeitete",
+      "wir": "arbeiteten",
+      "ihr": "arbeitetet",
+      "sie": "arbeiteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gearbeitet"
+    }
+  },
+  {
+    "num": 25,
+    "verb": "wohnen",
+    "english": "live/reside",
+    "level": "A1",
+    "praesens": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er": "wohnt",
+      "wir": "wohnen",
+      "ihr": "wohnt",
+      "sie": "wohnen"
+    },
+    "praeteritum": {
+      "ich": "wohnte",
+      "du": "wohntest",
+      "er": "wohnte",
+      "wir": "wohnten",
+      "ihr": "wohntet",
+      "sie": "wohnten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewohnt"
+    }
+  },
+  {
+    "num": 26,
+    "verb": "kaufen",
+    "english": "buy",
+    "level": "A1",
+    "praesens": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie": "kaufen"
+    },
+    "praeteritum": {
+      "ich": "kaufte",
+      "du": "kauftest",
+      "er": "kaufte",
+      "wir": "kauften",
+      "ihr": "kauftet",
+      "sie": "kauften"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekauft"
+    }
+  },
+  {
+    "num": 27,
+    "verb": "fahren",
+    "english": "drive",
+    "level": "A1",
+    "praesens": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie": "fahren"
+    },
+    "praeteritum": {
+      "ich": "fuhr",
+      "du": "fuhrst",
+      "er": "fuhr",
+      "wir": "fuhren",
+      "ihr": "fuhrt",
+      "sie": "fuhren"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gefahren"
+    }
+  },
+  {
+    "num": 28,
+    "verb": "laufen",
+    "english": "run/walk",
+    "level": "A1",
+    "praesens": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie": "laufen"
+    },
+    "praeteritum": {
+      "ich": "lief",
+      "du": "liefst",
+      "er": "lief",
+      "wir": "liefen",
+      "ihr": "lieft",
+      "sie": "liefen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gelaufen"
+    }
+  },
+  {
+    "num": 29,
+    "verb": "schlafen",
+    "english": "sleep",
+    "level": "A1",
+    "praesens": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie": "schlafen"
+    },
+    "praeteritum": {
+      "ich": "schlief",
+      "du": "schliefst",
+      "er": "schlief",
+      "wir": "schliefen",
+      "ihr": "schlieft",
+      "sie": "schliefen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschlafen"
+    }
+  },
+  {
+    "num": 30,
+    "verb": "essen",
+    "english": "eat",
+    "level": "A1",
+    "praesens": {
+      "ich": "esse",
+      "du": "isst",
+      "er": "isst",
+      "wir": "essen",
+      "ihr": "esst",
+      "sie": "essen"
+    },
+    "praeteritum": {
+      "ich": "aß",
+      "du": "aßt",
+      "er": "aß",
+      "wir": "aßen",
+      "ihr": "aßt",
+      "sie": "aßen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegessen"
+    }
+  },
+  {
+    "num": 31,
+    "verb": "trinken",
+    "english": "drink",
+    "level": "A1",
+    "praesens": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er": "trinkt",
+      "wir": "trinken",
+      "ihr": "trinkt",
+      "sie": "trinken"
+    },
+    "praeteritum": {
+      "ich": "trank",
+      "du": "trankst",
+      "er": "trank",
+      "wir": "tranken",
+      "ihr": "trankt",
+      "sie": "tranken"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getrunken"
+    }
+  },
+  {
+    "num": 32,
+    "verb": "helfen",
+    "english": "help",
+    "level": "A1",
+    "praesens": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er": "hilft",
+      "wir": "helfen",
+      "ihr": "helft",
+      "sie": "helfen"
+    },
+    "praeteritum": {
+      "ich": "half",
+      "du": "halfst",
+      "er": "half",
+      "wir": "halfen",
+      "ihr": "halft",
+      "sie": "halfen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geholfen"
+    }
+  },
+  {
+    "num": 33,
+    "verb": "fragen",
+    "english": "ask",
+    "level": "A1",
+    "praesens": {
+      "ich": "frage",
+      "du": "fragst",
+      "er": "fragt",
+      "wir": "fragen",
+      "ihr": "fragt",
+      "sie": "fragen"
+    },
+    "praeteritum": {
+      "ich": "fragte",
+      "du": "fragtest",
+      "er": "fragte",
+      "wir": "fragten",
+      "ihr": "fragtet",
+      "sie": "fragten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefragt"
+    }
+  },
+  {
+    "num": 34,
+    "verb": "antworten",
+    "english": "answer",
+    "level": "A1",
+    "praesens": {
+      "ich": "antworte",
+      "du": "antwortest",
+      "er": "antwortet",
+      "wir": "antworten",
+      "ihr": "antwortet",
+      "sie": "antworten"
+    },
+    "praeteritum": {
+      "ich": "antwortete",
+      "du": "antwortetest",
+      "er": "antwortete",
+      "wir": "antworteten",
+      "ihr": "antwortetet",
+      "sie": "antworteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geantwortet"
+    }
+  },
+  {
+    "num": 35,
+    "verb": "lernen",
+    "english": "learn",
+    "level": "A1",
+    "praesens": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie": "lernen"
+    },
+    "praeteritum": {
+      "ich": "lernte",
+      "du": "lerntest",
+      "er": "lernte",
+      "wir": "lernten",
+      "ihr": "lerntet",
+      "sie": "lernten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelernt"
+    }
+  },
+  {
+    "num": 36,
+    "verb": "spielen",
+    "english": "play",
+    "level": "A1",
+    "praesens": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie": "spielen"
+    },
+    "praeteritum": {
+      "ich": "spielte",
+      "du": "spieltest",
+      "er": "spielte",
+      "wir": "spielten",
+      "ihr": "spieltet",
+      "sie": "spielten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gespielt"
+    }
+  },
+  {
+    "num": 37,
+    "verb": "hören",
+    "english": "hear/listen",
+    "level": "A1",
+    "praesens": {
+      "ich": "höre",
+      "du": "hörst",
+      "er": "hört",
+      "wir": "hören",
+      "ihr": "hört",
+      "sie": "hören"
+    },
+    "praeteritum": {
+      "ich": "hörte",
+      "du": "hörtest",
+      "er": "hörte",
+      "wir": "hörten",
+      "ihr": "hörtet",
+      "sie": "hörten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehört"
+    }
+  },
+  {
+    "num": 38,
+    "verb": "zeigen",
+    "english": "show",
+    "level": "A1",
+    "praesens": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er": "zeigt",
+      "wir": "zeigen",
+      "ihr": "zeigt",
+      "sie": "zeigen"
+    },
+    "praeteritum": {
+      "ich": "zeigte",
+      "du": "zeigtest",
+      "er": "zeigte",
+      "wir": "zeigten",
+      "ihr": "zeigtet",
+      "sie": "zeigten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezeigt"
+    }
+  },
+  {
+    "num": 39,
+    "verb": "stehen",
+    "english": "stand",
+    "level": "A1",
+    "praesens": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er": "steht",
+      "wir": "stehen",
+      "ihr": "steht",
+      "sie": "stehen"
+    },
+    "praeteritum": {
+      "ich": "stand",
+      "du": "standst",
+      "er": "stand",
+      "wir": "standen",
+      "ihr": "standet",
+      "sie": "standen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestanden"
+    }
+  },
+  {
+    "num": 40,
+    "verb": "liegen",
+    "english": "lie/be located",
+    "level": "A1",
+    "praesens": {
+      "ich": "liege",
+      "du": "liegst",
+      "er": "liegt",
+      "wir": "liegen",
+      "ihr": "liegt",
+      "sie": "liegen"
+    },
+    "praeteritum": {
+      "ich": "lag",
+      "du": "lagst",
+      "er": "lag",
+      "wir": "lagen",
+      "ihr": "lagt",
+      "sie": "lagen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelegen"
+    }
+  },
+  {
+    "num": 41,
+    "verb": "sitzen",
+    "english": "sit",
+    "level": "A1",
+    "praesens": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie": "sitzen"
+    },
+    "praeteritum": {
+      "ich": "saß",
+      "du": "saßt",
+      "er": "saß",
+      "wir": "saßen",
+      "ihr": "saßt",
+      "sie": "saßen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesessen"
+    }
+  },
+  {
+    "num": 42,
+    "verb": "stellen",
+    "english": "place/put",
+    "level": "A1",
+    "praesens": {
+      "ich": "stelle",
+      "du": "stellst",
+      "er": "stellt",
+      "wir": "stellen",
+      "ihr": "stellt",
+      "sie": "stellen"
+    },
+    "praeteritum": {
+      "ich": "stellte",
+      "du": "stelltest",
+      "er": "stellte",
+      "wir": "stellten",
+      "ihr": "stelltet",
+      "sie": "stellten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestellt"
+    }
+  },
+  {
+    "num": 43,
+    "verb": "legen",
+    "english": "lay/put",
+    "level": "A1",
+    "praesens": {
+      "ich": "lege",
+      "du": "legst",
+      "er": "legt",
+      "wir": "legen",
+      "ihr": "legt",
+      "sie": "legen"
+    },
+    "praeteritum": {
+      "ich": "legte",
+      "du": "legtest",
+      "er": "legte",
+      "wir": "legten",
+      "ihr": "legtet",
+      "sie": "legten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelegt"
+    }
+  },
+  {
+    "num": 44,
+    "verb": "setzen",
+    "english": "set/put",
+    "level": "A1",
+    "praesens": {
+      "ich": "setze",
+      "du": "setzt",
+      "er": "setzt",
+      "wir": "setzen",
+      "ihr": "setzt",
+      "sie": "setzen"
+    },
+    "praeteritum": {
+      "ich": "setzte",
+      "du": "setztest",
+      "er": "setzte",
+      "wir": "setzten",
+      "ihr": "setztet",
+      "sie": "setzten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesetzt"
+    }
+  },
+  {
+    "num": 45,
+    "verb": "öffnen",
+    "english": "open",
+    "level": "A1",
+    "praesens": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er": "öffnet",
+      "wir": "öffnen",
+      "ihr": "öffnet",
+      "sie": "öffnen"
+    },
+    "praeteritum": {
+      "ich": "öffnete",
+      "du": "öffnetest",
+      "er": "öffnete",
+      "wir": "öffneten",
+      "ihr": "öffnetet",
+      "sie": "öffneten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geöffnet"
+    }
+  },
+  {
+    "num": 46,
+    "verb": "schließen",
+    "english": "close",
+    "level": "A1",
+    "praesens": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie": "schließen"
+    },
+    "praeteritum": {
+      "ich": "schloss",
+      "du": "schlosst",
+      "er": "schloss",
+      "wir": "schlossen",
+      "ihr": "schlosst",
+      "sie": "schlossen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschlossen"
+    }
+  },
+  {
+    "num": 47,
+    "verb": "beginnen",
+    "english": "begin",
+    "level": "A1",
+    "praesens": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie": "beginnen"
+    },
+    "praeteritum": {
+      "ich": "begann",
+      "du": "begannst",
+      "er": "begann",
+      "wir": "begannen",
+      "ihr": "begannt",
+      "sie": "begannen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "begonnen"
+    }
+  },
+  {
+    "num": 48,
+    "verb": "enden",
+    "english": "end",
+    "level": "A1",
+    "praesens": {
+      "ich": "ende",
+      "du": "endest",
+      "er": "endet",
+      "wir": "enden",
+      "ihr": "endet",
+      "sie": "enden"
+    },
+    "praeteritum": {
+      "ich": "endete",
+      "du": "endetest",
+      "er": "endete",
+      "wir": "endeten",
+      "ihr": "endetet",
+      "sie": "endeten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geendet"
+    }
+  },
+  {
+    "num": 49,
+    "verb": "bleiben",
+    "english": "stay/remain",
+    "level": "A1",
+    "praesens": {
+      "ich": "bleibe",
+      "du": "bleibst",
+      "er": "bleibt",
+      "wir": "bleiben",
+      "ihr": "bleibt",
+      "sie": "bleiben"
+    },
+    "praeteritum": {
+      "ich": "blieb",
+      "du": "bliebst",
+      "er": "blieb",
+      "wir": "blieben",
+      "ihr": "bliebt",
+      "sie": "blieben"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geblieben"
+    }
+  },
+  {
+    "num": 50,
+    "verb": "bringen",
+    "english": "bring",
+    "level": "A1",
+    "praesens": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt",
+      "wir": "bringen",
+      "ihr": "bringt",
+      "sie": "bringen"
+    },
+    "praeteritum": {
+      "ich": "brachte",
+      "du": "brachtest",
+      "er": "brachte",
+      "wir": "brachten",
+      "ihr": "brachtet",
+      "sie": "brachten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebracht"
+    }
+  },
+  {
+    "num": 51,
+    "verb": "kennen",
+    "english": "know (person)",
+    "level": "A1",
+    "praesens": {
+      "ich": "kenne",
+      "du": "kennst",
+      "er": "kennt",
+      "wir": "kennen",
+      "ihr": "kennt",
+      "sie": "kennen"
+    },
+    "praeteritum": {
+      "ich": "kannte",
+      "du": "kanntest",
+      "er": "kannte",
+      "wir": "kannten",
+      "ihr": "kanntet",
+      "sie": "kannten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekannt"
+    }
+  },
+  {
+    "num": 52,
+    "verb": "verstehen",
+    "english": "understand",
+    "level": "A1",
+    "praesens": {
+      "ich": "verstehe",
+      "du": "verstehst",
+      "er": "versteht",
+      "wir": "verstehen",
+      "ihr": "versteht",
+      "sie": "verstehen"
+    },
+    "praeteritum": {
+      "ich": "verstand",
+      "du": "verstandst",
+      "er": "verstand",
+      "wir": "verstanden",
+      "ihr": "verstandet",
+      "sie": "verstanden"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verstanden"
+    }
+  },
+  {
+    "num": 53,
+    "verb": "brauchen",
+    "english": "need",
+    "level": "A1",
+    "praesens": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er": "braucht",
+      "wir": "brauchen",
+      "ihr": "braucht",
+      "sie": "brauchen"
+    },
+    "praeteritum": {
+      "ich": "brauchte",
+      "du": "brauchtest",
+      "er": "brauchte",
+      "wir": "brauchten",
+      "ihr": "brauchtet",
+      "sie": "brauchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebraucht"
+    }
+  },
+  {
+    "num": 54,
+    "verb": "bezahlen",
+    "english": "pay",
+    "level": "A1",
+    "praesens": {
+      "ich": "bezahle",
+      "du": "bezahlst",
+      "er": "bezahlt",
+      "wir": "bezahlen",
+      "ihr": "bezahlt",
+      "sie": "bezahlen"
+    },
+    "praeteritum": {
+      "ich": "bezahlte",
+      "du": "bezahltest",
+      "er": "bezahlte",
+      "wir": "bezahlten",
+      "ihr": "bezahltet",
+      "sie": "bezahlten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bezahlt"
+    }
+  },
+  {
+    "num": 55,
+    "verb": "kosten",
+    "english": "cost",
+    "level": "A1",
+    "praesens": {
+      "ich": "koste",
+      "du": "kostest",
+      "er": "kostet",
+      "wir": "kosten",
+      "ihr": "kostet",
+      "sie": "kosten"
+    },
+    "praeteritum": {
+      "ich": "kostete",
+      "du": "kostetest",
+      "er": "kostete",
+      "wir": "kosteten",
+      "ihr": "kostetet",
+      "sie": "kosteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekostet"
+    }
+  },
+  {
+    "num": 56,
+    "verb": "bestellen",
+    "english": "order",
+    "level": "A1",
+    "praesens": {
+      "ich": "bestelle",
+      "du": "bestellst",
+      "er": "bestellt",
+      "wir": "bestellen",
+      "ihr": "bestellt",
+      "sie": "bestellen"
+    },
+    "praeteritum": {
+      "ich": "bestellte",
+      "du": "bestelltest",
+      "er": "bestellte",
+      "wir": "bestellten",
+      "ihr": "bestelltet",
+      "sie": "bestellten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bestellt"
+    }
+  },
+  {
+    "num": 57,
+    "verb": "warten",
+    "english": "wait",
+    "level": "A1",
+    "praesens": {
+      "ich": "warte",
+      "du": "wartest",
+      "er": "wartet",
+      "wir": "warten",
+      "ihr": "wartet",
+      "sie": "warten"
+    },
+    "praeteritum": {
+      "ich": "wartete",
+      "du": "wartetest",
+      "er": "wartete",
+      "wir": "warteten",
+      "ihr": "wartetet",
+      "sie": "warteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewartet"
+    }
+  },
+  {
+    "num": 58,
+    "verb": "suchen",
+    "english": "search",
+    "level": "A1",
+    "praesens": {
+      "ich": "suche",
+      "du": "suchst",
+      "er": "sucht",
+      "wir": "suchen",
+      "ihr": "sucht",
+      "sie": "suchen"
+    },
+    "praeteritum": {
+      "ich": "suchte",
+      "du": "suchtest",
+      "er": "suchte",
+      "wir": "suchten",
+      "ihr": "suchtet",
+      "sie": "suchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesucht"
+    }
+  },
+  {
+    "num": 59,
+    "verb": "besuchen",
+    "english": "visit",
+    "level": "A1",
+    "praesens": {
+      "ich": "besuche",
+      "du": "besuchst",
+      "er": "besucht",
+      "wir": "besuchen",
+      "ihr": "besucht",
+      "sie": "besuchen"
+    },
+    "praeteritum": {
+      "ich": "besuchte",
+      "du": "besuchtest",
+      "er": "besuchte",
+      "wir": "besuchten",
+      "ihr": "besuchtet",
+      "sie": "besuchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "besucht"
+    }
+  },
+  {
+    "num": 60,
+    "verb": "leben",
+    "english": "live",
+    "level": "A1",
+    "praesens": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er": "lebt",
+      "wir": "leben",
+      "ihr": "lebt",
+      "sie": "leben"
+    },
+    "praeteritum": {
+      "ich": "lebte",
+      "du": "lebtest",
+      "er": "lebte",
+      "wir": "lebten",
+      "ihr": "lebtet",
+      "sie": "lebten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelebt"
+    }
+  },
+  {
+    "num": 61,
+    "verb": "schicken",
+    "english": "send",
+    "level": "A1",
+    "praesens": {
+      "ich": "schicke",
+      "du": "schickst",
+      "er": "schickt",
+      "wir": "schicken",
+      "ihr": "schickt",
+      "sie": "schicken"
+    },
+    "praeteritum": {
+      "ich": "schickte",
+      "du": "schicktest",
+      "er": "schickte",
+      "wir": "schickten",
+      "ihr": "schicktet",
+      "sie": "schickten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschickt"
+    }
+  },
+  {
+    "num": 62,
+    "verb": "rufen",
+    "english": "call",
+    "level": "A1",
+    "praesens": {
+      "ich": "rufe",
+      "du": "rufst",
+      "er": "ruft",
+      "wir": "rufen",
+      "ihr": "ruft",
+      "sie": "rufen"
+    },
+    "praeteritum": {
+      "ich": "rief",
+      "du": "riefst",
+      "er": "rief",
+      "wir": "riefen",
+      "ihr": "rieft",
+      "sie": "riefen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gerufen"
+    }
+  },
+  {
+    "num": 63,
+    "verb": "anrufen",
+    "english": "call (phone)",
+    "level": "A1",
+    "praesens": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an",
+      "wir": "rufen an",
+      "ihr": "ruft an",
+      "sie": "rufen an"
+    },
+    "praeteritum": {
+      "ich": "rief an",
+      "du": "riefst an",
+      "er": "rief an",
+      "wir": "riefen an",
+      "ihr": "rieft an",
+      "sie": "riefen an"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angerufen"
+    }
+  },
+  {
+    "num": 64,
+    "verb": "einladen",
+    "english": "invite",
+    "level": "A1",
+    "praesens": {
+      "ich": "lade ein",
+      "du": "lädst ein",
+      "er": "lädt ein",
+      "wir": "laden ein",
+      "ihr": "ladet ein",
+      "sie": "laden ein"
+    },
+    "praeteritum": {
+      "ich": "lud ein",
+      "du": "ludst ein",
+      "er": "lud ein",
+      "wir": "luden ein",
+      "ihr": "ludt ein",
+      "sie": "luden ein"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "eingeladen"
+    }
+  },
+  {
+    "num": 65,
+    "verb": "aufmachen",
+    "english": "open",
+    "level": "A1",
+    "praesens": {
+      "ich": "mache auf",
+      "du": "machst auf",
+      "er": "macht auf",
+      "wir": "machen auf",
+      "ihr": "macht auf",
+      "sie": "machen auf"
+    },
+    "praeteritum": {
+      "ich": "machte auf",
+      "du": "machtest auf",
+      "er": "machte auf",
+      "wir": "machten auf",
+      "ihr": "machtet auf",
+      "sie": "machten auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgemacht"
+    }
+  },
+  {
+    "num": 66,
+    "verb": "zumachen",
+    "english": "close",
+    "level": "A1",
+    "praesens": {
+      "ich": "mache zu",
+      "du": "machst zu",
+      "er": "macht zu",
+      "wir": "machen zu",
+      "ihr": "macht zu",
+      "sie": "machen zu"
+    },
+    "praeteritum": {
+      "ich": "machte zu",
+      "du": "machtest zu",
+      "er": "machte zu",
+      "wir": "machten zu",
+      "ihr": "machtet zu",
+      "sie": "machten zu"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "zugemacht"
+    }
+  },
+  {
+    "num": 67,
+    "verb": "aufstehen",
+    "english": "get up",
+    "level": "A1",
+    "praesens": {
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er": "steht auf",
+      "wir": "stehen auf",
+      "ihr": "steht auf",
+      "sie": "stehen auf"
+    },
+    "praeteritum": {
+      "ich": "stand auf",
+      "du": "standst auf",
+      "er": "stand auf",
+      "wir": "standen auf",
+      "ihr": "standet auf",
+      "sie": "standen auf"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "aufgestanden"
+    }
+  },
+  {
+    "num": 68,
+    "verb": "einschlafen",
+    "english": "fall asleep",
+    "level": "A1",
+    "praesens": {
+      "ich": "schlafe ein",
+      "du": "schläfst ein",
+      "er": "schläft ein",
+      "wir": "schlafen ein",
+      "ihr": "schlaft ein",
+      "sie": "schlafen ein"
+    },
+    "praeteritum": {
+      "ich": "schlief ein",
+      "du": "schliefst ein",
+      "er": "schlief ein",
+      "wir": "schliefen ein",
+      "ihr": "schlieft ein",
+      "sie": "schliefen ein"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "eingeschlafen"
+    }
+  },
+  {
+    "num": 69,
+    "verb": "ankommen",
+    "english": "arrive",
+    "level": "A1",
+    "praesens": {
+      "ich": "komme an",
+      "du": "kommst an",
+      "er": "kommt an",
+      "wir": "kommen an",
+      "ihr": "kommt an",
+      "sie": "kommen an"
+    },
+    "praeteritum": {
+      "ich": "kam an",
+      "du": "kamst an",
+      "er": "kam an",
+      "wir": "kamen an",
+      "ihr": "kamt an",
+      "sie": "kamen an"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "angekommen"
+    }
+  },
+  {
+    "num": 70,
+    "verb": "abfahren",
+    "english": "depart",
+    "level": "A1",
+    "praesens": {
+      "ich": "fahre ab",
+      "du": "fährst ab",
+      "er": "fährt ab",
+      "wir": "fahren ab",
+      "ihr": "fahrt ab",
+      "sie": "fahren ab"
+    },
+    "praeteritum": {
+      "ich": "fuhr ab",
+      "du": "fuhrst ab",
+      "er": "fuhr ab",
+      "wir": "fuhren ab",
+      "ihr": "fuhrt ab",
+      "sie": "fuhren ab"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "abgefahren"
+    }
+  },
+  {
+    "num": 71,
+    "verb": "umsteigen",
+    "english": "transfer/change",
+    "level": "A1",
+    "praesens": {
+      "ich": "steige um",
+      "du": "steigst um",
+      "er": "steigt um",
+      "wir": "steigen um",
+      "ihr": "steigt um",
+      "sie": "steigen um"
+    },
+    "praeteritum": {
+      "ich": "stieg um",
+      "du": "stiegst um",
+      "er": "stieg um",
+      "wir": "stiegen um",
+      "ihr": "stiegt um",
+      "sie": "stiegen um"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "umgestiegen"
+    }
+  },
+  {
+    "num": 72,
+    "verb": "einsteigen",
+    "english": "board",
+    "level": "A1",
+    "praesens": {
+      "ich": "steige ein",
+      "du": "steigst ein",
+      "er": "steigt ein",
+      "wir": "steigen ein",
+      "ihr": "steigt ein",
+      "sie": "steigen ein"
+    },
+    "praeteritum": {
+      "ich": "stieg ein",
+      "du": "stiegst ein",
+      "er": "stieg ein",
+      "wir": "stiegen ein",
+      "ihr": "stiegt ein",
+      "sie": "stiegen ein"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "eingestiegen"
+    }
+  },
+  {
+    "num": 73,
+    "verb": "aussteigen",
+    "english": "get off",
+    "level": "A1",
+    "praesens": {
+      "ich": "steige aus",
+      "du": "steigst aus",
+      "er": "steigt aus",
+      "wir": "steigen aus",
+      "ihr": "steigt aus",
+      "sie": "steigen aus"
+    },
+    "praeteritum": {
+      "ich": "stieg aus",
+      "du": "stiegst aus",
+      "er": "stieg aus",
+      "wir": "stiegen aus",
+      "ihr": "stiegt aus",
+      "sie": "stiegen aus"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "ausgestiegen"
+    }
+  },
+  {
+    "num": 74,
+    "verb": "mitbringen",
+    "english": "bring along",
+    "level": "A1",
+    "praesens": {
+      "ich": "bringe mit",
+      "du": "bringst mit",
+      "er": "bringt mit",
+      "wir": "bringen mit",
+      "ihr": "bringt mit",
+      "sie": "bringen mit"
+    },
+    "praeteritum": {
+      "ich": "brachte mit",
+      "du": "brachtest mit",
+      "er": "brachte mit",
+      "wir": "brachten mit",
+      "ihr": "brachtet mit",
+      "sie": "brachten mit"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "mitgebracht"
+    }
+  },
+  {
+    "num": 75,
+    "verb": "mitkommen",
+    "english": "come along",
+    "level": "A1",
+    "praesens": {
+      "ich": "komme mit",
+      "du": "kommst mit",
+      "er": "kommt mit",
+      "wir": "kommen mit",
+      "ihr": "kommt mit",
+      "sie": "kommen mit"
+    },
+    "praeteritum": {
+      "ich": "kam mit",
+      "du": "kamst mit",
+      "er": "kam mit",
+      "wir": "kamen mit",
+      "ihr": "kamt mit",
+      "sie": "kamen mit"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "mitgekommen"
+    }
+  },
+  {
+    "num": 76,
+    "verb": "weitergehen",
+    "english": "continue",
+    "level": "A1",
+    "praesens": {
+      "ich": "gehe weiter",
+      "du": "gehst weiter",
+      "er": "geht weiter",
+      "wir": "gehen weiter",
+      "ihr": "geht weiter",
+      "sie": "gehen weiter"
+    },
+    "praeteritum": {
+      "ich": "ging weiter",
+      "du": "gingst weiter",
+      "er": "ging weiter",
+      "wir": "gingen weiter",
+      "ihr": "gingt weiter",
+      "sie": "gingen weiter"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "weitergegangen"
+    }
+  },
+  {
+    "num": 77,
+    "verb": "wiederholen",
+    "english": "repeat",
+    "level": "A1",
+    "praesens": {
+      "ich": "wiederhole",
+      "du": "wiederholst",
+      "er": "wiederholt",
+      "wir": "wiederholen",
+      "ihr": "wiederholt",
+      "sie": "wiederholen"
+    },
+    "praeteritum": {
+      "ich": "wiederholte",
+      "du": "wiederholtest",
+      "er": "wiederholte",
+      "wir": "wiederholten",
+      "ihr": "wiederholtet",
+      "sie": "wiederholten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "wiederholt"
+    }
+  },
+  {
+    "num": 78,
+    "verb": "verdienen",
+    "english": "earn",
+    "level": "A1",
+    "praesens": {
+      "ich": "verdiene",
+      "du": "verdienst",
+      "er": "verdient",
+      "wir": "verdienen",
+      "ihr": "verdient",
+      "sie": "verdienen"
+    },
+    "praeteritum": {
+      "ich": "verdiente",
+      "du": "verdientest",
+      "er": "verdiente",
+      "wir": "verdienten",
+      "ihr": "verdientet",
+      "sie": "verdienten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verdient"
+    }
+  },
+  {
+    "num": 79,
+    "verb": "versuchen",
+    "english": "try",
+    "level": "A1",
+    "praesens": {
+      "ich": "versuche",
+      "du": "versuchst",
+      "er": "versucht",
+      "wir": "versuchen",
+      "ihr": "versucht",
+      "sie": "versuchen"
+    },
+    "praeteritum": {
+      "ich": "versuchte",
+      "du": "versuchtest",
+      "er": "versuchte",
+      "wir": "versuchten",
+      "ihr": "versuchtet",
+      "sie": "versuchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "versucht"
+    }
+  },
+  {
+    "num": 80,
+    "verb": "erklären",
+    "english": "explain",
+    "level": "A1",
+    "praesens": {
+      "ich": "erkläre",
+      "du": "erklärst",
+      "er": "erklärt",
+      "wir": "erklären",
+      "ihr": "erklärt",
+      "sie": "erklären"
+    },
+    "praeteritum": {
+      "ich": "erklärte",
+      "du": "erklärtest",
+      "er": "erklärte",
+      "wir": "erklärten",
+      "ihr": "erklärtet",
+      "sie": "erklärten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erklärt"
+    }
+  },
+  {
+    "num": 81,
+    "verb": "erzählen",
+    "english": "tell/narrate",
+    "level": "A1",
+    "praesens": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er": "erzählt",
+      "wir": "erzählen",
+      "ihr": "erzählt",
+      "sie": "erzählen"
+    },
+    "praeteritum": {
+      "ich": "erzählte",
+      "du": "erzähltest",
+      "er": "erzählte",
+      "wir": "erzählten",
+      "ihr": "erzähltet",
+      "sie": "erzählten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erzählt"
+    }
+  },
+  {
+    "num": 82,
+    "verb": "berichten",
+    "english": "report",
+    "level": "A1",
+    "praesens": {
+      "ich": "berichte",
+      "du": "berichtest",
+      "er": "berichtet",
+      "wir": "berichten",
+      "ihr": "berichtet",
+      "sie": "berichten"
+    },
+    "praeteritum": {
+      "ich": "berichtete",
+      "du": "berichtetest",
+      "er": "berichtete",
+      "wir": "berichteten",
+      "ihr": "berichtetet",
+      "sie": "berichteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "berichtet"
+    }
+  },
+  {
+    "num": 83,
+    "verb": "bedeuten",
+    "english": "mean",
+    "level": "A1",
+    "praesens": {
+      "ich": "bedeute",
+      "du": "bedeutest",
+      "er": "bedeutet",
+      "wir": "bedeuten",
+      "ihr": "bedeutet",
+      "sie": "bedeuten"
+    },
+    "praeteritum": {
+      "ich": "bedeutete",
+      "du": "bedeutetest",
+      "er": "bedeutete",
+      "wir": "bedeuteten",
+      "ihr": "bedeutetet",
+      "sie": "bedeuteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bedeutet"
+    }
+  },
+  {
+    "num": 84,
+    "verb": "gehören",
+    "english": "belong",
+    "level": "A1",
+    "praesens": {
+      "ich": "gehöre",
+      "du": "gehörst",
+      "er": "gehört",
+      "wir": "gehören",
+      "ihr": "gehört",
+      "sie": "gehören"
+    },
+    "praeteritum": {
+      "ich": "gehörte",
+      "du": "gehörtest",
+      "er": "gehörte",
+      "wir": "gehörten",
+      "ihr": "gehörtet",
+      "sie": "gehörten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehört"
+    }
+  },
+  {
+    "num": 85,
+    "verb": "gefallen",
+    "english": "please/like",
+    "level": "A1",
+    "praesens": {
+      "ich": "gefalle",
+      "du": "gefällst",
+      "er": "gefällt",
+      "wir": "gefallen",
+      "ihr": "gefallt",
+      "sie": "gefallen"
+    },
+    "praeteritum": {
+      "ich": "gefiel",
+      "du": "gefielst",
+      "er": "gefiel",
+      "wir": "gefielen",
+      "ihr": "gefiellt",
+      "sie": "gefielen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefallen"
+    }
+  },
+  {
+    "num": 86,
+    "verb": "kennenlernen",
+    "english": "get to know",
+    "level": "A1",
+    "praesens": {
+      "ich": "lerne kennen",
+      "du": "lernst kennen",
+      "er": "lernt kennen",
+      "wir": "lernen kennen",
+      "ihr": "lernt kennen",
+      "sie": "lernen kennen"
+    },
+    "praeteritum": {
+      "ich": "lernte kennen",
+      "du": "lerntest kennen",
+      "er": "lernte kennen",
+      "wir": "lernten kennen",
+      "ihr": "lerntet kennen",
+      "sie": "lernten kennen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "kennengelernt"
+    }
+  },
+  {
+    "num": 87,
+    "verb": "vorstellen",
+    "english": "introduce",
+    "level": "A1",
+    "praesens": {
+      "ich": "stelle vor",
+      "du": "stellst vor",
+      "er": "stellt vor",
+      "wir": "stellen vor",
+      "ihr": "stellt vor",
+      "sie": "stellen vor"
+    },
+    "praeteritum": {
+      "ich": "stellte vor",
+      "du": "stelltest vor",
+      "er": "stellte vor",
+      "wir": "stellten vor",
+      "ihr": "stelltet vor",
+      "sie": "stellten vor"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorgestellt"
+    }
+  },
+  {
+    "num": 88,
+    "verb": "aussehen",
+    "english": "look like",
+    "level": "A1",
+    "praesens": {
+      "ich": "sehe aus",
+      "du": "siehst aus",
+      "er": "sieht aus",
+      "wir": "sehen aus",
+      "ihr": "seht aus",
+      "sie": "sehen aus"
+    },
+    "praeteritum": {
+      "ich": "sah aus",
+      "du": "sahst aus",
+      "er": "sah aus",
+      "wir": "sahen aus",
+      "ihr": "saht aus",
+      "sie": "sahen aus"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ausgesehen"
+    }
+  },
+  {
+    "num": 89,
+    "verb": "aufräumen",
+    "english": "tidy up",
+    "level": "A1",
+    "praesens": {
+      "ich": "räume auf",
+      "du": "räumst auf",
+      "er": "räumt auf",
+      "wir": "räumen auf",
+      "ihr": "räumt auf",
+      "sie": "räumen auf"
+    },
+    "praeteritum": {
+      "ich": "räumte auf",
+      "du": "räumtest auf",
+      "er": "räumte auf",
+      "wir": "räumten auf",
+      "ihr": "räumtet auf",
+      "sie": "räumten auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgeräumt"
+    }
+  },
+  {
+    "num": 90,
+    "verb": "waschen",
+    "english": "wash",
+    "level": "A1",
+    "praesens": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie": "waschen"
+    },
+    "praeteritum": {
+      "ich": "wusch",
+      "du": "wuschst",
+      "er": "wusch",
+      "wir": "wuschen",
+      "ihr": "wuscht",
+      "sie": "wuschen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewaschen"
+    }
+  },
+  {
+    "num": 91,
+    "verb": "kochen",
+    "english": "cook",
+    "level": "A1",
+    "praesens": {
+      "ich": "koche",
+      "du": "kochst",
+      "er": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie": "kochen"
+    },
+    "praeteritum": {
+      "ich": "kochte",
+      "du": "kochtest",
+      "er": "kochte",
+      "wir": "kochten",
+      "ihr": "kochtet",
+      "sie": "kochten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekocht"
+    }
+  },
+  {
+    "num": 92,
+    "verb": "backen",
+    "english": "bake",
+    "level": "A1",
+    "praesens": {
+      "ich": "backe",
+      "du": "bäckst",
+      "er": "bäckt",
+      "wir": "backen",
+      "ihr": "backt",
+      "sie": "backen"
+    },
+    "praeteritum": {
+      "ich": "backte",
+      "du": "backtest",
+      "er": "backte",
+      "wir": "backten",
+      "ihr": "backtet",
+      "sie": "backten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebacken"
+    }
+  },
+  {
+    "num": 93,
+    "verb": "einkaufen",
+    "english": "shop",
+    "level": "A1",
+    "praesens": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie": "kaufen ein"
+    },
+    "praeteritum": {
+      "ich": "kaufte ein",
+      "du": "kauftest ein",
+      "er": "kaufte ein",
+      "wir": "kauften ein",
+      "ihr": "kauftet ein",
+      "sie": "kauften ein"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "eingekauft"
+    }
+  },
+  {
+    "num": 94,
+    "verb": "reisen",
+    "english": "travel",
+    "level": "A1",
+    "praesens": {
+      "ich": "reise",
+      "du": "reist",
+      "er": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie": "reisen"
+    },
+    "praeteritum": {
+      "ich": "reiste",
+      "du": "reistest",
+      "er": "reiste",
+      "wir": "reisten",
+      "ihr": "reistet",
+      "sie": "reisten"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gereist"
+    }
+  },
+  {
+    "num": 95,
+    "verb": "fliegen",
+    "english": "fly",
+    "level": "A1",
+    "praesens": {
+      "ich": "fliege",
+      "du": "fliegst",
+      "er": "fliegt",
+      "wir": "fliegen",
+      "ihr": "fliegt",
+      "sie": "fliegen"
+    },
+    "praeteritum": {
+      "ich": "flog",
+      "du": "flogst",
+      "er": "flog",
+      "wir": "flogen",
+      "ihr": "flogt",
+      "sie": "flogen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geflogen"
+    }
+  },
+  {
+    "num": 96,
+    "verb": "schwimmen",
+    "english": "swim",
+    "level": "A1",
+    "praesens": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie": "schwimmen"
+    },
+    "praeteritum": {
+      "ich": "schwamm",
+      "du": "schwammst",
+      "er": "schwamm",
+      "wir": "schwammen",
+      "ihr": "schwammt",
+      "sie": "schwammen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geschwommen"
+    }
+  },
+  {
+    "num": 97,
+    "verb": "tanzen",
+    "english": "dance",
+    "level": "A1",
+    "praesens": {
+      "ich": "tanze",
+      "du": "tanzt",
+      "er": "tanzt",
+      "wir": "tanzen",
+      "ihr": "tanzt",
+      "sie": "tanzen"
+    },
+    "praeteritum": {
+      "ich": "tanzte",
+      "du": "tanztest",
+      "er": "tanzte",
+      "wir": "tanzten",
+      "ihr": "tanztet",
+      "sie": "tanzten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getanzt"
+    }
+  },
+  {
+    "num": 98,
+    "verb": "singen",
+    "english": "sing",
+    "level": "A1",
+    "praesens": {
+      "ich": "singe",
+      "du": "singst",
+      "er": "singt",
+      "wir": "singen",
+      "ihr": "singt",
+      "sie": "singen"
+    },
+    "praeteritum": {
+      "ich": "sang",
+      "du": "sangst",
+      "er": "sang",
+      "wir": "sangen",
+      "ihr": "sangt",
+      "sie": "sangen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesungen"
+    }
+  },
+  {
+    "num": 99,
+    "verb": "malen",
+    "english": "paint",
+    "level": "A1",
+    "praesens": {
+      "ich": "male",
+      "du": "malst",
+      "er": "malt",
+      "wir": "malen",
+      "ihr": "malt",
+      "sie": "malen"
+    },
+    "praeteritum": {
+      "ich": "malte",
+      "du": "maltest",
+      "er": "malte",
+      "wir": "malten",
+      "ihr": "maltet",
+      "sie": "malten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemalt"
+    }
+  },
+  {
+    "num": 100,
+    "verb": "fotografieren",
+    "english": "photograph",
+    "level": "A1",
+    "praesens": {
+      "ich": "fotografiere",
+      "du": "fotografierst",
+      "er": "fotografiert",
+      "wir": "fotografieren",
+      "ihr": "fotografiert",
+      "sie": "fotografieren"
+    },
+    "praeteritum": {
+      "ich": "fotografierte",
+      "du": "fotografiertest",
+      "er": "fotografierte",
+      "wir": "fotografierten",
+      "ihr": "fotografiertet",
+      "sie": "fotografierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "fotografiert"
+    }
+  },
+  {
+    "num": 101,
+    "verb": "lachen",
+    "english": "laugh",
+    "level": "A2",
+    "praesens": {
+      "ich": "lache",
+      "du": "lachst",
+      "er": "lacht",
+      "wir": "lachen",
+      "ihr": "lacht",
+      "sie": "lachen"
+    },
+    "praeteritum": {
+      "ich": "lachte",
+      "du": "lachtest",
+      "er": "lachte",
+      "wir": "lachten",
+      "ihr": "lachtet",
+      "sie": "lachten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelacht"
+    }
+  },
+  {
+    "num": 102,
+    "verb": "weinen",
+    "english": "cry",
+    "level": "A2",
+    "praesens": {
+      "ich": "weine",
+      "du": "weinst",
+      "er": "weint",
+      "wir": "weinen",
+      "ihr": "weint",
+      "sie": "weinen"
+    },
+    "praeteritum": {
+      "ich": "weinte",
+      "du": "weintest",
+      "er": "weinte",
+      "wir": "weinten",
+      "ihr": "weintet",
+      "sie": "weinten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geweint"
+    }
+  },
+  {
+    "num": 103,
+    "verb": "sich freuen",
+    "english": "be happy",
+    "level": "A2",
+    "praesens": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie": "freuen sich"
+    },
+    "praeteritum": {
+      "ich": "freute mich",
+      "du": "freutest dich",
+      "er": "freute sich",
+      "wir": "freuten uns",
+      "ihr": "freutet euch",
+      "sie": "freuten sich"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefreut"
+    }
+  },
+  {
+    "num": 104,
+    "verb": "sich fühlen",
+    "english": "feel",
+    "level": "A2",
+    "praesens": {
+      "ich": "fühle mich",
+      "du": "fühlst dich",
+      "er": "fühlt sich",
+      "wir": "fühlen uns",
+      "ihr": "fühlt euch",
+      "sie": "fühlen sich"
+    },
+    "praeteritum": {
+      "ich": "fühlte mich",
+      "du": "fühltest dich",
+      "er": "fühlte sich",
+      "wir": "fühlten uns",
+      "ihr": "fühltet euch",
+      "sie": "fühlten sich"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefühlt"
+    }
+  },
+  {
+    "num": 105,
+    "verb": "sich beeilen",
+    "english": "hurry",
+    "level": "A2",
+    "praesens": {
+      "ich": "beeile mich",
+      "du": "beeilst dich",
+      "er": "beeilt sich",
+      "wir": "beeilen uns",
+      "ihr": "beeilt euch",
+      "sie": "beeilen sich"
+    },
+    "praeteritum": {
+      "ich": "beeilte mich",
+      "du": "beeiltest dich",
+      "er": "beeilte sich",
+      "wir": "beeilten uns",
+      "ihr": "beeiltet euch",
+      "sie": "beeilten sich"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "beeilt"
+    }
+  },
+  {
+    "num": 106,
+    "verb": "sich setzen",
+    "english": "sit down",
+    "level": "A2",
+    "praesens": {
+      "ich": "setze mich",
+      "du": "setzt dich",
+      "er": "setzt sich",
+      "wir": "setzen uns",
+      "ihr": "setzt euch",
+      "sie": "setzen sich"
+    },
+    "praeteritum": {
+      "ich": "setzte mich",
+      "du": "setztest dich",
+      "er": "setzte sich",
+      "wir": "setzten uns",
+      "ihr": "setztet euch",
+      "sie": "setzten sich"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesetzt"
+    }
+  },
+  {
+    "num": 107,
+    "verb": "sich vorstellen",
+    "english": "imagine/introduce",
+    "level": "A2",
+    "praesens": {
+      "ich": "stelle mich vor",
+      "du": "stellst dich vor",
+      "er": "stellt sich vor",
+      "wir": "stellen uns vor",
+      "ihr": "stellt euch vor",
+      "sie": "stellen sich vor"
+    },
+    "praeteritum": {
+      "ich": "stellte mich vor",
+      "du": "stelltest dich vor",
+      "er": "stellte sich vor",
+      "wir": "stellten uns vor",
+      "ihr": "stelltet euch vor",
+      "sie": "stellten sich vor"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorgestellt"
+    }
+  },
+  {
+    "num": 108,
+    "verb": "benutzen",
+    "english": "use",
+    "level": "A2",
+    "praesens": {
+      "ich": "benutze",
+      "du": "benutzt",
+      "er": "benutzt",
+      "wir": "benutzen",
+      "ihr": "benutzt",
+      "sie": "benutzen"
+    },
+    "praeteritum": {
+      "ich": "benutzte",
+      "du": "benutzt",
+      "er": "benutzte",
+      "wir": "benutzten",
+      "ihr": "benutztet",
+      "sie": "benutzten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "benutzt"
+    }
+  },
+  {
+    "num": 109,
+    "verb": "buchen",
+    "english": "book",
+    "level": "A2",
+    "praesens": {
+      "ich": "buche",
+      "du": "buchst",
+      "er": "bucht",
+      "wir": "buchen",
+      "ihr": "bucht",
+      "sie": "buchen"
+    },
+    "praeteritum": {
+      "ich": "buchte",
+      "du": "buchtest",
+      "er": "buchte",
+      "wir": "buchten",
+      "ihr": "buchtet",
+      "sie": "buchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebucht"
+    }
+  },
+  {
+    "num": 110,
+    "verb": "reservieren",
+    "english": "reserve",
+    "level": "A2",
+    "praesens": {
+      "ich": "reserviere",
+      "du": "reservierst",
+      "er": "reserviert",
+      "wir": "reservieren",
+      "ihr": "reserviert",
+      "sie": "reservieren"
+    },
+    "praeteritum": {
+      "ich": "reservierte",
+      "du": "reserviertest",
+      "er": "reservierte",
+      "wir": "reservierten",
+      "ihr": "reserviertet",
+      "sie": "reservierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "reserviert"
+    }
+  },
+  {
+    "num": 111,
+    "verb": "telefonieren",
+    "english": "telephone",
+    "level": "A2",
+    "praesens": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er": "telefoniert",
+      "wir": "telefonieren",
+      "ihr": "telefoniert",
+      "sie": "telefonieren"
+    },
+    "praeteritum": {
+      "ich": "telefonierte",
+      "du": "telefoniertest",
+      "er": "telefonierte",
+      "wir": "telefonierten",
+      "ihr": "telefoniertet",
+      "sie": "telefonierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "telefoniert"
+    }
+  },
+  {
+    "num": 112,
+    "verb": "funktionieren",
+    "english": "function/work",
+    "level": "A2",
+    "praesens": {
+      "ich": "funktioniere",
+      "du": "funktionierst",
+      "er": "funktioniert",
+      "wir": "funktionieren",
+      "ihr": "funktioniert",
+      "sie": "funktionieren"
+    },
+    "praeteritum": {
+      "ich": "funktionierte",
+      "du": "funktioniertest",
+      "er": "funktionierte",
+      "wir": "funktionierten",
+      "ihr": "funktioniertet",
+      "sie": "funktionierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "funktioniert"
+    }
+  },
+  {
+    "num": 113,
+    "verb": "passieren",
+    "english": "happen",
+    "level": "A2",
+    "praesens": {
+      "ich": "passiere",
+      "du": "passierst",
+      "er": "passiert",
+      "wir": "passieren",
+      "ihr": "passiert",
+      "sie": "passieren"
+    },
+    "praeteritum": {
+      "ich": "passierte",
+      "du": "passiertest",
+      "er": "passierte",
+      "wir": "passierten",
+      "ihr": "passiertet",
+      "sie": "passierten"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "passiert"
+    }
+  },
+  {
+    "num": 114,
+    "verb": "studieren",
+    "english": "study",
+    "level": "A2",
+    "praesens": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er": "studiert",
+      "wir": "studieren",
+      "ihr": "studiert",
+      "sie": "studieren"
+    },
+    "praeteritum": {
+      "ich": "studierte",
+      "du": "studiertest",
+      "er": "studierte",
+      "wir": "studierten",
+      "ihr": "studiertet",
+      "sie": "studierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "studiert"
+    }
+  },
+  {
+    "num": 115,
+    "verb": "unterrichten",
+    "english": "teach",
+    "level": "A2",
+    "praesens": {
+      "ich": "unterrichte",
+      "du": "unterrichtest",
+      "er": "unterrichtet",
+      "wir": "unterrichten",
+      "ihr": "unterrichtet",
+      "sie": "unterrichten"
+    },
+    "praeteritum": {
+      "ich": "unterrichtete",
+      "du": "unterrichtetest",
+      "er": "unterrichtete",
+      "wir": "unterrichteten",
+      "ihr": "unterrichtetet",
+      "sie": "unterrichteten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "unterrichtet"
+    }
+  },
+  {
+    "num": 116,
+    "verb": "rechnen",
+    "english": "calculate",
+    "level": "A2",
+    "praesens": {
+      "ich": "rechne",
+      "du": "rechnest",
+      "er": "rechnet",
+      "wir": "rechnen",
+      "ihr": "rechnet",
+      "sie": "rechnen"
+    },
+    "praeteritum": {
+      "ich": "rechnete",
+      "du": "rechnetest",
+      "er": "rechnete",
+      "wir": "rechneten",
+      "ihr": "rechnetet",
+      "sie": "rechneten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gerechnet"
+    }
+  },
+  {
+    "num": 117,
+    "verb": "zählen",
+    "english": "count",
+    "level": "A2",
+    "praesens": {
+      "ich": "zähle",
+      "du": "zählst",
+      "er": "zählt",
+      "wir": "zählen",
+      "ihr": "zählt",
+      "sie": "zählen"
+    },
+    "praeteritum": {
+      "ich": "zählte",
+      "du": "zähltest",
+      "er": "zählte",
+      "wir": "zählten",
+      "ihr": "zähltet",
+      "sie": "zählten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezählt"
+    }
+  },
+  {
+    "num": 118,
+    "verb": "messen",
+    "english": "measure",
+    "level": "A2",
+    "praesens": {
+      "ich": "messe",
+      "du": "misst",
+      "er": "misst",
+      "wir": "messen",
+      "ihr": "messt",
+      "sie": "messen"
+    },
+    "praeteritum": {
+      "ich": "maß",
+      "du": "maßt",
+      "er": "maß",
+      "wir": "maßen",
+      "ihr": "maßt",
+      "sie": "maßen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemessen"
+    }
+  },
+  {
+    "num": 119,
+    "verb": "wiegen",
+    "english": "weigh",
+    "level": "A2",
+    "praesens": {
+      "ich": "wiege",
+      "du": "wiegst",
+      "er": "wiegt",
+      "wir": "wiegen",
+      "ihr": "wiegt",
+      "sie": "wiegen"
+    },
+    "praeteritum": {
+      "ich": "wog",
+      "du": "wogst",
+      "er": "wog",
+      "wir": "wogen",
+      "ihr": "wogt",
+      "sie": "wogen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewogen"
+    }
+  },
+  {
+    "num": 120,
+    "verb": "schneiden",
+    "english": "cut",
+    "level": "A2",
+    "praesens": {
+      "ich": "schneide",
+      "du": "schneidest",
+      "er": "schneidet",
+      "wir": "schneiden",
+      "ihr": "schneidet",
+      "sie": "schneiden"
+    },
+    "praeteritum": {
+      "ich": "schnitt",
+      "du": "schnittst",
+      "er": "schnitt",
+      "wir": "schnitten",
+      "ihr": "schnittet",
+      "sie": "schnitten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschnitten"
+    }
+  },
+  {
+    "num": 121,
+    "verb": "kleben",
+    "english": "glue/stick",
+    "level": "A2",
+    "praesens": {
+      "ich": "klebe",
+      "du": "klebst",
+      "er": "klebt",
+      "wir": "kleben",
+      "ihr": "klebt",
+      "sie": "kleben"
+    },
+    "praeteritum": {
+      "ich": "klebte",
+      "du": "klebtest",
+      "er": "klebte",
+      "wir": "klebten",
+      "ihr": "klebtet",
+      "sie": "klebten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geklebt"
+    }
+  },
+  {
+    "num": 122,
+    "verb": "zeichnen",
+    "english": "draw",
+    "level": "A2",
+    "praesens": {
+      "ich": "zeichne",
+      "du": "zeichnest",
+      "er": "zeichnet",
+      "wir": "zeichnen",
+      "ihr": "zeichnet",
+      "sie": "zeichnen"
+    },
+    "praeteritum": {
+      "ich": "zeichnete",
+      "du": "zeichnetest",
+      "er": "zeichnete",
+      "wir": "zeichneten",
+      "ihr": "zeichnetet",
+      "sie": "zeichneten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezeichnet"
+    }
+  },
+  {
+    "num": 123,
+    "verb": "tippen",
+    "english": "type",
+    "level": "A2",
+    "praesens": {
+      "ich": "tippe",
+      "du": "tippst",
+      "er": "tippt",
+      "wir": "tippen",
+      "ihr": "tippt",
+      "sie": "tippen"
+    },
+    "praeteritum": {
+      "ich": "tippte",
+      "du": "tipptest",
+      "er": "tippte",
+      "wir": "tippten",
+      "ihr": "tipptet",
+      "sie": "tippten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getippt"
+    }
+  },
+  {
+    "num": 124,
+    "verb": "drucken",
+    "english": "print",
+    "level": "A2",
+    "praesens": {
+      "ich": "drucke",
+      "du": "druckst",
+      "er": "druckt",
+      "wir": "drucken",
+      "ihr": "druckt",
+      "sie": "drucken"
+    },
+    "praeteritum": {
+      "ich": "druckte",
+      "du": "drucktest",
+      "er": "druckte",
+      "wir": "druckten",
+      "ihr": "drucktet",
+      "sie": "druckten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedruckt"
+    }
+  },
+  {
+    "num": 125,
+    "verb": "herunterladen",
+    "english": "download",
+    "level": "A2",
+    "praesens": {
+      "ich": "lade herunter",
+      "du": "lädst herunter",
+      "er": "lädt herunter",
+      "wir": "laden herunter",
+      "ihr": "ladet herunter",
+      "sie": "laden herunter"
+    },
+    "praeteritum": {
+      "ich": "lud herunter",
+      "du": "ludst herunter",
+      "er": "lud herunter",
+      "wir": "luden herunter",
+      "ihr": "ludt herunter",
+      "sie": "luden herunter"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "heruntergeladen"
+    }
+  },
+  {
+    "num": 126,
+    "verb": "hochladen",
+    "english": "upload",
+    "level": "A2",
+    "praesens": {
+      "ich": "lade hoch",
+      "du": "lädst hoch",
+      "er": "lädt hoch",
+      "wir": "laden hoch",
+      "ihr": "ladet hoch",
+      "sie": "laden hoch"
+    },
+    "praeteritum": {
+      "ich": "lud hoch",
+      "du": "ludst hoch",
+      "er": "lud hoch",
+      "wir": "luden hoch",
+      "ihr": "ludt hoch",
+      "sie": "luden hoch"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "hochgeladen"
+    }
+  },
+  {
+    "num": 127,
+    "verb": "aufnehmen",
+    "english": "record",
+    "level": "A2",
+    "praesens": {
+      "ich": "nehme auf",
+      "du": "nimmst auf",
+      "er": "nimmt auf",
+      "wir": "nehmen auf",
+      "ihr": "nehmt auf",
+      "sie": "nehmen auf"
+    },
+    "praeteritum": {
+      "ich": "nahm auf",
+      "du": "nahmst auf",
+      "er": "nahm auf",
+      "wir": "nahmen auf",
+      "ihr": "nahmt auf",
+      "sie": "nahmen auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgenommen"
+    }
+  },
+  {
+    "num": 128,
+    "verb": "fernsehen",
+    "english": "watch TV",
+    "level": "A2",
+    "praesens": {
+      "ich": "sehe fern",
+      "du": "siehst fern",
+      "er": "sieht fern",
+      "wir": "sehen fern",
+      "ihr": "seht fern",
+      "sie": "sehen fern"
+    },
+    "praeteritum": {
+      "ich": "sah fern",
+      "du": "sahst fern",
+      "er": "sah fern",
+      "wir": "sahen fern",
+      "ihr": "saht fern",
+      "sie": "sahen fern"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ferngesehen"
+    }
+  },
+  {
+    "num": 129,
+    "verb": "aufhören",
+    "english": "stop/quit",
+    "level": "A2",
+    "praesens": {
+      "ich": "höre auf",
+      "du": "hörst auf",
+      "er": "hört auf",
+      "wir": "hören auf",
+      "ihr": "hört auf",
+      "sie": "hören auf"
+    },
+    "praeteritum": {
+      "ich": "hörte auf",
+      "du": "hörtest auf",
+      "er": "hörte auf",
+      "wir": "hörten auf",
+      "ihr": "hörtet auf",
+      "sie": "hörten auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgehört"
+    }
+  },
+  {
+    "num": 130,
+    "verb": "anfangen",
+    "english": "start",
+    "level": "A2",
+    "praesens": {
+      "ich": "fange an",
+      "du": "fängst an",
+      "er": "fängt an",
+      "wir": "fangen an",
+      "ihr": "fangt an",
+      "sie": "fangen an"
+    },
+    "praeteritum": {
+      "ich": "fing an",
+      "du": "fingst an",
+      "er": "fing an",
+      "wir": "fingen an",
+      "ihr": "fingt an",
+      "sie": "fingen an"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angefangen"
+    }
+  },
+  {
+    "num": 131,
+    "verb": "vorhaben",
+    "english": "plan/intend",
+    "level": "A2",
+    "praesens": {
+      "ich": "habe vor",
+      "du": "hast vor",
+      "er": "hat vor",
+      "wir": "haben vor",
+      "ihr": "habt vor",
+      "sie": "haben vor"
+    },
+    "praeteritum": {
+      "ich": "hatte vor",
+      "du": "hattest vor",
+      "er": "hatte vor",
+      "wir": "hatten vor",
+      "ihr": "hattet vor",
+      "sie": "hatten vor"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorgehabt"
+    }
+  },
+  {
+    "num": 132,
+    "verb": "vorlesen",
+    "english": "read aloud",
+    "level": "A2",
+    "praesens": {
+      "ich": "lese vor",
+      "du": "liest vor",
+      "er": "liest vor",
+      "wir": "lesen vor",
+      "ihr": "lest vor",
+      "sie": "lesen vor"
+    },
+    "praeteritum": {
+      "ich": "las vor",
+      "du": "last vor",
+      "er": "las vor",
+      "wir": "lasen vor",
+      "ihr": "last vor",
+      "sie": "lasen vor"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorgelesen"
+    }
+  },
+  {
+    "num": 133,
+    "verb": "nachfragen",
+    "english": "inquire",
+    "level": "A2",
+    "praesens": {
+      "ich": "frage nach",
+      "du": "fragst nach",
+      "er": "fragt nach",
+      "wir": "fragen nach",
+      "ihr": "fragt nach",
+      "sie": "fragen nach"
+    },
+    "praeteritum": {
+      "ich": "fragte nach",
+      "du": "fragtest nach",
+      "er": "fragte nach",
+      "wir": "fragten nach",
+      "ihr": "fragtet nach",
+      "sie": "fragten nach"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "nachgefragt"
+    }
+  },
+  {
+    "num": 134,
+    "verb": "übersetzen",
+    "english": "translate",
+    "level": "A2",
+    "praesens": {
+      "ich": "übersetze",
+      "du": "übersetzt",
+      "er": "übersetzt",
+      "wir": "übersetzen",
+      "ihr": "übersetzt",
+      "sie": "übersetzen"
+    },
+    "praeteritum": {
+      "ich": "übersetzte",
+      "du": "übersetztest",
+      "er": "übersetzte",
+      "wir": "übersetzten",
+      "ihr": "übersetztet",
+      "sie": "übersetzten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "übersetzt"
+    }
+  },
+  {
+    "num": 135,
+    "verb": "überprüfen",
+    "english": "check/verify",
+    "level": "A2",
+    "praesens": {
+      "ich": "überprüfe",
+      "du": "überprüfst",
+      "er": "überprüft",
+      "wir": "überprüfen",
+      "ihr": "überprüft",
+      "sie": "überprüfen"
+    },
+    "praeteritum": {
+      "ich": "überprüfte",
+      "du": "überprüftest",
+      "er": "überprüfte",
+      "wir": "überprüften",
+      "ihr": "überprüftet",
+      "sie": "überprüften"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überprüft"
+    }
+  },
+  {
+    "num": 136,
+    "verb": "abnehmen",
+    "english": "lose weight/take off",
+    "level": "A2",
+    "praesens": {
+      "ich": "nehme ab",
+      "du": "nimmst ab",
+      "er": "nimmt ab",
+      "wir": "nehmen ab",
+      "ihr": "nehmt ab",
+      "sie": "nehmen ab"
+    },
+    "praeteritum": {
+      "ich": "nahm ab",
+      "du": "nahmst ab",
+      "er": "nahm ab",
+      "wir": "nahmen ab",
+      "ihr": "nahmt ab",
+      "sie": "nahmen ab"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "abgenommen"
+    }
+  },
+  {
+    "num": 137,
+    "verb": "zunehmen",
+    "english": "gain weight",
+    "level": "A2",
+    "praesens": {
+      "ich": "nehme zu",
+      "du": "nimmst zu",
+      "er": "nimmt zu",
+      "wir": "nehmen zu",
+      "ihr": "nehmt zu",
+      "sie": "nehmen zu"
+    },
+    "praeteritum": {
+      "ich": "nahm zu",
+      "du": "nahmst zu",
+      "er": "nahm zu",
+      "wir": "nahmen zu",
+      "ihr": "nahmt zu",
+      "sie": "nahmen zu"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "zugenommen"
+    }
+  },
+  {
+    "num": 138,
+    "verb": "aufwachsen",
+    "english": "grow up",
+    "level": "A2",
+    "praesens": {
+      "ich": "wachse auf",
+      "du": "wächst auf",
+      "er": "wächst auf",
+      "wir": "wachsen auf",
+      "ihr": "wachst auf",
+      "sie": "wachsen auf"
+    },
+    "praeteritum": {
+      "ich": "wuchs auf",
+      "du": "wuchsst auf",
+      "er": "wuchs auf",
+      "wir": "wuchsen auf",
+      "ihr": "wuchst auf",
+      "sie": "wuchsen auf"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "aufgewachsen"
+    }
+  },
+  {
+    "num": 139,
+    "verb": "ausgehen",
+    "english": "go out",
+    "level": "A2",
+    "praesens": {
+      "ich": "gehe aus",
+      "du": "gehst aus",
+      "er": "geht aus",
+      "wir": "gehen aus",
+      "ihr": "geht aus",
+      "sie": "gehen aus"
+    },
+    "praeteritum": {
+      "ich": "ging aus",
+      "du": "gingst aus",
+      "er": "ging aus",
+      "wir": "gingen aus",
+      "ihr": "gingt aus",
+      "sie": "gingen aus"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "ausgegangen"
+    }
+  },
+  {
+    "num": 140,
+    "verb": "zurückkommen",
+    "english": "come back",
+    "level": "A2",
+    "praesens": {
+      "ich": "komme zurück",
+      "du": "kommst zurück",
+      "er": "kommt zurück",
+      "wir": "kommen zurück",
+      "ihr": "kommt zurück",
+      "sie": "kommen zurück"
+    },
+    "praeteritum": {
+      "ich": "kam zurück",
+      "du": "kamst zurück",
+      "er": "kam zurück",
+      "wir": "kamen zurück",
+      "ihr": "kamt zurück",
+      "sie": "kamen zurück"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "zurückgekommen"
+    }
+  },
+  {
+    "num": 141,
+    "verb": "vorbereiten",
+    "english": "prepare",
+    "level": "A2",
+    "praesens": {
+      "ich": "bereite vor",
+      "du": "bereitest vor",
+      "er": "bereitet vor",
+      "wir": "bereiten vor",
+      "ihr": "bereitet vor",
+      "sie": "bereiten vor"
+    },
+    "praeteritum": {
+      "ich": "bereitete vor",
+      "du": "bereitetest vor",
+      "er": "bereitete vor",
+      "wir": "bereiteten vor",
+      "ihr": "bereitetet vor",
+      "sie": "bereiteten vor"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorbereitet"
+    }
+  },
+  {
+    "num": 142,
+    "verb": "teilnehmen",
+    "english": "participate",
+    "level": "A2",
+    "praesens": {
+      "ich": "nehme teil",
+      "du": "nimmst teil",
+      "er": "nimmt teil",
+      "wir": "nehmen teil",
+      "ihr": "nehmt teil",
+      "sie": "nehmen teil"
+    },
+    "praeteritum": {
+      "ich": "nahm teil",
+      "du": "nahmst teil",
+      "er": "nahm teil",
+      "wir": "nahmen teil",
+      "ihr": "nahmt teil",
+      "sie": "nahmen teil"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "teilgenommen"
+    }
+  },
+  {
+    "num": 143,
+    "verb": "stattfinden",
+    "english": "take place",
+    "level": "A2",
+    "praesens": {
+      "ich": "finde statt",
+      "du": "findest statt",
+      "er": "findet statt",
+      "wir": "finden statt",
+      "ihr": "findet statt",
+      "sie": "finden statt"
+    },
+    "praeteritum": {
+      "ich": "fand statt",
+      "du": "fandst statt",
+      "er": "fand statt",
+      "wir": "fanden statt",
+      "ihr": "fandet statt",
+      "sie": "fanden statt"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "stattgefunden"
+    }
+  },
+  {
+    "num": 144,
+    "verb": "vergessen",
+    "english": "forget",
+    "level": "A2",
+    "praesens": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie": "vergessen"
+    },
+    "praeteritum": {
+      "ich": "vergaß",
+      "du": "vergaßt",
+      "er": "vergaß",
+      "wir": "vergaßen",
+      "ihr": "vergaßt",
+      "sie": "vergaßen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vergessen"
+    }
+  },
+  {
+    "num": 145,
+    "verb": "erinnern",
+    "english": "remember",
+    "level": "A2",
+    "praesens": {
+      "ich": "erinnere",
+      "du": "erinnerst",
+      "er": "erinnert",
+      "wir": "erinnern",
+      "ihr": "erinnert",
+      "sie": "erinnern"
+    },
+    "praeteritum": {
+      "ich": "erinnerte",
+      "du": "erinnertest",
+      "er": "erinnerte",
+      "wir": "erinnerten",
+      "ihr": "erinnert",
+      "sie": "erinnerten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erinnert"
+    }
+  },
+  {
+    "num": 146,
+    "verb": "verlieren",
+    "english": "lose",
+    "level": "A2",
+    "praesens": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er": "verliert",
+      "wir": "verlieren",
+      "ihr": "verliert",
+      "sie": "verlieren"
+    },
+    "praeteritum": {
+      "ich": "verlor",
+      "du": "verlorst",
+      "er": "verlor",
+      "wir": "verloren",
+      "ihr": "verlort",
+      "sie": "verloren"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verloren"
+    }
+  },
+  {
+    "num": 147,
+    "verb": "gewinnen",
+    "english": "win",
+    "level": "A2",
+    "praesens": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er": "gewinnt",
+      "wir": "gewinnen",
+      "ihr": "gewinnt",
+      "sie": "gewinnen"
+    },
+    "praeteritum": {
+      "ich": "gewann",
+      "du": "gewannst",
+      "er": "gewann",
+      "wir": "gewannen",
+      "ihr": "gewannt",
+      "sie": "gewannen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewonnen"
+    }
+  },
+  {
+    "num": 148,
+    "verb": "kämpfen",
+    "english": "fight",
+    "level": "A2",
+    "praesens": {
+      "ich": "kämpfe",
+      "du": "kämpfst",
+      "er": "kämpft",
+      "wir": "kämpfen",
+      "ihr": "kämpft",
+      "sie": "kämpfen"
+    },
+    "praeteritum": {
+      "ich": "kämpfte",
+      "du": "kämpftest",
+      "er": "kämpfte",
+      "wir": "kämpften",
+      "ihr": "kämpftet",
+      "sie": "kämpften"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekämpft"
+    }
+  },
+  {
+    "num": 149,
+    "verb": "schützen",
+    "english": "protect",
+    "level": "A2",
+    "praesens": {
+      "ich": "schütze",
+      "du": "schützt",
+      "er": "schützt",
+      "wir": "schützen",
+      "ihr": "schützt",
+      "sie": "schützen"
+    },
+    "praeteritum": {
+      "ich": "schützte",
+      "du": "schütztest",
+      "er": "schützte",
+      "wir": "schützten",
+      "ihr": "schütztet",
+      "sie": "schützten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschützt"
+    }
+  },
+  {
+    "num": 150,
+    "verb": "tragen",
+    "english": "carry/wear",
+    "level": "A2",
+    "praesens": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt",
+      "wir": "tragen",
+      "ihr": "tragt",
+      "sie": "tragen"
+    },
+    "praeteritum": {
+      "ich": "trug",
+      "du": "trugst",
+      "er": "trug",
+      "wir": "trugen",
+      "ihr": "trugt",
+      "sie": "trugen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getragen"
+    }
+  },
+  {
+    "num": 151,
+    "verb": "empfangen",
+    "english": "receive",
+    "level": "A2",
+    "praesens": {
+      "ich": "empfange",
+      "du": "empfängst",
+      "er": "empfängt",
+      "wir": "empfangen",
+      "ihr": "empfangt",
+      "sie": "empfangen"
+    },
+    "praeteritum": {
+      "ich": "empfing",
+      "du": "empfingst",
+      "er": "empfing",
+      "wir": "empfingen",
+      "ihr": "empfingt",
+      "sie": "empfingen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "empfangen"
+    }
+  },
+  {
+    "num": 152,
+    "verb": "ankündigen",
+    "english": "announce",
+    "level": "A2",
+    "praesens": {
+      "ich": "kündige an",
+      "du": "kündigst an",
+      "er": "kündigt an",
+      "wir": "kündigen an",
+      "ihr": "kündigt an",
+      "sie": "kündigen an"
+    },
+    "praeteritum": {
+      "ich": "kündigte an",
+      "du": "kündigtest an",
+      "er": "kündigte an",
+      "wir": "kündigten an",
+      "ihr": "kündigtet an",
+      "sie": "kündigten an"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angekündigt"
+    }
+  },
+  {
+    "num": 153,
+    "verb": "absagen",
+    "english": "cancel",
+    "level": "A2",
+    "praesens": {
+      "ich": "sage ab",
+      "du": "sagst ab",
+      "er": "sagt ab",
+      "wir": "sagen ab",
+      "ihr": "sagt ab",
+      "sie": "sagen ab"
+    },
+    "praeteritum": {
+      "ich": "sagte ab",
+      "du": "sagtest ab",
+      "er": "sagte ab",
+      "wir": "sagten ab",
+      "ihr": "sagtet ab",
+      "sie": "sagten ab"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "abgesagt"
+    }
+  },
+  {
+    "num": 154,
+    "verb": "danken",
+    "english": "thank",
+    "level": "A2",
+    "praesens": {
+      "ich": "danke",
+      "du": "dankst",
+      "er": "dankt",
+      "wir": "danken",
+      "ihr": "dankt",
+      "sie": "danken"
+    },
+    "praeteritum": {
+      "ich": "dankte",
+      "du": "danktest",
+      "er": "dankte",
+      "wir": "dankten",
+      "ihr": "danktet",
+      "sie": "dankten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedankt"
+    }
+  },
+  {
+    "num": 155,
+    "verb": "entschuldigen",
+    "english": "excuse/apologize",
+    "level": "A2",
+    "praesens": {
+      "ich": "entschuldige",
+      "du": "entschuldigst",
+      "er": "entschuldigt",
+      "wir": "entschuldigen",
+      "ihr": "entschuldigt",
+      "sie": "entschuldigen"
+    },
+    "praeteritum": {
+      "ich": "entschuldigte",
+      "du": "entschuldigtest",
+      "er": "entschuldigte",
+      "wir": "entschuldigten",
+      "ihr": "entschuldigtet",
+      "sie": "entschuldigten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "entschuldigt"
+    }
+  },
+  {
+    "num": 156,
+    "verb": "begrüßen",
+    "english": "greet",
+    "level": "A2",
+    "praesens": {
+      "ich": "begrüße",
+      "du": "begrüßt",
+      "er": "begrüßt",
+      "wir": "begrüßen",
+      "ihr": "begrüßt",
+      "sie": "begrüßen"
+    },
+    "praeteritum": {
+      "ich": "begrüßte",
+      "du": "begrüßtest",
+      "er": "begrüßte",
+      "wir": "begrüßten",
+      "ihr": "begrüßtet",
+      "sie": "begrüßten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "begrüßt"
+    }
+  },
+  {
+    "num": 157,
+    "verb": "verabschieden",
+    "english": "say goodbye",
+    "level": "A2",
+    "praesens": {
+      "ich": "verabschiede",
+      "du": "verabschiedest",
+      "er": "verabschiedet",
+      "wir": "verabschieden",
+      "ihr": "verabschiedet",
+      "sie": "verabschieden"
+    },
+    "praeteritum": {
+      "ich": "verabschiedete",
+      "du": "verabschiedetest",
+      "er": "verabschiedete",
+      "wir": "verabschiedeten",
+      "ihr": "verabschiedetet",
+      "sie": "verabschiedeten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verabschiedet"
+    }
+  },
+  {
+    "num": 158,
+    "verb": "heiraten",
+    "english": "marry",
+    "level": "A2",
+    "praesens": {
+      "ich": "heirate",
+      "du": "heiratest",
+      "er": "heiratet",
+      "wir": "heiraten",
+      "ihr": "heiratet",
+      "sie": "heiraten"
+    },
+    "praeteritum": {
+      "ich": "heiratete",
+      "du": "heiratetest",
+      "er": "heiratete",
+      "wir": "heirateten",
+      "ihr": "heiratetet",
+      "sie": "heirateten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geheiratet"
+    }
+  },
+  {
+    "num": 159,
+    "verb": "gebären",
+    "english": "give birth",
+    "level": "A2",
+    "praesens": {
+      "ich": "gebäre",
+      "du": "gebärst",
+      "er": "gebärt",
+      "wir": "gebären",
+      "ihr": "gebärt",
+      "sie": "gebären"
+    },
+    "praeteritum": {
+      "ich": "gebar",
+      "du": "gebarst",
+      "er": "gebar",
+      "wir": "gebaren",
+      "ihr": "gebart",
+      "sie": "gebaren"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geboren"
+    }
+  },
+  {
+    "num": 160,
+    "verb": "sterben",
+    "english": "die",
+    "level": "A2",
+    "praesens": {
+      "ich": "sterbe",
+      "du": "stirbst",
+      "er": "stirbt",
+      "wir": "sterben",
+      "ihr": "sterbt",
+      "sie": "sterben"
+    },
+    "praeteritum": {
+      "ich": "starb",
+      "du": "starbst",
+      "er": "starb",
+      "wir": "starben",
+      "ihr": "starbt",
+      "sie": "starben"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gestorben"
+    }
+  },
+  {
+    "num": 161,
+    "verb": "wachsen",
+    "english": "grow",
+    "level": "A2",
+    "praesens": {
+      "ich": "wachse",
+      "du": "wächst",
+      "er": "wächst",
+      "wir": "wachsen",
+      "ihr": "wachst",
+      "sie": "wachsen"
+    },
+    "praeteritum": {
+      "ich": "wuchs",
+      "du": "wuchsst",
+      "er": "wuchs",
+      "wir": "wuchsen",
+      "ihr": "wuchst",
+      "sie": "wuchsen"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gewachsen"
+    }
+  },
+  {
+    "num": 162,
+    "verb": "ändern",
+    "english": "change",
+    "level": "A2",
+    "praesens": {
+      "ich": "ändere",
+      "du": "änderst",
+      "er": "ändert",
+      "wir": "ändern",
+      "ihr": "ändert",
+      "sie": "ändern"
+    },
+    "praeteritum": {
+      "ich": "änderte",
+      "du": "ändertest",
+      "er": "änderte",
+      "wir": "änderten",
+      "ihr": "ändertet",
+      "sie": "änderten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geändert"
+    }
+  },
+  {
+    "num": 163,
+    "verb": "verbessern",
+    "english": "improve",
+    "level": "A2",
+    "praesens": {
+      "ich": "verbessere",
+      "du": "verbesserst",
+      "er": "verbessert",
+      "wir": "verbessern",
+      "ihr": "verbessert",
+      "sie": "verbessern"
+    },
+    "praeteritum": {
+      "ich": "verbesserte",
+      "du": "verbessertest",
+      "er": "verbesserte",
+      "wir": "verbesserten",
+      "ihr": "verbessert",
+      "sie": "verbesserten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verbessert"
+    }
+  },
+  {
+    "num": 164,
+    "verb": "aufpassen",
+    "english": "pay attention",
+    "level": "A2",
+    "praesens": {
+      "ich": "passe auf",
+      "du": "passt auf",
+      "er": "passt auf",
+      "wir": "passen auf",
+      "ihr": "passt auf",
+      "sie": "passen auf"
+    },
+    "praeteritum": {
+      "ich": "passte auf",
+      "du": "passtest auf",
+      "er": "passte auf",
+      "wir": "passten auf",
+      "ihr": "passtet auf",
+      "sie": "passten auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgepasst"
+    }
+  },
+  {
+    "num": 165,
+    "verb": "mitnehmen",
+    "english": "take along",
+    "level": "A2",
+    "praesens": {
+      "ich": "nehme mit",
+      "du": "nimmst mit",
+      "er": "nimmt mit",
+      "wir": "nehmen mit",
+      "ihr": "nehmt mit",
+      "sie": "nehmen mit"
+    },
+    "praeteritum": {
+      "ich": "nahm mit",
+      "du": "nahmst mit",
+      "er": "nahm mit",
+      "wir": "nahmen mit",
+      "ihr": "nahmt mit",
+      "sie": "nahmen mit"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "mitgenommen"
+    }
+  },
+  {
+    "num": 166,
+    "verb": "hinstellen",
+    "english": "put down",
+    "level": "A2",
+    "praesens": {
+      "ich": "stelle hin",
+      "du": "stellst hin",
+      "er": "stellt hin",
+      "wir": "stellen hin",
+      "ihr": "stellt hin",
+      "sie": "stellen hin"
+    },
+    "praeteritum": {
+      "ich": "stellte hin",
+      "du": "stelltest hin",
+      "er": "stellte hin",
+      "wir": "stellten hin",
+      "ihr": "stelltet hin",
+      "sie": "stellten hin"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "hingestellt"
+    }
+  },
+  {
+    "num": 167,
+    "verb": "hinlegen",
+    "english": "put down",
+    "level": "A2",
+    "praesens": {
+      "ich": "lege hin",
+      "du": "legst hin",
+      "er": "legt hin",
+      "wir": "legen hin",
+      "ihr": "legt hin",
+      "sie": "legen hin"
+    },
+    "praeteritum": {
+      "ich": "legte hin",
+      "du": "legtest hin",
+      "er": "legte hin",
+      "wir": "legten hin",
+      "ihr": "legtet hin",
+      "sie": "legten hin"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "hingelegt"
+    }
+  },
+  {
+    "num": 168,
+    "verb": "spazieren gehen",
+    "english": "go for a walk",
+    "level": "A2",
+    "praesens": {
+      "ich": "gehe spazieren",
+      "du": "gehst spazieren",
+      "er": "geht spazieren",
+      "wir": "gehen spazieren",
+      "ihr": "geht spazieren",
+      "sie": "gehen spazieren"
+    },
+    "praeteritum": {
+      "ich": "ging spazieren",
+      "du": "gingst spazieren",
+      "er": "ging spazieren",
+      "wir": "gingen spazieren",
+      "ihr": "gingt spazieren",
+      "sie": "gingen spazieren"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "spazieren gegangen"
+    }
+  },
+  {
+    "num": 169,
+    "verb": "joggen",
+    "english": "jog",
+    "level": "A2",
+    "praesens": {
+      "ich": "jogge",
+      "du": "joggst",
+      "er": "joggt",
+      "wir": "joggen",
+      "ihr": "joggt",
+      "sie": "joggen"
+    },
+    "praeteritum": {
+      "ich": "joggte",
+      "du": "joggtest",
+      "er": "joggte",
+      "wir": "joggten",
+      "ihr": "joggtet",
+      "sie": "joggten"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gejoggt"
+    }
+  },
+  {
+    "num": 170,
+    "verb": "trainieren",
+    "english": "train",
+    "level": "A2",
+    "praesens": {
+      "ich": "trainiere",
+      "du": "trainierst",
+      "er": "trainiert",
+      "wir": "trainieren",
+      "ihr": "trainiert",
+      "sie": "trainieren"
+    },
+    "praeteritum": {
+      "ich": "trainierte",
+      "du": "trainiertest",
+      "er": "trainierte",
+      "wir": "trainierten",
+      "ihr": "trainiertet",
+      "sie": "trainierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "trainiert"
+    }
+  },
+  {
+    "num": 171,
+    "verb": "gebrauchen",
+    "english": "use",
+    "level": "A2",
+    "praesens": {
+      "ich": "gebrauche",
+      "du": "gebrauchst",
+      "er": "gebraucht",
+      "wir": "gebrauchen",
+      "ihr": "gebraucht",
+      "sie": "gebrauchen"
+    },
+    "praeteritum": {
+      "ich": "gebrauchte",
+      "du": "gebrauchtest",
+      "er": "gebrauchte",
+      "wir": "gebrauchten",
+      "ihr": "gebrauchtet",
+      "sie": "gebrauchten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebraucht"
+    }
+  },
+  {
+    "num": 172,
+    "verb": "überweisen",
+    "english": "transfer (money)",
+    "level": "A2",
+    "praesens": {
+      "ich": "überweise",
+      "du": "überweist",
+      "er": "überweist",
+      "wir": "überweisen",
+      "ihr": "überweist",
+      "sie": "überweisen"
+    },
+    "praeteritum": {
+      "ich": "überwies",
+      "du": "überwiest",
+      "er": "überwies",
+      "wir": "überwiesen",
+      "ihr": "überwiest",
+      "sie": "überwiesen"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überwiesen"
+    }
+  },
+  {
+    "num": 173,
+    "verb": "abheben",
+    "english": "withdraw",
+    "level": "A2",
+    "praesens": {
+      "ich": "hebe ab",
+      "du": "hebst ab",
+      "er": "hebt ab",
+      "wir": "heben ab",
+      "ihr": "hebt ab",
+      "sie": "heben ab"
+    },
+    "praeteritum": {
+      "ich": "hob ab",
+      "du": "hobst ab",
+      "er": "hob ab",
+      "wir": "hoben ab",
+      "ihr": "hobt ab",
+      "sie": "hoben ab"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "abgehoben"
+    }
+  },
+  {
+    "num": 174,
+    "verb": "einzahlen",
+    "english": "deposit",
+    "level": "A2",
+    "praesens": {
+      "ich": "zahle ein",
+      "du": "zahlst ein",
+      "er": "zahlt ein",
+      "wir": "zahlen ein",
+      "ihr": "zahlt ein",
+      "sie": "zahlen ein"
+    },
+    "praeteritum": {
+      "ich": "zahlte ein",
+      "du": "zahltest ein",
+      "er": "zahlte ein",
+      "wir": "zahlten ein",
+      "ihr": "zahltet ein",
+      "sie": "zahlten ein"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "eingezahlt"
+    }
+  },
+  {
+    "num": 175,
+    "verb": "ausfüllen",
+    "english": "fill out",
+    "level": "A2",
+    "praesens": {
+      "ich": "fülle aus",
+      "du": "füllst aus",
+      "er": "füllt aus",
+      "wir": "füllen aus",
+      "ihr": "füllt aus",
+      "sie": "füllen aus"
+    },
+    "praeteritum": {
+      "ich": "füllte aus",
+      "du": "fülltest aus",
+      "er": "füllte aus",
+      "wir": "füllten aus",
+      "ihr": "fülltet aus",
+      "sie": "füllten aus"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ausgefüllt"
+    }
+  },
+  {
+    "num": 176,
+    "verb": "unterschreiben",
+    "english": "sign",
+    "level": "A2",
+    "praesens": {
+      "ich": "unterschreibe",
+      "du": "unterschreibst",
+      "er": "unterschreibt",
+      "wir": "unterschreiben",
+      "ihr": "unterschreibt",
+      "sie": "unterschreiben"
+    },
+    "praeteritum": {
+      "ich": "unterschrieb",
+      "du": "unterschriebst",
+      "er": "unterschrieb",
+      "wir": "unterschrieben",
+      "ihr": "unterschriebt",
+      "sie": "unterschrieben"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "unterschrieben"
+    }
+  },
+  {
+    "num": 177,
+    "verb": "abgeben",
+    "english": "hand in",
+    "level": "A2",
+    "praesens": {
+      "ich": "gebe ab",
+      "du": "gibst ab",
+      "er": "gibt ab",
+      "wir": "geben ab",
+      "ihr": "gebt ab",
+      "sie": "geben ab"
+    },
+    "praeteritum": {
+      "ich": "gab ab",
+      "du": "gabst ab",
+      "er": "gab ab",
+      "wir": "gaben ab",
+      "ihr": "gabt ab",
+      "sie": "gaben ab"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "abgegeben"
+    }
+  },
+  {
+    "num": 178,
+    "verb": "abbiegen",
+    "english": "turn (road)",
+    "level": "A2",
+    "praesens": {
+      "ich": "biege ab",
+      "du": "biegst ab",
+      "er": "biegt ab",
+      "wir": "biegen ab",
+      "ihr": "biegt ab",
+      "sie": "biegen ab"
+    },
+    "praeteritum": {
+      "ich": "bog ab",
+      "du": "bogst ab",
+      "er": "bog ab",
+      "wir": "bogen ab",
+      "ihr": "bogt ab",
+      "sie": "bogen ab"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "abgebogen"
+    }
+  },
+  {
+    "num": 179,
+    "verb": "einbiegen",
+    "english": "turn into",
+    "level": "A2",
+    "praesens": {
+      "ich": "biege ein",
+      "du": "biegst ein",
+      "er": "biegt ein",
+      "wir": "biegen ein",
+      "ihr": "biegt ein",
+      "sie": "biegen ein"
+    },
+    "praeteritum": {
+      "ich": "bog ein",
+      "du": "bogst ein",
+      "er": "bog ein",
+      "wir": "bogen ein",
+      "ihr": "bogt ein",
+      "sie": "bogen ein"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "eingebogen"
+    }
+  },
+  {
+    "num": 180,
+    "verb": "überqueren",
+    "english": "cross",
+    "level": "A2",
+    "praesens": {
+      "ich": "überquere",
+      "du": "überquerst",
+      "er": "überquert",
+      "wir": "überqueren",
+      "ihr": "überquert",
+      "sie": "überqueren"
+    },
+    "praeteritum": {
+      "ich": "überquerte",
+      "du": "überquertest",
+      "er": "überquerte",
+      "wir": "überquerten",
+      "ihr": "überquertet",
+      "sie": "überquerten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überquert"
+    }
+  },
+  {
+    "num": 181,
+    "verb": "parken",
+    "english": "park",
+    "level": "A2",
+    "praesens": {
+      "ich": "parke",
+      "du": "parkst",
+      "er": "parkt",
+      "wir": "parken",
+      "ihr": "parkt",
+      "sie": "parken"
+    },
+    "praeteritum": {
+      "ich": "parkte",
+      "du": "parktest",
+      "er": "parkte",
+      "wir": "parkten",
+      "ihr": "parktet",
+      "sie": "parkten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geparkt"
+    }
+  },
+  {
+    "num": 182,
+    "verb": "tanken",
+    "english": "refuel",
+    "level": "A2",
+    "praesens": {
+      "ich": "tanke",
+      "du": "tankst",
+      "er": "tankt",
+      "wir": "tanken",
+      "ihr": "tankt",
+      "sie": "tanken"
+    },
+    "praeteritum": {
+      "ich": "tankte",
+      "du": "tanktest",
+      "er": "tankte",
+      "wir": "tankten",
+      "ihr": "tanktet",
+      "sie": "tankten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getankt"
+    }
+  },
+  {
+    "num": 183,
+    "verb": "reparieren",
+    "english": "repair",
+    "level": "A2",
+    "praesens": {
+      "ich": "repariere",
+      "du": "reparierst",
+      "er": "repariert",
+      "wir": "reparieren",
+      "ihr": "repariert",
+      "sie": "reparieren"
+    },
+    "praeteritum": {
+      "ich": "reparierte",
+      "du": "repariertest",
+      "er": "reparierte",
+      "wir": "reparierten",
+      "ihr": "repariertet",
+      "sie": "reparierten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "repariert"
+    }
+  },
+  {
+    "num": 184,
+    "verb": "putzen",
+    "english": "clean",
+    "level": "A2",
+    "praesens": {
+      "ich": "putze",
+      "du": "putzt",
+      "er": "putzt",
+      "wir": "putzen",
+      "ihr": "putzt",
+      "sie": "putzen"
+    },
+    "praeteritum": {
+      "ich": "putzte",
+      "du": "putztest",
+      "er": "putzte",
+      "wir": "putzten",
+      "ihr": "putztet",
+      "sie": "putzten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geputzt"
+    }
+  },
+  {
+    "num": 185,
+    "verb": "bügeln",
+    "english": "iron",
+    "level": "A2",
+    "praesens": {
+      "ich": "bügle",
+      "du": "bügelst",
+      "er": "bügelt",
+      "wir": "bügeln",
+      "ihr": "bügelt",
+      "sie": "bügeln"
+    },
+    "praeteritum": {
+      "ich": "bügelte",
+      "du": "bügeltest",
+      "er": "bügelte",
+      "wir": "bügelten",
+      "ihr": "bügeltet",
+      "sie": "bügelten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebügelt"
+    }
+  },
+  {
+    "num": 186,
+    "verb": "nähen",
+    "english": "sew",
+    "level": "A2",
+    "praesens": {
+      "ich": "nähe",
+      "du": "nähst",
+      "er": "näht",
+      "wir": "nähen",
+      "ihr": "näht",
+      "sie": "nähen"
+    },
+    "praeteritum": {
+      "ich": "nähte",
+      "du": "nähtest",
+      "er": "nähte",
+      "wir": "nähten",
+      "ihr": "nähtet",
+      "sie": "nähten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "genäht"
+    }
+  },
+  {
+    "num": 187,
+    "verb": "stricken",
+    "english": "knit",
+    "level": "A2",
+    "praesens": {
+      "ich": "stricke",
+      "du": "strickst",
+      "er": "strickt",
+      "wir": "stricken",
+      "ihr": "strickt",
+      "sie": "stricken"
+    },
+    "praeteritum": {
+      "ich": "strickte",
+      "du": "stricktest",
+      "er": "strickte",
+      "wir": "strickten",
+      "ihr": "stricktet",
+      "sie": "strickten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestrickt"
+    }
+  },
+  {
+    "num": 188,
+    "verb": "grillen",
+    "english": "grill",
+    "level": "A2",
+    "praesens": {
+      "ich": "grille",
+      "du": "grillst",
+      "er": "grillt",
+      "wir": "grillen",
+      "ihr": "grillt",
+      "sie": "grillen"
+    },
+    "praeteritum": {
+      "ich": "grillte",
+      "du": "grilltest",
+      "er": "grillte",
+      "wir": "grillten",
+      "ihr": "grilltet",
+      "sie": "grillten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegrillt"
+    }
+  },
+  {
+    "num": 189,
+    "verb": "aufessen",
+    "english": "eat up",
+    "level": "A2",
+    "praesens": {
+      "ich": "esse auf",
+      "du": "isst auf",
+      "er": "isst auf",
+      "wir": "essen auf",
+      "ihr": "esst auf",
+      "sie": "essen auf"
+    },
+    "praeteritum": {
+      "ich": "aß auf",
+      "du": "aßt auf",
+      "er": "aß auf",
+      "wir": "aßen auf",
+      "ihr": "aßt auf",
+      "sie": "aßen auf"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgegessen"
+    }
+  },
+  {
+    "num": 190,
+    "verb": "austrinken",
+    "english": "drink up",
+    "level": "A2",
+    "praesens": {
+      "ich": "trinke aus",
+      "du": "trinkst aus",
+      "er": "trinkt aus",
+      "wir": "trinken aus",
+      "ihr": "trinkt aus",
+      "sie": "trinken aus"
+    },
+    "praeteritum": {
+      "ich": "trank aus",
+      "du": "trankst aus",
+      "er": "trank aus",
+      "wir": "tranken aus",
+      "ihr": "trankt aus",
+      "sie": "tranken aus"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ausgetrunken"
+    }
+  },
+  {
+    "num": 191,
+    "verb": "aufwachen",
+    "english": "wake up",
+    "level": "A2",
+    "praesens": {
+      "ich": "wache auf",
+      "du": "wachst auf",
+      "er": "wacht auf",
+      "wir": "wachen auf",
+      "ihr": "wacht auf",
+      "sie": "wachen auf"
+    },
+    "praeteritum": {
+      "ich": "wachte auf",
+      "du": "wachtest auf",
+      "er": "wachte auf",
+      "wir": "wachten auf",
+      "ihr": "wachtet auf",
+      "sie": "wachten auf"
+    },
+    "perfekt": {
+      "aux": "sein",
+      "participle": "aufgewacht"
+    }
+  },
+  {
+    "num": 192,
+    "verb": "duschen",
+    "english": "shower",
+    "level": "A2",
+    "praesens": {
+      "ich": "dusche",
+      "du": "duschst",
+      "er": "duscht",
+      "wir": "duschen",
+      "ihr": "duscht",
+      "sie": "duschen"
+    },
+    "praeteritum": {
+      "ich": "duschte",
+      "du": "duschtest",
+      "er": "duschte",
+      "wir": "duschten",
+      "ihr": "duschtet",
+      "sie": "duschten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geduscht"
+    }
+  },
+  {
+    "num": 193,
+    "verb": "baden",
+    "english": "bathe",
+    "level": "A2",
+    "praesens": {
+      "ich": "bade",
+      "du": "badest",
+      "er": "badet",
+      "wir": "baden",
+      "ihr": "badet",
+      "sie": "baden"
+    },
+    "praeteritum": {
+      "ich": "badete",
+      "du": "badetest",
+      "er": "badete",
+      "wir": "badeten",
+      "ihr": "badetet",
+      "sie": "badeten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebadet"
+    }
+  },
+  {
+    "num": 194,
+    "verb": "schminken",
+    "english": "put on makeup",
+    "level": "A2",
+    "praesens": {
+      "ich": "schminke",
+      "du": "schminkst",
+      "er": "schminkt",
+      "wir": "schminken",
+      "ihr": "schminkt",
+      "sie": "schminken"
+    },
+    "praeteritum": {
+      "ich": "schminkte",
+      "du": "schminktest",
+      "er": "schminkte",
+      "wir": "schminkten",
+      "ihr": "schminktet",
+      "sie": "schminkten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschminkt"
+    }
+  },
+  {
+    "num": 195,
+    "verb": "kämmen",
+    "english": "comb",
+    "level": "A2",
+    "praesens": {
+      "ich": "kämme",
+      "du": "kämmst",
+      "er": "kämmt",
+      "wir": "kämmen",
+      "ihr": "kämmt",
+      "sie": "kämmen"
+    },
+    "praeteritum": {
+      "ich": "kämmte",
+      "du": "kämmtest",
+      "er": "kämmte",
+      "wir": "kämmten",
+      "ihr": "kämmtet",
+      "sie": "kämmten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekämmt"
+    }
+  },
+  {
+    "num": 196,
+    "verb": "anziehen",
+    "english": "get dressed",
+    "level": "A2",
+    "praesens": {
+      "ich": "ziehe an",
+      "du": "ziehst an",
+      "er": "zieht an",
+      "wir": "ziehen an",
+      "ihr": "zieht an",
+      "sie": "ziehen an"
+    },
+    "praeteritum": {
+      "ich": "zog an",
+      "du": "zogst an",
+      "er": "zog an",
+      "wir": "zogen an",
+      "ihr": "zogt an",
+      "sie": "zogen an"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angezogen"
+    }
+  },
+  {
+    "num": 197,
+    "verb": "ausziehen",
+    "english": "undress",
+    "level": "A2",
+    "praesens": {
+      "ich": "ziehe aus",
+      "du": "ziehst aus",
+      "er": "zieht aus",
+      "wir": "ziehen aus",
+      "ihr": "zieht aus",
+      "sie": "ziehen aus"
+    },
+    "praeteritum": {
+      "ich": "zog aus",
+      "du": "zogst aus",
+      "er": "zog aus",
+      "wir": "zogen aus",
+      "ihr": "zogt aus",
+      "sie": "zogen aus"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ausgezogen"
+    }
+  },
+  {
+    "num": 198,
+    "verb": "schreien",
+    "english": "shout/scream",
+    "level": "A2",
+    "praesens": {
+      "ich": "schreie",
+      "du": "schreist",
+      "er": "schreit",
+      "wir": "schreien",
+      "ihr": "schreit",
+      "sie": "schreien"
+    },
+    "praeteritum": {
+      "ich": "schrie",
+      "du": "schriest",
+      "er": "schrie",
+      "wir": "schrien",
+      "ihr": "schriet",
+      "sie": "schrien"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschrien"
+    }
+  },
+  {
+    "num": 199,
+    "verb": "flüstern",
+    "english": "whisper",
+    "level": "A2",
+    "praesens": {
+      "ich": "flüstere",
+      "du": "flüsterst",
+      "er": "flüstert",
+      "wir": "flüstern",
+      "ihr": "flüstert",
+      "sie": "flüstern"
+    },
+    "praeteritum": {
+      "ich": "flüsterte",
+      "du": "flüstertest",
+      "er": "flüsterte",
+      "wir": "flüsterten",
+      "ihr": "flüstertet",
+      "sie": "flüsterten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geflüstert"
+    }
+  },
+  {
+    "num": 200,
+    "verb": "bitten",
+    "english": "ask/request",
+    "level": "A2",
+    "praesens": {
+      "ich": "bitte",
+      "du": "bittest",
+      "er": "bittet",
+      "wir": "bitten",
+      "ihr": "bittet",
+      "sie": "bitten"
+    },
+    "praeteritum": {
+      "ich": "bat",
+      "du": "batst",
+      "er": "bat",
+      "wir": "baten",
+      "ihr": "batet",
+      "sie": "baten"
+    },
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebeten"
+    }
+  }
+]

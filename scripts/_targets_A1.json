@@ -1,0 +1,667 @@
+[
+ {
+  "num": 6,
+  "title": "Mein Zimmer",
+  "titleEn": "My Room",
+  "deLen": 1085,
+  "de": "Mein Zimmer ist nicht groß, aber ich mag es sehr. Es ist hell und gemütlich. In meinem Zimmer habe ich ein Bett, einen Schreibtisch und einen Stuhl. Das Bett ist blau und sehr bequem. Am Morgen scheint die Sonne durch das Fenster. Dann wache ich langsam auf und freue mich auf den neuen Tag.\n\nAn der Wand hängt ein großes Poster von meiner Lieblingsband. Neben dem Bett steht eine kleine Lampe. Auf dem Schreibtisch steht mein Computer. Dort mache ich meine Hausaufgaben und schreibe E-Mails an meine Freunde. Ich habe auch ein Regal mit vielen Büchern, denn ich lese sehr gern.\n\nAm Nachmittag höre ich in meinem Zimmer Musik. Manchmal kommt meine Freundin Anna und wir lernen zusammen. Wir trinken Tee und sprechen über die Schule. Am Abend räume ich mein Zimmer auf, weil ich keine Unordnung mag. Alles hat seinen Platz.\n\nMein Zimmer ist mein Lieblingsplatz auf der Welt. Hier kann ich lernen, schlafen und träumen. Ich fühle mich hier sicher und ruhig. Am Wochenende bleibe ich oft lange in meinem Zimmer. Es ist klein, aber es ist mein eigenes Zimmer, und das macht mich glücklich."
+ },
+ {
+  "num": 7,
+  "title": "Das Wetter",
+  "titleEn": "The Weather",
+  "deLen": 997,
+  "de": "Heute ist das Wetter wunderbar. Der Himmel ist blau und die Sonne scheint hell. Es ist warm, aber nicht zu heiß. Am Morgen öffne ich das Fenster und atme die frische Luft ein. Die Vögel singen im Garten. Ich freue mich sehr auf diesen Tag.\n\nIch trage ein T-Shirt und eine kurze Hose. Meine Schwester trägt ein leichtes Kleid und eine Sonnenbrille. Wir gehen zusammen in den Park. Dort spielen viele Kinder und lachen laut. Einige Leute machen ein Picknick auf dem Gras. Andere fahren Fahrrad oder gehen mit ihrem Hund spazieren.\n\nWir setzen uns auf eine Bank unter einem großen Baum. Ich trinke kalte Limonade und meine Schwester isst ein Eis. Der Wind ist leicht und angenehm. Am Nachmittag spielen wir zusammen Federball. Es macht uns viel Spaß.\n\nAm Abend wird es langsam kühler. Der Himmel wird rot und orange. Wir gehen müde, aber glücklich nach Hause. Ich mag den Sommer sehr, denn das schöne Wetter macht mich froh. Morgen soll es wieder sonnig sein, und wir wollen wieder in den Park gehen."
+ },
+ {
+  "num": 8,
+  "title": "Einkaufen",
+  "titleEn": "Shopping",
+  "deLen": 968,
+  "de": "Am Samstag gehe ich gern in die Stadt und kaufe neue Kleidung. Das Wetter ist schön, also gehe ich zu Fuß. Die Straßen sind voll mit Menschen. Vor den Geschäften gibt es viele bunte Schaufenster. Ich schaue mir alles ganz genau an.\n\nZuerst gehe ich in ein großes Kaufhaus. Dort finde ich eine rote Jacke. Sie ist modern und gefällt mir sehr. Die Jacke kostet zwanzig Euro. Das ist nicht teuer. Die Verkäuferin ist sehr freundlich und hilft mir. Ich probiere die Jacke an, und sie passt perfekt.\n\nDanach suche ich eine neue Hose. Ich finde eine blaue Hose und ein weißes Hemd. An der Kasse bezahle ich mit meiner Karte. Die Verkäuferin gibt mir eine große Tüte und wünscht mir einen schönen Tag. Ich bedanke mich und verlasse das Geschäft.\n\nAuf dem Weg nach Hause kaufe ich noch einen Kaffee. Ich setze mich in ein kleines Café und ruhe mich aus. Ich bin sehr glücklich mit meinen neuen Sachen. Einkaufen macht mir großen Spaß, besonders am Wochenende mit gutem Wetter."
+ },
+ {
+  "num": 9,
+  "title": "Meine Hobbys",
+  "titleEn": "My Hobbies",
+  "deLen": 158,
+  "de": "Ich habe viele Hobbys. Ich lese gern Bücher. Ich spiele auch Gitarre. Am Wochenende fahre ich Fahrrad. Manchmal male ich Bilder. Hobbys machen mich glücklich."
+ },
+ {
+  "num": 10,
+  "title": "In der Schule",
+  "titleEn": "At School",
+  "deLen": 167,
+  "de": "Heute haben wir Deutschstunde. Der Lehrer heißt Herr Braun. Wir lernen neue Wörter. Ich schreibe alles ins Heft. In der Pause esse ich ein Brot. Schule macht mir Spaß."
+ },
+ {
+  "num": 11,
+  "title": "Sport treiben",
+  "titleEn": "Doing Sport",
+  "deLen": 182,
+  "de": "Ich treibe gern Sport. Dienstags spiele ich Fußball. Donnerstags gehe ich schwimmen. Das Schwimmbad ist nah bei mir. Sport ist gut für den Körper. Ich fühle mich immer besser danach."
+ },
+ {
+  "num": 12,
+  "title": "Meine Wohnung",
+  "titleEn": "My Flat",
+  "deLen": 189,
+  "de": "Ich wohne in einer kleinen Wohnung. Es gibt ein Wohnzimmer, eine Küche und ein Bad. Das Wohnzimmer hat ein großes Fenster. Ich habe eine Pflanze auf dem Balkon. Meine Wohnung ist gemütlich."
+ },
+ {
+  "num": 13,
+  "title": "Meine Schwester",
+  "titleEn": "My Sister",
+  "deLen": 172,
+  "de": "Meine Schwester heißt Sara. Sie ist achtzehn Jahre alt. Sara lernt Englisch in der Schule. Sie hört gern Musik. Wir kochen manchmal zusammen. Sara ist meine beste Freundin."
+ },
+ {
+  "num": 14,
+  "title": "Beim Bäcker",
+  "titleEn": "At the Bakery",
+  "deLen": 178,
+  "de": "Jeden Morgen gehe ich zum Bäcker. Ich kaufe zwei Brötchen und einen Kuchen. Der Bäcker heißt Herr Schmidt. Das Brot riecht sehr gut. Ich esse ein Brötchen auf dem Weg nach Hause."
+ },
+ {
+  "num": 15,
+  "title": "Das Abendessen",
+  "titleEn": "Dinner",
+  "deLen": 171,
+  "de": "Heute koche ich das Abendessen. Ich mache Nudeln mit Tomatensoße. Die Nudeln kochen zehn Minuten. Dann gebe ich Käse darauf. Das Abendessen ist fertig. Es schmeckt lecker."
+ },
+ {
+  "num": 16,
+  "title": "Das Wochenende",
+  "titleEn": "The Weekend",
+  "deLen": 164,
+  "de": "Am Wochenende habe ich frei. Am Samstag schlafe ich lange. Dann gehe ich in die Stadt. Am Sonntag besuche ich meine Großeltern. Wir trinken Kaffee und essen Kuchen."
+ },
+ {
+  "num": 17,
+  "title": "Ein neuer Freund",
+  "titleEn": "A New Friend",
+  "deLen": 193,
+  "de": "In meinem Kurs gibt es einen neuen Studenten. Er heißt Paul und kommt aus Frankreich. Paul ist sehr freundlich. Wir sprechen über die Schule und über Musik. Ich glaube, wir werden gute Freunde."
+ },
+ {
+  "num": 18,
+  "title": "Wetter im Winter",
+  "titleEn": "Winter Weather",
+  "deLen": 152,
+  "de": "Im Winter ist es sehr kalt. Es schneit oft. Die Kinder spielen im Schnee. Ich trage einen warmen Mantel und einen Schal. Zu Hause trinke ich heißen Tee."
+ },
+ {
+  "num": 19,
+  "title": "Mein Auto",
+  "titleEn": "My Car",
+  "deLen": 166,
+  "de": "Ich habe ein kleines Auto. Es ist blau und alt, aber es fährt gut. Jeden Morgen fahre ich damit zur Arbeit. Am Wochenende fahre ich oft ans Meer. Ich liebe mein Auto."
+ },
+ {
+  "num": 20,
+  "title": "Frühstück",
+  "titleEn": "Breakfast",
+  "deLen": 174,
+  "de": "Mein Frühstück ist einfach. Ich esse Brötchen mit Marmelade. Manchmal esse ich auch ein Ei. Dazu trinke ich Orangensaft und Kaffee. Das Frühstück ist meine Lieblingsmahlzeit."
+ },
+ {
+  "num": 21,
+  "title": "Mein Bruder",
+  "titleEn": "My Brother",
+  "deLen": 158,
+  "de": "Mein Bruder heißt Leon. Er ist sechzehn Jahre alt. Leon spielt Gitarre und singt sehr gut. Manchmal nervt er mich, aber ich liebe ihn. Wir sind beste Freunde."
+ },
+ {
+  "num": 22,
+  "title": "Im Zoo",
+  "titleEn": "At the Zoo",
+  "deLen": 159,
+  "de": "Heute gehe ich mit meiner Klasse in den Zoo. Wir sehen Löwen, Elefanten und Affen. Die Affen sind sehr lustig. Wir machen viele Fotos. Der Tag im Zoo ist toll."
+ },
+ {
+  "num": 23,
+  "title": "Mein Lieblingsbuch",
+  "titleEn": "My Favorite Book",
+  "deLen": 156,
+  "de": "Ich lese sehr gern. Mein Lieblingsbuch heißt Momo. Es ist eine schöne Geschichte. Ich habe das Buch schon dreimal gelesen. Manchmal lese ich abends im Bett."
+ },
+ {
+  "num": 24,
+  "title": "Im Bus",
+  "titleEn": "On the Bus",
+  "deLen": 174,
+  "de": "Jeden Morgen fahre ich mit dem Bus zur Schule. Der Bus kommt um sieben Uhr fünfzehn. Im Bus höre ich Musik. Manchmal lese ich auch ein Buch. Die Fahrt dauert zwanzig Minuten."
+ },
+ {
+  "num": 25,
+  "title": "Geburtstag",
+  "titleEn": "Birthday",
+  "deLen": 166,
+  "de": "Heute ist mein Geburtstag. Ich werde dreißig Jahre alt. Meine Freunde kommen zu mir nach Hause. Wir essen Pizza und trinken Wein. Es gibt eine große Torte mit Kerzen."
+ },
+ {
+  "num": 26,
+  "title": "Eine kleine Reise",
+  "titleEn": "A Little Trip",
+  "deLen": 164,
+  "de": "Am Samstag fahre ich nach Berlin. Ich fahre mit dem Zug. Die Reise dauert vier Stunden. In Berlin besuche ich einen Freund. Wir gehen ins Museum und essen zusammen."
+ },
+ {
+  "num": 27,
+  "title": "Im Schwimmbad",
+  "titleEn": "At the Swimming Pool",
+  "deLen": 146,
+  "de": "Ich gehe gern ins Schwimmbad. Das Wasser ist warm und blau. Ich schwimme zehn Runden. Danach lege ich mich in die Sonne. Schwimmen macht mir Spaß."
+ },
+ {
+  "num": 28,
+  "title": "Meine Katze",
+  "titleEn": "My Cat",
+  "deLen": 158,
+  "de": "Meine Katze heißt Mimi. Sie ist weiß und sehr ruhig. Mimi schläft gern auf dem Sofa. Manchmal spielt sie mit einem Ball aus Wolle. Ich liebe meine Katze sehr."
+ },
+ {
+  "num": 29,
+  "title": "Eine kalte Nacht",
+  "titleEn": "A Cold Night",
+  "deLen": 150,
+  "de": "Es ist Winter und es ist sehr kalt. Ich bin zu Hause und mache ein Feuer. Ich trinke heißen Kakao. Draußen schneit es. Im Bett lese ich noch ein Buch."
+ },
+ {
+  "num": 30,
+  "title": "Mein Freund Max",
+  "titleEn": "My Friend Max",
+  "deLen": 158,
+  "de": "Max ist mein bester Freund. Wir wohnen in der gleichen Straße. Jeden Tag spielen wir Fußball. Max ist sehr lustig und nett. Wir sind seit zehn Jahren Freunde."
+ },
+ {
+  "num": 31,
+  "title": "Im Kino",
+  "titleEn": "At the Cinema",
+  "deLen": 128,
+  "de": "Heute gehen wir ins Kino. Der Film beginnt um acht Uhr. Wir kaufen Popcorn und Cola. Der Film ist eine Komödie. Wir lachen viel."
+ },
+ {
+  "num": 32,
+  "title": "Auf dem Markt",
+  "titleEn": "At the Market",
+  "deLen": 168,
+  "de": "Am Samstag gehe ich auf den Markt. Es gibt frisches Obst und Gemüse. Ich kaufe Tomaten, Gurken und Erdbeeren. Der Verkäufer ist sehr freundlich. Ich gebe ihm zehn Euro."
+ },
+ {
+  "num": 33,
+  "title": "Mein Garten",
+  "titleEn": "My Garden",
+  "deLen": 165,
+  "de": "Ich habe einen kleinen Garten. Im Garten gibt es Blumen und einen Apfelbaum. Im Sommer sitze ich oft draußen. Ich lese und trinke Limonade. Die Vögel singen im Baum."
+ },
+ {
+  "num": 34,
+  "title": "Eine Postkarte",
+  "titleEn": "A Postcard",
+  "deLen": 145,
+  "de": "Hallo Mama! Ich bin in Italien. Das Wetter ist super und das Essen ist toll. Heute war ich am Strand. Morgen besuchen wir Rom. Liebe Grüße, Lisa."
+ },
+ {
+  "num": 35,
+  "title": "Auf dem Spielplatz",
+  "titleEn": "At the Playground",
+  "deLen": 158,
+  "de": "Die Kinder spielen auf dem Spielplatz. Anna fährt Schaukel. Tim klettert auf die Rutsche. Lisa und Sam spielen im Sand. Alle Kinder lachen und sind glücklich."
+ },
+ {
+  "num": 36,
+  "title": "Mein Computer",
+  "titleEn": "My Computer",
+  "deLen": 175,
+  "de": "Ich habe einen neuen Computer. Er ist schnell und schön. Mit dem Computer schreibe ich E-Mails. Ich sehe auch Filme und spiele Spiele. Mein Computer ist sehr wichtig für mich."
+ },
+ {
+  "num": 37,
+  "title": "Ein Tag am Meer",
+  "titleEn": "A Day at the Sea",
+  "deLen": 150,
+  "de": "Heute sind wir am Meer. Die Sonne scheint. Ich schwimme und meine Schwester baut eine Sandburg. Wir essen Eis. Am Abend sehen wir den Sonnenuntergang."
+ },
+ {
+  "num": 38,
+  "title": "Telefon",
+  "titleEn": "Telephone",
+  "deLen": 125,
+  "de": "Mein Telefon klingelt. Es ist meine Mutter. Sie fragt: Wie geht es dir? Ich sage: Mir geht es gut. Wir sprechen zehn Minuten."
+ },
+ {
+  "num": 39,
+  "title": "Im Hotel",
+  "titleEn": "At the Hotel",
+  "deLen": 154,
+  "de": "Wir sind im Hotel in Wien. Das Zimmer ist groß und hell. Es gibt ein Bett, einen Fernseher und ein Bad. Das Frühstück ist sehr gut. Wir bleiben drei Tage."
+ },
+ {
+  "num": 40,
+  "title": "Mein Lieblingsfilm",
+  "titleEn": "My Favorite Movie",
+  "deLen": 176,
+  "de": "Mein Lieblingsfilm heißt Harry Potter. Ich habe ihn schon zehnmal gesehen. Die Geschichte ist spannend. Ich finde Hermione besonders cool. Heute Abend sehe ich den Film wieder."
+ },
+ {
+  "num": 41,
+  "title": "Im Bahnhof",
+  "titleEn": "At the Train Station",
+  "deLen": 150,
+  "de": "Ich bin am Bahnhof. Mein Zug fährt um zehn Uhr. Ich kaufe ein Ticket und einen Kaffee. Auf dem Bahnsteig warten viele Menschen. Endlich kommt der Zug."
+ },
+ {
+  "num": 42,
+  "title": "Eine kleine Stadt",
+  "titleEn": "A Small Town",
+  "deLen": 156,
+  "de": "Ich wohne in einer kleinen Stadt. Es gibt eine Kirche, eine Schule und einen Park. Die Leute sind freundlich. Im Sommer ist es ruhig. Ich liebe meine Stadt."
+ },
+ {
+  "num": 43,
+  "title": "Beim Friseur",
+  "titleEn": "At the Hairdresser",
+  "deLen": 142,
+  "de": "Heute gehe ich zum Friseur. Mein Haar ist zu lang. Die Friseurin schneidet es kurz. Sie wäscht und föhnt mein Haar. Jetzt sehe ich besser aus."
+ },
+ {
+  "num": 44,
+  "title": "Ein neues Handy",
+  "titleEn": "A New Phone",
+  "deLen": 174,
+  "de": "Ich habe ein neues Handy. Es ist schwarz und sehr modern. Mit dem Handy mache ich Fotos. Ich schreibe meinen Freunden Nachrichten. Mein altes Handy schenke ich meinem Bruder."
+ },
+ {
+  "num": 45,
+  "title": "Mein Lehrer",
+  "titleEn": "My Teacher",
+  "deLen": 166,
+  "de": "Mein Deutschlehrer heißt Herr Müller. Er ist groß und hat eine Brille. Sein Unterricht ist immer interessant. Wir lernen viele neue Wörter. Ich mag Herrn Müller sehr."
+ },
+ {
+  "num": 46,
+  "title": "Im Bett",
+  "titleEn": "In Bed",
+  "deLen": 115,
+  "de": "Es ist spät. Ich liege im Bett. Das Licht ist aus. Ich höre nur die Uhr ticken. Ich schließe die Augen und schlafe."
+ },
+ {
+  "num": 47,
+  "title": "Eine kleine Pause",
+  "titleEn": "A Short Break",
+  "deLen": 142,
+  "de": "Im Büro arbeite ich seit drei Stunden. Jetzt mache ich eine Pause. Ich gehe in die Küche. Ich trinke ein Glas Wasser. Dann arbeite ich weiter."
+ },
+ {
+  "num": 48,
+  "title": "Ein Sonntag",
+  "titleEn": "A Sunday",
+  "deLen": 134,
+  "de": "Heute ist Sonntag. Ich bleibe im Bett bis zehn Uhr. Dann frühstücke ich lang. Am Nachmittag spaziere ich im Wald. Sonntage sind schön."
+ },
+ {
+  "num": 49,
+  "title": "Eine Reise mit dem Fahrrad",
+  "titleEn": "A Bike Trip",
+  "deLen": 179,
+  "de": "Heute mache ich eine kleine Tour mit dem Fahrrad. Ich fahre durch das Dorf und über die Brücke. Im Wald ist es kühl. Nach zwei Stunden bin ich am See. Dort esse ich mein Sandwich."
+ },
+ {
+  "num": 50,
+  "title": "Gute Nacht",
+  "titleEn": "Good Night",
+  "deLen": 151,
+  "de": "Es ist elf Uhr. Ich putze die Zähne und ziehe meinen Schlafanzug an. Ich gehe ins Bett. Meine Mutter sagt: Gute Nacht, Schatz. Ich schlafe schnell ein."
+ },
+ {
+  "num": 51,
+  "title": "Im Café",
+  "titleEn": "At the Café",
+  "deLen": 209,
+  "de": "Ich gehe ins Café. Das Café ist klein und gemütlich. Ich sitze am Fenster. Ich bestelle einen Kaffee und ein Stück Kuchen. Der Kaffee ist heiß und der Kuchen ist süß. Ich lese eine Zeitung. Das ist sehr schön."
+ },
+ {
+  "num": 52,
+  "title": "Beim Bäcker",
+  "titleEn": "At the Bakery",
+  "deLen": 198,
+  "de": "Ich gehe zum Bäcker. Es gibt viele Brötchen und Brote. Ich kaufe vier Brötchen und einen Hefekuchen. Der Bäcker lächelt mich an. Das Brot kostet zwei Euro. Ich gehe nach Hause und esse ein Brötchen."
+ },
+ {
+  "num": 53,
+  "title": "Der Markt",
+  "titleEn": "The Market",
+  "deLen": 192,
+  "de": "Jeden Samstag gibt es einen Markt in unserer Stadt. Ich kaufe Obst und Gemüse. Die Äpfel sind rot und frisch. Es gibt auch Blumen und Käse. Der Markt ist bunt und laut. Ich mag den Markt sehr."
+ },
+ {
+  "num": 54,
+  "title": "Mein Hund",
+  "titleEn": "My Dog",
+  "deLen": 190,
+  "de": "Ich habe einen Hund. Er heißt Theo und ist sehr groß. Theo ist schwarz und hat lange Ohren. Ich füttere ihn jeden Tag. Wir gehen morgens und abends spazieren. Theo schläft neben meinem Bett."
+ },
+ {
+  "num": 55,
+  "title": "Die Schule",
+  "titleEn": "The School",
+  "deLen": 226,
+  "de": "Ich gehe jeden Morgen in die Schule. Meine Schule ist groß und hat viele Klassenräume. Ich lerne Deutsch, Englisch und Mathematik. In der Pause esse ich ein Brot. Nach der Schule mache ich Hausaufgaben. Die Schule ist wichtig."
+ },
+ {
+  "num": 56,
+  "title": "Das Wetter heute",
+  "titleEn": "Today's Weather",
+  "deLen": 158,
+  "de": "Heute regnet es. Der Himmel ist grau. Ich nehme einen Regenschirm. Draußen ist es kalt und windig. Ich trage eine warme Jacke. Zu Hause trinke ich heißen Tee."
+ },
+ {
+  "num": 57,
+  "title": "Mein Geburtstag",
+  "titleEn": "My Birthday",
+  "deLen": 201,
+  "de": "Heute ist mein Geburtstag. Ich bin jetzt acht Jahre alt. Meine Eltern kaufen mir ein Geschenk. Ich bekomme ein rotes Fahrrad. Meine Freunde kommen zum Mittagessen. Wir essen Torte und spielen zusammen."
+ },
+ {
+  "num": 58,
+  "title": "Im Zug",
+  "titleEn": "On the Train",
+  "deLen": 189,
+  "de": "Ich fahre mit dem Zug nach Hamburg. Der Zug ist groß und bequem. Ich sitze am Fenster. Draußen sehe ich Felder und Wälder. Ich lese ein Buch und trinke Wasser. Nach drei Stunden bin ich da."
+ },
+ {
+  "num": 59,
+  "title": "Am Strand",
+  "titleEn": "At the Beach",
+  "deLen": 166,
+  "de": "Wir sind am Strand. Das Wasser ist blau und warm. Ich schwimme und spiele im Sand. Meine Schwester baut eine Sandburg. Wir essen Eis. Der Tag am Strand ist wunderbar."
+ },
+ {
+  "num": 60,
+  "title": "In der Küche kochen",
+  "titleEn": "Cooking in the Kitchen",
+  "deLen": 169,
+  "de": "Heute koche ich Suppe. Ich nehme Kartoffeln, Karotten und Zwiebeln. Ich schneide das Gemüse. Dann koche ich alles in Wasser. Die Suppe riecht gut. Ich esse sie mit Brot."
+ },
+ {
+  "num": 61,
+  "title": "Der Kindergarten",
+  "titleEn": "Kindergarten",
+  "deLen": 188,
+  "de": "Meine Tochter geht in den Kindergarten. Sie ist vier Jahre alt. Im Kindergarten malt sie und singt Lieder. Sie hat viele Freunde dort. Um drei Uhr hole ich sie ab. Sie ist immer glücklich."
+ },
+ {
+  "num": 62,
+  "title": "Mein Fahrrad",
+  "titleEn": "My Bicycle",
+  "deLen": 159,
+  "de": "Ich habe ein neues Fahrrad. Es ist grün und schnell. Ich fahre damit in die Schule. Der Weg dauert zehn Minuten. Das Fahrrad macht Spaß. Ich brauche kein Auto."
+ },
+ {
+  "num": 63,
+  "title": "Beim Arzt",
+  "titleEn": "At the Doctor",
+  "deLen": 174,
+  "de": "Ich bin beim Arzt. Mein Bauch tut weh. Der Arzt fragt mich: Was fehlt Ihnen? Ich sage: Ich habe Bauchschmerzen. Der Arzt gibt mir eine Tablette. Ich muss viel Wasser trinken."
+ },
+ {
+  "num": 64,
+  "title": "Im Supermarkt einkaufen",
+  "titleEn": "Shopping at the Supermarket",
+  "deLen": 192,
+  "de": "Ich gehe in den Supermarkt. Ich habe eine Einkaufsliste. Ich kaufe Milch, Eier, Brot und Äpfel. An der Kasse bezahle ich zehn Euro. Dann fahre ich nach Hause. Das Einkaufen dauert nicht lange."
+ },
+ {
+  "num": 65,
+  "title": "Der Park",
+  "titleEn": "The Park",
+  "deLen": 162,
+  "de": "Ich gehe in den Park. Der Park ist groß und grün. Kinder spielen und Hunde laufen. Ich sitze auf einer Bank und lese. Die Vögel singen. Im Park ist es sehr schön."
+ },
+ {
+  "num": 66,
+  "title": "Meine Freunde",
+  "titleEn": "My Friends",
+  "deLen": 175,
+  "de": "Ich habe drei gute Freunde. Sie heißen Tom, Lisa und Jan. Wir spielen zusammen Fußball. Manchmal gehen wir ins Kino. Wir lachen viel. Meine Freunde sind sehr wichtig für mich."
+ },
+ {
+  "num": 67,
+  "title": "Das Frühstück",
+  "titleEn": "Breakfast",
+  "deLen": 184,
+  "de": "Morgens esse ich Frühstück. Ich trinke Orangensaft und Milch. Ich esse Brot mit Butter und Honig. Manchmal gibt es auch ein Ei. Das Frühstück schmeckt gut. Dann gehe ich in die Schule."
+ },
+ {
+  "num": 68,
+  "title": "Im Bus fahren",
+  "titleEn": "Riding the Bus",
+  "deLen": 188,
+  "de": "Ich fahre mit dem Bus in die Stadt. Der Bus kommt um halb neun. Ich kaufe ein Ticket am Automaten. Im Bus gibt es viele Leute. Ich sitze neben dem Fenster. Nach zwanzig Minuten bin ich da."
+ },
+ {
+  "num": 69,
+  "title": "Die Bibliothek",
+  "titleEn": "The Library",
+  "deLen": 180,
+  "de": "Ich gehe in die Bibliothek. Es ist sehr ruhig dort. Ich suche ein Buch über Tiere. Die Bibliothekarin hilft mir. Ich leihe drei Bücher aus. Ich muss sie in zwei Wochen zurückgeben."
+ },
+ {
+  "num": 70,
+  "title": "Mein Lieblingsfilm",
+  "titleEn": "My Favourite Film",
+  "deLen": 196,
+  "de": "Mein Lieblingsfilm ist ein Zeichentrickfilm. Er heißt Der König der Löwen. Der Film ist lustig und traurig. Ich habe ihn viele Male gesehen. Heute Abend sehe ich ihn wieder. Ich liebe diesen Film."
+ },
+ {
+  "num": 71,
+  "title": "Im Schwimmbad",
+  "titleEn": "At the Swimming Pool",
+  "deLen": 193,
+  "de": "Heute gehe ich ins Schwimmbad. Das Wasser ist kalt, aber ich springe hinein. Ich schwimme zwanzig Runden. Danach liege ich in der Sonne. Mein Körper ist müde. Schwimmen ist mein Lieblingssport."
+ },
+ {
+  "num": 72,
+  "title": "Die Farben",
+  "titleEn": "The Colours",
+  "deLen": 162,
+  "de": "Ich male ein Bild. Ich benutze viele Farben. Mein Himmel ist blau und die Sonne ist gelb. Das Gras ist grün. Die Blumen sind rot und lila. Das Bild ist sehr bunt."
+ },
+ {
+  "num": 73,
+  "title": "Meine Stadt",
+  "titleEn": "My City",
+  "deLen": 197,
+  "de": "Ich wohne in einer großen Stadt. Es gibt viele Geschäfte, Parks und Restaurants. Die Stadt ist immer laut und lebendig. Ich fahre mit dem Bus oder zu Fuß. Meine Stadt ist schön. Ich lebe gern hier."
+ },
+ {
+  "num": 74,
+  "title": "Der Sommer",
+  "titleEn": "Summer",
+  "deLen": 163,
+  "de": "Im Sommer ist es heiß. Die Sonne scheint jeden Tag. Wir gehen an den See. Ich trage kurze Hosen und ein T-Shirt. Wir essen Eis. Der Sommer ist meine Lieblingszeit."
+ },
+ {
+  "num": 75,
+  "title": "Im Restaurant essen",
+  "titleEn": "Eating at the Restaurant",
+  "deLen": 179,
+  "de": "Wir gehen heute ins Restaurant. Das Restaurant ist schön und warm. Ich bestelle Fleisch mit Kartoffeln. Meine Mutter nimmt Fisch. Das Essen ist sehr lecker. Wir bezahlen zusammen."
+ },
+ {
+  "num": 76,
+  "title": "Die Blumen",
+  "titleEn": "The Flowers",
+  "deLen": 190,
+  "de": "Im Garten gibt es viele Blumen. Es gibt rote Rosen und gelbe Tulpen. Ich gieße die Blumen jeden Morgen. Sie brauchen Wasser und Sonne. Die Blumen riechen sehr schön. Ich liebe meinen Garten."
+ },
+ {
+  "num": 77,
+  "title": "Mein Zimmer aufräumen",
+  "titleEn": "Tidying My Room",
+  "deLen": 172,
+  "de": "Mein Zimmer ist unordentlich. Ich räume es auf. Ich lege die Bücher ins Regal. Ich mache das Bett. Ich stelle die Schuhe an die Tür. Jetzt ist mein Zimmer sauber und schön."
+ },
+ {
+  "num": 78,
+  "title": "Im Zoo",
+  "titleEn": "At the Zoo",
+  "deLen": 182,
+  "de": "Ich gehe mit meiner Familie in den Zoo. Wir sehen Zebras, Giraffen und Pinguine. Die Giraffe ist sehr groß. Die Pinguine schwimmen im Wasser. Ich mache viele Fotos. Der Zoo ist toll."
+ },
+ {
+  "num": 79,
+  "title": "Das Konzert",
+  "titleEn": "The Concert",
+  "deLen": 178,
+  "de": "Heute Abend gehe ich zu einem Konzert. Meine Lieblingsband spielt. Das Konzert beginnt um acht Uhr. Es gibt viele Menschen dort. Die Musik ist sehr laut. Ich singe und tanze mit."
+ },
+ {
+  "num": 80,
+  "title": "Beim Friseur",
+  "titleEn": "At the Hairdresser",
+  "deLen": 192,
+  "de": "Ich habe einen Termin beim Friseur. Mein Haar ist lang und ich möchte es kürzer. Der Friseur fragt: Wie möchten Sie es? Ich sage: Kurz bitte. Er schneidet mein Haar. Ich bezahle fünfzehn Euro."
+ },
+ {
+  "num": 81,
+  "title": "Die Jahreszeiten",
+  "titleEn": "The Seasons",
+  "deLen": 175,
+  "de": "Es gibt vier Jahreszeiten. Im Frühling ist es warm und die Blumen blühen. Im Sommer ist es heiß. Im Herbst fallen die Blätter. Im Winter schneit es. Ich mag alle Jahreszeiten."
+ },
+ {
+  "num": 82,
+  "title": "Mein Computer",
+  "titleEn": "My Computer",
+  "deLen": 181,
+  "de": "Ich habe einen Computer zu Hause. Mit dem Computer lerne ich Deutsch. Ich schaue auch Videos. Manchmal spiele ich Spiele. Der Computer ist sehr praktisch. Ich benutze ihn jeden Tag."
+ },
+ {
+  "num": 83,
+  "title": "In der Apotheke",
+  "titleEn": "At the Pharmacy",
+  "deLen": 207,
+  "de": "Ich bin in der Apotheke. Ich habe Kopfschmerzen. Die Apothekerin fragt mich: Wie kann ich helfen? Ich sage: Ich brauche etwas gegen Kopfschmerzen. Sie gibt mir eine Tablette. Ich bezahle und gehe nach Hause."
+ },
+ {
+  "num": 84,
+  "title": "Der Spielplatz",
+  "titleEn": "The Playground",
+  "deLen": 186,
+  "de": "Mein Sohn liebt den Spielplatz. Er klettert und schaukelt. Ich sitze auf einer Bank und schaue zu. Es gibt auch andere Kinder. Sie spielen zusammen und lachen. Wir kommen jeden Tag hier."
+ },
+ {
+  "num": 85,
+  "title": "Meine Lieblingsfarbe",
+  "titleEn": "My Favourite Colour",
+  "deLen": 176,
+  "de": "Meine Lieblingsfarbe ist blau. Mein Zimmer ist blau. Ich trage oft blaue Kleidung. Meine Tasche ist auch blau. Blau ist die Farbe des Himmels und des Meeres. Ich mag Blau sehr."
+ },
+ {
+  "num": 86,
+  "title": "Das Wochenende",
+  "titleEn": "The Weekend",
+  "deLen": 175,
+  "de": "Am Samstag schlafe ich lang. Dann gehe ich einkaufen. Am Nachmittag treffe ich Freunde. Wir trinken Kaffee und reden. Am Sonntag bleibe ich zu Hause. Das Wochenende ist super."
+ },
+ {
+  "num": 87,
+  "title": "Beim Sport",
+  "titleEn": "Doing Sport",
+  "deLen": 179,
+  "de": "Ich gehe dreimal in der Woche joggen. Ich laufe im Park. Die Luft ist frisch und gut. Nach dem Joggen trinke ich viel Wasser. Sport macht mich fit. Ich fühle mich danach sehr gut."
+ },
+ {
+  "num": 88,
+  "title": "Die Katze",
+  "titleEn": "The Cat",
+  "deLen": 172,
+  "de": "Unsere Katze heißt Luna. Sie ist grau und klein. Luna schläft sehr viel. Sie frisst Katzenfutter und trinkt Milch. Manchmal spielt sie mit einem Ball. Wir lieben Luna sehr."
+ },
+ {
+  "num": 89,
+  "title": "Im Hotel",
+  "titleEn": "At the Hotel",
+  "deLen": 174,
+  "de": "Wir sind im Hotel. Das Zimmer ist sauber und groß. Es gibt ein Bett und ein Bad. Das Frühstück beginnt um sieben Uhr. Wir essen Brot, Käse und Obst. Das Hotel ist sehr schön."
+ },
+ {
+  "num": 90,
+  "title": "Mein Weg zur Arbeit",
+  "titleEn": "My Way to Work",
+  "deLen": 175,
+  "de": "Jeden Morgen fahre ich zur Arbeit. Ich fahre mit dem Fahrrad. Der Weg dauert fünfzehn Minuten. Ich fahre durch den Park. Die Luft ist frisch am Morgen. Ich komme pünktlich an."
+ },
+ {
+  "num": 91,
+  "title": "Die Musik",
+  "titleEn": "Music",
+  "deLen": 170,
+  "de": "Ich höre gern Musik. Ich mag Pop und Klassik. Meine Lieblingssängerin heißt Adele. Ich höre Musik im Bus und zu Hause. Manchmal singe ich mit. Musik macht mich glücklich."
+ },
+ {
+  "num": 92,
+  "title": "Ein Brief schreiben",
+  "titleEn": "Writing a Letter",
+  "deLen": 207,
+  "de": "Ich schreibe einen Brief an meine Oma. Ich erzähle ihr von der Schule. Ich frage sie: Wie geht es dir? Ich schreibe mit einem Stift auf Papier. Dann stecke ich den Brief in einen Umschlag. Ich gehe zur Post."
+ },
+ {
+  "num": 93,
+  "title": "Im Kino",
+  "titleEn": "At the Cinema",
+  "deLen": 183,
+  "de": "Heute gehe ich ins Kino. Ich kaufe eine Karte für einen Actionfilm. Ich kaufe Popcorn und Cola. Der Film beginnt um sieben Uhr. Die Bilder sind groß und bunt. Der Film macht mir Spaß."
+ },
+ {
+  "num": 94,
+  "title": "Der Abend",
+  "titleEn": "The Evening",
+  "deLen": 180,
+  "de": "Am Abend esse ich mit meiner Familie. Wir essen Suppe und Brot. Danach sehen wir fern. Ich dusche und putze die Zähne. Um zehn Uhr gehe ich ins Bett. Der Abend ist ruhig und schön."
+ },
+ {
+  "num": 95,
+  "title": "Meine Kleidung",
+  "titleEn": "My Clothing",
+  "deLen": 173,
+  "de": "Ich kaufe neue Kleidung. Ich brauche ein Hemd und eine Hose. Das Hemd ist weiß und die Hose ist schwarz. Ich kaufe auch neue Schuhe. Die Schuhe sind braun. Ich sehe gut aus."
+ },
+ {
+  "num": 96,
+  "title": "Das Mittagessen",
+  "titleEn": "Lunch",
+  "deLen": 180,
+  "de": "Um zwölf Uhr esse ich Mittagessen. Heute gibt es Nudeln mit Soße. Ich esse in der Schulmensa. Das Essen kostet drei Euro. Es schmeckt gut. Danach gehe ich wieder in den Unterricht."
+ },
+ {
+  "num": 97,
+  "title": "Im Garten",
+  "titleEn": "In the Garden",
+  "deLen": 171,
+  "de": "Ich arbeite im Garten. Ich pflanze Tomaten und Salat. Ich gieße die Pflanzen. Die Erde ist braun und weich. Im Sommer esse ich meine eigenen Tomaten. Das macht mir Freude."
+ },
+ {
+  "num": 98,
+  "title": "Die Nacht",
+  "titleEn": "The Night",
+  "deLen": 155,
+  "de": "Es ist Nacht. Der Himmel ist dunkel und voller Sterne. Es ist sehr ruhig. Ich stehe auf dem Balkon. Die Luft ist kalt und frisch. Ich gehe wieder ins Bett."
+ },
+ {
+  "num": 99,
+  "title": "Mein Traumhaus",
+  "titleEn": "My Dream House",
+  "deLen": 199,
+  "de": "Ich träume von einem großen Haus. Das Haus hat einen Garten und einen Pool. Es gibt viele Zimmer und ein großes Wohnzimmer. Das Haus ist am Meer. Ich lebe dort mit meiner Familie. Das ist mein Traum."
+ },
+ {
+  "num": 100,
+  "title": "Auf Wiedersehen",
+  "titleEn": "Goodbye",
+  "deLen": 194,
+  "de": "Mein Freund Tom fährt heute weg. Er geht nach Spanien für ein Jahr. Wir sagen auf Wiedersehen am Bahnhof. Ich bin ein bisschen traurig. Aber wir schreiben uns E-Mails. Bald sehen wir uns wieder."
+ }
+]
