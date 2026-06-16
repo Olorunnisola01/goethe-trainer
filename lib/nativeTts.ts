@@ -1,45 +1,62 @@
 /* ──────────────────────────────────────────────────────────────────────────
-   nativeTts.ts — Native Android TTS via @capacitor-community/text-to-speech.
+   nativeTts.ts — Android TTS via a direct JavascriptInterface bridge.
 
-   The Web Speech API (`window.speechSynthesis`) is unreliable/silent inside
-   Capacitor's Android WebView (no voices ever load, `speak()` is a no-op).
-   On native platforms we route speech through the device's native
-   `android.speech.tts.TextToSpeech` engine instead.
+   Web Speech API (`window.speechSynthesis`) is silent inside Capacitor's
+   Android WebView — no voices ever load. We use window.AndroidTts, which is
+   registered by TtsInterface.java in MainActivity.onCreate() via
+   WebView.addJavascriptInterface(). This bypasses the Capacitor plugin bridge
+   entirely and calls android.speech.tts.TextToSpeech directly.
+
+   The @capacitor-community/text-to-speech plugin is kept as a fallback for
+   any future iOS build where window.AndroidTts won't exist.
    ────────────────────────────────────────────────────────────────────────── */
-
-import { Capacitor } from '@capacitor/core';
 
 export type NativeTtsLang = 'de' | 'en';
 
+// window.AndroidTts is present only when running inside our APK.
+function getAndroidTts(): { speak(t: string, l: string, r: number, id: string): void; stop(): void } | null {
+  if (typeof window === 'undefined') return null;
+  return (window as any).AndroidTts ?? null;
+}
+
 export function isNative(): boolean {
-  return typeof window !== 'undefined' && Capacitor.isNativePlatform();
+  if (getAndroidTts()) return true;
+  // Fallback: Capacitor platform check (used when window.AndroidTts not yet injected)
+  if (typeof window === 'undefined') return false;
+  const cap = (window as any).Capacitor;
+  return cap?.isNativePlatform?.() === true || cap?.getPlatform?.() === 'android';
 }
 
-// The @capacitor-community/text-to-speech package touches `window` at module
-// scope, which crashes Next.js SSR/prerendering. Load it lazily, client-side only.
-const loadTts = () => import('@capacitor-community/text-to-speech').then(m => m.TextToSpeech);
+// --- Promise bridge for AndroidTts callbacks ----------------------------------
+let _cbId = 0;
+const _cbs: Record<string, { resolve: () => void; reject: (e: Error) => void }> = {};
 
-/**
- * Speak `text` using the device's native TTS engine.
- * Resolves when playback finishes (or fails).
- */
-export async function nativeSpeak(
-  text: string,
-  lang: NativeTtsLang,
-  rate = 1.0,
-): Promise<void> {
-  const TextToSpeech = await loadTts();
-  await TextToSpeech.speak({
-    text,
-    lang: lang === 'de' ? 'de-DE' : 'en-US',
-    rate,
-    pitch: 1.0,
-    volume: 1.0,
-    category: 'ambient',
-  });
+if (typeof window !== 'undefined') {
+  (window as any)._ttsOnDone  = (id: string) => { _cbs[id]?.resolve();          delete _cbs[id]; };
+  (window as any)._ttsOnError = (id: string) => { _cbs[id]?.reject(new Error('TTS error')); delete _cbs[id]; };
+}
+// ------------------------------------------------------------------------------
+
+// Capacitor plugin: loaded lazily to avoid the SSR crash from its top-level `window` access.
+const loadCapPlugin = () =>
+  import('@capacitor-community/text-to-speech').then(m => m.TextToSpeech);
+
+export async function nativeSpeak(text: string, lang: NativeTtsLang, rate = 1.0): Promise<void> {
+  const androidTts = getAndroidTts();
+  if (androidTts) {
+    return new Promise<void>((resolve, reject) => {
+      const id = 'tts_' + (++_cbId);
+      _cbs[id] = { resolve, reject };
+      androidTts.speak(text, lang === 'de' ? 'de-DE' : 'en-US', rate, id);
+    });
+  }
+  // Fallback: Capacitor plugin (iOS / future platforms)
+  const TTS = await loadCapPlugin();
+  await TTS.speak({ text, lang: lang === 'de' ? 'de-DE' : 'en-US', rate, pitch: 1.0, volume: 1.0, category: 'ambient' });
 }
 
-/** Stop any in-progress native speech. */
 export function nativeStop(): void {
-  loadTts().then(TextToSpeech => TextToSpeech.stop()).catch(() => { /* ignore */ });
+  const androidTts = getAndroidTts();
+  if (androidTts) { try { androidTts.stop(); } catch { /* ignore */ } return; }
+  loadCapPlugin().then(TTS => TTS.stop()).catch(() => { /* ignore */ });
 }
