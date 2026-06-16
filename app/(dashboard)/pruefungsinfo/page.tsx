@@ -627,21 +627,21 @@ function ExamSection({ exam }: { exam: typeof EXAMS[0] }) {
   return (
     <div style={{ border: `1px solid ${exam.bd}`, borderRadius: 14, background: exam.bg, overflow: 'hidden' }}>
       {/* Level header */}
-      <div style={{ padding: '16px 20px', borderBottom: `1px solid ${exam.bd}`, display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
-        <span style={{ fontSize: 13, fontWeight: 800, padding: '4px 14px', borderRadius: 100, background: exam.badge.bg, color: exam.badge.color }}>
+      <div className="pruef-exam-header" style={{ padding: '14px 16px', borderBottom: `1px solid ${exam.bd}`, display: 'flex', alignItems: 'flex-start', gap: 10, flexWrap: 'wrap' }}>
+        <span style={{ fontSize: 13, fontWeight: 800, padding: '4px 12px', borderRadius: 100, background: exam.badge.bg, color: exam.badge.color, flexShrink: 0 }}>
           {exam.level}
         </span>
-        <span style={{ fontFamily: 'var(--font-lora)', fontSize: 16, fontWeight: 700, color: exam.color }}>
+        <span style={{ fontFamily: 'var(--font-lora)', fontSize: 15, fontWeight: 700, color: exam.color, flex: 1, minWidth: 120 }}>
           {exam.fullName}
         </span>
-        <div style={{ marginLeft: 'auto', display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-          <span style={{ fontSize: 11.5, padding: '3px 10px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600 }}>
+        <div className="pruef-exam-badges" style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+          <span style={{ fontSize: 11, padding: '3px 8px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600, whiteSpace: 'nowrap' }}>
             ⏱ {exam.totalTime}
           </span>
-          <span style={{ fontSize: 11.5, padding: '3px 10px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600 }}>
+          <span style={{ fontSize: 11, padding: '3px 8px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600, whiteSpace: 'nowrap' }}>
             🏆 {exam.totalPts}
           </span>
-          <span style={{ fontSize: 11.5, padding: '3px 10px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600 }}>
+          <span style={{ fontSize: 11, padding: '3px 8px', borderRadius: 100, background: exam.badge.bg, color: exam.color, fontWeight: 600, whiteSpace: 'nowrap' }}>
             👥 {exam.setup}
           </span>
         </div>
@@ -664,7 +664,7 @@ function ExamSection({ exam }: { exam: typeof EXAMS[0] }) {
           >
             <span>{p.icon}</span>
             <span>{p.name}</span>
-            <span style={{ fontSize: 10, opacity: .65 }}>({p.time})</span>
+            <span className="pruef-tab-time" style={{ fontSize: 10, opacity: .65 }}>({p.time})</span>
           </button>
         ))}
       </div>
@@ -740,7 +740,7 @@ export default function PruefungsinfoPage() {
         </div>
 
         {/* Quick overview table */}
-        <div style={{ marginBottom: 28, border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
+        <div className="pruef-overview-wrap" style={{ marginBottom: 28, border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
           <div className="pruef-table-scroll" style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
             <div style={{ minWidth: 560 }}>
               <div style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>

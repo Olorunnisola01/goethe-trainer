@@ -720,8 +720,10 @@ body {
 }
 .editor-covers { display: flex; align-items: center; gap: 7px; }
 .cover-dot {
-  width: 18px; height: 18px; border-radius: 50%; cursor: pointer; padding: 0;
+  width: 18px; height: 18px; min-width: 18px; min-height: 18px;
+  border-radius: 50%; cursor: pointer; padding: 0; flex-shrink: 0;
   border: 2px solid transparent; transition: transform .12s, border-color .12s; outline: none;
+  aspect-ratio: 1 / 1;
 }
 .cover-dot:hover { transform: scale(1.15); }
 .cover-dot.on { border-color: var(--bg); box-shadow: 0 0 0 2px currentColor; transform: scale(1.12); }
@@ -866,8 +868,10 @@ body {
 .editor-category { min-width: 128px; height: 28px; }
 .fmt-sep { width: 1px; height: 20px; background: var(--border); margin: 0 5px; flex-shrink: 0; }
 .fmt-swatch {
-  width: 22px; height: 22px; border-radius: 50%; cursor: pointer; padding: 0; flex-shrink: 0;
+  width: 22px; height: 22px; min-width: 22px; min-height: 22px;
+  border-radius: 50%; cursor: pointer; padding: 0; flex-shrink: 0;
   border: 2px solid var(--bg); box-shadow: 0 0 0 1px var(--border2); transition: transform .1s;
+  aspect-ratio: 1 / 1;
 }
 .fmt-swatch:hover { transform: scale(1.14); }
 .fmt-hl { border-radius: 50%; }
@@ -891,6 +895,19 @@ body {
 @media (max-width: 768px) {
   .pruef-page { padding: 16px 14px; }
   .pruef-teil-count { display: none; }
+
+  /* Exam section header: badges wrap below the title on mobile */
+  .pruef-exam-header { row-gap: 8px; }
+  .pruef-exam-badges { width: 100%; }
+
+  /* Tab bar: hide the time string, keep icon+name readable */
+  .pruef-tab-time { display: none; }
+
+  /* Overview table: make cells smaller + allow wrapping so less scrolling needed */
+  .pruef-overview-wrap { font-size: 11px; }
+  .pruef-overview-wrap [style*="minWidth: 560"] { min-width: 420px !important; }
+  .pruef-overview-wrap [style*="whiteSpace: nowrap"] { white-space: normal !important; }
+  .pruef-overview-wrap [style*="padding: '10px 12px'"] { padding: 7px 8px !important; }
 }
 
 /* Mobile: single pane with toggle */
@@ -912,4 +929,24 @@ body {
   .paper::before { left: 20px; }
   .paper-title { font-size: 23px; }
   .paper-body { font-size: 16px; }
+}
+
+/* ─── Aussprache panel — full-screen on mobile ─── */
+@media (max-width: 640px) {
+  /* Override the JS-set left/top/width/height so it fills the screen */
+  .aussprache-panel {
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  /* Stack source/target columns vertically instead of side-by-side */
+  .aussprache-cols {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  /* Hide the resize grip — no resizing needed when full-screen */
+  .aussprache-resize { display: none !important; }
 }

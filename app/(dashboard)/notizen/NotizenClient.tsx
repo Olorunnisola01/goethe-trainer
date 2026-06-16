@@ -681,6 +681,7 @@ function EditorPane({
 }) {
   const c = COVERS[note.cover] ?? COVERS.sand;
   const [confirmDel, setConfirmDel] = useState(false);
+  const [fmtOpen, setFmtOpen] = useState(false);
   const [stats, setStats] = useState(() => ({ w: wordCount(note.body), ch: charCount(note.body) }));
   const [fontSel, setFontSel] = useState(DEFAULT_FONT);
   const [sizeSel, setSizeSel] = useState(16);
@@ -924,6 +925,7 @@ function EditorPane({
 
         <div className="editor-bar-right">
           <span className={`save-pill${savedFlash ? ' show' : ''}`}>✓ Gespeichert</span>
+          <button className={`editor-icon${fmtOpen ? ' active' : ''}`} onClick={() => setFmtOpen(o => !o)} title={fmtOpen ? 'Formatierungsleiste ausblenden' : 'Formatierungsleiste einblenden'}>Aa</button>
           <button className="editor-icon" onClick={() => setFocusMode(true)} title="Werkzeugleisten ausblenden">⤡</button>
           <button className="editor-icon" onClick={onExport} title="Als PDF exportieren">⬇</button>
           <button className={`editor-icon${note.pinned ? ' active' : ''}`} onClick={onPin} title={note.pinned ? 'Lösen' : 'Anpinnen'}>
@@ -940,8 +942,8 @@ function EditorPane({
         </div>
       </div>
 
-      {/* Formatting toolbar */}
-      <div className="fmt-bar">
+      {/* Formatting toolbar — hidden by default; toggled with the Aa button */}
+      {fmtOpen && <div className="fmt-bar">
         {/* Font family */}
         <select
           className="fmt-select fmt-font"
@@ -1023,7 +1025,7 @@ function EditorPane({
 
         <span className="fmt-sep" />
         <button className="fmt-btn" onMouseDown={keepSel} onClick={() => exec('removeFormat')} title="Formatierung entfernen">⌫</button>
-      </div>
+      </div>}
 
       {/* Paper */}
       <div className="editor-scroll">

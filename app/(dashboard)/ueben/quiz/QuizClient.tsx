@@ -334,37 +334,6 @@ export function QuizClient() {
                 {pool.length < 4 ? 'Zu wenig Wörter (min. 4 nötig)' : '▶ Quiz starten'}
               </button>
 
-              {/* Word preview list */}
-              {pool.length > 0 && (
-                <div style={{ marginTop: 28 }}>
-                  <div style={{ fontSize: 10.5, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.07em', marginBottom: 10 }}>
-                    Wörter in dieser Gruppe
-                  </div>
-                  <div className="quiz-words-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
-                    {pool.slice(0, 20).map((e, i) => (
-                      <div key={i} style={{
-                        display: 'flex', alignItems: 'center', gap: 8,
-                        padding: '7px 11px', borderRadius: 8,
-                        background: 'var(--bg)', border: '1px solid var(--border)',
-                        fontSize: 12,
-                      }}>
-                        <button
-                          type="button"
-                          onClick={() => speak(e.w)}
-                          style={{ width: 20, height: 20, borderRadius: '50%', border: '1px solid var(--blue-bd)', background: 'var(--blue-bg)', color: 'var(--blue)', cursor: 'pointer', fontSize: 9, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                        >🔊</button>
-                        <span style={{ fontWeight: 600, color: 'var(--ink)', flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{e.w}</span>
-                        <span style={{ color: 'var(--muted)', fontSize: 11, flexShrink: 0 }}>{e.t}</span>
-                      </div>
-                    ))}
-                  </div>
-                  {pool.length > 20 && (
-                    <div style={{ fontSize: 11, color: 'var(--muted)', textAlign: 'center', marginTop: 8 }}>
-                      + {pool.length - 20} weitere Wörter
-                    </div>
-                  )}
-                </div>
-              )}
             </div>
 
           ) : finished ? (

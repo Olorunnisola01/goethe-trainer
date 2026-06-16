@@ -212,6 +212,7 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
 
   return (
     <div
+      className="aussprache-panel"
       style={{
         position: 'fixed', left: pos.x, top: pos.y, width: size.w, height: size.h,
         boxSizing: 'border-box', zIndex: 600, borderRadius: 16, overflow: 'hidden',
@@ -241,7 +242,7 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
 
       {/* Body — source (left) and target (right) side by side, with ⇄ between */}
       <div style={{ padding: 12, overflowY: 'auto', flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
-        <div style={{ display: 'flex', gap: 6, flex: 1, minHeight: 96 }}>
+        <div className="aussprache-cols" style={{ display: 'flex', gap: 6, flex: 1, minHeight: 96 }}>
           {/* Source (input) */}
           <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 4 }}>
@@ -297,8 +298,9 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
         )}
       </div>
 
-      {/* Resize grip (bottom-right) */}
+      {/* Resize grip (bottom-right) — hidden on mobile */}
       <div
+        className="aussprache-resize"
         onPointerDown={startResize}
         title="Ziehen zum Vergrößern"
         style={{
