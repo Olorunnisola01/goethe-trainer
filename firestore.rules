@@ -47,5 +47,40 @@ service cloud.firestore {
       allow create, update: if isOwner(userId) && isValidNotebook(userId);
       allow delete:         if isOwner(userId);
     }
+
+    // Per-user gamification state (XP, streak, achievements, goal, weak-words,
+    // SRS, activity history). Strictly private, owner-only.
+    match /gamification/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // ----- Friend challenges -----
+    // A challenge embeds a fixed quiz (questions) + the creator's score. Any
+    // signed-in user may read it (to accept) and append their own result.
+    // Creator/quiz fields are immutable after creation.
+    function challengeImmutable() {
+      let n = request.resource.data;
+      let o = resource.data;
+      return n.creatorName == o.creatorName
+        && n.creatorScore == o.creatorScore
+        && n.total == o.total
+        && n.questions == o.questions
+        && n.createdAt == o.createdAt;
+    }
+    match /challenges/{id} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated()
+        && request.resource.data.keys().hasOnly(['creatorName','creatorScore','total','level','category','questions','createdAt','results'])
+        && request.resource.data.creatorName is string && request.resource.data.creatorName.size() <= 60
+        && request.resource.data.creatorScore is int
+        && request.resource.data.total is int && request.resource.data.total <= 50
+        && request.resource.data.questions is list && request.resource.data.questions.size() <= 30
+        && request.resource.data.results is list && request.resource.data.results.size() == 0;
+      allow update: if isAuthenticated()
+        && challengeImmutable()
+        && request.resource.data.results is list
+        && request.resource.data.results.size() <= 200;
+      allow delete: if false;
+    }
   }
 }

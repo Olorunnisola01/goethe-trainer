@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { UbLayout } from '@/components/layout/UbLayout';
 import { warmUpVoices, speakDE } from '@/lib/cloudVoice';
+import { DictationPanel } from '@/components/dictation/DictationPanel';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
@@ -529,6 +530,7 @@ function BasicPane({
 }) {
   const [scriptOpen, setScriptOpen] = useState(false);
   const [speaking, setSpeaking] = useState(false);
+  const [dictation, setDictation] = useState(false);
 
   const doSpeak = () => {
     setSpeaking(true);
@@ -549,6 +551,18 @@ function BasicPane({
         <div className="ub-prompt-s">{item.instructions}</div>
       </div>
 
+      {/* Mode toggle: comprehension questions vs. dictation */}
+      <div style={{ display: 'flex', gap: 8, margin: '14px 0 4px' }}>
+        <button className={`chip${!dictation ? ' on' : ''}`} onClick={() => setDictation(false)}>❓ Fragen</button>
+        <button className={`chip${dictation ? ' on' : ''}`} onClick={() => setDictation(true)}>📝 Diktat</button>
+      </div>
+
+      {dictation ? (
+        <div className="ub-section">
+          <div className="ub-section-h">📝 Diktat — tippe, was du hörst</div>
+          <DictationPanel script={item.audioScript} />
+        </div>
+      ) : (<>
       {/* Audio player (TTS) */}
       <div className="ub-section">
         <div className="ub-section-h">Audio</div>
@@ -631,6 +645,7 @@ function BasicPane({
           </div>
         </div>
       )}
+      </>)}
     </div>
   );
 }

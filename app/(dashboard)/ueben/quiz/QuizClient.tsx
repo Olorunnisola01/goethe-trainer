@@ -6,6 +6,7 @@ import { useProgress } from '@/hooks/useProgress';
 import { useGame } from '@/context/GamificationContext';
 import { warmUpVoices, speakDE } from '@/lib/cloudVoice';
 import { shareScoreCard } from '@/lib/shareCard';
+import { createChallenge, challengeUrl } from '@/lib/challenge';
 import { useMobileFilter, FilterToggleButton, MobileFilterDrawer } from '@/components/layout/MobileFilterDrawer';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
@@ -121,6 +122,8 @@ export function QuizClient() {
   const [history, setHistory]         = useState<{ word: string; correct: string; chosen: string; level: Level }[]>([]);
   const [quizStarted, setQuizStarted] = useState(false);
   const [canAdvance, setCanAdvance]   = useState(false);
+  const [challengeBusy, setChallengeBusy] = useState(false);
+  const [challengeLink, setChallengeLink] = useState('');
 
   useEffect(() => { warmUpVoices(); }, []);
 
@@ -207,6 +210,31 @@ export function QuizClient() {
     return () => window.removeEventListener('keydown', h);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [quizStarted, finished, current, selected, canAdvance]);
+
+  const createFriendChallenge = async () => {
+    if (challengeBusy || !questions.length) return;
+    setChallengeBusy(true);
+    try {
+      const id = await createChallenge({
+        creatorName: user?.displayName ?? user?.email?.split('@')[0] ?? 'Anonym',
+        creatorScore: score,
+        total: questions.length,
+        level: levelFilter === 'ALL' ? 'Gemischt' : levelFilter,
+        category: catName,
+        questions: questions.map(q => ({ word: q.word, correct: q.correct, options: q.options })),
+      });
+      const url = challengeUrl(id);
+      setChallengeLink(url);
+      const text = `Ich fordere dich zum Deutsch-Quiz-Duell heraus! Ich habe ${score}/${questions.length} erreicht. Schaffst du mehr? 🇩🇪⚔️`;
+      const nav = navigator as Navigator & { share?: (d: { title: string; text: string; url: string }) => Promise<void> };
+      if (nav.share) { try { await nav.share({ title: 'Quiz-Duell', text, url }); } catch { /* cancelled */ } }
+      else { try { await navigator.clipboard.writeText(url); } catch { /* ignore */ } }
+    } catch {
+      setChallengeLink('error');
+    } finally {
+      setChallengeBusy(false);
+    }
+  };
 
   const handleSidebarSelect = useCallback((id: string) => {
     setSelectedCat(id);
@@ -421,13 +449,36 @@ export function QuizClient() {
                   ⚙ Neue Auswahl
                 </button>
               </div>
-              <button
-                type="button"
-                onClick={() => shareScoreCard({ score, total: questions.length, title: `${catName} · Vokabel-Quiz` })}
-                style={{ width: '100%', marginTop: 10, padding: '12px 0', borderRadius: 12, background: 'var(--green)', color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}
-              >
-                📤 Ergebnis teilen
-              </button>
+              <div style={{ display: 'flex', gap: 10, marginTop: 10 }}>
+                <button
+                  type="button"
+                  onClick={() => shareScoreCard({ score, total: questions.length, title: `${catName} · Vokabel-Quiz` })}
+                  style={{ flex: 1, padding: '12px 0', borderRadius: 12, background: 'var(--green)', color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}
+                >
+                  📤 Teilen
+                </button>
+                <button
+                  type="button"
+                  onClick={createFriendChallenge}
+                  disabled={challengeBusy}
+                  style={{ flex: 1, padding: '12px 0', borderRadius: 12, background: 'var(--b1)', color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: challengeBusy ? 'wait' : 'pointer', fontFamily: 'inherit' }}
+                >
+                  {challengeBusy ? '⏳…' : '⚔️ Freund herausfordern'}
+                </button>
+              </div>
+              {challengeLink && challengeLink !== 'error' && (
+                <div style={{ marginTop: 10, background: 'var(--blue-bg)', border: '1px solid var(--blue-bd)', borderRadius: 10, padding: '10px 12px' }}>
+                  <div style={{ fontSize: 11.5, color: 'var(--blue)', fontWeight: 600, marginBottom: 5 }}>⚔️ Herausforderungs-Link (kopiert):</div>
+                  <div style={{ display: 'flex', gap: 6 }}>
+                    <input readOnly value={challengeLink} onFocus={e => e.currentTarget.select()}
+                      style={{ flex: 1, fontSize: 11.5, padding: '6px 8px', borderRadius: 7, border: '1px solid var(--blue-bd)', background: 'var(--bg)', color: 'var(--ink2)', fontFamily: 'inherit', minWidth: 0 }} />
+                    <button onClick={() => navigator.clipboard?.writeText(challengeLink)} style={{ flexShrink: 0, padding: '6px 12px', borderRadius: 7, border: 'none', background: 'var(--blue)', color: '#fff', fontSize: 11.5, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>Kopieren</button>
+                  </div>
+                </div>
+              )}
+              {challengeLink === 'error' && (
+                <div style={{ marginTop: 10, fontSize: 12, color: 'var(--red)' }}>Herausforderung konnte nicht erstellt werden. Bist du angemeldet?</div>
+              )}
             </div>
 
           ) : (
