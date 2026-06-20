@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { speakDE } from '@/lib/germanVoice';
+import { AiExamples } from '@/components/ai/AiExamples';
 
 interface VocabEntry {
   w: string;
@@ -252,6 +253,9 @@ export function VocabCard({ entry, onAddFavourite, onRemoveFavourite, isFavourit
             </button>
           </>
         )}
+
+        {/* AI-generated example sentences */}
+        <AiExamples word={entry.w} />
       </div>
     </div>
   );

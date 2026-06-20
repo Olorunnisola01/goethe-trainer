@@ -1,8 +1,10 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useProgress } from '@/hooks/useProgress';
+import { useGame } from '@/context/GamificationContext';
+import { isDue } from '@/lib/gamification';
 import { clsx } from 'clsx';
 import { warmUpVoices, speakDE } from '@/lib/cloudVoice';
 
@@ -43,18 +45,23 @@ function speak(text: string, _lang: string) {
 export function KarteikartenClient() {
   const { user } = useAuth();
   const { trackFlash } = useProgress(user?.uid ?? null);
+  const { record, reviewCard, state: game } = useGame();
   const uid = user?.uid ?? 'guest';
   const storageKey = `dlflash_${uid}`;
 
   const [allEntries, setAllEntries] = useState<FlatEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [levelFilter, setLevelFilter] = useState<LevelFilter>('ALL');
+  const [srsMode, setSrsMode] = useState(false);   // true = only due cards (SM-2)
   const [deck, setDeck] = useState<FlatEntry[]>([]);
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [known, setKnown] = useState<Set<string>>(new Set());
   const [again, setAgain] = useState<Set<string>>(new Set());
   const [done, setDone] = useState(false);
+  const [dragX, setDragX] = useState(0);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const swiped = useRef(false);
 
   // Warm up high-quality voices as early as possible
   useEffect(() => { warmUpVoices(); }, []);
@@ -89,14 +96,28 @@ export function KarteikartenClient() {
     [allEntries, levelFilter]
   );
 
+  /* How many cards in the current level are due for SRS review right now. */
+  const dueCount = useMemo(
+    () => filtered.filter(e => { const c = game.srs[e.w]; return !c || isDue(c); }).length,
+    [filtered, game.srs]
+  );
+
   const buildDeck = useCallback(() => {
-    const d = shuffle(filtered);
-    setDeck(d);
+    let pool = filtered;
+    if (srsMode) {
+      // Only due cards, soonest-due first (new cards count as due).
+      pool = filtered.filter(e => { const c = game.srs[e.w]; return !c || isDue(c); })
+        .sort((a, b) => (game.srs[a.w]?.due ?? '') < (game.srs[b.w]?.due ?? '') ? -1 : 1);
+    } else {
+      pool = shuffle(filtered);
+    }
+    setDeck(pool);
     setIdx(0);
     setFlipped(false);
     setDone(false);
     setAgain(new Set());
-  }, [filtered]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filtered, srsMode]);
 
   useEffect(() => {
     if (!loading && filtered.length > 0) buildDeck();
@@ -113,6 +134,22 @@ export function KarteikartenClient() {
       return next;
     });
     trackFlash(true);
+    reviewCard(key, 4);                                            // SM-2: "good"
+    record({ type: 'flash', correct: true, word: { de: current.w, en: current.t } });
+    advance();
+  };
+
+  const markEasy = () => {
+    if (!current) return;
+    const key = current.w;
+    setKnown(prev => {
+      const next = new Set(prev).add(key);
+      try { localStorage.setItem(storageKey, JSON.stringify([...next])); } catch { /* ignore */ }
+      return next;
+    });
+    trackFlash(true);
+    reviewCard(key, 5);                                            // SM-2: "easy" → longer interval
+    record({ type: 'flash', correct: true, word: { de: current.w, en: current.t } });
     advance();
   };
 
@@ -120,17 +157,50 @@ export function KarteikartenClient() {
     if (!current) return;
     setAgain(prev => new Set(prev).add(current.w));
     trackFlash(false);
+    reviewCard(current.w, 0);                                      // SM-2: "again" → reset
+    record({ type: 'flash', correct: false, word: { de: current.w, en: current.t } });
     advance();
   };
 
   const advance = () => {
     setFlipped(false);
+    setDragX(0);
     if (idx + 1 >= deck.length) {
       setDone(true);
     } else {
       setIdx(i => i + 1);
     }
   };
+
+  /* Swipe handlers: → known · ← again (only meaningful once flipped). */
+  const onTouchStart = (e: React.TouchEvent) => { touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }; swiped.current = false; };
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (!touchStart.current) return;
+    const dx = e.touches[0].clientX - touchStart.current.x;
+    const dy = e.touches[0].clientY - touchStart.current.y;
+    if (Math.abs(dx) > Math.abs(dy)) { setDragX(dx); if (Math.abs(dx) > 12) swiped.current = true; }
+  };
+  const onTouchEnd = () => {
+    const dx = dragX;
+    touchStart.current = null;
+    if (flipped && Math.abs(dx) > 70) { dx > 0 ? markKnown() : markAgain(); }
+    else setDragX(0);
+  };
+
+  /* Keyboard: Space/↑ flip · → known · ← again · R read aloud. */
+  useEffect(() => {
+    if (loading || done) return;
+    const h = (e: KeyboardEvent) => {
+      if (!current) return;
+      if (e.key === ' ' || e.key === 'ArrowUp') { e.preventDefault(); setFlipped(f => !f); }
+      else if (e.key === 'ArrowRight' && flipped) { e.preventDefault(); markKnown(); }
+      else if (e.key === 'ArrowLeft' && flipped) { e.preventDefault(); markAgain(); }
+      else if (e.key.toLowerCase() === 'r') { e.preventDefault(); speak(current.w, 'de-DE'); }
+    };
+    window.addEventListener('keydown', h);
+    return () => window.removeEventListener('keydown', h);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current, flipped, loading, done]);
 
   const knownCount = deck.filter(e => known.has(e.w)).length;
   const againCount = again.size;
@@ -164,8 +234,16 @@ export function KarteikartenClient() {
           </button>
         ))}
         <button
+          onClick={() => setSrsMode(m => !m)}
+          className={clsx('px-4 py-1.5 rounded-full text-xs font-semibold border transition-colors ml-auto',
+            srsMode ? 'bg-violet-600 text-white border-violet-600' : 'bg-white text-gray-600 border-gray-200 hover:border-violet-300')}
+          title="Intelligente Wiederholung (SM-2): nur fällige Karten"
+        >
+          🧠 SRS{srsMode ? ` · ${dueCount} fällig` : ''}
+        </button>
+        <button
           onClick={buildDeck}
-          className="px-4 py-1.5 rounded-full text-xs font-semibold border border-gray-200 hover:bg-gray-50 ml-auto"
+          className="px-4 py-1.5 rounded-full text-xs font-semibold border border-gray-200 hover:bg-gray-50"
         >
           🔀 Mischen
         </button>
@@ -202,7 +280,14 @@ export function KarteikartenClient() {
       </div>
 
       {/* Card */}
-      {done ? (
+      {!done && deck.length === 0 && srsMode ? (
+        <div className="border border-gray-200 rounded-2xl p-10 text-center space-y-3">
+          <div className="text-5xl">✅</div>
+          <h2 className="text-xl font-bold" style={{ color: 'var(--ink)' }}>Alles wiederholt!</h2>
+          <p className="text-sm" style={{ color: 'var(--muted)' }}>Für dieses Level sind aktuell keine Karten fällig. Komm später wieder — oder schalte SRS aus, um frei zu üben.</p>
+          <button onClick={() => setSrsMode(false)} className="px-6 py-2.5 bg-green-600 text-white rounded-xl font-semibold text-sm">Frei üben</button>
+        </div>
+      ) : done ? (
         <div className="border border-gray-200 rounded-2xl p-10 text-center space-y-4">
           <div className="text-5xl">🎉</div>
           <h2 className="text-xl font-bold text-gray-800">Deck abgeschlossen!</h2>
@@ -218,9 +303,21 @@ export function KarteikartenClient() {
         </div>
       ) : current ? (
         <div
-          onClick={() => setFlipped(f => !f)}
+          onClick={() => { if (!swiped.current) setFlipped(f => !f); }}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
           className="relative cursor-pointer border-2 border-gray-200 rounded-2xl p-8 min-h-[220px] flex flex-col items-center justify-center text-center hover:border-green-300 transition-colors select-none"
+          style={{
+            transform: `translateX(${dragX}px) rotate(${dragX / 28}deg)`,
+            transition: dragX === 0 ? 'transform .25s ease' : 'none',
+            borderColor: dragX > 40 ? 'var(--green)' : dragX < -40 ? 'var(--red)' : undefined,
+            touchAction: 'pan-y',
+          }}
         >
+          {/* Swipe hint badges */}
+          {flipped && dragX > 40 && <div style={{ position: 'absolute', top: 14, left: 14, color: 'var(--green)', fontWeight: 800, fontSize: 14 }}>✓ Bekannt</div>}
+          {flipped && dragX < -40 && <div style={{ position: 'absolute', top: 14, right: 14, color: 'var(--red)', fontWeight: 800, fontSize: 14 }}>✗ Nochmal</div>}
           <div className="text-xs text-gray-400 mb-4">{current.emoji} {current.cat}</div>
 
           {!flipped ? (
@@ -253,7 +350,7 @@ export function KarteikartenClient() {
 
       {/* Action buttons */}
       {!done && current && flipped && (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-3 gap-3">
           <button
             onClick={markAgain}
             className="py-3 rounded-xl border-2 border-red-200 text-red-700 font-semibold text-sm hover:bg-red-50 transition-colors"
@@ -266,6 +363,12 @@ export function KarteikartenClient() {
           >
             ✓ Bekannt
           </button>
+          <button
+            onClick={markEasy}
+            className="py-3 rounded-xl border-2 border-blue-200 text-blue-700 font-semibold text-sm hover:bg-blue-50 transition-colors"
+          >
+            ⚡ Einfach
+          </button>
         </div>
       )}
       {!done && current && !flipped && (
@@ -275,6 +378,11 @@ export function KarteikartenClient() {
         >
           Aufdecken
         </button>
+      )}
+      {!done && current && (
+        <p className="text-center text-xs" style={{ color: 'var(--muted)' }}>
+          💡 Wischen: → bekannt · ← nochmal &nbsp;·&nbsp; Tasten: Leertaste umdrehen, ←/→ bewerten, R vorlesen
+        </p>
       )}
     </div>
   );
