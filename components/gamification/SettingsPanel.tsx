@@ -1,22 +1,17 @@
 'use client';
 
 /* Settings: colour theme · font size · daily goal. Lives on the Fortschritt page. */
-import { useSettings, Theme, FontScale } from '@/context/SettingsContext';
+import { useSettings, FontScale } from '@/context/SettingsContext';
 import { useGame } from '@/context/GamificationContext';
 import { useT } from '@/context/LanguageContext';
 import { Lang } from '@/lib/i18n';
 import { Card } from '@/components/ui/Card';
 
 export function SettingsPanel() {
-  const { theme, fontScale, setTheme, setFontScale } = useSettings();
+  const { fontScale, setFontScale } = useSettings();
   const { state, setDailyGoal } = useGame();
   const { t, lang, setLang } = useT();
 
-  const themes: { v: Theme; label: string; icon: string }[] = [
-    { v: 'light', label: t('settings.light'), icon: '☀️' },
-    { v: 'dark', label: t('settings.dark'), icon: '🌙' },
-    { v: 'system', label: t('settings.auto'), icon: '💻' },
-  ];
   const langs: { v: Lang; label: string }[] = [
     { v: 'de', label: '🇩🇪 Deutsch' },
     { v: 'en', label: '🇬🇧 English' },
@@ -36,15 +31,6 @@ export function SettingsPanel() {
           <div className="seg">
             {langs.map(l => (
               <button key={l.v} className={lang === l.v ? 'on' : ''} onClick={() => setLang(l.v)}>{l.label}</button>
-            ))}
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
-          <span style={{ fontSize: 13, color: 'var(--ink2)', fontWeight: 600 }}>{t('settings.appearance')}</span>
-          <div className="seg">
-            {themes.map(th => (
-              <button key={th.v} className={theme === th.v ? 'on' : ''} onClick={() => setTheme(th.v)}>{th.icon} {th.label}</button>
             ))}
           </div>
         </div>

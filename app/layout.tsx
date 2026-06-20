@@ -8,8 +8,8 @@ import { GamificationProvider } from '@/context/GamificationContext';
 import { ToastHost } from '@/components/gamification/ToastHost';
 import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
 
-/* Apply saved theme + font scale before first paint (avoids a flash). */
-const themeBootScript = `(function(){try{var t=localStorage.getItem('dl_theme')||'system';var f=localStorage.getItem('dl_font')||'md';var d=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');document.documentElement.setAttribute('data-font',f);}catch(e){}})();`;
+/* Always use the light theme; apply saved font scale before first paint. */
+const themeBootScript = `(function(){try{var f=localStorage.getItem('dl_font')||'md';document.documentElement.setAttribute('data-theme','light');document.documentElement.setAttribute('data-font',f);}catch(e){}})();`;
 
 const comicNeue = Comic_Neue({
   subsets: ['latin'],

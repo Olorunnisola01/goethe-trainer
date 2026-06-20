@@ -25,49 +25,34 @@ const Ctx = createContext<SettingsValue | null>(null);
 const LS_THEME = 'dl_theme';
 const LS_FONT = 'dl_font';
 
-function systemDark(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia?.('(prefers-color-scheme: dark)').matches;
-}
-function apply(theme: Theme, font: FontScale) {
+/* Dark theme has been retired — the app is always light. We keep the Theme API
+   so existing callers compile, but every code path resolves to 'light'. */
+function apply(_theme: Theme, font: FontScale) {
   if (typeof document === 'undefined') return;
-  const resolved = theme === 'system' ? (systemDark() ? 'dark' : 'light') : theme;
-  document.documentElement.setAttribute('data-theme', resolved);
+  document.documentElement.setAttribute('data-theme', 'light');
   document.documentElement.setAttribute('data-font', font);
 }
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>('system');
+  const theme: Theme = 'light';
   const [fontScale, setFontState] = useState<FontScale>('md');
-  const [resolvedTheme, setResolved] = useState<'light' | 'dark'>('light');
+  const resolvedTheme = 'light' as const;
 
   useEffect(() => {
-    const t = (localStorage.getItem(LS_THEME) as Theme) || 'system';
     const f = (localStorage.getItem(LS_FONT) as FontScale) || 'md';
-    setThemeState(t); setFontState(f);
-    apply(t, f);
-    setResolved(t === 'system' ? (systemDark() ? 'dark' : 'light') : t);
+    setFontState(f);
+    apply('light', f);
+    // Clear any previously-saved dark/system preference.
+    try { localStorage.setItem(LS_THEME, 'light'); } catch { /* ignore */ }
   }, []);
 
-  // Track OS theme changes while on "system"
-  useEffect(() => {
-    if (theme !== 'system' || typeof window === 'undefined') return;
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const handler = () => { apply('system', fontScale); setResolved(systemDark() ? 'dark' : 'light'); };
-    mq.addEventListener('change', handler);
-    return () => mq.removeEventListener('change', handler);
-  }, [theme, fontScale]);
-
-  const setTheme = useCallback((t: Theme) => {
-    setThemeState(t);
-    localStorage.setItem(LS_THEME, t);
-    apply(t, (localStorage.getItem(LS_FONT) as FontScale) || 'md');
-    setResolved(t === 'system' ? (systemDark() ? 'dark' : 'light') : t);
-  }, []);
+  // Theme is fixed to light; setTheme is a no-op kept for API compatibility.
+  const setTheme = useCallback((_t: Theme) => { apply('light', (localStorage.getItem(LS_FONT) as FontScale) || 'md'); }, []);
 
   const setFontScale = useCallback((f: FontScale) => {
     setFontState(f);
     localStorage.setItem(LS_FONT, f);
-    apply((localStorage.getItem(LS_THEME) as Theme) || 'system', f);
+    apply('light', f);
   }, []);
 
   return (

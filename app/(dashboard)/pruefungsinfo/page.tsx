@@ -742,8 +742,8 @@ export default function PruefungsinfoPage() {
         {/* Quick overview table */}
         <div className="pruef-overview-wrap" style={{ marginBottom: 28, border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
           <div className="pruef-table-scroll" style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
-            <div style={{ minWidth: 560 }}>
-              <div style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>
+            <div className="pruef-ovw-inner" style={{ minWidth: 560 }}>
+              <div className="pruef-ovw-row" style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>
                 {['Niveau', 'Lesen', 'Hören', 'Schreiben', 'Sprechen'].map(h => (
                   <div key={h} style={{ padding: '8px 12px', fontSize: 11, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.06em', whiteSpace: 'nowrap' }}>{h}</div>
                 ))}
@@ -753,7 +753,7 @@ export default function PruefungsinfoPage() {
                 { level: 'A2', color: '#1d4ed8', bg: '#eff6ff', cols: ['30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 4 Teile', '30 Min · 20 Pkt · 2 Teile', '15 Min · 25 Pkt · 3 Teile'] },
                 { level: 'B1', color: '#7c3aed', bg: '#f5f3ff', cols: ['65 Min · 30 Pkt · 5 Teile', '40 Min · 30 Pkt · 4 Teile', '60 Min · 100 Pkt* · 3 Teile', '15 Min · 100 Pkt* · 3 Teile'] },
               ].map((row, ri) => (
-                <div key={row.level} style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', borderBottom: ri < 2 ? '1px solid var(--border)' : 'none', background: row.bg }}>
+                <div key={row.level} className="pruef-ovw-row" style={{ display: 'grid', gridTemplateColumns: '0.6fr 1fr 1fr 1fr 1fr', borderBottom: ri < 2 ? '1px solid var(--border)' : 'none', background: row.bg }}>
                   <div style={{ padding: '10px 12px', fontWeight: 800, color: row.color, fontSize: 14, fontFamily: 'var(--font-lora)' }}>{row.level}</div>
                   {row.cols.map((c, ci) => (
                     <div key={ci} style={{ padding: '10px 12px', fontSize: 11.5, color: 'var(--ink2)', lineHeight: 1.5, whiteSpace: 'nowrap' }}>{c}</div>
