@@ -3,6 +3,7 @@ import { Lora, Plus_Jakarta_Sans, Comic_Neue } from 'next/font/google';
 import './globals.css';
 import { AuthProvider } from '@/context/AuthContext';
 import { SettingsProvider } from '@/context/SettingsContext';
+import { LanguageProvider } from '@/context/LanguageContext';
 import { GamificationProvider } from '@/context/GamificationContext';
 import { ToastHost } from '@/components/gamification/ToastHost';
 import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
@@ -59,11 +60,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="antialiased">
         <AuthProvider>
           <SettingsProvider>
-            <GamificationProvider>
-              {children}
-              <ToastHost />
-              <ServiceWorkerRegister />
-            </GamificationProvider>
+            <LanguageProvider>
+              <GamificationProvider>
+                {children}
+                <ToastHost />
+                <ServiceWorkerRegister />
+              </GamificationProvider>
+            </LanguageProvider>
           </SettingsProvider>
         </AuthProvider>
       </body>

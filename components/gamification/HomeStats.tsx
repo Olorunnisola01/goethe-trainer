@@ -3,11 +3,13 @@
 /* Home dashboard strip: daily streak · XP + rank progress · daily-goal ring. */
 import Link from 'next/link';
 import { useGame } from '@/context/GamificationContext';
+import { useT } from '@/context/LanguageContext';
 import { rankForXp } from '@/lib/gamification';
 import { GoalRing } from './GoalRing';
 
 export function HomeStats() {
   const { state, ready } = useGame();
+  const { t } = useT();
   if (!ready) return null;
 
   const { rank, next, intoLevel, levelSpan } = rankForXp(state.xp);
@@ -20,9 +22,9 @@ export function HomeStats() {
         <span className="stat-emoji">{state.streak > 0 ? '🔥' : '🌙'}</span>
         <div style={{ minWidth: 0 }}>
           <div className="stat-num">{state.streak}</div>
-          <div className="stat-lbl">Tage in Folge</div>
+          <div className="stat-lbl">{t('stats.streak')}</div>
           {state.bestStreak > 0 && (
-            <div style={{ fontSize: 10.5, color: 'var(--muted)', marginTop: 2 }}>Rekord: {state.bestStreak}</div>
+            <div style={{ fontSize: 10.5, color: 'var(--muted)', marginTop: 2 }}>{t('stats.record')}: {state.bestStreak}</div>
           )}
         </div>
       </div>
@@ -38,7 +40,7 @@ export function HomeStats() {
         </div>
         <div className="xp-track"><div className="xp-fill" style={{ width: `${xpPct}%` }} /></div>
         <div style={{ fontSize: 10, color: 'var(--muted)' }}>
-          {next ? `Noch ${(next.min - state.xp).toLocaleString('de-DE')} XP bis ${next.name}` : 'Höchste Stufe erreicht 👑'}
+          {next ? t('stats.toNext', { n: (next.min - state.xp).toLocaleString('de-DE'), rank: next.name }) : t('stats.maxRank')}
         </div>
       </Link>
 
@@ -51,9 +53,9 @@ export function HomeStats() {
           </div>
         </div>
         <div style={{ minWidth: 0 }}>
-          <div className="stat-lbl" style={{ marginTop: 0 }}>Tagesziel</div>
+          <div className="stat-lbl" style={{ marginTop: 0 }}>{t('stats.dailyGoal')}</div>
           <div style={{ fontSize: 12.5, color: 'var(--ink2)', fontWeight: 600, marginTop: 3 }}>
-            {state.todayCount >= state.dailyGoal ? '✅ Geschafft!' : `${state.dailyGoal - state.todayCount} übrig`}
+            {state.todayCount >= state.dailyGoal ? `✅ ${t('stats.done')}` : `${state.dailyGoal - state.todayCount} ${t('stats.left')}`}
           </div>
         </div>
       </div>

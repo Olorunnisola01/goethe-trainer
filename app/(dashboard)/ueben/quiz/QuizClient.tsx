@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useGame } from '@/context/GamificationContext';
+import { useT } from '@/context/LanguageContext';
 import { warmUpVoices, speakDE } from '@/lib/cloudVoice';
 import { shareScoreCard } from '@/lib/shareCard';
 import { createChallenge, challengeUrl } from '@/lib/challenge';
@@ -35,22 +36,50 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 interface FlatEntry extends VocabEntry { level: Level; catId: string; catTitle: string; catEmoji: string; }
+interface WeakMap { [de: string]: { misses: number; hits: number } }
+
+/* Turn a chosen entry into a question with 3 distractors drawn from the pool. */
+function toQuestion(entry: FlatEntry, pool: FlatEntry[]): Question | null {
+  const distractors = shuffle(pool.filter(e => e.t !== entry.t)).slice(0, 3).map(e => e.t);
+  if (distractors.length < 3) return null;
+  return {
+    word: entry.w,
+    correct: entry.t,
+    options: shuffle([entry.t, ...distractors]),
+    catTitle: entry.catTitle,
+    catEmoji: entry.catEmoji,
+    level: entry.level,
+  };
+}
 
 function buildQuestions(pool: FlatEntry[], count: number): Question[] {
   if (pool.length < 4) return [];
-  const selected = shuffle(pool).slice(0, count);
-  return selected.map(entry => {
-    const distractors = shuffle(pool.filter(e => e.t !== entry.t)).slice(0, 3).map(e => e.t);
-    if (distractors.length < 3) return null;
-    return {
-      word: entry.w,
-      correct: entry.t,
-      options: shuffle([entry.t, ...distractors]),
-      catTitle: entry.catTitle,
-      catEmoji: entry.catEmoji,
-      level: entry.level,
-    };
-  }).filter(Boolean) as Question[];
+  return shuffle(pool).slice(0, count).map(e => toQuestion(e, pool)).filter(Boolean) as Question[];
+}
+
+/* Adaptive selection: seed ~40% of the set with the learner's weakest words
+   (most net-misses first) that appear in the pool, then fill the rest evenly
+   across the levels present so multi-level sessions stay balanced. */
+function buildQuestionsAdaptive(pool: FlatEntry[], count: number, weak: WeakMap): Question[] {
+  if (pool.length < 4) return [];
+  const net = (w: string) => (weak[w] ? weak[w].misses - weak[w].hits : -Infinity);
+  const weakEntries = pool.filter(e => weak[e.w] && weak[e.w].misses > 0).sort((a, b) => net(b.w) - net(a.w));
+  const seed = weakEntries.slice(0, Math.min(weakEntries.length, Math.ceil(count * 0.4)));
+  const seedKeys = new Set(seed.map(e => e.w));
+
+  // Balanced round-robin fill across levels.
+  const byLevel: Record<string, FlatEntry[]> = {};
+  shuffle(pool.filter(e => !seedKeys.has(e.w))).forEach(e => { (byLevel[e.level] ??= []).push(e); });
+  const levels = Object.keys(byLevel);
+  const fill: FlatEntry[] = [];
+  let i = 0;
+  while (fill.length < count - seed.length && levels.some(l => byLevel[l].length)) {
+    const bucket = byLevel[levels[i % levels.length]];
+    const item = bucket.shift();
+    if (item) fill.push(item);
+    i++;
+  }
+  return shuffle([...seed, ...fill]).slice(0, count).map(e => toQuestion(e, pool)).filter(Boolean) as Question[];
 }
 
 function speak(text: string, _lang = 'de-DE') {
@@ -106,7 +135,8 @@ function VQSidebarItem({
 export function QuizClient() {
   const { user } = useAuth();
   const { trackQuiz } = useProgress(user?.uid ?? null);
-  const { record, markPerfectQuiz } = useGame();
+  const { record, markPerfectQuiz, state: game } = useGame();
+  const { t: tr } = useT();
   const { filterOpen, setFilterOpen, isMobile } = useMobileFilter();
 
   const [allCategories, setAllCategories] = useState<VocabCategory[]>([]);
@@ -124,6 +154,8 @@ export function QuizClient() {
   const [canAdvance, setCanAdvance]   = useState(false);
   const [challengeBusy, setChallengeBusy] = useState(false);
   const [challengeLink, setChallengeLink] = useState('');
+  const [quizLength, setQuizLength]   = useState<'10' | 'all'>('10');  // 10 questions vs. whole section
+  const [adaptive, setAdaptive]       = useState(true);                // adaptive selection (multi-level)
 
   useEffect(() => { warmUpVoices(); }, []);
 
@@ -148,13 +180,24 @@ export function QuizClient() {
     return out;
   }, [levelCats, selectedCat]);
 
+  // Distinct CEFR levels represented in the current pool.
+  const poolLevels = useMemo(() => Array.from(new Set(pool.map(e => e.level))), [pool]);
+  const multiLevel = poolLevels.length > 1;
+
+  // How many questions: "10" → 10 (or fewer if the pool is small); "all" → whole pool.
   const questionCount = useMemo(() => {
-    if (selectedCat !== 'ALL') return Math.max(4, pool.length);
-    return 10;
-  }, [selectedCat, pool.length]);
+    const max = Math.max(4, pool.length);
+    return quizLength === 'all' ? max : Math.min(10, max);
+  }, [quizLength, pool.length]);
+
+  // Adaptive only applies when the pool spans more than one level.
+  const useAdaptive = adaptive && multiLevel;
 
   const startQuiz = useCallback(() => {
-    const qs = buildQuestions(pool, questionCount);
+    const weak = game.weakWords as unknown as WeakMap;
+    const qs = useAdaptive
+      ? buildQuestionsAdaptive(pool, questionCount, weak)
+      : buildQuestions(pool, questionCount);
     setQuestions(qs);
     setQIdx(0);
     setSelected(null);
@@ -163,7 +206,7 @@ export function QuizClient() {
     setHistory([]);
     setQuizStarted(true);
     setCanAdvance(false);
-  }, [pool, questionCount]);
+  }, [pool, questionCount, useAdaptive, game.weakWords]);
 
   const advanceQuestion = () => {
     if (qIdx + 1 >= questions.length) setFinished(true);
@@ -351,15 +394,52 @@ export function QuizClient() {
               </div>
 
               {/* Info card */}
-              <div style={{ background: 'var(--blue-bg)', border: '1px solid var(--blue-bd)', borderRadius: 14, padding: '18px 22px', marginBottom: 24 }}>
+              <div style={{ background: 'var(--blue-bg)', border: '1px solid var(--blue-bd)', borderRadius: 14, padding: '18px 22px', marginBottom: 16 }}>
                 <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--blue)', marginBottom: 4 }}>
-                  📋 {pool.length} Wörter im Pool
+                  📋 {pool.length} {tr('quiz.pool')}
                 </div>
                 <div style={{ fontSize: 12, color: 'var(--muted)' }}>
-                  {selectedCat === 'ALL'
-                    ? 'Quiz: 10 zufällige Fragen aus allen Gruppen'
-                    : `Quiz: alle ${Math.min(pool.length, questionCount)} Wörter aus dieser Gruppe`}
+                  {tr('quiz.inThisQuiz', { n: questionCount })}
+                  {useAdaptive && ' · adaptiv'}
                 </div>
+              </div>
+
+              {/* Quiz options */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 14, marginBottom: 24 }}>
+                {/* Number of questions */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
+                  <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--ink2)' }}>{tr('quiz.numQuestions')}</span>
+                  <div className="seg">
+                    <button className={quizLength === '10' ? 'on' : ''} onClick={() => setQuizLength('10')} disabled={pool.length <= 10}>
+                      {tr('quiz.tenQuestions')}
+                    </button>
+                    <button className={quizLength === 'all' ? 'on' : ''} onClick={() => setQuizLength('all')}>
+                      {tr('quiz.allQuestions', { n: Math.max(4, pool.length) })}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Adaptive difficulty (only meaningful across multiple levels) */}
+                {multiLevel && (
+                  <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
+                    <div style={{ minWidth: 0, flex: 1 }}>
+                      <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--ink2)' }}>{tr('quiz.adaptive')}</div>
+                      <div style={{ fontSize: 11.5, color: 'var(--muted)', marginTop: 2 }}>
+                        {tr('quiz.adaptiveHint', { levels: poolLevels.join(', ') })}
+                      </div>
+                    </div>
+                    <button
+                      onClick={() => setAdaptive(a => !a)}
+                      role="switch" aria-checked={adaptive}
+                      style={{
+                        flexShrink: 0, width: 46, height: 26, borderRadius: 100, border: 'none', cursor: 'pointer', position: 'relative',
+                        background: adaptive ? 'var(--blue)' : 'var(--bg3)', transition: 'background .15s',
+                      }}
+                    >
+                      <span style={{ position: 'absolute', top: 3, left: adaptive ? 23 : 3, width: 20, height: 20, borderRadius: '50%', background: '#fff', transition: 'left .15s', boxShadow: '0 1px 3px rgba(0,0,0,.3)' }} />
+                    </button>
+                  </div>
+                )}
               </div>
 
               {/* Finished result (if returning to setup after quiz) */}
@@ -385,7 +465,7 @@ export function QuizClient() {
                   boxShadow: pool.length >= 4 ? 'var(--sh-md)' : 'none',
                 }}
               >
-                {pool.length < 4 ? 'Zu wenig Wörter (min. 4 nötig)' : '▶ Quiz starten'}
+                {pool.length < 4 ? tr('quiz.tooFew') : tr('quiz.start')}
               </button>
 
             </div>

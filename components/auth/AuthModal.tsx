@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '@/context/AuthContext';
+import { useT } from '@/context/LanguageContext';
 import { Button } from '@/components/ui/Button';
 
 interface AuthModalProps {
@@ -12,6 +13,7 @@ interface AuthModalProps {
 
 export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
   const { signInWithGoogle, signInEmail, registerEmail, loading, error, clearError } = useAuth();
+  const { t: tr } = useT();
   const [tab, setTab]         = useState<'login' | 'register'>('login');
   const [email, setEmail]     = useState('');
   const [password, setPass]   = useState('');
@@ -57,7 +59,7 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
           <div className="text-2xl mb-1">🇩🇪</div>
           <h2 className="text-lg font-bold">Deutsch Trainer</h2>
           <p className="text-blue-200 text-sm mt-0.5">
-            {redirectMessage ?? 'Melde dich an, um alle Inhalte freizuschalten'}
+            {redirectMessage ?? tr('auth.subtitle')}
           </p>
         </div>
 
@@ -71,7 +73,7 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
                 tab === t ? 'text-blue-700 border-b-2 border-blue-700' : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              {t === 'login' ? 'Anmelden' : 'Registrieren'}
+              {t === 'login' ? tr('auth.login') : tr('auth.register')}
             </button>
           ))}
         </div>
@@ -84,12 +86,12 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
               <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
               <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
             </svg>
-            Mit Google fortfahren
+            {tr('auth.google')}
           </Button>
 
           <div className="flex items-center gap-2 text-gray-400 text-xs">
             <div className="flex-1 h-px bg-gray-200"/>
-            <span>oder per E-Mail</span>
+            <span>{tr('auth.orEmail')}</span>
             <div className="flex-1 h-px bg-gray-200"/>
           </div>
 
@@ -97,7 +99,7 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
           <input
             ref={emailRef}
             type="email"
-            placeholder="E-Mail"
+            placeholder={tr('auth.email')}
             value={email}
             onChange={e => setEmail(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && handleEmail()}
@@ -105,7 +107,7 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
           />
           <input
             type="password"
-            placeholder="Passwort"
+            placeholder={tr('auth.password')}
             value={password}
             onChange={e => setPass(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && handleEmail()}
@@ -117,11 +119,11 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
           )}
 
           <Button onClick={handleEmail} loading={submitting} className="w-full mt-1">
-            {tab === 'login' ? 'Anmelden' : 'Konto erstellen'}
+            {tab === 'login' ? tr('auth.login') : tr('auth.createAccount')}
           </Button>
 
           <button onClick={onClose} className="text-xs text-gray-400 hover:text-gray-600 text-center mt-1">
-            Abbrechen
+            {tr('common.cancel')}
           </button>
         </div>
       </div>

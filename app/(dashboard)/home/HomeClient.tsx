@@ -2,28 +2,31 @@
 
 import Link from 'next/link';
 import { useAuth } from '@/context/AuthContext';
+import { useT } from '@/context/LanguageContext';
 import { Topbar } from '@/components/layout/Topbar';
 import { HomeStats } from '@/components/gamification/HomeStats';
 import { QuickReview } from '@/components/gamification/QuickReview';
 
 const levelCards = [
-  { level: 'A1', color: 'green', icon: '🌱', label: 'Anfänger', words: 720,
-    desc: 'Grundlegende Kommunikation meistern: Familie, Alltag, einfache Sätze.' },
-  { level: 'A2', color: 'blue',  icon: '📘', label: 'Grundkenntnisse', words: 666,
-    desc: 'Einfache Situationen bewältigen: Einkaufen, Reisen, Beziehungen.' },
-  { level: 'B1', color: 'violet', icon: '🏆', label: 'Fortgeschritten', words: 1339,
-    desc: 'Komplexe Themen verstehen: Arbeit, Gesellschaft, Meinungen äußern.' },
-  { level: 'B2', color: 'amber', icon: '🎓', label: 'Selbstständig', words: 2753,
-    desc: 'Differenziert ausdrücken: Beruf, Umwelt, Medien, Gesellschaft.' },
+  { level: 'A1', color: 'green', icon: '🌱', labelKey: 'home.level.A1', words: 720 },
+  { level: 'A2', color: 'blue',  icon: '📘', labelKey: 'home.level.A2', words: 666 },
+  { level: 'B1', color: 'violet', icon: '🏆', labelKey: 'home.level.B1', words: 1339 },
+  { level: 'B2', color: 'amber', icon: '🎓', labelKey: 'home.level.B2', words: 2753 },
 ];
+const levelDesc: Record<string, string> = {
+  A1: 'Grundlegende Kommunikation meistern: Familie, Alltag, einfache Sätze.',
+  A2: 'Einfache Situationen bewältigen: Einkaufen, Reisen, Beziehungen.',
+  B1: 'Komplexe Themen verstehen: Arbeit, Gesellschaft, Meinungen äußern.',
+  B2: 'Differenziert ausdrücken: Beruf, Umwelt, Medien, Gesellschaft.',
+};
 
 const featureCards = [
-  { href: '/ueben/karteikarten', icon: '🃏', title: 'Karteikarten', desc: 'Vokabeln mit Flashcards lernen', protected: true },
-  { href: '/ueben/quiz',         icon: '🎯', title: 'Quiz',         desc: 'Wissen testen & Punkte sammeln', protected: true },
-  { href: '/ueben/schreiben',    icon: '✍️', title: 'Schreibübungen', desc: '200 geführte Lückentexte A1–B1', protected: true, badge: '200' },
-  { href: '/ueben/lesen',        icon: '📖', title: 'Leseverstehen', desc: 'Texte lesen & Fragen beantworten', protected: true, badge: '12' },
-  { href: '/pruefungsinfo',      icon: '📋', title: 'Prüfungsinfo', desc: 'Aufbau & Tipps für Goethe-Prüfung' },
-  { href: '/favoriten',          icon: '⭐', title: 'Meine Favoriten', desc: 'Gespeicherte Vokabeln üben', protected: true },
+  { href: '/ueben/karteikarten', icon: '🃏', titleKey: 'home.feat.flashcards', descKey: 'home.feat.flashcards.d', protected: true },
+  { href: '/ueben/quiz',         icon: '🎯', titleKey: 'home.feat.quiz', descKey: 'home.feat.quiz.d', protected: true },
+  { href: '/ueben/schreiben',    icon: '✍️', titleKey: 'home.feat.writing', descKey: 'home.feat.writing.d', protected: true, badge: '200' },
+  { href: '/ueben/lesen',        icon: '📖', titleKey: 'home.feat.reading', descKey: 'home.feat.reading.d', protected: true, badge: '12' },
+  { href: '/pruefungsinfo',      icon: '📋', titleKey: 'home.feat.exam', descKey: 'home.feat.exam.d' },
+  { href: '/favoriten',          icon: '⭐', titleKey: 'home.feat.fav', descKey: 'home.feat.fav.d', protected: true },
 ];
 
 const colorMap: Record<string, string> = {
@@ -35,19 +38,20 @@ const colorMap: Record<string, string> = {
 
 export function HomeClient() {
   const { user } = useAuth();
+  const { t } = useT();
 
   return (
     <>
-      <Topbar title="Startseite" />
+      <Topbar title={t('nav.home')} />
 
       <div className="flex-1 p-7 max-w-5xl">
         {/* Hero */}
         <div className="mb-8">
           <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">
-            Willkommen{user ? `, ${user.displayName?.split(' ')[0] ?? 'zurück'}` : ''}! 👋
+            {t('home.welcome')}{user ? `, ${user.displayName?.split(' ')[0] ?? t('home.welcomeBack')}` : ''}! 👋
           </h1>
           <p className="text-gray-500 text-base">
-            Lerne Deutsch von A1 bis B1 — mit Vokabeln, Grammatik, Schreibübungen und mehr.
+            {t('home.subtitle')}
           </p>
         </div>
 
@@ -59,9 +63,9 @@ export function HomeClient() {
 
         {/* Level Cards */}
         <section className="mb-8">
-          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Vokabeln nach Level</h2>
+          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">{t('home.vocabByLevel')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {levelCards.map(({ level, color, icon, label, words, desc }) => (
+            {levelCards.map(({ level, color, icon, labelKey, words }) => (
               <Link
                 key={level}
                 href={`/vocab/${level}`}
@@ -70,11 +74,11 @@ export function HomeClient() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xl">{icon}</span>
                   <span className="font-bold text-lg">{level}</span>
-                  <span className="text-xs font-semibold ml-auto">{words} Wörter</span>
+                  <span className="text-xs font-semibold ml-auto">{words} {t('home.words')}</span>
                 </div>
-                <div className="font-semibold text-sm mb-1">{label}</div>
-                <div className="text-xs opacity-75 leading-relaxed">{desc}</div>
-                {!user && <div className="mt-2 text-xs opacity-50">🔒 Anmeldung erforderlich</div>}
+                <div className="font-semibold text-sm mb-1">{t(labelKey)}</div>
+                <div className="text-xs opacity-75 leading-relaxed">{levelDesc[level]}</div>
+                {!user && <div className="mt-2 text-xs opacity-50">{t('common.signInRequired')}</div>}
               </Link>
             ))}
           </div>
@@ -82,7 +86,7 @@ export function HomeClient() {
 
         {/* Feature Cards */}
         <section>
-          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Übungsbereiche</h2>
+          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">{t('home.practiceAreas')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {featureCards.map(card => (
               <Link
@@ -97,8 +101,8 @@ export function HomeClient() {
                   )}
                   {card.protected && !user && <span className="ml-auto text-xs text-gray-300">🔒</span>}
                 </div>
-                <div className="font-semibold text-sm text-gray-800 group-hover:text-blue-700 transition-colors">{card.title}</div>
-                <div className="text-xs text-gray-400">{card.desc}</div>
+                <div className="font-semibold text-sm text-gray-800 group-hover:text-blue-700 transition-colors">{t(card.titleKey)}</div>
+                <div className="text-xs text-gray-400">{t(card.descKey)}</div>
               </Link>
             ))}
           </div>

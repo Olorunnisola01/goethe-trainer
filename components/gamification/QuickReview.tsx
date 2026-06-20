@@ -6,6 +6,7 @@
 
 import { useEffect, useMemo, useState, useCallback } from 'react';
 import { useGame } from '@/context/GamificationContext';
+import { useT } from '@/context/LanguageContext';
 import { speakDE } from '@/lib/cloudVoice';
 
 interface VEntry { w: string; t: string; }
@@ -16,6 +17,7 @@ function shuffle<T>(a: T[]): T[] { const x = [...a]; for (let i = x.length - 1; 
 
 export function QuickReview() {
   const { state, record } = useGame();
+  const { t } = useT();
   const [pool, setPool] = useState<VEntry[]>([]);
   const [round, setRound] = useState(0);          // forces a fresh set of questions
   const [idx, setIdx] = useState(0);
@@ -71,7 +73,7 @@ export function QuickReview() {
 
   return (
     <section style={{ marginBottom: 32 }}>
-      <h2 className="text-sm font-bold uppercase tracking-wider mb-3" style={{ color: 'var(--muted)' }}>⚡ Schnellübung</h2>
+      <h2 className="text-sm font-bold uppercase tracking-wider mb-3" style={{ color: 'var(--muted)' }}>{t('quickreview.title')}</h2>
       <div style={{ border: '1px solid var(--border)', borderRadius: 16, background: 'var(--bg2)', padding: '18px 20px' }}>
         {done ? (
           <div style={{ textAlign: 'center', padding: '8px 0' }}>

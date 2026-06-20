@@ -3,68 +3,70 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
+import { useT } from '@/context/LanguageContext';
 
 interface NavItem {
   href: string;
-  label: string;
+  labelKey: string;
+  suffix?: string;       // appended after the translated label (e.g. " A1")
   icon: string;
   protected?: boolean;
   badge?: string;
 }
 
-const navGroups = [
+const navGroups: { labelKey: string; items: NavItem[] }[] = [
   {
-    label: 'Übersicht',
+    labelKey: 'nav.group.overview',
     items: [
-      { href: '/home',        label: 'Startseite',       icon: '🏠' },
-      { href: '/fortschritt', label: 'Mein Fortschritt', icon: '📊' },
-      { href: '/favoriten',   label: 'Meine Favoriten',  icon: '⭐', protected: true },
-      { href: '/notizen',     label: 'Notizen',          icon: '📓' },
+      { href: '/home',        labelKey: 'nav.home',       icon: '🏠' },
+      { href: '/fortschritt', labelKey: 'nav.progress',   icon: '📊' },
+      { href: '/favoriten',   labelKey: 'nav.favourites', icon: '⭐', protected: true },
+      { href: '/notizen',     labelKey: 'nav.notes',      icon: '📓' },
     ],
   },
   {
-    label: 'Vokabeln & Grammatik',
+    labelKey: 'nav.group.vocabGrammar',
     items: [
-      { href: '/vocab/A1',          label: 'Vokabeln A1',         icon: '📚', protected: true, badge: '720' },
-      { href: '/vocab/A2',          label: 'Vokabeln A2',         icon: '📚', protected: true, badge: '666' },
-      { href: '/vocab/B1',          label: 'Vokabeln B1',         icon: '📚', protected: true, badge: '1339' },
-      { href: '/vocab/B2',          label: 'Vokabeln B2',         icon: '📚', protected: true, badge: '2753' },
-      { href: '/grammatik',         label: 'Grammatik',            icon: '🏗', protected: true },
-      { href: '/konjugation',       label: 'Konjugation',          icon: '🔡', protected: true, badge: '639' },
-      { href: '/ueben/verb-quiz',    label: 'Verb-Konjugations-Quiz', icon: '🔤', protected: true, badge: '6000' },
-      { href: '/ueben/satzstellung', label: 'Satzstellung',           icon: '🧩', protected: true, badge: '5000' },
+      { href: '/vocab/A1',          labelKey: 'nav.vocab', suffix: ' A1', icon: '📚', protected: true, badge: '720' },
+      { href: '/vocab/A2',          labelKey: 'nav.vocab', suffix: ' A2', icon: '📚', protected: true, badge: '666' },
+      { href: '/vocab/B1',          labelKey: 'nav.vocab', suffix: ' B1', icon: '📚', protected: true, badge: '1339' },
+      { href: '/vocab/B2',          labelKey: 'nav.vocab', suffix: ' B2', icon: '📚', protected: true, badge: '2753' },
+      { href: '/grammatik',         labelKey: 'nav.grammar',       icon: '🏗', protected: true },
+      { href: '/konjugation',       labelKey: 'nav.conjugation',   icon: '🔡', protected: true, badge: '639' },
+      { href: '/ueben/verb-quiz',    labelKey: 'nav.verbQuiz',      icon: '🔤', protected: true, badge: '6000' },
+      { href: '/ueben/satzstellung', labelKey: 'nav.satzstellung',  icon: '🧩', protected: true, badge: '5000' },
     ],
   },
   {
-    label: 'Redemittel',
+    labelKey: 'nav.group.redemittel',
     items: [
-      { href: '/redemittel/A1', label: 'Redemittel A1', icon: '💬', protected: true, badge: '134' },
-      { href: '/redemittel/A2', label: 'Redemittel A2', icon: '💬', protected: true, badge: '247' },
-      { href: '/redemittel/B1', label: 'Redemittel B1', icon: '💬', protected: true, badge: '265' },
-      { href: '/redemittel/B2', label: 'Redemittel B2', icon: '💬', protected: true, badge: '80' },
+      { href: '/redemittel/A1', labelKey: 'nav.redemittel', suffix: ' A1', icon: '💬', protected: true, badge: '134' },
+      { href: '/redemittel/A2', labelKey: 'nav.redemittel', suffix: ' A2', icon: '💬', protected: true, badge: '247' },
+      { href: '/redemittel/B1', labelKey: 'nav.redemittel', suffix: ' B1', icon: '💬', protected: true, badge: '265' },
+      { href: '/redemittel/B2', labelKey: 'nav.redemittel', suffix: ' B2', icon: '💬', protected: true, badge: '80' },
     ],
   },
   {
-    label: '📰 Nachrichten',
+    labelKey: 'nav.group.news',
     items: [
-      { href: '/nachrichten', label: 'Deutsche Nachrichten', icon: '📰' },
+      { href: '/nachrichten', labelKey: 'nav.newsGerman', icon: '📰' },
     ],
   },
   {
-    label: 'Üben',
+    labelKey: 'nav.group.practice',
     items: [
-      { href: '/pruefungsinfo',         label: 'Prüfungsinfo',     icon: '📋' },
-      { href: '/lernplan',              label: 'Lernplan',         icon: '📅', protected: true },
-      { href: '/ueben/karteikarten',    label: 'Karteikarten',     icon: '🃏', protected: true },
-      { href: '/ueben/quiz',             label: 'Vokabel-Quiz',     icon: '🎯', protected: true },
-      { href: '/ueben/redemittel-quiz', label: 'Redemittel-Quiz',  icon: '💬', protected: true },
-      { href: '/ueben/grammatik-quiz',  label: 'Grammatik-Quiz',   icon: '🏗', protected: true },
-      { href: '/ueben/schreiben',       label: 'Schreibübungen',   icon: '✍️', protected: true, badge: '200' },
-      { href: '/ueben/lesen',           label: 'Leseverstehen',    icon: '📖', protected: true, badge: '12' },
-      { href: '/ueben/sprechen',        label: 'Sprechen',         icon: '🎙', protected: true },
-      { href: '/ueben/hoeren',          label: 'Hören',            icon: '🎧', protected: true },
-      { href: '/ueben/konversation',    label: 'Konversation',     icon: '💬', protected: true },
-      { href: '/ueben/geschichten',     label: 'Kurzgeschichten',  icon: '📚', protected: true, badge: '200' },
+      { href: '/pruefungsinfo',         labelKey: 'nav.examInfo',      icon: '📋' },
+      { href: '/lernplan',              labelKey: 'nav.lernplan',      icon: '📅', protected: true },
+      { href: '/ueben/karteikarten',    labelKey: 'nav.flashcards',    icon: '🃏', protected: true },
+      { href: '/ueben/quiz',             labelKey: 'nav.vocabQuiz',     icon: '🎯', protected: true },
+      { href: '/ueben/redemittel-quiz', labelKey: 'nav.redemittelQuiz', icon: '💬', protected: true },
+      { href: '/ueben/grammatik-quiz',  labelKey: 'nav.grammarQuiz',   icon: '🏗', protected: true },
+      { href: '/ueben/schreiben',       labelKey: 'nav.writing',       icon: '✍️', protected: true, badge: '200' },
+      { href: '/ueben/lesen',           labelKey: 'nav.reading',       icon: '📖', protected: true, badge: '12' },
+      { href: '/ueben/sprechen',        labelKey: 'nav.speaking',      icon: '🎙', protected: true },
+      { href: '/ueben/hoeren',          labelKey: 'nav.listening',     icon: '🎧', protected: true },
+      { href: '/ueben/konversation',    labelKey: 'nav.conversation',  icon: '💬', protected: true },
+      { href: '/ueben/geschichten',     labelKey: 'nav.stories',       icon: '📚', protected: true, badge: '200' },
     ],
   },
 ];
@@ -77,6 +79,7 @@ interface SidebarProps {
 
 export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
   const { user, signOut } = useAuth();
+  const { t } = useT();
   const pathname = usePathname();
 
   const handleProtectedClick = (e: React.MouseEvent, item: NavItem) => {
@@ -136,7 +139,7 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
           style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 8, padding: '8px 11px', borderRadius: 9, border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--muted)', cursor: 'pointer', fontFamily: 'inherit', fontSize: 12.5 }}
         >
           <span style={{ fontSize: 13 }}>🔍</span>
-          <span style={{ flex: 1, textAlign: 'left' }}>Suchen…</span>
+          <span style={{ flex: 1, textAlign: 'left' }}>{t('common.search')}</span>
           <kbd style={{ fontSize: 10, border: '1px solid var(--border)', borderRadius: 5, padding: '1px 5px' }}>⌘K</kbd>
         </button>
       </div>
@@ -144,9 +147,9 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
       {/* Nav */}
       <nav style={{ flex: 1, padding: '12px 8px', display: 'flex', flexDirection: 'column', gap: 16 }}>
         {navGroups.map(group => (
-          <div key={group.label}>
+          <div key={group.labelKey}>
             <div style={{ padding: '0 10px', marginBottom: 4, fontSize: 9.5, fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '.08em' }}>
-              {group.label}
+              {t(group.labelKey)}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
               {group.items.map(item => {
@@ -174,7 +177,7 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
                     onMouseLeave={e => { if (!active) (e.currentTarget as HTMLElement).style.background = 'transparent'; }}
                   >
                     <span style={{ fontSize: 13, width: 20, textAlign: 'center', flexShrink: 0 }}>{item.icon}</span>
-                    <span style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{item.label}</span>
+                    <span style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t(item.labelKey)}{item.suffix ?? ''}</span>
                     {locked && <span style={{ fontSize: 10, opacity: 0.6 }}>🔒</span>}
                     {item.badge && !active && (
                       <span style={{ fontSize: 10, fontWeight: 600, padding: '1px 6px', borderRadius: 100, background: 'var(--bg3)', color: 'var(--muted)' }}>
@@ -211,9 +214,9 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
               style={{ flexShrink: 0, fontSize: 10, color: 'var(--muted)', background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'inherit' }}
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--red)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--muted)')}
-              title="Abmelden"
+              title={t('common.logout')}
             >
-              Abmelden
+              {t('common.logout')}
             </button>
           </div>
         ) : (
@@ -223,7 +226,7 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
             onMouseEnter={e => (e.currentTarget.style.background = '#1e40af')}
             onMouseLeave={e => (e.currentTarget.style.background = 'var(--blue)')}
           >
-            🔐 Anmelden / Registrieren
+            {t('common.login')}
           </button>
         )}
         <div style={{ marginTop: 10, fontSize: 10, color: 'var(--muted)', textAlign: 'center', lineHeight: 1.6 }}>
