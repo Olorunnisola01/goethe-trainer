@@ -5,6 +5,7 @@ import { AuthProvider } from '@/context/AuthContext';
 import { SettingsProvider } from '@/context/SettingsContext';
 import { GamificationProvider } from '@/context/GamificationContext';
 import { ToastHost } from '@/components/gamification/ToastHost';
+import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
 
 /* Apply saved theme + font scale before first paint (avoids a flash). */
 const themeBootScript = `(function(){try{var t=localStorage.getItem('dl_theme')||'system';var f=localStorage.getItem('dl_font')||'md';var d=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');document.documentElement.setAttribute('data-font',f);}catch(e){}})();`;
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <GamificationProvider>
               {children}
               <ToastHost />
+              <ServiceWorkerRegister />
             </GamificationProvider>
           </SettingsProvider>
         </AuthProvider>
