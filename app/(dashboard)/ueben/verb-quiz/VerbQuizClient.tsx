@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useProgress } from '@/hooks/useProgress';
 import { useResizableSidebar } from '@/components/layout/ResizableSidebar';
+import { useMobileFilter, FilterToggleButton, MobileFilterDrawer } from '@/components/layout/MobileFilterDrawer';
 import { translateToEnglish } from '@/lib/translateGerman';
 
 /* ─── Types ─────────────────────────────────────────────────── */
@@ -241,15 +242,8 @@ export function VerbQuizClient() {
   const [enText,    setEnText]    = useState<string | null>(null);
   const [enLoading, setEnLoading] = useState(false);
 
-  /* Mobile filter drawer */
-  const [filterOpen, setFilterOpen] = useState(false);
-  const [isMobile,   setIsMobile]   = useState(false);
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth <= 768);
-    check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
-  }, []);
+  /* Mobile filter drawer (shared hook, like Satzstellung) */
+  const { filterOpen, setFilterOpen, isMobile } = useMobileFilter();
 
   /* Lifetime stats */
   const [savedScore, setSavedScore] = useState({ attempts: 0, correct: 0 });
@@ -353,58 +347,9 @@ export function VerbQuizClient() {
 
   const pct = savedScore.attempts > 0 ? Math.round((savedScore.correct / savedScore.attempts) * 100) : 0;
 
-  /* ─── Render ── */
-  return (
-    <div className="gram-layout">
-
-      {/* Mobile overlay behind filter drawer */}
-      {isMobile && filterOpen && (
-        <div
-          onClick={() => setFilterOpen(false)}
-          style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.45)', zIndex: 198 }}
-        />
-      )}
-
-      {/* ═══════════════ LEFT SIDEBAR — FILTERS ═══════════════ */}
-      {!isMobile && !collapsed && (
-      <aside
-        className="gram-toc"
-        style={isMobile ? {
-          position:  'fixed',
-          top: 0,
-          left: filterOpen ? 0 : -230,
-          height: '100vh',
-          width: 220,
-          zIndex: 199,
-          transition: 'left .25s cubic-bezier(.4,0,.2,1)',
-          flexDirection: 'column',
-          flexWrap: 'nowrap',
-          overflowX: 'hidden',
-          overflowY: 'auto',
-          paddingTop: 52,
-          borderRight: '1px solid var(--border)',
-          borderBottom: 'none',
-        } : asideStyle}
-      >
-        {/* Mobile close button inside drawer */}
-        {isMobile && (
-          <button
-            onClick={() => setFilterOpen(false)}
-            style={{
-              position: 'absolute', top: 12, right: 12,
-              width: 30, height: 30, borderRadius: 8,
-              border: '1px solid var(--border)', background: 'var(--bg2)',
-              cursor: 'pointer', fontSize: 14, fontWeight: 700,
-              color: 'var(--ink2)', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}
-          >✕</button>
-        )}
-        {isMobile && (
-          <div style={{ padding: '0 14px 8px', fontSize: 11, fontWeight: 800, color: 'var(--blue)', textTransform: 'uppercase', letterSpacing: '.06em' }}>
-            ⚙ Filter
-          </div>
-        )}
-
+  /* Shared filter content — desktop aside + mobile drawer (like Satzstellung) */
+  const sidebarContent = (
+    <>
         {/* Level */}
         <SideHeading>Level</SideHeading>
         <SideItem active={levelFilter === 'ALL'} onClick={() => setLevelFilter('ALL')}>
@@ -485,7 +430,7 @@ export function VerbQuizClient() {
         {/* Start button */}
         <div style={{ padding: '0 10px 16px' }}>
           <button
-            onClick={startQuiz}
+            onClick={() => { startQuiz(); setFilterOpen(false); }}
             disabled={pool.length === 0}
             style={{
               width: '100%', padding: '9px 0', borderRadius: 8,
@@ -500,11 +445,29 @@ export function VerbQuizClient() {
             Neue Runde starten
           </button>
         </div>
-      </aside>
+    </>
+  );
+
+  /* ─── Render ── */
+  return (
+    <div className="gram-layout">
+
+      {/* Desktop sidebar — resizable, collapsible */}
+      {!isMobile && !collapsed && (
+        <>
+          <aside className="gram-toc" style={asideStyle}>
+            {sidebarContent}
+          </aside>
+          <DragHandle />
+        </>
       )}
 
-      {/* Drag-to-resize handle (desktop only) */}
-      {!isMobile && !collapsed && <DragHandle />}
+      {/* Mobile filter drawer */}
+      {isMobile && (
+        <MobileFilterDrawer open={filterOpen} onClose={() => setFilterOpen(false)} title="Quiz-Filter">
+          {sidebarContent}
+        </MobileFilterDrawer>
+      )}
 
       {/* ═══════════════ RIGHT CONTENT — QUIZ ═══════════════ */}
       <div className="gram-content">
@@ -515,21 +478,7 @@ export function VerbQuizClient() {
             <span>🔤 Verb-Konjugations-Quiz</span>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               {!isMobile && <SidebarToggle />}
-              {/* Mobile filter toggle */}
-              {isMobile && (
-                <button
-                onClick={() => setFilterOpen(true)}
-                style={{
-                  display: 'flex', alignItems: 'center', gap: 6,
-                  padding: '6px 12px', borderRadius: 8,
-                  border: '1.5px solid var(--blue-bd)', background: 'var(--blue-bg)',
-                  color: 'var(--blue)', fontSize: 12, fontWeight: 700,
-                  cursor: 'pointer', fontFamily: 'inherit',
-                }}
-              >
-                ⚙ Filter
-              </button>
-            )}
+              {isMobile && <FilterToggleButton onClick={() => setFilterOpen(true)} label="⚙ Filter" />}
             </div>
           </div>
           <div className="gch-sub">
