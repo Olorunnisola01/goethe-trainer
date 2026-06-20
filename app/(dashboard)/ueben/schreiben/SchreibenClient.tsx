@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useProgress } from '@/hooks/useProgress';
 import { UbLayout } from '@/components/layout/UbLayout';
+import { WritingFeedback } from '@/components/ai/WritingFeedback';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
 type StatusFilter = 'ALL' | 'DONE' | 'OPEN';
@@ -487,6 +488,9 @@ export function SchreibenClient() {
                 <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--amber)', textTransform: 'uppercase', letterSpacing: '.05em' }}>💡 Grammatik-Tipp: </span>
                 <span style={{ fontSize: 12.5, color: 'var(--ink2)', lineHeight: 1.6 }}>{selected.tip}</span>
               </div>
+
+              {/* Free-writing pad with AI correction */}
+              <WritingFeedback scenario={selected.scenario} level={selected.level} />
 
             </div>
           )}
