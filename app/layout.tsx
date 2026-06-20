@@ -2,6 +2,12 @@ import type { Metadata } from 'next';
 import { Lora, Plus_Jakarta_Sans, Comic_Neue } from 'next/font/google';
 import './globals.css';
 import { AuthProvider } from '@/context/AuthContext';
+import { SettingsProvider } from '@/context/SettingsContext';
+import { GamificationProvider } from '@/context/GamificationContext';
+import { ToastHost } from '@/components/gamification/ToastHost';
+
+/* Apply saved theme + font scale before first paint (avoids a flash). */
+const themeBootScript = `(function(){try{var t=localStorage.getItem('dl_theme')||'system';var f=localStorage.getItem('dl_font')||'md';var d=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');document.documentElement.setAttribute('data-font',f);}catch(e){}})();`;
 
 const comicNeue = Comic_Neue({
   subsets: ['latin'],
@@ -45,9 +51,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className={`${jakarta.variable} ${lora.variable} ${comicNeue.variable}`}>
+    <html lang="de" data-theme="light" data-font="md" suppressHydrationWarning className={`${jakarta.variable} ${lora.variable} ${comicNeue.variable}`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
+      </head>
       <body className="antialiased">
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider>
+          <SettingsProvider>
+            <GamificationProvider>
+              {children}
+              <ToastHost />
+            </GamificationProvider>
+          </SettingsProvider>
+        </AuthProvider>
       </body>
     </html>
   );

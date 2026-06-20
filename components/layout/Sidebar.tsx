@@ -128,6 +128,19 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
         >✕</button>
       </div>
 
+      {/* Global search trigger */}
+      <div style={{ padding: '10px 12px 0' }}>
+        <button
+          type="button"
+          onClick={() => { window.dispatchEvent(new CustomEvent('open-global-search')); onClose?.(); }}
+          style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 8, padding: '8px 11px', borderRadius: 9, border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--muted)', cursor: 'pointer', fontFamily: 'inherit', fontSize: 12.5 }}
+        >
+          <span style={{ fontSize: 13 }}>🔍</span>
+          <span style={{ flex: 1, textAlign: 'left' }}>Suchen…</span>
+          <kbd style={{ fontSize: 10, border: '1px solid var(--border)', borderRadius: 5, padding: '1px 5px' }}>⌘K</kbd>
+        </button>
+      </div>
+
       {/* Nav */}
       <nav style={{ flex: 1, padding: '12px 8px', display: 'flex', flexDirection: 'column', gap: 16 }}>
         {navGroups.map(group => (

@@ -13,11 +13,12 @@ export function Card({ children, hover = false, padding = 'md', className, ...pr
   return (
     <div
       className={clsx(
-        'rounded-xl border border-gray-200 bg-white shadow-sm',
+        'rounded-xl border shadow-sm',
         hover && 'transition-shadow hover:shadow-md cursor-pointer',
         paddings[padding],
         className,
       )}
+      style={{ background: 'var(--bg)', borderColor: 'var(--border)', ...props.style }}
       {...props}
     >
       {children}

@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useAuth } from '@/context/AuthContext';
 import { Topbar } from '@/components/layout/Topbar';
+import { HomeStats } from '@/components/gamification/HomeStats';
+import { QuickReview } from '@/components/gamification/QuickReview';
 
 const levelCards = [
   { level: 'A1', color: 'green', icon: '🌱', label: 'Anfänger', words: 720,
@@ -48,6 +50,12 @@ export function HomeClient() {
             Lerne Deutsch von A1 bis B1 — mit Vokabeln, Grammatik, Schreibübungen und mehr.
           </p>
         </div>
+
+        {/* Gamification: streak · XP · daily goal (signed-in only) */}
+        {user && <HomeStats />}
+
+        {/* Quick review micro-quiz (signed-in only) */}
+        {user && <QuickReview />}
 
         {/* Level Cards */}
         <section className="mb-8">

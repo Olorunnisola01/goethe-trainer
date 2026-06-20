@@ -3,7 +3,9 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useProgress } from '@/hooks/useProgress';
+import { useGame } from '@/context/GamificationContext';
 import { warmUpVoices, speakDE } from '@/lib/cloudVoice';
+import { shareScoreCard } from '@/lib/shareCard';
 import { useMobileFilter, FilterToggleButton, MobileFilterDrawer } from '@/components/layout/MobileFilterDrawer';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
@@ -103,6 +105,7 @@ function VQSidebarItem({
 export function QuizClient() {
   const { user } = useAuth();
   const { trackQuiz } = useProgress(user?.uid ?? null);
+  const { record, markPerfectQuiz } = useGame();
   const { filterOpen, setFilterOpen, isMobile } = useMobileFilter();
 
   const [allCategories, setAllCategories] = useState<VocabCategory[]>([]);
@@ -178,9 +181,32 @@ export function QuizClient() {
     const isCorrect = opt === current.correct;
     if (isCorrect) setScore(s => s + 1);
     trackQuiz(isCorrect);
+    record({ type: 'quiz', correct: isCorrect, word: { de: current.word, en: current.correct } });
     setHistory(h => [...h, { word: current.word, correct: current.correct, chosen: opt, level: current.level }]);
     setCanAdvance(true);
   };
+
+  /* Perfect-quiz achievement when finishing with a clean sheet. */
+  useEffect(() => {
+    if (finished && questions.length > 0 && score === questions.length) markPerfectQuiz();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
+
+  /* Keyboard shortcuts: 1-4 pick an option · Enter/Space advance. */
+  useEffect(() => {
+    if (!quizStarted || finished) return;
+    const h = (e: KeyboardEvent) => {
+      if (e.key >= '1' && e.key <= '4' && current && selected === null) {
+        const i = Number(e.key) - 1;
+        if (i < current.options.length) { e.preventDefault(); choose(current.options[i]); }
+      } else if ((e.key === 'Enter' || e.key === ' ') && canAdvance) {
+        e.preventDefault(); advanceQuestion();
+      }
+    };
+    window.addEventListener('keydown', h);
+    return () => window.removeEventListener('keydown', h);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [quizStarted, finished, current, selected, canAdvance]);
 
   const handleSidebarSelect = useCallback((id: string) => {
     setSelectedCat(id);
@@ -395,6 +421,13 @@ export function QuizClient() {
                   ⚙ Neue Auswahl
                 </button>
               </div>
+              <button
+                type="button"
+                onClick={() => shareScoreCard({ score, total: questions.length, title: `${catName} · Vokabel-Quiz` })}
+                style={{ width: '100%', marginTop: 10, padding: '12px 0', borderRadius: 12, background: 'var(--green)', color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}
+              >
+                📤 Ergebnis teilen
+              </button>
             </div>
 
           ) : (

@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { AuthModal } from '@/components/auth/AuthModal';
 import { AiTutor } from '@/components/ai/AiTutor';
+import { OnboardingModal } from '@/components/gamification/OnboardingModal';
+import { GlobalSearch } from '@/components/layout/GlobalSearch';
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const [authOpen, setAuthOpen]       = useState(false);
@@ -61,6 +63,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
       <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
       <AiTutor />
+      <OnboardingModal />
+      <GlobalSearch />
     </div>
   );
 }

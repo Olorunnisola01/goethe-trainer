@@ -46,11 +46,50 @@
   --font-serif: var(--font-lora);
 }
 
-/* ── Reading highlight — adapts to system colour scheme ── */
-:root { --reading-highlight: #fef08a; }
-@media (prefers-color-scheme: dark) {
-  :root { --reading-highlight: rgba(234, 179, 8, 0.45); }
+/* ─── Dark theme — overrides the token palette when html[data-theme="dark"] ─── */
+html[data-theme="dark"] {
+  --bg: #15171c;
+  --bg2: #1b1e25;
+  --bg3: #242832;
+  --border: #2b303b;
+  --border2: #3a414f;
+  --ink: #f1f3f6;
+  --ink2: #c9cfda;
+  --muted: #8b93a3;
+  --faint: #232831;
+  --blue: #4f86ff;
+  --blue-bg: #16243f;
+  --blue-bd: #25406e;
+  --green: #34c46a;
+  --green-bg: #14271c;
+  --green-bd: #1f4530;
+  --amber: #e0a84b;
+  --amber-bg: #2a2113;
+  --amber-bd: #4a3a1c;
+  --red: #f06767;
+  --red-bg: #2a1717;
+  --red-bd: #4a2525;
+  --a1: #34c46a; --a1-bg: #14271c; --a1-bd: #1f4530;
+  --a2: #4f86ff; --a2-bg: #16243f; --a2-bd: #25406e;
+  --b1: #a984f5; --b1-bg: #211a33; --b1-bd: #3a2c5c;
+  --b2: #e0a84b; --b2-bg: #2a2113; --b2-bd: #4a3a1c;
+  --sh: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+  --sh-md: 0 4px 16px rgba(0,0,0,.5), 0 2px 4px rgba(0,0,0,.3);
+  --sh-lg: 0 20px 48px rgba(0,0,0,.6), 0 8px 16px rgba(0,0,0,.4);
 }
+/* Tame pure-white inline backgrounds inside dark mode where feasible */
+html[data-theme="dark"] body { background: var(--bg); }
+html[data-theme="dark"] img { filter: brightness(.92); }
+
+/* ─── Font scale — zoom the dashboard content (works with px-based styles) ─── */
+.dashboard-main { zoom: var(--font-zoom, 1); }
+html[data-font="sm"] { --font-zoom: 0.92; }
+html[data-font="md"] { --font-zoom: 1; }
+html[data-font="lg"] { --font-zoom: 1.14; }
+
+/* ── Reading highlight — adapts to colour scheme ── */
+:root { --reading-highlight: #fef08a; }
+html[data-theme="dark"] { --reading-highlight: rgba(234, 179, 8, 0.4); }
 
 html { scroll-behavior: smooth; }
 body {
@@ -950,3 +989,95 @@ body {
   /* Hide the resize grip — no resizing needed when full-screen */
   .aussprache-resize { display: none !important; }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   GAMIFICATION — toasts, streak/XP, goal ring, achievements, charts
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Reward toasts ── */
+.toast-host {
+  position: fixed; z-index: 700; right: 18px; bottom: 18px;
+  display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+}
+.toast {
+  pointer-events: auto; cursor: pointer; font-family: inherit; text-align: left;
+  display: flex; align-items: center; gap: 11px; min-width: 210px; max-width: 320px;
+  padding: 11px 14px; border-radius: 13px; border: 1px solid var(--border);
+  background: var(--bg); box-shadow: var(--sh-lg);
+  animation: toast-in .26s cubic-bezier(.2,.9,.3,1.2) both;
+}
+@keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: none; } }
+.toast-ico { font-size: 22px; line-height: 1; flex-shrink: 0; }
+.toast-body { display: flex; flex-direction: column; min-width: 0; }
+.toast-title { font-weight: 700; font-size: 13.5px; color: var(--ink); }
+.toast-sub { font-size: 11.5px; color: var(--muted); }
+.toast-xp { border-color: var(--blue-bd); }
+.toast-achievement { border-color: var(--amber-bd); background: var(--amber-bg); }
+.toast-goal { border-color: var(--green-bd); background: var(--green-bg); }
+.toast-rank { border-color: var(--b1-bd); background: var(--b1-bg); }
+@media (max-width: 640px) {
+  .toast-host { right: 10px; left: 10px; bottom: 76px; align-items: stretch; }
+  .toast { max-width: none; }
+}
+
+/* ── Home: stat strip (streak / XP / goal) ── */
+.stat-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 28px; }
+.stat-card {
+  border: 1px solid var(--border); border-radius: 16px; background: var(--bg2);
+  padding: 16px 18px; display: flex; align-items: center; gap: 14px;
+}
+.stat-emoji { font-size: 30px; line-height: 1; flex-shrink: 0; }
+.stat-num { font-family: var(--font-lora, Lora), serif; font-size: 26px; font-weight: 800; color: var(--ink); line-height: 1; }
+.stat-lbl { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-top: 3px; }
+@media (max-width: 640px) {
+  .stat-strip { grid-template-columns: 1fr; gap: 9px; }
+  .stat-card { padding: 13px 15px; }
+}
+
+/* XP progress bar */
+.xp-track { height: 7px; border-radius: 100px; background: var(--bg3); overflow: hidden; margin-top: 7px; }
+.xp-fill { height: 100%; border-radius: 100px; background: linear-gradient(90deg, var(--blue), #7c3aed); transition: width .6s ease; }
+
+/* ── Goal ring (SVG) ── */
+.goal-ring-track { stroke: var(--bg3); }
+.goal-ring-fill  { stroke: var(--green); transition: stroke-dashoffset .6s ease; stroke-linecap: round; }
+
+/* ── Achievements grid ── */
+.ach-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(116px, 1fr)); gap: 10px; }
+.ach-card {
+  border: 1px solid var(--border); border-radius: 14px; padding: 14px 10px; text-align: center;
+  background: var(--bg2); transition: transform .12s;
+}
+.ach-card.locked { opacity: .42; filter: grayscale(1); }
+.ach-card .ach-ico { font-size: 30px; line-height: 1; display: block; margin-bottom: 7px; }
+.ach-card .ach-name { font-size: 11.5px; font-weight: 700; color: var(--ink); line-height: 1.25; }
+.ach-card .ach-desc { font-size: 10px; color: var(--muted); margin-top: 3px; line-height: 1.3; }
+
+/* ── Activity chart (CSS bars) ── */
+.chart-row { display: flex; align-items: flex-end; gap: 3px; height: 120px; }
+.chart-bar { flex: 1; min-width: 0; background: var(--blue); border-radius: 3px 3px 0 0; transition: height .5s ease; min-height: 2px; opacity: .85; }
+.chart-bar.empty { background: var(--bg3); }
+
+/* ── Weak-word chips ── */
+.weak-chip {
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 10px;
+  border: 1px solid var(--red-bd); background: var(--red-bg);
+}
+
+/* ── Settings rows ── */
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--bg2); }
+.seg button {
+  border: none; background: transparent; padding: 8px 14px; font-size: 13px; font-weight: 600;
+  color: var(--muted); cursor: pointer; font-family: inherit; transition: background .12s, color .12s;
+}
+.seg button.on { background: var(--blue); color: #fff; }
+
+/* ── Quick-review widget ── */
+.qr-opt {
+  width: 100%; text-align: left; padding: 12px 15px; border-radius: 12px; border: 2px solid var(--border);
+  background: var(--bg); font-size: 14px; font-weight: 600; color: var(--ink2); cursor: pointer;
+  font-family: inherit; transition: all .15s;
+}
+.qr-opt:hover:not(:disabled) { border-color: var(--blue-bd); }
+.qr-opt.correct { border-color: var(--green-bd); background: var(--green-bg); color: var(--green); }
+.qr-opt.wrong { border-color: var(--red-bd); background: var(--red-bg); color: var(--red); }
