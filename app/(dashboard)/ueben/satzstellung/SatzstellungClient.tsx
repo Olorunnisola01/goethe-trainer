@@ -561,7 +561,7 @@ export function SatzstellungClient() {
 
       {/* ═══ SIDEBAR — FILTERS ═══ */}
       {/* Desktop sidebar — flexible, drag-to-resize like Vokabeln */}
-      {(!isMobile ? !collapsed : true) && (
+      {!isMobile && !collapsed && (
         <>
           <aside className="gram-toc" style={asideStyle}>
             {sidebarContent}

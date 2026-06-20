@@ -366,7 +366,7 @@ export function VerbQuizClient() {
       )}
 
       {/* ═══════════════ LEFT SIDEBAR — FILTERS ═══════════════ */}
-      {(!isMobile ? !collapsed : true) && (
+      {!isMobile && !collapsed && (
       <aside
         className="gram-toc"
         style={isMobile ? {

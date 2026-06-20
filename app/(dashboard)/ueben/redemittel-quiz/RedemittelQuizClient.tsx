@@ -252,7 +252,7 @@ export function RedemittelQuizClient() {
       <div style={{ display: 'flex', flex: 1, minHeight: 0, overflow: 'hidden' }}>
 
         {/* Left sidebar — flexible, drag-to-resize like Vokabeln (desktop only) */}
-        {(!isMobile ? !collapsed : true) && (
+        {!isMobile && !collapsed && (
           <>
             <aside style={{
               ...asideStyle,
