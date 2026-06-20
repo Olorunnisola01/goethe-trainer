@@ -181,13 +181,13 @@ body {
 
 /* Speak / play button */
 .speak-btn {
-  width: 36px; height: 36px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; min-width: 36px; min-height: 36px; aspect-ratio: 1 / 1;
+  border-radius: 50%;
   overflow: hidden; line-height: 1; flex-shrink: 0;
   border: 1px solid var(--blue-bd); background: #fff; color: var(--blue);
   display: inline-flex; align-items: center; justify-content: center;
   cursor: pointer; font-size: 17px; box-shadow: var(--sh);
-  transition: all .15s; flex-shrink: 0;
+  transition: all .15s; padding: 0;
 }
 .speak-btn:hover { background: var(--blue); border-color: var(--blue); color: #fff; transform: translateY(-1px); }
 .speak-btn.speaking { background: var(--green); border-color: var(--green); color: #fff; }
@@ -282,10 +282,10 @@ body {
 .rph-de { font-size: 13px; font-weight: 500; color: var(--ink); line-height: 1.4; font-family: var(--font-lora, 'Lora'), serif; display: flex; align-items: flex-start; gap: 8px; }
 .rph-de:hover .rph-de-text { font-weight: 700; }
 .rph-en { font-size: 11.5px; color: var(--muted); line-height: 1.4; font-style: italic; }
-.rph-speak { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 13px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; margin-top: 1px; }
+.rph-speak { width: 26px; height: 26px; min-width: 26px; min-height: 26px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 11px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; margin-top: 1px; overflow: hidden; }
 .rph-speak:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 .rph-speak.speaking { background: var(--green); border-color: var(--green); color: #fff; animation: pulse-ring .9s ease-in-out infinite; }
-.rch-read { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 11px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; font-weight: 700; }
+.rch-read { width: 28px; height: 28px; min-width: 28px; min-height: 28px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 10px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; font-weight: 700; overflow: hidden; }
 .rcard.open .rch-read { border-color: rgba(255,255,255,.55); background: rgba(255,255,255,.18); color: #fff; }
 .rch-read:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 .rch-read.playing { background: var(--green); border-color: var(--green); color: #fff; animation: pulse-ring .9s ease-in-out infinite; }
