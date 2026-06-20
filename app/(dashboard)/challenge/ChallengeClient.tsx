@@ -1,10 +1,11 @@
 'use client';
 
 /* Quiz-Duell — accept a friend's challenge: take the exact same questions, then
-   see a head-to-head comparison. Reads/writes Firestore via lib/challenge. */
+   see a head-to-head comparison. Reads/writes Firestore via lib/challenge.
+   Reads the challenge id from the ?id= query param (keeps the route static). */
 
 import { useEffect, useState, useCallback } from 'react';
-import { useParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/context/AuthContext';
 import { useGame } from '@/context/GamificationContext';
@@ -14,8 +15,8 @@ import { shareScoreCard } from '@/lib/shareCard';
 import { getChallenge, addChallengeResult, Challenge } from '@/lib/challenge';
 
 export function ChallengeClient() {
-  const params = useParams();
-  const id = String(params?.id ?? '');
+  const search = useSearchParams();
+  const id = String(search.get('id') ?? '');
   const { user } = useAuth();
   const { record } = useGame();
 
@@ -32,6 +33,7 @@ export function ChallengeClient() {
 
   useEffect(() => {
     if (!user) { setLoading(false); return; }
+    if (!id) { setError('Kein Herausforderungs-Code gefunden.'); setLoading(false); return; }
     let cancelled = false;
     getChallenge(id)
       .then(c => { if (!cancelled) { if (c) setCh(c); else setError('Diese Herausforderung wurde nicht gefunden.'); setLoading(false); } })

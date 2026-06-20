@@ -50,5 +50,5 @@ export async function addChallengeResult(id: string, result: ChallengeResult): P
 
 export function challengeUrl(id: string): string {
   const origin = typeof window !== 'undefined' ? window.location.origin : 'https://teach-me-german-app.web.app';
-  return `${origin}/challenge/${id}`;
+  return `${origin}/challenge?id=${id}`;
 }
