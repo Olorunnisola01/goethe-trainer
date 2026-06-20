@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { UbLayout } from '@/components/layout/UbLayout';
 import { warmUpVoices, speakDE, speakDEMale, speakAwait, stopAll } from '@/lib/cloudVoice';
+import { RolePlay } from '@/components/ai/RolePlay';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
@@ -148,10 +149,13 @@ export function KonversationClient() {
       {/* Right pane */}
       <div className="ub-pane">
           {!selected ? (
-            <div className="ub-empty" style={{ paddingTop: 80 }}>
-              <div style={{ fontSize: 52, marginBottom: 14 }}>💬</div>
-              <div style={{ fontFamily: 'var(--font-lora)', fontWeight: 600, fontSize: 16, color: 'var(--ink2)', fontStyle: 'normal', marginBottom: 6 }}>Konversation</div>
-              <div>Wähle einen Dialog aus der Liste</div>
+            <div style={{ maxWidth: 680, padding: '4px 0' }}>
+              {/* AI role-play — interactive German conversation practice */}
+              <RolePlay />
+              <div className="ub-empty" style={{ paddingTop: 20 }}>
+                <div style={{ fontSize: 32, marginBottom: 10 }}>💬</div>
+                <div>…oder wähle links einen vorgefertigten Dialog zum Anhören.</div>
+              </div>
             </div>
           ) : (
             <div style={{ maxWidth: 680 }}>
