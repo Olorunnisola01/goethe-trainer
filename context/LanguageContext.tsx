@@ -16,7 +16,8 @@ const Ctx = createContext<LanguageValue | null>(null);
 const LS = 'dl_lang';
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>('de');
+  // Default UI language is English; users can switch to German via the toggle.
+  const [lang, setLangState] = useState<Lang>('en');
 
   useEffect(() => {
     const saved = localStorage.getItem(LS) as Lang | null;
