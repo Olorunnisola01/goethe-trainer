@@ -126,6 +126,9 @@ html {
   /* Paint the html background with the theme colour so route changes never
      flash white between page unmount/mount (fixes the APK "blink"). */
   background: var(--bg);
+  /* Reserve the scrollbar gutter so content doesn't jump sideways when a
+     scrollbar appears as new content loads (a common layout-shift cause). */
+  scrollbar-gutter: stable;
 }
 body {
   font-family: var(--font-jakarta, 'Plus Jakarta Sans'), sans-serif;

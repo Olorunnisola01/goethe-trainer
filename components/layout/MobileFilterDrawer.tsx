@@ -1,15 +1,20 @@
 'use client';
 
-import { useState, useEffect, ReactNode } from 'react';
+import { useState, useEffect, useLayoutEffect, ReactNode } from 'react';
+
+/* Run the layout measurement BEFORE the browser paints on the client (so the
+   desktop→mobile switch never flashes), but fall back to useEffect on the
+   server to avoid the SSR warning. */
+const useIsoLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 /* ── Hook ── */
 export function useMobileFilter() {
   const [filterOpen, setFilterOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
+  useIsoLayoutEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
-    check();
+    check();   // sets the correct value before first paint — no "loads twice" flash
     window.addEventListener('resize', check);
     return () => window.removeEventListener('resize', check);
   }, []);
@@ -50,13 +55,16 @@ export function MobileFilterDrawer({
 }) {
   return (
     <>
-      {/* Overlay */}
-      {open && (
-        <div
-          onClick={onClose}
-          style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.45)', zIndex: 198 }}
-        />
-      )}
+      {/* Overlay — always mounted, fades in/out (no abrupt pop) */}
+      <div
+        onClick={onClose}
+        style={{
+          position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.45)', zIndex: 198,
+          opacity: open ? 1 : 0,
+          pointerEvents: open ? 'auto' : 'none',
+          transition: 'opacity .25s ease',
+        }}
+      />
       {/* Sliding drawer */}
       <div
         style={{
