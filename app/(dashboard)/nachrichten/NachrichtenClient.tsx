@@ -185,6 +185,8 @@ function finalizeArticle(raw: string): string[] {
     /Stand:\s*\d{1,2}\.\d{1,2}\.\d{4}[^.]{0,30}Uhr/gi,
     /Zur Merkliste hinzufügen/gi,
     /Bild vergrößern/gi,
+    /Zu weiteren Angeboten der DW springen/gi,                            // DW skip-nav
+    /vor \d+ (?:Sekunden?|Minuten?|Stunden?|Tagen?)\b/gi,                  // DW relative-time byline
   ];
   for (const re of startMarkers) {
     re.lastIndex = 0; let m: RegExpExecArray | null, last = -1;
@@ -201,6 +203,8 @@ function finalizeArticle(raw: string): string[] {
     /Zur Startseite/i, /Diese Nachricht wurde/i, /Über dieses Thema/i, /©\s*ARD/i,
     /Videos Videos/i, /Lesen Sie (?:hier |auch |dazu )?(?:mehr|auch)/i,
     /Newsletter/i, /Alle Kommentare/i, /Weitere Artikel/i, /Ähnliche Artikel/i,
+    /Dieser Artikel wurde aus dem/i,    // "…aus dem Englischen adaptiert."
+    /Schicken Sie uns/i, /Mehr zu diesem Thema/i,
   ];
   for (const re of endMarkers) { const m = t.match(re); if (m && m.index !== undefined) endIdx = Math.min(endIdx, m.index); }
   t = t.slice(0, endIdx);
@@ -209,6 +213,16 @@ function finalizeArticle(raw: string): string[] {
   t = t
     .replace(/\((?:Foto|Bild|Quelle|Symbolbild|Archivbild|Grafik|Video|Illustration)\s*:[^)]*\)/gi, ' ')
     .replace(/Foto:\s*[^.]{0,90}?(?:IMAGO|dpa|Reuters|AFP|AP|Getty|ddp|epd|picture alliance|Nachrichtenagentur|dts)[^.]{0,40}/gi, ' ')
+    // image credits like "Bild: P. Deselaers/DW" / "Bild: Ayse Tasci/DW"
+    .replace(/Bild:\s*[\s\S]{0,90}?\/(?:DW|dpa|Reuters|AFP|AP|Getty|IMAGO|ddp|epd|picture alliance)\b/gi, ' ')
+    // leaked URLs (incl. space-mangled ones like "https://p. dw.")
+    .replace(/https?:\/\/[\w./\-]+(?:\s+[\w]{1,4}\.)*/gi, ' ')
+    // DW page chrome / skip-nav / top menu
+    .replace(/Zur Hauptnavigation springen/gi, ' ')
+    .replace(/Zu weiteren Angeboten der DW springen/gi, ' ')
+    .replace(/\bIM FOKUS\b/gi, ' ')
+    .replace(/\bLive-?TV\b/gi, ' ')
+    .replace(/Neueste Videos/gi, ' ')
     .replace(/Zum Inhalt springen/gi, ' ')
     .replace(/Bild vergrößern/gi, ' ')
     .replace(/SPIEGEL bei Google bevorzugen/gi, ' ')
@@ -233,13 +247,15 @@ function finalizeArticle(raw: string): string[] {
     .trim();
 
   let sents = splitSentences(t);
-  const NOISE_RE = /(Folgen auf|Link kopieren|Artikel (?:drucken|teilen|merken)|jetzt teilen|^\s*Teilen\s*$|^\s*Drucken\s*$|^\s*E-?Mail\s*$|zur Startseite|Newsletter abonnieren|^\s*Anzeige\s*$|Cookie|Datenschutz|Mehr zum Thema|Lesen Sie|Bild vergrößern|Zur Merkliste|SPIEGEL bei Google|bevorzugen)/i;
+  const NOISE_RE = /(Folgen auf|Link kopieren|Artikel (?:drucken|teilen|merken)|jetzt teilen|^\s*Teilen\s*$|^\s*Drucken\s*$|^\s*E-?Mail\s*$|zur Startseite|Newsletter abonnieren|^\s*Anzeige\s*$|Cookie|Datenschutz|Mehr zum Thema|Lesen Sie|Bild vergrößern|Zur Merkliste|SPIEGEL bei Google|bevorzugen|Hauptnavigation|IM FOKUS|Live-?TV|Neueste Videos|weiteren Angeboten|Schicken Sie uns|Dieser Artikel wurde)/i;
   sents = sents.filter(s => {
     const c = s.trim();
     if (c.length < 2) return false;
     if (NOISE_RE.test(c)) return false;
     if (/^stand\s*:/i.test(c)) return false;
     if (/^(bildquelle|foto|quelle)\s*:/i.test(c)) return false;
+    if (/\bBild:\s*\S+\s*\/\s*(?:DW|dpa|Reuters|AFP|AP|Getty|IMAGO|ddp|epd)\b/i.test(c)) return false;  // photo-caption sentence
+    if (/\b\d{1,2}:\d{2}\b(?!\s*Uhr)/.test(c)) return false;   // video-duration teaser ("… Award 02:10")
     return true;
   });
   while (sents.length && !/[.!?…]["»")\]]?\s*$/.test(sents[sents.length - 1]) && sents[sents.length - 1].length < 70) sents.pop();
