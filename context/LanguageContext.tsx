@@ -3,8 +3,12 @@
 /* UI language (de/en) for the app chrome. Persisted per device in localStorage.
    Learning content stays German — see lib/i18n.ts. */
 
-import React, { createContext, useContext, useEffect, useState, useCallback, ReactNode } from 'react';
+import React, { createContext, useContext, useEffect, useLayoutEffect, useState, useCallback, ReactNode } from 'react';
 import { Lang, translate } from '@/lib/i18n';
+
+/* Apply the saved language before the browser paints on the client (so German
+   users never see an English→German flash), with a server fallback. */
+const useIsoLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 interface LanguageValue {
   lang: Lang;
@@ -19,7 +23,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   // Default UI language is English; users can switch to German via the toggle.
   const [lang, setLangState] = useState<Lang>('en');
 
-  useEffect(() => {
+  useIsoLayoutEffect(() => {
     const saved = localStorage.getItem(LS) as Lang | null;
     if (saved === 'de' || saved === 'en') setLangState(saved);
   }, []);

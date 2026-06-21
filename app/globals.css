@@ -161,8 +161,9 @@ body {
 /* ── Smooth route transitions ──
    Each new page fades in over the solid app background (no superimposition of
    the previous page). Opacity-only so it can't break sticky/fixed elements. */
-.page-transition { animation: page-fade 0.22s ease both; will-change: opacity; }
-@keyframes page-fade { from { opacity: 0; } to { opacity: 1; } }
+/* Subtle settle — starts at 0.6 (never a blank flash) and resolves quickly. */
+.page-transition { animation: page-fade 0.16s ease-out both; }
+@keyframes page-fade { from { opacity: 0.6; } to { opacity: 1; } }
 
 /* Gentle entrance for blocks that appear after data loads (streak/XP stats,
    rank hero) so they slide up softly instead of popping in. */

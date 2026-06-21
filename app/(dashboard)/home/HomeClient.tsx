@@ -37,7 +37,7 @@ const colorMap: Record<string, string> = {
 };
 
 export function HomeClient() {
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const { t } = useT();
 
   return (
@@ -78,7 +78,7 @@ export function HomeClient() {
                 </div>
                 <div className="font-semibold text-sm mb-1">{t(labelKey)}</div>
                 <div className="text-xs opacity-75 leading-relaxed">{levelDesc[level]}</div>
-                {!user && <div className="mt-2 text-xs opacity-50">{t('common.signInRequired')}</div>}
+                {!user && !authLoading && <div className="mt-2 text-xs opacity-50">{t('common.signInRequired')}</div>}
               </Link>
             ))}
           </div>
@@ -99,7 +99,7 @@ export function HomeClient() {
                   {card.badge && (
                     <span className="ml-auto text-[10px] font-semibold bg-gray-100 text-gray-500 px-1.5 py-0.5 rounded-full">{card.badge}</span>
                   )}
-                  {card.protected && !user && <span className="ml-auto text-xs text-gray-300">🔒</span>}
+                  {card.protected && !user && !authLoading && <span className="ml-auto text-xs text-gray-300">🔒</span>}
                 </div>
                 <div className="font-semibold text-sm text-gray-800 group-hover:text-blue-700 transition-colors">{t(card.titleKey)}</div>
                 <div className="text-xs text-gray-400">{t(card.descKey)}</div>

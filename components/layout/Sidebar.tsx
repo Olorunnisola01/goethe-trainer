@@ -78,7 +78,7 @@ interface SidebarProps {
 }
 
 export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
-  const { user, signOut } = useAuth();
+  const { user, loading: authLoading, signOut } = useAuth();
   const { t } = useT();
   const pathname = usePathname();
 
@@ -154,7 +154,9 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
               {group.items.map(item => {
                 const active = pathname === item.href || (item.href !== '/home' && item.href !== '/' && pathname.startsWith(item.href));
-                const locked = item.protected && !user;
+                // Don't flash the 🔒 while auth is still resolving (avoids the
+                // logged-out → logged-in flicker for signed-in users).
+                const locked = item.protected && !user && !authLoading;
                 return (
                   <Link
                     key={item.href}
@@ -194,7 +196,17 @@ export function Sidebar({ onAuthRequired, open, onClose }: SidebarProps) {
 
       {/* User panel */}
       <div style={{ borderTop: '1px solid var(--border)', padding: 12 }}>
-        {user ? (
+        {!user && authLoading ? (
+          /* Neutral placeholder while Firebase auth resolves — prevents the
+             login-button → user-panel flash on every app open. */
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, opacity: .6 }}>
+            <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--bg3)', flexShrink: 0 }} />
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 5 }}>
+              <div style={{ height: 9, width: '70%', borderRadius: 4, background: 'var(--bg3)' }} />
+              <div style={{ height: 8, width: '90%', borderRadius: 4, background: 'var(--bg3)' }} />
+            </div>
+          </div>
+        ) : user ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--blue)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontWeight: 700, flexShrink: 0, overflow: 'hidden' }}>
               {user.photoURL
