@@ -494,7 +494,7 @@ export function VocabClient({ level }: Props) {
       {/* Existing German-only playlist (untouched) */}
       {!isReading ? (
         <button
-          style={{ background: '#fff', border: '1px solid var(--blue-bd)', color: 'var(--blue)', padding: '5px 12px', borderRadius: 7, fontSize: 12, fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 5, fontFamily: 'inherit', whiteSpace: 'nowrap' }}
+          style={{ background: 'var(--bg)', border: '1px solid var(--blue-bd)', color: 'var(--blue)', padding: '5px 12px', borderRadius: 7, fontSize: 12, fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 5, fontFamily: 'inherit', whiteSpace: 'nowrap' }}
           onClick={togglePlaylist} title="Alle Karten vorlesen (nur Deutsch)"
         >🔊 Read out loud</button>
       ) : (
@@ -515,7 +515,7 @@ export function VocabClient({ level }: Props) {
         <button
           onClick={() => startBilingualReading()}
           style={{
-            background: '#fff',
+            background: 'var(--bg)',
             border: '1px solid #16a34a',
             color: '#16a34a',
             padding: '5px 11px',
@@ -620,7 +620,7 @@ export function VocabClient({ level }: Props) {
       {slice.length > 0 && (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, padding: '20px 24px 28px', flexWrap: 'wrap', borderTop: '1px solid var(--border)' }}>
           <button onClick={() => goPage(-1)} disabled={safePage === 0}
-            style={{ background: '#fff', border: '1px solid var(--border)', color: safePage === 0 ? 'var(--border2)' : 'var(--ink2)', borderRadius: 8, padding: '8px 18px', cursor: safePage === 0 ? 'not-allowed' : 'pointer', fontFamily: 'inherit', fontSize: 15, fontWeight: 700, opacity: safePage === 0 ? 0.35 : 1 }}>←</button>
+            style={{ background: 'var(--bg)', border: '1px solid var(--border)', color: safePage === 0 ? 'var(--border2)' : 'var(--ink2)', borderRadius: 8, padding: '8px 18px', cursor: safePage === 0 ? 'not-allowed' : 'pointer', fontFamily: 'inherit', fontSize: 15, fontWeight: 700, opacity: safePage === 0 ? 0.35 : 1 }}>←</button>
 
           <span style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, textAlign: 'center', lineHeight: 1.4 }}>
             {safePage + 1} / {totalPages}<br />
@@ -628,7 +628,7 @@ export function VocabClient({ level }: Props) {
           </span>
 
           <button onClick={() => goPage(1)} disabled={safePage >= totalPages - 1}
-            style={{ background: '#fff', border: '1px solid var(--border)', color: safePage >= totalPages - 1 ? 'var(--border2)' : 'var(--ink2)', borderRadius: 8, padding: '8px 18px', cursor: safePage >= totalPages - 1 ? 'not-allowed' : 'pointer', fontFamily: 'inherit', fontSize: 15, fontWeight: 700, opacity: safePage >= totalPages - 1 ? 0.35 : 1 }}>→</button>
+            style={{ background: 'var(--bg)', border: '1px solid var(--border)', color: safePage >= totalPages - 1 ? 'var(--border2)' : 'var(--ink2)', borderRadius: 8, padding: '8px 18px', cursor: safePage >= totalPages - 1 ? 'not-allowed' : 'pointer', fontFamily: 'inherit', fontSize: 15, fontWeight: 700, opacity: safePage >= totalPages - 1 ? 0.35 : 1 }}>→</button>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginLeft: isMobile ? 0 : 8 }}>
             <span style={{ fontSize: 11.5, color: 'var(--muted)' }}>Seite</span>

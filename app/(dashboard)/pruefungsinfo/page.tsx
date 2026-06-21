@@ -659,7 +659,7 @@ function ExamSection({ exam }: { exam: typeof EXAMS[0] }) {
             style={{
               padding: '10px 18px', border: 'none', cursor: 'pointer', fontFamily: 'inherit',
               fontSize: 12.5, fontWeight: activeTab === i ? 700 : 500,
-              background: activeTab === i ? '#fff' : 'transparent',
+              background: activeTab === i ? 'var(--bg)' : 'transparent',
               color: activeTab === i ? exam.color : 'var(--muted)',
               borderBottom: activeTab === i ? `2px solid ${exam.color}` : '2px solid transparent',
               transition: 'all .15s', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: 5,
@@ -673,7 +673,7 @@ function ExamSection({ exam }: { exam: typeof EXAMS[0] }) {
       </div>
 
       {/* Part content */}
-      <div style={{ padding: '18px 20px', background: '#fff' }}>
+      <div style={{ padding: '18px 20px', background: 'var(--bg)' }}>
         {/* Part overview */}
         <div style={{ marginBottom: 14 }}>
           <p style={{ fontSize: 13, color: 'var(--muted)', lineHeight: 1.7, margin: '0 0 10px' }}>{part.desc}</p>

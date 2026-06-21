@@ -181,7 +181,7 @@ function WordTip({ tip, onClose, onSpeak }: { tip: WordTipState; onClose: () => 
       <div
         style={{
           position: 'fixed', left: cur.left, top: cur.top, width: W,
-          background: '#fff',
+          background: 'var(--bg)',
           border: '1.5px solid #c7d2fe',
           borderRadius: 14,
           boxShadow: dragging

@@ -659,7 +659,7 @@ export function SatzstellungClient() {
                             style={{
                               width: 26, height: 26, borderRadius: '50%',
                               display: 'flex', alignItems: 'center', justifyContent: 'center',
-                              border: '1px solid var(--blue-bd)', background: '#fff', color: 'var(--blue)',
+                              border: '1px solid var(--blue-bd)', background: 'var(--bg)', color: 'var(--blue)',
                               cursor: 'pointer', fontSize: 13, flexShrink: 0,
                               transition: 'all .15s',
                             }}

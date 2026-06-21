@@ -216,7 +216,7 @@ export function PronunciationPanel({ open, onClose }: PronunciationPanelProps) {
       style={{
         position: 'fixed', left: pos.x, top: pos.y, width: size.w, height: size.h,
         boxSizing: 'border-box', zIndex: 600, borderRadius: 16, overflow: 'hidden',
-        border: '1px solid var(--border)', background: '#fff',
+        border: '1px solid var(--border)', background: 'var(--bg)',
         boxShadow: '0 14px 44px rgba(0,0,0,.28)', display: 'flex', flexDirection: 'column',
       }}
       role="dialog" aria-label="Aussprache und Übersetzung"

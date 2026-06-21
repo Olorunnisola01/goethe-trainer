@@ -90,6 +90,27 @@ html[data-theme="dark"] .gram-content,
 html[data-theme="dark"] .gch { background: var(--bg); }
 html[data-theme="dark"] .speak-btn { background: var(--bg2); }
 
+/* Tailwind utility classes use fixed light colours that ignore our CSS tokens.
+   Remap the common light ones in dark mode so Tailwind-built screens (Karteikarten,
+   sign-in modal, Home cards, Favoriten…) are genuinely dark too. Coloured pastel
+   utilities (bg-blue-50, bg-green-50…) are intentionally left as-is. */
+html[data-theme="dark"] .bg-white       { background-color: var(--bg) !important; }
+html[data-theme="dark"] .bg-gray-50      { background-color: var(--bg2) !important; }
+html[data-theme="dark"] .bg-gray-100     { background-color: var(--bg3) !important; }
+html[data-theme="dark"] .bg-gray-200     { background-color: var(--bg3) !important; }
+html[data-theme="dark"] .text-gray-900   { color: var(--ink)  !important; }
+html[data-theme="dark"] .text-gray-800   { color: var(--ink)  !important; }
+html[data-theme="dark"] .text-gray-700   { color: var(--ink2) !important; }
+html[data-theme="dark"] .text-gray-600   { color: var(--ink2) !important; }
+html[data-theme="dark"] .text-gray-500   { color: var(--muted) !important; }
+html[data-theme="dark"] .text-gray-400   { color: var(--muted) !important; }
+html[data-theme="dark"] .text-gray-300   { color: var(--muted) !important; }
+html[data-theme="dark"] .border-gray-100 { border-color: var(--border) !important; }
+html[data-theme="dark"] .border-gray-200 { border-color: var(--border) !important; }
+html[data-theme="dark"] .border-gray-300 { border-color: var(--border2) !important; }
+html[data-theme="dark"] .bg-gray-50:hover,
+html[data-theme="dark"] .hover\:bg-gray-50:hover { background-color: var(--bg3) !important; }
+
 /* ─── Font scale — zoom the dashboard content (works with px-based styles) ─── */
 .dashboard-main { zoom: var(--font-zoom, 1); }
 html[data-font="sm"] { --font-zoom: 0.92; }
@@ -202,7 +223,7 @@ body {
   width: 36px; height: 36px; min-width: 36px; min-height: 36px; aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden; line-height: 1; flex-shrink: 0;
-  border: 1px solid var(--blue-bd); background: #fff; color: var(--blue);
+  border: 1px solid var(--blue-bd); background: var(--bg); color: var(--blue);
   display: inline-flex; align-items: center; justify-content: center;
   cursor: pointer; font-size: 17px; box-shadow: var(--sh);
   transition: all .15s; padding: 0;
@@ -300,10 +321,10 @@ body {
 .rph-de { font-size: 13px; font-weight: 500; color: var(--ink); line-height: 1.4; font-family: var(--font-lora, 'Lora'), serif; display: flex; align-items: flex-start; gap: 8px; }
 .rph-de:hover .rph-de-text { font-weight: 700; }
 .rph-en { font-size: 11.5px; color: var(--muted); line-height: 1.4; font-style: italic; }
-.rph-speak { width: 26px; height: 26px; min-width: 26px; min-height: 26px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 11px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; margin-top: 1px; overflow: hidden; }
+.rph-speak { width: 26px; height: 26px; min-width: 26px; min-height: 26px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: var(--bg); color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 11px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; margin-top: 1px; overflow: hidden; }
 .rph-speak:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 .rph-speak.speaking { background: var(--green); border-color: var(--green); color: #fff; animation: pulse-ring .9s ease-in-out infinite; }
-.rch-read { width: 28px; height: 28px; min-width: 28px; min-height: 28px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 10px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; font-weight: 700; overflow: hidden; }
+.rch-read { width: 28px; height: 28px; min-width: 28px; min-height: 28px; aspect-ratio: 1 / 1; border-radius: 50%; border: 1px solid var(--blue-bd); background: var(--bg); color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 10px; flex-shrink: 0; padding: 0; line-height: 1; transition: all .15s; font-weight: 700; overflow: hidden; }
 .rcard.open .rch-read { border-color: rgba(255,255,255,.55); background: rgba(255,255,255,.18); color: #fff; }
 .rch-read:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 .rch-read.playing { background: var(--green); border-color: var(--green); color: #fff; animation: pulse-ring .9s ease-in-out infinite; }
@@ -390,7 +411,7 @@ body {
 .ub-section { margin-bottom: 20px; }
 .ub-section-h { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 8px; }
 .ub-btn-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
-.ub-mic { width: 74px; height: 74px; border-radius: 50%; border: 3px solid var(--blue-bd); background: #fff; color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 30px; transition: all .2s; box-shadow: var(--sh-md); }
+.ub-mic { width: 74px; height: 74px; border-radius: 50%; border: 3px solid var(--blue-bd); background: var(--bg); color: var(--blue); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 30px; transition: all .2s; box-shadow: var(--sh-md); }
 .ub-mic:hover { border-color: var(--blue); background: var(--blue-bg); }
 .ub-mic.recording { background: var(--red-bg); border-color: var(--red); color: var(--red); animation: micPulse 1.2s ease-in-out infinite; }
 @keyframes micPulse { 0%,100%{ box-shadow: 0 0 0 0 rgba(220,38,38,.5); } 50%{ box-shadow: 0 0 0 14px rgba(220,38,38,0); } }

@@ -436,7 +436,7 @@ export function QuizClient() {
                         background: adaptive ? 'var(--blue)' : 'var(--bg3)', transition: 'background .15s',
                       }}
                     >
-                      <span style={{ position: 'absolute', top: 3, left: adaptive ? 23 : 3, width: 20, height: 20, borderRadius: '50%', background: '#fff', transition: 'left .15s', boxShadow: '0 1px 3px rgba(0,0,0,.3)' }} />
+                      <span style={{ position: 'absolute', top: 3, left: adaptive ? 23 : 3, width: 20, height: 20, borderRadius: '50%', background: 'var(--bg)', transition: 'left .15s', boxShadow: '0 1px 3px rgba(0,0,0,.3)' }} />
                     </button>
                   </div>
                 )}
