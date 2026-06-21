@@ -71,7 +71,7 @@ export function FortschrittClient() {
       <div className="flex-1 p-7" style={{ maxWidth: 880 }}>
 
         {/* Rank hero */}
-        <div className="mb-7 p-6 rounded-2xl text-white" style={{ background: 'linear-gradient(135deg, #1d4ed8, #4c1d95)' }}>
+        <div className="smooth-in mb-7 p-6 rounded-2xl text-white" style={{ background: 'linear-gradient(135deg, #1d4ed8, #4c1d95)' }}>
           <div className="flex items-center gap-5">
             <div style={{ fontSize: 52, lineHeight: 1, flexShrink: 0 }}>{rank.icon}</div>
             <div style={{ flex: 1, minWidth: 0 }}>
