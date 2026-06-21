@@ -111,11 +111,11 @@ html[data-theme="dark"] .border-gray-300 { border-color: var(--border2) !importa
 html[data-theme="dark"] .bg-gray-50:hover,
 html[data-theme="dark"] .hover\:bg-gray-50:hover { background-color: var(--bg3) !important; }
 
-/* ─── Font scale — zoom the dashboard content (works with px-based styles) ─── */
-.dashboard-main { zoom: var(--font-zoom, 1); }
-html[data-font="sm"] { --font-zoom: 0.92; }
-html[data-font="md"] { --font-zoom: 1; }
-html[data-font="lg"] { --font-zoom: 1.14; }
+/* ─── Font scale — zoom the dashboard content (works with px-based styles).
+   Only applied for sm/lg; the default (md) uses NO zoom so the WebView keeps
+   its fast paint path and page changes feel smoother. ─── */
+html[data-font="sm"] .dashboard-main { zoom: 0.92; }
+html[data-font="lg"] .dashboard-main { zoom: 1.14; }
 
 /* ── Reading highlight — adapts to colour scheme ── */
 :root { --reading-highlight: #fef08a; }

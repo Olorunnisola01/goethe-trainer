@@ -7,6 +7,7 @@ import { AiTutor } from '@/components/ai/AiTutor';
 import { OnboardingModal } from '@/components/gamification/OnboardingModal';
 import { GlobalSearch } from '@/components/layout/GlobalSearch';
 import { PageTransition } from '@/components/layout/PageTransition';
+import { RoutePrefetcher } from '@/components/layout/RoutePrefetcher';
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const [authOpen, setAuthOpen]       = useState(false);
@@ -66,6 +67,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <AiTutor />
       <OnboardingModal />
       <GlobalSearch />
+      <RoutePrefetcher />
     </div>
   );
 }

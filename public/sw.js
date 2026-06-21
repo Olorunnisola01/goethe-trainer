@@ -11,7 +11,7 @@
        handled by the browser as usual.
    ────────────────────────────────────────────────────────────────────────── */
 
-const VERSION = 'dlsw-v8';
+const VERSION = 'dlsw-v9';
 const RUNTIME = VERSION + '-runtime';
 const PRECACHE_URLS = ['/offline.html', '/data/vocab.json'];
 
