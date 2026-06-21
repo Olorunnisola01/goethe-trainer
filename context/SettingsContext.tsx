@@ -10,7 +10,7 @@
 
 import React, { createContext, useContext, useEffect, useState, useCallback, ReactNode } from 'react';
 
-export type Theme = 'light' | 'dark' | 'system';
+export type Theme = 'light' | 'dark';   // white default, with a true dark mode
 export type FontScale = 'sm' | 'md' | 'lg';
 
 interface SettingsValue {
@@ -25,38 +25,39 @@ const Ctx = createContext<SettingsValue | null>(null);
 const LS_THEME = 'dl_theme';
 const LS_FONT = 'dl_font';
 
-/* Dark theme has been retired — the app is always light. We keep the Theme API
-   so existing callers compile, but every code path resolves to 'light'. */
-function apply(_theme: Theme, font: FontScale) {
+function apply(theme: Theme, font: FontScale) {
   if (typeof document === 'undefined') return;
-  document.documentElement.setAttribute('data-theme', 'light');
+  document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'dark' : 'light');
   document.documentElement.setAttribute('data-font', font);
 }
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
-  const theme: Theme = 'light';
+  const [theme, setThemeState] = useState<Theme>('light');   // default = white theme
   const [fontScale, setFontState] = useState<FontScale>('md');
-  const resolvedTheme = 'light' as const;
 
   useEffect(() => {
+    const saved = localStorage.getItem(LS_THEME);
+    const th: Theme = saved === 'dark' ? 'dark' : 'light';   // anything but explicit "dark" → light
     const f = (localStorage.getItem(LS_FONT) as FontScale) || 'md';
-    setFontState(f);
-    apply('light', f);
-    // Clear any previously-saved dark/system preference.
-    try { localStorage.setItem(LS_THEME, 'light'); } catch { /* ignore */ }
+    setThemeState(th); setFontState(f);
+    apply(th, f);
   }, []);
 
-  // Theme is fixed to light; setTheme is a no-op kept for API compatibility.
-  const setTheme = useCallback((_t: Theme) => { apply('light', (localStorage.getItem(LS_FONT) as FontScale) || 'md'); }, []);
+  const setTheme = useCallback((t: Theme) => {
+    const th: Theme = t === 'dark' ? 'dark' : 'light';
+    setThemeState(th);
+    try { localStorage.setItem(LS_THEME, th); } catch { /* ignore */ }
+    apply(th, (localStorage.getItem(LS_FONT) as FontScale) || 'md');
+  }, []);
 
   const setFontScale = useCallback((f: FontScale) => {
     setFontState(f);
     localStorage.setItem(LS_FONT, f);
-    apply('light', f);
-  }, []);
+    apply(theme, f);
+  }, [theme]);
 
   return (
-    <Ctx.Provider value={{ theme, fontScale, resolvedTheme, setTheme, setFontScale }}>
+    <Ctx.Provider value={{ theme, fontScale, resolvedTheme: theme, setTheme, setFontScale }}>
       {children}
     </Ctx.Provider>
   );

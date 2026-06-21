@@ -17,7 +17,7 @@ export function Topbar({ title, children }: TopbarProps) {
         position: 'sticky',
         top: 0,
         zIndex: 40,
-        background: 'rgba(255,255,255,.96)',
+        background: 'var(--topbar-bg)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         borderBottom: '1px solid var(--border)',

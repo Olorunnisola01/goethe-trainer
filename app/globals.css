@@ -35,6 +35,7 @@
   --b2: #b45309;
   --b2-bg: #fffbeb;
   --b2-bd: #fde68a;
+  --topbar-bg: rgba(255,255,255,.96);
   --r: 10px;
   --sh: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
   --sh-md: 0 4px 16px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04);
@@ -76,10 +77,18 @@ html[data-theme="dark"] {
   --sh: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
   --sh-md: 0 4px 16px rgba(0,0,0,.5), 0 2px 4px rgba(0,0,0,.3);
   --sh-lg: 0 20px 48px rgba(0,0,0,.6), 0 8px 16px rgba(0,0,0,.4);
+  --topbar-bg: rgba(18,20,25,.94);
+  color-scheme: dark;
 }
-/* Tame pure-white inline backgrounds inside dark mode where feasible */
+/* Dark chrome — the header/sidebar/body must all be genuinely dark. */
 html[data-theme="dark"] body { background: var(--bg); }
 html[data-theme="dark"] img { filter: brightness(.92); }
+html[data-theme="dark"] .mobile-topbar { background: rgba(18,20,25,.97); }
+/* Catch the most common hard-coded white surfaces so dark mode isn't patchy. */
+html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .gram-content,
+html[data-theme="dark"] .gch { background: var(--bg); }
+html[data-theme="dark"] .speak-btn { background: var(--bg2); }
 
 /* ─── Font scale — zoom the dashboard content (works with px-based styles) ─── */
 .dashboard-main { zoom: var(--font-zoom, 1); }
@@ -91,14 +100,23 @@ html[data-font="lg"] { --font-zoom: 1.14; }
 :root { --reading-highlight: #fef08a; }
 html[data-theme="dark"] { --reading-highlight: rgba(234, 179, 8, 0.4); }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  /* Paint the html background with the theme colour so route changes never
+     flash white between page unmount/mount (fixes the APK "blink"). */
+  background: var(--bg);
+}
 body {
   font-family: var(--font-jakarta, 'Plus Jakarta Sans'), sans-serif;
   background: var(--bg);
   color: var(--ink);
   line-height: 1.6;
   font-size: 15px;
+  overscroll-behavior-y: none;        /* no rubber-band white reveal */
+  -webkit-tap-highlight-color: transparent;
 }
+/* Keep navigation repaints clean — no grey tap flashes on links/buttons. */
+* { -webkit-tap-highlight-color: transparent; }
 
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg2); }

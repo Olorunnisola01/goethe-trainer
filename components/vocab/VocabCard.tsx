@@ -40,7 +40,7 @@ function speak(text: string, _lang: string) {
 }
 
 export function VocabCard({ entry, onAddFavourite, onRemoveFavourite, isFavourite, isActive, readingPhase, readingLang }: VocabCardProps) {
-  const [showEx, setShowEx] = useState(false);
+  const [showEx, setShowEx] = useState(true);   // example shown by default (toggle to hide)
   const [speaking, setSpeaking] = useState(false);
 
   // Auto-expand example while the playlist is reading this card,
