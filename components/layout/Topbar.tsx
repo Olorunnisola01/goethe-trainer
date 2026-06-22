@@ -18,8 +18,6 @@ export function Topbar({ title, children }: TopbarProps) {
         top: 0,
         zIndex: 40,
         background: 'var(--topbar-bg)',
-        backdropFilter: 'blur(12px)',
-        WebkitBackdropFilter: 'blur(12px)',
         borderBottom: '1px solid var(--border)',
         padding: '10px 32px',
         display: 'flex',

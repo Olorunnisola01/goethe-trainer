@@ -92,7 +92,7 @@ export function GlobalSearch() {
   const go = (href: string) => { close(); router.push(href); };
 
   return (
-    <div onClick={close} style={{ position: 'fixed', inset: 0, zIndex: 680, background: 'rgba(0,0,0,.45)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', padding: '12vh 16px 16px' }}>
+    <div onClick={close} style={{ position: 'fixed', inset: 0, zIndex: 680, background: 'rgba(0,0,0,.5)', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', padding: '12vh 16px 16px' }}>
       <div onClick={e => e.stopPropagation()} style={{ width: '100%', maxWidth: 560, background: 'var(--bg)', borderRadius: 16, border: '1px solid var(--border)', boxShadow: 'var(--sh-lg)', overflow: 'hidden' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '14px 18px', borderBottom: '1px solid var(--border)' }}>
           <span style={{ fontSize: 18, opacity: .6 }}>🔍</span>

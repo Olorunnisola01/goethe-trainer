@@ -32,7 +32,7 @@ export function OnboardingModal() {
   const finish = () => completeOnboarding(cefr, interests, goal);
 
   return (
-    <div style={{ position: 'fixed', inset: 0, zIndex: 650, background: 'rgba(0,0,0,.5)', backdropFilter: 'blur(4px)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16 }}>
+    <div style={{ position: 'fixed', inset: 0, zIndex: 650, background: 'rgba(0,0,0,.55)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16 }}>
       <div style={{ width: '100%', maxWidth: 460, background: 'var(--bg)', borderRadius: 20, overflow: 'hidden', boxShadow: 'var(--sh-lg)', border: '1px solid var(--border)' }}>
         <div style={{ padding: '20px 24px', background: 'linear-gradient(135deg, #1d4ed8, #4c1d95)', color: '#fff' }}>
           <div style={{ fontSize: 26 }}>🇩🇪</div>

@@ -50,7 +50,7 @@ export function AuthModal({ open, onClose, redirectMessage }: AuthModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[600] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
+      className="fixed inset-0 z-[600] flex items-center justify-center bg-black/50 p-4"
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
       <div className="w-full max-w-sm bg-white rounded-2xl shadow-2xl overflow-hidden animate-fade-in">
