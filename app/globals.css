@@ -158,21 +158,11 @@ body {
 .animate-slide-up { animation: slide-up 0.20s ease both; }
 .animate-spin { animation: spin 0.9s linear infinite; }
 
-/* ── Smooth route transitions ──
-   Each new page fades in over the solid app background (no superimposition of
-   the previous page). Opacity-only so it can't break sticky/fixed elements. */
-/* Subtle settle — starts at 0.6 (never a blank flash) and resolves quickly. */
-.page-transition { animation: page-fade 0.16s ease-out both; }
-@keyframes page-fade { from { opacity: 0.6; } to { opacity: 1; } }
-
-/* Gentle entrance for blocks that appear after data loads (streak/XP stats,
-   rank hero) so they slide up softly instead of popping in. */
-.smooth-in, .stat-strip { animation: smooth-in 0.40s cubic-bezier(.2,.7,.3,1) both; }
-@keyframes smooth-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-
-@media (prefers-reduced-motion: reduce) {
-  .page-transition, .smooth-in, .stat-strip { animation: none; }
-}
+/* Route/entrance animations intentionally removed.
+   A per-navigation opacity fade (and the stat slide-in) read as a "flicker" on
+   every page load / re-render on both desktop and the APK. Pages now render
+   statically — opaque backgrounds, pre-paint layout sizing and route prefetch
+   keep route swaps clean WITHOUT any motion. These classes are now no-ops. */
 
 /* Focus ring */
 *:focus-visible { outline: 2px solid var(--blue-bd); outline-offset: 2px; }
