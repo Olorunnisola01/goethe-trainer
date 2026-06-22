@@ -6,7 +6,6 @@ import { AuthModal } from '@/components/auth/AuthModal';
 import { AiTutor } from '@/components/ai/AiTutor';
 import { OnboardingModal } from '@/components/gamification/OnboardingModal';
 import { GlobalSearch } from '@/components/layout/GlobalSearch';
-import { PageTransition } from '@/components/layout/PageTransition';
 import { RoutePrefetcher } from '@/components/layout/RoutePrefetcher';
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -60,7 +59,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       />
 
       <main className="dashboard-main flex-1 flex flex-col min-h-screen" style={{ minWidth: 0 }}>
-        <PageTransition>{children}</PageTransition>
+        {children}
       </main>
 
       <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
