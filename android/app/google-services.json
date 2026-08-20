@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "659817012852-0uq4ulktk9ainp4htkb5ifvdrfohsm2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goethetrainer.app",
+            "certificate_hash": "4c0d5f23f9dd27b5fcafebb7bc658b603e7a6c3f"
+          }
+        },
+        {
+          "client_id": "659817012852-o94lk53gagju80mmanlhoa4jqnvg01d4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goethetrainer.app",
+            "certificate_hash": "d38529730875d99e20aeb906ff59e4b831b35d16"
+          }
+        },
+        {
           "client_id": "659817012852-v47n3df59duf16l9bfts49029vcf1fbq.apps.googleusercontent.com",
           "client_type": 3
         }
