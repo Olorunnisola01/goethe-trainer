@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'Goethe Trainer',
   webDir: 'out',
   server: {
-    url: 'https://personal-german-trainer.web.app',
+    url: 'https://sola-german-trainer.web.app',
     androidScheme: 'https',
   },
   android: {

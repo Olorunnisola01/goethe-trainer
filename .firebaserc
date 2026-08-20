@@ -5,8 +5,8 @@
   "targets": {
     "personal-german-trainer": {
       "hosting": {
-        "personal-german-trainer": [
-          "personal-german-trainer"
+        "sola-german-trainer": [
+          "sola-german-trainer"
         ]
       }
     }
