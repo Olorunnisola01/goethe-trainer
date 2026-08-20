@@ -5,8 +5,8 @@
   "targets": {
     "personal-german-trainer": {
       "hosting": {
-        "teach-me-german-app": [
-          "teach-me-german-app"
+        "personal-german-trainer": [
+          "personal-german-trainer"
         ]
       }
     }

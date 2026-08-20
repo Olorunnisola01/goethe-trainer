@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'android/**'
+      - 'capacitor.config.ts'
       - '.github/workflows/build-apk.yml'
   workflow_dispatch:
 
